@@ -15,6 +15,23 @@ MAP_PIECE = 220_000
 
 # ASR reliably mangles names. Left alone, the model faithfully repeats the
 # mis-hearing ("Pavel Caculin" for Tsatsouline), which then looks like a fact.
+# The transcript arrives as "[HH:MM:SS] text" lines, so the model can say when
+# something came up. Post-processing turns the markers into links into the video.
+TIMESTAMPS = """\
+Each transcript line is prefixed with the time it was spoken, as [HH:MM:SS].
+
+Every bullet under "Key points" must end with the timestamp where that point is
+discussed, copied verbatim in [HH:MM:SS] form -- the moment the point is
+actually made, not where the topic is merely mentioned in passing. If a point is
+developed across separate stretches of the video, give the two or three most
+useful timestamps rather than a range. Bullets under "Details worth keeping"
+should carry a timestamp too wherever one applies.
+
+Do not put timestamps in the TL;DR or in "Skip it if". Never write a timestamp
+that does not appear in the transcript, and never adjust one to look tidier.
+If the transcript carries no timestamps, omit them everywhere.
+"""
+
 NAME_REPAIR = """\
 Speech recognition mangles proper nouns worst of all: people, brands, products,
 places, and field-specific jargon. Before you write, work out who and what is
@@ -60,7 +77,7 @@ One or two lines on who would get nothing from this video.
 
 Do not pad. If the transcript is thin, say so plainly and keep it short.
 
-""" + NAME_REPAIR
+""" + NAME_REPAIR + TIMESTAMPS
 
 QUESTION_TASK = """\
 You are reading the transcript of a video. It came from automatic speech
@@ -77,6 +94,10 @@ transcript only partly covers the question, answer the part it covers and say
 plainly what it does not address. If it does not address the question at all,
 say so instead of guessing.
 
+Transcript lines are prefixed with [HH:MM:SS]. Cite the timestamp for each
+claim you make, copied verbatim, so the viewer can jump straight to it. Never
+write a timestamp that is not in the transcript.
+
 """ + NAME_REPAIR
 
 REDUCE_TASK = """\
@@ -90,7 +111,8 @@ this structure:
 ## Skip it if
 
 Remove repetition across the parts, keep specifics (numbers, names, tools),
-and order key points by importance rather than by when they appeared.
+and order key points by importance rather than by when they appeared. Preserve
+the [HH:MM:SS] timestamps exactly as the notes give them.
 
 """ + NAME_REPAIR
 
@@ -129,6 +151,29 @@ def _language_clause(code: str | None) -> str:
     )
 
 
+# Asking for name repair inline, among a dozen other demands, is unreliable:
+# it worked before timestamps were added to the prompt and stopped afterwards.
+# A short second pass over the finished summary has one job and does it.
+NAME_PASS = """\
+The text below is a summary written from an automatic speech recognition
+transcript, so its proper nouns may be phonetic mis-hearings: people, brands,
+products, places, technical terms.
+
+Return the text with mis-heard proper nouns corrected to their real, standard
+international spelling -- including when the text is written in another
+language, where a phonetic rendering can look deceptively legitimate. Use the
+surrounding context to identify who or what is meant: someone described as the
+author of a named book is the author of that book, however the name is spelled.
+
+Change nothing else. Preserve every heading, bullet, timestamp, link, number
+and turn of phrase exactly as given, in the same language. Do not add, remove
+or reword anything. If a name is genuinely ambiguous, leave it as it is. If
+nothing needs correcting, return the text unchanged.
+
+Output only the resulting text, with no preamble or commentary.
+"""
+
+
 class SummarizerError(RuntimeError):
     pass
 
@@ -163,8 +208,21 @@ class ClaudeSummarizer:
             raise SummarizerError("claude returned nothing")
         return out
 
+    def _repair_names(self, text: str, progress) -> str:
+        """Second pass dedicated to fixing mis-heard proper nouns."""
+        try:
+            fixed = self._ask(NAME_PASS, text)
+        except SummarizerError:
+            return text                       # a failed polish must not lose the summary
+        # A pass that mangles the structure is worse than one that does nothing.
+        if not 0.5 < len(fixed) / max(len(text), 1) < 1.5:
+            progress("name-repair pass returned something unexpected; keeping original")
+            return text
+        return fixed
+
     def run(self, transcript: str, question: str | None = None,
-            progress=lambda _m: None, language: str | None = None) -> str:
+            progress=lambda _m: None, language: str | None = None,
+            repair_names: bool = True) -> str:
         # Summaries follow the video's language; a question is answered in
         # whatever language it was asked in, which Claude handles on its own.
         task = (
@@ -172,7 +230,11 @@ class ClaudeSummarizer:
             else SUMMARY_TASK + _language_clause(language)
         )
         if len(transcript) <= MAP_THRESHOLD:
-            return self._ask(task, transcript)
+            out = self._ask(task, transcript)
+            if repair_names:
+                progress("checking proper nouns")
+                out = self._repair_names(out, progress)
+            return out
 
         parts = _split_text(transcript, MAP_PIECE)
         progress(f"transcript is long; summarising in {len(parts)} passes")
@@ -185,17 +247,22 @@ class ClaudeSummarizer:
             joined = "\n\n---\n\n".join(
                 f"### Notes from part {i}\n{n}" for i, n in enumerate(notes, 1)
             )
-            return self._ask(
+            out = self._ask(
                 QUESTION_TASK.format(question=question)
                 + "\nThe text below is partial answers from consecutive parts of the "
                   "transcript. Reconcile them into one answer, dropping repetition.",
                 joined,
             )
+            return self._repair_names(out, progress) if repair_names else out
         progress("merging passes")
-        return self._ask(
+        out = self._ask(
             REDUCE_TASK + _language_clause(language),
             "\n\n---\n\n".join(f"### Part {i}\n{n}" for i, n in enumerate(notes, 1)),
         )
+        if repair_names:
+            progress("checking proper nouns")
+            out = self._repair_names(out, progress)
+        return out
 
 
 def _split_text(text: str, size: int) -> list[str]:

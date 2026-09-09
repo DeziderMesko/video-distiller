@@ -50,10 +50,22 @@ class Entry:
     def meta_json(self) -> Path:
         return self.dir / "meta.json"
 
-    def read_transcript(self) -> str:
+    @property
+    def transcript_timed(self) -> Path:
+        return self.dir / "transcript.timed.txt"
+
+    def read_transcript(self, timed: bool = False) -> str:
+        """The transcript text. `timed` prefers the [HH:MM:SS] segment form,
+        which is what lets a summary say when something was discussed."""
+        if timed and self.transcript_timed.exists():
+            return self.transcript_timed.read_text(encoding="utf-8")
         if not self.transcript_txt.exists():
             raise FileNotFoundError(f"no transcript at {self.transcript_txt}")
         return self.transcript_txt.read_text(encoding="utf-8")
+
+    @property
+    def has_timestamps(self) -> bool:
+        return self.transcript_timed.exists()
 
 
 def entry_dir(info: VideoInfo, root: Path = DATA_DIR) -> Path:
@@ -140,7 +152,8 @@ def save_output(entry: Entry, text: str, question: str | None) -> Path:
             f"Video: {entry.info.title}\nSource: {entry.info.url}\n"
             f"Asked: {_now()}\n\n---\n\n"
         )
-    path.write_text(head + text.strip() + "\n", encoding="utf-8")
+    body = link_timestamps(text.strip(), entry.info.url)
+    path.write_text(head + body + "\n", encoding="utf-8")
     return path
 
 
@@ -181,6 +194,24 @@ def _append_index(meta: dict, root: Path) -> None:
     root.mkdir(parents=True, exist_ok=True)
     with (root / INDEX).open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(meta, ensure_ascii=False) + "\n")
+
+
+_STAMP_RE = re.compile(r"\[(\d{1,2}):([0-5]\d):([0-5]\d)\]")
+
+
+def link_timestamps(text: str, url: str) -> str:
+    """Turn [HH:MM:SS] markers into links that jump into the video."""
+    if not url or not any(h in url for h in ("youtube.com", "youtu.be")):
+        return text
+    joiner = "&" if "?" in url else "?"
+
+    def replace(match: re.Match) -> str:
+        h, m, sec = (int(g) for g in match.groups())
+        total = h * 3600 + m * 60 + sec
+        label = f"{h}:{m:02d}:{sec:02d}" if h else f"{m}:{sec:02d}"
+        return f"[{label}]({url}{joiner}t={total}s)"
+
+    return _STAMP_RE.sub(replace, text)
 
 
 def _slugify(text: str, limit: int = 60) -> str:

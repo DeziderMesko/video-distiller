@@ -110,8 +110,9 @@ def answer(entry: Entry, question: str | None, model: str = "",
     else:
         name = language_name(lang)
         progress(f"summarising in {name}" if name else "summarising")
+    # The timed form is what lets the summary point at where things were said.
     text = get_summarizer(model).run(
-        entry.read_transcript(), question, progress=progress, language=lang
+        entry.read_transcript(timed=True), question, progress=progress, language=lang
     )
     path = store.save_output(entry, text, question)
     progress(f"saved to {path}")

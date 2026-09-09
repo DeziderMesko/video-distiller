@@ -1,0 +1,2581 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=fzRuz_LFTNs",
+  "video_id": "fzRuz_LFTNs",
+  "title": "LDO Miley V2.0 (full production kit) Ep2 #millenniummachines #opensource #cnc",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-09T21:36:56+00:00",
+  "text": "Right. How are we doing, folks? Happy Sunday to everyone. Hope everyone's doing good before we get Too far ahead of ourselves. We need to go there. We need to go there. And we need to show you what's happening down here on the floor. Because we've got a very squishy boy who is very who's been waiting very, very patiently for the beginning of stream to say hello to everyone. Hey, universe. Hey, Ollie. How are we doing, guys? Right, let's go back to that one. So, today we are going to be Jesus Christy Music Loud. Give me a second to adjust the music. Keep it high for you guys and then just lower it down to me today. We're going to be finishing off the Z-axis. Sorry, not finishing off Z axis. We're going to continue where we left off from the Z-axis, which is going to do the Y-axis. Hey, Raj, how are you doing? Working tomorrow. Working tomorrow question mark. Am I working tomorrow? Yes. Sorry, no, I'm off tomorrow. Good, how about we? I'm not too bad. It's hot as hell in here. So if you hear an extra buzzing, it's just because I've had to literally set up a fan because earlier today it was 30 degrees in the workshop. So other than that, let's get going. Let's get going with this. I don't want to waste too much time today. I hope everyone's had a good Sunday so far. All this crap off my bench. Alright, so you guys want to see the manual. Alright, so we're doing Y-axis today. I have a mouse for this. So first thing we'll need is we'll need to do magnets and then the bearing block. So bearing block, bearing block, bearing block, which means I'll need some 60808. Where are you, 608? Where art thou 608? Hello? Where are they gone? Okay, I've got those bearings, but I'm missing my 608. Where did I put them? Hmm 608. Where are you? Oh my god, it's silly hot in the UK right now. Yeah. Yeah, it is quite hot. Oh, because I'm starting early. Oh, well, it's a Sunday. I feel like on a Sunday, if I start too late for the American crowd, the British crowd won't be able to watch as well because they've got work the next day. Well, at least most of them do. 608, I found them. I found them. Alright, so we need one 608 in here. I try and vary my streams between 8 and 9 o'clock starts just to get as many people from both sides of the pond watching as possible. We're going to need to do some heat inserts. So let's go over to the desk. Alright, iron on. Yeah, it's bloody hot in the UK right now. It's hotter here. It's hotter in the UK right now where I am than it is back home in Kenya. And that's that's saying something. Don't forget, because this is polycarbonate, it needs a much higher temperature. So we're doing 310 on the iron today. Four inserts. Gotcha, gotcha, gotcha. Probably barbecue weather, though. I was meant to go climbing today, but my mate who wants to go climbing didn't get back to me in time. Jesus, even at 310, these are slow. I'm gonna bump that up to like 340 There we go. I did some extra work. What temp did you print it at? 280. 280 is the print temp for these. I have a feeling my soldering iron doesn't show me the actual correct temp. It's just a cheaper one. I literally just used this one for heat inserts. So I didn't want to buy anything expensive. I do want to buy like a TS100 at some stage. I don't know whether or not they're worth. Worth the money But I don't know if TS's 100s are out of date by now They're not in style anymore. I don't know I don't really follow soldering irons That is crazy that is cool that it's cooler in Kenya Yeah, well And that's not even like up on the plateau in Nairobi, which is the capital, which is actually quite high up and generally is a lot colder That's down by the coast near Mombasa Right those are in now I do remember having to modify these parts but I can't remember which one's the modified one because these are glass fiber They're a little less accurate when you're doing a sliding fit so once this is in it's probably never gonna come back out so hopefully I get the right one that the right one yeah that looks like it's going in right yeah there's no way that's coming back out now and then what screws do I need M3x40s I don't think they're out of date although there is a TS120 I think like I said don't really follow soldering irons there could be a TS2000 and I wouldn't know oh you're seeing a rare sight by the way this is the most leg I'll ever show I don't do shorts almost ever I don't like showing my legs to people so the fact that I'm showing them off right now proves how hot it actually is those aren't engaging yet are they oh no they are those are just engaging with the end of the thread now yeah I live in the Gulf of Mexico and it is miserably hot and humid here this time of year I have to dry sort of an every time print that's how I felt that's how I feel having to print PETG especially the carbon fiber stuff because carbon fiber stuff tends to absorb water between the fibers not into the actual polymer so even if you got like carbon fiber ABS it would still be a problem you still have that small issue but because I moved over to BETG just for this it's been an absolute nightmare keeping everything dry Sorry, I have to go make some dinner for a bit. I will be back later. No worries, Ollie. See you in a bit Do the people who live in the Gulf of Mexico still call it the Gulf of Mexico though the majority of people or they all moved over to Trump's way of calling it Gulf of America. I don't know which if it's a blue state or not that's around the Gulf blue states or not that are around the Gulf Hey Print Farm. How are you doing, man? How are you doing now? I don't know why this side is making contact with the inserts, but this side isn't. This side is, this side isn't. These ones have been threaded in fine. Oh, I know why. I know why. There's a little bit of squeeze out. Squeeze out my enemy If you ever have squeeze out on a bolt just the easiest thing to do is clear it from the other side just get another screw that's the same size and pass it through That should be enough Very red states, unfortunately Yeah, I feel like most of the naked community is quite blue in that way. I've not met anyone in the maker community that actually likes the Republican Party yet Or if they do like the Republicans they don't like Trump There's a very big difference between being the Republican and being pro-Trump Right top one got done is this bottom one gonna go this bottom one's catching and can feel it There we go Awesome stuff right so that's the Y bearing block done Y bearing block done and let's move over to the table Sweet right what's next what's next what's next we have oh yeah I wanted to talk about this last time but I didn't get too much of a chance so there are now some desk So these are the holes that'll be on the manual so if you see over where it's what says on the manual there are all the end holes and those are the ones that blind joint into the extrusion below them these ones below are specifically for a mod and LDLs included them so there's a blind joint to the column so the only difference is this should make it a little bit stiffer not by much compared to what's already there but it means when you're doing your tramming instead of doing it from the 90 degree blocks that sit on top you lift the entire plate up which are gonna be more annoying but you get an extra bit of stiffness from it so it's a trade-off but it's one that I'm gonna do today so what I need what I need I will need some M5 nuts I'll need some 90 degree connectors I'll need some M3x8 I believe yeah M3x8 Yep that's about it cool and I only need one of those for this part and we're gonna do the devil horns so I need four at the back so four for the back two for the front and these are if you it makes your life a little bit easier these are 2020 90 degree connectors so they're 20 across 20 down and 20 mil tall so they're basically just a cube but cut in half across the hypothenus so if you want to measure off of anything just you can eyeball it rather than having to measure specifically you don't have to get any calipers out or anything there's nothing in any of the 90 degree assemblies that really requires them so we'll need two on the ends has anyone had a look at UK filament prices right now I went I wanted to try and restock earlier today and I wanted to go with glass fiber ABS again because I don't like the glass fiber PETG that I have and I want some stuff so I can work on Atlas and it's all glass fiber ABS already generally I've been buying from Bamboo Labs as much as I hate buying from them they at one point had the cheapest stuff when you bought it in bulk so you could buy 10 kilos for 150 bucks and it was it was all right stuff now since what's happened with Iran's the prices have finally caught up 248 pounds for 10 kilos of Glass Fire Radius. It's nearly doubled in price. And that's the bulk price. It's rough. It do be rough. What do I need? I need these ones. Is this one for the bottom or for the top? I can't remember. That's for the bottom. So don't need to worry about this just yet. Ouch. Yes, very much ouch. So yeah. Put it like this. If I took all of all of the money that Patreon gets me for the month, right in a whole month of saving up, I still would not be able to afford 10 kilos of ABS. I know 10 kilos of ABS is a lot. So let's put it in perspective. Just to put it in perspective, it's a bit ridiculous me going, oh, I'll buy 10 kilos of ABS every single month. Normally it lasts me like a month and a half. Luckily, I still have five kilos of glass-filled ABS from Bamboo, but it's red. And it was meant to be the accent colour for that. It's still going to be the accent colour for that. But I still need the plain colour. And considering each axis takes three kilos, each y-axis takes three kilos. Yeah, it ain't cheap, nice, nice. I do want to get as much done this stream as possible. That's all he said. Hey, I'm back. I missed last stream, but why haven't you got Atlas out? Been working on it. Atlas has always been out. You just haven't seen it because Cassita has been hiding it. It's always been here. But I was doing some moving around of things, so I moved the Prussia over to the printing side of the room. And I had a bunch of space here that I wasn't using, and I thought, okay, if I put Atlas there, it's going to kind of force me to actually do some work on it. Which it has. I've done a bunch of CAD on it since. I've been thinking of doing a CAD stream, but there's something about me that just goes, CAD streams would be so boring to watch Just watching Brisket. Brisket is not a calm dog. He's very much a high-energy, high cuddle drive dog. But he is still as a rock right now, which is why he's actually in stream today. I'm a bit worried about him because of it and because of how hot it is. He's had ice cubes in his water all day. He doesn't feel overly hot. He's not panting or anything. I just worried about him for this piece here. One side is threaded in two points. The other side is threaded in no points. Sorry, in four points. So the four-pointed one goes this way. How would that go? It goes where's the bearing lock No, the two-pointed one goes this way. Yeah, so two point goes towards the end of in the same direction as the two 90-degree connectors Poor Brisk Kid. It is so hot. Yeah, I'm worried though, because he's usually the type of dog who goes and lays himself in the sun. If I'm away and I'll look on the little dog cam I have for him at work or whatever me checking in on him He's always lying wherever the sun is coming through the shades so for him to be hot is a rare thing But then again it has been so cold this most of this year up until now that maybe it's just because it was cold back then I don't know I'm trying not to worry about it Next so C-beam comes on top with the C-beam facing upwards and then line it up with the ends if I do that for now and then just put sea beams on the ends put the T spots on the end Raj I used to have a paddling pool for buddy. Oh nice. I wish I could have a paddling pool for him but A, he hates water and B I live in a flat so it's not quite possible. I do get him like wet towels and things like that just to cool him down on really really hot days And like I said before he gets water sorry he gets ice in his bowl and he occasionally gets to chew on ice as well or I'll freeze chicken stock or something for him Yeah, that makes sense I'm trying to go back through the CAD in my mind for this machine, but it's been nearly seven or eight months since I last made a CAD change like a good decent full spec CAD change So trying to remember everything that I've done and how things go together can be a bit difficult sometimes even when you're the one who designed the thing so I need M3x12s because those are the blind jointed versions and put this to the side for now So anything that goes into a blind joint or into the end of an extrusion is M3 by sorry M5 by 12 anything that goes into a T-Nut from the side is M5 by 10 So we need two on top Oh that's not true actually when it comes to a corner a 90 degree corner bracket those are M3 by M5 by 8s but not always So I'd always double-check that you're doing your assembly. Ollie, do you want anything else before I send your stuff? You saying you were low on end mills. I've got an LDL kit I'm not using for end mills if you want them a full LDL kit. One of them's missing and I am going to keep the chamfer meal, but I can get you a couple of if you're still in chat. I can get you a couple of end mills because I know you're still missing yours from when they broke in this last time There we go so you guys can actually see a little bit more what I'm doing some M5x8 goes into the 90 degree connectors yeah so normal M5x8s when it's going into a T-Nut sorry normal normal 90 degree connectors when they go into T-Nuts on either side those are M5x8 Most of the M5s that go into T-Nuts are M5x10 There are a few special occasions where longer bolts go into the corner connectors and blind joints tend to be M5x12 I mean if you have spare ones you've got to go you've got for free that would be super sweet if you get any free collets 90% of my collection was taken what collet sizes do you need I have some spare sixes and if you're wondering if I have enough end mills that draw is completely full of end mills so I don't use the LDO ones either because they're more expensive for me to get so I just buy the ones from DMS here in the UK shout out to DMS and Dave he will be stocking a few V2s at some stage from what I have been told actually any more corner connectors I need more corner connectors you need more power Scotty Yeah, I've got tons feel free to take some Is there anything particular that you need I have some spare six mill and some spare three mill collets Right those I saw that Raphael change making carousel they've had a carousel for a while They've had carousels for a while Are you talking about like a curret type thing or are you talking something else if you're talking something else just link it in stream chat in stream general and we will have a quick look at it I did some redesigns to the tool setter as well today. Nothing that's nothing major, although I just like the look of it a little bit better. So that's the old one. That's the one that everyone knows and loves. That's the new one. It's basically the same thing. It's a little bit shorter this way, a little bit longer that way. And it has a bolt to make electrical connection with the what's it called? The standard. So you put a pin in here and that's your standard offset. So when you're doing your 3D probing and setting up a place for the probe to go and touch off of as a reference point, you can make an electrical connection with a multimeter and then attach the other end of the multimeter to your carbide. And once they touch the plates, you've got your exact Z height. And that's literally the only change I've made to it. Yeah, I saw that too. I went, that's Spice Rack. Yeah, the Rap Change is not even a good product. Like they would not work for my own. Yeah, well, just because they don't work on Milos don't mean they're not good products. I don't know. I've never used the Rapid Change. I can't comment on it. And we kind of use exactly the same technology for if slightly different from what Rapid Change has done. So it feels like if I call Rapid Change bad, I would call ourselves bad because we're using their tech or a very similar version of their tech I have asked LDO if they want to do like an ATC kit. They might do a Spice Rack kit, but they won't be doing a four-pack kit because to them it's not a big enough product with enough parts in it to warrant making a full kit. This makes sense. They've got to make their margins at the end of the day. They aren't making their margins. If they don't have enough stuff to put in the kit, they're not going to make enough of margin on it. Especially since Spice Rack is literally sorry, four-pack is literally just a bunch of bearings, some printed parts, and some bolts, and some springs. You wouldn't even be able to supply collets for it because you need to you could possibly do like one set of collets, I suppose, like a common set, like a three, like two threes and two five mil five sorry, two six mil collets. But even then, it's going to change depending on what your use case is. So you may not even end up using those collets. And again, if LDO's stopping doing carbide, which they are because carbide prices are ridiculous right now, then what's the point in them stocking collets? Oh no, I like it. I need to get a tool setter with a reference surface because my fixated was off my machine and in parts boxes in parts boxes because I was cleaning it down and it happens to be happened to be a stolen box. Oh sorry man I would argue from what I have seen from you guys with the tool changer the mechanism is very different compared to rapid changes rapid changes do not hit any torque specs Okay we've well other than Rumba we've never actually tested a torque spec with it yet so it's part of the plan we're going to But you gotta remember that what we've seen so far is Bright's version of the ER20 callet which is a bigger thread completely different thread which means that it's further away the actual turning points are further away the way the torque is being applied is further away And there's more leverage on it, so you can get them tighter easily. That doesn't mean it's going to translate to an ER16 collet, right? There's less leverage on an ER16 collet because the diameter is smaller. So we don't know yet if it's going to be working that way. We know the ER20 version of it worked, but that ER20 version was an early prototype. It's a very good early prototype, right? There's some amazing work there, but it's still a prototype. Hopefully, now that I've got a machine that I can actually mess around with, I'm going to be able to mess around with, I can start helping Alan with the four-pack. I know it sounds like I'm kind of putting down my own product here, but I'm not. I'm just saying there's a process of testing that needs to be done, and we haven't done it yet. I hate multi-point blind joints because you have to go back and forth between each bolt to snug it up. You have to do that like five times. Are you still working on the slam stall tightening? Yeah, yeah. It's gonna be the same thing. Apart from the space it takes for a work area, what are the advantages of the four-pack and the spice rack? Well, the main advantages is that they're ATCs and that you don't need to change your tools manually. So the spice rack takes more tools. I think it's six tools. It's either six or eight tools. I can't remember off the top of my head. And the idea is that it's effectively a separate axis. It's a rotational axis. So you're able to have a lot more tools in a lot smaller of a space and it take up less space on a table. The four-pack is just simple. It's the most simple ATC version. But the downside is you get less tools for it and you're a bit more rigid in what tools you can use. Like you could set up a spice rack probably some way. I can imagine a couple ways you'd set it up for oversized tooling. So for like face mills and things like that, you could probably cut out a slot for it where once you've engaged, you can then pull it out through the side. You can't do that on a four-pack. A four pack is meant to be the minimum amount of effort to get to the most value. So it's you don't need to worry about having an extra axis. You've just got the lid that shuts and closes. You have four tools. You've got your roughing, your finishing, your small tool, and your champ for bit. Or if you use the same tool for roughing and finishing, so you've got your roughing finishing tool, which is like 6mm tool, a 3mm tool or smaller tool, a champ for mill, and then a specialty tool. So say you're using a thread mill or something like that. That's the whole idea of having four tool bays. Whereas you can do a lot more with a spice rack. You can have three specialty tools with different thread size is on them. You could have a roughing and a finishing mill that are two completely different tools. You can it's a lot more flexible, but with that extra flexibility comes the fact that it's a whole lot less simple and it's going to be a whole lot more expensive. ATCs aren't cheap things. You buy a decent collet It'll cost you 10 bucks. You need a collet for every single size tool that you're using. So if you have, if you want to use two or three different fivemil or sixmil tools, you need two or three different collets. That's 30 bucks, right? That's just the collets. Then you'll need the nuts themselves. The nuts are another 10 bucks each for decent ones for ER16, maybe even 15 bucks. So just in the tooling alone, just in the tooling alone, you are spending sorry, just in the fixtures alone, before you even get to tooling, you're spending like nearly 80 bucks. That's just for a four-pack They use the same ultralight the ultra light yeah Yeah, it's the ultra it's the ultralight 17 board you don't need to use the ultralight board so the thing that the ultralight board gets you is an extra driver it gets you an extra driver and that's it that's basically the only reason we use it it's a can connected driver if you don't have a fourth axis you can use the driver off of where the fourth axis would be just depends how you set it up the whole point of having the can board is so that if you wanted to drive both you could because there's only five four drivers both there's only four drivers on silo if you want to drive the main Milo which is three axes a fourth axis and then you'll also need an extra driver board a driver just for any either the four pack or the spice rack both of them require a fifth driver if you've got fourth axis if you don't have the fourth axis just use the one that's on the board you don't need it you don't need to get an N17 I still consider it impact night being it was but yeah they say are you buying gold plated nuts I got five for 20 on Amazon yeah and they're shit I'm sorry mate I don't buy anything but at least double a rated collet nuts you're just shooting yourself in the foot I've had 0.5 mil of run out just on collets just on shitty collets I don't buy anything that's not decent when it comes to collets themselves tooling I will go as cheap as I can get it Collets on the other hand is a reason you have so much that people have so many surface issues is because they cheap out on that kind of stuff don't buy collets on Amazon They're shit Are you buying no Gotcha? Let's gonna be sliding here now Probably worth loosening these up a little bit more A is better or less yes better You can go you can get AAAs you can go all the way down to no way And those are like the ones that you buy from Amazon off from Amazon sorry It's locked in now, so I don't need to worry about falling out anyways, anyways, anyone got any cool projects lined up at some stage. I am going to start getting ready for the winter climbing season again, and I'm going to try my hand at getting some tierated tooling, some tierated ice axe tooling sorted. I do have my own my climbing axes already, but it'd be a fun project to make my own. Where do you get the nuts? I buy them from it depends. Most of the time I buy them from DMS just because they have the ones that LDO sells still, and the LDO ones are triple no, sorry, double A, I think. Haha, nuts, you child. I mean, we're all children here, but doesn't stop me from pointing it out. Ollie, you still haven't told me what size tooling you need or what size colours you want farm next project is CNC. My mini lathe. Oh, yeah, I saw that. That looked cool. Not the mini lathe I was expecting. I thought you were going to get one of the more modern, like, V-Vor style ones. But that thing is a proper mini mini lathe. Almost kind of looks like a watchmaker's lathe. It's a teeny weenie lathe. Oh, yeah, sorry, dude. I am not that possible. Anything you have lying around you got for free would be really sweet. I just want to get back to going in the project. You said nuts a lot last stream when I get lost in the first half of the stream. I like nuts, okay? Don't you judge me? Oh, speaking of which, last week my parents are around, and because one of the big import exports from Kenya is cashew nuts. I got three kilos of cashew nuts, and I have a mate of mine at work who loves them. She's constantly buying them from the little snack counter that we have, and they're like two packs, two pounds, so roughly three dollars for a tiny little pack like that. So I showed up one day with this one kilo bag in my hand and just the look on her face. It cost my parents like I don't know 15 bucks USD for that one packet for that one kilo packet Right That's a lot of nuts Send half my way Maybe maybe one day right. So, this is the bit of the manual I'm not gonna be following because it's gonna involve the Z axis for me whereas for you guys if you're not doing this mod it won't involve the z axis for you So I'm gonna be blind jointing that section that front section there Which means loading a bunch of M5x12s M5x12s over here So I need eight of these seven eight Lead one at the top I believe this is correct spacing Ignore this bottom row you don't need to install any of them in the bottom row Cashing nuts are better in Nigeria I'm sure they are man They're also better in Kenya I can't think of a bunch of small boat fittings I can think of a few of a bunch of small boat fittings I would like to know when you say boat fittings do you mean big yacht or do you mean do you mean like sailing boats or are you just really tricking out your canoe for the for the season for the summer pin my canoe oosh oosh flame pin stripes all the way down your your paddle for a bunch of weights in the very back of the canoe so that the front is going like that you're wheeling a canoe Jake any ideas on where I can pick up the fixation cheap using T-Nuts for work holding is a pain I don't know why you can pick one up for cheap but DMS still has a few on sale I think I am gonna use one of these just as a blocker so if I put the M5x8 ones corner connectors there last four corner connectors small sale though of course anything would work but cheap so probably a V1 Do I have one I think I've got one I'll have a look around I think I might have one I might have one that I just oh I've got one on the V I do have one actually but it's on the V1.6 The guy who won the V1.6 he hadn't used it the entire time he'd had it so he'd had it for about five months he he wasn't very big into the DIY even 3D printing side of things so we offered to trade him for some 3D printer filament so he got like five kilos of PLA and we got V1.6 back so that's in the container right now I don't think I'll be giving away big machines again in future I think we're gonna stick to like smaller prizes or if big machines are being given away it'll be given away by a company and we'll just be doing the draw on their behalf Is it balance installed? Nope. I'm waiting on some epoxy and some sand to arrive I'm fine doing that installation afterwards It makes a difference but it doesn't make so much of a difference that I'm putting the whole build on hold for it I've got a little bit of epoxy got a little bit of the right kind of epoxy for it but probably not enough Here I was thinking of scoring the Atlas. There's no kits gonna be made of Atlas people forget this like Atlas is too big of a machine to send overseas all of the time most of the time oh universe I started watching Chainsaw Man last night I'm not a big fan of the main character but the animation's dope We invented teleporter yeah you only need to take to take off the channel that's cool I will trade you five kilograms of filament for it back if you want I looked at the fixated on DMS but it was 90 pounds and I don't really have that kind of money to spend on a plate right now nice and waiting for season two man I'll we'll work something out we will work something out sounds like you really got it rough lately dude yeah but it's the one thing that he wants that I don't like I don't it just I don't like the the ultra horniness of a lot of anime that's why I love anime that's like Violet Evergarden and Free Rin and all that stuff that's my that's my jam JJ is alright I'm not the biggest not I'm not a super fan of it I feel like the magic system is a bit all over the place AOT is still my prime my favorite one of all time but that's a bit basic I suppose Demons of the Shadow Realm isn't too bad for metal Archemist is pretty good He's not sending you yeah Is there reason I stopped watching Fire Force as well because it's just got a bit it just it feels awkward to watch at times AOT me I know a lot of people feel that way about AOT You're entitled to your own opinion It's my life man just feels like everything in my garage is falling apart right now I had my VFD go a few days ago as well so got to replace that also running printed plates again is not fun they just don't work the same as Ali ones yeah Yeah There is kind of a the nice thing about working on a 3D printer is you can always make an impermanent change on a 3D printer with 3D printed parts You can't really do that on a mill some parts just have to be metal and you just can't get away with that without that Gotcha right that's that almost done I just made a really stupid mistake and I forgot to load the T-nuts so this has got to come off Well actually actually no they don't need this doesn't need to come off there is a way something else will come off but was that for me Alexa shut up I was not talking to you Come on bud let's let you out let you out there you go you go chill in the cool air go chill by the window Alexa living room lights on Okay The thing that really gets me is had so many random parts in a box like maybe 1.6 plates and then some absolute idiots decide that they want that which is just going to go in the bin That's how that works people who come into steal things don't care about what they're stealing because to them they can always find the value of it later They think they can always find the value of it later or they think that something looks like it would cost a lot of money because they have no idea what it is And there's also some people in this world who just like stealing things They don't actually care about anything else other than the theft and the feeling that gives them And in a way I kind of feel sorry for them But in another way I really don't My parents are in Istanbul right now and they keep sending me a million photos like I'm glad you guys are having fun but I really don't care about your trip Honestly I think it must have been all fun or stealing because unless you know what you're doing What is a bunch of nill parts and the Voron worth to idiots Who knows? They might be Voron enthusiasts They might be 3D printing enthusiasts You might find a serial request for your Voron in the next few days I know I'm joking about something that's all absolutely horrible So I'm sorry about that part. I am genuinely sorry that that happened to you But you gotta try look at the right side of this kind of thing at least no one got hurt At least physically My god, I would be so angry, but I would see the funny side of it yeah You've got to see the funny side of this kind of these kind of things you've got to otherwise you just you're never gonna recover from it and it'll scar you for life and that's that's the worst thing that a thief can do for you Is make you scared for the rest of your life When I started my build the ASA got for it was stolen in the two hours it was delivered and I went looking for it That's rough did you get a refund I found the package by the bus stop at the side of my unit nice at least you got it back I'm lucky where I live right now I wasn't always lucky about where I live but right now I am quite lucky because theft is so low in my area like I had the Core 1L outside my house for 18 hours before I got home And I knew it was gonna be home when it when I got back But that's the difference between living in a small town and living in a big city or a big metro area And you don't always get the choice of where you live some people will be like oh if you don't like it then leave you don't always you're not always able to do that it takes money to leave unfortunately not like the olden days where you could just pack up what you had and get on the next bus Oh the package was empty man At least you got your refund four for that side and then I'll need one two three one two I think I only need two yeah I think LDO sent a bunch of extras Can't think of another part of this that needs that I'm sure it'll come up later Right, what are we on for likes? What do we got for likes low? We got for likes So far only three likes on the uh on the stream There's 12 people in chat but only three likes god damn it. I thought you guys said you promised you weren't gonna let me down anymore Nahid If you could like the stream that would be really helpful it means that it gets shown to more people on YouTube and the more likes you have the more likely people are going to come and actually watch the content And then we have loads more fresh faces in the chat to talk with if you haven't already a subscribe also helps me immensely more people that get subscribed to me the more people that will know when I go live and the more watch hours we can get I see seven seven's still not 12 though Oh and Jake once I get my machine back up and running I am nearly done with the final CAD for the probe to see I was working on oh cool refreshing attack now shows nine cool See asking nicely does get you something does get you stuff in life I've done it again Gonna have to take all these corner connectors off because I need to get access I need those holes to get access to the bolts that actually slide into the axis at least the T-Nuts are in the right location No no I haven't please don't tell me I've stripped the bolt There we go Nope Oh no, please don't tell me I've stripped this Fuck Pardon my French but fuck I've stripped two god damn it strip another God damn it how have I done that I haven't even taught these down zero tooling There you go that's one of the stripped ones out putting that to the side thank fuck for tapered tools Thank fuck for tapered Allen wrenches god damn it Those are the ones I mentioned using longer screws than 12mm They're not 12 mil they're M5x30s Don't know what you kind of getting on there bud There aren't any M5x12s there at all These are M5x8s because if they weren't M5x8s they would hit the bottom of the extrusion do this let's assemble this sideways for now start Let's get these a little tighter first, so I don't need to worry about it. Thought you're referring to the screws that go into the column. The screws that go into the column. Oh, oh, yeah, gotcha, gotcha. I know the ones you talk about. Yeah, there's no point in making them longer than that, because they're not there to the thread that goes into the side of the column is not a load-bearing thread. It's only there to stop lateral movement or sliding movement up the channels. So if you make them longer, they don't increase any strength. There's no point in making them longer. I struck the first two threads, so I had to go longer and get damn it. Universe. Please don't get auto-banned by YouTube. I've still got the YouTube moderator thing on which I haven't seen my stream elements boss in a while. We need to get that sorted for next stream. Add that to the list. Oh, do you like my you can't read this, but this is me and my girlfriend tier listing different cereals the other day I say the other day it was yesterday Where's my hammer gone? I had a little mallet that you'd use to tap things into place, but I can't find it. I haven't been able to find it for two days must have moved it somewhere No no, that's way off I promise that was not on purpose. Yeah, yeah Whatever you say bud So when it comes to tramming now you're tramming between these two points here rather than tramming where the 90 degree connectors would be and shimming under there now shimming under this place here which should mean stiffness is increased by quite a bit No, these do need to be longer don't they What size do they need to be ones that go into the side of the column Yeah, so those are the M5x12s you're talking about I really am doing this in the wrong order today, aren't I? That's gonna have to come off again, isn't it? Follow the damra manual. Read the fucking manual M5x6s. No, so I don't need to take them off. So these are M5x30s that I need to go down the side. So that can stay tight. So I wasn't wrong. I was just not right by 30s. Right, let's do a quick clean up before this gets out of hand. I ended up having little bits everywhere. That's pretty neat. When I save up the cache, I think I'll buy the parts again and upgrade to V1.6. Nice. I don't think anyone's done. I don't think anyone's done the V1.4 to V1.6 upgrade. I'm pretty sure it's possible. Can't remember anyone who's done it though. Alright, so these can go like that. I need to get some M3x30s. No, sorry, I mean for my V1.5. I gave away my V1.4 a few months ago. I had all the parts to upgrade V1.5 before the break-in. It's not essential, but nice. Oh, yeah. Gotcha. Gotcha. That's a lot stiffer already. Loving the Prussia orange. Yeah, I love the orange from Pruzia. It's a pity I couldn't get it in a glass fiber-filled one. A lot of the glass fiber filled anythings are a little bit whiter, a little bit milkier in their colours, a little less saturated. I think that's just part of it being of having glass fiber in it. You can't get it to look exactly the same as the non-filled variants. That was kind of one of the reasons why I decided to flip a bunch of the colours. So this would generally be the non-accent colour and everything. I've flipped a bunch of the colour schemes around just to make it look a little bit nicer and to try and get as much out of the PCCF as possible. What's up next? I'm going to leave these two middle corner connectors off because when it comes to tramming, I'm going to need to get down at the bottom anyway. But I still need to do the ones that go into the column. And they, at this point, they won't be producing much. They won't be changing much force anyway. Once I've got it trammed, I'll stick them on. Not contributing enough to the structure of the machine anymore now that we've got the blind hole mod Whereas the two end ones actually do contribute to the structure What's the benefit of glass filled so glass filled versus non-glass filled anything is it's stiffer any fiber filled material tends to be stiffer but the actual strength of the part goes down so if I were to throw a glass filled part on the floor the likelihood of it breaking through impact is higher but the stiffness of the material is is also much higher so it's kind of a trade-off right the material also gets tends to get a little bit heavier when you put glass filled in when you're using glass filled versus carbon filled there's something worth remembering glass filled will always be able to because it's just heavier it's a heavier fill than carbon fiber is it's a little bit better at absorbing vibrations than a carbon filled would be because most composite materials like carbon fiber are very very bad at um at absorbing vibrations they like to propagate vibrations a lot more so on a cnc machine where you want to keep the vibe the total amount of vibrations down as much as possible a glass filled would be a better option to go with and glass fill tends to be a lot cheaper than carbon filled as well so if you're the the best part of a carbon filled uh material is it tends to be a little bit lighter so if you're building a c and see sorry if you're building a 3d printer and you want a really lice effector or um y-axis or hot end or this that and the next thing it's a lot better for you but with the advent of 3d sorry of uh milled parts on 3d printers and how common they're becoming you can get a lot stiffer of a gantry or whatever you're trying to build with a c and cart because you can remove 90% of the material so even though it's a metal part and metal is denser than plastic to get the same amount of strength you need a lot less of the metal part if that makes sense so you can remove 90% of the volume of the part get it to be lighter than the plastic part and still be three four five six times stronger even than a 3d printed part would be right that's done now just flip this around so you guys can actually see what else gonna be happening next what does the manual say right so bearing block now bearing block bearing block bearing block where did you put you over here so i need to put some m3 t nuts in hey steve how you doing bud are you doing looked like there was a load of people did steve did other steve's uh stream just end i'm guessing because we had a load of people come over and then a load of people leave so i'm guessing steve's stream just ended or someone else's stream just ended and they popped you out over here and then yeah good thanks keeping well no not yet oh cool yeah i'm keeping well it's hot in here it's bloody hot in here and another reason carbon filled materials are a bit of a pain to work with is because the tolerance that you put on the part to work with normal abs now suddenly doesn't work anymore so there we go everything's just a little bit more stretched than usual that's what she said i need some m3 by tens yeah it's bloody hot it's really really humid at the minute I'm dying a little bit. Brisket's good. Everyone else is doing fine. We're having a great time on stream. At least I think so. Yeah, we're all good. Why I still don't recommend people don't use carbon-filled parts just as a standard or glass fill parts or any fiber-filled part because there are lots you'll feel yourself getting a lot more frustrated with the build when things aren't fitting the way that they should Especially don't do it with Voron parts because Voron parts are designed to have some flexure in them Whereas if I tried to design parts for flex and then I would be doing the opposite of designing good parts for CNC machines I'd be designing quite bad parts for CNC machines Jesus Christ is so stiff you back Hey Jake, what do you think of milling activity of milling activity for the discord of a milling activity for the discord? What do you mean a milling activity for the discord What do you mean a milling activity for the Discord Do we not already do milling activities on the Discord considering it's a Discord dedicated to making milling machines Something like something oh we've tried it we've tried it The thing is you're not gonna be you're gonna make worse products more likely more than likely not you specifically but just people who are interested in it probably gonna make worse products and it's gonna be more expensive for you than getting it from like JLC and then there's also the upper layer of it being quite a lot of work for the dev team to have to oversee this all because if we're gonna have it as an official thing then we will make sure that everyone is making parts to a certain standard and if that standard's not met then you don't get the ability to do it you don't get the ability to be part of the program we had a myth program once in a while once upon a time And there's loads of people who say that they want to do it and then they produce maybe one set of parts and then say that they're really busy and they don't want to do it and this, that, and the next thing. There's a reason like the Voron Piff guys are hardcore into the community. They've proven themselves over time and they get vetted beforehand makes no sense for us to do it It's like everyone who says who buys a 3D printer saying that they're going to make money out of it You know Yeah, you could technically make some money out of it if you tried really hard But realistically you're not making a dime Realistically there are 50,000 other people who have thought the same idea and they've either got a proper print farm with 15 like 15 to 20 printers already or they've got products that they design themselves and it just so happens that the 3D printers are the things that the products are made on That's how you start a 3D printing farm. You don't go online and start selling dragons and things that other people have designed. You design your own thing that just so happens to be manufactured on a 3D printer. And the same goes for CNC Milling. If I wanted to CNC mill a whole kit at home, it would cost me more than it would be to buy it from JLC. And JLC's tolerances would be a lot higher. It's a fun event, not something strict like that. I was thinking, like, you come up with a design and anyone interested can take part in it. Oh, gotcha. Gotcha. Okay, so like a speed benchy thing. I thought you're talking about a myth program where like someone orders a part from you and you try and fulfill the part Hey, Tal. What's the pricing? What will the pricing be for the kit? We talked about it a couple streams ago. I think we worked it out as something around about just under £2,000 for everything. I think it was like$1600 for the mill itself and then another 400 for the eBay. Something along those lines. I can't remember off the top of my head though. I normally refuse payment when someone asks me to print something unless someone uses a lot of filament when I just get them to buy then I just get to buy a new roll. Exactly. I actually do have a program where I for quoting prints and unless you're including labor, you're not making any money. It's the labor that gets you the money. The labor is the single highest cost in any 3D printing or not organization job Do I have it on here? Do I have my 3D printing Google Drive Google Drive Google Drive Print quotes I'll show you what I use to quote customers whenever I have them for things like this the new one is this old one Is this the old one? There we go. It's all loading in now. So this is what I use for doing print quotes for people. I based this off of Stefan. This was originally Stefan's CNC kitchen quoting engine but his was really really really basic so this accounts for lots of things. This accounts for how many times you're taking a build plate off the printer every job. It accounts for if you're just if you have slicing time and if you've got the the slicing time one in Stefan's version of it always accounted for every single time for every single time you you print something you're also putting slicing time on it if you're doing a big order however most of the time you're not doing any slight you're not adding the slicing time you're just adding the time it takes for you to press a button to repeat it so you don't need to do that then I've also added the ability to do manual color changes if you want them add support removal time all of this is stuff that you set up in here so anything that's in red is just a table that you don't want to touch because it's how it does a bunch of the other calculations in here but there's also things like if you want to hit a minimum print a minimum amount of money per hour which is a lot of the time how you want to run a 3D printing business you want to be making say a dollar an hour three dollars an hour whatever for for every hour of printing I have a little reminder in here that you can place a checkbox on so that it reminds you it tells you if you're not making enough money and a lot of the time if you're just pricing all willy-nilly it will tell you you're not making a profit here I actually do need to do a proper Breakdown of how this calculator works because you it even generates invoices for you can load up your printer, all the different materials that you use each one of these different colors is a different printer that you're using, not necessarily a different amount of plates that you're using. It also generates a breakdown as to what all your costs are. So for example, for the kind of breakdown I have here, which is 100 grams printed in an hour or three hours there, the majority of the cost is labor. All this yellow here is labor Okay, slightly more than V145, yes that flood coolant enclosure for Miley design is red That flood coolant enclosure for Miley's design is red what do you mean I'm confused what flood cooler What flood coolant I'm so confused At work I hate when I ask would you print something for me I'm currently making someone a gold crown for a hen knight made of male members Oh gross Check extreme general Ooh Hey guys had some very cool idea for my enclosure Miley since the Miley only moves the Y-axis table it would be possible to build a very compact enclosure for it with a correct sealing this could be make it waterproof use coolant pump Yeah, let's put this on screen The cool concept How well it would work though, I don't know I have a very I have a suspicious feeling that this would be very very floppy if it was all 3D printed and like that span there is not gonna fit on most 3D printers I like the idea of it but this whole table is still gonna be moving back and forth so this enclosure still needs to be longer that way like there's still a load of this that like this back panel can't physically exist It physically can't exist this back panel here because that would be moving forward as the table moved forward so this whole back panel would need to move backwards And by the time you've made enough space at the back for it to come all the way to the front I don't think it would be 3D printed okay fair doesn't get rid of the issue of this would still make it the the requirement for Miley for Milo for any Milo is the fact that you need quite a deep bench for it this just makes the bench requirement deeper because this distance here is how much you would need to push this back wall backwards and that's going to be coming over that's going to push it further back so instead of needing an 800mm deep table which is what you need for a casa you're then probably going to need a meters deep table just to get it to fit and then that has all that extra weight being thrown around as well and then when this moves forward when this whole thing moves forward this gap here gets wider and then you don't have a seal anymore that's a good point enclosure should be stationary i would bring the clear portion forward and make it stationary yeah Yeah, that would make more sense to me But at that point Why not just reduce everything here to a box around the plate Why do you need all this space? So like all this space here is unnecessary all of this is unnecessary all you need is a box that goes around just the plate And you'd still be able to achieve what they what I think they're trying to achieve here with a recirculating pump But all this is just It works in one position, but it doesn't work in multiple positions Like let's see enclosed mill enclosed rows Jeremy building mill Jeremy Fielding does a bunch of robots and stuff, but he's basically just got a box I know he's got got an upgraded mill now but he's basically just on his old mill that he CNC'd it was basically just a box that was in front of it Better for chip management and coolant I don't see how it would be better for coolant because you're just opening it up for more places for the coolant to not leak back down in my opinion Anyways don't really want to get into watching videos on stream right let's get back to building We're getting distracted way too distracted Right So it's come to that time of stream where we need to do some stuff Last stream I said that I was going to be doing one of the anti-back mash nuts every single stream just so that I could show you guys how it all goes together and give you as many chances to see how that works how that whole process works so we're gonna do that again right now Better Jip Moor French check the video before Didn't mean to sidetrack no it's fine D, don't worry, it's fine. It's absolutely fine. I don't mind a little bit of a sidetrack every now and again It's a cool concept, don't get me wrong I just think it could be thought out a little bit better It needs a little bit more time in the oven So from last time just to remind the people there is a input for grease because of the way that these are made because they're made of metal you can't just design a port that goes all the way through it because drills don't bend Well they do but they don't they're not meant to so there's one drill hole through there one drill hole through there and to stop coolant from leaking out you need to put a grub screw in the bottom that needs to make you need to make sure that that is absolutely flush so that it doesn't interfere when you're putting the plate on then you're going to need some brass nuts not the fun kind just these kinds so these are TR8 nuts one of them goes in the compression plate and uses M3 by 10 screws to hold it down There we go Why is why is why are you making that face on Yeka What's being said? What are you keeping quiet about Why do I feel like I'm I'm missing something Jay did everyone ever work on their vice mysterious clone was taking at some point looking for new vice They haven't told me anything about it I still have the old version but the old version is completely aluminium and I told them well that's not really good enough it needs to at least have steel jaws on it otherwise it's not gonna last very long They said that they told someone a while back that they were working on it they were reworking the idea whether or not it's coming in the kit I don't know It didn't come with my kit I asked first for your spear. I'm keeping that vise guys I'm keeping it for a rainy day No one's getting it What part for aluminium? The whole body's aluminium the whole thing is aluminium it needs to have at least steel jaws It doesn't have steel jaws Once you've got these bits on the brass nuts on you need to take the partially threaded cylindrical pins You just need two of them and this is what the compression plate is going to ride on to keep it in the right orientation and they go on the main body part and you'll need a small flathead screwdriver just to tighten them down all the way Thank you Dave from LDO for introducing me to these pins I have used them in a few projects now and they're great now once this is on it'll slide the compression plate on like that and it'll prevent the compression plate from rotating it can rotate just a little bit that's fine a lot is what we're trying to avoid here last time I used 0.3mm shims sorry not shims bevel washers and you want to install them so the peak of each bevel washer is against each other and you should have a little gap between there those will sit on the compression plate side nut and you're just gonna slide it over the top trying to keep everything together like that now we need to preload these the way you preload them is you need some m3x40s so we got m3 by 30s there m3x40s and 3x40s what are you m3x40s you're going to load them from the opposite side i mean it will probably be it'll probably never be as nice as the interception yeah the inception vices are alright i think the whoever did the mod i think it was craig on the discord uh is the jaws removal no the ones that we sent me i don't remember them being removable the whoever did the interception um mod to make it a split vise that's a cool idea i think that's something that i would probably even sell myself because that conversion makes a lot of sense and saves a lot of money too so m3x40s on this side you don't want to tighten anything up yet you just want to make sure the screw is bottomed out so these go through from the body side to the compression plate side on the the 3d printed version it's the other way around and once it's here you want to do it one turn at a time in all the diagonal corners in a kind of star pattern until the bevel washers are completely compressed all the way down You just want to be careful not to tilt the compression plate here because you can end up bending the end of that T-nut. Sorry, not T-nuts, that's brass nut and crushing the threads. There you go. So if you look in there now, the Bellville washers themselves are now completely compressed. And you want to make sure at this point that you've put some kind of grease in the threads. So I've just got some lithium grease here. What the inception is missing is a method for holding round stock like the SMW turf. It does have it. You just have to make them yourself. It does have the ability to do it. Right, then you want your lead screw now last time we got really, really lucky. We were able to screw this all the way through without any issues. See if we get that luck again. Doesn't look like we got that lucky again. So at this point, I'm actually going to go from the opposite direction. At this point, all I'm going to do is I'm going to start loosening up the bolts that were used for the compression. Just one quarter turn at a time until threads start to line up. So that's starting to get there. There we go. So that's starting to thread in now. You can feel that starting to thread. And before I start doing this any further, I just want to take all these compression bolts out and double check that there is actually enough pressure on the lead screw Right, so those are all undone now. I'm just trying to push it up and down the screw. Listen out for any rattle. And there's no movement up and down in the linear direction up and down the screw. So that's now set. That's properly set and I can just remove these compression screws entirely now and take the oil off of that. And whilst I'm here, I'm just going to fill this pocket up with grease. That should fill the inside up with grease as well. I mean, that the whole system is greased for a while. There we go. How you mill soft jaws or a V-block That's how you do it Right, so that's that done done. We've got one more which will be on next stream I might actually do that as a video for people so that people can just refer back to it whilst they're doing the building me anymore Something's happening with my overhead camera Oh, my overhead cameras completely cracked itself That's fine, we'll just use this one cat this camera for now. I'll get rid of that How cad one that can fit and I will mill it why don't you cad it's a V-block man It's not the hardest thing to cat in the world your CAD skills are gonna need to get better if you want to actually use the mill to its fullest potential They even have templates that you can use for soft jaws they even have those on their website You can literally go on their website and get a reference soft jaw from them Like come on dude come on you can do that yourself It would take 30 seconds in any CAD program once you've imported everything Right what were we doing that's it I need to take the bearing block off I need to put the floating bearing block in actually I'll do that first so floating bearing block can go in Is the V part that's holding me back not so it's a V block you're milling a V that's it you're taking half a square cut it diagonal and then remove that pit from the soft jaw that's it Sorry man, it's not rocket science. It is not rocket science It's a V The angle of the V doesn't even matter I am happy to do a bunch of CAD work and stuff, but come on I'm not doing every little thing for you I'm not doing a project that could be done by you in 30 seconds If you want to operate a mill you need to learn how to do some CAD Enough said Text stream generally different case why are you holding such a large part in a tiny vise That's a whole completely different problem Why are you holding such a big part in such a small vice? That's not gonna work Like come on, that's just not appropriate You want to do big part you need to have big boy stuff including fixtures and fasters Mighty bites is a good idea, yeah. Oh, I have Kenyan chillings in here In case anyone wants to know what a Kenyan chilling looks like I obviously haven't worn these since Christmas I got grease all over my hands now the fourth axis the fourth axis does not need such a big part And again, you're not going to get away with as bigger parts on the fourth axis that thing is fucking if you're thinking of using it on the fourth axis as in that's a part you're going to be making with the fourth axis Think about it again man That's not an appropriate thing to put on such a small fourth axis That's how you break your machine or break yourself Neither of those things is something we want seems the round CNC is the 120mm round piece yeah it's not it's tall it's not such a tall part It's like 20mm thick at most Come on man just be realistic And with that part that you have there you're gonna be wasting the vast majority of it by milling it down all of that is gonna be turned into chips That's such a waste of material I'm sorry we don't need to see Discord anymore Shut that tab down by accident I couldn't safely cut it and I wouldn't and I could I thought I could mill it down But you're not gonna be able to safely mill it down if you can't safely cut it you can't safely mill it then don't think of doing anything with it You're not holding that part in the size vices that we have for for Milo That's just a recipe for disaster Alright, what direction is the screw going I've noticed Bright doesn't include the rails until like the very last steps in all this. So this he doesn't even do the Y rails yet. It was the same with the Z rails. I guess because he wants it all to go down together, doesn't he? I'm sorry, universe. You can't just say now I know. That's obvious. Like, that's like saying you shouldn't walk in the middle of the road when there's a million cars going past you. Like, sometimes stuff just is a bit obvious enough that I shouldn't have to tell you that guests that say it's that way. Thump, thumpers. Forgot to do collars. Locking, collar, and bearing Be nice if I had a manual to follow. But who follows manuals manuals? Great. This is properly stuck. Where's my hammer done? There it is. Come on There we go finally there we go Right, I need to get a bearing I need to get a thrust bearing thrust bearings are over here need to get a locking collar I need to get it on this side So locking colour goes on first then the thrust bearing assembly thrust bearing assembly goes on here And then the bearing block can go back on I hope I got the orientation of The AB block correct have been streaming for we have been streaming for two hours and 21 minutes. I might call it soon. I know I said I wanted to get at least one axis done every single stream, but this stream's been going on for a very long time, and we did get a little bit sidetracked. So I'm probably just going to put the opposing bearing on here. No, I won't actually, because I'll need to do the motor mount first. I'll get this done. I'll make sure the bolts are in, the last two bolts are in, and then we'll finish up there. Thanks for the lessons. I will see if anyone local can help me cut it. A hacksaw and patience would work. You'll need to be quite a long hacksaw, but yeah, that works Bandsaw is also a pretty good idea. If you know anyone, you can get a see if there's any local maker spaces around you. It is the risk you take with getting off cuts, though. Like, offcuts are great, but you need to find a use case for them. And it's why I tend to just buy fresh material every single time. Even though the fact is, it's more expensive, and I'm poor. It means I end up not wasting any money in the long run because I know exactly what I need and what I want. Right, that's those bolts done. I'm a little underwhelmed at how far we've got on this stream. But hey-ho, this is life. Right? Thank you very much, everyone, for coming to the stream today. It was a whole lot of fun, as it normally is. We kind of got most of the y-axis done. I'll probably put the rails on off-camera. Just because you know what rails look like, and I'd like to get a little bit further ahead in this build, but I'll do that off-stream. Other than that, I hope you guys all have a fantastic evening. And I will catch you guys next time. Bye all",
+  "segments": [
+    {
+      "start": 292.239990234375,
+      "end": 294.32000732421875,
+      "text": "Right."
+    },
+    {
+      "start": 294.32000732421875,
+      "end": 295.1999816894531,
+      "text": "How are we doing, folks?"
+    },
+    {
+      "start": 295.1999816894531,
+      "end": 297.44000244140625,
+      "text": "Happy Sunday to everyone."
+    },
+    {
+      "start": 297.44000244140625,
+      "end": 299.1999816894531,
+      "text": "Hope everyone's doing good before we get"
+    },
+    {
+      "start": 299.95349998569486,
+      "end": 302.27350003814695,
+      "text": "Too far ahead of ourselves."
+    },
+    {
+      "start": 302.27350003814695,
+      "end": 303.55349977111814,
+      "text": "We need to go there."
+    },
+    {
+      "start": 303.55349977111814,
+      "end": 306.0334997901916,
+      "text": "We need to go there."
+    },
+    {
+      "start": 306.0334997901916,
+      "end": 310.43349988555906,
+      "text": "And we need to show you what's happening down here on the floor."
+    },
+    {
+      "start": 310.43349988555906,
+      "end": 319.87349946594236,
+      "text": "Because we've got a very squishy boy who is very who's been waiting very, very patiently for the beginning of stream to say hello to everyone."
+    },
+    {
+      "start": 319.87349946594236,
+      "end": 320.83350045776365,
+      "text": "Hey, universe."
+    },
+    {
+      "start": 320.83350045776365,
+      "end": 322.27349908447263,
+      "text": "Hey, Ollie."
+    },
+    {
+      "start": 322.27349908447263,
+      "end": 323.15350015258787,
+      "text": "How are we doing, guys?"
+    },
+    {
+      "start": 323.15350015258787,
+      "end": 326.1134992370605,
+      "text": "Right, let's go back to that one."
+    },
+    {
+      "start": 326.1134992370605,
+      "end": 329.0735002288818,
+      "text": "So, today we are going to be Jesus Christy Music Loud."
+    },
+    {
+      "start": 329.0735002288818,
+      "end": 337.2334981689453,
+      "text": "Give me a second to adjust the music."
+    },
+    {
+      "start": 337.2334981689453,
+      "end": 342.91349847412107,
+      "text": "Keep it high for you guys and then just lower it down to me today."
+    },
+    {
+      "start": 342.91349847412107,
+      "end": 345.2334981689453,
+      "text": "We're going to be finishing off the Z-axis."
+    },
+    {
+      "start": 345.2334981689453,
+      "end": 346.83350045776365,
+      "text": "Sorry, not finishing off Z axis."
+    },
+    {
+      "start": 346.83350045776365,
+      "end": 351.4734998474121,
+      "text": "We're going to continue where we left off from the Z-axis, which is going to do the Y-axis."
+    },
+    {
+      "start": 351.4734998474121,
+      "end": 352.83350045776365,
+      "text": "Hey, Raj, how are you doing?"
+    },
+    {
+      "start": 352.83350045776365,
+      "end": 356.67350061035154,
+      "text": "Working tomorrow."
+    },
+    {
+      "start": 356.67350061035154,
+      "end": 358.03349740600584,
+      "text": "Working tomorrow question mark."
+    },
+    {
+      "start": 358.03349740600584,
+      "end": 359.0734983215332,
+      "text": "Am I working tomorrow?"
+    },
+    {
+      "start": 359.0734983215332,
+      "end": 359.4734998474121,
+      "text": "Yes."
+    },
+    {
+      "start": 359.4734998474121,
+      "end": 361.4734998474121,
+      "text": "Sorry, no, I'm off tomorrow."
+    },
+    {
+      "start": 361.4734998474121,
+      "end": 362.59349877929685,
+      "text": "Good, how about we?"
+    },
+    {
+      "start": 362.59349877929685,
+      "end": 364.19349725341795,
+      "text": "I'm not too bad."
+    },
+    {
+      "start": 364.19349725341795,
+      "end": 367.3135,
+      "text": "It's hot as hell in here."
+    },
+    {
+      "start": 367.3135,
+      "end": 376.0335012207031,
+      "text": "So if you hear an extra buzzing, it's just because I've had to literally set up a fan because earlier today it was 30 degrees in the workshop."
+    },
+    {
+      "start": 376.0335012207031,
+      "end": 381.3135,
+      "text": "So other than that, let's get going."
+    },
+    {
+      "start": 381.3135,
+      "end": 382.59349877929685,
+      "text": "Let's get going with this."
+    },
+    {
+      "start": 382.59349877929685,
+      "end": 385.6334996948242,
+      "text": "I don't want to waste too much time today."
+    },
+    {
+      "start": 385.6334996948242,
+      "end": 388.27349908447263,
+      "text": "I hope everyone's had a good Sunday so far."
+    },
+    {
+      "start": 388.27349908447263,
+      "end": 391.3135,
+      "text": "All this crap off my bench."
+    },
+    {
+      "start": 391.3135,
+      "end": 395.79349572753904,
+      "text": "Alright, so you guys want to see the manual."
+    },
+    {
+      "start": 395.79349572753904,
+      "end": 400.59349877929685,
+      "text": "Alright, so we're doing Y-axis today."
+    },
+    {
+      "start": 400.59349877929685,
+      "end": 402.99350030517576,
+      "text": "I have a mouse for this."
+    },
+    {
+      "start": 402.99350030517576,
+      "end": 408.19349725341795,
+      "text": "So first thing we'll need is we'll need to do magnets and then the bearing block."
+    },
+    {
+      "start": 408.19349725341795,
+      "end": 416.91349847412107,
+      "text": "So bearing block, bearing block, bearing block, which means I'll need some 60808."
+    },
+    {
+      "start": 416.91349847412107,
+      "end": 419.3135,
+      "text": "Where are you, 608?"
+    },
+    {
+      "start": 419.3135,
+      "end": 425.2334981689453,
+      "text": "Where art thou 608?"
+    },
+    {
+      "start": 425.2334981689453,
+      "end": 426.99350030517576,
+      "text": "Hello?"
+    },
+    {
+      "start": 426.99350030517576,
+      "end": 427.63349206542966,
+      "text": "Where are they gone?"
+    },
+    {
+      "start": 427.63349206542966,
+      "end": 437.1534963378906,
+      "text": "Okay, I've got those bearings, but I'm missing my 608."
+    },
+    {
+      "start": 437.1534963378906,
+      "end": 442.67350061035154,
+      "text": "Where did I put them?"
+    },
+    {
+      "start": 442.67350061035154,
+      "end": 449.9534993896484,
+      "text": "Hmm 608."
+    },
+    {
+      "start": 449.9534993896484,
+      "end": 450.51349694824216,
+      "text": "Where are you?"
+    },
+    {
+      "start": 450.51349694824216,
+      "end": 458.3534932861328,
+      "text": "Oh my god, it's silly hot in the UK right now."
+    },
+    {
+      "start": 458.3534932861328,
+      "end": 459.0734945068359,
+      "text": "Yeah."
+    },
+    {
+      "start": 459.0734945068359,
+      "end": 460.3534932861328,
+      "text": "Yeah, it is quite hot."
+    },
+    {
+      "start": 460.3534932861328,
+      "end": 462.1934896240234,
+      "text": "Oh, because I'm starting early."
+    },
+    {
+      "start": 462.1934896240234,
+      "end": 463.71349389648435,
+      "text": "Oh, well, it's a Sunday."
+    },
+    {
+      "start": 463.71349389648435,
+      "end": 477.3135,
+      "text": "I feel like on a Sunday, if I start too late for the American crowd, the British crowd won't be able to watch as well because they've got work the next day."
+    },
+    {
+      "start": 477.3135,
+      "end": 478.59349877929685,
+      "text": "Well, at least most of them do."
+    },
+    {
+      "start": 478.59349877929685,
+      "end": 480.51349694824216,
+      "text": "608, I found them."
+    },
+    {
+      "start": 480.51349694824216,
+      "end": 481.79349572753904,
+      "text": "I found them."
+    },
+    {
+      "start": 481.79349572753904,
+      "end": 487.9534993896484,
+      "text": "Alright, so we need one 608 in here."
+    },
+    {
+      "start": 487.9534993896484,
+      "end": 498.1934896240234,
+      "text": "I try and vary my streams between 8 and 9 o'clock starts just to get as many people from both sides of the pond watching as possible."
+    },
+    {
+      "start": 498.1934896240234,
+      "end": 499.79349572753904,
+      "text": "We're going to need to do some heat inserts."
+    },
+    {
+      "start": 499.79349572753904,
+      "end": 503.9534993896484,
+      "text": "So let's go over to the desk."
+    },
+    {
+      "start": 503.9534993896484,
+      "end": 507.79349572753904,
+      "text": "Alright, iron on."
+    },
+    {
+      "start": 507.79349572753904,
+      "end": 509.553490234375,
+      "text": "Yeah, it's bloody hot in the UK right now."
+    },
+    {
+      "start": 509.553490234375,
+      "end": 510.9934926757812,
+      "text": "It's hotter here."
+    },
+    {
+      "start": 510.9934926757812,
+      "end": 518.3534932861328,
+      "text": "It's hotter in the UK right now where I am than it is back home in Kenya."
+    },
+    {
+      "start": 518.3534932861328,
+      "end": 520.3534932861328,
+      "text": "And that's that's saying something."
+    },
+    {
+      "start": 520.3534932861328,
+      "end": 526.0335012207031,
+      "text": "Don't forget, because this is polycarbonate, it needs a much higher temperature."
+    },
+    {
+      "start": 526.0335012207031,
+      "end": 534.9134908447265,
+      "text": "So we're doing 310 on the iron today."
+    },
+    {
+      "start": 534.9134908447265,
+      "end": 536.8334890136719,
+      "text": "Four inserts."
+    },
+    {
+      "start": 536.8334890136719,
+      "end": 546.9934926757812,
+      "text": "Gotcha, gotcha, gotcha."
+    },
+    {
+      "start": 546.9934926757812,
+      "end": 548.1134877929687,
+      "text": "Probably barbecue weather, though."
+    },
+    {
+      "start": 548.1134877929687,
+      "end": 559.0734792480469,
+      "text": "I was meant to go climbing today, but my mate who wants to go climbing didn't get back to me in time."
+    },
+    {
+      "start": 559.0734792480469,
+      "end": 561.8734975585937,
+      "text": "Jesus, even at 310, these are slow."
+    },
+    {
+      "start": 561.8734975585937,
+      "end": 571.3934865722656,
+      "text": "I'm gonna bump that up to like 340 There we go."
+    },
+    {
+      "start": 571.3934865722656,
+      "end": 572.5934987792969,
+      "text": "I did some extra work."
+    },
+    {
+      "start": 572.5934987792969,
+      "end": 575.1534963378906,
+      "text": "What temp did you print it at?"
+    },
+    {
+      "start": 575.1534963378906,
+      "end": 576.9135061035156,
+      "text": "280."
+    },
+    {
+      "start": 576.9135061035156,
+      "end": 583.553490234375,
+      "text": "280 is the print temp for these."
+    },
+    {
+      "start": 583.553490234375,
+      "end": 587.6335073242187,
+      "text": "I have a feeling my soldering iron doesn't show me the actual correct temp."
+    },
+    {
+      "start": 587.6335073242187,
+      "end": 588.5934987792969,
+      "text": "It's just a cheaper one."
+    },
+    {
+      "start": 588.5934987792969,
+      "end": 591.3934865722656,
+      "text": "I literally just used this one for heat inserts."
+    },
+    {
+      "start": 591.3934865722656,
+      "end": 595.0734792480469,
+      "text": "So I didn't want to buy anything expensive."
+    },
+    {
+      "start": 595.0734792480469,
+      "end": 598.2734914550781,
+      "text": "I do want to buy like a TS100 at some stage."
+    },
+    {
+      "start": 598.2734914550781,
+      "end": 600.6734853515625,
+      "text": "I don't know whether or not they're worth."
+    },
+    {
+      "start": 602.5689999141694,
+      "end": 616.729,
+      "text": "Worth the money But I don't know if TS's 100s are out of date by now They're not in style anymore."
+    },
+    {
+      "start": 616.729,
+      "end": 804.1690024414063,
+      "text": "I don't know I don't really follow soldering irons That is crazy that is cool that it's cooler in Kenya Yeah, well And that's not even like up on the plateau in Nairobi, which is the capital, which is actually quite high up and generally is a lot colder That's down by the coast near Mombasa Right those are in now I do remember having to modify these parts but I can't remember which one's the modified one because these are glass fiber They're a little less accurate when you're doing a sliding fit so once this is in it's probably never gonna come back out so hopefully I get the right one that the right one yeah that looks like it's going in right yeah there's no way that's coming back out now and then what screws do I need M3x40s I don't think they're out of date although there is a TS120 I think like I said don't really follow soldering irons there could be a TS2000 and I wouldn't know oh you're seeing a rare sight by the way this is the most leg I'll ever show I don't do shorts almost ever I don't like showing my legs to people so the fact that I'm showing them off right now proves how hot it actually is those aren't engaging yet are they oh no they are those are just engaging with the end of the thread now yeah I live in the Gulf of Mexico and it is miserably hot and humid here this time of year I have to dry sort of an every time print that's how I felt that's how I feel having to print PETG especially the carbon fiber stuff because carbon fiber stuff tends to absorb water between the fibers not into the actual polymer so even if you got like carbon fiber ABS it would still be a problem you still have that small issue but because I moved over to BETG just for this it's been an absolute nightmare keeping everything dry Sorry, I have to go make some dinner for a bit."
+    },
+    {
+      "start": 804.1690024414063,
+      "end": 805.2089957275391,
+      "text": "I will be back later."
+    },
+    {
+      "start": 805.2089957275391,
+      "end": 805.9289969482422,
+      "text": "No worries, Ollie."
+    },
+    {
+      "start": 805.9289969482422,
+      "end": 822.0089987792969,
+      "text": "See you in a bit Do the people who live in the Gulf of Mexico still call it the Gulf of Mexico though the majority of people or they all moved over to Trump's way of calling it Gulf of America."
+    },
+    {
+      "start": 822.0089987792969,
+      "end": 829.8489951171875,
+      "text": "I don't know which if it's a blue state or not that's around the Gulf blue states or not that are around the Gulf Hey Print Farm."
+    },
+    {
+      "start": 829.8489951171875,
+      "end": 830.4089926757813,
+      "text": "How are you doing, man?"
+    },
+    {
+      "start": 830.4089926757813,
+      "end": 837.4490012207032,
+      "text": "How are you doing now?"
+    },
+    {
+      "start": 837.4490012207032,
+      "end": 844.488994506836,
+      "text": "I don't know why this side is making contact with the inserts, but this side isn't."
+    },
+    {
+      "start": 844.488994506836,
+      "end": 846.8090018310547,
+      "text": "This side is, this side isn't."
+    },
+    {
+      "start": 846.8090018310547,
+      "end": 865.3689841308594,
+      "text": "These ones have been threaded in fine."
+    },
+    {
+      "start": 865.3689841308594,
+      "end": 867.2889975585938,
+      "text": "Oh, I know why."
+    },
+    {
+      "start": 867.2889975585938,
+      "end": 868.5689963378907,
+      "text": "I know why."
+    },
+    {
+      "start": 868.5689963378907,
+      "end": 873.6090048828125,
+      "text": "There's a little bit of squeeze out."
+    },
+    {
+      "start": 873.6090048828125,
+      "end": 900.1690024414063,
+      "text": "Squeeze out my enemy If you ever have squeeze out on a bolt just the easiest thing to do is clear it from the other side just get another screw that's the same size and pass it through That should be enough"
+    },
+    {
+      "start": 903.0989999475479,
+      "end": 922.858998626709,
+      "text": "Very red states, unfortunately Yeah, I feel like most of the naked community is quite blue in that way."
+    },
+    {
+      "start": 922.858998626709,
+      "end": 1201.7390073242186,
+      "text": "I've not met anyone in the maker community that actually likes the Republican Party yet Or if they do like the Republicans they don't like Trump There's a very big difference between being the Republican and being pro-Trump Right top one got done is this bottom one gonna go this bottom one's catching and can feel it There we go Awesome stuff right so that's the Y bearing block done Y bearing block done and let's move over to the table Sweet right what's next what's next what's next we have oh yeah I wanted to talk about this last time but I didn't get too much of a chance so there are now some desk So these are the holes that'll be on the manual so if you see over where it's what says on the manual there are all the end holes and those are the ones that blind joint into the extrusion below them these ones below are specifically for a mod and LDLs included them so there's a blind joint to the column so the only difference is this should make it a little bit stiffer not by much compared to what's already there but it means when you're doing your tramming instead of doing it from the 90 degree blocks that sit on top you lift the entire plate up which are gonna be more annoying but you get an extra bit of stiffness from it so it's a trade-off but it's one that I'm gonna do today so what I need what I need I will need some M5 nuts I'll need some 90 degree connectors I'll need some M3x8 I believe yeah M3x8 Yep that's about it cool and I only need one of those for this part and we're gonna do the devil horns so I need four at the back so four for the back two for the front and these are if you it makes your life a little bit easier these are 2020 90 degree connectors so they're 20 across 20 down and 20 mil tall so they're basically just a cube but cut in half across the hypothenus so if you want to measure off of anything just you can eyeball it rather than having to measure specifically you don't have to get any calipers out or anything there's nothing in any of the 90 degree assemblies that really requires them so we'll need two on the ends has anyone had a look at UK filament prices right now I went I wanted to try and restock earlier today and I wanted to go with glass fiber ABS again because I don't like the glass fiber PETG that I have and I want some stuff so I can work on Atlas and it's all glass fiber ABS already generally I've been buying from Bamboo Labs as much as I hate buying from them they at one point had the cheapest stuff when you bought it in bulk so you could buy 10 kilos for 150 bucks and it was it was all right stuff now since what's happened with Iran's the prices have finally caught up"
+    },
+    {
+      "start": 1202.8999999952316,
+      "end": 1209.2199998092651,
+      "text": "248 pounds for 10 kilos of Glass Fire Radius."
+    },
+    {
+      "start": 1209.2199998092651,
+      "end": 1214.8199992370605,
+      "text": "It's nearly doubled in price."
+    },
+    {
+      "start": 1214.8199992370605,
+      "end": 1220.8999991607666,
+      "text": "And that's the bulk price."
+    },
+    {
+      "start": 1220.8999991607666,
+      "end": 1223.1399989318847,
+      "text": "It's rough."
+    },
+    {
+      "start": 1223.1399989318847,
+      "end": 1225.7800002288818,
+      "text": "It do be rough."
+    },
+    {
+      "start": 1225.7800002288818,
+      "end": 1227.1399989318847,
+      "text": "What do I need?"
+    },
+    {
+      "start": 1227.1399989318847,
+      "end": 1229.2199988555908,
+      "text": "I need these ones."
+    },
+    {
+      "start": 1229.2199988555908,
+      "end": 1231.379998703003,
+      "text": "Is this one for the bottom or for the top?"
+    },
+    {
+      "start": 1231.379998703003,
+      "end": 1232.179999847412,
+      "text": "I can't remember."
+    },
+    {
+      "start": 1232.179999847412,
+      "end": 1237.5400004577637,
+      "text": "That's for the bottom."
+    },
+    {
+      "start": 1237.5400004577637,
+      "end": 1244.6599993896484,
+      "text": "So don't need to worry about this just yet."
+    },
+    {
+      "start": 1244.6599993896484,
+      "end": 1245.0600009155273,
+      "text": "Ouch."
+    },
+    {
+      "start": 1245.0600009155273,
+      "end": 1249.2999987792969,
+      "text": "Yes, very much ouch."
+    },
+    {
+      "start": 1249.2999987792969,
+      "end": 1252.4199977111816,
+      "text": "So yeah."
+    },
+    {
+      "start": 1252.4199977111816,
+      "end": 1253.7000003051758,
+      "text": "Put it like this."
+    },
+    {
+      "start": 1253.7000003051758,
+      "end": 1269.1399951171875,
+      "text": "If I took all of all of the money that Patreon gets me for the month, right in a whole month of saving up, I still would not be able to afford 10 kilos of ABS."
+    },
+    {
+      "start": 1269.1399951171875,
+      "end": 1271.4599948120117,
+      "text": "I know 10 kilos of ABS is a lot."
+    },
+    {
+      "start": 1271.4599948120117,
+      "end": 1275.4599948120117,
+      "text": "So let's put it in perspective."
+    },
+    {
+      "start": 1275.4599948120117,
+      "end": 1282.899997253418,
+      "text": "Just to put it in perspective, it's a bit ridiculous me going, oh, I'll buy 10 kilos of ABS every single month."
+    },
+    {
+      "start": 1282.899997253418,
+      "end": 1292.5799975585937,
+      "text": "Normally it lasts me like a month and a half."
+    },
+    {
+      "start": 1292.5799975585937,
+      "end": 1300.1799960327148,
+      "text": "Luckily, I still have five kilos of glass-filled ABS from Bamboo, but it's red."
+    },
+    {
+      "start": 1300.1799960327148,
+      "end": 1301.779994506836,
+      "text": "And it was meant to be the accent colour for that."
+    },
+    {
+      "start": 1301.779994506836,
+      "end": 1303.779994506836,
+      "text": "It's still going to be the accent colour for that."
+    },
+    {
+      "start": 1303.779994506836,
+      "end": 1308.8199954223633,
+      "text": "But I still need the plain colour."
+    },
+    {
+      "start": 1308.8199954223633,
+      "end": 1314.499995727539,
+      "text": "And considering each axis takes three kilos, each y-axis takes three kilos."
+    },
+    {
+      "start": 1314.499995727539,
+      "end": 1371.1399951171875,
+      "text": "Yeah, it ain't cheap, nice, nice."
+    },
+    {
+      "start": 1371.1399951171875,
+      "end": 1374.6599993896484,
+      "text": "I do want to get as much done this stream as possible."
+    },
+    {
+      "start": 1374.6599993896484,
+      "end": 1377.0599932861328,
+      "text": "That's all he said."
+    },
+    {
+      "start": 1377.0599932861328,
+      "end": 1377.8599963378906,
+      "text": "Hey, I'm back."
+    },
+    {
+      "start": 1377.8599963378906,
+      "end": 1380.740001220703,
+      "text": "I missed last stream, but why haven't you got Atlas out?"
+    },
+    {
+      "start": 1380.740001220703,
+      "end": 1382.02,
+      "text": "Been working on it."
+    },
+    {
+      "start": 1382.02,
+      "end": 1383.9399981689453,
+      "text": "Atlas has always been out."
+    },
+    {
+      "start": 1383.9399981689453,
+      "end": 1387.9399981689453,
+      "text": "You just haven't seen it because Cassita has been hiding it."
+    },
+    {
+      "start": 1387.9399981689453,
+      "end": 1389.779994506836,
+      "text": "It's always been here."
+    },
+    {
+      "start": 1389.779994506836,
+      "end": 1395.9399981689453,
+      "text": "But I was doing some moving around of things, so I moved the Prussia over to the printing side of the room."
+    },
+    {
+      "start": 1395.9399981689453,
+      "end": 1417.9399981689453,
+      "text": "And I had a bunch of space here that I wasn't using, and I thought, okay, if I put Atlas there, it's going to kind of force me to actually do some work on it."
+    },
+    {
+      "start": 1417.9399981689453,
+      "end": 1418.6599993896484,
+      "text": "Which it has."
+    },
+    {
+      "start": 1418.6599993896484,
+      "end": 1424.6599993896484,
+      "text": "I've done a bunch of CAD on it since."
+    },
+    {
+      "start": 1424.6599993896484,
+      "end": 1442.6599993896484,
+      "text": "I've been thinking of doing a CAD stream, but there's something about me that just goes, CAD streams would be so boring to watch Just watching Brisket."
+    },
+    {
+      "start": 1442.6599993896484,
+      "end": 1444.499995727539,
+      "text": "Brisket is not a calm dog."
+    },
+    {
+      "start": 1444.499995727539,
+      "end": 1450.499995727539,
+      "text": "He's very much a high-energy, high cuddle drive dog."
+    },
+    {
+      "start": 1450.499995727539,
+      "end": 1459.5399890136719,
+      "text": "But he is still as a rock right now, which is why he's actually in stream today."
+    },
+    {
+      "start": 1459.5399890136719,
+      "end": 1465.6200061035156,
+      "text": "I'm a bit worried about him because of it and because of how hot it is."
+    },
+    {
+      "start": 1465.6200061035156,
+      "end": 1467.7799792480469,
+      "text": "He's had ice cubes in his water all day."
+    },
+    {
+      "start": 1467.7799792480469,
+      "end": 1470.4199938964844,
+      "text": "He doesn't feel overly hot."
+    },
+    {
+      "start": 1470.4199938964844,
+      "end": 1471.4600024414062,
+      "text": "He's not panting or anything."
+    },
+    {
+      "start": 1471.4600024414062,
+      "end": 1484.740001220703,
+      "text": "I just worried about him for this piece here."
+    },
+    {
+      "start": 1484.740001220703,
+      "end": 1487.1399951171875,
+      "text": "One side is threaded in two points."
+    },
+    {
+      "start": 1487.1399951171875,
+      "end": 1489.6200061035156,
+      "text": "The other side is threaded in no points."
+    },
+    {
+      "start": 1489.6200061035156,
+      "end": 1491.1399951171875,
+      "text": "Sorry, in four points."
+    },
+    {
+      "start": 1491.1399951171875,
+      "end": 1497.219981689453,
+      "text": "So the four-pointed one goes this way."
+    },
+    {
+      "start": 1497.219981689453,
+      "end": 1498.02,
+      "text": "How would that go?"
+    },
+    {
+      "start": 1498.02,
+      "end": 1500.6599841308594,
+      "text": "It goes where's the bearing lock"
+    },
+    {
+      "start": 1503.2849999046325,
+      "end": 1508.9649997329711,
+      "text": "No, the two-pointed one goes this way."
+    },
+    {
+      "start": 1508.9649997329711,
+      "end": 1526.5649991607665,
+      "text": "Yeah, so two point goes towards the end of in the same direction as the two 90-degree connectors Poor Brisk Kid."
+    },
+    {
+      "start": 1526.5649991607665,
+      "end": 1527.4450002288818,
+      "text": "It is so hot."
+    },
+    {
+      "start": 1527.4450002288818,
+      "end": 1537.0450006103515,
+      "text": "Yeah, I'm worried though, because he's usually the type of dog who goes and lays himself in the sun."
+    },
+    {
+      "start": 1537.0450006103515,
+      "end": 1642.0049920654296,
+      "text": "If I'm away and I'll look on the little dog cam I have for him at work or whatever me checking in on him He's always lying wherever the sun is coming through the shades so for him to be hot is a rare thing But then again it has been so cold this most of this year up until now that maybe it's just because it was cold back then I don't know I'm trying not to worry about it Next so C-beam comes on top with the C-beam facing upwards and then line it up with the ends if I do that for now and then just put sea beams on the ends put the T spots on the end Raj I used to have a paddling pool for buddy."
+    },
+    {
+      "start": 1642.0049920654296,
+      "end": 1642.644991455078,
+      "text": "Oh nice."
+    },
+    {
+      "start": 1642.644991455078,
+      "end": 1657.685,
+      "text": "I wish I could have a paddling pool for him but A, he hates water and B I live in a flat so it's not quite possible."
+    },
+    {
+      "start": 1657.685,
+      "end": 1802.0050073242187,
+      "text": "I do get him like wet towels and things like that just to cool him down on really really hot days And like I said before he gets water sorry he gets ice in his bowl and he occasionally gets to chew on ice as well or I'll freeze chicken stock or something for him Yeah, that makes sense I'm trying to go back through the CAD in my mind for this machine, but it's been nearly seven or eight months since I last made a CAD change like a good decent full spec CAD change So trying to remember everything that I've done and how things go together can be a bit difficult sometimes even when you're the one who designed the thing so I need M3x12s because those are the blind jointed versions and put this to the side for now So anything that goes into a blind joint or into the end of an extrusion is M3 by sorry M5 by 12 anything that goes into a T-Nut from the side is M5 by 10 So we need two on top Oh that's not true actually when it comes to a corner a 90 degree corner bracket those are M3 by M5 by 8s but not always"
+    },
+    {
+      "start": 1802.8149999892712,
+      "end": 1822.175000152588,
+      "text": "So I'd always double-check that you're doing your assembly."
+    },
+    {
+      "start": 1822.175000152588,
+      "end": 1827.0549993133545,
+      "text": "Ollie, do you want anything else before I send your stuff?"
+    },
+    {
+      "start": 1827.0549993133545,
+      "end": 1828.5749997711182,
+      "text": "You saying you were low on end mills."
+    },
+    {
+      "start": 1828.5749997711182,
+      "end": 1840.175000152588,
+      "text": "I've got an LDL kit I'm not using for end mills if you want them a full LDL kit."
+    },
+    {
+      "start": 1840.175000152588,
+      "end": 1847.4549989318848,
+      "text": "One of them's missing and I am going to keep the chamfer meal, but I can get you a couple of if you're still in chat."
+    },
+    {
+      "start": 1847.4549989318848,
+      "end": 2100.335,
+      "text": "I can get you a couple of end mills because I know you're still missing yours from when they broke in this last time There we go so you guys can actually see a little bit more what I'm doing some M5x8 goes into the 90 degree connectors yeah so normal M5x8s when it's going into a T-Nut sorry normal normal 90 degree connectors when they go into T-Nuts on either side those are M5x8 Most of the M5s that go into T-Nuts are M5x10 There are a few special occasions where longer bolts go into the corner connectors and blind joints tend to be M5x12 I mean if you have spare ones you've got to go you've got for free that would be super sweet if you get any free collets 90% of my collection was taken what collet sizes do you need I have some spare sixes and if you're wondering if I have enough end mills that draw is completely full of end mills so I don't use the LDO ones either because they're more expensive for me to get so I just buy the ones from DMS here in the UK shout out to DMS and Dave he will be stocking a few V2s at some stage from what I have been told actually any more corner connectors I need more corner connectors you need more power Scotty Yeah, I've got tons feel free to take some Is there anything particular that you need I have some spare six mill and some spare three mill collets Right those I saw that Raphael change making carousel they've had a carousel for a while They've had carousels for a while Are you talking about like a curret type thing or are you talking something else if you're talking something else just link it in stream chat in stream general and we will have a quick look at it"
+    },
+    {
+      "start": 2112.8150001525883,
+      "end": 2118.4949995040897,
+      "text": "I did some redesigns to the tool setter as well today."
+    },
+    {
+      "start": 2118.4949995040897,
+      "end": 2124.174998855591,
+      "text": "Nothing that's nothing major, although I just like the look of it a little bit better."
+    },
+    {
+      "start": 2124.174998855591,
+      "end": 2127.5349994659427,
+      "text": "So that's the old one."
+    },
+    {
+      "start": 2127.5349994659427,
+      "end": 2129.2949996948246,
+      "text": "That's the one that everyone knows and loves."
+    },
+    {
+      "start": 2129.2949996948246,
+      "end": 2131.0549999237064,
+      "text": "That's the new one."
+    },
+    {
+      "start": 2131.0549999237064,
+      "end": 2132.6549983978275,
+      "text": "It's basically the same thing."
+    },
+    {
+      "start": 2132.6549983978275,
+      "end": 2136.655000305176,
+      "text": "It's a little bit shorter this way, a little bit longer that way."
+    },
+    {
+      "start": 2136.655000305176,
+      "end": 2144.8949981689457,
+      "text": "And it has a bolt to make electrical connection with the what's it called?"
+    },
+    {
+      "start": 2144.8949981689457,
+      "end": 2145.614999389649,
+      "text": "The standard."
+    },
+    {
+      "start": 2145.614999389649,
+      "end": 2148.8150001525883,
+      "text": "So you put a pin in here and that's your standard offset."
+    },
+    {
+      "start": 2148.8150001525883,
+      "end": 2166.7349983215336,
+      "text": "So when you're doing your 3D probing and setting up a place for the probe to go and touch off of as a reference point, you can make an electrical connection with a multimeter and then attach the other end of the multimeter to your carbide."
+    },
+    {
+      "start": 2166.7349983215336,
+      "end": 2172.8949981689457,
+      "text": "And once they touch the plates, you've got your exact Z height."
+    },
+    {
+      "start": 2172.8949981689457,
+      "end": 2176.735002136231,
+      "text": "And that's literally the only change I've made to it."
+    },
+    {
+      "start": 2176.735002136231,
+      "end": 2178.094995117188,
+      "text": "Yeah, I saw that too."
+    },
+    {
+      "start": 2178.094995117188,
+      "end": 2181.7749954223636,
+      "text": "I went, that's Spice Rack."
+    },
+    {
+      "start": 2181.7749954223636,
+      "end": 2184.814996337891,
+      "text": "Yeah, the Rap Change is not even a good product."
+    },
+    {
+      "start": 2184.814996337891,
+      "end": 2186.9750000000004,
+      "text": "Like they would not work for my own."
+    },
+    {
+      "start": 2186.9750000000004,
+      "end": 2197.614999389649,
+      "text": "Yeah, well, just because they don't work on Milos don't mean they're not good products."
+    },
+    {
+      "start": 2197.614999389649,
+      "end": 2198.094995117188,
+      "text": "I don't know."
+    },
+    {
+      "start": 2198.094995117188,
+      "end": 2199.2949996948246,
+      "text": "I've never used the Rapid Change."
+    },
+    {
+      "start": 2199.2949996948246,
+      "end": 2203.3750015258793,
+      "text": "I can't comment on it."
+    },
+    {
+      "start": 2203.3750015258793,
+      "end": 2214.0150009155277,
+      "text": "And we kind of use exactly the same technology for if slightly different from what Rapid Change has done."
+    },
+    {
+      "start": 2214.0150009155277,
+      "end": 2246.1749969482426,
+      "text": "So it feels like if I call Rapid Change bad, I would call ourselves bad because we're using their tech or a very similar version of their tech I have asked LDO if they want to do like an ATC kit."
+    },
+    {
+      "start": 2246.1749969482426,
+      "end": 2259.6950012207035,
+      "text": "They might do a Spice Rack kit, but they won't be doing a four-pack kit because to them it's not a big enough product with enough parts in it to warrant making a full kit."
+    },
+    {
+      "start": 2259.6950012207035,
+      "end": 2261.9349914550785,
+      "text": "This makes sense."
+    },
+    {
+      "start": 2261.9349914550785,
+      "end": 2265.854989624024,
+      "text": "They've got to make their margins at the end of the day."
+    },
+    {
+      "start": 2265.854989624024,
+      "end": 2267.9349914550785,
+      "text": "They aren't making their margins."
+    },
+    {
+      "start": 2267.9349914550785,
+      "end": 2273.534997558594,
+      "text": "If they don't have enough stuff to put in the kit, they're not going to make enough of margin on it."
+    },
+    {
+      "start": 2273.534997558594,
+      "end": 2288.4150024414066,
+      "text": "Especially since Spice Rack is literally sorry, four-pack is literally just a bunch of bearings, some printed parts, and some bolts, and some springs."
+    },
+    {
+      "start": 2288.4150024414066,
+      "end": 2304.1749969482426,
+      "text": "You wouldn't even be able to supply collets for it because you need to you could possibly do like one set of collets, I suppose, like a common set, like a three, like two threes and two five mil five sorry, two six mil collets."
+    },
+    {
+      "start": 2304.1749969482426,
+      "end": 2312.7349945068363,
+      "text": "But even then, it's going to change depending on what your use case is."
+    },
+    {
+      "start": 2312.7349945068363,
+      "end": 2320.8949981689457,
+      "text": "So you may not even end up using those collets."
+    },
+    {
+      "start": 2320.8949981689457,
+      "end": 2333.1349884033207,
+      "text": "And again, if LDO's stopping doing carbide, which they are because carbide prices are ridiculous right now, then what's the point in them stocking collets?"
+    },
+    {
+      "start": 2333.1349884033207,
+      "end": 2334.094995117188,
+      "text": "Oh no, I like it."
+    },
+    {
+      "start": 2334.094995117188,
+      "end": 2348.094995117188,
+      "text": "I need to get a tool setter with a reference surface because my fixated was off my machine and in parts boxes in parts boxes because I was cleaning it down and it happens to be happened to be a stolen box."
+    },
+    {
+      "start": 2348.094995117188,
+      "end": 2402.9750000000004,
+      "text": "Oh sorry man I would argue from what I have seen from you guys with the tool changer the mechanism is very different compared to rapid changes rapid changes do not hit any torque specs Okay we've well other than Rumba we've never actually tested a torque spec with it yet so it's part of the plan we're going to But you gotta remember that what we've seen so far is Bright's version of the ER20 callet which is a bigger thread completely different thread which means that it's further away the actual turning points are further away the way the torque is being applied is further away"
+    },
+    {
+      "start": 2403.8250000023845,
+      "end": 2406.784999980927,
+      "text": "And there's more leverage on it, so you can get them tighter easily."
+    },
+    {
+      "start": 2406.784999980927,
+      "end": 2411.4249998474124,
+      "text": "That doesn't mean it's going to translate to an ER16 collet, right?"
+    },
+    {
+      "start": 2411.4249998474124,
+      "end": 2418.944999351502,
+      "text": "There's less leverage on an ER16 collet because the diameter is smaller."
+    },
+    {
+      "start": 2418.944999351502,
+      "end": 2423.1850000762943,
+      "text": "So we don't know yet if it's going to be working that way."
+    },
+    {
+      "start": 2423.1850000762943,
+      "end": 2431.5849996948245,
+      "text": "We know the ER20 version of it worked, but that ER20 version was an early prototype."
+    },
+    {
+      "start": 2431.5849996948245,
+      "end": 2433.1850000762943,
+      "text": "It's a very good early prototype, right?"
+    },
+    {
+      "start": 2433.1850000762943,
+      "end": 2454.224999084473,
+      "text": "There's some amazing work there, but it's still a prototype."
+    },
+    {
+      "start": 2454.224999084473,
+      "end": 2471.6650015258792,
+      "text": "Hopefully, now that I've got a machine that I can actually mess around with, I'm going to be able to mess around with, I can start helping Alan with the four-pack."
+    },
+    {
+      "start": 2471.6650015258792,
+      "end": 2475.424996032715,
+      "text": "I know it sounds like I'm kind of putting down my own product here, but I'm not."
+    },
+    {
+      "start": 2475.424996032715,
+      "end": 2513.824997558594,
+      "text": "I'm just saying there's a process of testing that needs to be done, and we haven't done it yet."
+    },
+    {
+      "start": 2513.824997558594,
+      "end": 2530.224999084473,
+      "text": "I hate multi-point blind joints because you have to go back and forth between each bolt to snug it up."
+    },
+    {
+      "start": 2530.224999084473,
+      "end": 2544.384995117188,
+      "text": "You have to do that like five times."
+    },
+    {
+      "start": 2544.384995117188,
+      "end": 2546.864990844727,
+      "text": "Are you still working on the slam stall tightening?"
+    },
+    {
+      "start": 2546.864990844727,
+      "end": 2547.5049902343753,
+      "text": "Yeah, yeah."
+    },
+    {
+      "start": 2547.5049902343753,
+      "end": 2549.2650000000003,
+      "text": "It's gonna be the same thing."
+    },
+    {
+      "start": 2549.2650000000003,
+      "end": 2553.9049993896488,
+      "text": "Apart from the space it takes for a work area, what are the advantages of the four-pack and the spice rack?"
+    },
+    {
+      "start": 2553.9049993896488,
+      "end": 2559.824997558594,
+      "text": "Well, the main advantages is that they're ATCs and that you don't need to change your tools manually."
+    },
+    {
+      "start": 2559.824997558594,
+      "end": 2564.7050024414066,
+      "text": "So the spice rack takes more tools."
+    },
+    {
+      "start": 2564.7050024414066,
+      "end": 2566.384995117188,
+      "text": "I think it's six tools."
+    },
+    {
+      "start": 2566.384995117188,
+      "end": 2568.065003051758,
+      "text": "It's either six or eight tools."
+    },
+    {
+      "start": 2568.065003051758,
+      "end": 2573.345001831055,
+      "text": "I can't remember off the top of my head."
+    },
+    {
+      "start": 2573.345001831055,
+      "end": 2578.864990844727,
+      "text": "And the idea is that it's effectively a separate axis."
+    },
+    {
+      "start": 2578.864990844727,
+      "end": 2580.9449926757816,
+      "text": "It's a rotational axis."
+    },
+    {
+      "start": 2580.9449926757816,
+      "end": 2590.384995117188,
+      "text": "So you're able to have a lot more tools in a lot smaller of a space and it take up less space on a table."
+    },
+    {
+      "start": 2590.384995117188,
+      "end": 2592.9449926757816,
+      "text": "The four-pack is just simple."
+    },
+    {
+      "start": 2592.9449926757816,
+      "end": 2597.824997558594,
+      "text": "It's the most simple ATC version."
+    },
+    {
+      "start": 2597.824997558594,
+      "end": 2606.544998779297,
+      "text": "But the downside is you get less tools for it and you're a bit more rigid in what tools you can use."
+    },
+    {
+      "start": 2606.544998779297,
+      "end": 2610.784989013672,
+      "text": "Like you could set up a spice rack probably some way."
+    },
+    {
+      "start": 2610.784989013672,
+      "end": 2614.544998779297,
+      "text": "I can imagine a couple ways you'd set it up for oversized tooling."
+    },
+    {
+      "start": 2614.544998779297,
+      "end": 2623.9049993896488,
+      "text": "So for like face mills and things like that, you could probably cut out a slot for it where once you've engaged, you can then pull it out through the side."
+    },
+    {
+      "start": 2623.9049993896488,
+      "end": 2626.1449896240238,
+      "text": "You can't do that on a four-pack."
+    },
+    {
+      "start": 2626.1449896240238,
+      "end": 2633.58499206543,
+      "text": "A four pack is meant to be the minimum amount of effort to get to the most value."
+    },
+    {
+      "start": 2633.58499206543,
+      "end": 2639.4249884033206,
+      "text": "So it's you don't need to worry about having an extra axis."
+    },
+    {
+      "start": 2639.4249884033206,
+      "end": 2641.824997558594,
+      "text": "You've just got the lid that shuts and closes."
+    },
+    {
+      "start": 2641.824997558594,
+      "end": 2643.104996337891,
+      "text": "You have four tools."
+    },
+    {
+      "start": 2643.104996337891,
+      "end": 2648.7049871826175,
+      "text": "You've got your roughing, your finishing, your small tool, and your champ for bit."
+    },
+    {
+      "start": 2648.7049871826175,
+      "end": 2660.145004882813,
+      "text": "Or if you use the same tool for roughing and finishing, so you've got your roughing finishing tool, which is like 6mm tool, a 3mm tool or smaller tool, a champ for mill, and then a specialty tool."
+    },
+    {
+      "start": 2660.145004882813,
+      "end": 2664.7050024414066,
+      "text": "So say you're using a thread mill or something like that."
+    },
+    {
+      "start": 2664.7050024414066,
+      "end": 2669.824997558594,
+      "text": "That's the whole idea of having four tool bays."
+    },
+    {
+      "start": 2669.824997558594,
+      "end": 2674.7050024414066,
+      "text": "Whereas you can do a lot more with a spice rack."
+    },
+    {
+      "start": 2674.7050024414066,
+      "end": 2678.305008544922,
+      "text": "You can have three specialty tools with different thread size is on them."
+    },
+    {
+      "start": 2678.305008544922,
+      "end": 2684.544998779297,
+      "text": "You could have a roughing and a finishing mill that are two completely different tools."
+    },
+    {
+      "start": 2684.544998779297,
+      "end": 2699.344986572266,
+      "text": "You can it's a lot more flexible, but with that extra flexibility comes the fact that it's a whole lot less simple and it's going to be a whole lot more expensive."
+    },
+    {
+      "start": 2699.344986572266,
+      "end": 2701.824997558594,
+      "text": "ATCs aren't cheap things."
+    },
+    {
+      "start": 2701.824997558594,
+      "end": 2702.865006103516,
+      "text": "You buy a decent collet"
+    },
+    {
+      "start": 2703.729999985695,
+      "end": 2705.09,
+      "text": "It'll cost you 10 bucks."
+    },
+    {
+      "start": 2705.09,
+      "end": 2710.6099999809267,
+      "text": "You need a collet for every single size tool that you're using."
+    },
+    {
+      "start": 2710.6099999809267,
+      "end": 2718.8499992752077,
+      "text": "So if you have, if you want to use two or three different fivemil or sixmil tools, you need two or three different collets."
+    },
+    {
+      "start": 2718.8499992752077,
+      "end": 2719.7299993896486,
+      "text": "That's 30 bucks, right?"
+    },
+    {
+      "start": 2719.7299993896486,
+      "end": 2722.69000038147,
+      "text": "That's just the collets."
+    },
+    {
+      "start": 2722.69000038147,
+      "end": 2725.010000076294,
+      "text": "Then you'll need the nuts themselves."
+    },
+    {
+      "start": 2725.010000076294,
+      "end": 2732.529998626709,
+      "text": "The nuts are another 10 bucks each for decent ones for ER16, maybe even 15 bucks."
+    },
+    {
+      "start": 2732.529998626709,
+      "end": 2748.369998779297,
+      "text": "So just in the tooling alone, just in the tooling alone, you are spending sorry, just in the fixtures alone, before you even get to tooling, you're spending like nearly 80 bucks."
+    },
+    {
+      "start": 2748.369998779297,
+      "end": 2883.569995727539,
+      "text": "That's just for a four-pack They use the same ultralight the ultra light yeah Yeah, it's the ultra it's the ultralight 17 board you don't need to use the ultralight board so the thing that the ultralight board gets you is an extra driver it gets you an extra driver and that's it that's basically the only reason we use it it's a can connected driver if you don't have a fourth axis you can use the driver off of where the fourth axis would be just depends how you set it up the whole point of having the can board is so that if you wanted to drive both you could because there's only five four drivers both there's only four drivers on silo if you want to drive the main Milo which is three axes a fourth axis and then you'll also need an extra driver board a driver just for any either the four pack or the spice rack both of them require a fifth driver if you've got fourth axis if you don't have the fourth axis just use the one that's on the board you don't need it you don't need to get an N17 I still consider it impact night being it was but yeah they say are you buying gold plated nuts I got five for 20 on Amazon yeah and they're shit I'm sorry mate I don't buy anything but at least double a rated collet nuts you're just shooting yourself in the foot I've had 0."
+    },
+    {
+      "start": 2883.569995727539,
+      "end": 2950.0499914550783,
+      "text": "5 mil of run out just on collets just on shitty collets I don't buy anything that's not decent when it comes to collets themselves tooling I will go as cheap as I can get it Collets on the other hand is a reason you have so much that people have so many surface issues is because they cheap out on that kind of stuff don't buy collets on Amazon They're shit Are you buying no Gotcha?"
+    },
+    {
+      "start": 2950.0499914550783,
+      "end": 2986.7699926757814,
+      "text": "Let's gonna be sliding here now Probably worth loosening these up a little bit more A is better or less yes better You can go you can get AAAs you can go all the way down to no way And those are like the ones that you buy from Amazon off from Amazon sorry"
+    },
+    {
+      "start": 3043.7299995422363,
+      "end": 3061.969997406006,
+      "text": "It's locked in now, so I don't need to worry about falling out anyways, anyways, anyone got any cool projects lined up at some stage."
+    },
+    {
+      "start": 3061.969997406006,
+      "end": 3074.0499954223633,
+      "text": "I am going to start getting ready for the winter climbing season again, and I'm going to try my hand at getting some tierated tooling, some tierated ice axe tooling sorted."
+    },
+    {
+      "start": 3074.0499954223633,
+      "end": 3084.6100006103516,
+      "text": "I do have my own my climbing axes already, but it'd be a fun project to make my own."
+    },
+    {
+      "start": 3084.6100006103516,
+      "end": 3085.729995727539,
+      "text": "Where do you get the nuts?"
+    },
+    {
+      "start": 3085.729995727539,
+      "end": 3089.970001220703,
+      "text": "I buy them from it depends."
+    },
+    {
+      "start": 3089.970001220703,
+      "end": 3104.7699966430664,
+      "text": "Most of the time I buy them from DMS just because they have the ones that LDO sells still, and the LDO ones are triple no, sorry, double A, I think."
+    },
+    {
+      "start": 3104.7699966430664,
+      "end": 3108.6899948120117,
+      "text": "Haha, nuts, you child."
+    },
+    {
+      "start": 3108.6899948120117,
+      "end": 3122.529998779297,
+      "text": "I mean, we're all children here, but doesn't stop me from pointing it out."
+    },
+    {
+      "start": 3122.529998779297,
+      "end": 3137.0899963378906,
+      "text": "Ollie, you still haven't told me what size tooling you need or what size colours you want farm next project is CNC."
+    },
+    {
+      "start": 3137.0899963378906,
+      "end": 3137.729995727539,
+      "text": "My mini lathe."
+    },
+    {
+      "start": 3137.729995727539,
+      "end": 3139.5699920654297,
+      "text": "Oh, yeah, I saw that."
+    },
+    {
+      "start": 3139.5699920654297,
+      "end": 3142.8499908447266,
+      "text": "That looked cool."
+    },
+    {
+      "start": 3142.8499908447266,
+      "end": 3148.209991455078,
+      "text": "Not the mini lathe I was expecting."
+    },
+    {
+      "start": 3148.209991455078,
+      "end": 3153.8099975585938,
+      "text": "I thought you were going to get one of the more modern, like, V-Vor style ones."
+    },
+    {
+      "start": 3153.8099975585938,
+      "end": 3157.729995727539,
+      "text": "But that thing is a proper mini mini lathe."
+    },
+    {
+      "start": 3157.729995727539,
+      "end": 3166.289993286133,
+      "text": "Almost kind of looks like a watchmaker's lathe."
+    },
+    {
+      "start": 3166.289993286133,
+      "end": 3204.209991455078,
+      "text": "It's a teeny weenie lathe."
+    },
+    {
+      "start": 3204.209991455078,
+      "end": 3205.0899963378906,
+      "text": "Oh, yeah, sorry, dude."
+    },
+    {
+      "start": 3205.0899963378906,
+      "end": 3206.1299896240234,
+      "text": "I am not that possible."
+    },
+    {
+      "start": 3206.1299896240234,
+      "end": 3209.6499938964844,
+      "text": "Anything you have lying around you got for free would be really sweet."
+    },
+    {
+      "start": 3209.6499938964844,
+      "end": 3211.489990234375,
+      "text": "I just want to get back to going in the project."
+    },
+    {
+      "start": 3211.489990234375,
+      "end": 3218.1299896240234,
+      "text": "You said nuts a lot last stream when I get lost in the first half of the stream."
+    },
+    {
+      "start": 3218.1299896240234,
+      "end": 3220.769989013672,
+      "text": "I like nuts, okay?"
+    },
+    {
+      "start": 3220.769989013672,
+      "end": 3229.3300018310547,
+      "text": "Don't you judge me?"
+    },
+    {
+      "start": 3229.3300018310547,
+      "end": 3239.6499938964844,
+      "text": "Oh, speaking of which, last week my parents are around, and because one of the big import exports from Kenya is cashew nuts."
+    },
+    {
+      "start": 3239.6499938964844,
+      "end": 3245.8899993896484,
+      "text": "I got three kilos of cashew nuts, and I have a mate of mine at work who loves them."
+    },
+    {
+      "start": 3245.8899993896484,
+      "end": 3259.8899841308594,
+      "text": "She's constantly buying them from the little snack counter that we have, and they're like two packs, two pounds, so roughly three dollars for a tiny little pack like that."
+    },
+    {
+      "start": 3259.8899841308594,
+      "end": 3272.209991455078,
+      "text": "So I showed up one day with this one kilo bag in my hand and just the look on her face."
+    },
+    {
+      "start": 3272.209991455078,
+      "end": 3299.5700073242188,
+      "text": "It cost my parents like I don't know 15 bucks USD for that one packet for that one kilo packet Right That's a lot of nuts Send half my way"
+    },
+    {
+      "start": 3305.709999895096,
+      "end": 3308.90999994278,
+      "text": "Maybe maybe one day right."
+    },
+    {
+      "start": 3308.90999994278,
+      "end": 3529.0700012207035,
+      "text": "So, this is the bit of the manual I'm not gonna be following because it's gonna involve the Z axis for me whereas for you guys if you're not doing this mod it won't involve the z axis for you So I'm gonna be blind jointing that section that front section there Which means loading a bunch of M5x12s M5x12s over here So I need eight of these seven eight Lead one at the top I believe this is correct spacing Ignore this bottom row you don't need to install any of them in the bottom row Cashing nuts are better in Nigeria I'm sure they are man They're also better in Kenya I can't think of a bunch of small boat fittings I can think of a few of a bunch of small boat fittings I would like to know when you say boat fittings do you mean big yacht or do you mean do you mean like sailing boats or are you just really tricking out your canoe for the for the season for the summer pin my canoe oosh oosh flame pin stripes all the way down your your paddle for a bunch of weights in the very back of the canoe so that the front is going like that you're wheeling a canoe Jake any ideas on where I can pick up the fixation cheap using T-Nuts for work holding is a pain I don't know why you can pick one up for cheap but DMS still has a few on sale I think I am gonna use one of these just as a blocker so if I put the M5x8 ones corner connectors there last four corner connectors small sale though of course anything would work but cheap so probably a V1 Do I have one I think I've got one I'll have a look around I think I might have one I might have one that I just oh I've got one on the V I do have one actually but it's on the V1."
+    },
+    {
+      "start": 3529.0700012207035,
+      "end": 3538.189996337891,
+      "text": "6 The guy who won the V1."
+    },
+    {
+      "start": 3538.189996337891,
+      "end": 3565.3099914550785,
+      "text": "6 he hadn't used it the entire time he'd had it so he'd had it for about five months he he wasn't very big into the DIY even 3D printing side of things so we offered to trade him for some 3D printer filament so he got like five kilos of PLA and we got V1."
+    },
+    {
+      "start": 3565.3099914550785,
+      "end": 3602.3500000000004,
+      "text": "6 back so that's in the container right now I don't think I'll be giving away big machines again in future I think we're gonna stick to like smaller prizes or if big machines are being given away it'll be given away by a company and we'll just be doing the draw on their behalf Is it balance installed?"
+    },
+    {
+      "start": 3602.3500000000004,
+      "end": 3602.5100036621097,
+      "text": "Nope."
+    },
+    {
+      "start": 3603.1250000023842,
+      "end": 3646.164998474121,
+      "text": "I'm waiting on some epoxy and some sand to arrive I'm fine doing that installation afterwards It makes a difference but it doesn't make so much of a difference that I'm putting the whole build on hold for it I've got a little bit of epoxy got a little bit of the right kind of epoxy for it but probably not enough Here I was thinking of scoring the Atlas."
+    },
+    {
+      "start": 3646.164998474121,
+      "end": 3901.364987792969,
+      "text": "There's no kits gonna be made of Atlas people forget this like Atlas is too big of a machine to send overseas all of the time most of the time oh universe I started watching Chainsaw Man last night I'm not a big fan of the main character but the animation's dope We invented teleporter yeah you only need to take to take off the channel that's cool I will trade you five kilograms of filament for it back if you want I looked at the fixated on DMS but it was 90 pounds and I don't really have that kind of money to spend on a plate right now nice and waiting for season two man I'll we'll work something out we will work something out sounds like you really got it rough lately dude yeah but it's the one thing that he wants that I don't like I don't it just I don't like the the ultra horniness of a lot of anime that's why I love anime that's like Violet Evergarden and Free Rin and all that stuff that's my that's my jam JJ is alright I'm not the biggest not I'm not a super fan of it I feel like the magic system is a bit all over the place AOT is still my prime my favorite one of all time but that's a bit basic I suppose Demons of the Shadow Realm isn't too bad for metal Archemist is pretty good He's not sending you yeah Is there reason I stopped watching Fire Force as well because it's just got a bit it just it feels awkward to watch at times AOT me I know a lot of people feel that way about AOT You're entitled to your own opinion It's my life man just feels like everything in my garage is falling apart right now I had my VFD go a few days ago as well so got to replace that also running printed plates again is not fun they just don't work the same as Ali ones yeah"
+    },
+    {
+      "start": 3902.6749999785425,
+      "end": 4009.2349966430666,
+      "text": "Yeah There is kind of a the nice thing about working on a 3D printer is you can always make an impermanent change on a 3D printer with 3D printed parts You can't really do that on a mill some parts just have to be metal and you just can't get away with that without that Gotcha right that's that almost done I just made a really stupid mistake and I forgot to load the T-nuts so this has got to come off Well actually actually no they don't need this doesn't need to come off there is a way something else will come off but was that for me Alexa shut up I was not talking to you Come on bud let's let you out let you out there you go you go chill in the cool air go chill by the window Alexa living room lights on Okay The thing that really gets me is had so many random parts in a box like maybe 1."
+    },
+    {
+      "start": 4009.2349966430666,
+      "end": 4128.274997558594,
+      "text": "6 plates and then some absolute idiots decide that they want that which is just going to go in the bin That's how that works people who come into steal things don't care about what they're stealing because to them they can always find the value of it later They think they can always find the value of it later or they think that something looks like it would cost a lot of money because they have no idea what it is And there's also some people in this world who just like stealing things They don't actually care about anything else other than the theft and the feeling that gives them And in a way I kind of feel sorry for them But in another way I really don't My parents are in Istanbul right now and they keep sending me a million photos like I'm glad you guys are having fun but I really don't care about your trip Honestly I think it must have been all fun or stealing because unless you know what you're doing What is a bunch of nill parts and the Voron worth to idiots Who knows?"
+    },
+    {
+      "start": 4128.274997558594,
+      "end": 4148.594989624024,
+      "text": "They might be Voron enthusiasts They might be 3D printing enthusiasts You might find a serial request for your Voron in the next few days I know I'm joking about something that's all absolutely horrible So I'm sorry about that part."
+    },
+    {
+      "start": 4148.594989624024,
+      "end": 4201.634982910156,
+      "text": "I am genuinely sorry that that happened to you But you gotta try look at the right side of this kind of thing at least no one got hurt At least physically My god, I would be so angry, but I would see the funny side of it yeah You've got to see the funny side of this kind of these kind of things you've got to otherwise you just you're never gonna recover from it and it'll scar you for life and that's that's the worst thing that a thief can do for you"
+    },
+    {
+      "start": 4202.829999978542,
+      "end": 4396.509999389648,
+      "text": "Is make you scared for the rest of your life When I started my build the ASA got for it was stolen in the two hours it was delivered and I went looking for it That's rough did you get a refund I found the package by the bus stop at the side of my unit nice at least you got it back I'm lucky where I live right now I wasn't always lucky about where I live but right now I am quite lucky because theft is so low in my area like I had the Core 1L outside my house for 18 hours before I got home And I knew it was gonna be home when it when I got back But that's the difference between living in a small town and living in a big city or a big metro area And you don't always get the choice of where you live some people will be like oh if you don't like it then leave you don't always you're not always able to do that it takes money to leave unfortunately not like the olden days where you could just pack up what you had and get on the next bus Oh the package was empty man At least you got your refund four for that side and then I'll need one two three one two I think I only need two yeah I think LDO sent a bunch of extras Can't think of another part of this that needs that I'm sure it'll come up later Right, what are we on for likes?"
+    },
+    {
+      "start": 4396.509999389648,
+      "end": 4397.629994506836,
+      "text": "What do we got for likes low?"
+    },
+    {
+      "start": 4397.629994506836,
+      "end": 4410.590001220703,
+      "text": "We got for likes So far only three likes on the uh on the stream There's 12 people in chat but only three likes god damn it."
+    },
+    {
+      "start": 4410.590001220703,
+      "end": 4493.310002441406,
+      "text": "I thought you guys said you promised you weren't gonna let me down anymore Nahid If you could like the stream that would be really helpful it means that it gets shown to more people on YouTube and the more likes you have the more likely people are going to come and actually watch the content And then we have loads more fresh faces in the chat to talk with if you haven't already a subscribe also helps me immensely more people that get subscribed to me the more people that will know when I go live and the more watch hours we can get I see seven seven's still not 12 though Oh and Jake once I get my machine back up and running I am nearly done with the final CAD for the probe to see I was working on oh cool refreshing attack now shows nine cool See asking nicely does get you something does get you stuff in life"
+    },
+    {
+      "start": 4509.949999809265,
+      "end": 4789.470001220703,
+      "text": "I've done it again Gonna have to take all these corner connectors off because I need to get access I need those holes to get access to the bolts that actually slide into the axis at least the T-Nuts are in the right location No no I haven't please don't tell me I've stripped the bolt There we go Nope Oh no, please don't tell me I've stripped this Fuck Pardon my French but fuck I've stripped two god damn it strip another God damn it how have I done that I haven't even taught these down zero tooling There you go that's one of the stripped ones out putting that to the side thank fuck for tapered tools Thank fuck for tapered Allen wrenches god damn it Those are the ones I mentioned using longer screws than 12mm They're not 12 mil they're M5x30s Don't know what you kind of getting on there bud There aren't any M5x12s there at all These are M5x8s because if they weren't M5x8s they would hit the bottom of the extrusion do this let's assemble this sideways for now start"
+    },
+    {
+      "start": 4804.84499997139,
+      "end": 4819.08499950409,
+      "text": "Let's get these a little tighter first, so I don't need to worry about it."
+    },
+    {
+      "start": 4819.08499950409,
+      "end": 4821.005000534058,
+      "text": "Thought you're referring to the screws that go into the column."
+    },
+    {
+      "start": 4821.005000534058,
+      "end": 4823.485000076294,
+      "text": "The screws that go into the column."
+    },
+    {
+      "start": 4823.485000076294,
+      "end": 4825.16500038147,
+      "text": "Oh, oh, yeah, gotcha, gotcha."
+    },
+    {
+      "start": 4825.16500038147,
+      "end": 4826.524999084473,
+      "text": "I know the ones you talk about."
+    },
+    {
+      "start": 4826.524999084473,
+      "end": 4839.5650000000005,
+      "text": "Yeah, there's no point in making them longer than that, because they're not there to the thread that goes into the side of the column is not a load-bearing thread."
+    },
+    {
+      "start": 4839.5650000000005,
+      "end": 4844.124997558594,
+      "text": "It's only there to stop lateral movement or sliding movement up the channels."
+    },
+    {
+      "start": 4844.124997558594,
+      "end": 4848.684998931885,
+      "text": "So if you make them longer, they don't increase any strength."
+    },
+    {
+      "start": 4848.684998931885,
+      "end": 4878.04499572754,
+      "text": "There's no point in making them longer."
+    },
+    {
+      "start": 4878.04499572754,
+      "end": 4883.884999694825,
+      "text": "I struck the first two threads, so I had to go longer and get damn it."
+    },
+    {
+      "start": 4883.884999694825,
+      "end": 4888.364995422364,
+      "text": "Universe."
+    },
+    {
+      "start": 4888.364995422364,
+      "end": 4904.124997558594,
+      "text": "Please don't get auto-banned by YouTube."
+    },
+    {
+      "start": 4904.124997558594,
+      "end": 4924.524999084473,
+      "text": "I've still got the YouTube moderator thing on which I haven't seen my stream elements boss in a while."
+    },
+    {
+      "start": 4924.524999084473,
+      "end": 4927.80499786377,
+      "text": "We need to get that sorted for next stream."
+    },
+    {
+      "start": 4927.80499786377,
+      "end": 4929.324994506836,
+      "text": "Add that to the list."
+    },
+    {
+      "start": 4929.324994506836,
+      "end": 4949.88499206543,
+      "text": "Oh, do you like my you can't read this, but this is me and my girlfriend tier listing different cereals the other day I say the other day it was yesterday Where's my hammer gone?"
+    },
+    {
+      "start": 4949.88499206543,
+      "end": 4955.8049902343755,
+      "text": "I had a little mallet that you'd use to tap things into place, but I can't find it."
+    },
+    {
+      "start": 4955.8049902343755,
+      "end": 4976.444989624024,
+      "text": "I haven't been able to find it for two days must have moved it somewhere No no, that's way off I promise that was not on purpose."
+    },
+    {
+      "start": 4976.444989624024,
+      "end": 5098.0449804687505,
+      "text": "Yeah, yeah Whatever you say bud So when it comes to tramming now you're tramming between these two points here rather than tramming where the 90 degree connectors would be and shimming under there now shimming under this place here which should mean stiffness is increased by quite a bit No, these do need to be longer don't they What size do they need to be ones that go into the side of the column Yeah, so those are the M5x12s you're talking about I really am doing this in the wrong order today, aren't I?"
+    },
+    {
+      "start": 5098.0449804687505,
+      "end": 5104.285001220704,
+      "text": "That's gonna have to come off again, isn't it?"
+    },
+    {
+      "start": 5106.784999904632,
+      "end": 5107.90500002861,
+      "text": "Follow the damra manual."
+    },
+    {
+      "start": 5107.90500002861,
+      "end": 5118.304999885559,
+      "text": "Read the fucking manual M5x6s."
+    },
+    {
+      "start": 5118.304999885559,
+      "end": 5120.944999275207,
+      "text": "No, so I don't need to take them off."
+    },
+    {
+      "start": 5120.944999275207,
+      "end": 5125.025000152587,
+      "text": "So these are M5x30s that I need to go down the side."
+    },
+    {
+      "start": 5125.025000152587,
+      "end": 5128.785000381469,
+      "text": "So that can stay tight."
+    },
+    {
+      "start": 5128.785000381469,
+      "end": 5131.664999542236,
+      "text": "So I wasn't wrong."
+    },
+    {
+      "start": 5131.664999542236,
+      "end": 5142.225000915527,
+      "text": "I was just not right by 30s."
+    },
+    {
+      "start": 5142.225000915527,
+      "end": 5146.304998931884,
+      "text": "Right, let's do a quick clean up before this gets out of hand."
+    },
+    {
+      "start": 5146.304998931884,
+      "end": 5149.584997711181,
+      "text": "I ended up having little bits everywhere."
+    },
+    {
+      "start": 5149.584997711181,
+      "end": 5150.464998779296,
+      "text": "That's pretty neat."
+    },
+    {
+      "start": 5150.464998779296,
+      "end": 5154.0649972534175,
+      "text": "When I save up the cache, I think I'll buy the parts again and upgrade to V1."
+    },
+    {
+      "start": 5154.0649972534175,
+      "end": 5154.545000610351,
+      "text": "6."
+    },
+    {
+      "start": 5154.545000610351,
+      "end": 5162.944998321533,
+      "text": "Nice."
+    },
+    {
+      "start": 5162.944998321533,
+      "end": 5165.98499923706,
+      "text": "I don't think anyone's done."
+    },
+    {
+      "start": 5165.98499923706,
+      "end": 5167.504999694824,
+      "text": "I don't think anyone's done the V1."
+    },
+    {
+      "start": 5167.504999694824,
+      "end": 5168.544996795654,
+      "text": "4 to V1."
+    },
+    {
+      "start": 5168.544996795654,
+      "end": 5179.424997863769,
+      "text": "6 upgrade."
+    },
+    {
+      "start": 5179.424997863769,
+      "end": 5182.225000915527,
+      "text": "I'm pretty sure it's possible."
+    },
+    {
+      "start": 5182.225000915527,
+      "end": 5187.504999694824,
+      "text": "Can't remember anyone who's done it though."
+    },
+    {
+      "start": 5187.504999694824,
+      "end": 5190.464998779296,
+      "text": "Alright, so these can go like that."
+    },
+    {
+      "start": 5190.464998779296,
+      "end": 5270.704989013671,
+      "text": "I need to get some M3x30s."
+    },
+    {
+      "start": 5270.704989013671,
+      "end": 5272.545000610351,
+      "text": "No, sorry, I mean for my V1."
+    },
+    {
+      "start": 5272.545000610351,
+      "end": 5272.944994506835,
+      "text": "5."
+    },
+    {
+      "start": 5272.944994506835,
+      "end": 5273.905001220703,
+      "text": "I gave away my V1."
+    },
+    {
+      "start": 5273.905001220703,
+      "end": 5275.1849999999995,
+      "text": "4 a few months ago."
+    },
+    {
+      "start": 5275.1849999999995,
+      "end": 5277.104998168945,
+      "text": "I had all the parts to upgrade V1."
+    },
+    {
+      "start": 5277.104998168945,
+      "end": 5279.824999389648,
+      "text": "5 before the break-in."
+    },
+    {
+      "start": 5279.824999389648,
+      "end": 5280.864992675781,
+      "text": "It's not essential, but nice."
+    },
+    {
+      "start": 5280.864992675781,
+      "end": 5283.664995727539,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 5283.664995727539,
+      "end": 5284.064989624023,
+      "text": "Gotcha."
+    },
+    {
+      "start": 5284.064989624023,
+      "end": 5310.224993286132,
+      "text": "Gotcha."
+    },
+    {
+      "start": 5310.224993286132,
+      "end": 5322.304995117187,
+      "text": "That's a lot stiffer already."
+    },
+    {
+      "start": 5322.304995117187,
+      "end": 5323.1849999999995,
+      "text": "Loving the Prussia orange."
+    },
+    {
+      "start": 5323.1849999999995,
+      "end": 5327.744997558593,
+      "text": "Yeah, I love the orange from Pruzia."
+    },
+    {
+      "start": 5327.744997558593,
+      "end": 5330.784990844726,
+      "text": "It's a pity I couldn't get it in a glass fiber-filled one."
+    },
+    {
+      "start": 5330.784990844726,
+      "end": 5343.584993896484,
+      "text": "A lot of the glass fiber filled anythings are a little bit whiter, a little bit milkier in their colours, a little less saturated."
+    },
+    {
+      "start": 5343.584993896484,
+      "end": 5347.744997558593,
+      "text": "I think that's just part of it being of having glass fiber in it."
+    },
+    {
+      "start": 5347.744997558593,
+      "end": 5355.905001220703,
+      "text": "You can't get it to look exactly the same as the non-filled variants."
+    },
+    {
+      "start": 5355.905001220703,
+      "end": 5360.064989624023,
+      "text": "That was kind of one of the reasons why I decided to flip a bunch of the colours."
+    },
+    {
+      "start": 5360.064989624023,
+      "end": 5365.4249902343745,
+      "text": "So this would generally be the non-accent colour and everything."
+    },
+    {
+      "start": 5365.4249902343745,
+      "end": 5388.225008544921,
+      "text": "I've flipped a bunch of the colour schemes around just to make it look a little bit nicer and to try and get as much out of the PCCF as possible."
+    },
+    {
+      "start": 5388.225008544921,
+      "end": 5388.625002441406,
+      "text": "What's up next?"
+    },
+    {
+      "start": 5388.625002441406,
+      "end": 5395.264986572265,
+      "text": "I'm going to leave these two middle corner connectors off because when it comes to tramming, I'm going to need to get down at the bottom anyway."
+    },
+    {
+      "start": 5395.264986572265,
+      "end": 5398.065004882812,
+      "text": "But I still need to do the ones that go into the column."
+    },
+    {
+      "start": 5398.065004882812,
+      "end": 5401.584993896484,
+      "text": "And they, at this point, they won't be producing much."
+    },
+    {
+      "start": 5401.584993896484,
+      "end": 5403.6649804687495,
+      "text": "They won't be changing much force anyway."
+    },
+    {
+      "start": 5403.6649804687495,
+      "end": 5405.905001220703,
+      "text": "Once I've got it trammed, I'll stick them on."
+    },
+    {
+      "start": 5408.6199999570845,
+      "end": 5706.219989013672,
+      "text": "Not contributing enough to the structure of the machine anymore now that we've got the blind hole mod Whereas the two end ones actually do contribute to the structure What's the benefit of glass filled so glass filled versus non-glass filled anything is it's stiffer any fiber filled material tends to be stiffer but the actual strength of the part goes down so if I were to throw a glass filled part on the floor the likelihood of it breaking through impact is higher but the stiffness of the material is is also much higher so it's kind of a trade-off right the material also gets tends to get a little bit heavier when you put glass filled in when you're using glass filled versus carbon filled there's something worth remembering glass filled will always be able to because it's just heavier it's a heavier fill than carbon fiber is it's a little bit better at absorbing vibrations than a carbon filled would be because most composite materials like carbon fiber are very very bad at um at absorbing vibrations they like to propagate vibrations a lot more so on a cnc machine where you want to keep the vibe the total amount of vibrations down as much as possible a glass filled would be a better option to go with and glass fill tends to be a lot cheaper than carbon filled as well so if you're the the best part of a carbon filled uh material is it tends to be a little bit lighter so if you're building a c and see sorry if you're building a 3d printer and you want a really lice effector or um y-axis or hot end or this that and the next thing it's a lot better for you but with the advent of 3d sorry of uh milled parts on 3d printers and how common they're becoming you can get a lot stiffer of a gantry or whatever you're trying to build with a c and cart because you can remove 90% of the material so even though it's a metal part and metal is denser than plastic to get the same amount of strength you need a lot less of the metal part if that makes sense so you can remove 90% of the volume of the part get it to be lighter than the plastic part and still be three four five six times stronger even than a 3d printed part would be right that's done now just flip this around so you guys can actually see what else gonna be happening next what does the manual say right so bearing block now bearing block bearing block bearing block where did you put you over here so i need to put some m3 t nuts in hey steve how you doing bud are you doing looked like there was a load of people did steve did other steve's uh stream just end i'm guessing because we had a load of people come over and then a load of people leave so i'm guessing steve's stream just ended or someone else's stream just ended and they popped you out over here and then yeah good thanks keeping well no not yet oh cool yeah i'm keeping well it's hot in here it's bloody hot in here and another reason carbon filled materials are a bit of a pain to work with is because the tolerance that you put on the part to work with normal abs now suddenly doesn't work anymore so there we go everything's just a little bit more stretched than usual that's what she said i need some m3 by tens yeah it's bloody hot it's really really humid at the minute"
+    },
+    {
+      "start": 5707.684999978543,
+      "end": 5708.56499991417,
+      "text": "I'm dying a little bit."
+    },
+    {
+      "start": 5708.56499991417,
+      "end": 5709.9249998092655,
+      "text": "Brisket's good."
+    },
+    {
+      "start": 5709.9249998092655,
+      "end": 5711.524999713898,
+      "text": "Everyone else is doing fine."
+    },
+    {
+      "start": 5711.524999713898,
+      "end": 5713.685000038147,
+      "text": "We're having a great time on stream."
+    },
+    {
+      "start": 5713.685000038147,
+      "end": 5716.084999656678,
+      "text": "At least I think so."
+    },
+    {
+      "start": 5716.084999656678,
+      "end": 5725.364999389649,
+      "text": "Yeah, we're all good."
+    },
+    {
+      "start": 5725.364999389649,
+      "end": 5812.3249984741215,
+      "text": "Why I still don't recommend people don't use carbon-filled parts just as a standard or glass fill parts or any fiber-filled part because there are lots you'll feel yourself getting a lot more frustrated with the build when things aren't fitting the way that they should Especially don't do it with Voron parts because Voron parts are designed to have some flexure in them Whereas if I tried to design parts for flex and then I would be doing the opposite of designing good parts for CNC machines I'd be designing quite bad parts for CNC machines Jesus Christ is so stiff you back Hey Jake, what do you think of milling activity of milling activity for the discord of a milling activity for the discord?"
+    },
+    {
+      "start": 5812.3249984741215,
+      "end": 5936.165002441407,
+      "text": "What do you mean a milling activity for the discord What do you mean a milling activity for the Discord Do we not already do milling activities on the Discord considering it's a Discord dedicated to making milling machines Something like something oh we've tried it we've tried it The thing is you're not gonna be you're gonna make worse products more likely more than likely not you specifically but just people who are interested in it probably gonna make worse products and it's gonna be more expensive for you than getting it from like JLC and then there's also the upper layer of it being quite a lot of work for the dev team to have to oversee this all because if we're gonna have it as an official thing then we will make sure that everyone is making parts to a certain standard and if that standard's not met then you don't get the ability to do it you don't get the ability to be part of the program we had a myth program once in a while once upon a time And there's loads of people who say that they want to do it and then they produce maybe one set of parts and then say that they're really busy and they don't want to do it and this, that, and the next thing."
+    },
+    {
+      "start": 5936.165002441407,
+      "end": 5941.764993286133,
+      "text": "There's a reason like the Voron Piff guys are hardcore into the community."
+    },
+    {
+      "start": 5941.764993286133,
+      "end": 6007.284997558594,
+      "text": "They've proven themselves over time and they get vetted beforehand makes no sense for us to do it It's like everyone who says who buys a 3D printer saying that they're going to make money out of it You know Yeah, you could technically make some money out of it if you tried really hard But realistically you're not making a dime Realistically there are 50,000 other people who have thought the same idea and they've either got a proper print farm with 15 like 15 to 20 printers already or they've got products that they design themselves and it just so happens that the 3D printers are the things that the products are made on"
+    },
+    {
+      "start": 6008.814999961853,
+      "end": 6010.414999866485,
+      "text": "That's how you start a 3D printing farm."
+    },
+    {
+      "start": 6010.414999866485,
+      "end": 6015.454999828338,
+      "text": "You don't go online and start selling dragons and things that other people have designed."
+    },
+    {
+      "start": 6015.454999828338,
+      "end": 6023.614999198913,
+      "text": "You design your own thing that just so happens to be manufactured on a 3D printer."
+    },
+    {
+      "start": 6023.614999198913,
+      "end": 6026.734999084472,
+      "text": "And the same goes for CNC Milling."
+    },
+    {
+      "start": 6026.734999084472,
+      "end": 6032.494999313354,
+      "text": "If I wanted to CNC mill a whole kit at home, it would cost me more than it would be to buy it from JLC."
+    },
+    {
+      "start": 6032.494999313354,
+      "end": 6038.254999542236,
+      "text": "And JLC's tolerances would be a lot higher."
+    },
+    {
+      "start": 6038.254999542236,
+      "end": 6041.775,
+      "text": "It's a fun event, not something strict like that."
+    },
+    {
+      "start": 6041.775,
+      "end": 6046.414999389648,
+      "text": "I was thinking, like, you come up with a design and anyone interested can take part in it."
+    },
+    {
+      "start": 6046.414999389648,
+      "end": 6047.694998168945,
+      "text": "Oh, gotcha."
+    },
+    {
+      "start": 6047.694998168945,
+      "end": 6048.254999542236,
+      "text": "Gotcha."
+    },
+    {
+      "start": 6048.254999542236,
+      "end": 6052.174997711181,
+      "text": "Okay, so like a speed benchy thing."
+    },
+    {
+      "start": 6052.174997711181,
+      "end": 6068.014997863769,
+      "text": "I thought you're talking about a myth program where like someone orders a part from you and you try and fulfill the part Hey, Tal."
+    },
+    {
+      "start": 6068.014997863769,
+      "end": 6069.6150001525875,
+      "text": "What's the pricing?"
+    },
+    {
+      "start": 6069.6150001525875,
+      "end": 6071.134996795654,
+      "text": "What will the pricing be for the kit?"
+    },
+    {
+      "start": 6071.134996795654,
+      "end": 6073.53500213623,
+      "text": "We talked about it a couple streams ago."
+    },
+    {
+      "start": 6073.53500213623,
+      "end": 6084.094999694824,
+      "text": "I think we worked it out as something around about just under £2,000 for everything."
+    },
+    {
+      "start": 6084.094999694824,
+      "end": 6092.094999694824,
+      "text": "I think it was like $1600 for the mill itself and then another 400 for the eBay."
+    },
+    {
+      "start": 6092.094999694824,
+      "end": 6094.014997863769,
+      "text": "Something along those lines."
+    },
+    {
+      "start": 6094.014997863769,
+      "end": 6097.214994812011,
+      "text": "I can't remember off the top of my head though."
+    },
+    {
+      "start": 6097.214994812011,
+      "end": 6105.374998474121,
+      "text": "I normally refuse payment when someone asks me to print something unless someone uses a lot of filament when I just get them to buy then I just get to buy a new roll."
+    },
+    {
+      "start": 6105.374998474121,
+      "end": 6107.61499633789,
+      "text": "Exactly."
+    },
+    {
+      "start": 6107.61499633789,
+      "end": 6116.414999389648,
+      "text": "I actually do have a program where I for quoting prints and unless you're including labor, you're not making any money."
+    },
+    {
+      "start": 6116.414999389648,
+      "end": 6123.294996643066,
+      "text": "It's the labor that gets you the money."
+    },
+    {
+      "start": 6123.294996643066,
+      "end": 6142.495001220703,
+      "text": "The labor is the single highest cost in any 3D printing or not organization job Do I have it on here?"
+    },
+    {
+      "start": 6142.495001220703,
+      "end": 6192.575003051757,
+      "text": "Do I have my 3D printing Google Drive Google Drive Google Drive Print quotes I'll show you what I use to quote customers whenever I have them for things like this the new one is this old one Is this the old one?"
+    },
+    {
+      "start": 6192.575003051757,
+      "end": 6193.534994506836,
+      "text": "There we go."
+    },
+    {
+      "start": 6193.534994506836,
+      "end": 6195.2949890136715,
+      "text": "It's all loading in now."
+    },
+    {
+      "start": 6195.2949890136715,
+      "end": 6199.855001831054,
+      "text": "So this is what I use for doing print quotes for people."
+    },
+    {
+      "start": 6199.855001831054,
+      "end": 6201.534994506836,
+      "text": "I based this off of Stefan."
+    },
+    {
+      "start": 6201.534994506836,
+      "end": 6211.2949890136715,
+      "text": "This was originally Stefan's CNC kitchen quoting engine but his was really really really basic so this accounts for lots of things."
+    },
+    {
+      "start": 6211.2949890136715,
+      "end": 6215.855001831054,
+      "text": "This accounts for how many times you're taking a build plate off the printer every job."
+    },
+    {
+      "start": 6215.855001831054,
+      "end": 6306.8150085449215,
+      "text": "It accounts for if you're just if you have slicing time and if you've got the the slicing time one in Stefan's version of it always accounted for every single time for every single time you you print something you're also putting slicing time on it if you're doing a big order however most of the time you're not doing any slight you're not adding the slicing time you're just adding the time it takes for you to press a button to repeat it so you don't need to do that then I've also added the ability to do manual color changes if you want them add support removal time all of this is stuff that you set up in here so anything that's in red is just a table that you don't want to touch because it's how it does a bunch of the other calculations in here but there's also things like if you want to hit a minimum print a minimum amount of money per hour which is a lot of the time how you want to run a 3D printing business you want to be making say a dollar an hour three dollars an hour whatever for for every hour of printing I have a little reminder in here that you can place a checkbox on so that it reminds you it tells you if you're not making enough money and a lot of the time if you're just pricing all willy-nilly it will tell you you're not making a profit here I actually do need to do a proper"
+    },
+    {
+      "start": 6308.274999969006,
+      "end": 6324.034999542237,
+      "text": "Breakdown of how this calculator works because you it even generates invoices for you can load up your printer, all the different materials that you use each one of these different colors is a different printer that you're using, not necessarily a different amount of plates that you're using."
+    },
+    {
+      "start": 6324.034999542237,
+      "end": 6328.114999465943,
+      "text": "It also generates a breakdown as to what all your costs are."
+    },
+    {
+      "start": 6328.114999465943,
+      "end": 6340.514999084473,
+      "text": "So for example, for the kind of breakdown I have here, which is 100 grams printed in an hour or three hours there, the majority of the cost is labor."
+    },
+    {
+      "start": 6340.514999084473,
+      "end": 6603.314979248047,
+      "text": "All this yellow here is labor Okay, slightly more than V145, yes that flood coolant enclosure for Miley design is red That flood coolant enclosure for Miley's design is red what do you mean I'm confused what flood cooler What flood coolant I'm so confused At work I hate when I ask would you print something for me I'm currently making someone a gold crown for a hen knight made of male members Oh gross Check extreme general Ooh Hey guys had some very cool idea for my enclosure Miley since the Miley only moves the Y-axis table it would be possible to build a very compact enclosure for it with a correct sealing this could be make it waterproof use coolant pump Yeah, let's put this on screen The cool concept How well it would work though, I don't know I have a very I have a suspicious feeling that this would be very very floppy if it was all 3D printed and like that span there is not gonna fit on most 3D printers I like the idea of it but this whole table is still gonna be moving back and forth so this enclosure still needs to be longer that way like there's still a load of this that like this back panel can't physically exist It physically can't exist this back panel here because that would be moving forward as the table moved forward so this whole back panel would need to move backwards And by the time you've made enough space at the back for it to come all the way to the front I don't think it would be 3D printed okay fair doesn't get rid of the issue of this would still make it the the requirement for Miley for Milo for any Milo is the fact that you need quite a deep bench for it this just makes the bench requirement deeper because this distance here is how much you would need to push this back wall backwards and that's going to be coming over that's going to push it further back so instead of needing an 800mm deep table which is what you need for a casa you're then probably going to need a meters deep table just to get it to fit and then that has all that extra weight being thrown around as well and then when this moves forward when this whole thing moves forward this gap here gets wider and then you don't have a seal anymore that's a good point enclosure should be stationary i would bring the clear portion forward and make it stationary yeah"
+    },
+    {
+      "start": 6609.23999997139,
+      "end": 6625.880000076294,
+      "text": "Yeah, that would make more sense to me But at that point Why not just reduce everything here to a box around the plate Why do you need all this space?"
+    },
+    {
+      "start": 6625.880000076294,
+      "end": 6802.199990234375,
+      "text": "So like all this space here is unnecessary all of this is unnecessary all you need is a box that goes around just the plate And you'd still be able to achieve what they what I think they're trying to achieve here with a recirculating pump But all this is just It works in one position, but it doesn't work in multiple positions Like let's see enclosed mill enclosed rows Jeremy building mill Jeremy Fielding does a bunch of robots and stuff, but he's basically just got a box I know he's got got an upgraded mill now but he's basically just on his old mill that he CNC'd it was basically just a box that was in front of it Better for chip management and coolant I don't see how it would be better for coolant because you're just opening it up for more places for the coolant to not leak back down in my opinion Anyways don't really want to get into watching videos on stream right let's get back to building We're getting distracted way too distracted Right So it's come to that time of stream where we need to do some stuff Last stream I said that I was going to be doing one of the anti-back mash nuts every single stream just so that I could show you guys how it all goes together and give you as many chances to see how that works how that whole process works so we're gonna do that again right now Better Jip Moor French check the video before Didn't mean to sidetrack no it's fine D, don't worry, it's fine."
+    },
+    {
+      "start": 6802.199990234375,
+      "end": 6802.919991455078,
+      "text": "It's absolutely fine."
+    },
+    {
+      "start": 6802.919991455078,
+      "end": 6899.000008544922,
+      "text": "I don't mind a little bit of a sidetrack every now and again It's a cool concept, don't get me wrong I just think it could be thought out a little bit better It needs a little bit more time in the oven So from last time just to remind the people there is a input for grease because of the way that these are made because they're made of metal you can't just design a port that goes all the way through it because drills don't bend Well they do but they don't they're not meant to so there's one drill hole through there one drill hole through there and to stop coolant from leaking out you need to put a grub screw in the bottom that needs to make you need to make sure that that is absolutely flush so that it doesn't interfere when you're putting the plate on then you're going to need some brass nuts not the fun kind just these kinds so these are TR8 nuts one of them goes in the compression plate and uses M3 by 10 screws to hold it down There we go"
+    },
+    {
+      "start": 6910.450000076295,
+      "end": 6920.369999198914,
+      "text": "Why is why is why are you making that face on Yeka What's being said?"
+    },
+    {
+      "start": 6920.369999198914,
+      "end": 6980.369996337891,
+      "text": "What are you keeping quiet about Why do I feel like I'm I'm missing something Jay did everyone ever work on their vice mysterious clone was taking at some point looking for new vice They haven't told me anything about it I still have the old version but the old version is completely aluminium and I told them well that's not really good enough it needs to at least have steel jaws on it otherwise it's not gonna last very long They said that they told someone a while back that they were working on it they were reworking the idea whether or not it's coming in the kit I don't know It didn't come with my kit I asked first for your spear."
+    },
+    {
+      "start": 6980.369996337891,
+      "end": 6998.369996337891,
+      "text": "I'm keeping that vise guys I'm keeping it for a rainy day No one's getting it What part for aluminium?"
+    },
+    {
+      "start": 6998.369996337891,
+      "end": 7068.289994506837,
+      "text": "The whole body's aluminium the whole thing is aluminium it needs to have at least steel jaws It doesn't have steel jaws Once you've got these bits on the brass nuts on you need to take the partially threaded cylindrical pins You just need two of them and this is what the compression plate is going to ride on to keep it in the right orientation and they go on the main body part and you'll need a small flathead screwdriver just to tighten them down all the way Thank you Dave from LDO for introducing me to these pins I have used them in a few projects now and they're great now once this is on it'll slide the compression plate on like that and it'll prevent the compression plate from rotating it can rotate just a little bit that's fine a lot is what we're trying to avoid here last time I used 0."
+    },
+    {
+      "start": 7068.289994506837,
+      "end": 7201.5700085449225,
+      "text": "3mm shims sorry not shims bevel washers and you want to install them so the peak of each bevel washer is against each other and you should have a little gap between there those will sit on the compression plate side nut and you're just gonna slide it over the top trying to keep everything together like that now we need to preload these the way you preload them is you need some m3x40s so we got m3 by 30s there m3x40s and 3x40s what are you m3x40s you're going to load them from the opposite side i mean it will probably be it'll probably never be as nice as the interception yeah the inception vices are alright i think the whoever did the mod i think it was craig on the discord uh is the jaws removal no the ones that we sent me i don't remember them being removable the whoever did the interception um mod to make it a split vise that's a cool idea i think that's something that i would probably even sell myself because that conversion makes a lot of sense and saves a lot of money too so m3x40s on this side you don't want to tighten anything up yet you just want to make sure the screw is bottomed out so these go through from the body side to the compression plate side on the the 3d printed version it's the other way around and once it's here you want to do it one turn at a time in all the diagonal corners in a kind of star pattern until the bevel washers are completely compressed all the way down"
+    },
+    {
+      "start": 7206.240000019074,
+      "end": 7213.520000228882,
+      "text": "You just want to be careful not to tilt the compression plate here because you can end up bending the end of that T-nut."
+    },
+    {
+      "start": 7213.520000228882,
+      "end": 7222.799999008179,
+      "text": "Sorry, not T-nuts, that's brass nut and crushing the threads."
+    },
+    {
+      "start": 7222.799999008179,
+      "end": 7223.36000038147,
+      "text": "There you go."
+    },
+    {
+      "start": 7223.36000038147,
+      "end": 7233.359998474121,
+      "text": "So if you look in there now, the Bellville washers themselves are now completely compressed."
+    },
+    {
+      "start": 7233.359998474121,
+      "end": 7239.600000152588,
+      "text": "And you want to make sure at this point that you've put some kind of grease in the threads."
+    },
+    {
+      "start": 7239.600000152588,
+      "end": 7245.039998779297,
+      "text": "So I've just got some lithium grease here."
+    },
+    {
+      "start": 7245.039998779297,
+      "end": 7250.96000076294,
+      "text": "What the inception is missing is a method for holding round stock like the SMW turf."
+    },
+    {
+      "start": 7250.96000076294,
+      "end": 7251.919999847412,
+      "text": "It does have it."
+    },
+    {
+      "start": 7251.919999847412,
+      "end": 7254.79999710083,
+      "text": "You just have to make them yourself."
+    },
+    {
+      "start": 7254.79999710083,
+      "end": 7268.5599954223635,
+      "text": "It does have the ability to do it."
+    },
+    {
+      "start": 7268.5599954223635,
+      "end": 7274.399999389649,
+      "text": "Right, then you want your lead screw now last time we got really, really lucky."
+    },
+    {
+      "start": 7274.399999389649,
+      "end": 7278.639997253418,
+      "text": "We were able to screw this all the way through without any issues."
+    },
+    {
+      "start": 7278.639997253418,
+      "end": 7279.99999786377,
+      "text": "See if we get that luck again."
+    },
+    {
+      "start": 7279.99999786377,
+      "end": 7282.719999084473,
+      "text": "Doesn't look like we got that lucky again."
+    },
+    {
+      "start": 7282.719999084473,
+      "end": 7289.039998779297,
+      "text": "So at this point, I'm actually going to go from the opposite direction."
+    },
+    {
+      "start": 7289.039998779297,
+      "end": 7297.039998779297,
+      "text": "At this point, all I'm going to do is I'm going to start loosening up the bolts that were used for the compression."
+    },
+    {
+      "start": 7297.039998779297,
+      "end": 7310.399999389649,
+      "text": "Just one quarter turn at a time until threads start to line up."
+    },
+    {
+      "start": 7310.399999389649,
+      "end": 7344.239995727539,
+      "text": "So that's starting to get there."
+    },
+    {
+      "start": 7344.239995727539,
+      "end": 7344.719991455078,
+      "text": "There we go."
+    },
+    {
+      "start": 7344.719991455078,
+      "end": 7347.519994506836,
+      "text": "So that's starting to thread in now."
+    },
+    {
+      "start": 7347.519994506836,
+      "end": 7362.959996948242,
+      "text": "You can feel that starting to thread."
+    },
+    {
+      "start": 7362.959996948242,
+      "end": 7382.879995117188,
+      "text": "And before I start doing this any further, I just want to take all these compression bolts out and double check that there is actually enough pressure on the lead screw Right, so those are all undone now."
+    },
+    {
+      "start": 7382.879995117188,
+      "end": 7385.599996337891,
+      "text": "I'm just trying to push it up and down the screw."
+    },
+    {
+      "start": 7385.599996337891,
+      "end": 7390.480001220703,
+      "text": "Listen out for any rattle."
+    },
+    {
+      "start": 7390.480001220703,
+      "end": 7397.039998779297,
+      "text": "And there's no movement up and down in the linear direction up and down the screw."
+    },
+    {
+      "start": 7397.039998779297,
+      "end": 7398.07999206543,
+      "text": "So that's now set."
+    },
+    {
+      "start": 7398.07999206543,
+      "end": 7418.319997558594,
+      "text": "That's properly set and I can just remove these compression screws entirely now and take the oil off of that."
+    },
+    {
+      "start": 7418.319997558594,
+      "end": 7422.399999389649,
+      "text": "And whilst I'm here, I'm just going to fill this pocket up with grease."
+    },
+    {
+      "start": 7422.399999389649,
+      "end": 7429.279989013672,
+      "text": "That should fill the inside up with grease as well."
+    },
+    {
+      "start": 7429.279989013672,
+      "end": 7439.519994506836,
+      "text": "I mean, that the whole system is greased for a while."
+    },
+    {
+      "start": 7439.519994506836,
+      "end": 7447.76,
+      "text": "There we go."
+    },
+    {
+      "start": 7447.76,
+      "end": 7466.319997558594,
+      "text": "How you mill soft jaws or a V-block That's how you do it Right, so that's that done done."
+    },
+    {
+      "start": 7466.319997558594,
+      "end": 7489.599996337891,
+      "text": "We've got one more which will be on next stream I might actually do that as a video for people so that people can just refer back to it whilst they're doing the building me anymore Something's happening with my overhead camera"
+    },
+    {
+      "start": 7512.154999752045,
+      "end": 7523.754998703003,
+      "text": "Oh, my overhead cameras completely cracked itself That's fine, we'll just use this one cat this camera for now."
+    },
+    {
+      "start": 7523.754998703003,
+      "end": 7645.514995117188,
+      "text": "I'll get rid of that How cad one that can fit and I will mill it why don't you cad it's a V-block man It's not the hardest thing to cat in the world your CAD skills are gonna need to get better if you want to actually use the mill to its fullest potential They even have templates that you can use for soft jaws they even have those on their website You can literally go on their website and get a reference soft jaw from them Like come on dude come on you can do that yourself It would take 30 seconds in any CAD program once you've imported everything Right what were we doing that's it I need to take the bearing block off I need to put the floating bearing block in actually I'll do that first so floating bearing block can go in Is the V part that's holding me back not so it's a V block you're milling a V that's it you're taking half a square cut it diagonal and then remove that pit from the soft jaw that's it Sorry man, it's not rocket science."
+    },
+    {
+      "start": 7645.514995117188,
+      "end": 7757.034999389649,
+      "text": "It is not rocket science It's a V The angle of the V doesn't even matter I am happy to do a bunch of CAD work and stuff, but come on I'm not doing every little thing for you I'm not doing a project that could be done by you in 30 seconds If you want to operate a mill you need to learn how to do some CAD Enough said Text stream generally different case why are you holding such a large part in a tiny vise That's a whole completely different problem Why are you holding such a big part in such a small vice?"
+    },
+    {
+      "start": 7757.034999389649,
+      "end": 7799.835002441407,
+      "text": "That's not gonna work Like come on, that's just not appropriate You want to do big part you need to have big boy stuff including fixtures and fasters"
+    },
+    {
+      "start": 7813.799999885559,
+      "end": 7815.079999618531,
+      "text": "Mighty bites is a good idea, yeah."
+    },
+    {
+      "start": 7815.079999618531,
+      "end": 8104.519996337891,
+      "text": "Oh, I have Kenyan chillings in here In case anyone wants to know what a Kenyan chilling looks like I obviously haven't worn these since Christmas I got grease all over my hands now the fourth axis the fourth axis does not need such a big part And again, you're not going to get away with as bigger parts on the fourth axis that thing is fucking if you're thinking of using it on the fourth axis as in that's a part you're going to be making with the fourth axis Think about it again man That's not an appropriate thing to put on such a small fourth axis That's how you break your machine or break yourself Neither of those things is something we want seems the round CNC is the 120mm round piece yeah it's not it's tall it's not such a tall part It's like 20mm thick at most Come on man just be realistic And with that part that you have there you're gonna be wasting the vast majority of it by milling it down all of that is gonna be turned into chips That's such a waste of material I'm sorry we don't need to see Discord anymore Shut that tab down by accident I couldn't safely cut it and I wouldn't and I could I thought I could mill it down But you're not gonna be able to safely mill it down if you can't safely cut it you can't safely mill it then don't think of doing anything with it You're not holding that part in the size vices that we have for for Milo That's just a recipe for disaster Alright, what direction is the screw going"
+    },
+    {
+      "start": 8114.434999828338,
+      "end": 8120.675000076293,
+      "text": "I've noticed Bright doesn't include the rails until like the very last steps in all this."
+    },
+    {
+      "start": 8120.675000076293,
+      "end": 8124.514999275207,
+      "text": "So this he doesn't even do the Y rails yet."
+    },
+    {
+      "start": 8124.514999275207,
+      "end": 8136.754999999999,
+      "text": "It was the same with the Z rails."
+    },
+    {
+      "start": 8136.754999999999,
+      "end": 8138.994999771117,
+      "text": "I guess because he wants it all to go down together, doesn't he?"
+    },
+    {
+      "start": 8138.994999771117,
+      "end": 8147.7950009155265,
+      "text": "I'm sorry, universe."
+    },
+    {
+      "start": 8147.7950009155265,
+      "end": 8149.394999389648,
+      "text": "You can't just say now I know."
+    },
+    {
+      "start": 8149.394999389648,
+      "end": 8150.514998321532,
+      "text": "That's obvious."
+    },
+    {
+      "start": 8150.514998321532,
+      "end": 8160.6749981689445,
+      "text": "Like, that's like saying you shouldn't walk in the middle of the road when there's a million cars going past you."
+    },
+    {
+      "start": 8160.6749981689445,
+      "end": 8218.435000305175,
+      "text": "Like, sometimes stuff just is a bit obvious enough that I shouldn't have to tell you that guests that say it's that way."
+    },
+    {
+      "start": 8218.435000305175,
+      "end": 8241.394999389648,
+      "text": "Thump, thumpers."
+    },
+    {
+      "start": 8241.394999389648,
+      "end": 8244.195002441405,
+      "text": "Forgot to do collars."
+    },
+    {
+      "start": 8244.195002441405,
+      "end": 8254.034998779296,
+      "text": "Locking, collar, and bearing Be nice if I had a manual to follow."
+    },
+    {
+      "start": 8254.034998779296,
+      "end": 8274.274989013671,
+      "text": "But who follows manuals manuals?"
+    },
+    {
+      "start": 8274.274989013671,
+      "end": 8278.755,
+      "text": "Great."
+    },
+    {
+      "start": 8278.755,
+      "end": 8280.674998168945,
+      "text": "This is properly stuck."
+    },
+    {
+      "start": 8280.674998168945,
+      "end": 8285.394999389648,
+      "text": "Where's my hammer done?"
+    },
+    {
+      "start": 8285.394999389648,
+      "end": 8314.274989013671,
+      "text": "There it is."
+    },
+    {
+      "start": 8314.274989013671,
+      "end": 8407.874995117187,
+      "text": "Come on There we go finally there we go Right, I need to get a bearing I need to get a thrust bearing thrust bearings are over here need to get a locking collar I need to get it on this side So locking colour goes on first then the thrust bearing assembly thrust bearing assembly goes on here And then the bearing block can go back on I hope I got the orientation of"
+    },
+    {
+      "start": 8409.515000004769,
+      "end": 8477.674998779297,
+      "text": "The AB block correct have been streaming for we have been streaming for two hours and 21 minutes."
+    },
+    {
+      "start": 8477.674998779297,
+      "end": 8480.234996337891,
+      "text": "I might call it soon."
+    },
+    {
+      "start": 8480.234996337891,
+      "end": 8491.674998779297,
+      "text": "I know I said I wanted to get at least one axis done every single stream, but this stream's been going on for a very long time, and we did get a little bit sidetracked."
+    },
+    {
+      "start": 8491.674998779297,
+      "end": 8495.834994812012,
+      "text": "So I'm probably just going to put the opposing bearing on here."
+    },
+    {
+      "start": 8495.834994812012,
+      "end": 8499.435000915528,
+      "text": "No, I won't actually, because I'll need to do the motor mount first."
+    },
+    {
+      "start": 8499.435000915528,
+      "end": 8500.314998168946,
+      "text": "I'll get this done."
+    },
+    {
+      "start": 8500.314998168946,
+      "end": 8517.834994812012,
+      "text": "I'll make sure the bolts are in, the last two bolts are in, and then we'll finish up there."
+    },
+    {
+      "start": 8517.834994812012,
+      "end": 8518.554996032715,
+      "text": "Thanks for the lessons."
+    },
+    {
+      "start": 8518.554996032715,
+      "end": 8521.514995117188,
+      "text": "I will see if anyone local can help me cut it."
+    },
+    {
+      "start": 8521.514995117188,
+      "end": 8522.794993896485,
+      "text": "A hacksaw and patience would work."
+    },
+    {
+      "start": 8522.794993896485,
+      "end": 8531.674998779297,
+      "text": "You'll need to be quite a long hacksaw, but yeah, that works Bandsaw is also a pretty good idea."
+    },
+    {
+      "start": 8531.674998779297,
+      "end": 8539.195003051758,
+      "text": "If you know anyone, you can get a see if there's any local maker spaces around you."
+    },
+    {
+      "start": 8539.195003051758,
+      "end": 8542.634990234375,
+      "text": "It is the risk you take with getting off cuts, though."
+    },
+    {
+      "start": 8542.634990234375,
+      "end": 8549.755000610352,
+      "text": "Like, offcuts are great, but you need to find a use case for them."
+    },
+    {
+      "start": 8549.755000610352,
+      "end": 8556.87499572754,
+      "text": "And it's why I tend to just buy fresh material every single time."
+    },
+    {
+      "start": 8556.87499572754,
+      "end": 8567.914989013672,
+      "text": "Even though the fact is, it's more expensive, and I'm poor."
+    },
+    {
+      "start": 8567.914989013672,
+      "end": 8576.794993896485,
+      "text": "It means I end up not wasting any money in the long run because I know exactly what I need and what I want."
+    },
+    {
+      "start": 8576.794993896485,
+      "end": 8582.234996337891,
+      "text": "Right, that's those bolts done."
+    },
+    {
+      "start": 8582.234996337891,
+      "end": 8588.314998168946,
+      "text": "I'm a little underwhelmed at how far we've got on this stream."
+    },
+    {
+      "start": 8588.314998168946,
+      "end": 8592.87499572754,
+      "text": "But hey-ho, this is life."
+    },
+    {
+      "start": 8592.87499572754,
+      "end": 8593.354991455079,
+      "text": "Right?"
+    },
+    {
+      "start": 8593.354991455079,
+      "end": 8595.514995117188,
+      "text": "Thank you very much, everyone, for coming to the stream today."
+    },
+    {
+      "start": 8595.514995117188,
+      "end": 8599.835002441407,
+      "text": "It was a whole lot of fun, as it normally is."
+    },
+    {
+      "start": 8599.835002441407,
+      "end": 8603.514995117188,
+      "text": "We kind of got most of the y-axis done."
+    },
+    {
+      "start": 8603.514995117188,
+      "end": 8607.514995117188,
+      "text": "I'll probably put the rails on off-camera."
+    },
+    {
+      "start": 8607.514995117188,
+      "end": 8614.634990234375,
+      "text": "Just because you know what rails look like, and I'd like to get a little bit further ahead in this build, but I'll do that off-stream."
+    },
+    {
+      "start": 8614.634990234375,
+      "end": 8619.115001220704,
+      "text": "Other than that, I hope you guys all have a fantastic evening."
+    },
+    {
+      "start": 8619.115001220704,
+      "end": 8621.434993286133,
+      "text": "And I will catch you guys next time."
+    },
+    {
+      "start": 8621.434993286133,
+      "end": 8621.914989013672,
+      "text": "Bye all"
+    }
+  ]
+}

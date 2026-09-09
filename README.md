@@ -48,15 +48,34 @@ transcription and stored in `meta.json`. Override it with
 Questions are different: `-q` is answered in whatever language you asked in, so
 you can ask an English question about a Czech video and get an English answer.
 
+### Timestamps
+
+Every bullet under "Key points" carries the time it was discussed, rendered as a
+link that jumps straight into the video:
+
+```markdown
+- Most "HIIT" circuits are not actually high intensity [15:59](https://youtube.com/watch?v=...&t=959s)
+```
+
+The summariser is fed `transcript.timed.txt` (one `[HH:MM:SS]`-prefixed line per
+segment) rather than the flat text, so the times come from the transcript rather
+than being estimated. Answers to `-q` questions cite timestamps too. Videos
+transcribed without segment timings simply get no timestamps.
+
 ### Mis-heard names
 
 ASR mangles proper nouns more than anything else, and a summary that repeats the
-mis-hearing turns it into an apparent fact. The prompts therefore ask for names
-to be repaired where the transcript settles them — someone described as the
-author of a named book is the author of that book, however the recogniser spelt
-it — using standard international spelling even when the summary is written in
-another language. Genuinely ambiguous names are kept as transcribed and marked
-`(sic)` rather than guessed at.
+mis-hearing turns it into an apparent fact — a Czech run rendered Pavel
+Tsatsouline as "Pavel Caculin".
+
+Asking for this inline, alongside every other instruction, proved unreliable: it
+worked until timestamps were added to the same prompt and then stopped. So name
+repair is a **separate pass** over the finished summary, whose only job is to fix
+proper nouns and leave everything else — headings, bullets, timestamps, wording,
+language — byte for byte alone. The result is size-checked, and a pass that fails
+or returns something malformed leaves the original summary untouched.
+
+Genuinely ambiguous names are left as transcribed rather than guessed at.
 
 ## Backends
 
