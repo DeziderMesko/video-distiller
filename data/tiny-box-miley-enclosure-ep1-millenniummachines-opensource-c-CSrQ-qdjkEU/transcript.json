@@ -1,0 +1,3491 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=CSrQ-qdjkEU",
+  "video_id": "CSrQ-qdjkEU",
+  "title": "Tiny Box Miley Enclosure Ep1 #millenniummachines #opensource #cnc",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-09T22:30:48+00:00",
+  "text": "Righto, hello folks. How are we doing? How are we doing? Who have we got in chat today? We got Yom Gand. Hello, Yongyand. Hey, Ollie. Hey, Steve, how are you guys doing? How are you guys doing? Jumping the gun a bit, aren't you? Yeah, jumping the gun just a little bit. Just a little. See, there's a 10-second delay, so you're seeing, you saw it 20 seconds out whilst I saw it like somewhere between five and I can't actually remember, between five and ten seconds out. And I didn't want to have to faff around at the beginning of the stream pressing buttons. But we do have a brisket. We do have a brisket. We do have a brisket. If you just check in the top corner, Brisket is with us. Brisket is alive and well. Claiming we're alive and then it's still fitting. Yeah, yeah, it happens. You just woke up and saw you go. Damn, you having a nap. Were you having a nap? Right. So, gonna give it a few seconds. Cascade released today. Did everyone see the news? Cascade released. It's not like I got told 50,000 times today that Cascade has been released. I'm very sick. Oh, sorry to hear that, dude. Sorry to hear that. Yeah, so if we get some time, we might go and download the Cascade Cam and have a look at it and see what it's like. I've also changed the cameras around. So hopefully the colors aren't as weird as they were before. The desk camera is now my A5000 and the ZVE10 is now my main cam, which probably should have been like that to begin with. But reason I had the ZVE10 there is because I want to do some photos that are kind of this old Tony style in terms of camera angles and that's my better camera. So I thought I would be using it a bit more, but obviously for streams, I'll swap them around. The CAD looks cool to be fair. We might check it out. We might check it out in a bit. But before that, before that, right? Before that, I gotta get to what we're actually doing today. So today is the start of Tiny Box. If you're I'm a daily on Discord, Tiny Box does not mean Tiny Box. It's just a funny name for a slightly smaller Casa. That's the width of it right there. So it's actually going to be kind of just big printer sized rather than massive. Also, I've basically been printing non-stop with the ProShow. What's up, bud? You want to go outside? You protesting. Go on. Go on, get past the chair. Go on. Looks similar to Ferky's build to me. I thought it was a gantry style machine. I thought it was a gantry style machine. I haven't checked the CAD out, right? I can't pass judgment on it at the minute because A, I haven't built it. B, I haven't even seen the CAD for it. And C, the last time I saw an update for it was when they still had the tool offset sensor in the middle of the work area, which was if they still have that, that's dumb. I'm sorry. There's no way around it. If it is in the middle of the bed, that's dumb. Hopefully, they changed it since then. But yeah, tiny box. Instruments have arrived. I've basically been printing non-stop on the core one, the Corn L and a bunch of other bits. So I have a bag full of parts. How smart looking these parts are right. So this was done on the bamboo. Obviously, because it's my only color chain new printer. And that looked alright. I've done all the weight-saving holes as well. But fucking A. I love the plate finish on the Core 1L. It's like it's smooth PEI, but it's slightly, slightly textured. And it doesn't keep finger marks very easily. So I can be touching this thing all the time, not have to worry about finger marks, which is amazing to me. I love it. Nah, it doesn't anymore. It's on the right now. Okay, good. Hey, Jack, how you doing? It's been a while since you've been on stream. Everybody keeps asking me when I'm building with Cascade. I keep telling people that I'm building Milo too. I think Cascade will have its audience because it's Voron. At the end of the day, it's a Voron machine and people love Varons. I think someone mentioned on a Reddit post somewhere that it's going to cost about 3k to self-source, which seems wildly too expensive for me. Like, if it's too expensive, then there are better things you can buy with the money. It's the same kind of situation the bamboos are having at the moment. I was just about to complain about the camera. Hey, hey, it's been a while since I streamed. It's been a while since I streamed. I forget things. Okay, so let me show you the current state of Tiny Box. Now, remember, Tiny Box is basically just started with dev. I'm getting rid of the weird jagged bits on the front panels. I'm going four keystone jacks on the front, four keystone jacks on the back. And then you've got your 20 amp plug, and because the 20 amp plug doesn't come with a switch, you're going to have to have a rocker switch right there. Everything else is just hollowed out plate for now and the frame. The basement's been drastically reduced. So everything I've printed so far comes out to around about I think the total weight so far is a kilo and a half. And that's most of the printing done. That's like 90% of the printing done. There are a few bits that I do need to keep printing. So actually, we're going to open up Prucier Slicer Slicer card. Put the monitor in the lower left. Right. There's a few things I want to get. I need to start printing. I need to do these corner clips. I did print these off originally, but I'm afraid the ones I printed off have gone to waste because I changed the style of them a little bit. So come on. But yeah, if you've built CASA, you'll recognize 90% of what this is. What is basically just small Casa, right? But it's small enough to the point where more people will actually use or have the space for this than they will for a whole with a full-size Milo. Because I think I think full-size Casa off the top of my head is a meter, 1.1 meters wide at least, where this is only 752 millimeters, I think. I'll measure it in CAD in just a second. I have tried it is on low latency mode today. It is on low latency mode today. So hopefully there's going to be a little bit more latency between when I'm saying things and when you're actually hearing them Cool. Right, that's done. Bruce just licer is weirdly explicit. Yeah, well, it just so happens to be. I think it's here. I'll measure that there. 758. Sorry. 758. It just happens to be how thick the panels are on each side. If you have a look, I've kind of changed the corner designs a little bit. That's just so that they line up with the shape of the clips and things. Because I hate it when a box has like warts on it that don't go all the way down. Like, it just feels weird. 758. But all the extrusion, or most of the extrusions, there's a couple of 660 mils extrusions. So these ones right here, these uprights here That one and that one are 660 and then there's all for also also these cross beams which are 140 but everything else is the same size extrusion which is a good thing because if LDO does want to do a kit for this which I think they're more likely to do a kit for this than they will do for another Casa for another big Casa LDO does want to do a kit for it's A going to be cheaper because shipping alone is going to be cheaper by weight B you can basically drill every single extrusion to look exactly the same and then just ship those and you don't have to have a load of SKUs like you do with Morons or even old Casa Which is always a benefit I think all right let's stop talking and actually start doing stuff so it is going to be a little bit more a little bit different because obviously I'm going to be working on this side of the shop so it's going to be overhead cam for the most part and then you're going to have to look at the back of my head It's a very pretty back of heads to be fair So first things first Don't know what to do. I don't know whether or not to do every single extrusion drill every single extrusion or drill them all separately because do I add every single hole already as if to every single extrusion as if it was all coming from LDO or do I just do the holes that I need I think I'm just gonna do the holes that I need to start off with The assembly I have in the background that one over there yeah that's Atlas that is Atlas Don't worry the CAD is done for so much more of Atlas It's just that when I do when I'm doing the as far as I got into the reassembly and some changes that I made I had to strip everything that I had off and I'm just slowly adding it all back together Right, so what I need to do is I'm just gonna do the uprights first So the uprights are pretty much the only 700mm extrusions that need holes for blind joints in them because everything attaches to these so I'm getting 10 mils on my caliper Why I'm doing 10 mils is because it's half of 20 and it's a 2020 extrusion So that's where the action the hole in the center would fall I'm gonna do this to four of them To those of you who have actually seen Cascade How's it looking do you do you think it will do well? I hope it does well we need more people in the CNC space I'm not the a big fan of the approach that they're going for but that's personal taste like I don't like those small fixed gantry machines But they also mention that they've got a 1500 RPM spindle Which if that's the case and LDO is doing the what's it called for them or the processing for them and getting the kits together with those 1500 RPM spindles I might be asking LDO if they could send one over Because 1500 is such a nice RPM to deal with but then again those could be those could end up being water cooled spindles and I don't like having water cool spindles not because they're bad or anything but because they add extra complexity for most people looks good but I want to see someone someone make one before I would consider it yeah it was a bit of a weird drop wasn't it I if anyone's been to Rocky Round Reprim Festival this week did they show it off there were they showing it off there or was this just a completely weird shadow drop I know they had Phoenix there and I'm pretty sure did they announce Phoenix don't actually know Although technically you only need a five mil drill bit for these, I'm using six mils because you can actually fit the Vera ones through a little bit better, the Vera Allen keys because they have those weird sleeves on them. It's really annoying because the Vera ones are so much nicer to use on a day-to-day basis, but Vorons kind of require you to not have one cascade, there were two of them, Eva Wait says. Oh, cool. I just hated how this fence worked John T on the Discord channel has a cascade. That's Cascade 101. It's a 1.2 kilowatt spindle. That's not bad. That's really not a bad thing. Like, I've said this in the past. Even on Milo, you'd be you'd have to do a whole load of mods before you can get the rigidity required to actually use a thousand kilowatts. No, thousand kilowatts. A thousand watts of spindle power. So I wouldn't mind a 1.2 kilowatt spindle, honestly. Obviously, for those of you who like doing steel, it's a different question. Have I found a problem with this? I can't go any further down, can I? Why is that? Normally go all the way down. What on earth there we go. Got it. I've got confused there for a second. Is that Atlas in the background? Yes, it's Atlas in the background. Don't mind its state of disrepair. I have been changing a bunch of stuff around recently on it. It's a live dev thing. Also, this is the first time we've done any live dev on camera. So that locked off now. I can bring that down. And will that clear without hitting any of the yes, that's perfect. If I really, really wanted to be anal about this, which I probably don't want to be, but I can actually use the depth gauge on my calipers 110. Alright, this might get loud. I didn't even bother talking to the Voron team about Phoenix because they can't answer the only question I still have from Last. What's the question? Is the question going to be when is it going to be ready? I need ear protection. No, I don't, but I don't. I don't actually have my AirPro here. It's still in the container. Set to max speed set to level two My right ear says you do how do you know I turned to some right yeah I've got an earphone in my right ear at least that's protected I feel like those are way off each other Why do I have the inability to cut holes in the right place all right good enough It's good enough How many times have I tried to cut a hole on stream and never got and not actually got the right spot I can recommend yes you could it's a bit late to be fair I only got these like three hours ago So I haven't had time to get a jig sorted If you're wondering why Brisket's not in the room with us I can hear him barking every time the drill turns on he hates the drills Are these new downstairs digs? No, no, it's the same flat I've just moved a lot of stuff around Yeah, the container fell through for those of you who didn't watch Saturday stream Yeah container fell through I had to move a bunch of stuff back here and basically upgrade this filming set so I could actually use it Hence why it's taken me so long to get back into streaming I hereby recommend yes I get it we need a jig I will be doing a jig I will be providing a jig like I always do for the casa parts It's just at this point in time I don't quite have one I started the tiny box stuff like three or four days ago No actually more like five days ago, but still Hopefully this doesn't sound too loud for you guys if it does let me know let me know in chat Dude that was quick design uh yes and no yeah a lot of like a lot of stuff's already done for me so like All I do for a lot of features, like things like the electronics interconnects and things like that, the stuff that holds the like the IC outlet in, is I literally make a copy of your old design from Old Casa or Rev 2 or Rev 3 and I perform an extrude intersect. I make sure it's a nice round number and I cut that section out of the next piece that I want and I literally just merge those two together. It just saves so much design time. It's not the best way of doing it. It's kind of a lazy way of doing it, but and a lot of it's just extrusions at this point. It's not a finished design. Like, I would not say it's a finished design. I'd probably put like three hours into it. Steve Knobs says it's fine. Okay, cool. Mickey Duke. Let me know if you can hear brisket barking every time I turn the drill on. It's not that bad. Those end ones done. I am going to have to do one more hole on all of these. I've just realized. Yeah, we can. I'm not torturing him, I promise. I promise you, I'm not torturing him. He's just a bit... He doesn't like drills and he doesn't like... He doesn't mind the mill. When I've had the mill going in here before, it's been absolutely fine. I also hate looking at that camera because there's a light just behind it. So I just get flash blinded every time I look at it just for now. All I need is the frame. No, I don't want panic. I realized halfway through the day today that I don't actually have these 660 uprights. So we're just going to be doing the outer frame for today. That's a 700. That's 700. That's a 700. So yeah, I'm going to have to place an order for these uprights. So I won't be doing the electronics box bit today. He knows it's your mill if you make your own dog dog press. Not dog press, drill press. He'll understand Yes, we can, but that's what doggers do. Yeah, he's just a little guy. Right, I need to measure from this ball here to the top of that feature there, which is 260. Yeah, that makes sense because the panel is 250 and it sits just below just above that. Jet Landry. Oh, and Cascade has two controller options, RBT Sila and Expatria Dispatches Factya. Yeah, which makes sense. I mean, you've always had that option with Milo. You don't have to go with the you didn't have to go with the fly. You definitely didn't have to go. Don't have to go with Sila. If you want to use Expatria, the Expatria boards. I see no problem with that. Problem is, well, not a problem. It's a lot easier for us to dev on the RAF side, the Red Rap firmware side. Yeah, if you don't know, Alan from West 3D is part of the team. He's the one running the full pack at the minute Deving for it. And he was at the Rocky Man Red Festival. We're trying to get more American people on the team because that seems you have a lot more people who go to the American Repests than we do. And you have a lot more of them. They're stealing Scylla. You say that when Silo was announced. So Silo was built for us initially. Obviously, I don't mind, we don't mind that other people use it. A BTT board is not ours, but it was built up to our specs. And then... I think Steve accidentally leaked it. No, he didn't accidentally leak it. He got told. So we got told we weren't going to do anything until Smurf last year and we weren't going to make an announcement. And then Steve had Sila on stream with BTT's permission just randomly Expatria, you need drivers with Scylla. It's onboard drivers. Yeah, there's loads of stuff. In fact, actually, there's something really cool that nine showed off. I'm just going to move this over here so you don't see the dev chat. So Duet, the guys who make obviously all the duet boards Windows, can you tile properly, please? They have put this on screen. They've announced a bunch of like industrial controllers, which is all the Phoenix style connectors for basically STM32, which is really interesting. I didn't know this, but Nine told me about it. STM32 is almost entirely the STM port. It's almost entirely done by Team Bloomie and not Duet. So the fact that they're using STM32 in all of these industrial DIN mounted units is really strange. But also really awesome. Like, they've also said that they're going to be doing like a spindle control unit and it's all closed loop steppers. If you want to do external closed loop steppers, you can like non-duet ones. If you want to do the duet ones, they work. Everything works the same way anything on Duet works. But this is all DIN mounted, so it makes wiring so much nicer. You could do servos on it, I believe. There's a whole I.O. thing. It's all can connected, so you just buy the modules that you need. But it's industrial, which means it's going to come with industrial prices. And the industrial prices are never, never fun for the wallet. What are the advantages between firmware systems like RRF, Marlin, that's Clipper? Marlin's more responsive for a start because you're not having to send a bunch of things over. I've been really blown away by how much easier it is to do certain things on my Core 1L that I only got a few days ago and how quickly it responds to commands. Like you're basically having to send everything through Clipper. It gets processed by the Pi then sent to the controller board. So there's that for but other than that Marlin is a bit of an old firmware. It's not used as often anymore and it's a lot harder because you have to compile it beforehand and every time you want to make any kind of changes you don't just change it on a config file level. You actually have to open up VS Code or some other kind of coding software to read the file and make the changes that you want. It's not as scary as people make it out to be But it's still a lot of work Marlin and sorry not Marlin Clipper and RepR Firmware are both more modern in a lot of ways They're easier to work with once you've got it up and running They're a bit of a pain to get up and running but more modern Clipper is more of a 3D printer only firmware there are ports for if you want to do I don't know if you want to do CNC stuff it's it's mostly kind of confined to laser stuff and it's not great whereas RedWrap firmware I consider the more universal firmware as in you can put a laser you can build a laser with it you could build a robot arm with it you can build a 3D printer with it you can build a CNC machine with it obviously it's got spindle it's got provisions for spindle control all that kind of stuff it's the most customizable out of all three I think but that comes with some caveats it's that it's that whole thing of it's a master of many or more of a what's the what's the jack of all trades but master of none type situation But at the same time, when you vibe code like I do, it does a lot better. So I use Claude when I do my VID coding because I know nothing about coding at all. Claude seems to do better with RepRap firmware than it does seem to be doing with Clipper Jack of all trades, yeah. It's just a focus issue with Clipper. Clipper's made as a 3D printing firmware, and it's really good as a 3D printing firmware. None of them are really live firmware. Actually, no, that's not true. There's one live firmware, which is Marlin. By live firmware, I mean it relies on nothing but its own processing, and it can do things like interrupts a lot without having to jump through a bunch of hoops. Whereas if you're doing rep rap firmware interrupts, it's a bit annoying. So Marlin would technically, from an architectural standpoint, be a better firmware to use for CNC stuff. Because if you look at Linux CNC or well, I don't know about Gobleh How, to be honest, but if you look at Linux CNC, it's a live firmware, which means that all the operations and commands it's sending out is in line with the clock of the processor that's actually running Linux CNC, which means that anytime you ask it to do anything, it does it instantly because it does it at the clock speed of whatever processor you're using. But Linux CNC is just a lot more annoying to set up. RRF is gooder for our specific thing, yes. For Milo stuff, yes, but trying to get it to do a bunch of CNC stuff is hard. And we're working on it. We're working on a tool management table. We're working on tool changing macros and things like that for universal machines so you could run it on anything. We're working on trying to make the interface a little bit more CNC friendly. Right. 260 millimeters on two of these. I'm just going to mark 100. No, mark 130 and then 130 again. 130 130. So that's 260 there. And then because it's going to have bits on both sides, I'll do it that way then and that one. I only need to do this on two of them. Yeah. Yeah, that sounds about right. The other ones just need tapping. Yeah, the work bee does use it. The work be has been using Redwat firmware for CNC stuff for way longer than we have All right, this should be the last drilling that needs doing tonight But then everything else is just happening All right, let's follow some basic safety for a bit because my sleeves are rolled down since I started right You're wearing sleeves or watches whilst doing drill work realize that I've missed you You're wearing sleeves or watches take them off or roll them up Right last thing you want is to be eaten by a machine Unless that's your fetish if being eaten by a machine is your fetish then I can't help you Bleed Clipper has a buffer of one second worth of commands. I think it does. Red Rafermo also has a buffer, but seeing what Ferky's done with the pendant, you can set that buffer to be much, much lower. And you'll probably want to do that if you're running a pendant because the encoder on a pendant will be sending potentially hundreds of signals all at once. So if you fill up that buffer, really, you can fill up that buffer really, really quickly, and it means that you're not seeing the results of the movements you've actually made on the dial until a few seconds afterwards, which can be a little bit disastrous. So you can lower the buffer to basically nothing. I know, buddy, it's going to be over soon. Hope those aren't Mitatoya calipers using. No, no, they're just my cheapo ones. I don't have any Mitatoya ones. I do have want to get some insize ones at some stage. Insize is just a kind of mid brand when it comes to calipers. Decently priced. Not ridiculously priced that mids toyos are, although midst toils will probably be more worth it for the money. But you see them in industry all over the UK. And they're not overly expensive. They're not cheap. Not overly expensive. There we go. Right, that should be all the holes other than the ones for the 660 pieces, long pieces. That should be all the holes we need to drill tonight. But again, don't have the 660 pieces. I forgot to buy them. They will be arriving sometime this week. Now it's time for my least favorite process: tapping. Now, we have a reputation in the Millennium team for breaking taps when on stream. So I'm going to be very, very careful and make sure the clamps come out. I saw some for 30 on eBay the other day. Are they faked? It's not that they're fake. They might just be decommissioned or old or there's lots of reasons why stuff on eBay is cheap. They also just might be fake, like you said. Where are my clamps head? Small there, and some holes make you nervous every time. It's big? Oh, yeah, no, you're right. The M8s on Atlas have been a dream to tap. It's always the M5s that break. But I have spiral taps now, so it shouldn't be an issue. I'm going to also turn the monitor off. Ooh, no, I'm going to clamp two at a time, because otherwise we're going to be here all night. Yeah, I hope the cascade does do well. I just think the style of machine just reminds me of the Carvera things, and I don't like the Calvera machines. And if you don't know why I don't like the Carvera machines, here's a quick explanation as to why. All right, this is a 3D printer. I can set it to go and I can walk away. I can't do that with a mill. So if I want to make a part on a Calvera, it takes me, it would take me nearly five times as long to do it. And that's just a material removal rate constriction. They'll make the part just as accurate, but you're not doing that every single weekend that you have off, every single moment you have off, and you want to make a single part. If it takes two to three hours to make a single part, I'm not using the machine. I'm just using 3D printed parts instead. As a maker, that's how my brain works. If it takes too long or the tool is inconvenient to use, I'm not going to use the tool. But again, I have not used a cascade. I have not seen what it's capable of. So I cannot pass judgment on it like a glove. Oh, I have way too many taps and tapping trackers. Luckily, I've not broken too many taps. Touch every bit of wood in the room. Right, that we don't do any of that tonight. I'm going to try one clamp for each side because the other side moved a little bit the first time. Hopefully, that holds both of them. Don't know why I removed the tap. I've never broken a tap. I've also not done a lot of tapping. There's your problem. You do something enough, you're bound to do it wrong. Aki was selling them for like 670 quid the other day. Is that for the Min Tutorial ones? No, definitely not the entire maybe the really large ones you're thinking of. But definitely not the common size, the 150 and 200 sizes. Those are more like between 60 and 80 quid, unless they've just gone up in value like crazy unless someone's been shorting the caliper market That doing something enough means you're bound to do it wrong reminds you of nature being an expert Of the nature being the ex uh of the nature of being an expert. Yeah, see, right? If there's there's a point in time where you know enough about something that you think you know the entire subject, and then when you get better at it, you know enough about to know you don't know enough about the subject. Yes, just the calibers. It was a big set. Okay, that makes more sense. Oh, stream went down for a second. Are we back? Are we back 10,000 hours is just the time it takes to do everything wrong at least once in every possible way? Have you got any further with your build? No, I'm wrong. It's for 150 ones. What? Why are they that expensive? Keep wanting to do this. I keep trying to take my natural thing is once I'm done with the drill is to take it out and put it away. So I keep undoing the drill chuck Should happen Monday It smells heavenly in here and not just because I have Doritos on the side I've got some spag ball on slow cooker in the slow cooker at the moment and I can't wait for it I've just got a big block of the fancy stuff the fancy cheese too the fancy cheese They're actually 560 plus fat for a link to CNC other channel if anyone wants to have seen mental prices I'm gonna see this Oh the Mitatoya ones yeah Ah okay yes that makes more sense because it's the carbide tipped ones So it's not just any old Mitatoya ones that's the specifically the carbide tip ones That kind of makes a lot more sense now Stream gone down Stream keeps dropping on my end Is it dropping on your guys guys It keeps dropping out and then saying it's an excellent connection Thanks YouTube. Thanks for being really fucking confusing That's still so expensive. Yes, yes, I agree with you. It's way too expensive for most people. That's why most people buy Mitatoyos used. But at the same time, that's pennies at an industrial scale. For industrial customers, that's nothing. That's why I'm worried about the duet dim mountain controllers because I want some of those. I really, really want some of them. They're super cool. And they'd make my life so much easier. But they're industrial, which means normally just means adding dollar signs. How many zeros can I pop onto this before someone calls me out on it? Speaking of which, do you hear about the guy who just kept sending the US Air Force bills? But all the bills that he sent were, all the invoices that he sent were for the making of the invoices that he was sending. So the courts cleared him and the Air Force just went, yeah, we did it. We've been paying this guy. We just didn't read any of the contracts. Hey, Raven. I'm first time stream viewer. Long time. First time stream viewer, long time viewer. What are we building today? We've got Tiny Box. I've obviously got Atlas coming in here to be my main machine, but I would still like to have a Milo slash Miley style machine so I can continue doing dev for it in here. And I also want something that's dedicated for my fourth axis. Like a dedicated machine for the fourth axis, which is what this is going to be. So the Casa enclosure is about, I think it's somewhere between one meter and 1.1 meter wide. And that will fit both Milo and Miley. But I don't really need the full build volume of Milo because I'm going to have Atlas soon. So I've decided to make a condensed version of Casa, which I'm nicknaming Tiny Box. Eventually, it's just going to be Casa Miley or just Cassa or just Casa Tiny Box or something like that. Something easy, easy enough to remember. And that's going to eventually fit underneath that table over there, the one just behind this one. This table. So Tiny Box is going to be over here. I'm going to have to shift everything over a little bit just to fit it underneath the table. I'm going to have to raise the table up. That's not going to be too much of an issue. Then Atlas is going to sit on the top. Atlas is going to be one struggling between which enclosure style I want to go for at the minute for Atlas. So it's either going to be one meter or 1.1 meters wide. But that's going to be way more space efficient because that's for a 500 by 350 size machine as long as you don't name it Miley's box. It should be fine. Get your mind out the gutter. Your money hand Stream does keep dropping out for me. Can you make Atlas all the Atlas parts on Miley? I'm going to try because I do want to make as many of the parts as possible on Miley. But currently, no. Currently, you need 310 millimeters. Which is exactly what Miley does in X, but only exactly. So you then have to account for the radius of the end mill. So I'm going to have to redo the Z-axis a little bit to make it fit. But I'm sure it would be possible. Should be possible. Cool. Righty ho, righty ho, righty ho. Right. All the blind holes have been done. Do I have a rag of some kind anywhere? No, I don't. And then onto the nearby matter I actually start building things. So those are our uprights there. These are the rest of the extrusions. It's all untapped. These are for the platform that Miley's gonna eventually fit on. You got my material used and cheap. I was told that effective all they needed was a cleaning and lubrication. You know, sometimes in industry scales, you don't need that. Come on in, bud. Just be careful your feet. Have you got any more CAD atlas snapshots you can show us? Yeah, we'll do it later in the stream. Remind me later in the stream. Cool. I need all my M5s. Holy shit I'll grab my M3s in a bit. I really don't want to have that grab them right now. Let's see. What else do I need? I don't need M6s. Yeah, that should be all I need for now. Oh, actually, this is a perfect opportunity to get rid of a bunch of torque M5x10 torque screws. I bought this bag by accident a long time ago. And it's really good for making frames with, but I don't make frames that often. But they're really annoying when you have when you want to use them on parts that you have to adjust later. Either be that one or that one. Perfect. So that's the first up right there. And for this point out, it's basically going to be like a Voron. Like a Voron frame assembly. Time is up. Woo! Time is up. What draws you got underneath the tables? These are big dug workbenches. So if you just look up the like the on-brand big dug stuff, that's what these are. They're not bad benches. Just the feet that come with them are awful. Don't even try installing them. They will bend every single time. Just put something that's not going to scratch your floor underneath them and ignore the feet entirely. They bend so easily. I love the setup. Is that iced tea? No, it's Coke. It's Coca-Cola. We don't do iced tea around here. God, what do you take me for? This is an extremely American thing is iced tea. Look, we didn't invade the rest of the world for them to tell us how to drink tea. I'm joking. Just in case anyone thought I was being serious. I've made a vital mistake. I have made a vital mistake. We're not done drilling yet. God damn it. Got to drill the other side, so all these got four more holes to do. Brisket, can you handle four more holes? Can you handle it? I might have been joking, but you were correct. And Coke isn't American? Is Coke American? I actually don't know. I'm guessing it will be. I'm going to say it will be and not cause an international incident. Best Coke I've ever had and I grew up with was Coke made in Tanzania. It's just so much thicker. It's full of cane sugar. It's so much worse for you, but it tastes so good. The only property is licorice with honey. Yorman, get out. Get out. Don't be coming here with your Nordic bullshit. Hey, we got 17 people or 18 people in stream today. Hello, hello, everyone. This is your first time joining stream. Feel free to say something in chat. I always love chatting with people. It makes the stream so much more bearable. Because otherwise, I kind of stand here really awkwardly and be me. And no one wants me to be me. Trust me when I say that. Hey, Raj. How you doing, man? I am not too bad. Not too bad. I am just finishing off my third day off work. I was on for like eight days straight before this, so I'm kind of dreading going back to work, but it's only for two days until my next day off. So it's not going to be too bad. You're going to sing us the song of your people every single time I drill hot something. Man, people want you to be you. That's why you're here. Ah, yeah. Right. Come on. We can't have you on stream barking. Out you go. Gotta find your balls. Not those balls. You know where those aregan, you always do know what to say to make me feel good about myself. Thank you, bud. You're still wrong about tea, though. Raj you have a you have a 350 Voron, don't you? Can you do me a favor and get me like a rough sizing estimate for the outside of the machine? I just want not that it's gonna matter or anything. I just want like a comparison between the size of tiny box and the size of Yeah, that's correct It's a 300v2 Okay, you have if you have a 300 still the same thing if you don't mind just taking like a measurement for me doesn't need to be precise or anything just a rough measurement Because like I was comparing the size of my Cornel to the Trident that I have and I only have a Trident 250 and they're both the same floor space or table space This is obviously taller, but that's 300 millimeter build plate whereas the Voron is 250 510 by 530 by 500 including the spool holder and a clicky flat door to look around 630 millimeters of depth Raj is saying 480 by 480 are you Yomangan are you giving me the ones for the 350 version And Raj is giving me the one for the 300 Yeah Yomangan's doing the 350 yeah so it's not that much smaller so than tiny bit box is gonna be It's like 100 mil smaller So if you have the space for a 354 on you now have the space for a Miley a mill right so these two need to be on one end those two need to be on another end Let's get back to it 350 Voron is big I've never actually seen a 354 on I think a lot of people kind of go with the two the 250 size ones mostly because of either cost or just size restrictions of what they can have in their house Also I can imagine a lot of people were like worried about how much speed they could get on a 300mm or 350 mil Because like 50 mil extra on the gat the extra actually doesn't seem like much but it's a lot of weight for teeny tiny ma 17s I think people go with a 250 because most commercial printers are around that side. You say that, but they weren't around that size at the time of Vorons in the golden age. A lot of the standard was set by Prussia at 220. Hence why the core one is 220. You did have bigger ones, don't be wrong, but the bigger printers tended to be like 300 mil. I think the CR10 I have just realized something. These do need to be tapped on one side. But we can do that once the entire enclosure is built and just flush But yeah, first time I lifted the assembled printer I was surprised by how heavy it is. Yeah Yeah, 250 is big yeah you're not wrong you're not wrong they actually that's a thing Voron kind of set the precedent for 250 millimeter size beds The CR10 days were cool that was my first ever printer There was a CR10S But yeah it's another one and another thing that annoyed me with the annoys me with warons it's not an annoyment and it's just more of a personal game because it's fine if you own one printer because you can find the space for one printer But if you're like me and you have five printers including a resin printer and then also my two Vorons which are under here at the minute if you have if you're like me the narrower the more efficient you can get with the footprint in terms of build volume to volume of the machine the better it is in my case But that's because again I need to fit so many printers in such a small space if you're just building a single Voron or you have a garage where you have lots of space Yeah, they're fine Yeah, the one with the hole needs to go on this side It was my first build after I had a stroke and I needed to have some them oh man, that's rough. I'm glad you're doing better though I am glad you're doing better So you can kind of start to get the idea of how small how small this enclosure actually is that like that fits an entire Miley in it I think that is way more manageable for a lot of people I might not even have to move the table forward, you know I might do just to get it in there, but I have just remembered that I'm probably I do I will need to do a few more holes in two extrusions. God damn it. Drilling's never done. I forgot there's going to be the top extrusion here, which needs to connect to the top beam that doesn't exist at the bottom, but it does at the top because that's where the electronics box is. I'm sorry about that. If it helps, there are some days where I can't feel my toes. And that's not even because of the stroke. That's because I committed to a sport too hard when I was a kid and slipped two discs on my back. So I either wake up with fiery pains down my leg most days or can't walk at all. Yay! So I feel you, bro. I really do. I can sympathize with the pain more than most. We might also be doing some CAD on stream in a bit. That's the reason I said let's wait for the Atlas sneak peek because we might just be doing CAD anyway. And I can show it off then. Right, so this is the back. Depends on which way you want to build. The nice thing about every caster is they're mirrorable. So you can do it on you can have the door on this side and open this way, or you can just spin the entire chassis around. I'm going to spin it around because I want to have the e-stop and stuff on my left and door opening this way. I suppose it doesn't matter too much right now, but still it's not fun, but you live with it like any other thing in your life. Can't speak for Raj, obviously, but I got used to living with it. All right, I am kind of worried, though, about one thing. When I finally get Atlas up and running, and obviously I'm going to have Miley underneath there. That's going to be this room at capacity. Which means no more room for extra 3D printers. No more room for more CNC machines. I'm going to have literally this surface and that surface to do assembly work on. So I'm going to have to stop doing dev streams or won't be able to do dev streams or that many dev streams. It'll be limited in some way or another. And it will mean I will have to find projects to do. So what projects should I start getting into? What can I actually start seeing seeing? I've got the Micron, which I want to do a full one-piece flying gantry on. So basically, just what the Micron has now for the Gantry, except have it as a single all-milled from a single plate. And it's not even that wasteful because you can mill the bid the bed out of the centerpiece that would otherwise go to waste because my micron didn't come with a bed. And that wasn't the Fabrico's fault thing. I knew very well before Getting it. I was offered it by Fabrico specifically because the new LDO Micron kits were coming out and they had a bunch of old stock of the beta kits from before it was the Micron Plus the original Micron How long have we been streaming for no choice you just have to make the best that we still have yeah exactly I don't wake up depressed or anything every morning well not every morning I reserve that for Sundays these cross beans need to have one hole drilled in them yes I didn't get my measurements wrong in CAD Do you fully cam projects before building or do you sometimes just wing it I wouldn't say I wing it I get it to a point where it's nice to have visual confirmation of what something looks like or feels like so like I haven't fully cammed out the tiny box yet but I got it to a point where I know I've made decisions that I shouldn't reverse or make too many big changes on so something like the frame the frame is the frame's gonna be the same size I'm not gonna change the frame by that much I might change the electronics box a little bit make it a bit wider to compensate for the fact that's a lot shorter but I don't think I'll need to do that because I can fit most of the electronics in normal CASA in the first like quarter but that's with tuned in rails it's gonna be it's probably gonna be a bit tight but it should be fine in a bit I am gonna get rid of this platform here right I need to do some measurings first let me do some measuring I can measure how far this goes away from that so 170 from center to edge I need to drill a hole in these top pieces we just send you an STL on discord yeah it'll take too long to oh that's what I forgot to do I said that I was gonna do this at the very beginning of stream and I completely forgot to do it add instance in this no clone command set number of instances all right so I need one to Four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen. So let's go at 20 just to be safe. So, oh my god, cruiser slices so differently. Okay, basically, however many I can fit on a bed. I'm so used to Orca. There we go. We're doing these in glass fiber ABS. I've got them set up as ASA right now just because I'm messing around. I was messing around with some stuff. And we want to do these in just you don't need to, these don't need to be the strongest things in the world. So I'm just going to do them in the aesthetic setting. Go there's one thing I don't like about the core one. You can set there is a setting to set the minimum chamber temperature, but I think it needs to be at that temperature for like 30 minutes or something like that. So what I end up having to do is just press skip on the chamber preheating because if you set the chamber to 50 C, it tries to keep 50 C only. It doesn't see that as a minimum chamber temperature. And you have to set it to 60 to actually print at 60 or to not turn the internal chamber fans on, which I'm not a big fan of. Oh stream's current bit rate. Okay, we're back on track. I don't know what what happened there. I think someone was just downloading a lot of stuff somewhere nearby. My internet dropped. Alright, so two of these two of them? Yes, there's two of them. So I'll do 150, then 20. And that gets us to 170. I tried to use free cat instead of fusion. I'm trying to make the switch. But cam on fusion is just too good for me to compare not free card to fusion. Sorry, fusion to free card. I am thinking of moving to On Shape Because I believe OnShape now does do a cam version, a cam thing, cam workspace and because AI is a thing, I can now easily pump out post-processors. Whereas I had no idea what I was doing with post-processors before. There's a lot of evil things about AI, but I will not lie, it has helped immensely when it comes to doing the dev stuff Nothing is evil about AI, just some of the people that use it. Yeah, that's not wrong It's the habits that people fall into when using it as well the fact they believe it all the time And I really would love to stop using AI art but at the same time I would rather spend that money a lot of the time on parts so if anyone's interested if anyone knows any artists who are interested in doing some free work And getting rid of the, or at least doing a proper version of the starting soon little widget thing I have that would be amazing, because I don't like AI art, but at the same time, I needed something. Alright, this needs to go on this side. The hole needs to be on that side. The problem with AI is not how the individual uses it. It's the system effect it has on the world. It's cheaper and faster to do stuff with it and ends up leaving humans out of the loop. There's human costs to it, and really that we really express directly. We talk about the economic benefits as if economics were separate from your anti. Yes. I can agree with every single thing you said there. And that's not even like everything you say, but. That's an everything you say. Problem is, we're using, we're at a point where it does genuinely help individuals in a lot of ways. But it's not aimed at helping individuals. It's aimed at helping mass market bodies and big companies. So you can say all you want about how you don't want to use AI. It doesn't mean you'll be able to get away with not doing it. It doesn't mean it's going to change anything. Because I can guarantee you one thing: the entire regular user base, the entire population of the earth that isn't industrial or doing it for company work can say they're going to stop using AI and AI will still continue to be there Just noticed something gonna have to undo this This is another reason I don't always follow through with pad entirely before start assembling stuff because just tiny tiny bits and pieces like this where you really need to feel what the process is of making it to kind of realize where your stumbling points are So for example I need to make sure that this T piece goes in this way with these bits first otherwise you won't be able to assemble it and I only knew that because I assembled it or I'm in the process of assembling There is no avoiding it embrace it I wouldn't say embrace it I'd say use it as a tool like any other tool because it does come up with some bullshit It does come up with a bunch of bullshit and you shouldn't trust it not inherently at least and you shouldn't let it rule your life But that's the same as everything fortunately there are people who get addicted to it the same way people get addicted to anything And then they start relying on it too much and then that's when it bites them in the ass Right, and that's that so that needs to be installed this side I am probably gonna have to take this apart at some stage just to get other extrusions in that should be going in to the electronics box side, but I can do that after I've done the actual fitty turn this sideways split second oh I'll tell you what I've been enjoying recently I've been really enjoying dispatch I started playing dispatch My monitor's turned off And it has been such a good game It's such a good as someone who really really really enjoyed and missed the telltale style of video games I have been super into dispatch You know sometimes you don't want a sweaty video game sometimes you just want something that has a good story that you get to make a few choices in and yeah it's not gonna affect the outcome that much but the illusion of affecting the outcome sometimes is all I want agency in video games doesn't necessarily mean you are changing anything it just means that you feel like you're changing stuff We're effectively first forced to use it at work. I haven't seen anyone's productivity gone up We do produce a lot more code though, but we don't ship code we ship solutions Favorite studies but I have a scrap bin that begs to differ Hook that up to something that can register positions and you can use it as a pretty accurate 3D scanner. Yeah, I suppose so But I think the 3D scanner market is pretty saturated at the minute Okay This is what happens when you don't have a manual to follow you end up having to redo a bunch of stuff So at this point in time I'm gonna have to take this whole top section off because I forgot to slide a bit of extrusion down that way I miss more holes than I need to drill uh no I didn't miss them this time There is just one of the electronics bay extrusions need to go need to go over here so I need to take all of this off hey you're finally starting to print This is what I mean it takes so long for the push to get up to 60 degrees Which is to be fair it's the same as any other printer but it does get up to 60 degrees and it doesn't lie to me like I have a panda breath in my in one of my P1Ss and that's the one I use for the majority of my ABS printing nowadays Majority of my big part parts at least up until I got the P1S not P1S the Cornel and even with that it lies to you it doesn't actually get to 60 60 degrees it gets to 55 I've used so many different thermostors, thermostat, well, not themostats thermocouples in there, and it still just says it gets to 55. This actually gets up to 60 degrees. I'm just gonna move this one down. Figure out what the spacing is in a minute now. This one needs to go where that top one was Yeah, what code do you need to write for your job, Yormangand? I don't understand it. Don't you're not gonna say that because I'm not gonna adopt you on stream Not gonna say what you do You can say what you want what you do, but I'm not gonna be the one who does it by accident My team makes internal tools for other people's companies Oh okay See, I thought you were one of the more you had one of the more well I suppose your job can still be fun So I'm using the term fun here relatively I thought you had one of the more fun jobs So what I'm missing currently is an upright here an upright at the back but those are 660 mil long and I hadn't ordered them yet because I am an idiot and I forgot about them and then the 140s here But yeah, that is see if I can make some things this is the full size of the machine This is gonna be way more manageable for a lot of people It's gonna be way more manageable for a lot of people I think Like you saw what the P what the Core 1L was like on this table if you were here on Saturday. It was massive and this isn't too much bigger. This is actually usable Right It's a bit short for my liking, especially when it's actually on the desk I like having my machines basically this height or a bit higher But that's what you get when you try and make everything the same size extrusion Yeah, I think that's where we're gonna leave it off for tonight Just so that we're not having to wait around next stream for me to get extrusions drilled and built and all that stuff I'm probably gonna do the last two uprights next stream no sorry between streams and just get the frame completely done and dusted out of the way There's also these two bits, but these are for actually where Miley's gonna sit on the machine So it doesn't matter too much but yeah, I think for now seeing as it's quite it's gonna be quite late for now I'm gonna say goodbye right get you back on this cam as per usual Thank you very much everyone who came to stream today it does help tremendously when we got loads of people who are willing to chat and have fun and just watch the things that we do here I know it was a bit more dev heavy and a little bit all over the place That's always the case with us. We're always all over the place and I kind of assume that's why you come and watch me But other than that if you do want to donate to the team or do anything to help us out join the Discord for a start like the video and if you feel like donating there's a link in the description below Cheers coming and I hope you guys have a great rest of your evening bye now",
+  "segments": [
+    {
+      "start": 305.9289998474121,
+      "end": 307.9289998474121,
+      "text": "Righto, hello folks."
+    },
+    {
+      "start": 307.9289998474121,
+      "end": 309.2089995803833,
+      "text": "How are we doing?"
+    },
+    {
+      "start": 309.2089995803833,
+      "end": 310.56900019073487,
+      "text": "How are we doing?"
+    },
+    {
+      "start": 310.56900019073487,
+      "end": 312.00899977111817,
+      "text": "Who have we got in chat today?"
+    },
+    {
+      "start": 312.00899977111817,
+      "end": 313.12899965667725,
+      "text": "We got Yom Gand."
+    },
+    {
+      "start": 313.12899965667725,
+      "end": 313.9289998474121,
+      "text": "Hello, Yongyand."
+    },
+    {
+      "start": 313.9289998474121,
+      "end": 315.44899935150147,
+      "text": "Hey, Ollie."
+    },
+    {
+      "start": 315.44899935150147,
+      "end": 317.2090005340576,
+      "text": "Hey, Steve, how are you guys doing?"
+    },
+    {
+      "start": 317.2090005340576,
+      "end": 318.56899923706055,
+      "text": "How are you guys doing?"
+    },
+    {
+      "start": 318.56899923706055,
+      "end": 321.36900038146973,
+      "text": "Jumping the gun a bit, aren't you?"
+    },
+    {
+      "start": 321.36900038146973,
+      "end": 324.56899923706055,
+      "text": "Yeah, jumping the gun just a little bit."
+    },
+    {
+      "start": 324.56899923706055,
+      "end": 325.12899870300294,
+      "text": "Just a little."
+    },
+    {
+      "start": 325.12899870300294,
+      "end": 336.24899954223633,
+      "text": "See, there's a 10-second delay, so you're seeing, you saw it 20 seconds out whilst I saw it like somewhere between five and I can't actually remember, between five and ten seconds out."
+    },
+    {
+      "start": 336.24899954223633,
+      "end": 340.00899786376954,
+      "text": "And I didn't want to have to faff around at the beginning of the stream pressing buttons."
+    },
+    {
+      "start": 340.00899786376954,
+      "end": 342.00899786376954,
+      "text": "But we do have a brisket."
+    },
+    {
+      "start": 342.00899786376954,
+      "end": 344.00899786376954,
+      "text": "We do have a brisket."
+    },
+    {
+      "start": 344.00899786376954,
+      "end": 344.88899893188477,
+      "text": "We do have a brisket."
+    },
+    {
+      "start": 344.88899893188477,
+      "end": 347.208998626709,
+      "text": "If you just check in the top corner, Brisket is with us."
+    },
+    {
+      "start": 347.208998626709,
+      "end": 352.648997253418,
+      "text": "Brisket is alive and well."
+    },
+    {
+      "start": 352.648997253418,
+      "end": 354.40899938964844,
+      "text": "Claiming we're alive and then it's still fitting."
+    },
+    {
+      "start": 354.40899938964844,
+      "end": 357.0489987792969,
+      "text": "Yeah, yeah, it happens."
+    },
+    {
+      "start": 357.0489987792969,
+      "end": 359.4490003051758,
+      "text": "You just woke up and saw you go."
+    },
+    {
+      "start": 359.4490003051758,
+      "end": 361.5289983215332,
+      "text": "Damn, you having a nap."
+    },
+    {
+      "start": 361.5289983215332,
+      "end": 362.48899740600586,
+      "text": "Were you having a nap?"
+    },
+    {
+      "start": 362.48899740600586,
+      "end": 367.0489987792969,
+      "text": "Right."
+    },
+    {
+      "start": 367.0489987792969,
+      "end": 368.648997253418,
+      "text": "So, gonna give it a few seconds."
+    },
+    {
+      "start": 368.648997253418,
+      "end": 370.48900122070313,
+      "text": "Cascade released today."
+    },
+    {
+      "start": 370.48900122070313,
+      "end": 371.5290021362305,
+      "text": "Did everyone see the news?"
+    },
+    {
+      "start": 371.5290021362305,
+      "end": 373.769,
+      "text": "Cascade released."
+    },
+    {
+      "start": 373.769,
+      "end": 379.2089948120117,
+      "text": "It's not like I got told 50,000 times today that Cascade has been released."
+    },
+    {
+      "start": 379.2089948120117,
+      "end": 379.8490018310547,
+      "text": "I'm very sick."
+    },
+    {
+      "start": 379.8490018310547,
+      "end": 382.0889996948242,
+      "text": "Oh, sorry to hear that, dude."
+    },
+    {
+      "start": 382.0889996948242,
+      "end": 383.60899633789063,
+      "text": "Sorry to hear that."
+    },
+    {
+      "start": 383.60899633789063,
+      "end": 390.72899908447266,
+      "text": "Yeah, so if we get some time, we might go and download the Cascade Cam and have a look at it and see what it's like."
+    },
+    {
+      "start": 390.72899908447266,
+      "end": 392.5689954223633,
+      "text": "I've also changed the cameras around."
+    },
+    {
+      "start": 392.5689954223633,
+      "end": 395.3689984741211,
+      "text": "So hopefully the colors aren't as weird as they were before."
+    },
+    {
+      "start": 395.3689984741211,
+      "end": 403.2089948120117,
+      "text": "The desk camera is now my A5000 and the ZVE10 is now my main cam, which probably should have been like that to begin with."
+    },
+    {
+      "start": 403.2089948120117,
+      "end": 413.60899633789063,
+      "text": "But reason I had the ZVE10 there is because I want to do some photos that are kind of this old Tony style in terms of camera angles and that's my better camera."
+    },
+    {
+      "start": 413.60899633789063,
+      "end": 419.6889981689453,
+      "text": "So I thought I would be using it a bit more, but obviously for streams, I'll swap them around."
+    },
+    {
+      "start": 419.6889981689453,
+      "end": 421.2089948120117,
+      "text": "The CAD looks cool to be fair."
+    },
+    {
+      "start": 421.2089948120117,
+      "end": 422.80900091552735,
+      "text": "We might check it out."
+    },
+    {
+      "start": 422.80900091552735,
+      "end": 424.24899572753907,
+      "text": "We might check it out in a bit."
+    },
+    {
+      "start": 424.24899572753907,
+      "end": 429.0489987792969,
+      "text": "But before that, before that, right?"
+    },
+    {
+      "start": 429.0489987792969,
+      "end": 432.9689969482422,
+      "text": "Before that, I gotta get to what we're actually doing today."
+    },
+    {
+      "start": 432.9689969482422,
+      "end": 436.8089932861328,
+      "text": "So today is the start of Tiny Box."
+    },
+    {
+      "start": 436.8089932861328,
+      "end": 442.40899938964844,
+      "text": "If you're I'm a daily on Discord, Tiny Box does not mean Tiny Box."
+    },
+    {
+      "start": 442.40899938964844,
+      "end": 445.36899084472657,
+      "text": "It's just a funny name for a slightly smaller Casa."
+    },
+    {
+      "start": 445.36899084472657,
+      "end": 448.5690030517578,
+      "text": "That's the width of it right there."
+    },
+    {
+      "start": 448.5690030517578,
+      "end": 454.8889951171875,
+      "text": "So it's actually going to be kind of just big printer sized rather than massive."
+    },
+    {
+      "start": 454.8889951171875,
+      "end": 458.24899572753907,
+      "text": "Also, I've basically been printing non-stop with the ProShow."
+    },
+    {
+      "start": 458.24899572753907,
+      "end": 459.0489987792969,
+      "text": "What's up, bud?"
+    },
+    {
+      "start": 459.0489987792969,
+      "end": 462.0889920654297,
+      "text": "You want to go outside?"
+    },
+    {
+      "start": 462.0889920654297,
+      "end": 463.52899450683594,
+      "text": "You protesting."
+    },
+    {
+      "start": 463.52899450683594,
+      "end": 466.1689938964844,
+      "text": "Go on."
+    },
+    {
+      "start": 466.1689938964844,
+      "end": 468.48900122070313,
+      "text": "Go on, get past the chair."
+    },
+    {
+      "start": 468.48900122070313,
+      "end": 468.9689969482422,
+      "text": "Go on."
+    },
+    {
+      "start": 468.9689969482422,
+      "end": 485.0489987792969,
+      "text": "Looks similar to Ferky's build to me."
+    },
+    {
+      "start": 485.0489987792969,
+      "end": 486.8889951171875,
+      "text": "I thought it was a gantry style machine."
+    },
+    {
+      "start": 486.8889951171875,
+      "end": 488.72899145507813,
+      "text": "I thought it was a gantry style machine."
+    },
+    {
+      "start": 488.72899145507813,
+      "end": 491.36899084472657,
+      "text": "I haven't checked the CAD out, right?"
+    },
+    {
+      "start": 491.36899084472657,
+      "end": 497.0489987792969,
+      "text": "I can't pass judgment on it at the minute because A, I haven't built it."
+    },
+    {
+      "start": 497.0489987792969,
+      "end": 499.2889890136719,
+      "text": "B, I haven't even seen the CAD for it."
+    },
+    {
+      "start": 499.2889890136719,
+      "end": 511.9289884033203,
+      "text": "And C, the last time I saw an update for it was when they still had the tool offset sensor in the middle of the work area, which was if they still have that, that's dumb."
+    },
+    {
+      "start": 511.9289884033203,
+      "end": 513.0489987792969,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 513.0489987792969,
+      "end": 514.2489957275391,
+      "text": "There's no way around it."
+    },
+    {
+      "start": 514.2489957275391,
+      "end": 517.9289884033203,
+      "text": "If it is in the middle of the bed, that's dumb."
+    },
+    {
+      "start": 517.9289884033203,
+      "end": 521.6089963378906,
+      "text": "Hopefully, they changed it since then."
+    },
+    {
+      "start": 521.6089963378906,
+      "end": 524.6489896240234,
+      "text": "But yeah, tiny box."
+    },
+    {
+      "start": 524.6489896240234,
+      "end": 525.9289884033203,
+      "text": "Instruments have arrived."
+    },
+    {
+      "start": 525.9289884033203,
+      "end": 531.2090024414063,
+      "text": "I've basically been printing non-stop on the core one, the Corn L and a bunch of other bits."
+    },
+    {
+      "start": 531.2090024414063,
+      "end": 534.8089932861328,
+      "text": "So I have a bag full of parts."
+    },
+    {
+      "start": 534.8089932861328,
+      "end": 540.8889951171875,
+      "text": "How smart looking these parts are right."
+    },
+    {
+      "start": 540.8889951171875,
+      "end": 543.1290006103516,
+      "text": "So this was done on the bamboo."
+    },
+    {
+      "start": 543.1290006103516,
+      "end": 546.4089993896484,
+      "text": "Obviously, because it's my only color chain new printer."
+    },
+    {
+      "start": 546.4089993896484,
+      "end": 548.5689877929688,
+      "text": "And that looked alright."
+    },
+    {
+      "start": 548.5689877929688,
+      "end": 552.8089932861328,
+      "text": "I've done all the weight-saving holes as well."
+    },
+    {
+      "start": 552.8089932861328,
+      "end": 555.2089871826172,
+      "text": "But fucking A."
+    },
+    {
+      "start": 555.2089871826172,
+      "end": 558.4089841308594,
+      "text": "I love the plate finish on the Core 1L."
+    },
+    {
+      "start": 558.4089841308594,
+      "end": 564.24898046875,
+      "text": "It's like it's smooth PEI, but it's slightly, slightly textured."
+    },
+    {
+      "start": 564.24898046875,
+      "end": 570.008990234375,
+      "text": "And it doesn't keep finger marks very easily."
+    },
+    {
+      "start": 570.008990234375,
+      "end": 576.0890073242188,
+      "text": "So I can be touching this thing all the time, not have to worry about finger marks, which is amazing to me."
+    },
+    {
+      "start": 576.0890073242188,
+      "end": 580.1689938964844,
+      "text": "I love it."
+    },
+    {
+      "start": 580.1689938964844,
+      "end": 583.4489926757813,
+      "text": "Nah, it doesn't anymore."
+    },
+    {
+      "start": 583.4489926757813,
+      "end": 584.1689938964844,
+      "text": "It's on the right now."
+    },
+    {
+      "start": 584.1689938964844,
+      "end": 584.8889951171875,
+      "text": "Okay, good."
+    },
+    {
+      "start": 584.8889951171875,
+      "end": 586.24898046875,
+      "text": "Hey, Jack, how you doing?"
+    },
+    {
+      "start": 586.24898046875,
+      "end": 588.3289975585938,
+      "text": "It's been a while since you've been on stream."
+    },
+    {
+      "start": 588.3289975585938,
+      "end": 591.2889890136719,
+      "text": "Everybody keeps asking me when I'm building with Cascade."
+    },
+    {
+      "start": 591.2889890136719,
+      "end": 593.3690061035156,
+      "text": "I keep telling people that I'm building Milo too."
+    },
+    {
+      "start": 593.3690061035156,
+      "end": 600.24898046875,
+      "text": "I think Cascade will have its audience because it's Voron."
+    },
+    {
+      "start": 602.3929999237062,
+      "end": 606.7930000190736,
+      "text": "At the end of the day, it's a Voron machine and people love Varons."
+    },
+    {
+      "start": 606.7930000190736,
+      "end": 622.7129996185304,
+      "text": "I think someone mentioned on a Reddit post somewhere that it's going to cost about 3k to self-source, which seems wildly too expensive for me."
+    },
+    {
+      "start": 622.7129996185304,
+      "end": 628.7929995422364,
+      "text": "Like, if it's too expensive, then there are better things you can buy with the money."
+    },
+    {
+      "start": 628.7929995422364,
+      "end": 635.3530009155274,
+      "text": "It's the same kind of situation the bamboos are having at the moment."
+    },
+    {
+      "start": 635.3530009155274,
+      "end": 638.3130000000001,
+      "text": "I was just about to complain about the camera."
+    },
+    {
+      "start": 638.3130000000001,
+      "end": 640.7129977111817,
+      "text": "Hey, hey, it's been a while since I streamed."
+    },
+    {
+      "start": 640.7129977111817,
+      "end": 641.9930003051759,
+      "text": "It's been a while since I streamed."
+    },
+    {
+      "start": 641.9930003051759,
+      "end": 643.4329989318849,
+      "text": "I forget things."
+    },
+    {
+      "start": 643.4329989318849,
+      "end": 651.1129992370606,
+      "text": "Okay, so let me show you the current state of Tiny Box."
+    },
+    {
+      "start": 651.1129992370606,
+      "end": 657.032997406006,
+      "text": "Now, remember, Tiny Box is basically just started with dev."
+    },
+    {
+      "start": 657.032997406006,
+      "end": 664.0729983215333,
+      "text": "I'm getting rid of the weird jagged bits on the front panels."
+    },
+    {
+      "start": 664.0729983215333,
+      "end": 670.6329996948243,
+      "text": "I'm going four keystone jacks on the front, four keystone jacks on the back."
+    },
+    {
+      "start": 670.6329996948243,
+      "end": 679.592998779297,
+      "text": "And then you've got your 20 amp plug, and because the 20 amp plug doesn't come with a switch, you're going to have to have a rocker switch right there."
+    },
+    {
+      "start": 679.592998779297,
+      "end": 684.7929957275392,
+      "text": "Everything else is just hollowed out plate for now and the frame."
+    },
+    {
+      "start": 684.7929957275392,
+      "end": 688.3930018310548,
+      "text": "The basement's been drastically reduced."
+    },
+    {
+      "start": 688.3930018310548,
+      "end": 698.713001525879,
+      "text": "So everything I've printed so far comes out to around about I think the total weight so far is a kilo and a half."
+    },
+    {
+      "start": 698.713001525879,
+      "end": 701.1129954223634,
+      "text": "And that's most of the printing done."
+    },
+    {
+      "start": 701.1129954223634,
+      "end": 703.1129954223634,
+      "text": "That's like 90% of the printing done."
+    },
+    {
+      "start": 703.1129954223634,
+      "end": 705.592998779297,
+      "text": "There are a few bits that I do need to keep printing."
+    },
+    {
+      "start": 705.592998779297,
+      "end": 735.9129908447267,
+      "text": "So actually, we're going to open up Prucier Slicer Slicer card."
+    },
+    {
+      "start": 735.9129908447267,
+      "end": 737.7530024414064,
+      "text": "Put the monitor in the lower left."
+    },
+    {
+      "start": 737.7530024414064,
+      "end": 739.1130030517579,
+      "text": "Right."
+    },
+    {
+      "start": 739.1130030517579,
+      "end": 740.7129938964845,
+      "text": "There's a few things I want to get."
+    },
+    {
+      "start": 740.7129938964845,
+      "end": 745.7530024414064,
+      "text": "I need to start printing."
+    },
+    {
+      "start": 745.7530024414064,
+      "end": 747.1929896240235,
+      "text": "I need to do these corner clips."
+    },
+    {
+      "start": 747.1929896240235,
+      "end": 753.832989013672,
+      "text": "I did print these off originally, but I'm afraid the ones I printed off have gone to waste because I changed the style of them a little bit."
+    },
+    {
+      "start": 753.832989013672,
+      "end": 769.0330012207032,
+      "text": "So come on."
+    },
+    {
+      "start": 769.0330012207032,
+      "end": 776.3130000000001,
+      "text": "But yeah, if you've built CASA, you'll recognize 90% of what this is."
+    },
+    {
+      "start": 776.3130000000001,
+      "end": 787.1929896240235,
+      "text": "What is basically just small Casa, right?"
+    },
+    {
+      "start": 787.1929896240235,
+      "end": 796.3130000000001,
+      "text": "But it's small enough to the point where more people will actually use or have the space for this than they will for a whole with a full-size Milo."
+    },
+    {
+      "start": 796.3130000000001,
+      "end": 800.7929957275392,
+      "text": "Because I think I think full-size Casa off the top of my head is a meter, 1."
+    },
+    {
+      "start": 800.7929957275392,
+      "end": 807.4329951171876,
+      "text": "1 meters wide at least, where this is only 752 millimeters, I think."
+    },
+    {
+      "start": 807.4329951171876,
+      "end": 817.6730006103517,
+      "text": "I'll measure it in CAD in just a second."
+    },
+    {
+      "start": 817.6730006103517,
+      "end": 820.7129938964845,
+      "text": "I have tried it is on low latency mode today."
+    },
+    {
+      "start": 820.7129938964845,
+      "end": 822.4729884033204,
+      "text": "It is on low latency mode today."
+    },
+    {
+      "start": 822.4729884033204,
+      "end": 835.7529871826173,
+      "text": "So hopefully there's going to be a little bit more latency between when I'm saying things and when you're actually hearing them Cool."
+    },
+    {
+      "start": 835.7529871826173,
+      "end": 837.1929896240235,
+      "text": "Right, that's done."
+    },
+    {
+      "start": 837.1929896240235,
+      "end": 852.072994506836,
+      "text": "Bruce just licer is weirdly explicit."
+    },
+    {
+      "start": 852.072994506836,
+      "end": 854.8729975585939,
+      "text": "Yeah, well, it just so happens to be."
+    },
+    {
+      "start": 854.8729975585939,
+      "end": 857.1129877929689,
+      "text": "I think it's here."
+    },
+    {
+      "start": 857.1129877929689,
+      "end": 861.0330012207032,
+      "text": "I'll measure that there."
+    },
+    {
+      "start": 861.0330012207032,
+      "end": 862.3929865722657,
+      "text": "758."
+    },
+    {
+      "start": 862.3929865722657,
+      "end": 863.0330012207032,
+      "text": "Sorry."
+    },
+    {
+      "start": 863.0330012207032,
+      "end": 865.5129816894532,
+      "text": "758."
+    },
+    {
+      "start": 865.5129816894532,
+      "end": 869.0330012207032,
+      "text": "It just happens to be how thick the panels are on each side."
+    },
+    {
+      "start": 869.0330012207032,
+      "end": 872.6330073242189,
+      "text": "If you have a look, I've kind of changed the corner designs a little bit."
+    },
+    {
+      "start": 872.6330073242189,
+      "end": 881.2729914550782,
+      "text": "That's just so that they line up with the shape of the clips and things."
+    },
+    {
+      "start": 881.2729914550782,
+      "end": 885.353008544922,
+      "text": "Because I hate it when a box has like warts on it that don't go all the way down."
+    },
+    {
+      "start": 885.353008544922,
+      "end": 889.592998779297,
+      "text": "Like, it just feels weird."
+    },
+    {
+      "start": 889.592998779297,
+      "end": 891.4329951171876,
+      "text": "758."
+    },
+    {
+      "start": 891.4329951171876,
+      "end": 895.7530024414064,
+      "text": "But all the extrusion, or most of the extrusions, there's a couple of 660 mils extrusions."
+    },
+    {
+      "start": 895.7530024414064,
+      "end": 899.353008544922,
+      "text": "So these ones right here, these uprights here"
+    },
+    {
+      "start": 901.1915000047684,
+      "end": 987.3514987792969,
+      "text": "That one and that one are 660 and then there's all for also also these cross beams which are 140 but everything else is the same size extrusion which is a good thing because if LDO does want to do a kit for this which I think they're more likely to do a kit for this than they will do for another Casa for another big Casa LDO does want to do a kit for it's A going to be cheaper because shipping alone is going to be cheaper by weight B you can basically drill every single extrusion to look exactly the same and then just ship those and you don't have to have a load of SKUs like you do with Morons or even old Casa Which is always a benefit I think all right let's stop talking and actually start doing stuff so it is going to be a little bit more a little bit different because obviously I'm going to be working on this side of the shop so it's going to be overhead cam for the most part and then you're going to have to look at the back of my head It's a very pretty back of heads to be fair So first things first Don't know what to do."
+    },
+    {
+      "start": 987.3514987792969,
+      "end": 1103.7514926757813,
+      "text": "I don't know whether or not to do every single extrusion drill every single extrusion or drill them all separately because do I add every single hole already as if to every single extrusion as if it was all coming from LDO or do I just do the holes that I need I think I'm just gonna do the holes that I need to start off with The assembly I have in the background that one over there yeah that's Atlas that is Atlas Don't worry the CAD is done for so much more of Atlas It's just that when I do when I'm doing the as far as I got into the reassembly and some changes that I made I had to strip everything that I had off and I'm just slowly adding it all back together Right, so what I need to do is I'm just gonna do the uprights first So the uprights are pretty much the only 700mm extrusions that need holes for blind joints in them because everything attaches to these so I'm getting 10 mils on my caliper Why I'm doing 10 mils is because it's half of 20 and it's a 2020 extrusion So that's where the action the hole in the center would fall I'm gonna do this to four of them To those of you who have actually seen Cascade How's it looking do you do you think it will do well?"
+    },
+    {
+      "start": 1103.7514926757813,
+      "end": 1198.1514865722656,
+      "text": "I hope it does well we need more people in the CNC space I'm not the a big fan of the approach that they're going for but that's personal taste like I don't like those small fixed gantry machines But they also mention that they've got a 1500 RPM spindle Which if that's the case and LDO is doing the what's it called for them or the processing for them and getting the kits together with those 1500 RPM spindles I might be asking LDO if they could send one over Because 1500 is such a nice RPM to deal with but then again those could be those could end up being water cooled spindles and I don't like having water cool spindles not because they're bad or anything but because they add extra complexity for most people looks good but I want to see someone someone make one before I would consider it yeah it was a bit of a weird drop wasn't it I if anyone's been to Rocky Round Reprim Festival this week did they show it off there were they showing it off there or was this just a completely weird shadow drop I know they had Phoenix there and I'm pretty sure did they announce Phoenix don't actually know"
+    },
+    {
+      "start": 1218.754999771118,
+      "end": 1238.7549978637694,
+      "text": "Although technically you only need a five mil drill bit for these, I'm using six mils because you can actually fit the Vera ones through a little bit better, the Vera Allen keys because they have those weird sleeves on them."
+    },
+    {
+      "start": 1238.7549978637694,
+      "end": 1256.114998474121,
+      "text": "It's really annoying because the Vera ones are so much nicer to use on a day-to-day basis, but Vorons kind of require you to not have one cascade, there were two of them, Eva Wait says."
+    },
+    {
+      "start": 1256.114998474121,
+      "end": 1267.8750006103514,
+      "text": "Oh, cool."
+    },
+    {
+      "start": 1267.8750006103514,
+      "end": 1282.2749945068358,
+      "text": "I just hated how this fence worked John T on the Discord channel has a cascade."
+    },
+    {
+      "start": 1282.2749945068358,
+      "end": 1284.0349966430663,
+      "text": "That's Cascade 101."
+    },
+    {
+      "start": 1284.0349966430663,
+      "end": 1284.5149999999999,
+      "text": "It's a 1."
+    },
+    {
+      "start": 1284.5149999999999,
+      "end": 1285.6349951171874,
+      "text": "2 kilowatt spindle."
+    },
+    {
+      "start": 1285.6349951171874,
+      "end": 1287.8750006103514,
+      "text": "That's not bad."
+    },
+    {
+      "start": 1287.8750006103514,
+      "end": 1289.4749990844725,
+      "text": "That's really not a bad thing."
+    },
+    {
+      "start": 1289.4749990844725,
+      "end": 1292.9150015258788,
+      "text": "Like, I've said this in the past."
+    },
+    {
+      "start": 1292.9150015258788,
+      "end": 1302.7549978637694,
+      "text": "Even on Milo, you'd be you'd have to do a whole load of mods before you can get the rigidity required to actually use a thousand kilowatts."
+    },
+    {
+      "start": 1302.7549978637694,
+      "end": 1303.8750006103514,
+      "text": "No, thousand kilowatts."
+    },
+    {
+      "start": 1303.8750006103514,
+      "end": 1310.994995727539,
+      "text": "A thousand watts of spindle power."
+    },
+    {
+      "start": 1310.994995727539,
+      "end": 1312.0349966430663,
+      "text": "So I wouldn't mind a 1."
+    },
+    {
+      "start": 1312.0349966430663,
+      "end": 1315.3149954223632,
+      "text": "2 kilowatt spindle, honestly."
+    },
+    {
+      "start": 1315.3149954223632,
+      "end": 1351.235001220703,
+      "text": "Obviously, for those of you who like doing steel, it's a different question."
+    },
+    {
+      "start": 1351.235001220703,
+      "end": 1353.7949987792967,
+      "text": "Have I found a problem with this?"
+    },
+    {
+      "start": 1353.7949987792967,
+      "end": 1355.3150030517577,
+      "text": "I can't go any further down, can I?"
+    },
+    {
+      "start": 1355.3150030517577,
+      "end": 1360.9149938964842,
+      "text": "Why is that?"
+    },
+    {
+      "start": 1360.9149938964842,
+      "end": 1365.9550024414061,
+      "text": "Normally go all the way down."
+    },
+    {
+      "start": 1365.9550024414061,
+      "end": 1374.994995727539,
+      "text": "What on earth there we go."
+    },
+    {
+      "start": 1374.994995727539,
+      "end": 1376.1149908447264,
+      "text": "Got it."
+    },
+    {
+      "start": 1376.1149908447264,
+      "end": 1386.8349920654296,
+      "text": "I've got confused there for a second."
+    },
+    {
+      "start": 1386.8349920654296,
+      "end": 1387.8750006103514,
+      "text": "Is that Atlas in the background?"
+    },
+    {
+      "start": 1387.8750006103514,
+      "end": 1389.714996948242,
+      "text": "Yes, it's Atlas in the background."
+    },
+    {
+      "start": 1389.714996948242,
+      "end": 1391.5549932861327,
+      "text": "Don't mind its state of disrepair."
+    },
+    {
+      "start": 1391.5549932861327,
+      "end": 1397.5549932861327,
+      "text": "I have been changing a bunch of stuff around recently on it."
+    },
+    {
+      "start": 1397.5549932861327,
+      "end": 1399.474991455078,
+      "text": "It's a live dev thing."
+    },
+    {
+      "start": 1399.474991455078,
+      "end": 1410.8349920654296,
+      "text": "Also, this is the first time we've done any live dev on camera."
+    },
+    {
+      "start": 1410.8349920654296,
+      "end": 1415.3149877929686,
+      "text": "So that locked off now."
+    },
+    {
+      "start": 1415.3149877929686,
+      "end": 1417.6349951171874,
+      "text": "I can bring that down."
+    },
+    {
+      "start": 1417.6349951171874,
+      "end": 1431.714996948242,
+      "text": "And will that clear without hitting any of the yes, that's perfect."
+    },
+    {
+      "start": 1431.714996948242,
+      "end": 1458.9949804687499,
+      "text": "If I really, really wanted to be anal about this, which I probably don't want to be, but I can actually use the depth gauge on my calipers 110."
+    },
+    {
+      "start": 1458.9949804687499,
+      "end": 1470.1150061035155,
+      "text": "Alright, this might get loud."
+    },
+    {
+      "start": 1470.1150061035155,
+      "end": 1475.235001220703,
+      "text": "I didn't even bother talking to the Voron team about Phoenix because they can't answer the only question I still have from Last."
+    },
+    {
+      "start": 1475.235001220703,
+      "end": 1482.6750036621092,
+      "text": "What's the question?"
+    },
+    {
+      "start": 1482.6750036621092,
+      "end": 1487.6349951171874,
+      "text": "Is the question going to be when is it going to be ready?"
+    },
+    {
+      "start": 1487.6349951171874,
+      "end": 1488.6750036621092,
+      "text": "I need ear protection."
+    },
+    {
+      "start": 1488.6750036621092,
+      "end": 1495.7949987792967,
+      "text": "No, I don't, but I don't."
+    },
+    {
+      "start": 1495.7949987792967,
+      "end": 1497.474991455078,
+      "text": "I don't actually have my AirPro here."
+    },
+    {
+      "start": 1497.474991455078,
+      "end": 1499.8749853515624,
+      "text": "It's still in the container."
+    },
+    {
+      "start": 1500.9349999690055,
+      "end": 1660.1349981689452,
+      "text": "Set to max speed set to level two My right ear says you do how do you know I turned to some right yeah I've got an earphone in my right ear at least that's protected I feel like those are way off each other Why do I have the inability to cut holes in the right place all right good enough It's good enough How many times have I tried to cut a hole on stream and never got and not actually got the right spot I can recommend yes you could it's a bit late to be fair I only got these like three hours ago So I haven't had time to get a jig sorted If you're wondering why Brisket's not in the room with us I can hear him barking every time the drill turns on he hates the drills Are these new downstairs digs?"
+    },
+    {
+      "start": 1660.1349981689452,
+      "end": 1798.454990234375,
+      "text": "No, no, it's the same flat I've just moved a lot of stuff around Yeah, the container fell through for those of you who didn't watch Saturday stream Yeah container fell through I had to move a bunch of stuff back here and basically upgrade this filming set so I could actually use it Hence why it's taken me so long to get back into streaming I hereby recommend yes I get it we need a jig I will be doing a jig I will be providing a jig like I always do for the casa parts It's just at this point in time I don't quite have one I started the tiny box stuff like three or four days ago No actually more like five days ago, but still Hopefully this doesn't sound too loud for you guys if it does let me know let me know in chat Dude that was quick design uh yes and no yeah a lot of like a lot of stuff's already done for me so like"
+    },
+    {
+      "start": 1799.9900000047683,
+      "end": 1824.0699988555907,
+      "text": "All I do for a lot of features, like things like the electronics interconnects and things like that, the stuff that holds the like the IC outlet in, is I literally make a copy of your old design from Old Casa or Rev 2 or Rev 3 and I perform an extrude intersect."
+    },
+    {
+      "start": 1824.0699988555907,
+      "end": 1832.0700007629393,
+      "text": "I make sure it's a nice round number and I cut that section out of the next piece that I want and I literally just merge those two together."
+    },
+    {
+      "start": 1832.0700007629393,
+      "end": 1833.8299990844725,
+      "text": "It just saves so much design time."
+    },
+    {
+      "start": 1833.8299990844725,
+      "end": 1836.3099986267089,
+      "text": "It's not the best way of doing it."
+    },
+    {
+      "start": 1836.3099986267089,
+      "end": 1844.3900004577636,
+      "text": "It's kind of a lazy way of doing it, but and a lot of it's just extrusions at this point."
+    },
+    {
+      "start": 1844.3900004577636,
+      "end": 1845.9899989318847,
+      "text": "It's not a finished design."
+    },
+    {
+      "start": 1845.9899989318847,
+      "end": 1848.629998321533,
+      "text": "Like, I would not say it's a finished design."
+    },
+    {
+      "start": 1848.629998321533,
+      "end": 1854.7899981689452,
+      "text": "I'd probably put like three hours into it."
+    },
+    {
+      "start": 1854.7899981689452,
+      "end": 1855.90999710083,
+      "text": "Steve Knobs says it's fine."
+    },
+    {
+      "start": 1855.90999710083,
+      "end": 1856.469998474121,
+      "text": "Okay, cool."
+    },
+    {
+      "start": 1856.469998474121,
+      "end": 1859.1099978637694,
+      "text": "Mickey Duke."
+    },
+    {
+      "start": 1859.1099978637694,
+      "end": 1871.7499972534179,
+      "text": "Let me know if you can hear brisket barking every time I turn the drill on."
+    },
+    {
+      "start": 1871.7499972534179,
+      "end": 1877.0299960327147,
+      "text": "It's not that bad."
+    },
+    {
+      "start": 1877.0299960327147,
+      "end": 1878.1499987792968,
+      "text": "Those end ones done."
+    },
+    {
+      "start": 1878.1499987792968,
+      "end": 1880.7899981689452,
+      "text": "I am going to have to do one more hole on all of these."
+    },
+    {
+      "start": 1880.7899981689452,
+      "end": 1887.1099978637694,
+      "text": "I've just realized."
+    },
+    {
+      "start": 1887.1099978637694,
+      "end": 1887.6699954223632,
+      "text": "Yeah, we can."
+    },
+    {
+      "start": 1887.6699954223632,
+      "end": 1890.069996948242,
+      "text": "I'm not torturing him, I promise."
+    },
+    {
+      "start": 1890.069996948242,
+      "end": 1891.7499972534179,
+      "text": "I promise you, I'm not torturing him."
+    },
+    {
+      "start": 1891.7499972534179,
+      "end": 1894.3099948120116,
+      "text": "He's just a bit..."
+    },
+    {
+      "start": 1894.3099948120116,
+      "end": 1897.1099978637694,
+      "text": "He doesn't like drills and he doesn't like..."
+    },
+    {
+      "start": 1897.1099978637694,
+      "end": 1898.87,
+      "text": "He doesn't mind the mill."
+    },
+    {
+      "start": 1898.87,
+      "end": 1904.87,
+      "text": "When I've had the mill going in here before, it's been absolutely fine."
+    },
+    {
+      "start": 1904.87,
+      "end": 1908.6299945068358,
+      "text": "I also hate looking at that camera because there's a light just behind it."
+    },
+    {
+      "start": 1908.6299945068358,
+      "end": 1919.5099993896483,
+      "text": "So I just get flash blinded every time I look at it just for now."
+    },
+    {
+      "start": 1919.5099993896483,
+      "end": 1924.7899981689452,
+      "text": "All I need is the frame."
+    },
+    {
+      "start": 1924.7899981689452,
+      "end": 1934.3900042724608,
+      "text": "No, I don't want panic."
+    },
+    {
+      "start": 1934.3900042724608,
+      "end": 1938.7899981689452,
+      "text": "I realized halfway through the day today that I don't actually have these 660 uprights."
+    },
+    {
+      "start": 1938.7899981689452,
+      "end": 1946.4699908447265,
+      "text": "So we're just going to be doing the outer frame for today."
+    },
+    {
+      "start": 1946.4699908447265,
+      "end": 1947.4299975585936,
+      "text": "That's a 700."
+    },
+    {
+      "start": 1947.4299975585936,
+      "end": 1948.6299945068358,
+      "text": "That's 700."
+    },
+    {
+      "start": 1948.6299945068358,
+      "end": 1950.1499987792968,
+      "text": "That's a 700."
+    },
+    {
+      "start": 1950.1499987792968,
+      "end": 1953.829991455078,
+      "text": "So yeah, I'm going to have to place an order for these uprights."
+    },
+    {
+      "start": 1953.829991455078,
+      "end": 1963.1899920654296,
+      "text": "So I won't be doing the electronics box bit today."
+    },
+    {
+      "start": 1963.1899920654296,
+      "end": 1966.4699908447265,
+      "text": "He knows it's your mill if you make your own dog dog press."
+    },
+    {
+      "start": 1966.4699908447265,
+      "end": 1969.1899920654296,
+      "text": "Not dog press, drill press."
+    },
+    {
+      "start": 1969.1899920654296,
+      "end": 1979.0299884033202,
+      "text": "He'll understand Yes, we can, but that's what doggers do."
+    },
+    {
+      "start": 1979.0299884033202,
+      "end": 1983.0299884033202,
+      "text": "Yeah, he's just a little guy."
+    },
+    {
+      "start": 1983.0299884033202,
+      "end": 1999.109990234375,
+      "text": "Right, I need to measure from this ball here to the top of that feature there, which is 260."
+    },
+    {
+      "start": 1999.109990234375,
+      "end": 2003.9099932861327,
+      "text": "Yeah, that makes sense because the panel is 250 and it sits just below just above that."
+    },
+    {
+      "start": 2003.9099932861327,
+      "end": 2005.349995727539,
+      "text": "Jet Landry."
+    },
+    {
+      "start": 2005.349995727539,
+      "end": 2012.7099963378905,
+      "text": "Oh, and Cascade has two controller options, RBT Sila and Expatria Dispatches Factya."
+    },
+    {
+      "start": 2012.7099963378905,
+      "end": 2016.3899890136718,
+      "text": "Yeah, which makes sense."
+    },
+    {
+      "start": 2016.3899890136718,
+      "end": 2022.1499987792968,
+      "text": "I mean, you've always had that option with Milo."
+    },
+    {
+      "start": 2022.1499987792968,
+      "end": 2026.87,
+      "text": "You don't have to go with the you didn't have to go with the fly."
+    },
+    {
+      "start": 2026.87,
+      "end": 2028.4699908447265,
+      "text": "You definitely didn't have to go."
+    },
+    {
+      "start": 2028.4699908447265,
+      "end": 2029.7499896240233,
+      "text": "Don't have to go with Sila."
+    },
+    {
+      "start": 2029.7499896240233,
+      "end": 2033.4299975585936,
+      "text": "If you want to use Expatria, the Expatria boards."
+    },
+    {
+      "start": 2033.4299975585936,
+      "end": 2035.2699938964843,
+      "text": "I see no problem with that."
+    },
+    {
+      "start": 2035.2699938964843,
+      "end": 2038.2300006103515,
+      "text": "Problem is, well, not a problem."
+    },
+    {
+      "start": 2038.2300006103515,
+      "end": 2050.789998168945,
+      "text": "It's a lot easier for us to dev on the RAF side, the Red Rap firmware side."
+    },
+    {
+      "start": 2050.789998168945,
+      "end": 2054.789998168945,
+      "text": "Yeah, if you don't know, Alan from West 3D is part of the team."
+    },
+    {
+      "start": 2054.789998168945,
+      "end": 2059.0300036621093,
+      "text": "He's the one running the full pack at the minute Deving for it."
+    },
+    {
+      "start": 2059.0300036621093,
+      "end": 2062.1499987792968,
+      "text": "And he was at the Rocky Man Red Festival."
+    },
+    {
+      "start": 2062.1499987792968,
+      "end": 2073.0300036621093,
+      "text": "We're trying to get more American people on the team because that seems you have a lot more people who go to the American Repests than we do."
+    },
+    {
+      "start": 2073.0300036621093,
+      "end": 2077.1900073242186,
+      "text": "And you have a lot more of them."
+    },
+    {
+      "start": 2077.1900073242186,
+      "end": 2078.549992675781,
+      "text": "They're stealing Scylla."
+    },
+    {
+      "start": 2078.549992675781,
+      "end": 2083.590001220703,
+      "text": "You say that when Silo was announced."
+    },
+    {
+      "start": 2083.590001220703,
+      "end": 2086.789982910156,
+      "text": "So Silo was built for us initially."
+    },
+    {
+      "start": 2086.789982910156,
+      "end": 2090.9499865722655,
+      "text": "Obviously, I don't mind, we don't mind that other people use it."
+    },
+    {
+      "start": 2090.9499865722655,
+      "end": 2096.069981689453,
+      "text": "A BTT board is not ours, but it was built up to our specs."
+    },
+    {
+      "start": 2096.069981689453,
+      "end": 2098.7099963378905,
+      "text": "And then..."
+    },
+    {
+      "start": 2100.4249999046324,
+      "end": 2102.584999990463,
+      "text": "I think Steve accidentally leaked it."
+    },
+    {
+      "start": 2102.584999990463,
+      "end": 2103.785000038147,
+      "text": "No, he didn't accidentally leak it."
+    },
+    {
+      "start": 2103.785000038147,
+      "end": 2105.22499961853,
+      "text": "He got told."
+    },
+    {
+      "start": 2105.22499961853,
+      "end": 2111.064999771118,
+      "text": "So we got told we weren't going to do anything until Smurf last year and we weren't going to make an announcement."
+    },
+    {
+      "start": 2111.064999771118,
+      "end": 2127.144999694824,
+      "text": "And then Steve had Sila on stream with BTT's permission just randomly Expatria, you need drivers with Scylla."
+    },
+    {
+      "start": 2127.144999694824,
+      "end": 2127.9449989318846,
+      "text": "It's onboard drivers."
+    },
+    {
+      "start": 2127.9449989318846,
+      "end": 2130.344998550415,
+      "text": "Yeah, there's loads of stuff."
+    },
+    {
+      "start": 2130.344998550415,
+      "end": 2136.5050003051756,
+      "text": "In fact, actually, there's something really cool that nine showed off."
+    },
+    {
+      "start": 2136.5050003051756,
+      "end": 2146.744998168945,
+      "text": "I'm just going to move this over here so you don't see the dev chat."
+    },
+    {
+      "start": 2146.744998168945,
+      "end": 2162.024996948242,
+      "text": "So Duet, the guys who make obviously all the duet boards Windows, can you tile properly, please?"
+    },
+    {
+      "start": 2162.024996948242,
+      "end": 2168.6649963378904,
+      "text": "They have put this on screen."
+    },
+    {
+      "start": 2168.6649963378904,
+      "end": 2176.6649963378904,
+      "text": "They've announced a bunch of like industrial controllers, which is all the Phoenix style connectors for basically STM32, which is really interesting."
+    },
+    {
+      "start": 2176.6649963378904,
+      "end": 2179.4649993896483,
+      "text": "I didn't know this, but Nine told me about it."
+    },
+    {
+      "start": 2179.4649993896483,
+      "end": 2184.1049987792967,
+      "text": "STM32 is almost entirely the STM port."
+    },
+    {
+      "start": 2184.1049987792967,
+      "end": 2187.144999694824,
+      "text": "It's almost entirely done by Team Bloomie and not Duet."
+    },
+    {
+      "start": 2187.144999694824,
+      "end": 2196.825,
+      "text": "So the fact that they're using STM32 in all of these industrial DIN mounted units is really strange."
+    },
+    {
+      "start": 2196.825,
+      "end": 2198.2649948120115,
+      "text": "But also really awesome."
+    },
+    {
+      "start": 2198.2649948120115,
+      "end": 2205.0649978637693,
+      "text": "Like, they've also said that they're going to be doing like a spindle control unit and it's all closed loop steppers."
+    },
+    {
+      "start": 2205.0649978637693,
+      "end": 2209.0649978637693,
+      "text": "If you want to do external closed loop steppers, you can like non-duet ones."
+    },
+    {
+      "start": 2209.0649978637693,
+      "end": 2211.3849975585936,
+      "text": "If you want to do the duet ones, they work."
+    },
+    {
+      "start": 2211.3849975585936,
+      "end": 2215.624995422363,
+      "text": "Everything works the same way anything on Duet works."
+    },
+    {
+      "start": 2215.624995422363,
+      "end": 2218.825,
+      "text": "But this is all DIN mounted, so it makes wiring so much nicer."
+    },
+    {
+      "start": 2218.825,
+      "end": 2227.1449920654295,
+      "text": "You could do servos on it, I believe."
+    },
+    {
+      "start": 2227.1449920654295,
+      "end": 2227.9449951171873,
+      "text": "There's a whole I."
+    },
+    {
+      "start": 2227.9449951171873,
+      "end": 2228.024996948242,
+      "text": "O."
+    },
+    {
+      "start": 2228.024996948242,
+      "end": 2228.265002441406,
+      "text": "thing."
+    },
+    {
+      "start": 2228.265002441406,
+      "end": 2232.1049987792967,
+      "text": "It's all can connected, so you just buy the modules that you need."
+    },
+    {
+      "start": 2232.1049987792967,
+      "end": 2241.9449951171873,
+      "text": "But it's industrial, which means it's going to come with industrial prices."
+    },
+    {
+      "start": 2241.9449951171873,
+      "end": 2254.825,
+      "text": "And the industrial prices are never, never fun for the wallet."
+    },
+    {
+      "start": 2254.825,
+      "end": 2260.6649963378904,
+      "text": "What are the advantages between firmware systems like RRF, Marlin, that's Clipper?"
+    },
+    {
+      "start": 2260.6649963378904,
+      "end": 2266.1850006103514,
+      "text": "Marlin's more responsive for a start because you're not having to send a bunch of things over."
+    },
+    {
+      "start": 2266.1850006103514,
+      "end": 2279.545001220703,
+      "text": "I've been really blown away by how much easier it is to do certain things on my Core 1L that I only got a few days ago and how quickly it responds to commands."
+    },
+    {
+      "start": 2279.545001220703,
+      "end": 2284.9050018310545,
+      "text": "Like you're basically having to send everything through Clipper."
+    },
+    {
+      "start": 2284.9050018310545,
+      "end": 2288.744998168945,
+      "text": "It gets processed by the Pi then sent to the controller board."
+    },
+    {
+      "start": 2288.744998168945,
+      "end": 2294.98498840332,
+      "text": "So there's that for but other than that Marlin is a bit of an old firmware."
+    },
+    {
+      "start": 2294.98498840332,
+      "end": 2306.3449890136717,
+      "text": "It's not used as often anymore and it's a lot harder because you have to compile it beforehand and every time you want to make any kind of changes you don't just change it on a config file level."
+    },
+    {
+      "start": 2306.3449890136717,
+      "end": 2313.9449951171873,
+      "text": "You actually have to open up VS Code or some other kind of coding software to read the file and make the changes that you want."
+    },
+    {
+      "start": 2313.9449951171873,
+      "end": 2399.064990234375,
+      "text": "It's not as scary as people make it out to be But it's still a lot of work Marlin and sorry not Marlin Clipper and RepR Firmware are both more modern in a lot of ways They're easier to work with once you've got it up and running They're a bit of a pain to get up and running but more modern Clipper is more of a 3D printer only firmware there are ports for if you want to do I don't know if you want to do CNC stuff it's it's mostly kind of confined to laser stuff and it's not great whereas RedWrap firmware I consider the more universal firmware as in you can put a laser you can build a laser with it you could build a robot arm with it you can build a 3D printer with it you can build a CNC machine with it obviously it's got spindle it's got provisions for spindle control all that kind of stuff it's the most customizable out of all three I think but that comes with some caveats it's that it's that whole thing of it's a master of many or more of a what's the what's the jack of all trades but master of none type situation"
+    },
+    {
+      "start": 2401.104999938011,
+      "end": 2407.5049996757507,
+      "text": "But at the same time, when you vibe code like I do, it does a lot better."
+    },
+    {
+      "start": 2407.5049996757507,
+      "end": 2414.1449995422363,
+      "text": "So I use Claude when I do my VID coding because I know nothing about coding at all."
+    },
+    {
+      "start": 2414.1449995422363,
+      "end": 2430.4649992370605,
+      "text": "Claude seems to do better with RepRap firmware than it does seem to be doing with Clipper Jack of all trades, yeah."
+    },
+    {
+      "start": 2430.4649992370605,
+      "end": 2432.384997406006,
+      "text": "It's just a focus issue with Clipper."
+    },
+    {
+      "start": 2432.384997406006,
+      "end": 2445.264998474121,
+      "text": "Clipper's made as a 3D printing firmware, and it's really good as a 3D printing firmware."
+    },
+    {
+      "start": 2445.264998474121,
+      "end": 2447.5849981689453,
+      "text": "None of them are really live firmware."
+    },
+    {
+      "start": 2447.5849981689453,
+      "end": 2448.7849989318847,
+      "text": "Actually, no, that's not true."
+    },
+    {
+      "start": 2448.7849989318847,
+      "end": 2451.984999694824,
+      "text": "There's one live firmware, which is Marlin."
+    },
+    {
+      "start": 2451.984999694824,
+      "end": 2462.864996948242,
+      "text": "By live firmware, I mean it relies on nothing but its own processing, and it can do things like interrupts a lot without having to jump through a bunch of hoops."
+    },
+    {
+      "start": 2462.864996948242,
+      "end": 2468.144995727539,
+      "text": "Whereas if you're doing rep rap firmware interrupts, it's a bit annoying."
+    },
+    {
+      "start": 2468.144995727539,
+      "end": 2475.5049963378906,
+      "text": "So Marlin would technically, from an architectural standpoint, be a better firmware to use for CNC stuff."
+    },
+    {
+      "start": 2475.5049963378906,
+      "end": 2505.824996032715,
+      "text": "Because if you look at Linux CNC or well, I don't know about Gobleh How, to be honest, but if you look at Linux CNC, it's a live firmware, which means that all the operations and commands it's sending out is in line with the clock of the processor that's actually running Linux CNC, which means that anytime you ask it to do anything, it does it instantly because it does it at the clock speed of whatever processor you're using."
+    },
+    {
+      "start": 2505.824996032715,
+      "end": 2515.9049978637695,
+      "text": "But Linux CNC is just a lot more annoying to set up."
+    },
+    {
+      "start": 2515.9049978637695,
+      "end": 2521.1049948120117,
+      "text": "RRF is gooder for our specific thing, yes."
+    },
+    {
+      "start": 2521.1049948120117,
+      "end": 2530.465003051758,
+      "text": "For Milo stuff, yes, but trying to get it to do a bunch of CNC stuff is hard."
+    },
+    {
+      "start": 2530.465003051758,
+      "end": 2531.2649908447265,
+      "text": "And we're working on it."
+    },
+    {
+      "start": 2531.2649908447265,
+      "end": 2533.8250036621093,
+      "text": "We're working on a tool management table."
+    },
+    {
+      "start": 2533.8250036621093,
+      "end": 2539.8250036621093,
+      "text": "We're working on tool changing macros and things like that for universal machines so you could run it on anything."
+    },
+    {
+      "start": 2539.8250036621093,
+      "end": 2544.624991455078,
+      "text": "We're working on trying to make the interface a little bit more CNC friendly."
+    },
+    {
+      "start": 2544.624991455078,
+      "end": 2545.424994506836,
+      "text": "Right."
+    },
+    {
+      "start": 2545.424994506836,
+      "end": 2550.7849951171875,
+      "text": "260 millimeters on two of these."
+    },
+    {
+      "start": 2550.7849951171875,
+      "end": 2552.624991455078,
+      "text": "I'm just going to mark 100."
+    },
+    {
+      "start": 2552.624991455078,
+      "end": 2574.144995727539,
+      "text": "No, mark 130 and then 130 again."
+    },
+    {
+      "start": 2574.144995727539,
+      "end": 2579.0250006103515,
+      "text": "130 130."
+    },
+    {
+      "start": 2579.0250006103515,
+      "end": 2580.144995727539,
+      "text": "So that's 260 there."
+    },
+    {
+      "start": 2580.144995727539,
+      "end": 2588.864996948242,
+      "text": "And then because it's going to have bits on both sides, I'll do it that way then and that one."
+    },
+    {
+      "start": 2588.864996948242,
+      "end": 2592.624991455078,
+      "text": "I only need to do this on two of them."
+    },
+    {
+      "start": 2592.624991455078,
+      "end": 2593.5849981689453,
+      "text": "Yeah."
+    },
+    {
+      "start": 2593.5849981689453,
+      "end": 2595.424994506836,
+      "text": "Yeah, that sounds about right."
+    },
+    {
+      "start": 2595.424994506836,
+      "end": 2617.665,
+      "text": "The other ones just need tapping."
+    },
+    {
+      "start": 2617.665,
+      "end": 2620.2249975585937,
+      "text": "Yeah, the work bee does use it."
+    },
+    {
+      "start": 2620.2249975585937,
+      "end": 2687.5049963378906,
+      "text": "The work be has been using Redwat firmware for CNC stuff for way longer than we have All right, this should be the last drilling that needs doing tonight But then everything else is just happening All right, let's follow some basic safety for a bit because my sleeves are rolled down since I started right You're wearing sleeves or watches whilst doing drill work realize that I've missed you You're wearing sleeves or watches take them off or roll them up Right last thing you want is to be eaten by a machine Unless that's your fetish if being eaten by a machine is your fetish then I can't help you"
+    },
+    {
+      "start": 2722.719998855591,
+      "end": 2725.280000228882,
+      "text": "Bleed Clipper has a buffer of one second worth of commands."
+    },
+    {
+      "start": 2725.280000228882,
+      "end": 2727.119998474121,
+      "text": "I think it does."
+    },
+    {
+      "start": 2727.119998474121,
+      "end": 2737.119998474121,
+      "text": "Red Rafermo also has a buffer, but seeing what Ferky's done with the pendant, you can set that buffer to be much, much lower."
+    },
+    {
+      "start": 2737.119998474121,
+      "end": 2752.1599993896484,
+      "text": "And you'll probably want to do that if you're running a pendant because the encoder on a pendant will be sending potentially hundreds of signals all at once."
+    },
+    {
+      "start": 2752.1599993896484,
+      "end": 2766.1599993896484,
+      "text": "So if you fill up that buffer, really, you can fill up that buffer really, really quickly, and it means that you're not seeing the results of the movements you've actually made on the dial until a few seconds afterwards, which can be a little bit disastrous."
+    },
+    {
+      "start": 2766.1599993896484,
+      "end": 2785.839999694824,
+      "text": "So you can lower the buffer to basically nothing."
+    },
+    {
+      "start": 2785.839999694824,
+      "end": 2811.52,
+      "text": "I know, buddy, it's going to be over soon."
+    },
+    {
+      "start": 2811.52,
+      "end": 2813.999995727539,
+      "text": "Hope those aren't Mitatoya calipers using."
+    },
+    {
+      "start": 2813.999995727539,
+      "end": 2818.5600009155273,
+      "text": "No, no, they're just my cheapo ones."
+    },
+    {
+      "start": 2818.5600009155273,
+      "end": 2821.9199938964844,
+      "text": "I don't have any Mitatoya ones."
+    },
+    {
+      "start": 2821.9199938964844,
+      "end": 2826.8800006103515,
+      "text": "I do have want to get some insize ones at some stage."
+    },
+    {
+      "start": 2826.8800006103515,
+      "end": 2833.040004272461,
+      "text": "Insize is just a kind of mid brand when it comes to calipers."
+    },
+    {
+      "start": 2833.040004272461,
+      "end": 2834.9600024414062,
+      "text": "Decently priced."
+    },
+    {
+      "start": 2834.9600024414062,
+      "end": 2840.479991455078,
+      "text": "Not ridiculously priced that mids toyos are, although midst toils will probably be more worth it for the money."
+    },
+    {
+      "start": 2840.479991455078,
+      "end": 2847.999995727539,
+      "text": "But you see them in industry all over the UK."
+    },
+    {
+      "start": 2847.999995727539,
+      "end": 2849.3599963378906,
+      "text": "And they're not overly expensive."
+    },
+    {
+      "start": 2849.3599963378906,
+      "end": 2850.240001220703,
+      "text": "They're not cheap."
+    },
+    {
+      "start": 2850.240001220703,
+      "end": 2870.799998779297,
+      "text": "Not overly expensive."
+    },
+    {
+      "start": 2870.799998779297,
+      "end": 2875.52,
+      "text": "There we go."
+    },
+    {
+      "start": 2875.52,
+      "end": 2884.719996948242,
+      "text": "Right, that should be all the holes other than the ones for the 660 pieces, long pieces."
+    },
+    {
+      "start": 2884.719996948242,
+      "end": 2886.9600024414062,
+      "text": "That should be all the holes we need to drill tonight."
+    },
+    {
+      "start": 2886.9600024414062,
+      "end": 2889.1999926757812,
+      "text": "But again, don't have the 660 pieces."
+    },
+    {
+      "start": 2889.1999926757812,
+      "end": 2890.8800006103515,
+      "text": "I forgot to buy them."
+    },
+    {
+      "start": 2890.8800006103515,
+      "end": 2898.479991455078,
+      "text": "They will be arriving sometime this week."
+    },
+    {
+      "start": 2898.479991455078,
+      "end": 2902.479991455078,
+      "text": "Now it's time for my least favorite process: tapping."
+    },
+    {
+      "start": 2902.479991455078,
+      "end": 2912.3199877929687,
+      "text": "Now, we have a reputation in the Millennium team for breaking taps when on stream."
+    },
+    {
+      "start": 2912.3199877929687,
+      "end": 2923.039989013672,
+      "text": "So I'm going to be very, very careful and make sure the clamps come out."
+    },
+    {
+      "start": 2923.039989013672,
+      "end": 2925.9199938964844,
+      "text": "I saw some for 30 on eBay the other day."
+    },
+    {
+      "start": 2925.9199938964844,
+      "end": 2926.559993286133,
+      "text": "Are they faked?"
+    },
+    {
+      "start": 2926.559993286133,
+      "end": 2927.8399920654297,
+      "text": "It's not that they're fake."
+    },
+    {
+      "start": 2927.8399920654297,
+      "end": 2937.279994506836,
+      "text": "They might just be decommissioned or old or there's lots of reasons why stuff on eBay is cheap."
+    },
+    {
+      "start": 2937.279994506836,
+      "end": 2943.1999926757812,
+      "text": "They also just might be fake, like you said."
+    },
+    {
+      "start": 2943.1999926757812,
+      "end": 2944.0799975585937,
+      "text": "Where are my clamps head?"
+    },
+    {
+      "start": 2944.0799975585937,
+      "end": 2953.1200061035156,
+      "text": "Small there, and some holes make you nervous every time."
+    },
+    {
+      "start": 2953.1200061035156,
+      "end": 2953.6800036621094,
+      "text": "It's big?"
+    },
+    {
+      "start": 2953.6800036621094,
+      "end": 2955.52,
+      "text": "Oh, yeah, no, you're right."
+    },
+    {
+      "start": 2955.52,
+      "end": 2961.039989013672,
+      "text": "The M8s on Atlas have been a dream to tap."
+    },
+    {
+      "start": 2961.039989013672,
+      "end": 2964.3199877929687,
+      "text": "It's always the M5s that break."
+    },
+    {
+      "start": 2964.3199877929687,
+      "end": 2968.3199877929687,
+      "text": "But I have spiral taps now, so it shouldn't be an issue."
+    },
+    {
+      "start": 2968.3199877929687,
+      "end": 2969.759990234375,
+      "text": "I'm going to also turn the monitor off."
+    },
+    {
+      "start": 2969.759990234375,
+      "end": 2992.4000048828125,
+      "text": "Ooh, no, I'm going to clamp two at a time, because otherwise we're going to be here all night."
+    },
+    {
+      "start": 2992.4000048828125,
+      "end": 2995.4399829101562,
+      "text": "Yeah, I hope the cascade does do well."
+    },
+    {
+      "start": 2997.329999990463,
+      "end": 3010.769999809265,
+      "text": "I just think the style of machine just reminds me of the Carvera things, and I don't like the Calvera machines."
+    },
+    {
+      "start": 3010.769999809265,
+      "end": 3016.049999542236,
+      "text": "And if you don't know why I don't like the Carvera machines, here's a quick explanation as to why."
+    },
+    {
+      "start": 3016.049999542236,
+      "end": 3020.5299990844724,
+      "text": "All right, this is a 3D printer."
+    },
+    {
+      "start": 3020.5299990844724,
+      "end": 3025.6499999237058,
+      "text": "I can set it to go and I can walk away."
+    },
+    {
+      "start": 3025.6499999237058,
+      "end": 3027.9699977111813,
+      "text": "I can't do that with a mill."
+    },
+    {
+      "start": 3027.9699977111813,
+      "end": 3043.489998168945,
+      "text": "So if I want to make a part on a Calvera, it takes me, it would take me nearly five times as long to do it."
+    },
+    {
+      "start": 3043.489998168945,
+      "end": 3047.0900004577634,
+      "text": "And that's just a material removal rate constriction."
+    },
+    {
+      "start": 3047.0900004577634,
+      "end": 3058.5299990844724,
+      "text": "They'll make the part just as accurate, but you're not doing that every single weekend that you have off, every single moment you have off, and you want to make a single part."
+    },
+    {
+      "start": 3058.5299990844724,
+      "end": 3063.169998474121,
+      "text": "If it takes two to three hours to make a single part, I'm not using the machine."
+    },
+    {
+      "start": 3063.169998474121,
+      "end": 3066.8499987792966,
+      "text": "I'm just using 3D printed parts instead."
+    },
+    {
+      "start": 3066.8499987792966,
+      "end": 3070.1299975585935,
+      "text": "As a maker, that's how my brain works."
+    },
+    {
+      "start": 3070.1299975585935,
+      "end": 3084.0499957275388,
+      "text": "If it takes too long or the tool is inconvenient to use, I'm not going to use the tool."
+    },
+    {
+      "start": 3084.0499957275388,
+      "end": 3087.4099963378903,
+      "text": "But again, I have not used a cascade."
+    },
+    {
+      "start": 3087.4099963378903,
+      "end": 3095.64999420166,
+      "text": "I have not seen what it's capable of."
+    },
+    {
+      "start": 3095.64999420166,
+      "end": 3155.5699999999997,
+      "text": "So I cannot pass judgment on it like a glove."
+    },
+    {
+      "start": 3155.5699999999997,
+      "end": 3157.8899920654294,
+      "text": "Oh, I have way too many taps and tapping trackers."
+    },
+    {
+      "start": 3157.8899920654294,
+      "end": 3161.1699908447263,
+      "text": "Luckily, I've not broken too many taps."
+    },
+    {
+      "start": 3161.1699908447263,
+      "end": 3166.209999389648,
+      "text": "Touch every bit of wood in the room."
+    },
+    {
+      "start": 3166.209999389648,
+      "end": 3170.3700030517575,
+      "text": "Right, that we don't do any of that tonight."
+    },
+    {
+      "start": 3170.3700030517575,
+      "end": 3177.969993896484,
+      "text": "I'm going to try one clamp for each side because the other side moved a little bit the first time."
+    },
+    {
+      "start": 3177.969993896484,
+      "end": 3185.0899890136716,
+      "text": "Hopefully, that holds both of them."
+    },
+    {
+      "start": 3185.0899890136716,
+      "end": 3209.72998840332,
+      "text": "Don't know why I removed the tap."
+    },
+    {
+      "start": 3209.72998840332,
+      "end": 3210.9300006103513,
+      "text": "I've never broken a tap."
+    },
+    {
+      "start": 3210.9300006103513,
+      "end": 3213.010002441406,
+      "text": "I've also not done a lot of tapping."
+    },
+    {
+      "start": 3213.010002441406,
+      "end": 3216.3699877929685,
+      "text": "There's your problem."
+    },
+    {
+      "start": 3216.3699877929685,
+      "end": 3240.529991455078,
+      "text": "You do something enough, you're bound to do it wrong."
+    },
+    {
+      "start": 3240.529991455078,
+      "end": 3245.5699999999997,
+      "text": "Aki was selling them for like 670 quid the other day."
+    },
+    {
+      "start": 3245.5699999999997,
+      "end": 3249.5699999999997,
+      "text": "Is that for the Min Tutorial ones?"
+    },
+    {
+      "start": 3249.5699999999997,
+      "end": 3257.489982910156,
+      "text": "No, definitely not the entire maybe the really large ones you're thinking of."
+    },
+    {
+      "start": 3257.489982910156,
+      "end": 3261.8099902343747,
+      "text": "But definitely not the common size, the 150 and 200 sizes."
+    },
+    {
+      "start": 3261.8099902343747,
+      "end": 3295.8099902343747,
+      "text": "Those are more like between 60 and 80 quid, unless they've just gone up in value like crazy unless someone's been shorting the caliper market That doing something enough means you're bound to do it wrong reminds you of nature being an expert"
+    },
+    {
+      "start": 3296.719999985695,
+      "end": 3300.239999847412,
+      "text": "Of the nature being the ex uh of the nature of being an expert."
+    },
+    {
+      "start": 3300.239999847412,
+      "end": 3303.040000038147,
+      "text": "Yeah, see, right?"
+    },
+    {
+      "start": 3303.040000038147,
+      "end": 3321.920000152588,
+      "text": "If there's there's a point in time where you know enough about something that you think you know the entire subject, and then when you get better at it, you know enough about to know you don't know enough about the subject."
+    },
+    {
+      "start": 3321.920000152588,
+      "end": 3323.0399990844726,
+      "text": "Yes, just the calibers."
+    },
+    {
+      "start": 3323.0399990844726,
+      "end": 3324.000000076294,
+      "text": "It was a big set."
+    },
+    {
+      "start": 3324.000000076294,
+      "end": 3327.1199990081786,
+      "text": "Okay, that makes more sense."
+    },
+    {
+      "start": 3327.1199990081786,
+      "end": 3329.2800007629394,
+      "text": "Oh, stream went down for a second."
+    },
+    {
+      "start": 3329.2800007629394,
+      "end": 3331.2800007629394,
+      "text": "Are we back?"
+    },
+    {
+      "start": 3331.2800007629394,
+      "end": 3374.959997253418,
+      "text": "Are we back 10,000 hours is just the time it takes to do everything wrong at least once in every possible way?"
+    },
+    {
+      "start": 3374.959997253418,
+      "end": 3389.0399990844726,
+      "text": "Have you got any further with your build?"
+    },
+    {
+      "start": 3389.0399990844726,
+      "end": 3389.5199948120116,
+      "text": "No, I'm wrong."
+    },
+    {
+      "start": 3389.5199948120116,
+      "end": 3393.359998779297,
+      "text": "It's for 150 ones."
+    },
+    {
+      "start": 3393.359998779297,
+      "end": 3393.839994506836,
+      "text": "What?"
+    },
+    {
+      "start": 3393.839994506836,
+      "end": 3399.1200009155273,
+      "text": "Why are they that expensive?"
+    },
+    {
+      "start": 3399.1200009155273,
+      "end": 3400.959997253418,
+      "text": "Keep wanting to do this."
+    },
+    {
+      "start": 3400.959997253418,
+      "end": 3407.5999966430663,
+      "text": "I keep trying to take my natural thing is once I'm done with the drill is to take it out and put it away."
+    },
+    {
+      "start": 3407.5999966430663,
+      "end": 3594.08,
+      "text": "So I keep undoing the drill chuck Should happen Monday It smells heavenly in here and not just because I have Doritos on the side I've got some spag ball on slow cooker in the slow cooker at the moment and I can't wait for it I've just got a big block of the fancy stuff the fancy cheese too the fancy cheese They're actually 560 plus fat for a link to CNC other channel if anyone wants to have seen mental prices I'm gonna see this Oh the Mitatoya ones yeah Ah okay yes that makes more sense because it's the carbide tipped ones So it's not just any old Mitatoya ones that's the specifically the carbide tip ones That kind of makes a lot more sense now Stream gone down Stream keeps dropping on my end Is it dropping on your guys guys It keeps dropping out and then saying it's an excellent connection Thanks YouTube."
+    },
+    {
+      "start": 3594.08,
+      "end": 3595.599989013672,
+      "text": "Thanks for being really fucking confusing"
+    },
+    {
+      "start": 3613.754998703003,
+      "end": 3614.634999771118,
+      "text": "That's still so expensive."
+    },
+    {
+      "start": 3614.634999771118,
+      "end": 3616.395,
+      "text": "Yes, yes, I agree with you."
+    },
+    {
+      "start": 3616.395,
+      "end": 3619.9950003814697,
+      "text": "It's way too expensive for most people."
+    },
+    {
+      "start": 3619.9950003814697,
+      "end": 3629.5149989318847,
+      "text": "That's why most people buy Mitatoyos used."
+    },
+    {
+      "start": 3629.5149989318847,
+      "end": 3639.7550006103515,
+      "text": "But at the same time, that's pennies at an industrial scale."
+    },
+    {
+      "start": 3639.7550006103515,
+      "end": 3671.0349993896484,
+      "text": "For industrial customers, that's nothing."
+    },
+    {
+      "start": 3671.0349993896484,
+      "end": 3675.994998474121,
+      "text": "That's why I'm worried about the duet dim mountain controllers because I want some of those."
+    },
+    {
+      "start": 3675.994998474121,
+      "end": 3677.3549990844726,
+      "text": "I really, really want some of them."
+    },
+    {
+      "start": 3677.3549990844726,
+      "end": 3679.274997253418,
+      "text": "They're super cool."
+    },
+    {
+      "start": 3679.274997253418,
+      "end": 3682.6349978637695,
+      "text": "And they'd make my life so much easier."
+    },
+    {
+      "start": 3682.6349978637695,
+      "end": 3691.5149951171875,
+      "text": "But they're industrial, which means normally just means adding dollar signs."
+    },
+    {
+      "start": 3691.5149951171875,
+      "end": 3697.594996948242,
+      "text": "How many zeros can I pop onto this before someone calls me out on it?"
+    },
+    {
+      "start": 3697.594996948242,
+      "end": 3703.4350009155273,
+      "text": "Speaking of which, do you hear about the guy who just kept sending the US Air Force bills?"
+    },
+    {
+      "start": 3703.4350009155273,
+      "end": 3711.5149951171875,
+      "text": "But all the bills that he sent were, all the invoices that he sent were for the making of the invoices that he was sending."
+    },
+    {
+      "start": 3711.5149951171875,
+      "end": 3716.554996032715,
+      "text": "So the courts cleared him and the Air Force just went, yeah, we did it."
+    },
+    {
+      "start": 3716.554996032715,
+      "end": 3718.395,
+      "text": "We've been paying this guy."
+    },
+    {
+      "start": 3718.395,
+      "end": 3734.0749926757812,
+      "text": "We just didn't read any of the contracts."
+    },
+    {
+      "start": 3734.0749926757812,
+      "end": 3735.115001220703,
+      "text": "Hey, Raven."
+    },
+    {
+      "start": 3735.115001220703,
+      "end": 3736.9549975585937,
+      "text": "I'm first time stream viewer."
+    },
+    {
+      "start": 3736.9549975585937,
+      "end": 3738.634990234375,
+      "text": "Long time."
+    },
+    {
+      "start": 3738.634990234375,
+      "end": 3740.5550036621094,
+      "text": "First time stream viewer, long time viewer."
+    },
+    {
+      "start": 3740.5550036621094,
+      "end": 3741.915004272461,
+      "text": "What are we building today?"
+    },
+    {
+      "start": 3741.915004272461,
+      "end": 3745.8350024414062,
+      "text": "We've got Tiny Box."
+    },
+    {
+      "start": 3745.8350024414062,
+      "end": 3762.4750018310547,
+      "text": "I've obviously got Atlas coming in here to be my main machine, but I would still like to have a Milo slash Miley style machine so I can continue doing dev for it in here."
+    },
+    {
+      "start": 3762.4750018310547,
+      "end": 3768.9549975585937,
+      "text": "And I also want something that's dedicated for my fourth axis."
+    },
+    {
+      "start": 3768.9549975585937,
+      "end": 3772.9549975585937,
+      "text": "Like a dedicated machine for the fourth axis, which is what this is going to be."
+    },
+    {
+      "start": 3772.9549975585937,
+      "end": 3779.434993286133,
+      "text": "So the Casa enclosure is about, I think it's somewhere between one meter and 1."
+    },
+    {
+      "start": 3779.434993286133,
+      "end": 3780.874995727539,
+      "text": "1 meter wide."
+    },
+    {
+      "start": 3780.874995727539,
+      "end": 3784.4750018310547,
+      "text": "And that will fit both Milo and Miley."
+    },
+    {
+      "start": 3784.4750018310547,
+      "end": 3793.0349993896484,
+      "text": "But I don't really need the full build volume of Milo because I'm going to have Atlas soon."
+    },
+    {
+      "start": 3793.0349993896484,
+      "end": 3800.5549884033203,
+      "text": "So I've decided to make a condensed version of Casa, which I'm nicknaming Tiny Box."
+    },
+    {
+      "start": 3800.5549884033203,
+      "end": 3809.2749896240234,
+      "text": "Eventually, it's just going to be Casa Miley or just Cassa or just Casa Tiny Box or something like that."
+    },
+    {
+      "start": 3809.2749896240234,
+      "end": 3814.9549975585937,
+      "text": "Something easy, easy enough to remember."
+    },
+    {
+      "start": 3814.9549975585937,
+      "end": 3827.5149951171875,
+      "text": "And that's going to eventually fit underneath that table over there, the one just behind this one."
+    },
+    {
+      "start": 3827.5149951171875,
+      "end": 3828.7949938964844,
+      "text": "This table."
+    },
+    {
+      "start": 3828.7949938964844,
+      "end": 3831.0349993896484,
+      "text": "So Tiny Box is going to be over here."
+    },
+    {
+      "start": 3831.0349993896484,
+      "end": 3835.115001220703,
+      "text": "I'm going to have to shift everything over a little bit just to fit it underneath the table."
+    },
+    {
+      "start": 3835.115001220703,
+      "end": 3836.9549975585937,
+      "text": "I'm going to have to raise the table up."
+    },
+    {
+      "start": 3836.9549975585937,
+      "end": 3839.434993286133,
+      "text": "That's not going to be too much of an issue."
+    },
+    {
+      "start": 3839.434993286133,
+      "end": 3841.594996948242,
+      "text": "Then Atlas is going to sit on the top."
+    },
+    {
+      "start": 3841.594996948242,
+      "end": 3851.5149951171875,
+      "text": "Atlas is going to be one struggling between which enclosure style I want to go for at the minute for Atlas."
+    },
+    {
+      "start": 3851.5149951171875,
+      "end": 3853.8350024414062,
+      "text": "So it's either going to be one meter or 1."
+    },
+    {
+      "start": 3853.8350024414062,
+      "end": 3856.2349963378906,
+      "text": "1 meters wide."
+    },
+    {
+      "start": 3856.2349963378906,
+      "end": 3868.4749865722656,
+      "text": "But that's going to be way more space efficient because that's for a 500 by 350 size machine as long as you don't name it Miley's box."
+    },
+    {
+      "start": 3868.4749865722656,
+      "end": 3869.7549853515625,
+      "text": "It should be fine."
+    },
+    {
+      "start": 3869.7549853515625,
+      "end": 3873.2750048828125,
+      "text": "Get your mind out the gutter."
+    },
+    {
+      "start": 3873.2750048828125,
+      "end": 3881.354991455078,
+      "text": "Your money hand Stream does keep dropping out for me."
+    },
+    {
+      "start": 3881.354991455078,
+      "end": 3883.674998779297,
+      "text": "Can you make Atlas all the Atlas parts on Miley?"
+    },
+    {
+      "start": 3883.674998779297,
+      "end": 3890.87498046875,
+      "text": "I'm going to try because I do want to make as many of the parts as possible on Miley."
+    },
+    {
+      "start": 3890.87498046875,
+      "end": 3893.115001220703,
+      "text": "But currently, no."
+    },
+    {
+      "start": 3893.115001220703,
+      "end": 3895.914989013672,
+      "text": "Currently, you need 310 millimeters."
+    },
+    {
+      "start": 3896.7649999690057,
+      "end": 3903.4850000572205,
+      "text": "Which is exactly what Miley does in X, but only exactly."
+    },
+    {
+      "start": 3903.4850000572205,
+      "end": 3906.5249995422364,
+      "text": "So you then have to account for the radius of the end mill."
+    },
+    {
+      "start": 3906.5249995422364,
+      "end": 3910.6049994659425,
+      "text": "So I'm going to have to redo the Z-axis a little bit to make it fit."
+    },
+    {
+      "start": 3910.6049994659425,
+      "end": 3912.204999847412,
+      "text": "But I'm sure it would be possible."
+    },
+    {
+      "start": 3912.204999847412,
+      "end": 3915.0049990844727,
+      "text": "Should be possible."
+    },
+    {
+      "start": 3915.0049990844727,
+      "end": 3915.484998626709,
+      "text": "Cool."
+    },
+    {
+      "start": 3915.484998626709,
+      "end": 3917.64500038147,
+      "text": "Righty ho, righty ho, righty ho."
+    },
+    {
+      "start": 3917.64500038147,
+      "end": 3919.164998931885,
+      "text": "Right."
+    },
+    {
+      "start": 3919.164998931885,
+      "end": 3923.244998855591,
+      "text": "All the blind holes have been done."
+    },
+    {
+      "start": 3923.244998855591,
+      "end": 3925.404998703003,
+      "text": "Do I have a rag of some kind anywhere?"
+    },
+    {
+      "start": 3925.404998703003,
+      "end": 3926.045,
+      "text": "No, I don't."
+    },
+    {
+      "start": 3926.045,
+      "end": 3938.764997406006,
+      "text": "And then onto the nearby matter I actually start building things."
+    },
+    {
+      "start": 3938.764997406006,
+      "end": 3943.2450007629395,
+      "text": "So those are our uprights there."
+    },
+    {
+      "start": 3943.2450007629395,
+      "end": 3945.324998779297,
+      "text": "These are the rest of the extrusions."
+    },
+    {
+      "start": 3945.324998779297,
+      "end": 3947.8049983215333,
+      "text": "It's all untapped."
+    },
+    {
+      "start": 3947.8049983215333,
+      "end": 3957.164998931885,
+      "text": "These are for the platform that Miley's gonna eventually fit on."
+    },
+    {
+      "start": 3957.164998931885,
+      "end": 3959.2449969482423,
+      "text": "You got my material used and cheap."
+    },
+    {
+      "start": 3959.2449969482423,
+      "end": 3963.484994812012,
+      "text": "I was told that effective all they needed was a cleaning and lubrication."
+    },
+    {
+      "start": 3963.484994812012,
+      "end": 3967.9649981689454,
+      "text": "You know, sometimes in industry scales, you don't need that."
+    },
+    {
+      "start": 3967.9649981689454,
+      "end": 3968.765001220703,
+      "text": "Come on in, bud."
+    },
+    {
+      "start": 3968.765001220703,
+      "end": 3978.8449954223634,
+      "text": "Just be careful your feet."
+    },
+    {
+      "start": 3978.8449954223634,
+      "end": 3982.045,
+      "text": "Have you got any more CAD atlas snapshots you can show us?"
+    },
+    {
+      "start": 3982.045,
+      "end": 3984.924997253418,
+      "text": "Yeah, we'll do it later in the stream."
+    },
+    {
+      "start": 3984.924997253418,
+      "end": 3988.604997558594,
+      "text": "Remind me later in the stream."
+    },
+    {
+      "start": 3988.604997558594,
+      "end": 3989.0049990844727,
+      "text": "Cool."
+    },
+    {
+      "start": 3989.0049990844727,
+      "end": 4002.8449954223634,
+      "text": "I need all my M5s."
+    },
+    {
+      "start": 4002.8449954223634,
+      "end": 4011.9649981689454,
+      "text": "Holy shit I'll grab my M3s in a bit."
+    },
+    {
+      "start": 4011.9649981689454,
+      "end": 4015.8849963378907,
+      "text": "I really don't want to have that grab them right now."
+    },
+    {
+      "start": 4015.8849963378907,
+      "end": 4016.3649996948243,
+      "text": "Let's see."
+    },
+    {
+      "start": 4016.3649996948243,
+      "end": 4017.0049990844727,
+      "text": "What else do I need?"
+    },
+    {
+      "start": 4017.0049990844727,
+      "end": 4021.0049990844727,
+      "text": "I don't need M6s."
+    },
+    {
+      "start": 4021.0049990844727,
+      "end": 4026.1250018310548,
+      "text": "Yeah, that should be all I need for now."
+    },
+    {
+      "start": 4026.1250018310548,
+      "end": 4036.524995727539,
+      "text": "Oh, actually, this is a perfect opportunity to get rid of a bunch of torque M5x10 torque screws."
+    },
+    {
+      "start": 4036.524995727539,
+      "end": 4044.604997558594,
+      "text": "I bought this bag by accident a long time ago."
+    },
+    {
+      "start": 4044.604997558594,
+      "end": 4052.284990234375,
+      "text": "And it's really good for making frames with, but I don't make frames that often."
+    },
+    {
+      "start": 4052.284990234375,
+      "end": 4060.604997558594,
+      "text": "But they're really annoying when you have when you want to use them on parts that you have to adjust later."
+    },
+    {
+      "start": 4060.604997558594,
+      "end": 4069.4050006103516,
+      "text": "Either be that one or that one."
+    },
+    {
+      "start": 4069.4050006103516,
+      "end": 4073.1649951171876,
+      "text": "Perfect."
+    },
+    {
+      "start": 4073.1649951171876,
+      "end": 4075.2449969482423,
+      "text": "So that's the first up right there."
+    },
+    {
+      "start": 4075.2449969482423,
+      "end": 4079.4050006103516,
+      "text": "And for this point out, it's basically going to be like a Voron."
+    },
+    {
+      "start": 4079.4050006103516,
+      "end": 4105.724992675781,
+      "text": "Like a Voron frame assembly."
+    },
+    {
+      "start": 4105.724992675781,
+      "end": 4106.36499206543,
+      "text": "Time is up."
+    },
+    {
+      "start": 4106.36499206543,
+      "end": 4106.9249896240235,
+      "text": "Woo!"
+    },
+    {
+      "start": 4106.9249896240235,
+      "end": 4107.644990844727,
+      "text": "Time is up."
+    },
+    {
+      "start": 4107.644990844727,
+      "end": 4115.485002441406,
+      "text": "What draws you got underneath the tables?"
+    },
+    {
+      "start": 4115.485002441406,
+      "end": 4119.724992675781,
+      "text": "These are big dug workbenches."
+    },
+    {
+      "start": 4119.724992675781,
+      "end": 4124.045,
+      "text": "So if you just look up the like the on-brand big dug stuff, that's what these are."
+    },
+    {
+      "start": 4124.045,
+      "end": 4125.564989013672,
+      "text": "They're not bad benches."
+    },
+    {
+      "start": 4125.564989013672,
+      "end": 4127.485002441406,
+      "text": "Just the feet that come with them are awful."
+    },
+    {
+      "start": 4127.485002441406,
+      "end": 4129.244996948242,
+      "text": "Don't even try installing them."
+    },
+    {
+      "start": 4129.244996948242,
+      "end": 4131.884996337891,
+      "text": "They will bend every single time."
+    },
+    {
+      "start": 4131.884996337891,
+      "end": 4138.844987792969,
+      "text": "Just put something that's not going to scratch your floor underneath them and ignore the feet entirely."
+    },
+    {
+      "start": 4138.844987792969,
+      "end": 4143.964998168945,
+      "text": "They bend so easily."
+    },
+    {
+      "start": 4143.964998168945,
+      "end": 4144.604997558594,
+      "text": "I love the setup."
+    },
+    {
+      "start": 4144.604997558594,
+      "end": 4145.484987182617,
+      "text": "Is that iced tea?"
+    },
+    {
+      "start": 4145.484987182617,
+      "end": 4146.765001220703,
+      "text": "No, it's Coke."
+    },
+    {
+      "start": 4146.765001220703,
+      "end": 4148.844987792969,
+      "text": "It's Coca-Cola."
+    },
+    {
+      "start": 4148.844987792969,
+      "end": 4151.964998168945,
+      "text": "We don't do iced tea around here."
+    },
+    {
+      "start": 4151.964998168945,
+      "end": 4153.164995117188,
+      "text": "God, what do you take me for?"
+    },
+    {
+      "start": 4153.164995117188,
+      "end": 4158.124986572266,
+      "text": "This is an extremely American thing is iced tea."
+    },
+    {
+      "start": 4158.124986572266,
+      "end": 4173.164995117188,
+      "text": "Look, we didn't invade the rest of the world for them to tell us how to drink tea."
+    },
+    {
+      "start": 4173.164995117188,
+      "end": 4174.604997558594,
+      "text": "I'm joking."
+    },
+    {
+      "start": 4174.604997558594,
+      "end": 4196.124986572266,
+      "text": "Just in case anyone thought I was being serious."
+    },
+    {
+      "start": 4199.689999980927,
+      "end": 4202.809999866486,
+      "text": "I've made a vital mistake."
+    },
+    {
+      "start": 4202.809999866486,
+      "end": 4204.009999675751,
+      "text": "I have made a vital mistake."
+    },
+    {
+      "start": 4204.009999675751,
+      "end": 4208.889999313355,
+      "text": "We're not done drilling yet."
+    },
+    {
+      "start": 4208.889999313355,
+      "end": 4219.289998931885,
+      "text": "God damn it."
+    },
+    {
+      "start": 4219.289998931885,
+      "end": 4223.529998703003,
+      "text": "Got to drill the other side, so all these got four more holes to do."
+    },
+    {
+      "start": 4223.529998703003,
+      "end": 4226.8099993896485,
+      "text": "Brisket, can you handle four more holes?"
+    },
+    {
+      "start": 4226.8099993896485,
+      "end": 4233.929998321533,
+      "text": "Can you handle it?"
+    },
+    {
+      "start": 4233.929998321533,
+      "end": 4243.129999084473,
+      "text": "I might have been joking, but you were correct."
+    },
+    {
+      "start": 4243.129999084473,
+      "end": 4244.329999847412,
+      "text": "And Coke isn't American?"
+    },
+    {
+      "start": 4244.329999847412,
+      "end": 4246.17,
+      "text": "Is Coke American?"
+    },
+    {
+      "start": 4246.17,
+      "end": 4247.20999710083,
+      "text": "I actually don't know."
+    },
+    {
+      "start": 4247.20999710083,
+      "end": 4249.690000457764,
+      "text": "I'm guessing it will be."
+    },
+    {
+      "start": 4249.690000457764,
+      "end": 4260.649995727539,
+      "text": "I'm going to say it will be and not cause an international incident."
+    },
+    {
+      "start": 4260.649995727539,
+      "end": 4267.530000610352,
+      "text": "Best Coke I've ever had and I grew up with was Coke made in Tanzania."
+    },
+    {
+      "start": 4267.530000610352,
+      "end": 4269.369996948242,
+      "text": "It's just so much thicker."
+    },
+    {
+      "start": 4269.369996948242,
+      "end": 4272.969995422363,
+      "text": "It's full of cane sugar."
+    },
+    {
+      "start": 4272.969995422363,
+      "end": 4299.609994812012,
+      "text": "It's so much worse for you, but it tastes so good."
+    },
+    {
+      "start": 4299.609994812012,
+      "end": 4302.009996337891,
+      "text": "The only property is licorice with honey."
+    },
+    {
+      "start": 4302.009996337891,
+      "end": 4304.969995422363,
+      "text": "Yorman, get out."
+    },
+    {
+      "start": 4304.969995422363,
+      "end": 4307.210000915527,
+      "text": "Get out."
+    },
+    {
+      "start": 4307.210000915527,
+      "end": 4321.210000915527,
+      "text": "Don't be coming here with your Nordic bullshit."
+    },
+    {
+      "start": 4321.210000915527,
+      "end": 4325.449998779297,
+      "text": "Hey, we got 17 people or 18 people in stream today."
+    },
+    {
+      "start": 4325.449998779297,
+      "end": 4327.129991455078,
+      "text": "Hello, hello, everyone."
+    },
+    {
+      "start": 4327.129991455078,
+      "end": 4329.129991455078,
+      "text": "This is your first time joining stream."
+    },
+    {
+      "start": 4329.129991455078,
+      "end": 4331.849992675781,
+      "text": "Feel free to say something in chat."
+    },
+    {
+      "start": 4331.849992675781,
+      "end": 4334.8099993896485,
+      "text": "I always love chatting with people."
+    },
+    {
+      "start": 4334.8099993896485,
+      "end": 4340.089998168945,
+      "text": "It makes the stream so much more bearable."
+    },
+    {
+      "start": 4340.089998168945,
+      "end": 4346.250001831055,
+      "text": "Because otherwise, I kind of stand here really awkwardly and be me."
+    },
+    {
+      "start": 4346.250001831055,
+      "end": 4348.009996337891,
+      "text": "And no one wants me to be me."
+    },
+    {
+      "start": 4348.009996337891,
+      "end": 4355.0499896240235,
+      "text": "Trust me when I say that."
+    },
+    {
+      "start": 4355.0499896240235,
+      "end": 4356.009996337891,
+      "text": "Hey, Raj."
+    },
+    {
+      "start": 4356.009996337891,
+      "end": 4356.729997558594,
+      "text": "How you doing, man?"
+    },
+    {
+      "start": 4356.729997558594,
+      "end": 4360.089998168945,
+      "text": "I am not too bad."
+    },
+    {
+      "start": 4360.089998168945,
+      "end": 4361.289995117188,
+      "text": "Not too bad."
+    },
+    {
+      "start": 4361.289995117188,
+      "end": 4365.0499896240235,
+      "text": "I am just finishing off my third day off work."
+    },
+    {
+      "start": 4365.0499896240235,
+      "end": 4374.32998840332,
+      "text": "I was on for like eight days straight before this, so I'm kind of dreading going back to work, but it's only for two days until my next day off."
+    },
+    {
+      "start": 4374.32998840332,
+      "end": 4389.449998779297,
+      "text": "So it's not going to be too bad."
+    },
+    {
+      "start": 4389.449998779297,
+      "end": 4394.890001220703,
+      "text": "You're going to sing us the song of your people every single time I drill hot something."
+    },
+    {
+      "start": 4394.890001220703,
+      "end": 4413.449998779297,
+      "text": "Man, people want you to be you."
+    },
+    {
+      "start": 4413.449998779297,
+      "end": 4414.250001831055,
+      "text": "That's why you're here."
+    },
+    {
+      "start": 4414.250001831055,
+      "end": 4418.250001831055,
+      "text": "Ah, yeah."
+    },
+    {
+      "start": 4418.250001831055,
+      "end": 4418.729997558594,
+      "text": "Right."
+    },
+    {
+      "start": 4418.729997558594,
+      "end": 4421.929994506836,
+      "text": "Come on."
+    },
+    {
+      "start": 4421.929994506836,
+      "end": 4424.32998840332,
+      "text": "We can't have you on stream barking."
+    },
+    {
+      "start": 4424.32998840332,
+      "end": 4426.17,
+      "text": "Out you go."
+    },
+    {
+      "start": 4426.17,
+      "end": 4427.769990844727,
+      "text": "Gotta find your balls."
+    },
+    {
+      "start": 4427.769990844727,
+      "end": 4429.689989013672,
+      "text": "Not those balls."
+    },
+    {
+      "start": 4429.689989013672,
+      "end": 4465.289995117188,
+      "text": "You know where those aregan, you always do know what to say to make me feel good about myself."
+    },
+    {
+      "start": 4465.289995117188,
+      "end": 4466.009996337891,
+      "text": "Thank you, bud."
+    },
+    {
+      "start": 4466.009996337891,
+      "end": 4484.249986572266,
+      "text": "You're still wrong about tea, though."
+    },
+    {
+      "start": 4509.4349999618535,
+      "end": 4514.395,
+      "text": "Raj you have a you have a 350 Voron, don't you?"
+    },
+    {
+      "start": 4514.395,
+      "end": 4523.354999084473,
+      "text": "Can you do me a favor and get me like a rough sizing estimate for the outside of the machine?"
+    },
+    {
+      "start": 4523.354999084473,
+      "end": 4526.315000076294,
+      "text": "I just want not that it's gonna matter or anything."
+    },
+    {
+      "start": 4526.315000076294,
+      "end": 4792.634990234375,
+      "text": "I just want like a comparison between the size of tiny box and the size of Yeah, that's correct It's a 300v2 Okay, you have if you have a 300 still the same thing if you don't mind just taking like a measurement for me doesn't need to be precise or anything just a rough measurement Because like I was comparing the size of my Cornel to the Trident that I have and I only have a Trident 250 and they're both the same floor space or table space This is obviously taller, but that's 300 millimeter build plate whereas the Voron is 250 510 by 530 by 500 including the spool holder and a clicky flat door to look around 630 millimeters of depth Raj is saying 480 by 480 are you Yomangan are you giving me the ones for the 350 version And Raj is giving me the one for the 300 Yeah Yomangan's doing the 350 yeah so it's not that much smaller so than tiny bit box is gonna be It's like 100 mil smaller So if you have the space for a 354 on you now have the space for a Miley a mill right so these two need to be on one end those two need to be on another end Let's get back to it 350 Voron is big I've never actually seen a 354 on I think a lot of people kind of go with the two the 250 size ones mostly because of either cost or just size restrictions of what they can have in their house Also I can imagine a lot of people were like worried about how much speed they could get on a 300mm or 350 mil Because like 50 mil extra on the gat the extra actually doesn't seem like much but it's a lot of weight for teeny tiny ma 17s"
+    },
+    {
+      "start": 4837.889997253418,
+      "end": 4842.129998931885,
+      "text": "I think people go with a 250 because most commercial printers are around that side."
+    },
+    {
+      "start": 4842.129998931885,
+      "end": 4849.649999389649,
+      "text": "You say that, but they weren't around that size at the time of Vorons in the golden age."
+    },
+    {
+      "start": 4849.649999389649,
+      "end": 4854.850000152588,
+      "text": "A lot of the standard was set by Prussia at 220."
+    },
+    {
+      "start": 4854.850000152588,
+      "end": 4858.850000152588,
+      "text": "Hence why the core one is 220."
+    },
+    {
+      "start": 4858.850000152588,
+      "end": 4863.730001220703,
+      "text": "You did have bigger ones, don't be wrong, but the bigger printers tended to be like 300 mil."
+    },
+    {
+      "start": 4863.730001220703,
+      "end": 4871.090001831055,
+      "text": "I think the CR10 I have just realized something."
+    },
+    {
+      "start": 4871.090001831055,
+      "end": 4873.889997253418,
+      "text": "These do need to be tapped on one side."
+    },
+    {
+      "start": 4873.889997253418,
+      "end": 4893.08999420166,
+      "text": "But we can do that once the entire enclosure is built and just flush But yeah, first time I lifted the assembled printer I was surprised by how heavy it is."
+    },
+    {
+      "start": 4893.08999420166,
+      "end": 5033.969991455078,
+      "text": "Yeah Yeah, 250 is big yeah you're not wrong you're not wrong they actually that's a thing Voron kind of set the precedent for 250 millimeter size beds The CR10 days were cool that was my first ever printer There was a CR10S But yeah it's another one and another thing that annoyed me with the annoys me with warons it's not an annoyment and it's just more of a personal game because it's fine if you own one printer because you can find the space for one printer But if you're like me and you have five printers including a resin printer and then also my two Vorons which are under here at the minute if you have if you're like me the narrower the more efficient you can get with the footprint in terms of build volume to volume of the machine the better it is in my case But that's because again I need to fit so many printers in such a small space if you're just building a single Voron or you have a garage where you have lots of space Yeah, they're fine Yeah, the one with the hole needs to go on this side It was my first build after I had a stroke and I needed to have some them oh man, that's rough."
+    },
+    {
+      "start": 5033.969991455078,
+      "end": 5099.330007324219,
+      "text": "I'm glad you're doing better though I am glad you're doing better So you can kind of start to get the idea of how small how small this enclosure actually is that like that fits an entire Miley in it I think that is way more manageable for a lot of people I might not even have to move the table forward, you know I might do just to get it in there, but I have just remembered that I'm probably I do"
+    },
+    {
+      "start": 5100.274999969006,
+      "end": 5106.674999885559,
+      "text": "I will need to do a few more holes in two extrusions."
+    },
+    {
+      "start": 5106.674999885559,
+      "end": 5107.555,
+      "text": "God damn it."
+    },
+    {
+      "start": 5107.555,
+      "end": 5114.515000038147,
+      "text": "Drilling's never done."
+    },
+    {
+      "start": 5114.515000038147,
+      "end": 5141.79499786377,
+      "text": "I forgot there's going to be the top extrusion here, which needs to connect to the top beam that doesn't exist at the bottom, but it does at the top because that's where the electronics box is."
+    },
+    {
+      "start": 5141.79499786377,
+      "end": 5143.395000152588,
+      "text": "I'm sorry about that."
+    },
+    {
+      "start": 5143.395000152588,
+      "end": 5148.75500076294,
+      "text": "If it helps, there are some days where I can't feel my toes."
+    },
+    {
+      "start": 5148.75500076294,
+      "end": 5150.354999237061,
+      "text": "And that's not even because of the stroke."
+    },
+    {
+      "start": 5150.354999237061,
+      "end": 5164.275001220703,
+      "text": "That's because I committed to a sport too hard when I was a kid and slipped two discs on my back."
+    },
+    {
+      "start": 5164.275001220703,
+      "end": 5174.034995727539,
+      "text": "So I either wake up with fiery pains down my leg most days or can't walk at all."
+    },
+    {
+      "start": 5174.034995727539,
+      "end": 5174.674995117188,
+      "text": "Yay!"
+    },
+    {
+      "start": 5174.674995117188,
+      "end": 5177.154998474121,
+      "text": "So I feel you, bro."
+    },
+    {
+      "start": 5177.154998474121,
+      "end": 5187.394996337891,
+      "text": "I really do."
+    },
+    {
+      "start": 5187.394996337891,
+      "end": 5210.595000915528,
+      "text": "I can sympathize with the pain more than most."
+    },
+    {
+      "start": 5210.595000915528,
+      "end": 5214.354995422364,
+      "text": "We might also be doing some CAD on stream in a bit."
+    },
+    {
+      "start": 5214.354995422364,
+      "end": 5225.394996337891,
+      "text": "That's the reason I said let's wait for the Atlas sneak peek because we might just be doing CAD anyway."
+    },
+    {
+      "start": 5225.394996337891,
+      "end": 5232.7549969482425,
+      "text": "And I can show it off then."
+    },
+    {
+      "start": 5232.7549969482425,
+      "end": 5236.594993286133,
+      "text": "Right, so this is the back."
+    },
+    {
+      "start": 5236.594993286133,
+      "end": 5237.794990234375,
+      "text": "Depends on which way you want to build."
+    },
+    {
+      "start": 5237.794990234375,
+      "end": 5241.314994506836,
+      "text": "The nice thing about every caster is they're mirrorable."
+    },
+    {
+      "start": 5241.314994506836,
+      "end": 5247.87499206543,
+      "text": "So you can do it on you can have the door on this side and open this way, or you can just spin the entire chassis around."
+    },
+    {
+      "start": 5247.87499206543,
+      "end": 5256.594993286133,
+      "text": "I'm going to spin it around because I want to have the e-stop and stuff on my left and door opening this way."
+    },
+    {
+      "start": 5256.594993286133,
+      "end": 5275.154990844727,
+      "text": "I suppose it doesn't matter too much right now, but still it's not fun, but you live with it like any other thing in your life."
+    },
+    {
+      "start": 5275.154990844727,
+      "end": 5304.194999389649,
+      "text": "Can't speak for Raj, obviously, but I got used to living with it."
+    },
+    {
+      "start": 5304.194999389649,
+      "end": 5311.635001831055,
+      "text": "All right, I am kind of worried, though, about one thing."
+    },
+    {
+      "start": 5311.635001831055,
+      "end": 5317.954993896485,
+      "text": "When I finally get Atlas up and running, and obviously I'm going to have Miley underneath there."
+    },
+    {
+      "start": 5317.954993896485,
+      "end": 5320.9950024414065,
+      "text": "That's going to be this room at capacity."
+    },
+    {
+      "start": 5320.9950024414065,
+      "end": 5327.474998168946,
+      "text": "Which means no more room for extra 3D printers."
+    },
+    {
+      "start": 5327.474998168946,
+      "end": 5332.194999389649,
+      "text": "No more room for more CNC machines."
+    },
+    {
+      "start": 5332.194999389649,
+      "end": 5337.394996337891,
+      "text": "I'm going to have literally this surface and that surface to do assembly work on."
+    },
+    {
+      "start": 5337.394996337891,
+      "end": 5346.9949871826175,
+      "text": "So I'm going to have to stop doing dev streams or won't be able to do dev streams or that many dev streams."
+    },
+    {
+      "start": 5346.9949871826175,
+      "end": 5351.635001831055,
+      "text": "It'll be limited in some way or another."
+    },
+    {
+      "start": 5351.635001831055,
+      "end": 5355.875007324219,
+      "text": "And it will mean I will have to find projects to do."
+    },
+    {
+      "start": 5355.875007324219,
+      "end": 5357.875007324219,
+      "text": "So what projects should I start getting into?"
+    },
+    {
+      "start": 5357.875007324219,
+      "end": 5360.03498046875,
+      "text": "What can I actually start seeing seeing?"
+    },
+    {
+      "start": 5360.03498046875,
+      "end": 5372.114997558594,
+      "text": "I've got the Micron, which I want to do a full one-piece flying gantry on."
+    },
+    {
+      "start": 5372.114997558594,
+      "end": 5382.114997558594,
+      "text": "So basically, just what the Micron has now for the Gantry, except have it as a single all-milled from a single plate."
+    },
+    {
+      "start": 5382.114997558594,
+      "end": 5398.595008544922,
+      "text": "And it's not even that wasteful because you can mill the bid the bed out of the centerpiece that would otherwise go to waste because my micron didn't come with a bed."
+    },
+    {
+      "start": 5398.595008544922,
+      "end": 5400.754981689453,
+      "text": "And that wasn't the Fabrico's fault thing."
+    },
+    {
+      "start": 5400.754981689453,
+      "end": 5401.71500366211,
+      "text": "I knew very well before"
+    },
+    {
+      "start": 5403.064999952316,
+      "end": 5403.864999904632,
+      "text": "Getting it."
+    },
+    {
+      "start": 5403.864999904632,
+      "end": 5701.865006103515,
+      "text": "I was offered it by Fabrico specifically because the new LDO Micron kits were coming out and they had a bunch of old stock of the beta kits from before it was the Micron Plus the original Micron How long have we been streaming for no choice you just have to make the best that we still have yeah exactly I don't wake up depressed or anything every morning well not every morning I reserve that for Sundays these cross beans need to have one hole drilled in them yes I didn't get my measurements wrong in CAD Do you fully cam projects before building or do you sometimes just wing it I wouldn't say I wing it I get it to a point where it's nice to have visual confirmation of what something looks like or feels like so like I haven't fully cammed out the tiny box yet but I got it to a point where I know I've made decisions that I shouldn't reverse or make too many big changes on so something like the frame the frame is the frame's gonna be the same size I'm not gonna change the frame by that much I might change the electronics box a little bit make it a bit wider to compensate for the fact that's a lot shorter but I don't think I'll need to do that because I can fit most of the electronics in normal CASA in the first like quarter but that's with tuned in rails it's gonna be it's probably gonna be a bit tight but it should be fine in a bit I am gonna get rid of this platform here right I need to do some measurings first let me do some measuring I can measure how far this goes away from that so 170 from center to edge I need to drill a hole in these top pieces we just send you an STL on discord yeah it'll take too long to oh that's what I forgot to do I said that I was gonna do this at the very beginning of stream and I completely forgot to do it add instance in this no clone command set number of instances all right so I need one to"
+    },
+    {
+      "start": 5702.634999985695,
+      "end": 5708.874999637604,
+      "text": "Four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen."
+    },
+    {
+      "start": 5708.874999637604,
+      "end": 5714.474999542236,
+      "text": "So let's go at 20 just to be safe."
+    },
+    {
+      "start": 5714.474999542236,
+      "end": 5720.39499961853,
+      "text": "So, oh my god, cruiser slices so differently."
+    },
+    {
+      "start": 5720.39499961853,
+      "end": 5730.154999847412,
+      "text": "Okay, basically, however many I can fit on a bed."
+    },
+    {
+      "start": 5730.154999847412,
+      "end": 5732.074999923706,
+      "text": "I'm so used to Orca."
+    },
+    {
+      "start": 5732.074999923706,
+      "end": 5735.594998474121,
+      "text": "There we go."
+    },
+    {
+      "start": 5735.594998474121,
+      "end": 5738.474999542236,
+      "text": "We're doing these in glass fiber ABS."
+    },
+    {
+      "start": 5738.474999542236,
+      "end": 5743.274998779297,
+      "text": "I've got them set up as ASA right now just because I'm messing around."
+    },
+    {
+      "start": 5743.274998779297,
+      "end": 5744.634999389648,
+      "text": "I was messing around with some stuff."
+    },
+    {
+      "start": 5744.634999389648,
+      "end": 5748.79499923706,
+      "text": "And we want to do these in just you don't need to, these don't need to be the strongest things in the world."
+    },
+    {
+      "start": 5748.79499923706,
+      "end": 5759.194996948242,
+      "text": "So I'm just going to do them in the aesthetic setting."
+    },
+    {
+      "start": 5759.194996948242,
+      "end": 5762.874997253418,
+      "text": "Go there's one thing I don't like about the core one."
+    },
+    {
+      "start": 5762.874997253418,
+      "end": 5776.874997253418,
+      "text": "You can set there is a setting to set the minimum chamber temperature, but I think it needs to be at that temperature for like 30 minutes or something like that."
+    },
+    {
+      "start": 5776.874997253418,
+      "end": 5786.874997253418,
+      "text": "So what I end up having to do is just press skip on the chamber preheating because if you set the chamber to 50 C, it tries to keep 50 C only."
+    },
+    {
+      "start": 5786.874997253418,
+      "end": 5790.075001831055,
+      "text": "It doesn't see that as a minimum chamber temperature."
+    },
+    {
+      "start": 5790.075001831055,
+      "end": 5798.07499420166,
+      "text": "And you have to set it to 60 to actually print at 60 or to not turn the internal chamber fans on, which I'm not a big fan of."
+    },
+    {
+      "start": 5798.07499420166,
+      "end": 5819.434994812012,
+      "text": "Oh stream's current bit rate."
+    },
+    {
+      "start": 5819.434994812012,
+      "end": 5820.474995727539,
+      "text": "Okay, we're back on track."
+    },
+    {
+      "start": 5820.474995727539,
+      "end": 5825.914998168945,
+      "text": "I don't know what what happened there."
+    },
+    {
+      "start": 5825.914998168945,
+      "end": 5831.8349963378905,
+      "text": "I think someone was just downloading a lot of stuff somewhere nearby."
+    },
+    {
+      "start": 5831.8349963378905,
+      "end": 5835.594990844726,
+      "text": "My internet dropped."
+    },
+    {
+      "start": 5835.594990844726,
+      "end": 5838.715001220703,
+      "text": "Alright, so two of these two of them?"
+    },
+    {
+      "start": 5838.715001220703,
+      "end": 5840.31499206543,
+      "text": "Yes, there's two of them."
+    },
+    {
+      "start": 5840.31499206543,
+      "end": 5845.034993286133,
+      "text": "So I'll do 150, then 20."
+    },
+    {
+      "start": 5845.034993286133,
+      "end": 5856.474995727539,
+      "text": "And that gets us to 170."
+    },
+    {
+      "start": 5856.474995727539,
+      "end": 5858.075001831055,
+      "text": "I tried to use free cat instead of fusion."
+    },
+    {
+      "start": 5858.075001831055,
+      "end": 5859.594990844726,
+      "text": "I'm trying to make the switch."
+    },
+    {
+      "start": 5859.594990844726,
+      "end": 5866.31499206543,
+      "text": "But cam on fusion is just too good for me to compare not free card to fusion."
+    },
+    {
+      "start": 5866.31499206543,
+      "end": 5867.594990844726,
+      "text": "Sorry, fusion to free card."
+    },
+    {
+      "start": 5867.594990844726,
+      "end": 5901.674992675781,
+      "text": "I am thinking of moving to On Shape Because I believe OnShape now does do a cam version, a cam thing, cam workspace and because AI is a thing, I can now easily pump out post-processors."
+    },
+    {
+      "start": 5901.674992675781,
+      "end": 5904.474995727539,
+      "text": "Whereas I had no idea what I was doing with post-processors before."
+    },
+    {
+      "start": 5904.474995727539,
+      "end": 5960.715001220703,
+      "text": "There's a lot of evil things about AI, but I will not lie, it has helped immensely when it comes to doing the dev stuff Nothing is evil about AI, just some of the people that use it."
+    },
+    {
+      "start": 5960.715001220703,
+      "end": 6001.914982910156,
+      "text": "Yeah, that's not wrong It's the habits that people fall into when using it as well the fact they believe it all the time And I really would love to stop using AI art but at the same time I would rather spend that money a lot of the time on parts so if anyone's interested if anyone knows any artists who are interested in doing some free work"
+    },
+    {
+      "start": 6003.194999952317,
+      "end": 6021.034999389649,
+      "text": "And getting rid of the, or at least doing a proper version of the starting soon little widget thing I have that would be amazing, because I don't like AI art, but at the same time, I needed something."
+    },
+    {
+      "start": 6021.034999389649,
+      "end": 6025.034999389649,
+      "text": "Alright, this needs to go on this side."
+    },
+    {
+      "start": 6025.034999389649,
+      "end": 6064.954997558594,
+      "text": "The hole needs to be on that side."
+    },
+    {
+      "start": 6064.954997558594,
+      "end": 6068.075000305176,
+      "text": "The problem with AI is not how the individual uses it."
+    },
+    {
+      "start": 6068.075000305176,
+      "end": 6070.314998168946,
+      "text": "It's the system effect it has on the world."
+    },
+    {
+      "start": 6070.314998168946,
+      "end": 6075.115001220704,
+      "text": "It's cheaper and faster to do stuff with it and ends up leaving humans out of the loop."
+    },
+    {
+      "start": 6075.115001220704,
+      "end": 6080.234996337891,
+      "text": "There's human costs to it, and really that we really express directly."
+    },
+    {
+      "start": 6080.234996337891,
+      "end": 6084.63499786377,
+      "text": "We talk about the economic benefits as if economics were separate from your anti."
+    },
+    {
+      "start": 6084.63499786377,
+      "end": 6085.594996948243,
+      "text": "Yes."
+    },
+    {
+      "start": 6085.594996948243,
+      "end": 6087.594996948243,
+      "text": "I can agree with every single thing you said there."
+    },
+    {
+      "start": 6087.594996948243,
+      "end": 6090.63499786377,
+      "text": "And that's not even like everything you say, but."
+    },
+    {
+      "start": 6090.63499786377,
+      "end": 6093.115001220704,
+      "text": "That's an everything you say."
+    },
+    {
+      "start": 6093.115001220704,
+      "end": 6106.63499786377,
+      "text": "Problem is, we're using, we're at a point where it does genuinely help individuals in a lot of ways."
+    },
+    {
+      "start": 6106.63499786377,
+      "end": 6109.914996643067,
+      "text": "But it's not aimed at helping individuals."
+    },
+    {
+      "start": 6109.914996643067,
+      "end": 6119.274997253418,
+      "text": "It's aimed at helping mass market bodies and big companies."
+    },
+    {
+      "start": 6119.274997253418,
+      "end": 6125.9949984741215,
+      "text": "So you can say all you want about how you don't want to use AI."
+    },
+    {
+      "start": 6125.9949984741215,
+      "end": 6129.435000915528,
+      "text": "It doesn't mean you'll be able to get away with not doing it."
+    },
+    {
+      "start": 6129.435000915528,
+      "end": 6132.8749957275395,
+      "text": "It doesn't mean it's going to change anything."
+    },
+    {
+      "start": 6132.8749957275395,
+      "end": 6293.914989013672,
+      "text": "Because I can guarantee you one thing: the entire regular user base, the entire population of the earth that isn't industrial or doing it for company work can say they're going to stop using AI and AI will still continue to be there Just noticed something gonna have to undo this This is another reason I don't always follow through with pad entirely before start assembling stuff because just tiny tiny bits and pieces like this where you really need to feel what the process is of making it to kind of realize where your stumbling points are So for example I need to make sure that this T piece goes in this way with these bits first otherwise you won't be able to assemble it and I only knew that because I assembled it or I'm in the process of assembling There is no avoiding it embrace it I wouldn't say embrace it I'd say use it as a tool like any other tool because it does come up with some bullshit It does come up with a bunch of bullshit and you shouldn't trust it not inherently at least and you shouldn't let it rule your life But that's the same as everything fortunately there are people who get addicted to it the same way people get addicted to anything And then they start relying on it too much and then that's when it bites them in the ass"
+    },
+    {
+      "start": 6320.934999694824,
+      "end": 6450.294992675781,
+      "text": "Right, and that's that so that needs to be installed this side I am probably gonna have to take this apart at some stage just to get other extrusions in that should be going in to the electronics box side, but I can do that after I've done the actual fitty turn this sideways split second oh I'll tell you what I've been enjoying recently I've been really enjoying dispatch I started playing dispatch My monitor's turned off And it has been such a good game It's such a good as someone who really really really enjoyed and missed the telltale style of video games I have been super into dispatch You know sometimes you don't want a sweaty video game sometimes you just want something that has a good story that you get to make a few choices in and yeah it's not gonna affect the outcome that much but the illusion of affecting the outcome sometimes is all I want agency in video games doesn't necessarily mean you are changing anything it just means that you feel like you're changing stuff We're effectively first forced to use it at work."
+    },
+    {
+      "start": 6450.294992675781,
+      "end": 6477.494989624023,
+      "text": "I haven't seen anyone's productivity gone up We do produce a lot more code though, but we don't ship code we ship solutions Favorite studies but I have a scrap bin that begs to differ Hook that up to something that can register positions and you can use it as a pretty accurate 3D scanner."
+    },
+    {
+      "start": 6477.494989624023,
+      "end": 6602.215006103515,
+      "text": "Yeah, I suppose so But I think the 3D scanner market is pretty saturated at the minute Okay This is what happens when you don't have a manual to follow you end up having to redo a bunch of stuff So at this point in time I'm gonna have to take this whole top section off because I forgot to slide a bit of extrusion down that way I miss more holes than I need to drill uh no I didn't miss them this time There is just one of the electronics bay extrusions need to go need to go over here so I need to take all of this off hey you're finally starting to print This is what I mean it takes so long for the push to get up to 60 degrees Which is to be fair it's the same as any other printer but it does get up to 60 degrees and it doesn't lie to me like I have a panda breath in my in one of my P1Ss and that's the one I use for the majority of my ABS printing nowadays Majority of my big part parts at least up until I got the P1S not P1S the Cornel and even with that it lies to you it doesn't actually get to 60 60 degrees it gets to 55"
+    },
+    {
+      "start": 6603.469999995232,
+      "end": 6613.470000114441,
+      "text": "I've used so many different thermostors, thermostat, well, not themostats thermocouples in there, and it still just says it gets to 55."
+    },
+    {
+      "start": 6613.470000114441,
+      "end": 6632.909999694824,
+      "text": "This actually gets up to 60 degrees."
+    },
+    {
+      "start": 6632.909999694824,
+      "end": 6637.950000610352,
+      "text": "I'm just gonna move this one down."
+    },
+    {
+      "start": 6637.950000610352,
+      "end": 6691.6300009155275,
+      "text": "Figure out what the spacing is in a minute now."
+    },
+    {
+      "start": 6691.6300009155275,
+      "end": 6725.229999389649,
+      "text": "This one needs to go where that top one was Yeah, what code do you need to write for your job, Yormangand?"
+    },
+    {
+      "start": 6725.229999389649,
+      "end": 6726.109996643067,
+      "text": "I don't understand it."
+    },
+    {
+      "start": 6726.109996643067,
+      "end": 6901.949985351563,
+      "text": "Don't you're not gonna say that because I'm not gonna adopt you on stream Not gonna say what you do You can say what you want what you do, but I'm not gonna be the one who does it by accident My team makes internal tools for other people's companies Oh okay See, I thought you were one of the more you had one of the more well I suppose your job can still be fun So I'm using the term fun here relatively I thought you had one of the more fun jobs So what I'm missing currently is an upright here an upright at the back but those are 660 mil long and I hadn't ordered them yet because I am an idiot and I forgot about them and then the 140s here But yeah, that is see if I can make some things this is the full size of the machine This is gonna be way more manageable for a lot of people It's gonna be way more manageable for a lot of people I think"
+    },
+    {
+      "start": 6903.81999997139,
+      "end": 6911.019999542236,
+      "text": "Like you saw what the P what the Core 1L was like on this table if you were here on Saturday."
+    },
+    {
+      "start": 6911.019999542236,
+      "end": 6917.3399992370605,
+      "text": "It was massive and this isn't too much bigger."
+    },
+    {
+      "start": 6917.3399992370605,
+      "end": 7009.819998779297,
+      "text": "This is actually usable Right It's a bit short for my liking, especially when it's actually on the desk I like having my machines basically this height or a bit higher But that's what you get when you try and make everything the same size extrusion Yeah, I think that's where we're gonna leave it off for tonight Just so that we're not having to wait around next stream for me to get extrusions drilled and built and all that stuff I'm probably gonna do the last two uprights next stream no sorry between streams and just get the frame completely done and dusted out of the way There's also these two bits, but these are for actually where Miley's gonna sit on the machine So it doesn't matter too much but yeah, I think for now seeing as it's quite it's gonna be quite late for now I'm gonna say goodbye right get you back on this cam as per usual Thank you very much everyone who came to stream today it does help tremendously when we got loads of people who are willing to chat and have fun and just watch the things that we do here I know it was a bit more dev heavy and a little bit all over the place That's always the case with us."
+    },
+    {
+      "start": 7009.819998779297,
+      "end": 7032.219992675781,
+      "text": "We're always all over the place and I kind of assume that's why you come and watch me But other than that if you do want to donate to the team or do anything to help us out join the Discord for a start like the video and if you feel like donating there's a link in the description below Cheers coming and I hope you guys have a great rest of your evening bye now"
+    }
+  ]
+}
