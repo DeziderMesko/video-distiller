@@ -150,14 +150,55 @@ def cmd_show(args) -> int:
     return 0
 
 
+def _flags(parser: argparse.ArgumentParser) -> tuple[set[str], set[str]]:
+    """Every flag the parser and its subcommands accept, and which of those
+    consume a following value."""
+    seen, valued = set(), set()
+    for action in parser._actions:
+        seen.update(action.option_strings)
+        if action.nargs != 0 and not isinstance(
+            action, (argparse._StoreTrueAction, argparse._StoreFalseAction,
+                     argparse._HelpAction, argparse._VersionAction)
+        ):
+            valued.update(action.option_strings)
+        # choices is None on most actions, a list on things like --backend,
+        # and a dict of sub-parsers on the subcommand action.
+        choices = getattr(action, "choices", None)
+        if isinstance(choices, dict):
+            for sub in choices.values():
+                if isinstance(sub, argparse.ArgumentParser):
+                    sub_seen, sub_valued = _flags(sub)
+                    seen |= sub_seen
+                    valued |= sub_valued
+    return seen, valued
+
+
+def _protect_leading_dash(argv: list[str], parser: argparse.ArgumentParser) -> list[str]:
+    """YouTube ids use the base64url alphabet, so plenty of them begin with a
+    dash and argparse reads them as flags. Move the first such token to the end
+    behind a "--" so `vdistill ask -OHCU9msaxs -q ...` means what it looks like.
+    Putting it last matters: "--" makes everything after it positional."""
+    seen, valued = _flags(parser)
+    for i, token in enumerate(argv):
+        if not token.startswith("-") or token == "--" or token in seen:
+            continue
+        if token.lstrip("-").replace(".", "", 1).isdigit():
+            continue                      # a negative number, not an id
+        if i and argv[i - 1] in valued:
+            continue                      # the value of the preceding flag
+        return argv[:i] + argv[i + 1:] + ["--", token]
+    return argv
+
+
 def main(argv: list[str] | None = None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     parser = build_parser()
 
     # `vdistill <url>` should work without typing `run`.
-    known = {"run", "ask", "list", "show"}
-    if argv and argv[0] not in known and not argv[0].startswith("-"):
+    commands = {"run", "ask", "list", "show"}
+    if argv and argv[0] not in commands and argv[0] not in _flags(parser)[0]:
         argv.insert(0, "run")
+    argv = _protect_leading_dash(argv, parser)
 
     args = parser.parse_args(argv)
     if not args.command:
