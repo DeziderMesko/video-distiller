@@ -1,0 +1,554 @@
+[00:05:00] Right, we are alive.
+[00:05:02] Hello, folks.
+[00:05:03] We've got tons of people in chat today.
+[00:05:04] We've got Yomangan, we've got Anyeka, we've got Jose, we've got Damascus, we've got Yanu Fischel.
+[00:05:09] I think this is the first time I've seen Yanu in chat.
+[00:05:12] Steve Knobs, as usual.
+[00:05:14] Right, loads of people this stream.
+[00:05:16] Why don't you guys show up to my normal streams?
+[00:05:18] Why is it only when we do the announcement streams that loads of people show up?
+[00:05:24] Right, we got Dominic as well and Ollie.
+[00:05:27] So, it is finally come time for us to release the full V2 files.
+[00:05:35] So, we're done with the principle stuff.
+[00:05:37] We hit our goals with the principles.
+[00:05:39] We're all done and we're ready to start releasing stuff.
+[00:05:43] So, I thought, well, actually, Kata thought it would be a great idea to get everyone on stream and we can just, you know, have a bit of a chill.
+[00:05:52] We're not doing Casita today, although Kasita will continue in a few minutes' time.
+[00:05:57] Not in a few minutes, in a few days' time.
+[00:05:59] But for now, what we're going to do is we're going to introduce everyone.
+[00:06:04] Say hi, everyone.
+[00:06:08] Hello.
+[00:06:08] Hello.
+[00:06:10] Hey, hey.
+[00:06:10] So in Discord today, we have got Aramco Phil, who you might see on Manusin on the Discord before, DJ Rumba, who's been working on the fourth access with Phil.
+[00:06:21] Kato's been kind of our man behind the scenes with all the upcoming firmware and I.
+[00:06:33] O.
+[00:06:33] stuff that we're trying to implement into MOS slash next.
+[00:06:37] And he's also been the one who's putting all the documents up.
+[00:06:41] And we've also got Alan, who you should know from West3D.
+[00:06:44] Yeah, so if everyone wants to just...
+[00:06:49] I've already just, I know we said that I was going to, that you guys are going to introduce yourselves.
+[00:06:54] And then I ended up doing it.
+[00:06:56] But why don't we start with Rumba?
+[00:06:59] You seem to be ready.
+[00:07:03] Yeah, let's do it.
+[00:07:03] Hey, guys.
+[00:07:04] So I'm DJ Roomba.
+[00:07:05] I'm also known as John.
+[00:07:06] I've been helping out with the fourth axis stuff.
+[00:07:08] Anything rep rep firmware or Moss related.
+[00:07:11] And I'm getting the team up to speed and using GitHub and getting all the documentation together.
+[00:07:16] Nice to meet you guys.
+[00:07:18] Nice to hear everyone's voices and load everyone in the chat.
+[00:07:22] Right.
+[00:07:23] Kata, you up next?
+[00:07:24] Kada's not here, is he?
+[00:07:29] He's still dealing with the dog, isn't he?
+[00:07:31] I think so, yeah.
+[00:07:33] I think so.
+[00:07:34] Phil, in that case.
+[00:07:38] Yeah, sure.
+[00:07:39] I'm yeah, I've been on stream before.
+[00:07:45] I'm Phil.
+[00:07:46] I'm doing fourth access work together with DJ Roomba, and I've mostly done the mechanical side of it.
+[00:07:53] And DJ Rumbo has been amazing with the documentation and the macros and all that stuff.
+[00:08:01] So yeah, I'm mostly in the background working on my own thing at the moment.
+[00:08:08] And yeah.
+[00:08:10] Hi, everyone.
+[00:08:11] Then we've also got Alan, who actually has his Milo up on stream.
+[00:08:20] Yep, that is the kit that I have built that is a beta version of the upcoming LDO kit.
+[00:08:29] So it is up and running.
+[00:08:32] Still needs to be trammed, but we always need projects to do the development team.
+[00:08:44] I have been working on the four-pack tool changer, which will be doing stuff soon trademark, maybe not for on soon, actual soon.
+[00:09:01] Yeah, so plan for the stream tonight, guys, is pretty simple.
+[00:09:06] The docs should be all merged and up on the website now.
+[00:09:11] In fact, Phil, do you still have that link that you can post in chat?
+[00:09:15] So if anyone wants to have a quick look at it, other than that, if you guys, we're just going to pretty much do a chill, a nice, easy stream.
+[00:09:26] If you have any questions for us at all, give us a shout.
+[00:09:32] Yeah, so how is everyone doing?
+[00:09:36] Is everyone still recovering from lots of trips around the country?
+[00:09:40] I see, Alan, I'm kind of over my travel anyway.
+[00:09:50] You know, I came over and hung out with you and Phil and Dave and Furky at Smurf.
+[00:10:01] And then was immediately over at Rocky Mountain RepR Festival showing off the V2 to everyone there.
+[00:10:10] Had a ton of people come by and ask about it.
+[00:10:15] Yeah, cool.
+[00:10:17] Cool, cool, cool.
+[00:10:17] Someone's noticed Rumba's Lemon Tart in the background 404 on the manual.
+[00:10:27] What's happening with the manual?
+[00:10:32] Error on PDF.
+[00:10:34] Oh, yeah, yeah, yeah, I know why.
+[00:10:36] I know why.
+[00:10:37] The report where the manual is positioned is still private.
+[00:10:42] Ah, okay.
+[00:10:42] Okay, that should be fixed.
+[00:10:44] We'll get that fixed.
+[00:10:45] This is what happens when you do stuff live.
+[00:10:52] What's up, Jose?
+[00:10:53] How are you doing, Jose?
+[00:10:54] Right.
+[00:10:57] I blame Alan from Jose.
+[00:11:02] You can blame me.
+[00:11:04] In that case, I think we need to open the V2 and the UAB on yeah, you just finished tramming.
+[00:11:17] Yeah, I've seen your tramming woes universe.
+[00:11:22] It's not the easiest thing to do when you don't know what you're doing.
+[00:11:26] Okay.
+[00:11:29] Kada should be back in a minute.
+[00:11:31] So, well, it's going to be a slightly later opening than we expected at this point.
+[00:11:40] No, we're back online.
+[00:11:42] It should be up and online now.
+[00:11:43] Ah, cool.
+[00:11:44] DJ sorted it on website.
+[00:11:54] Can you also open the UAB?
+[00:11:57] Yeah, I'll take care of that too.
+[00:12:00] So it's pretty simple.
+[00:12:05] The docks aren't too in-depth or scary.
+[00:12:11] It's basically just a bunch of PDFs because it was easy to do PDFs than anything else.
+[00:12:17] But yeah, and because they are not here with us, I want to give a big shout out and thanks to Be Right, who put the PDF documentation together.
+[00:12:36] Did a fantastic job with that?
+[00:12:40] I mean, honestly, honestly, he's taken the worst part of development and run with it and made it so extremely beautiful, that manual.
+[00:12:53] Like, it's just buffering for me or no, it says I've disconnected reconnected This guide is more for a self-source build, right?
+[00:13:09] It's for any build, really.
+[00:13:12] You've got the manual in there We will be doing some addendums for the LDO kit.
+[00:13:24] Yeah, because there are a couple of changes between self-source and what you get with the kit.
+[00:13:31] Yeah, for example, the HOIs aren't coming with a kit, but there is an alternative that LDO is going to be shipping with it.
+[00:13:39] In fact, Alan, can you is there any way for you to take off the shroud of yours so we can show people?
+[00:13:48] If not, if it's too much of an issue, don't worry about it.
+[00:13:51] Give me a moment.
+[00:13:59] But yeah, and I will be right back.
+[00:14:01] LEO kits are also coming with CNC'd anti-backlash nuts, so instead of the printed versions, there's CNC versions.
+[00:14:12] And as far as I know, the only issue that's holding us back from a release, or at least pre-orders with LDO right now, is just sourcing some washers, some of the very specific washers.
+[00:14:26] Other than that, we're not too far off those kits.
+[00:14:32] Normgan Gan says time is up Rumba, why don't you tell us some more about what you're doing with the fourth axis?
+[00:14:48] I hear there's plugins afoot.
+[00:14:52] Yeah, yeah, you know what?
+[00:14:53] Let me fire up my Milo and I can share my screen in a sec.
+[00:14:56] Oh, hell yeah.
+[00:14:57] That'd be great
+[00:15:01] Do with that information as you want.
+[00:15:03] I want to do so much stuff with that information, Yom Gandh Phil, are you going to be doing any tutorials for the fourth axis?
+[00:15:19] I think so.
+[00:15:19] I wanted to do information on how to program fourth access and like show off peace.
+[00:15:29] I've made a few pieces for Furki a few weeks back and those in somewhere in Sorry?
+[00:15:38] Did you end up making parts for him for his little microphone?
+[00:15:42] I did, yeah.
+[00:15:42] Yes.
+[00:15:45] And he has given me the okay for them to be shown, so I have video of machining them.
+[00:15:54] I just need to take video of how to program it and edit it up.
+[00:15:57] And yeah.
+[00:15:58] Yeah, we need to start getting some more videos for people to actually look at.
+[00:16:03] Like, I want to do a tuning guide for the anti-backdash nuts because I think that's going to be the main pain point for a lot of people.
+[00:16:10] Yeah, it's going to be the new anti-backdash nuts are nice, but they are a little bit of pain point.
+[00:16:22] So this is what we're talking about with Elio's not doing HOIs, but they are going to get a full metal mount for it.
+[00:16:31] And we do have a shroud version, the Shroud, a version of the Shroud that is compatible with that mount instead.
+[00:16:40] So you can run it shroudless if you want to.
+[00:16:43] You don't have to waste the half a kilo of filament if you don't want it, but I just think the Shroud looks cool.
+[00:16:52] Actually, because these shrouds are basically just decorative, they didn't really take that long to print or that much material because they were printed with the aesthetic settings.
+[00:17:07] So it's not like the 1.
+[00:17:09] 5.
+[00:17:11] Yeah.
+[00:17:12] That's actually something fairly new that we haven't really had on or talked about on stream before.
+[00:17:18] There are now three settings and they're actually part of the docks now.
+[00:17:22] Whereas before we kind of just hand-waved them and said that these were what the settings were.
+[00:17:28] So there are now three settings.
+[00:17:29] There's an aesthetic setting, a semi-structural setting, and a structural setting.
+[00:17:35] And anything that doesn't see any real force gets the aesthetic setting.
+[00:17:40] So like Alan said, the shrouds, as long as you've got HOIs, can be printed in the aesthetic setting, which makes them weigh what, 200 grams, you reckon?
+[00:17:53] 200, 300?
+[00:17:54] Yeah, it really wasn't that bad.
+[00:17:59] And I've already been talking with the print providers that do our printed parts kits at West3D.
+[00:18:11] And when I said, you know, version 2 is going to be coming soon, trademark, you know, their first thing was like, oh man, those spindle mounts.
+[00:18:23] And it was like, no, no, no, no, these are much easier and quicker to print.
+[00:18:27] Yeah.
+[00:18:28] Yeah.
+[00:18:28] Bonjeka, is that also a different tramplate?
+[00:18:32] Yes, it's technically a different tramplate, but it's still compatible with HOI.
+[00:18:36] So if you prefer the HOIs or doing it the DIY way, when I was still working at DMS, we often did things where we'd take parts out of kits to make them slightly cheaper for the customers.
+[00:18:49] So if you can convince whoever you're buying from to take certain parts out and say you'd rather use HOIs than the cast mount that's in the LDO kit, I'm sure you could probably do that.
+[00:19:04] Whether or not you'd be able to do it at West 3D is a whole nother thing.
+[00:19:10] I would doubt that we would do that because something like that, there's no real monet like it would be very difficult for us to put a monetary value on that versus if someone was like, I don't want the motors because I want to do servos or whatever.
+[00:19:32] So I'm not saying it's impossible, but it's something we'll definitely have to look at.
+[00:19:38] Yeah, so I don't need a new tram plate for the new metal bracket.
+[00:19:43] You do if you want the new bracket, if you want the LDO bracket, you'll need to have four more holes in the normal plate.
+[00:19:53] So you can do that just by scribing the lines and drilling if you want it to.
+[00:19:57] They don't need to be the most exact things in the world.
+[00:20:02] Yeah, it's hard to break up a kit.
+[00:20:03] Yeah, I can imagine it would be hard to break up a kit.
+[00:20:06] Depends on the parts.
+[00:20:07] So if it's a spindle and it comes with the kit anyway, I think you can take that out because it's already a separate item that can be sold.
+[00:20:18] Whereas I can see it being an issue if it's, say, the motors or something that would be part of its own kit and you can't sell as a separate thing.
+[00:20:31] Yeah, something like the Spindle and VFD, that would be relatively easy because as you said, those are boxed from LDO and then we can just sell those as separate items.
+[00:20:44] But it's much more difficult if someone, as I said, was like, oh, well, I'd like to replace the motors.
+[00:20:50] Well, unless those are in an individual specific LDO Milo V2 motor kit box, which I don't recall if they were, you know, that makes it harder to sell because then it's obviously a takeout from a kit versus, you know, LDO does sell partials.
+[00:21:16] So you can buy just normally you can buy just the frame or, you know, the rails or whatever.
+[00:21:23] Yeah.
+[00:21:24] From Domasic Server Glade, LDO offers a lot of higher powered stepper motor upgrades for custom printers.
+[00:21:30] Do they have any plans for CNC stepper options or even servos?
+[00:21:34] The thing with servos is whilst RRF does support them technically the ones that they do support tend to be CAN operated ones.
+[00:21:47] So they have the CAN expansion board on the back of them.
+[00:21:49] Whether or not LDO has servo motors that can leverage that, I don't know.
+[00:21:57] It might end up being that they have to create their own ones for that.
+[00:22:02] Higher-powered steppers, I can see that being a thing, especially with something like the Z motor.
+[00:22:09] X motor is a little bit more limited to whatever enclosure you've got.
+[00:22:15] And you've also got to understand that with NEMA 23 specifically, it's not so much a thing with NEMA 17s because of this size.
+[00:22:24] Whenever you increase the power output of the motor itself, you also increase the internal inductance of that motor, which means that they don't spin at a very high RPM.
+[00:22:39] So for example, Dave had not LDO Dave, but Millennium Dave had some issues where he wasn't able to run at more than like 3,000 millimeters a minute with the really, really chunky 5-amp motors that he got simply because the inductance in them was so strong that they weren't able to spin up to the right RPM.
+[00:23:06] You also got to be careful with back EMF.
+[00:23:10] That's also an issue.
+[00:23:12] I've got like the 86 millimeter ones and I've used the RepR Back EMF calculator and stuff and for those basically a 40 48 volt PSU is basically right at the limit you don't want to go under 48s in order to mitigate back EMF.
+[00:23:38] Yeah, you can technically run servos is it technically headless when you run it just off the servo driver with the step direction input from the board But that requires external drivers at which point you're kind of missing out most of the functionality of Sila So it's not a bad option like Ice Blade says in chat Alex Trevor does use servos but it uses a Maso controller and the Masso controller is like a thousand bucks to begin with and that's before shipping and import I think it's 1500 US with the touchscreen yeah yeah it's not cheap yeah servos are coming they're slowly being becoming more of a thing but the problem is within the hobby sphere they tend to be more they they drift more to being NEMA 17 compatible whereas we can't really go down from NEMA 23 we might go up in motors in future at some stage but NEMA 23 is kind of the minimum we would go to Phil, do you think that's about right
+[00:25:01] Yeah, that sounds about right.
+[00:25:02] I'm currently playing around with servos for my project and I'm using the what's it 60mm ones which are basically like NEMA 23 Do you want to show off some of what Fatless is doing do you want me to throw up the CAD?
+[00:25:24] Yeah, sure.
+[00:25:25] Go ahead.
+[00:25:26] It's up to you as long as there's nothing that you want to hide not really I can just give me a second Thorian if you want to start with the servos from the start the kit doesn't seem like a good idea probably want to go with Linux CNC as well here's the nice thing about the nice thing about going with Milo kit is there's a hardware kit and there's the UEB so the electronics are separate from the main hardware kit so you can choose to go servos the only thing you'll need to get rid of is motors Everything else will still work and then you just don't buy the universal electronics box you just make your own electronics box I'm sure we can convince Jose as well just to do an electronics kit rather than an electronics box kit so where they just where instead of having the extrusions in there they just put the electronics in there so for people who build in casas or casitas or their own enclosures they can just use that as a baseline right we'll see what Phil's doing right you're on screen Phil so basically I've hidden a few like extrusions for the front of the frame so you can see better but basically this is my new project this is Code Nam Fetlers It's like the old style Atlas that Jake shot off two years ago and it's a Bat Slinger CNC with in this case here on the X axis I have modeled in a server and but the conversion from server to stepper motors is pretty easy here on the Z axis I still have the stepper motor on there the difference is simply the bolt pattern in these motor holders and you can just swap those over so the difference between servers and steppers is basically three parts and that's it I didn't realize how similar it was to the old version of Atlas that I was making it is pretty similar yeah just rearranged a few things made the ditch the the what was it the accessory access on the Y and made the table like full wide Yeah I mean it's cool it is really nice reason I we stopped I personally stopped doing it that way was more because I just it was it was becoming fatless is going to be expensive if you think Atlas is expensive fatless is going to be a lot more so that was why I made the pivot from the portal style or rigid fix gantry style to a router style but it is going to be a beast of a machine once it's done Yomagan for what you get Atlas is cheap yeah I think so what you're looking at 2,000 bucks for like half a meter of work area your next and you can change it I don't know lots of stuff about Atlas but we're not talking about Atlas we're talking about Fatless I also love yeah for fatless you're looking at thousand bucks roughly for the frame alone yeah Thing is if I was to buy that in the UK it would be more than that I remember when I did the pricing for is that including the enclosure Yes Yeah, when I did the price up for the enclosure and all the main parts it was going to cost me nearly £2,000 or it was £1,800.
+[00:29:42] So if you're in the UK that price changes a lot Yeah, my latest updated running cost build was around I think 1,200 or so including shipping and stuff yeah
+[00:30:01] Yeah, also fun thing, the one thing that has been annoying me on Milo has been the chip card for the Y-axis.
+[00:30:14] So this here I have a U-bent piece of like cheat metal, which is like super common to get on eBay for some reason.
+[00:30:30] And the only disadvantage is it needs a custom ball screen housing.
+[00:30:37] Yeah, yeah.
+[00:30:39] Which isn't too bad.
+[00:30:40] I mean, the whole point of Fatless, the whole point of Atlas is that you can still build the majority of it with a Milo.
+[00:30:48] The whole point of Fatless is just to go as hard as we can.
+[00:30:51] The only thing you can't machine on a Milo V1.
+[00:30:57] 5 is this big plate back here, which joins the Z and the X axis together.
+[00:31:04] Yeah, because that one is 345 in like height.
+[00:31:13] Yeah, so it will be machinable on V2.
+[00:31:17] Oh, here's a point.
+[00:31:18] I've been thinking recently of trying to change the enclosure for Atlas over to 2020 extrusion.
+[00:31:28] Because the enclosure doesn't need to be the strongest thing in the world.
+[00:31:33] So long as it supports the weight of the actual machine, which 2020 should be able to do as long as it's set up properly.
+[00:31:44] So I want to go back to the old style.
+[00:31:48] Do you remember the old style of enclosure with the radius on the front?
+[00:31:55] Yeah.
+[00:31:56] Yeah, I want to go back to that.
+[00:31:59] I know it's dumb.
+[00:32:01] I just think it looks so much better.
+[00:32:04] I just think it looks right.
+[00:32:06] Looks like Rumbla's got something going.
+[00:32:07] Let's swap over to Rumbo real quick.
+[00:32:11] All right, we got some fourth axis playing around.
+[00:32:14] Let me share my screen really quickly.
+[00:32:17] Hopefully this works.
+[00:32:19] I wanted to show off the plugin that we've been working on our screen.
+[00:32:27] Okay, let me know when you guys can see what I see.
+[00:32:30] I can see Awesome.
+[00:32:33] Okay.
+[00:32:33] And then I'll open up Firebox.
+[00:32:35] No, Jake, you wanna open his stream and not the machine game?
+[00:32:42] Yeah, gotcha.
+[00:32:48] Yeah.
+[00:32:48] Cool.
+[00:32:51] All right, so first off, I just want to say thanks to Phil.
+[00:32:53] Thanks so much for putting together the CAD.
+[00:32:55] Thanks to Flirky for getting me off my butt and fixing that post-processor.
+[00:33:00] So what I'm showing off here is two designs that Phil put together.
+[00:33:05] On the left, I'd say is our stock build.
+[00:33:07] It's just the regular Zindian X, I think it's a 54.
+[00:33:11] Yes, yes.
+[00:33:11] And that just bolts direct to the rotary, the DN85.
+[00:33:17] And another option is that we can also use a Zindian 52mm plate.
+[00:33:21] And this is great because it's what do you call it?
+[00:33:25] The zero point tooling.
+[00:33:26] And so it's super easy to take the plates on and off and have perfect repeatability.
+[00:33:31] And I've also been working on our macros.
+[00:33:33] So on the right-hand screen, you'll see what the plugin actually looks like.
+[00:33:38] And I have all the instructions on this GitHub repo.
+[00:33:40] This will go live to printables pretty soon, probably right after this stream.
+[00:33:45] Basically, what we have is just two probing macros to make the fourth axis easier to use.
+[00:33:50] This first one is like step one.
+[00:33:52] You can use it for setting your steps per millimeter and you can also use it to get your A0 locked in nice and flat.
+[00:33:59] The installation, it's super simple.
+[00:34:01] You just install it through the plugin menu and then you make a couple of tweaks to your system folder.
+[00:34:06] I'll film a formal video on that probably pretty soon here.
+[00:34:10] And if you want to switch over to my camera, I can show this probing macro live.
+[00:34:17] Gotcha.
+[00:34:18] Camera's done.
+[00:34:19] And maybe you guys will see a broken touch probe live on television here.
+[00:34:24] Hopefully not.
+[00:34:24] So you have a couple options with this macro.
+[00:34:27] You can either just use it to report out your current value or actually apply the correction.
+[00:34:33] For now, let's just hit the probe.
+[00:34:35] And then I just wanted to report out what my deviation is.
+[00:34:39] It probes one point on the y-axis and then moves 30 millimeters forward.
+[00:34:43] Probes another point.
+[00:34:45] And the console, it'll report out the difference.
+[00:34:48] So in this case, I'm reading out to you guys.
+[00:34:51] It's three microns.
+[00:34:53] And then if you want to apply this correction, it's 0.
+[00:34:55] 007 degrees, but you can do it manually or you could do it just by hitting this chuck.
+[00:35:01] And then it'll apply that rotation for you and then I also have a macro for running the Y rotary or probing the Y center of the access of rotation.
+[00:35:13] I don't really want to set that up right now because that is, if I mess that up, I don't want to break a probe.
+[00:35:17] I'm showing off the easy one and I'll film a formal video on this pretty soon after this stream.
+[00:35:23] But yeah, that's all I had to share.
+[00:35:26] Yeah.
+[00:35:26] Yeah.
+[00:35:27] One of the things you'd like to add, though, is there's a bit of really big push in the dev team to try and get and get the whole UI sorted.
+[00:35:39] Not that it wasn't bad before, but being able to make it as easy as possible to add what you need.
+[00:35:47] And like, if you just look at what Lumba has done, this is beautiful.
+[00:35:52] It genuinely looks awesome.
+[00:35:54] I've got some echo, apparently.
+[00:35:57] Yeah, it's coming from Roomba.
+[00:36:01] Yeah.
+[00:36:03] Robo's got his mic turned off, so it's fine.
+[00:36:08] But anyways, we'll just have to do it.
+[00:36:10] It's because of his screen recording.
+[00:36:14] Ah, gotcha.
+[00:36:16] That's also passing Discord back through.
+[00:36:17] Yeah, gotcha.
+[00:36:19] It's all good.
+[00:36:21] So yeah, if you had a look at the UI, there's a big push to try and make things as easy as possible and really, you know, push the boundaries in terms of actually getting it to be more than just functional, but actually be a pleasure to use.
+[00:36:43] So Kate's been working on that as well in the background.
+[00:36:46] I think that's just that's basically the last step we need before we can make this before the project gets, I don't know, jumps up a step in a way.
+[00:36:58] Yeah, and even taking it one step further, like a lot of the changes that we're trying to make are more focused around trying to not necessarily generalize, but like create a spec and make sure that like everything, like when we have our wiring diagrams and we that initial setup and configuration side of things, that that is always going to be the same for every end user.
+[00:37:28] And it turns into more of here is the configurations that we have for a given board or what have you, and then we can better build out those CAN configurations for those specific boards so we can start adding on more features and functionality based on the board.
+[00:37:49] Yeah, and you know, again, because this person isn't here, all the stuff that we're doing as far as software and MOS rests on Nine Mile Shoulders, who was one of the main, if yeah, definitely the main developers on the software side.
+[00:38:16] And it's great that now we have some newer developers like Kata and DJ Roomba and others that are now able to help take MOS even farther.
+[00:38:34] Yeah, it's worth mentioning that as a team, I think we're not sunsetting MOS entirely, but we are moving to calling it something else just more to it's more of I think it's more of there's so much rewrite that needed to happen for MOS that like the ref the level of refactoring that needed to happen was not one of those things that was easy to build into the current iteration insofar as like MOS was effectively two parts right you had the configuration side of things right which extended the CNC aspects of things and then on top of that you also had the UI plugin that Nine Mile had also built out and so now we're trying to shift it more into a plugin centric approach and doing that removes the secondary set of configurations and then taking that even one step further it goes that also allows us to have more control over the configuration baselines too so instead of going you need this explicit build for this explicit rep rep configuration then
+[00:40:02] Instead, it's install this version of the plugin.
+[00:40:05] And the general idea there is it goes we can build in some of the extensibility for support, like, you know, future state ATC and, you know, with the fourth axis.
+[00:40:20] And those things can be built in as configurations within the plugin.
+[00:40:25] And we can effectively go this version is the version that has the configuration support for this, you know, new functionality.
+[00:40:35] And it's built in in that version.
+[00:40:36] And we can reference basically this version plus sort of thing.
+[00:40:41] And it allows us to do that a little bit better.
+[00:40:44] And it turns into we go into the plugins and hit plugins and install those and then just install a new version and it's there.
+[00:40:52] Yeah.
+[00:40:52] Speaking of which though, what plugins do we actually have planned?
+[00:40:56] We've obviously got we've got fourth axis.
+[00:40:58] We've got a UI plugin coming up next.
+[00:41:02] You're working on that.
+[00:41:02] Yeah, so currently, I think what we have in place is the ATC and fourth axis and then the overall MOS plugin.
+[00:41:15] So ATC is very much in development.
+[00:41:20] Roomba's been working on the plugin for the fourth axis and doing the validation side of things there.
+[00:41:28] And then I've been running some mock work on the MOS plugin as well.
+[00:41:34] Yeah.
+[00:41:35] Do you have anything that you can show off?
+[00:41:37] Any photos you can show off of the ATC stuff?
+[00:41:40] Because I know you've shown some stuff off in the dev chat.
+[00:41:44] Yeah, the dev stuff that I've been working on there is not specifically centered around ATC, but more of moving into persistent tool libraries.
+[00:41:55] So if you want to give me a couple minutes, I can get some demo stuff up.
+[00:42:01] Absolutely.
+[00:42:02] We can dive into it if I can.
+[00:42:04] If you want to grab that stuff, that's fine.
+[00:42:06] On top of that, I'd also like to get as a little personal project because it's low stakes and I can probably do it on the side whilst I'm working on the enclosure stuff.
+[00:42:16] I also want to get a filter plugin sorted.
+[00:42:18] So the whole point of pretty much any of our projects is that you can build them the way that you want them to to be built, but also have a semi-rigid structure that you can build off of.
+[00:42:32] So things like how to set up a proper filtration system in an enclosure, even if it's not one of our Casas or Casitas, would be really handy to be able to just have a plugin for and say, this is your extraction filter.
+[00:42:50] This is your main intake filter.
+[00:42:56] And this is how this is what pins they're set up on with your board.
+[00:42:59] Something like that is really small, but able to be just added at any time using the whole plugin structure.
+[00:43:08] And we were all also talking earlier off-stream about potentially adding something to do with metering.
+[00:43:17] So what we mean by metering is tracking things like tool life, where on the machine, things like filter life and when filters need to be replaced and stuff like that.
+[00:43:31] Remind us for oiling or greasing the machine.
+[00:43:35] Yeah, that's always a nice one.
+[00:43:38] All of this with the whole whereas MOSS beforehand was quite I hesitate to use the word monolithic, but when you change anything, you change MOS as in its entirety.
+[00:43:56] Whereas using the plugin structure means you can just get the latest plugin rather than having to match everything else together.
+[00:44:04] Is that a fair way of describing it, Kayla?
+[00:44:06] Yeah, that is effectively what it is.
+[00:44:15] So you can basically go here is the file structure and the directory structure for like slash sys and go here's all of these files and it will actually populate and update when you update the plugins as well.
+[00:44:33] Yeah also prevent the maintenance.
+[00:44:37] Maybe ADXL can track something some stuff with input shaping is there any way to do spindle load with the ADXL I doubt it that would be an RS485 thing
+[00:44:58] I'd actually been talking about some of that.
+[00:45:00] I know that the RS 45 can give you spindle load to an extent, I believe.
+[00:45:07] But I haven't necessarily dug into that aspect of it yet.
+[00:45:13] Yeah, Yomagand, load cell might be useful for spindle load.
+[00:45:19] Yeah, the thing is, when you come to the actual structural side of having a load cell is load cells work by having some kind of flexibility in the structure itself, and when you're working with mills, you want to avoid as much flexibility as possible.
+[00:45:37] So it would be a hard implementation unless someone else can think of a way of doing it with load cell Phil, any ideas, Alan?
+[00:45:50] Any ideas?
+[00:45:50] Not off the top of my head, although I'm starting to feel like I could use some more coffee.
+[00:46:01] Oh, yeah, it's only midday for you guys, isn't it?
+[00:46:04] Well, just past midday.
+[00:46:06] Yeah.
+[00:46:09] Damn.
+[00:46:11] I would guess with Milo, small size machine, tracking resonance is easier.
+[00:46:15] Oh, that's the same.
+[00:46:17] See, I've always been...
+[00:46:19] I was never a big fan of trying to test resonance compensation because I didn't think it was possible.
+[00:46:29] But Kada's kind of convinced me otherwise that it does actually have some benefits to it.
+[00:46:34] So, yeah.
+[00:46:36] The way spindle load is calculated on big CNC machines is normally just normally done through RS485, and it's mostly down to how well is the spindle trying keeping up with its requested RPM.
+[00:46:57] And that's how the load dials on like DMG Morays works basically like that.
+[00:47:04] It's not a load cell-based system.
+[00:47:07] But it's worth thinking about.
+[00:47:10] There's loads of stuff that's worth thinking about It's not conversation.
+[00:47:19] It's to see what's wrong with the machine, like it's backlash, same vibration as one month ago and whatnot.
+[00:47:24] Yeah, I suppose you could use it as like a comparative measuring metric.
+[00:47:30] So if your machine was performing this set of was outputting this set of vibrations a month ago, and then today it's performing a completely separate amount of vibrations, but that would only work in an unloaded or exactly the same loaded circumstance.
+[00:47:51] So unless you were running the same machine month to month and the same part month to month, don't think that would be a great metric to work off of but also only works if your like weights on the table and stuff are consistent.
+[00:48:10] Yeah, so you'd need perfect stock every single time as well and have if you want to measure like table vibrations and stuff and I put 100 kilos worth of steel on the table it's not gonna vibrate much compared to if I unload the steel yeah although Rumbo and Kaya have had some luck with it there's there's definitely some surface improvement that you guys have noticed with resonance compensation on yeah from the pictures definitely Kata how are we looking with those photos I am having some issues with my mock instance so give me a few minutes all right now software problems Rumba why don't you talk about the input shaping stuff that you've done Yeah, on that front, I've just been kind of monitoring Kata's work.
+[00:49:22] He can speak more to it.
+[00:49:23] I think the way that that project started was that there was a paper that was published on tap testing.
+[00:49:30] And what people do there is they'll actually use a hammer and measure the resonances that you get from just a simple impact.
+[00:49:36] And then judging from the frequency response you get from that, you can filter out different RPMs.
+[00:49:42] And that was kind of how it started.
+[00:49:43] And I think CAD has taken it one step further and actually is doing monitoring live.
+[00:49:49] I think from a signal filtering process, it's of course simple.
+[00:49:52] It's more simple to do just the static resonance, but the live filtering is a level up
+[00:49:59] Then yeah, from the pictures shown, it's it's pretty remarkable the difference you can see.
+[00:50:03] Yeah, a lot of it is very interesting because the current phase of testing that I'm in is actually just applying input shaping to motion.
+[00:50:18] So from a high level, all it's really doing is effectively creating secondary resonance to cancel the primary motion resonance that's created by the motors because those create a vibration.
+[00:50:33] So from a high level that is what the input shaping side of things is doing and then from there we're effectively evaluating how that affects surface finish.
+[00:50:47] Yeah, it's interesting that you mentioned you mentioned live compensation, which I would always have thought would be impossible just from a computing power perspective of the MCUs actually capable of running RRF, unless you were to use maybe like a Raspberry Pi or something to do the actual calculations and feedback somehow.
+[00:51:11] Yeah, I think that is the end state that I'm most likely going to have to do from an implementation standpoint purely because there is a lot of overhead that needs to be done there.
+[00:51:26] There are some interesting things that do exist, like RS45 hats and things like that that you can actually use to get secondary RS45 data and basically read-only state, I believe.
+[00:51:44] So that's probably going to be my next iteration is diving into some of that.
+[00:51:48] But I need to do my electronics upgrades first.
+[00:51:52] Yeah.
+[00:51:52] Well, I think we all need a little bit of an electronics upgrade right now.
+[00:51:56] I looked into all the pins that were being used on Scylla for various incarnations of machines.
+[00:52:03] So whether or not it's Atlas or whether or not it's Milo, Miley, all that kind of stuff.
+[00:52:09] And if you were to connect all the accessories required for a single Milo that we so tool setter CAN bus for the N17, use all the pins on the N17 for the various tool changes and stuff, you would be left with one pin left on Sila.
+[00:52:32] One pin.
+[00:52:34] So no one can tell me that we're not using Scyla to its fullest potential.
+[00:52:44] Hey, Bid.
+[00:52:45] Hi from Thailand.
+[00:52:46] Hello from the UK.
+[00:52:49] But yeah, RGB pin that it that is then.
+[00:52:53] Well, the RGB pin is being used.
+[00:52:55] I know these guys don't care about it, but I like the RGB pin.
+[00:52:58] I have my RGB pin set up to do different things.
+[00:53:05] So it tells me whether or not the machine is in an unsafe state and just turns red.
+[00:53:12] But that's how I've always set mine up.
+[00:53:16] Nine hates the fact that I have RGB in my old cast, my old Casa.
+[00:53:22] Well, that reminds me I need to add one of those machine tower lights for my fatlass.
+[00:53:29] Yeah, I do have output pins to spare, so that's good.
+[00:53:40] You're running just a single servo on YANU for Fatless.
+[00:53:47] Yes, which I still think is crazy, but the servo is 400 watts.
+[00:53:56] Okay, yeah.
+[00:53:57] The server is going to be a monster.
+[00:53:58] Yeah.
+[00:53:59] Yeah.
+[00:54:00] You can fit a lot of power in such a small space with servos.
+[00:54:08] And that's it.
+[00:54:08] I think it's like 780 newtons of force on that servo.
+[00:54:12] Yeah.
+[00:54:13] That's how much.
+[00:54:14] Yeah.
+[00:54:16] Yeah, and then I have like 1610 ball screw.
+[00:54:21] So in theory, if my calculations are correct, I could get rapids up to like 15 meters per second.
+[00:54:31] Yeah.
+[00:54:32] I have a little handheld stepper controller that I use for just testing things.
+[00:54:41] And I forgot that the RPM resets when you do a hard reset, a power cycle.
+[00:54:48] And I ran the ball screw nut off of a 1610 ball screw the other day.
+[00:54:55] It goes real fast, yeah.
+[00:54:57] Yeah.
+[00:54:58] They're quick.
+[00:55:00] They're quick.
+[00:55:03] You know, one of the weird things that I've kind of never really thought about.
+[00:55:08] I kind of have and haven't at the same time is I always thought that torque was going to be a really big issue.
+[00:55:17] Like we were going to be running up against the talk wall constantly with these machines.
+[00:55:23] But the amount of torque that it takes to actually cut material isn't that bad.
+[00:55:31] It's more in the time we've done this project, it more comes down to the deflection of whatever tool you're using and the stiffness and rigidity of the machine and the peak RPM.
+[00:55:45] Because we, I almost never come anywhere near the actual torque rating of my motors most of the time unless I'm running a high feed rate.
+[00:55:58] So I don't know.
+[00:56:01] It's just one of those things I thought was more interesting.
+[00:56:09] Yeah, the main issue I'm currently having with my Milo is rigidity of the column.
+[00:56:17] Yep, that was all that's all.
+[00:56:18] Yeah, that is a data point that I've also noticed as well.
+[00:56:24] There is a lot of rotational movement across X.
+[00:56:30] Like, well, I should say this differently.
+[00:56:32] It's across the Y axis on X.
+[00:56:37] That's usually where the large amount of motion is.
+[00:56:40] So about the Zorrect.
+[00:56:44] Yeah.
+[00:56:45] Yeah.
+[00:56:46] All right.
+[00:56:47] Do you want to see if we can show off some UI stuff I've been working on?
+[00:56:50] Hell yeah.
+[00:56:51] Let's do it.
+[00:56:52] We can all get a first look.
+[00:56:54] Let's see.
+[00:56:56] See if I can share a window.
+[00:57:01] There we go.
+[00:57:08] All right.
+[00:57:14] Sweet.
+[00:57:14] We can't see this.
+[00:57:17] So this is, you guys can see all of this stuff on my UI here.
+[00:57:27] Yep.
+[00:57:27] So from a high level, the next iteration of MOSS currently is called Next.
+[00:57:40] So next gen extended tooling.
+[00:57:44] So it's intended to be used as a plugin and effectively, you know, you can start and stop it at will.
+[00:57:53] And so some of the interesting features that we have been working on recently is, so we have a basic status page here for functionality and things of that nature.
+[00:58:06] We have configuration level things.
+[00:58:10] So this actually goes in and pulls, I've mocked this up to be a silo, but it actually pulls the board name and it allows us.
+[00:58:21] I've also set up definitions for board configurations as well, because between 1.
+[00:58:28] 5 and 1.
+[00:58:29] 6 slash 2.
+[00:58:30] 0 and stops changed, so on and so forth.
+[00:58:33] So you can actually do selections here.
+[00:58:36] And we can see it's actually setting versions down here.
+[00:58:40] And then we can also select motor voltage as well.
+[00:58:43] The general idea here is you can go through and set up all of your configurations for all of your things.
+[00:58:51] So your touch probe, your tool setter, you know, so on and so forth.
+[00:58:56] So we can finally control from the MOS wizard having to restart halfway through is what you find.
+[00:59:03] Correct.
+[00:59:03] The basic premise of this, and this is just a mock-up.
+[00:59:08] So like I don't even have it running on a board.
+[00:59:10] So it doesn't 100% work, right?
+[00:59:13] But as you can see, when you save it, it actually goes and saves it to a user variable.
+[00:59:18] So, you know, basically once you have it set up and talking to the board, which is like high-level baseline, right?
+[00:59:25] Once you have it talking to the board, you can go through and set all of this up.
+[00:59:30] And if we dive that on.
+[00:59:37] Yeah, I know.
+[00:59:38] But if we dive into it a little bit more, we have the configurations are basically housed in here, right?
+[00:59:45] And then the idea is that you would basically select your board and it would know which board and which voltage if it had voltage variation in there to pick and then it would go in and load.
+[00:59:59] The configuration stuff for it.
+[01:00:00] So this is basically roughly all the same.
+[01:00:04] So it'd just be slightly deeper in and we would be able to add new boards here and everything else.
+[01:00:12] One of the other interesting things that I've also been playing around with is a tool library.
+[01:00:19] So, you know, and then on top of tool library, persistent tool library.
+[01:00:25] So this is kind of the work that I've been playing around with here.
+[01:00:28] So this is the entirety of my tool library, which I've exported from Fusion.
+[01:00:35] So I've actually written another little script that once you export your tool library, it goes in and pulls all of the tools out of said library and then goes and creates all of the entries for this, which I've, you know, just for testing, I've put in here.
+[01:00:52] So you can see this actually creates all of the M4000 entries, which are the tool library entries that we have set up.
+[01:01:01] So it goes through and creates all those tool libraries based on the tool number and everything else.
+[01:01:07] So you can load it in and then you can actually go save to board.
+[01:01:13] And this will actually save the tool library itself into a tooling file as well.
+[01:01:22] So we can see not that one.
+[01:01:28] Yeah.
+[01:01:29] So you can actually see here's the tool library and it saves offsets and things of that nature in addition.
+[01:01:36] So that's kind of been the work that I've been working on there in terms of high-level MOS changes.
+[01:01:42] And then in addition to that, we have some ATC work as well that kind of goes hand in hand.
+[01:01:50] Effectively, this is the same tool library that we saw over here.
+[01:01:55] But then we also have magazine control, which I haven't gotten this set up in my mock yet.
+[01:02:02] But you can actually select which slot a given tool is in.
+[01:02:06] There's dropdowns for all of these things.
+[01:02:09] So you can actually go and define what slot, what tool is in based on the tool library.
+[01:02:15] And you can kind of take it from there.
+[01:02:17] Are we still thinking of influencing the guided workflow as well as the kind of more advanced workflow for tool loading?
+[01:02:27] Guided as in you know what I mean.
+[01:02:31] Yeah, we can do it.
+[01:02:34] It is very much like, let's get the tool library handling and the ATC high-level configuration handled, and then we can start building out more of that workflow and kind of get an idea of how we want that workflow to, you know, kind of go through and do its thing.
+[01:02:56] Yeah.
+[01:02:59] On that note, can you give me access to that at some point?
+[01:03:03] Yeah, I can definitely get you access to that for sure.
+[01:03:06] Yeah, Phil wants it so that he can use this tool changer on Fatless.
+[01:03:12] I wanted to use it for my manual tool change on Mido.
+[01:03:17] Oh, okay, cool.
+[01:03:19] I mean, I have like 20 preloaded tools at the moment.
+[01:03:23] So it's just pushing one button and swapping the tools over.
+[01:03:27] Whilst we're on the topic of this, Kata, I'm guessing all it is for the actual tool change is you're effectively telling it how many ports there are and then how many slots there are on the magazine.
+[01:03:42] And then it's a macro file for every single load and unload of that of that magazine.
+[01:03:51] Is that how it's yeah, basically, yeah, to an extent, how it works is it maps the tool to a magazine location and then it tracks basically what tool is currently loaded and it assumes that that is the current slot in the magazine.
+[01:04:13] And so when it does the tool change, it basically, you know, would kick it over to the tool change side of things and then it would select the new tool and go through that side of things.
+[01:04:24] Do we have a limit on the amount of tools that we're setting that we can have?
+[01:04:31] Yeah, the upper limit is hard set to 50 within rep wrap.
+[01:04:37] So I believe if we really wanted to, we could extend that more, but it's like a built-in thing within the object model within rep wrap that's at 50.
+[01:04:48] I think 50 tools is an.
+[01:04:59] Current tool library is running into the 50 limit.
+[01:05:04] Yeah, but is it 50 individual different tools though?
+[01:05:08] What yes I can show you that's ridiculous.
+[01:05:18] So you don't have to intervention Yeah, anyways Yeah, and we're still setting up the overflow so if you only have say five magazines possible but you need six tools it should still revert to an overflow where it becomes a manual tool change if I remember correctly I believe so I think the the thing you said was that if you do not set a value for a tool slot in inside the machine it should fall back on a manual tool change yeah cool so you can technically work outside of the range of the magazine if you needed to yes and even then going one step further um the atc code uh can handle more than one um more than one uh magazine as well yeah so um you could effectively have two spice racks and you can go here is spice rack one uh with the tools loaded in there and then here is spice rack two with all the tools loaded in there well that's the plan for uh for atlas once i get around to it is to have basically the whole backside be a um be spice racks sorry not spice racks um be all uh four packs so have like five four packs uh end-to-end um and then you can get however many tools you want on that because you got the space for it so why not yep but there is the flexibility there same for my fatless yeah that's what i was about to get out to um there's the flexibility there because you're the one changing those micro files at the end uh with the load and unload process you can use whatever atc you want it doesn't necessarily necessarily need to be uh one of the callet-based ones it could also be one of phil's uh nice proper ATC spindles if you wanted it to be so far as i'm aware i don't know if anyone else is i might get contradicted here by adder i think the the only difference between the um the spice rack slash four pack and the proper ATCs is just the handling of a tool change on where to drive and what to do so if you just define where your slots are that's the same in in both cases the question is just how to approach that slot and and what to do when you're there for example for me it needs to do a bunch of pneumatic stuff and for the spice rack slash four pack it needs to do some some spindle spinning yeah right is there any have we missed anything is there anyone here who's got some other projects that we haven't talked about yet more spinning doesn't help it does not help no it's the dumbest thing in the world to um to add more spindle power to milo because it doesn't do anything i think we had one user try and add a three and a half kilowatt spindle yeah but i haven't heard from them ever since yeah the the thing is you're not pulling that much power like you might pull a kilowatt on most cuts um the only according to my shelly yeah how yeah but you're ridiculous the heaviest cut i've ever pulled was 1.
+[01:09:26] 8 kilowatts 1.
+[01:09:27] 8 kilowatt and that was a 10 millimeter full slot with a 8 millimeter uh three flute yes so for normal not insane people yeah that was an accident that was not planned yeah um 2.
+[01:09:45] 2 kilowatts is also kind of a hard limit for people in the us um just because if you're on 110 volt you're pulling so many amps that you basically don't have any headroom um
+[01:10:00] And it's it's even on the edge of usability anyway, since a 2.
+[01:10:09] 2 kilowatt spin the long 110 volt technically takes the entirety of that circuit up when it's spinning and there might not even be any power left over for the actual control of the machine if your wiring is old for example or not up to spec in your house so going more than that is impossible for people in the US unless they're running three phase They could use 220 yeah you do there are 220 outlets that you can get but not everyone has that you've got Alan over there I mean I have one too but I don't use it is 220 like a common voltage so yeah US 220 is not very common like there's only a handful of places where you'd find it in a house what dryers are one of them yeah if you have any welding outlets I think no almost everything go ahead almost everything in the US is 210 110 so I mean yeah you guys are using 110 as a like split split phase from 220 so you just need two different 110s and you have a 220 so um Ray's asking about temp compensation uh I am technically part of the filter uh plugin that I want to do is temp compensation so we're using the SPI port well I plan to use the SPI port to get a thermistor inside the chamber and then do tent compensation and also temperature control within the enclosures themselves and you can only really do that by introducing new air hence why it's part of the filter system but the problem is more getting a thermistor that I can put into the frame of Milo and actually get a proper frame reading because the ambient temperature might be one thing in the enclosure but the frame might be a completely different temperature and that's what you need to worry about when you're doing temperature compensation so the way I'm kind of leaning towards doing it is just getting it so that the filter system sets a consistent temperature and you warm up the enclosure to that set to that temperature and keep it there and then you do all your steps for millimeter compensations at that temperature that way year-round you always know that it's the entire the inside of the enclosure is going to get up to say 30 C always so you'll always be able to predict what temperature the frame will be at so you don't need to deal with thermal expansion and stuff like that that was a really bad really bad explanation I'm doing terribly today with the explanations But does that make sense to people?
+[01:13:41] Yeah, cool Anyways, I think that's everything unless anyone wants to say one more thing No Cool right well did you want to say something no I was just gonna say the the other thing that we are working on is the touchscreen pendant Yeah, there's not much to say about the touchscreen pendant for now that we already haven't said We're basically waiting on Duet to send us one of the duet screens And that's about it until we can get that duet screen we can't make any more progress Yeah, is that everything from anyone cool I did see somebody talk about the Ben CNC which is always fun we haven't talked about that in a hot minute I've heard people mention it before what is it that is the test part that I've been running for
+[01:14:59] Doing validation on, you know, basically mechanical stuff.
+[01:15:06] So it's the one with what four holes.
+[01:15:09] Well, five holes, and then boss.
+[01:15:13] Yeah, I think it's basically.
+[01:15:17] Yeah, it's a circle diamond square test.
+[01:15:19] Okay, yeah, it's basically Yeah, this way it's called Ben CNC Gotcha It's also a pretty pretty good test part or first milt part or whatever.
+[01:15:37] Yeah, the basic premise is you know making sure circles or circles instead of squirkles or ovals Right Yeah, so I think I'll probably do some updates to that down the road we do need something we need something just fun to make for most people as their first project The benchy's got the fun appeal to it Do you reckon we could do Yeah, I think that that is probably one of the easier parts to make and I designed it to run out of 50 50 mil square so like you can get those you know relatively inexpensive Do we have plans to do a steady rest for the fourth axis yet or some kind of tail stock We so far didn't I've had a look into tail stocks but the the bore height of it is not a standard that we can like take off the shelf yeah but with an adapter plate you might be able to use one off the shelf a steady rest would probably be the easiest thing to do but then you're limited to round stock aren't you yeah yeah even with tail stock you're limited because you need to put in the the center pretty accurately first when do you think the beta will be ready to go out on as a principles release uh rumba um i think it just needs one more glance from the dev team and then i'm i'm pretty happy with the current state of it yeah uh so we'll do the same thing we did for uh milo um well v2 we'll do a beta release on principles uh which is a paid release once we get to whatever the goal we set is it'll become a free beta test so you don't need to you won't need to pay for it um and then once we've validated it and we are happy with it uh it will then be released entirely for free to the public just like with the release for v2 was today so if anyone's looking at getting into the fourth axis stuff it'll be out soon at least the beta will be so i just looked into it the center line height is uh 62 and a half millimeters from the bottom of the base sure we could uh if you i think so too you could uh you could probably like uh get a uh standard dead center and uh yeah i'll rick something up i'll have a look into it um yeah anyways i think that's enough for the the game enough for the day guys my brain is not working very well uh thank you guys for coming and being on the show with us it makes it a lot easier when i actually have people to talk to on these streams or people who are doing the talking for me um but yeah uh to anyone who's watching we are going to be continuing with the casseta streams either tomorrow or the day after um or definitely later this week i finally got my filament and my extrusions so big thank you to the dev team we'll see you guys later bye now take care guys

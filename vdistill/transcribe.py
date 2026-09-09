@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import os
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable, Protocol
@@ -11,6 +13,7 @@ from .audio import Chunk
 from .config import (
     DEFAULT_ONNX_PRECISION,
     WHISPER_BATCH_SIZE,
+    WHISPER_WORKERS,
     DEFAULT_PARAKEET_MODEL,
     DEFAULT_WHISPER_MODEL,
     SAMPLE_RATE,
@@ -254,9 +257,15 @@ class WhisperBackend:
     }
 
     def __init__(self, model_id: str = DEFAULT_WHISPER_MODEL, threads: int | None = None,
-                 language: str | None = None, batch_size: int = WHISPER_BATCH_SIZE):
+                 language: str | None = None, batch_size: int = WHISPER_BATCH_SIZE,
+                 workers: int = WHISPER_WORKERS):
         self.model_id = self.ALIASES.get(model_id, model_id)
-        self._threads = threads or os.cpu_count() or 4
+        cores = threads or os.cpu_count() or 4
+        # One CTranslate2 stream saturates about four cores and no more, so the
+        # way to use a 16-core box is several chunks at once, not more threads
+        # on one chunk. Split the cores between workers rather than oversubscribe.
+        self._workers = max(1, min(workers, cores))
+        self._threads = max(1, cores // self._workers)
         self._language = language
         self._batch_size = batch_size
         self._model = None
@@ -275,7 +284,7 @@ class WhisperBackend:
         try:
             self._model = WhisperModel(
                 self.model_id, device="cpu", compute_type="int8",
-                cpu_threads=self._threads, num_workers=1,
+                cpu_threads=self._threads, num_workers=self._workers,
             )
         except Exception as exc:
             raise TranscriptionError(f"could not load {self.model_id}: {exc}") from exc
@@ -293,31 +302,52 @@ class WhisperBackend:
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
         model = self._load(progress)
-        pieces = []
-        for i, chunk in enumerate(chunks, 1):
-            progress(f"transcribing chunk {i}/{len(chunks)} ({chunk.duration:.0f}s)")
-            # Greedy decoding, to match how the Parakeet backend is run, and
-            # without carrying context between windows -- conditioning on the
-            # previous text is both slower and the usual cause of Whisper
-            # repetition loops on long monologue audio.
-            options = dict(
-                language=self._language,
-                beam_size=1,
-                best_of=1,
-                temperature=0.0,
-                condition_on_previous_text=False,
-                vad_filter=True,
+        if self._workers > 1 and len(chunks) > 1:
+            progress(
+                f"transcribing {len(chunks)} chunks, {self._workers} at a time "
+                f"({self._threads} threads each)"
             )
-            if self._pipeline is not None:
-                segs, _ = self._pipeline.transcribe(
-                    str(chunk.path), batch_size=self._batch_size, **options
-                )
-            else:
-                segs, _ = model.transcribe(str(chunk.path), **options)
-            found = [Segment(s.start, s.end, s.text.strip()) for s in segs]
-            pieces.append((chunk.offset, found, " ".join(s.text for s in found)))
+        done = 0
+        lock = threading.Lock()
+
+        def one(chunk: Chunk):
+            nonlocal done
+            found = self._decode(model, chunk.path)
+            with lock:
+                done += 1
+                progress(f"  {done}/{len(chunks)} chunks done")
+            return chunk.offset, found, " ".join(s.text for s in found)
+
+        workers = min(self._workers, len(chunks))
+        if workers > 1:
+            # CTranslate2 releases the GIL during compute, and the model is
+            # built with matching num_workers, so threads genuinely run parallel.
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                pieces = list(pool.map(one, chunks))
+        else:
+            pieces = [one(chunk) for chunk in chunks]
+
         text, segments = _merge(pieces)
         return Transcript(text, segments, self.name, self.model_id)
+
+    def _decode(self, model, path: Path) -> list[Segment]:
+        """Greedy, context-free decode -- matches how Parakeet is run, and
+        avoids the repetition loops that condition_on_previous_text invites."""
+        options = dict(
+            language=self._language,
+            beam_size=1,
+            best_of=1,
+            temperature=0.0,
+            condition_on_previous_text=False,
+            vad_filter=True,
+        )
+        if self._pipeline is not None:
+            segs, _ = self._pipeline.transcribe(
+                str(path), batch_size=self._batch_size, **options
+            )
+        else:
+            segs, _ = model.transcribe(str(path), **options)
+        return [Segment(s.start, s.end, s.text.strip()) for s in segs]
 
 
 def get_backend(name: str, model: str | None = None, language: str | None = None) -> Backend:

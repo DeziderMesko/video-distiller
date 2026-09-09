@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=QpvUf18o01w",
+  "video_id": "QpvUf18o01w",
+  "title": "Kondice jinak: méně utrpení, lepší výkony, udržitelnost a zdraví | SEMPER FORTIS Podcast",
+  "uploader": "KB5",
+  "duration_seconds": 4246,
+  "upload_date": "20260409",
+  "backend": "whisper",
+  "model": "Zoont/faster-whisper-large-v3-turbo-int8-ct2",
+  "transcribed_at": "2026-09-09T20:47:46+00:00",
+  "audio_retained": false
+}

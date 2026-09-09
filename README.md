@@ -110,9 +110,22 @@ WSL2 GPU passthrough for AMD needs RDNA3. DirectML technically runs on Polaris
 but pins you to an old torch that NeMo rejects, and it handles RNN-T's
 sequential decode loop badly.
 
-The int8 ONNX default is the fast path instead: it runs well above realtime on a
-multi-core CPU, so a one-hour video transcribes in a few minutes.
+Measured on this 16-core box:
 
-Whisper Large v3 Turbo is a heavier model than Parakeet and will work the CPU
-harder, but it only has 4 decoder layers (that's the "turbo") and int8 keeps it
-practical. It is used only when you ask for a non-English language.
+| Backend | Throughput | Example |
+| --- | --- | --- |
+| `parakeet-onnx` | **~9x realtime** | a 2 h video in 13m22s |
+| `whisper` (turbo int8, 4 workers) | **~5x realtime** | a 71 min podcast in ~14 min |
+
+Whisper is the slower of the two because `large-v3-turbo` is a full-size
+32-layer encoder attached to a deliberately small 4-layer decoder. The encoder
+dominates, which has two consequences worth knowing:
+
+- Decoder-side tuning barely matters. Dropping beam search from 5 to 1 and
+  enabling batched inference measured **1.10x** on a 120 s Czech clip -- worth
+  keeping, but not the win it looks like.
+- Core utilisation is everything. A single CTranslate2 stream plateaus at about
+  four cores, so a sequential run used only 359% of the 1600% available. Running
+  four chunks concurrently at four threads each measured **1.94x** (2.63x ->
+  5.10x realtime) with byte-identical output. Tune with
+  `VDISTILL_WHISPER_WORKERS`.

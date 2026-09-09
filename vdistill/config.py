@@ -36,3 +36,7 @@ DEFAULT_ONNX_PRECISION = os.environ.get("VDISTILL_ONNX_PRECISION", "int8")
 # How many 30 s Whisper windows to decode at once. Higher fills more cores at
 # the cost of memory; 8 is comfortable on a 16-core box with 16 GB.
 WHISPER_BATCH_SIZE = int(os.environ.get("VDISTILL_WHISPER_BATCH", 8))
+
+# Chunks decoded concurrently. A single CTranslate2 stream plateaus around four
+# cores, so parallel chunks -- not more threads per chunk -- is what fills a box.
+WHISPER_WORKERS = int(os.environ.get("VDISTILL_WHISPER_WORKERS", 4))

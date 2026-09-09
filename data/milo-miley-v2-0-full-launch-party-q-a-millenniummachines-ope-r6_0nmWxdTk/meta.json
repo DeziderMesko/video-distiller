@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=r6_0nmWxdTk",
+  "video_id": "r6_0nmWxdTk",
+  "title": "Milo/Miley V2.0 Full Launch Party Q&A #millenniummachines #opensource #cnc",
+  "uploader": "Millennium Machine Works Official",
+  "duration_seconds": 4786,
+  "upload_date": "20260517",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-09T20:42:35+00:00",
+  "audio_retained": false
+}
