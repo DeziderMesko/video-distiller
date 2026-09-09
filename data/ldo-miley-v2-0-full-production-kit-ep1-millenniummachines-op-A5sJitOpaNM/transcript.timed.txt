@@ -1,0 +1,1341 @@
+[00:05:00] Righty.
+[00:05:01] Oh god, I've got to start starting stream with a better catchphrase than that.
+[00:05:07] Not a catchphrase.
+[00:05:08] Gotta start.
+[00:05:09] Hello.
+[00:05:09] I'm going to start.
+[00:05:10] Ignore myself for a bit.
+[00:05:11] Hello.
+[00:05:12] How's everyone doing?
+[00:05:12] How is everyone doing?
+[00:05:16] It's going to be a bit weird because chat is now behind me on Kasita.
+[00:05:20] So I am going to have to turn around every time I want to check chat.
+[00:05:25] Right, how is everyone doing?
+[00:05:26] You know what?
+[00:05:27] I'm actually going to get chat up on computer because reasons because reasons makes it easier.
+[00:05:36] Right.
+[00:05:37] So welcome, everybody.
+[00:05:39] It's about time we actually use a machine.
+[00:05:43] Get a machine, use it for a while.
+[00:05:46] I don't want to have to start messing around with this or doing any testing.
+[00:05:50] I'm finally going to have a machine that I can just use, which for me is a rarity because I tend to build machines, test them, and then I either have to get rid of them to get space for the next machine or start building another machine to start testing kits and stuff like that.
+[00:06:10] So I'm excited to finally have a machine to myself.
+[00:06:13] Cassita is done.
+[00:06:14] Well, Kesita, other than the wiring is done.
+[00:06:17] Most of the wiring is actually done on it.
+[00:06:20] Now it's time to actually get a mill built.
+[00:06:24] So we're going to start.
+[00:06:27] I'm going around in circles now, aren't I?
+[00:06:29] Cool.
+[00:06:30] So you might have noticed some things have changed.
+[00:06:33] The printers are now on that side of the room.
+[00:06:35] Atlas is here.
+[00:06:36] Cassita's over there.
+[00:06:37] We've got tons of space to work with.
+[00:06:39] It's going to take me a while just to get used to everything again.
+[00:06:44] West 3D printing's here.
+[00:06:46] Damascus Evil Gates here.
+[00:06:47] How are we doing, folks?
+[00:06:48] How are we doing?
+[00:06:51] Right.
+[00:06:53] West 3D.
+[00:06:54] Probably your best bet if you want to get yourself one of these kits in the US.
+[00:06:59] As long as you live near the Portland area.
+[00:07:02] Right, so we're going to start where the manual tells us to.
+[00:07:06] And you guys get to follow me along with the manual this time.
+[00:07:10] So there we go.
+[00:07:14] So this manual is put together by Bright on the team.
+[00:07:18] This is going to be the first time I've ever built a universe.
+[00:07:21] This is going to be the first time I've ever built a Milo or Miley with a manual to follow.
+[00:07:27] So it's going to be a little bit weird the order of operations which Bright has prescribed, which I do actually think are the best order of operations versus the way I built it originally.
+[00:07:40] So we're going to do Z-Axis first, I believe, is what he prescribed.
+[00:07:46] So yeah, it starts off just like any Voron manual or any Millennium Manual does.
+[00:07:50] Gives you a quick descriptor of everything.
+[00:07:53] Hey, AVNC, how are you doing, bud?
+[00:07:55] We will be getting LDO kits.
+[00:07:59] Not sure when, though.
+[00:08:00] Alan is on Milo go.
+[00:08:02] Ah, cool.
+[00:08:02] So it's not Island today.
+[00:08:03] Is it Dan?
+[00:08:05] Is it Dan?
+[00:08:07] Hey, Rush, how you doing?
+[00:08:09] Raj, your trident is packed up and ready to go.
+[00:08:15] He's ready to go.
+[00:08:16] Ooh, we've got someone new in chat.
+[00:08:18] Zactak, West, you've been patiently waiting low.
+[00:08:23] It's been a while.
+[00:08:24] It's been a while.
+[00:08:24] It's been nearly a year.
+[00:08:27] Which isn't, to be honest, to be fair, it's not out of the realm of possibility because the same thing happened with V1.
+[00:08:37] 5.
+[00:08:38] V1.
+[00:08:38] 5 was released, and then a year later is when the kits came.
+[00:08:42] So it's pretty much been the same thing with V2.
+[00:08:45] Although we thought V2 was going to be a lot quicker than it was, but eh, it happens.
+[00:08:49] Shit happens.
+[00:08:50] Right, so manual.
+[00:08:53] It starts off just like any Voron manual, gives you everything.
+[00:08:56] We have three different print settings here, right?
+[00:09:00] We have semi-structural, structural, and aesthetic.
+[00:09:03] Technically, aesthetic is still structural.
+[00:09:06] It's not aesthetic as in just two perimeters.
+[00:09:09] It still has three perimeters and can bear a decent bit of weight.
+[00:09:14] But most of the parts are going to be in aesthetic just because they don't need to be printed with five or six walls.
+[00:09:21] There are some that need to have five to six walls and a lot of base layers just to get the stiffness that you'll need.
+[00:09:30] It's Jeremy.
+[00:09:31] Hello, Jeremy.
+[00:09:32] How are you doing?
+[00:09:32] How are you doing?
+[00:09:34] The actual STL files have them marked with them.
+[00:09:40] So you should just be able to figure out what the settings you'll need for each part is just by looking at the little indicator at the end of the name.
+[00:09:48] So it'll be like semi-structural.
+[00:09:53] Sorry, no, it won't be that.
+[00:09:54] It'll be like Y-axis motor mount SS for the bottom.
+[00:09:59] Most of the things that have...
+[00:10:02] A compressive load, you don't need them to be super strong.
+[00:10:06] So, we've mostly put those in semi-structural.
+[00:10:09] Again, feel free to play around with this.
+[00:10:12] If you are building the LDO kit, you're just going to go with the lead screw version.
+[00:10:15] There is a ball screwer version.
+[00:10:17] If you're hearing Brisket Bark in the background, that's just because he's fighting the vacuum cleaner.
+[00:10:23] So, if you are going with the LDO kit, print the lead screw version.
+[00:10:30] Nothing wrong with the ball screw version, it's just it's way more expensive, and you're not really getting anything unless you're going with servos and not stepper motors.
+[00:10:37] What do we got here?
+[00:10:40] Island Tinker, oh boy, V2 building starts.
+[00:10:43] Yes, oh, yeah.
+[00:10:45] Same thing with heated inserts.
+[00:10:47] So, there's two different heated inserts: there's a Voron spec ones, which LDO is going to be putting in their kit.
+[00:10:52] So, if anything says Voron spec, it's because the M3 heat certs are the Voron spec.
+[00:10:58] I personally prefer the CNC kitchen ones, hence why there's a CNC kitchen spec as well.
+[00:11:04] So, just pick whichever ones is going to come with the kit.
+[00:11:07] If you're getting the LDL kit, it's the Voron spec ones.
+[00:11:11] Alright, after that, gives you a quick breakdown of the sizes of the machine, and then we get straight into building.
+[00:11:19] So, I have split everything up just to be quick as possible, but I haven't done that for the printed parts.
+[00:11:25] So, let's get all these printed parts though.
+[00:11:27] First bit of assembly is going to be just all the knickknacks, all the things that you need to assemble a few times.
+[00:11:37] So, the floating bearing box, you need to do these three times.
+[00:11:40] So, we might get well get all of those done and dusted and after there printed parts that I don't need can go on the side.
+[00:11:53] I will need that later.
+[00:12:00] Definitely found you guys at a good time a month.
+[00:12:02] Was gonna self-source, but perfect time in the kit coming soon.
+[00:12:05] Hell yeah, hell yeah.
+[00:12:07] I have been feeding back to Jason.
+[00:12:10] There's been like a few tiny issues, nothing major, and nothing that can't be fixed by the end user.
+[00:12:16] It's been things like Sila, the main board that controls everything.
+[00:12:22] Other than the end stops and IO in, everything is ferrells at the ends of the wires or just bare wire, and they ship them with JSTs at the end.
+[00:12:34] Well, at least they ship the parts that they sent me with JSTs at the end, which isn't the end of the world because all you'd need to do as a customer is cut off the JSTs, strip a little bit of wire, and you can use the screw terminal still.
+[00:12:51] And if you're in this hobby, I think that's not going to be an issue for you.
+[00:12:56] But I'll teach you guys how to make sure you've got the right stepper wire pairs throughout the streams.
+[00:13:06] Right, God, right, remind me next time we start stream, I need to get all my parts organized ahead of time.
+[00:13:16] I'll need that later for the Z-axis.
+[00:13:22] Okay, so there are three A parts and three B parts on these.
+[00:13:31] So, there's A there.
+[00:13:33] That's B there.
+[00:13:35] B.
+[00:13:35] So, we got the 3A.
+[00:13:36] We got there we go.
+[00:13:42] So, one of these sides gets heated inserts, the other side doesn't.
+[00:13:47] So, let's make some space.
+[00:13:51] Make sure my curtains don't catch on fire as my iron heats up, and we'll take you over to the desk for a bit.
+[00:14:05] I forgot to set up my camera.
+[00:14:10] There we go.
+[00:14:14] You saw all the secrets.
+[00:14:16] All the secrets, all the camera wizardry and magics 2.
+[00:14:25] 1 when the 2.
+[00:14:27] 1 will come when I get some sleep when I when I don't have to worry about V2 crashing and burning because I haven't done enough work on it.
+[00:14:40] That's when V2.
+[00:14:41] 1 will come.
+[00:14:42] No, to be honest, I plan on supporting the V2 for a while.
+[00:14:48] The way we did it with V1 is basically we supported, I supported V1 from V1.
+[00:14:56] 3 for 5, and there's also V1.
+[00:15:00] 6.
+[00:15:02] And then that's the end of that frame.
+[00:15:04] I don't want to do a full redesign again of Milo because honestly, it's been a lot of work.
+[00:15:14] I want to move on to other projects and part of those other projects.
+[00:15:18] Part of that other project is Atlas.
+[00:15:24] Right.
+[00:15:25] So we got the M5 heat inserts.
+[00:15:27] There isn't a Voron spec for M5 heat inserts yet.
+[00:15:31] So no matter what side, what part has M5 inserts in it, you can be happy that you've always got the right part.
+[00:15:40] If it has a Voron spec M3 heat insert, make sure you print the Voron spec ones.
+[00:15:49] I'll also get you guys the manual up on screen.
+[00:15:54] There we go.
+[00:15:58] I suspect that 2.
+[00:15:58] 1 will be QL adjustments that would warrant the version adjustment.
+[00:16:04] Yes, exactly.
+[00:16:06] Anything that isn't properly anything that isn't a frame upgrade or a major kinematic upgrade just gets a point number rather than a full full type.
+[00:16:24] Watching this a while while working on X-axis for Miley in a really hot garage.
+[00:16:28] Wishing I had the pre-drill and cut extrusions right now.
+[00:16:31] Oh no, man.
+[00:16:33] Oh no.
+[00:16:35] Yeah, you know how I feel.
+[00:16:36] Luckily, I managed to air the workshop out for once.
+[00:16:39] Normally, it's like near 30 degrees in here all year long.
+[00:16:44] That's also way too hot.
+[00:16:46] I'll set that to 300 degrees.
+[00:16:49] Let's start doing some inserts.
+[00:16:53] I haven't worked with Voron inserts in a while.
+[00:17:10] Speaking of which, I am doing that right.
+[00:17:12] Yes, I am.
+[00:17:13] I forgot you do ow.
+[00:17:19] I just burnt myself.
+[00:17:20] You do technically want a little bit more heat because this is glass fiber PTG.
+[00:17:26] And I've just lost an insert.
+[00:17:28] Oh well.
+[00:17:31] Now I'm gonna do all the bearing blocks now, but I'm only gonna do one of the AB blocks per stream because they are pretty much the most complicated part to get right.
+[00:17:42] And I want multiple shots for you guys to see, to use.
+[00:17:50] LDO also has updated them to make them a little bit easier, but I can't show you that just yet.
+[00:17:57] The only downside of self-sourcing for me was having to cut, drill, and tap them.
+[00:18:01] Yeah, it's a pain.
+[00:18:03] At least you don't have to cut, drill, and tap the ones for Cassita.
+[00:18:09] That was a pain.
+[00:18:13] 32 in here now.
+[00:18:14] I know that feeling, bud.
+[00:18:16] It's weird because I come from a very, very hot country, but I don't do well with the heat.
+[00:18:25] I really don't do well with the heat.
+[00:18:30] Maybe I should do that while I run my DN130 map.
+[00:18:37] DN130.
+[00:18:38] DN130.
+[00:18:40] Why do I recognize that part number?
+[00:18:44] Why do I recognize that part number?
+[00:18:45] Let me know why I recognize that part number.
+[00:18:51] Oh, these aren't PETG carbon fiber.
+[00:18:56] I've just remembered.
+[00:18:58] I've just remembered.
+[00:18:59] Alexa Desk Light White.
+[00:19:03] That's why these are taking so long to go in.
+[00:19:07] This is polycarbonate.
+[00:19:08] I completely forgot that.
+[00:19:10] This is proofprint polycarbonate.
+[00:19:15] This is CF fill polycarbonate.
+[00:19:19] How did I forget that?
+[00:19:19] I've had these parts printed for a week, to be fair.
+[00:19:22] Nailed it.
+[00:19:23] Oh, it's the Rotary.
+[00:19:24] Gotcha.
+[00:19:24] Gotcha.
+[00:19:25] See?
+[00:19:30] See, my brain does sometimes hook onto things.
+[00:19:37] My brain sometimes hooks onto things.
+[00:19:43] Alexa, desk like 50%.
+[00:19:47] Okay.
+[00:19:47] There you go.
+[00:19:48] That's better.
+[00:19:49] Not blinding you guys as much.
+[00:19:51] I forgot this was polycarbonate and needs to be hotter for the heated inserts.
+[00:19:56] Alright.
+[00:19:58] Big brother to the DN85.
+[00:20:00] Nice.
+[00:20:02] To be honest, other than what Phil has told me, Phil, Rumba, and Cade have told me, I haven't really kept up too much with the fourth axis.
+[00:20:15] I kind of kind of do an overarching project management thing for them.
+[00:20:21] I just make sure that it's getting done eventually or figure out where it is so I can tell you guys about it.
+[00:20:27] The actual parts for other people's projects.
+[00:20:29] It's a 50-50 whether I'll remember what they're called.
+[00:20:35] I remember Cade was doing a mod with it.
+[00:20:38] Yeah, yeah, I know what you're talking about now.
+[00:20:40] There is a much bigger fourth axis.
+[00:20:43] I don't know why you'd want it, but hey, I'm not here to judge.
+[00:20:49] So, floating axes.
+[00:20:51] You don't need to worry about tolerances on these.
+[00:20:55] Honestly, don't worry too much about them.
+[00:20:58] The reason being these are designed to just prevent whip of a lead screw or ball screw, depending on what you're going with.
+[00:21:07] They just lower the amount of whip that's going through the system.
+[00:21:14] So, and they are meant to be a loose fit in here.
+[00:21:18] Like, you should be able to feel a bit of wobble in here.
+[00:21:22] That's how that's they're supposed to do that.
+[00:21:25] In the bearing blocks, so say this part here, there's another 608 that goes in here.
+[00:21:42] That should not be able to move.
+[00:21:43] It shouldn't be able to wiggle.
+[00:21:45] But if the 608's wiggle in here, it's doing the right job.
+[00:21:49] It's doing the right thing.
+[00:21:51] That's what she said.
+[00:22:02] I am a child.
+[00:22:03] So you, universe.
+[00:22:06] Right, there's no direction to this.
+[00:22:09] You can start on this side and go on the other.
+[00:22:11] I just need to make sure there is one A and one B on each one of these.
+[00:22:20] And there's a bearing in both sides.
+[00:22:22] Technically, you could get away with just having, especially with the lead screws where there's not that much RPM on the screw, you could probably get away with just one of these bearings because there are bearings in the other end, and that's the bit that's actually taking any force.
+[00:22:37] This side doesn't see very much force.
+[00:22:40] Sees almost zero force, actually.
+[00:22:50] So, what else do I need?
+[00:22:52] I need some M3x3 ISO M3x40s and 3x40 screws Right whilst I get these tightened up.
+[00:23:12] How's everyone been doing?
+[00:23:14] What's everyone been up to today?
+[00:23:17] You got loads of people in chat today.
+[00:23:19] We've got 19 people.
+[00:23:21] Make yourselves known.
+[00:23:24] I do love that the LDL cut kits come with nickel-plated stainless steel fasteners.
+[00:23:33] They're so nice and shiny.
+[00:23:34] They're so shiny.
+[00:23:37] M230.
+[00:23:37] Oh, yeah, congrats, dude.
+[00:23:39] Congrats, Sonyaka, for getting your cereal for the V2.
+[00:23:45] I need tools.
+[00:23:46] Let me get some tools.
+[00:23:48] I don't count as a tool this once.
+[00:23:51] Most other days, though.
+[00:23:56] Putting turtle my potatoes.
+[00:23:58] Oh, man.
+[00:23:58] I love potatoes.
+[00:24:01] I love potatoes.
+[00:24:02] I would say it would make me hungry, but I've just had a bunch of spag ball.
+[00:24:05] So, you know what?
+[00:24:06] I'm actually full for once.
+[00:24:08] And I don't get full very much.
+[00:24:10] Island Tinkerer M113.
+[00:24:14] That was a while ago.
+[00:24:21] Yay, loads of people saying congrats on the cereal.
+[00:24:38] The only time I've ever grown any vegetables successfully was peas and potatoes, both in the same patch, and they were absolutely friggin' delicious.
+[00:24:48] I got one meal out of them before me and the girl I lived with broke up at the time, and I never got to harvest the rest of them.
+[00:25:02] I'm printing my parts for 1.
+[00:25:04] 5, 1.
+[00:25:04] 6.
+[00:25:05] Is the person who is asking me about a Miley version of the V1.
+[00:25:09] 6 in chat?
+[00:25:11] Are they in chat?
+[00:25:15] If you are, make yourself known.
+[00:25:18] Yeah, I am working on a Miley version of it.
+[00:25:22] I don't know if it's going to be an official thing.
+[00:25:24] The whole point of having the 1.
+[00:25:25] 6 was you needed to replace no structural parts.
+[00:25:29] And if you've got the fixated plate on the V1.
+[00:25:37] 5, there's no way to make that work with a V1.
+[00:25:42] 6 Miley version.
+[00:25:46] If you don't know the difference between Miley and Milo yet, if you're just coming to the stream, Milo has the whole table move left and right.
+[00:25:54] Miley just has the build plate move left and right.
+[00:25:57] It's the same kit.
+[00:25:58] There's only three parts that are different between the two kits.
+[00:26:02] And that's a belt and two pulleys.
+[00:26:05] So you can choose which one to build from the same kit.
+[00:26:11] You just buy the same kit, you choose which one you build.
+[00:26:13] But you need a specific plate to be able to do it.
+[00:26:17] And once the stream gets going, once we've talked more about it, it'll become more obvious.
+[00:26:23] Right, floating bearings are done.
+[00:26:25] I'm going to leave two on the side and put one back on the table.
+[00:26:32] No, not overhead.
+[00:26:33] If you're wondering why the overhead is down here, it's because it means that when I stand over here.
+[00:26:39] Oh, you're going to actually track me.
+[00:26:44] There we go.
+[00:26:44] Means that when I stand over here, you can see what I'm working on.
+[00:26:47] But it is set to track my downstairs area.
+[00:26:52] I gotta do what I gotta do to get people to come to stream, you know I'm so used to going to that camera now.
+[00:27:02] I forget that this is the normal camera that we have for stream.
+[00:27:05] It's just when we were doing Kasita, you guys needed an overhead.
+[00:27:11] ESN's wide body Milo is Miley style, but it's far from stopped.
+[00:27:16] Yeah, the wide body.
+[00:27:17] I have been following the wide body mod for a long, long time.
+[00:27:22] Basically, every time something gets said in it, I'm there going, ooh, what's this?
+[00:27:25] Right.
+[00:27:27] Like I said earlier, I'm gonna follow the manual, and it's gonna be, we're gonna come to this.
+[00:27:34] We haven't updated this for the milled versions.
+[00:27:38] So these are the anti-backlash nuts.
+[00:27:41] They are let's organize as we go, shall we?
+[00:27:47] A continent away.
+[00:27:55] I was tempted to wait for M250.
+[00:27:57] What's the point?
+[00:28:00] The thing is, we're gonna have a year of people giving of people getting salaries salaries cereals every few days, but it's not gonna start for about three months when people actually start building their kits.
+[00:28:19] They start arriving.
+[00:28:20] So, you know, anyone getting network issues?
+[00:28:26] It's fine on my end.
+[00:28:32] The stream side health is fine.
+[00:28:35] Yeah, briefly dropped.
+[00:28:36] Okay, that's a drop for a split second.
+[00:28:39] So I know I'll need M3x10s.
+[00:28:43] I will also need I don't actually know the spec for these yet.
+[00:28:52] I know I need some grub screws.
+[00:28:53] There we go.
+[00:28:55] And I'll also need some grease nipples if they provided them.
+[00:29:01] Did LDO provide them for this kit?
+[00:29:03] I don't actually know.
+[00:29:05] They are optional, so does not look like they provided the grease nipples with the kit, which is fine.
+[00:29:20] It's completely optional.
+[00:29:21] You really don't need the grease nipples.
+[00:29:25] I have noticed a couple times with your streams.
+[00:29:28] It could just be that we're on different sides of the world, man.
+[00:29:33] I know you're in Canada.
+[00:29:37] Is it Canada?
+[00:29:41] Oh, I'll also need these pins.
+[00:29:49] Brief organization done.
+[00:29:57] Why do I have two long drone kits?
+[00:30:02] I have one Long John kit with a PCB and another Long John kit without one Yeah, I'll take it Yeah, definitely no grease fittings, which is fine It's fine All that data going through all the tubes and those tubes constantly being attacked by sharks sharks and tubes Where's the world come to?
+[00:30:41] It's all made of sharks and tubes You know you know you know it's all sharks and tubes Right let's get you back to the desk so the way these are set up now is because the grease nipple would normally go here but because you can't drill into nothing there's also an extra hole at the bottom now that intersects with this one so you might be able to see it just there where the screwdriver is actually on the other side of that hole now because you wanted to pass grease through this end you're gonna want to shut off that end so LDO have generously provided some grub screws so first thing to do is install that grub screw and that's just gonna stop any stuff from leaking out don't install it all the way down just don't install it until it's just flush or slightly below flush because otherwise it will interfere with the plate below and yeah and then you would normally put a grease nipple here but like I said they didn't provide one it's fine don't worry on the normal AB blocks it's just two three millimeter pins that keep the compression plate in the right orientation with the LDO kit they've actually got gone and added some threaded posts so these are threaded on one end and they've just got a little split on the other end for a screwdriver it's great so we'll install those it's a good idea to install these with loctite if I have any Loctite Do I have any Loctite left over I have a bottle of Loctite that has been glued down to another surface Looks like I don't have any Loctite I've never tried this and I feel like it's a really bad idea but is super glue an alternative to Loctites sometimes I don't know I just don't know if I asked Nice can I get the CAD for that I had something like it already cut it out I don't have the CAD for this LDO is actually so one of the big things the hard things is on these compression plate side the way I designed it is just four cardinal directions for fastening it problem is if this thread doesn't match up with the thread behind it not perfectly for the brass nut the thread that's inside the brass nut doesn't match up with the other thread that's on the other side you have to do some trickery to get to work so what LDO are doing is they're actually placing four more in the subquadrants so that you can give it a half turn and make it better I don't have these files I have the original files for like the basic idea of all this but LDO have since modified it and I haven't got those files so I would if I could but I'm I don't so I can't I think I can get wire rails 140 millimeters center to center and keep most X travel is that for V1.
+[00:34:20] 6 Miley Who knows right so that will be placed on in a second before that we need some brass nuts you need two so you need one there Hey Jeremy have um have they given you a rough idea as to when the kits will be available I think these are M3x10s
+[00:34:59] I'm not sure though Yeah, it seems right M3 by 10 seems right Finger polish Loctite I don't have any finger pill surprisingly I don't have any finger pill polish with my with all my little bitten up and climbing hands surprisingly it is surprising though we have 21 people in chat yet we only have yet we only have we have zero likes so far we have zero likes so far folks come on take one for the team shoot us a like and I'll be your best friend forever I've had a blue stick of loctite for five years now oh yeah they do do those stick like this almost like the magico ones oh speaking of which no I was referring to the wild ball wide body Milo oh gotcha gotcha You gotta remember I have the attention span of a goldfish and especially with things in chat if I'm not like following the full conversation through the whole way There's a good likelihood that I'll forget what I just said like two minutes before Watching and only five likes God 21 people that means 15 of you well 16 of you means 16 of you don't like what I'm doing you obviously hate me so this bit goes on the other end Now this side because of space constraints and the fact that we've got that grease port going all the way through the bottom there isn't a screw on the bottom end like there is on the 3D printed version Now one of the things we did this was a bit of input I had in this is everything that's on this part other than the grub screw is M3x10 so it used on the printed version there's M3x40s there's a load of different screws that go into this just to get it to work with the CNC'd version It's all M3x10s even the ones that attach it to the plates are M3x10 Stick Loctite would be way less mess for sure definitely I'm wondering I've got the Magiko set and I know this is dumb I've got a Magi Goose set of all the different bed adhesives I wonder if I can get away with using some of that as a Loctite just until I buy some for stream because I completely forgot about Loctite until now you basically load up one side of the thread and give it a twist and you're good to go Oh is that for the yeah for the Loctite gotcha I thought you're talking about this In lieu of Loctite, I'm just gonna give it some Uggers and then for the ones in future for tomorrow We're gonna do it properly.
+[00:38:45] I'm gonna get some Loctite not tomorrow.
+[00:38:48] I'm not saying tomorrow because that's gonna force me to stream on a school night or not a school night a work night There we go and just gonna test fit to make sure that these are aligned perfect and I'm gonna take this plate off now here's the fun part here's the fun part LDO have gone out of their way and provided me with a whole load of compression washers conical compression washers in different thicknesses and that lets you tune your preload whether or not this is going to be part of the final kit I don't know but they've also added a bunch of washer shims so if you're not able to get the exact distance just with the compression washers you can add an 8mm spacer washer right to that stack to try and give you not eight millimeter what am I saying 10mm spacer washer to try and give you that little bit of extra distance to close the gap
+[00:39:59] What do you mean by close the gap?
+[00:40:00] And I will show you in just a second.
+[00:40:02] I'm gonna go with the lightest of the three.
+[00:40:05] I'm gonna go with 0.
+[00:40:06] 3.
+[00:40:08] Alright, 0.
+[00:40:08] 3 mil thick compression washers.
+[00:40:15] Now I know LDO actually had to get these custom made, and I believe that they are just bare or zinc-covered steel.
+[00:40:26] And they can be quite sharp, so just be careful.
+[00:40:34] So you want two per It's always a good idea to grease up your hole before you stick anything in it.
+[00:40:47] So I'm just going to put a little bit of the grease just in the brass nuts and then we'll load it up with grease through the grease port afterwards grease in your holes or it's just just the best way to do it.
+[00:41:18] Just the best way to do it.
+[00:41:20] So you want to load these up so that they're facing opposite.
+[00:41:24] So if the peak is facing up, so if you have a look at that, it's dished on one side.
+[00:41:34] Come on, focus.
+[00:41:37] So this is dished.
+[00:41:38] You want the top of the dish to be facing up.
+[00:41:41] And then you want the two dishes on the second one to be facing each other so that you end up with a little bit of a gap in between.
+[00:41:49] Not sure if you can see that, but there's a gap in between.
+[00:41:55] Then with this piece, slide it on.
+[00:41:58] And then what we're going to do is we're going to compress these down using some nuts.
+[00:42:05] Not some nuts.
+[00:42:07] You know.
+[00:42:08] You know what I mean?
+[00:42:16] You get me.
+[00:42:17] You understand me?
+[00:42:22] I need M5 by sorry, M3 by 10.
+[00:42:30] Is that the same thing as a Belleville washer?
+[00:42:32] Yes.
+[00:42:32] They're called lots of things.
+[00:42:34] They're called conical washers semi-play.
+[00:42:40] I think I've seen heard them called semi-plane compression washers before.
+[00:42:46] They've got loads of different names.
+[00:42:48] But yeah, Belleville washers is also one of them.
+[00:42:55] Okay, so it looks like these aren't M3x10 anymore.
+[00:43:00] They are temporary, so you can just use whatever you've got.
+[00:43:03] So I'm going to just go at one size up.
+[00:43:05] What M3s do I have in the kit?
+[00:43:09] What M3s do I have in the kit?
+[00:43:11] I do have other M3s that I can use for my own personal supply, but I don't want to use them if I don't have to M3x20s here.
+[00:43:32] These holes go all the way through?
+[00:43:33] They do.
+[00:43:33] Oh no, I remember these.
+[00:43:37] These are threaded on this side, so the M4 3x40 is coming through that size.
+[00:43:42] Gotcha.
+[00:43:43] Gotcha.
+[00:43:43] I remember doing this change, actually.
+[00:43:46] That was my bad opposingly stacked Bella washers.
+[00:43:52] Yep, exactly that.
+[00:43:53] You know, it's hard to remember what things are called sometimes on stream.
+[00:43:58] I can sound like the smartest man alive when I'm describing things on Discord.
+[00:44:04] Then I come to the stream time and I sound like an ape.
+[00:44:08] Like an absolute ape.
+[00:44:15] So I'm not gonna start tightening these down.
+[00:44:17] Literally, I'm taking them to the point where my fingers with the lightest pressure on my fingers start to slip on screwdriver That sounded dirty.
+[00:44:31] No idea what you're talking Oh the M10 washer is smart for adjustment on the compression washer so you can adjust accordingly.
+[00:44:39] Yes.
+[00:44:40] Yeah, it's great what's the status of these things getting into Australia is there any PF getting into go away.
+[00:44:51] I don't want you is there any way PF getting one direct from LDO do
+[00:44:58] Do a build or something.
+[00:44:59] PF anyway PF getting one direct No clue what you're asking if Australia's getting them I think there's only one vendor in Oz that got the first round of kits So you'll have to ask them if you go onto the Discord Go to the vendors section and find the one from Oz and ask them any way of getting one direct from LDR?
+[00:45:30] Ah gotcha no LDO don't they don't sell directly to consumers So what I'm gonna do is I'm gonna compress these all the way, but I'm gonna do it in a star pattern.
+[00:45:41] So I'm gonna go bottom left, top right, bottom right, top left and slowly compress all of these Doesn't need to be in that order, but you don't want to have one completely done down and the rest still loose so long as you've got even pressure across the whole thing as you compress it down Right So best case scenario best case scenario is at full compression the thread that's in this nut and the thread it's in this nut match up enough and I can just push the screw through So we're gonna try that if it doesn't which is whoa look at that Look at that first try First try now you'll be able to see that there is a little bit of movement still in the screw The whole point is that we're now removing these four screws here and it the bevel washers should force that part the the compression nut away from the main body and that is what takes up the backlash So kind of the reverse order that you did before where you go in each corner each opposing corner and just loosen up just a little bit couple turns at a time And you can already feel that that's there.
+[00:47:26] That's that's solid.
+[00:47:28] That's perfect Right So that is kind of best case scenario that When we do the others when we get to the other axes Because I don't want to do them all right now I want to give as many people a chance at seeing how this get done these get done as possible But we get to the other axes on other days We'll go through this whole process again How lucky was that though Honestly, I've never ever ever got it that perfect in one shot There is a good way to check that if this is all right because you won't really it's hard to spin it by hand so a decent metric just to kind of know that you've done it properly or that you're in the right ballpark is that if you have a drill and you set it to between one and five and please do this slowly because it can rip your hands off if you're not careful Tight another so between one and five you want to get as low a torque as possible while getting the most backlash possible getting a rid of the most backlash possible So I'm on one right now if I can spin that then that's good If I can go all the way up to five and it spins you're in the right kind of ballpark for the preload Now that the preload's set I'm just gonna fill that grease nipple up you want to load this up now because it gets hard to get to it later on especially if you don't have the grease nipple And you can even check that the grease has got all the way where you want it There we go
+[00:50:01] Sweet so that's the Z axis anti-black left nut sorted And we can come back over this way Hey, it's me.
+[00:50:19] Oh, my camera's frozen Why is my camera frozen Oh no There we go I'm back I'm back yes I'm back I'm back sweet It was the same when I assembled the XY gave me pain oh sweet So I'm glad I'm not the only one who that's happened to but yeah still lucky though still lucky though Stick that up there and just like that I've made an utter mess as per usual on these streams Right next up on Next up on the list we're gonna start assembling the actual Z column itself so we've done all this We've already done all of this This does actually take quite a bit of time and we're gonna start off with the columns themselves now in the manual here I'll actually show you In the manual you'll see a bunch of holes at the bottom but you won't see any at the top just to reduce the part count from LDO's factory what they've done is they've mirrored these parts so there's gonna you're gonna find that they have holes at the bottom and at the top as well and that the threads on both sides have been repeated And that's just to it's nothing more to do than the fact that they've just reduced the amount of parts Alright, so we've got some heat certs to do some heat inserts to do I'll let those warm up and we'll have a quick read of what's next Ballast boxes I haven't filled mine yet they're pretty easy to get to I'm gonna leave them on the side Ballast boxes are just filled with epoxy granite which is just epoxy and sand for those of you who don't know and they help reduce the amount of vibrations through the frame because they're not on a moving part of the frame They don't impart any ringing artifacts or anything like that they just absorb vibrations you don't want to fill too many parts of your frame up that are moving because over time that's a lot of weight to move and you might end up with skip steps you might end up with ringing artifacts like you do on 3D printers Right Okie doke so he wants us to get this sorted So first thing I'm gonna do is I'm actually gonna make sure the inserts are in here and I'm just gonna use this as kind of a backer just to get the heights right on everything so these are all M3 sorry M5 by eights or whatever the heat insert size is now these inserts do require quite a lot of heat because there's quite a lot of mass to them so get your your iron nice and hot Is that enough for stainless steel what do you mean is what enough for stainless steel Jesus these things take so much heat oh my god
+[00:54:58] Come on So you all you can see is my head I'm sure Ballast fill only is that enough for things yeah I wouldn't say stainless steel but steel I've done mild steel on the my low V2 I had It's possible Never tried stainless though but people have done high carbon steel and if you can do high carbon steel you're more likely you're just as likely to be able to do stainless steel as high carbon I wouldn't say I'd recommend it But if you're asking if you can do it you can do it Just making sure these are flush Hey Homogads here hey Yom Gand Everybody say hi Yom Gand Late as per usual your attendance has been awful recently I was not expecting this with polycarbonate by the way these prints came out absolutely fantastic I I really was dreading printing with polycarbonate it is a PC blend so it's not pure poly but like my ASA parts walked more than this stuff did sorry shooting club board meeting had to attend oh no worries dude also shooting club Jesus someone's posh sorry sorry I had to attend my shooting club glad you're here anyway dude Raj I hope you you're prepared for the absolute state that my trident is in it is it's something alright Have you sent me all the details that I'll need to process it I'll probably send it through every just because every is what I can get through work I also pulled my micron out I finally had the space just under there was where I kept all my printer junk I pulled everything out today when I was moving the printers over and got the micron out so I can actually look at it and eventually it will shame me into completing that just going for a hunt on the weekend the hounds are frothing for the fox cool but these things hold heat for so long all right I'll let that cool down for a second and we'll go back to the bench Nice we're just shooting paper some people shoot steel they have to go elsewhere lots of hunters too but that's not what this is about you have to say in a toffee accent oh yes yes what's your PC stuff your what's the PC stuff you're printing oh it's just I got sent some Pushment PC blend PC carbon fiber blend from Prussia and it's what all the black parts are in and honestly it's I just wanted to print it because I've never printed polycarbonate before and honestly it's it's printed so well it's I've never had parts that look better than this some of the parts it struggled with anything that had a major overhang it didn't like very much but yeah you can see a lot of the VFA issues though on other filaments the kind of gloss hides it a little bit more but especially on the y-axis which is
+[00:59:57] This is the y-axis that it was printing on.
+[00:59:59] You can really see the VFAs on it.
+[01:00:03] But honestly, I've never been one who've never been someone who cares about VFAs.
+[01:00:09] Got a bunch of PC stuff lying around.
+[01:00:11] Never got around to trying it.
+[01:00:12] Not cool.
+[01:00:13] Try it.
+[01:00:15] I know pure polycarbonate is one of the strongest polymers we have.
+[01:00:19] I wanted it because it was stiff.
+[01:00:22] Because obviously stiffness being a major contributor to performance in a CNC machine.
+[01:00:29] Not that I think the plastic parts, just by the fact that they're plastic parts on a CNC machine, they're not going to contribute too much.
+[01:00:37] But hey, it was sponsored.
+[01:00:41] Thank you, Prussia.
+[01:00:45] I need to actually get a link from them.
+[01:00:48] I need to get a technically not high enough in the reward scheme that I can get a kickback from them just yet.
+[01:01:01] But my Core 1L is one hell of a printer.
+[01:01:07] So, you know what?
+[01:01:08] I don't mind going around and giving people that link.
+[01:01:15] Gotcha.
+[01:01:16] So, like I said before, right on the manual, you'll only have holes at the bottom, but just to reduce these, they've basically mirrored them so no matter what direction you get them in, you'll have the holes on both sides.
+[01:01:31] But in the manual, it will only tell you the holes at the bottom.
+[01:01:40] Have I adjusted the belt engines?
+[01:01:42] No, I haven't.
+[01:01:43] I would never kill an animal for fun.
+[01:01:45] I'd struggle if it was necessary.
+[01:01:52] I'm not putting my hat in that.
+[01:01:55] I feel like I feel like people will do what they do no matter what you tell them.
+[01:02:02] I'm not a hunter, but I come from a place where hunting is a big thing, especially conservation style hunting.
+[01:02:10] So I do see the necessity at times.
+[01:02:14] I don't like it when I'm no offense.
+[01:02:17] I'm very sorry, Americans.
+[01:02:19] This isn't aimed specifically at you, but there are a lot of I have met a lot of Americans back home in Kenya where I'm from who come over just to be able to pay someone to shoot something.
+[01:02:37] Right.
+[01:02:39] So I'm gonna lay out the pattern first.
+[01:02:45] Oh, yeah.
+[01:02:47] Goes like that.
+[01:02:48] That goes like that.
+[01:02:49] That goes like that.
+[01:02:51] All the holes are on the right side.
+[01:02:54] I can't place that in there because there's nothing to hold it up, but I'll get to that eventually that should be about right there.
+[01:03:13] And then we're going to get some FMJs out.
+[01:03:25] You'll need two eventually, but put one aside because you only need one at a time.
+[01:03:32] And first thing you're going to do is you're just going to screw in all the ones that have heat inserts in them first.
+[01:03:39] Because that at least gives you a template that makes it easier to push all the parts back together where you'll need them in future.
+[01:03:47] So get those done.
+[01:03:49] And those ones don't require you to put any T-nuts in, so it's also going to help with that.
+[01:03:56] Big bag of T-Nuts.
+[01:03:57] These are M3, sorry, M5x10.
+[01:04:01] M5x10, I believe.
+[01:04:05] So yeah, M5x10 for the side ones.
+[01:04:13] And then some M5x12s for anything that goes into a T-nut is an M5x10.
+[01:04:18] Anything that goes into the end of an extrusion is an M5x12, just to let you know.
+[01:04:25] And that's pretty standard across the whole build How does this compare to a Tormac 4040?
+[01:04:32] Compared to a Tormac 4040, the Tor Mac will beat it every day.
+[01:04:37] But that's a machine where just the machine itself is five grand.
+[01:04:42] By the time you and the 4040 is considered a hobby mill, and yeah, it is.
+[01:04:50] By the time you actually get up to a fully enclosed machine that has the basic necessities, it's nearly a 10k machine.
+[01:04:59] This is not that it's it you can't compare them really Why would you kill for fun you kill for food or defense?
+[01:05:11] Yeah, I agree with you on that one Right, so sort of like how shaky tune only spot yeah are you talking about the strobe effect that you can do with a core one What was I doing?
+[01:05:34] I need the M5 by tens M5x10s In preparation for this for anyone who's going to be building one of these kits it's a really really good idea to get a long M5 a long handled M5 compatible Allen key don't know where mine's going However just because it makes the whole assembly a little bit easier it'll be somewhere but I can't remember where it is Anyways no matter 5am in Perth so I'm off to bed later dude Enjoy sleepy terms Enjoy your sleepy terms Where's everyone coming from today?
+[01:06:57] Let me hear it I know we got Denmark so far we've got the UK we've got Canada we've got the US Good night Be really careful with these these aren't load bearing these ones that go into the heated inserts they're just there to hold the ballast top in if you put too much torque on them you'll rip the insert out and you'll never be able to take it out Not without a drill we got Portugal hey Jose Ferrer's here.
+[01:07:39] How you doing man I haven't seen you in a while Jose It's been a long time Cool so that's that side done for what they double bagged these why would you double bag them all right gonna take a small moment to talk about today's sponsor come on buddy today's sponsor Brisket Brisket is today's sponsor for He needs food He needs more chunk on this boy There we go.
+[01:08:40] That's the whole sponsor segment, alright, and he's down again If you want this boy to starve don't send us anything if you want to make sure that he has showered in treats and cuddles for the rest of his life consider donating to the project or join the Patreon T-Mot time.
+[01:09:09] This is the most boring part of the build Frisky got big now the size of many briskets No, he's a baby He's just a baby He's so small he'll always be so small to me He is the smallest dog I've ever owned Oh my earphones are dying Where am I phone case?
+[01:09:36] Let's do a quick pit stop Large baby brisket he's a big baby He's just my boy and as per usual my earphones turn Spotify off Let's get the music going again
+[01:10:02] I can't hear the music I've lost the music There we go I found the music You don't own a dog he owns you oh hell yeah For sure he does one two three four The fact that I have to pay for food for his toys for his vet bills is basically like me paying rent to him Who needs a mortgage when you can have a dog choose that every day Dog wins over mortgage It's like rock paper scissors but dog always wins Righty ho That's that side done we just tightened everything down now I'm shared ownership by four cats That's just a polycatius relationship Life hack get a mortgage and a dog We're not all rich, okay?
+[01:12:15] We can't have both You know after I laid everything out that actually arrived in the kit I was surprised by how little there was compared to the size of the box that it came in everything's really really well packed and I get that LDOs doing their job But the kit looks way bigger than it needs to be And I'd rather the parts come you know unscathed and all that but like I also hate cardboard I have I have a seething rage against cardboard Life hack get rich We're down to two cats we were to four at least one more on the way ah I had the the really awful news as one of my family dogs had died before last stream just before last stream but I didn't really want to talk about it on last stream so literally 10 minutes before stream I got a call that said Dizzy who's our God she's our old she was our oldest living dog she passed away just before stream last week unfortunately she was 18 years old that dog could could legally drink but we lost her unfortunately which was sad but life goes on that's awesome enjoy your company because they are each one of four beings nice I just lost my Siberian husky last month I'm sorry to hear that Raj I'm sorry to hear that dude What was he called or her?
+[01:14:36] What's she called I've not seen any signs of twist in the extrusion so far, which is good news
+[01:15:19] Also, get me in touch with whoever sources LDO's T-Nuts.
+[01:15:25] These are way better than the ones I buy His name is Buddy.
+[01:16:07] He was a great friend.
+[01:16:08] Oh, man, I'm so sorry about that.
+[01:16:10] I know.
+[01:16:11] I know the pain.
+[01:16:14] Unfortunately, I know the pain Boy cats are awesome.
+[01:17:07] The female we got is not what makes the female one not as awesome, dude.
+[01:17:35] Dude, you are walking biohazards sometimes.
+[01:17:38] He's just farted, if no one can guess I should really have put another hole at the top of this one.
+[01:18:03] Doesn't matter.
+[01:18:04] It's not a structural piece.
+[01:18:07] It's just used as a spacer.
+[01:18:13] She attracted all the male cats that weren't our cats.
+[01:18:16] Oh, did you have a lot of cat fights?
+[01:18:20] Yeah, Tomcats can be territorial motherfuckers.
+[01:18:39] I can't complain.
+[01:18:40] My two boys and two girls are also sweet apart from the food obsession.
+[01:18:44] See, Brisket's not obsessed with food, which is the weird thing.
+[01:18:48] He loves balls.
+[01:18:49] He loves tennis balls.
+[01:18:52] There is absolutely no way I can get his attention away from tennis balls.
+[01:18:57] Right, I'm gonna save this last extrusion because I'm gonna put the rails on it first before I slide it into the assembly.
+[01:19:04] Because if I don't put the rails on, it becomes a lot harder to use the rail centering tools.
+[01:19:10] Well, it becomes impossible to use the rail censoring tools.
+[01:19:17] Not just harder, it's physically impossible to use the rail centering tools
+[01:20:20] Sounds like a pretty stock cat.
+[01:20:22] No mods in store.
+[01:20:23] No mods on this cat.
+[01:20:25] Although, I think my cat could do with some FMJs.
+[01:20:29] I think my cat could do with a good heart of iron and some FMJs.
+[01:20:34] Or maybe a clicky clack mod a sneaky snack mod.
+[01:20:55] So, like I said, gonna leave one of these C-beams out so that I can do the rails, but I'm gonna flip the whole assembly now and do the same thing we've just done on the other side.
+[01:21:04] Oh, before I forget, I'm gonna put these two screws in You really shouldn't be tightening them all down just yet because it can introduce a bunch of Bowing.
+[01:21:17] So just finger tight for now until you got both FMJs in and then you can go around and tighten everything up until it's in spec Now this one's a little bit different because you should pre-install all of your T-nuts first because obviously you can't slide in and out the rails anymore because they're held down on the other side.
+[01:21:47] So what I do is I line up the ones that I want next to the slot that I want and then use that as a kind of indicator as to where each T-nut should go Yes, they are pretty stock What would a cat look like Cyberpunk?
+[01:22:16] What would a cyberpunk cat look like I'm guessing Gatling tail Either that or just a cat that walks on two legs Cat that walks on two legs does that mean Does that technically mean that furries are that furries are cyberpunk cats because they walk on two legs Is a furry just a cyberpunk cat Why am I talking about furries?
+[01:23:10] God knows I'm tired.
+[01:23:12] I'm streaming weird stuff happens on stream monowire claw laser eyes Nobody else's Man man Oh Has anyone watching the World Cup and wants to try and catch me up on what's been happening because everyone keeps asking me at work oh have you watched the game and I keep having to tell them yeah yeah sure I've watched it I don't sport football but if you're if you're someone who doesn't sport football and you live in the UK it becomes really hard to live day by day How's Scotland doing?
+[01:24:35] You know they're the team I'm backing for the World Cup this year.
+[01:24:40] Scotland's gonna win it.
+[01:24:41] I'll tell you that put money on it 3DP and me doesn't post videos anymore Dave Dave's got a baby Dave's got a baby now
+[01:25:02] Same with nine.
+[01:25:03] Nine doesn't post very much anymore.
+[01:25:07] They all have families now.
+[01:25:10] Unfortunately.
+[01:25:12] Well, not unfortunately.
+[01:25:13] Fortunately for them.
+[01:25:15] Unfortunately for the project, because it means that we've not lost them, they're still around.
+[01:25:23] But we don't get to see them as much.
+[01:25:30] And that's okay.
+[01:25:33] Priorities B, what priorities BP and me is the same guy who runs DMS.
+[01:26:01] We all have our ups and downs.
+[01:26:02] Yeah, exactly.
+[01:26:04] No babies here, Jake, ever.
+[01:26:08] I'm behind you on that one.
+[01:26:09] Don't worry.
+[01:26:11] Oh, by the way.
+[01:26:11] Hi, Alan.
+[01:26:15] Jeremy was in chat earlier, Alan.
+[01:26:24] Oh, my monitor's being freaky again.
+[01:26:27] You're gonna turn back on?
+[01:26:28] No, I'm gonna have to turn you on manually.
+[01:26:30] There's a weird ever since I've changed the GPU on this in this computer.
+[01:26:37] The monitor's been acting really, really weird.
+[01:26:45] Ah, lovely watered-down Coca-Cola Because I left it for too long.
+[01:27:04] I put those in the wrong.
+[01:27:06] Oh, I put these in the wrong slot.
+[01:27:10] God damn it.
+[01:27:17] I put them all in the wrong slot.
+[01:27:18] God damn it.
+[01:27:22] You'd think I know how to build my own machines.
+[01:27:30] I'm working from home, just saw that you're on.
+[01:27:31] Nice, man.
+[01:27:32] I don't think I could ever do a work from home job.
+[01:27:38] I get too distracted too easily.
+[01:27:44] The reason I do what I do with all this, the reason I like designing stuff is because it keeps me busy and entertained.
+[01:27:51] This is entertainment for me.
+[01:27:54] It's not...
+[01:27:55] It doesn't feel like work a lot of the time.
+[01:28:03] That's why I can kind of spin it.
+[01:28:05] If you ask me to actually complete anything in a timely manner through work, not a chance.
+[01:28:11] The moment someone asks me to view this kind of thing as work.
+[01:28:15] Nope.
+[01:28:15] Nope.
+[01:28:16] Doesn't compute Anyone heard anything from just random thought.
+[01:28:40] Anyone heard anything from Rat Rig recently?
+[01:28:44] Like, Rat Rig seems to be disappearing slowly, slowly from the consumer space and moving more towards the commercial space.
+[01:28:57] Like, I haven't heard anything about a Rat Rig printer in honestly years at this point.
+[01:29:06] Obviously, they have the mill, but I'm more in.
+[01:29:07] I keep up more with that because, well, it's a mill, and that's what I'm more interested in.
+[01:29:14] Boys been more interested in CNC stuff.
+[01:29:19] Hence why I run a CNC project.
+[01:29:23] I feel like I'm just overly repeating myself.
+[01:29:27] I can't shoot video at the shop.
+[01:29:28] I'm repairing one of Heart K's original microns.
+[01:29:31] Oh, cool.
+[01:29:32] Cool.
+[01:29:33] Still waiting to hear from Elio.
+[01:29:37] Yeah.
+[01:29:39] There were a few small issues that I told them about.
+[01:29:43] They've got to add some VHB tape to the kit, which again tiny, tiny little issue.
+[01:29:54] Speaking of which, I do need to order some of that for this for this exact reason.
+[01:30:21] When we get to the Y-axis, I also need to show you guys that some one of the things with the bellows that LDO sent is when you buy bellows, you normally have a hard plastic bit on either end.
+[01:30:39] We don't have the luxury of being able to have those plastic bits because they stop them, the bellows from being able to compress all the way.
+[01:30:48] And then everything's solid.
+[01:31:03] I'll be testing the new AB block pass.
+[01:31:06] Are those the ones with the extra holes in them?
+[01:31:09] Just gonna make you a little bit jealous here, I thought, Alan, and say that when we tuned this one, we got it right the first time.
+[01:31:18] We didn't have to mess around with anything.
+[01:31:20] It went, we compressed them all the way and it slid straight on.
+[01:31:24] And it's the right backlash.
+[01:31:26] Sorry, the right amount of preload on it.
+[01:31:29] It's perfect.
+[01:31:30] Did it first time?
+[01:31:33] Don't know what you lot complain about.
+[01:31:37] Yes, it is.
+[01:31:37] Cool.
+[01:31:38] See, I didn't get the ones with the extra holes.
+[01:31:43] Maybe that's why it's taking LDO a little bit longer.
+[01:31:49] Remember, the dates that Jose gave us a few streams ago were just preliminary.
+[01:31:54] They might, things can change.
+[01:31:56] Things do change Right and same thing as before.
+[01:32:19] Just make sure that all the bolts are in.
+[01:32:21] They don't need to be tight tight.
+[01:32:22] You don't really want them to be tight at this point because we're going to do some checking in a bit.
+[01:32:29] Just to make sure that everything's alright.
+[01:32:31] There's no twists in any of the extrusions.
+[01:32:35] You're not introducing any twists by tightening these down in the wrong way.
+[01:32:41] Just want to take your time with this part.
+[01:32:46] Why do I feel like you're mocking like you're mocking people?
+[01:32:52] Because he's mocking me.
+[01:32:57] I was thinking of getting the rails and maybe extrusions from Milo, but since I eventually want to turn my V2 to turn my V2 to Atlas, I think there's no point.
+[01:33:08] V2 to Atlas?
+[01:33:09] What?
+[01:33:12] They what?
+[01:33:15] No?
+[01:33:15] What?
+[01:33:16] What?
+[01:33:18] You can't turn a V2 into an Atlas.
+[01:33:24] They don't share any components.
+[01:33:30] Jeremy has a match one kit he's never built.
+[01:33:34] Then he calls me Then he can call me when he has support questions So I'm guessing Jeremy does all the support stuff then Where is Jeremy?
+[01:33:57] He left he left us Not turn per se but electronics and anything I can scrap cool yeah the electronics is gonna be pretty much the same with every machine the only difference might just be with power supply wattages because Atlas will need a higher wattage power supply but you can also bridge the gap by getting the same or a lower wattage power supply and depending on how you wire them you can just combine them together as long as it's the same voltage you can just combine two power supplies together you can also put them in series and add the voltages together but that's harder to do and a bit scarier to do I've done it once
+[01:35:04] For if you if anyone was at Smurf not last Smurf, but the year before, I couldn't get a 48 volt supply in time for that Smurf, so I just took two 24-volt power supplies, put them in series, and then I got 48 volts out of that Or better yet, I can sell it locally.
+[01:35:36] Yeah, do that Here's the thing: so you can build the plan is to be able to build Atlas without the enclosure part, so you don't have to have the enclosure.
+[01:35:48] So if you size it to the same size as your CASA, you should just be able to put it in your CASA, and you don't need to build an entirely new enclosure.
+[01:35:59] Although that's the fun bit brisket, man What am I feeding you need to convince Jeremy to build a Milo?
+[01:37:25] I think he has a 1.
+[01:37:26] 5 kit.
+[01:37:27] We've already talked about that.
+[01:37:29] I was thinking of getting the rails and maybe extrusions for Milo, but since I eventually want to turn my V2 to Atlas, we've talked about that we're all caught up.
+[01:37:38] We're all caught up Man, I don't want to go to work tomorrow Man, I don't want to go to work tomorrow It's one of those in one of those weird scheduling parts of my work right now where I'm in for a day off for a day in for a day off for a day and I would rather just be either all in or off for multiple days Right that's all the extrusions I want in the frame at this point in time everything's still been kept loose I can see there's a little bit of twist in this C-beam over here.
+[01:38:24] That's fine it's at this point that you can fix any twist right if there's any twist and you can see a little bit of a gap between these extrusions at the bottom or even at the top get yourself a clamp so I've got some early clamps here just give it a little bit of light pressure before you start tightening everything up Make sure that all the extrusions at the bottom are aligned They don't need to be perfect there is a little bit of adjustment that's built into the machine But you might as well do it at this point then not do it This isn't official instructions by the way.
+[01:39:09] This is just like general if you can do it then why not do it right so everything's clamped there's no gaps between any of the extrusions and now I'm gonna start tightening everything down making sure that the FMJs are lined up properly with the back of everything Because honestly this will the how well you do this genuinely does translate into how good the machine will perform how well the machine will perform and if there's less twist in your machine it's less unpredictability when it comes to tramming Jake use the ballast box I'm gonna fill these ballast box up so I'm not gonna put them in yet I am actually planning to fill them up so if I put them in now
+[01:40:03] I'm just wasting time Whereas if I get everything set I should just be able to put them pop them in if I take the cable run down out sorry I should then just be able to pop them in once they're filled There is an extra cavity underneath the cable run as well that you can fill with a pox granite It's not in the manual, but you can do it if you want that's more if you're chasing really really high performance You can also fill the extrusions themselves but that's just a lot of effort for very little gain there is gain though It's just not very big Are these the same size I think these are the same size yeah yeah can't remember I have a feeling right what am I missing here these are the same size aren't they yes that's correct they are the same size cool Someone on the Discord design a nice funnel for filling seamans I've done it before it's not the hardest thing to design in the world if you just design the rough shape and then do a shell operation in fusion that works it's just messy and it's ultimately I don't think it's very worth it It looks like everyone's going off to bed Gonna try to push through as much as I can with the Z axis tonight We've got the boring part out of the way now Everything from now on is actually quite interesting You want me to call in?
+[01:43:03] I hate typing.
+[01:43:03] Yeah, sure go ahead I love having a little extra person on stream my disembodied voice I'll give you a call Am I yes I am set up for Discord hello Oh you sound like a robot let me lower No, I think you're I think we may have to to call it but you're uh you're very very choppy Yeah, don't think that's gonna work today Don't know if you guys could hear that but it's this it sounded like all I could hear was I don't think his office Wi-Fi is gonna be good enough No still it's still that's still all I'm hearing And he's gone again I'm gonna continue on this Alright main body of the Z-axis done That's three kilos sorted I'm gonna put this on the floor for now
+[01:45:04] And we're going to get some rails done.
+[01:45:06] I think that's the next step.
+[01:45:07] How does Bright want us to do this?
+[01:45:10] So he wants us to do the assembly portion first, which is smart.
+[01:45:13] It's probably the best way of approaching this.
+[01:45:17] Where did I put that bearing block?
+[01:45:20] Where did I put that bearing block?
+[01:45:21] Do-da, do-da found the bearing block.
+[01:45:26] Found it.
+[01:45:27] Right.
+[01:45:29] And your favorite place to watch me do it inserts.
+[01:45:33] This is ASA, so I need to remember to turn this down a lot more.
+[01:45:40] Whoa, hello.
+[01:45:42] Hello, hello, hello.
+[01:45:45] Yes, that's that's oh, does it not what's well?
+[01:45:56] What's I'm not too bad?
+[01:45:59] How are you?
+[01:45:59] Oh, same.
+[01:46:07] All right, let me just turn the music down so that people can actually hear you.
+[01:46:11] There we go.
+[01:46:12] There we go.
+[01:46:13] People should actually be able to hear you now.
+[01:46:16] All the people, say hi to Alan.
+[01:46:19] We had Alan last stream.
+[01:46:21] Was last stream that we had you on, wasn't it?
+[01:46:22] Yeah.
+[01:46:27] Yeah.
+[01:46:28] So you're tired.
+[01:46:30] How's the Micron going?
+[01:46:31] Gotcha.
+[01:46:51] Yeah.
+[01:47:07] Apparently, we can't hear you.
+[01:47:24] Apparently, we can't hear Discord.
+[01:47:28] Right, let's fix that, shall we?
+[01:47:30] Discord, Discord, Discord.
+[01:47:37] This is me talking.
+[01:47:39] There we go.
+[01:47:39] We got him.
+[01:47:40] We got him.
+[01:47:41] Am I there now?
+[01:47:43] We got you.
+[01:47:43] Let's roll back.
+[01:47:45] Let's go.
+[01:47:45] All right.
+[01:47:48] So, how's the Micron going?
+[01:47:51] I'm just getting started on it.
+[01:47:56] Yeah, as I was saying, Daniel, the owner of West3D, bought it from Heart K many years ago.
+[01:48:08] And it's just kind of been hanging out.
+[01:48:13] And some of the printed parts have gotten damaged over the years.
+[01:48:18] So I'm going to rebuild that, just get it back up and running as it is, not try and update it or do any modifications.
+[01:48:28] Because at this point, we essentially have a Voron museum at the shop.
+[01:48:33] Oh, yeah.
+[01:48:34] I've seen your shop.
+[01:48:35] It still boggles me the fact that there are a place in the US where you can go into a shop and get a 3D printer.
+[01:48:42] You can't do that here in the UK.
+[01:48:44] It just doesn't.
+[01:48:44] We don't have a MicroCenter or a West 3D or a Sparta 3D or anything like that.
+[01:48:52] Yeah.
+[01:48:53] It's really cool, though.
+[01:48:54] Yeah, and we've added the retail area.
+[01:49:00] We get a lot of local walk-in customers.
+[01:49:05] But yeah, we have one room sort of dedicated to the DIY printers.
+[01:49:10] So we've got, oh gosh, what is it?
+[01:49:15] The Phoenix number one, I think.
+[01:49:19] Yeah.
+[01:49:19] The one that had been raffled off at Smurf.
+[01:49:26] We wound up with that.
+[01:49:29] Wait, the one that went all the way to the UK.
+[01:49:33] Yes.
+[01:49:35] Oh, so not this past Smurf when I was there, but the one before the announcement.
+[01:49:44] One of our when they did the announcement for Phoenix.
+[01:49:50] Yeah.
+[01:49:51] One of our customers won the raffle, got the Phoenix, but his printer space was in his basement.
+[01:50:04] Yeah.
+[01:50:04] And he couldn't physically get the Phoenix down there.
+[01:50:09] Okay.
+[01:50:10] So Daniel made him an offer and bought it from him.
+[01:50:17] Okay.
+[01:50:17] Subsequently, that customer has moved into a different house that has a beautiful garage shop, but he's not getting it.
+[01:50:26] What does he ask for it back?
+[01:50:27] He tried.
+[01:50:28] No, no, but I think he knows that it's not going to happen.
+[01:50:33] Yeah.
+[01:50:34] Go ahead.
+[01:50:37] What I'm getting Echo now.
+[01:50:43] Hold on.
+[01:50:45] Oh.
+[01:50:45] Oh, that's me.
+[01:50:46] Somehow YouTube just unmuted on my computer.
+[01:50:52] It's like, why am I hearing our conversation?
+[01:50:56] So yeah, we've got Phoenix number one.
+[01:51:00] We have Switchwire Serial number zero.
+[01:51:05] Yeah.
+[01:51:05] We have the V2 that was auctioned off at Past Smurf.
+[01:51:13] Oh, yeah, yeah.
+[01:51:13] The red and black one, the Glassville ABS one.
+[01:51:17] Yeah.
+[01:51:17] Yeah.
+[01:51:18] Yeah.
+[01:51:19] Max's development platform that Steve Peterson rebuilt.
+[01:51:27] Because apparently, I mean, aside from the fact that Daniel wants to collect these printers, the person that won that printer at Smurf was talking about how much he wanted to tear it down and rebuild it and do a bunch of modifications.
+[01:51:45] Oh, and Daniel said, you know, this printer really deserves to just be left as it is and basically traded him an LDO kit for that.
+[01:52:01] Said, you know, I will give you the newest kit that you can go ahead and do whatever you like with, and we'll just keep this one as it is.
+[01:52:12] Well, that makes sense.
+[01:52:14] Like, it's almost like signing your own name on the Mona Lisa and then painting eyebrows on it if you're modding something that's like got some historical value to it.
+[01:52:30] You know, it's just weird.
+[01:52:32] Just one real one thing real quick.
+[01:52:36] Just for those of you who are following along with the actual build, there are a few different bearing block inserts.
+[01:52:43] The ones you'll see in this build are a little bit different just because they're glass-filled ABS parts.
+[01:52:50] Oh, sorry, glass-filled polycarbonate parts.
+[01:52:52] So the tolerances are slightly different.
+[01:52:55] But when it comes to the little bearing flange that presses on the outer race of the bearing, if you're looking for the Z-axis one, it's the shorter of the three.
+[01:53:04] The other two are for the other two axes.
+[01:53:07] That's the only way you can tell the difference between the ones.
+[01:53:10] The flange on the inserts is actually smaller.
+[01:53:14] Sorry, back to you.
+[01:53:15] No, no, it's your build time.
+[01:53:22] That's fine.
+[01:53:23] Yeah, just thought whenever like things need to be said, I'll pop in and say I've built enough V2s on this channel already.
+[01:53:36] So, yeah.
+[01:53:38] But I'm looking forward to getting that Micron back up.
+[01:53:44] Is it the Micron R1?
+[01:53:49] No, this is go ahead.
+[01:53:53] This is an original 120 millimeter.
+[01:53:59] Oh, okay.
+[01:54:00] Okay.
+[01:54:01] So it's not the Micron Plus that before the no, this I want to talk to Heart K and see when he built it.
+[01:54:12] I don't know that it is at literally the first one.
+[01:54:15] Yeah.
+[01:54:16] But it is one of his first builds.
+[01:54:19] And there was, I can't remember which manufacturer.
+[01:54:26] There was one of the maybe it was Funcer, you know, one of those type companies was doing Micron kits ages ago.
+[01:54:40] And they actually used photos of this printer.
+[01:54:44] Oh, cool.
+[01:54:45] As, you know, yeah.
+[01:54:47] Yeah, I actually found a photo of that.
+[01:54:50] So sweet.
+[01:54:55] And do you, is it like a, it's like, is it like a whole of fame type thing?
+[01:55:00] Like, do you put it would be really weird if you.
+[01:55:03] You put the faces of everyone who designed each printer next to it.
+[01:55:09] I just find that either that or you know, no, I'm talking out of my ass.
+[01:55:15] I'm tired.
+[01:55:17] No, you know what?
+[01:55:18] That would actually be kind of what would even be better would be if we made little lithophanes of the people that built them.
+[01:55:34] Yeah, right.
+[01:55:40] What does Bright want me to do next?
+[01:55:42] Bright wants me.
+[01:55:43] I'll do that when I get to it.
+[01:55:45] Wants me to install the motor mount now.
+[01:55:48] Okay.
+[01:55:50] In that case, I will do this.
+[01:55:52] No, I won't because I want to do the rails first.
+[01:55:54] Because the way have you seen the manual?
+[01:56:00] Me?
+[01:56:00] Yeah many, many, many times.
+[01:56:06] Many times.
+[01:56:08] So I grouped it with him.
+[01:56:10] Yes, you did.
+[01:56:11] When you did the Z axis rails, how did you install them?
+[01:56:21] Did you because I have because I have the printed guides for the rails, and I tend to put that on first before installing the whole Z axis.
+[01:56:31] But the way he's got it is he installs the whole Z-axis first.
+[01:56:35] So how does he center the rails on it?
+[01:56:38] Is my question?
+[01:56:43] Oh, he doesn't even put the rails on until like after the Y-axis has been built.
+[01:56:57] I think it's in there after the Z-axis has been attached to the mounted.
+[01:57:06] Yeah.
+[01:57:06] Yeah.
+[01:57:07] Like when you're literally mounting the spindle.
+[01:57:11] Okay, that's one way of doing it.
+[01:57:16] I think do you know why he does it like that?
+[01:57:22] I do not, but I think it would bear as much as I hate to say it, possibly reordering things there.
+[01:57:34] Yeah, there's probably a reason why he's done it.
+[01:57:42] A lot of the stuff that I not criticized but gave feedback on, he had a lot of good reasons for it.
+[01:57:49] So he's probably got a reason for it.
+[01:57:51] I just can't figure out what it is right now.
+[01:57:57] We should probably take a look at it.
+[01:58:00] Yeah.
+[01:58:02] I think for myself, I'm going to install the rails first and get those at least centered with the centering tools and then I can adjust them later.
+[01:58:16] Yeah.
+[01:58:20] Hold on.
+[01:58:20] There we go.
+[01:58:21] I'm at that point in the manual now.
+[01:58:24] He'd done a very good.
+[01:58:26] Ah, no, I know why.
+[01:58:28] I know why.
+[01:58:30] I know why he's done it like this now.
+[01:58:32] Because he's done it the way with the centering pins that you do on the XY joints.
+[01:58:40] He's done it that way.
+[01:58:42] Cool.
+[01:58:42] So you're literally using the carriages as the alignment tools because the carriages have already been aligned on the plate.
+[01:58:53] Yeah, exactly.
+[01:58:56] Exactly that.
+[01:58:57] That's the reason I have them there.
+[01:58:59] This is a personal preference thing.
+[01:59:02] I like doing that on the XY plate.
+[01:59:06] I don't like as much on the Z plate, but I get why he's done it in that way because that's the tools that I provided him.
+[01:59:13] So that's fine.
+[01:59:15] I would actually say if you're building this from the manual, do it the way Bright's done it.
+[01:59:25] Do it the way.
+[01:59:26] If this is your first time building Milo, do it the way Bright's done it because it makes sense.
+[01:59:34] But I'm going to do it a different way.
+[01:59:42] This is going to be a case of do as I say, not as I do as I say, not as I do.
+[01:59:47] Yeah.
+[01:59:51] Cool.
+[01:59:51] Right.
+[01:59:52] Sorry, I interrupted you there.
+[01:59:57] You're saying something about lithophanes.
+[02:00:00] Oh, no, just.
+[02:00:02] you know that would be one interesting way to you know do some sort of display like that would be to do a lithophane with you know the a little bit of information as well about the printer yeah that'd be cool um yeah do they have a i know full spectrum is a thing but is there a way to do a full spectrum lithophane yet not that i'm aware of what your thoughts on full spectrum i have not done anything with it um right now i am all about testing engineering filament yeah um there's some interesting stuff that our filament supplier sent me home with uh when i was at rapid so i've been testing materials uh because i would really like ambrosia to have more fun engineering stuff yeah are you the the voice behind ambrosia or are you just the general west 3d face i know you do most of the the media side of stuff yeah um i wouldn't say i'm the voice behind ambrosia um although i did come up with the name for the brand um hey yeah i'm i'm probably going to be doing a little bit less of the media stuff uh you'll probably see more uh that jeremy and keela are doing oh yeah yeah i've seen kaylo's i've seen some of kaylo's videos yeah um i've seen this you know now that yeah and i believe they're going to be putting up some material from murph which just was what last weekend um where i i didn't go to that show um but also uh now that i'm taking more of an operations manager role at the shop there's just not as much time for me to be able to do media hey and hey you've still got to you still got to to commit some time to to us as well god we're number one priority don't forget that no you're number two priority i know many is number one yes there we go that's the right order and then millennium machines and my wife and so millennium machines and your wife are the same same level are they yes so no it it's it's a lot to juggle uh between the shop and obviously you know working through the development stuff that i'm helping out here and some of my own projects and doing some other things you know hopefully to help out ldo um there's just not enough hours in the day yeah uh just gonna answer your question uh david wait i realized earlier this week that i might never buy another fdm printer that isn't full spectrum capable small speedy printers that can handle engineering filaments are absolutely still in play though look to me i haven't seen a development in 3d printing that actually improves the quality of the parts made in a long time all right and what i mean is we're still printing the same layer heights the same wall qualities the same everything that we were printing five years ago we might just be we might be printing them faster we might be printing them um with in different colors but ultimately the part itself its physical qualities haven't changed from any of the the upgrades from 3d printing in the last few years so for me the the fact that the fact that 3d printing has started to become a thing for multi-headed printers is good and multi-nozzle printers is good because you can start mixing filament types together but again for the majority of parts that's not gonna really be an issue that needed solving to begin with i don't know i i just i feel like we're now at a point where all we're doing with 3d printing is
+[02:05:01] Is adding knickknacks to it.
+[02:05:04] You know what I mean?
+[02:05:05] I don't know if you want to give your opinion on this.
+[02:05:13] I would say to a large degree, I would agree with that.
+[02:05:23] The biggest improvement I've seen, and this isn't an enormous improvement is, you know, more printers coming with active chamber heating.
+[02:05:36] Yeah.
+[02:05:38] Yeah.
+[02:05:39] But again, we've known, sorry to interrupt you, but we've known the effects of chamber heating for close to six or seven years now.
+[02:05:52] Like that's when Stefan put out his study into it was six or seven years ago now.
+[02:06:02] It's the fact that it's coming in now is nice, but like we've known about that for a long time.
+[02:06:07] The innovation has already been done.
+[02:06:11] But yeah, I'll get back.
+[02:06:12] Sorry, I didn't mean to interrupt for too long.
+[02:06:15] No, yeah.
+[02:06:22] As I said, that's really the only thing that I could say has been coming out that actually improves the quality of the parts.
+[02:06:34] Yeah.
+[02:06:35] I think more, there's more interesting things being done in the slicer than in the hardware.
+[02:06:44] Yeah, I agree with you there.
+[02:06:46] You know, when you start looking at things like the bricklayer, you know, interlocking structures and that kind of thing that has an actual effect on the inner layer strength, that sort of thing certainly can do a lot.
+[02:07:08] I'm really, really hoping for the day that the slicers actually natively support different being able to switch layer heights on the fly and also being able to swap nozzle size on the fly in a tool changer.
+[02:07:34] Yeah.
+[02:07:35] Yeah.
+[02:07:35] I know you can swap.
+[02:07:37] I know Orca Slicer actually has had an implementation to print with multiple size nozzles for a long time.
+[02:07:45] There was a tweet that was put out about it a few days ago.
+[02:07:50] But you can print in multiple layer sizes, sorry, nozzle sizes on the same layer.
+[02:07:55] You can't print, as far as I know, in multiple layer heights yet through Orcas Licer.
+[02:08:04] But people have on you, if you've got a U1 or is it not sure if you can do it with the H2D yet, seeing as that's quite closed down.
+[02:08:17] But you can definitely do it with a U1.
+[02:08:19] There are people who use multiple nozzle sizes on a U1.
+[02:08:27] Don't make me buy a U1.
+[02:08:31] You don't have to.
+[02:08:32] You've got enough clout nowadays.
+[02:08:34] You can just ask for them to sponsor you on no one ever sponsors me for anything.
+[02:08:43] That's because you don't ask.
+[02:08:47] Hey, if I could get Prussia of all companies to sponsor us with a printer, I'm sure you can ask Snapmaker for one.
+[02:08:59] I asked Prusha to sponsor me with a printer and they said, well, you're a dealer, so you could just you've got them.
+[02:09:09] Yeah, but that's when you go, I want to be personally be sponsored.
+[02:09:16] Not as a dealer.
+[02:09:18] Yes, but you see, the problem is that there's no reason for anyone to sponsor me as an individual because everything that I do is through West3D.
+[02:09:31] Well, just ask Daniel if you can do something personal through West3D for once.
+[02:09:36] And he'll say yes.
+[02:09:38] And if you want that printer, you can buy it.
+[02:09:42] Oh, God.
+[02:09:48] That's fair.
+[02:09:48] You know, and it'll be the same thing now with the U1 because any day now we're going to get about eight pallets of them.
+[02:09:56] Oh, God.
+[02:09:58] Why eight pallets?
+[02:10:00] Why?
+[02:10:03] Is that how many people have pre-ordered them?
+[02:10:07] I would say about half of those are already pre-ordered.
+[02:10:12] Oh my god.
+[02:10:13] And then we'll just have stock.
+[02:10:16] I like the U1.
+[02:10:17] I don't like the enclosure situation with it.
+[02:10:19] If I had a Panda Breath or something like that to actively heat the chamber, it'd be a no-brainer purchase for me.
+[02:10:28] Absolutely no-brainer purchase.
+[02:10:31] But then I'd have to actually purchase it and I don't have the funds.
+[02:10:37] Yeah.
+[02:10:38] I am much in the same boat because even if I were to buy one on an employee discount by the time I either got one of the pre-made tops for it or purchased the materials to build my own and purchased a panda breath, which looks like about the best way to quick and dirty put some active heating in there, you've now added several hundred dollars to the cost of the printer.
+[02:11:18] Yeah.
+[02:11:19] Yeah, that's true.
+[02:11:21] You're not wrong there.
+[02:11:25] I think you'd probably be better off modding a Voron one of your Vorons when index comes out if you've still got any Morons left.
+[02:11:37] I have four Vorons right now.
+[02:11:39] Oh, cool.
+[02:11:42] Possibly a fifth one coming soon.
+[02:11:46] Oh, is this a possibly you're not allowed to talk about it?
+[02:11:53] No, no, there's one that we've had at the shop for a while.
+[02:12:02] Right before I was hired, Daniel Well, someone in our area listed a V2.
+[02:12:15] 1 that apparently he crashed the head, the printer didn't work anymore, and he was done with it.
+[02:12:23] So whoever wanted it could come and get it.
+[02:12:25] And before I could contact him, Daniel did.
+[02:12:28] So Daniel got the printer.
+[02:12:30] We were going to fix it and use it at the shop, but now we have the V2 serial number zero.
+[02:12:40] So we don't really need this 2.
+[02:12:41] 1.
+[02:12:42] So I might be doing a project based on that printer.
+[02:12:47] Yeah.
+[02:12:48] Hey, glad to find a good stream.
+[02:12:50] I was waiting to get a V2 kit, but then got a crazy deal on a V1.
+[02:12:54] 5 complete LDO kit.
+[02:12:55] Any tips and tricks for tramming XYZ?
+[02:12:58] A fully built Milo and other things.
+[02:13:00] Check the tramming guide.
+[02:13:01] I did a tramming guide.
+[02:13:02] It's on this channel.
+[02:13:03] It's one of the more recent videos that I've done.
+[02:13:07] Actual videos, not live stream videos.
+[02:13:10] And that's how you tram everything.
+[02:13:14] Sorry, I interrupted you there again.
+[02:13:17] No, dude, I'm just hanging out on your party.
+[02:13:21] I know, I know, but you're still part of the team.
+[02:13:24] I still feel bad when I cut you off.
+[02:13:28] Not at all.
+[02:13:28] It's because I'm a good person, or at least I pretend to be.
+[02:13:33] You are as good a person as Brisket thinks you are.
+[02:13:38] Oh, God, he thinks I'm an awful person because I don't give him treats 24-7.
+[02:13:43] Oh, please.
+[02:13:44] But you let him eat that sweet, sweet air compressor air.
+[02:13:48] Oh, yeah.
+[02:13:51] If you're wondering what he's talking about, check out the latest shot.
+[02:13:58] It's an oilless compressor.
+[02:14:02] He didn't get any oil in his mouth or anything.
+[02:14:05] So don't worry about that.
+[02:14:06] And I just purged the tank, so there was nothing built up in it.
+[02:14:10] So don't worry to anyone who thinks that I'm abusing my dog.
+[02:14:15] He loves chasing it every single time the compressor goes off because I'm cleaning up in here or getting rid of some dirt or this, that, and the next thing, he rushes in here, wagging his tail, going he just wants to play with it.
+[02:14:33] He just wants to go and gnash at that sweet, sweet compressor here.
+[02:14:41] I saw Manny, Manny's crazy eyes when he gave him that treat as well.
+[02:14:49] Man, we don't deserve dogs.
+[02:14:52] No.
+[02:15:03] LDO pre-grease these.
+[02:15:04] No, they haven't They feel all right though.
+[02:15:10] They feel like they're sliding quite well.
+[02:15:12] So I'm just going to add a layer of oil to them once the build's complete Oil is fine as a lubricant for Rails for anyone wondering.
+[02:15:23] It's just that it doesn't stay on the rail carriages as much So you need to oil them up more often It's actually technically if you can get continuous oil lube it's way better than having grease in the long term but it's also expensive to do Lol, just watch the video owls are so funny.
+[02:15:43] Yeah, it was great wasn't it I got to sell strange parts from West and I am loving it Hey, any date on the pre-order yet probably asked a million times already we don't know We got a rough date from Jose and remember those dates are never ever final things can change we can find issues with the kit and then they get pushed back for longer and I'd rather that happen than people get products that aren't ready we were we were told pre-orders by the end of this month West 3D hasn't heard anything either from what I know so yeah hope everyone hope and pray you might we might be able to to force the warp to give us all to make it all happen at the end of this month We do know the rough prices though.
+[02:16:43] We did find out the rough prices if you want to know those go ahead Alan before I interrupt I was going to say you know one of the things people should also keep in mind is that you know a really good example is these new anti-backlash parts that I just got to test which I think you already have probably with that kit is that even though the Milo and Miley design from the Millennium Machines side of things has been pretty frozen for a bit now LDO can be changing parts that they are included in their kits so and I'm not trying to point a finger at LDO and say well it's their fault but you know you've got multiple organizations here trying to get a really good quality complete and correct kit into your hands it's always kind of frustrating when you buy something and then it's like oh and then a month later here comes you know a redesigned part or you know some fasteners because something was left out so everyone is better off taking a little bit more time to make sure the kits are absolutely correct yeah exactly exactly um and at the end of the day you you've also got to understand that uh us voron ves3d we design things as platforms we don't design them as necessarily the best that they can be so it's on third parties like ldo to look at the weaknesses from the things that we design because we have constraints in our designs and go how can we change that stuff to make it better for the end user um yeah and like i said like things with the like like alan mentioned with the anti backlash nuts they're so nice actually being milled instead of printed um and they found they they find issues that i never even thought about so like you you're getting the new ones with the the four holes for the compression plate rather than the sorry with the eight holes rather than the four holes eight holes yeah yeah um that's not an issue i perceived that's a full fully that's something that ldo did and found out for themselves and then fed back to us and they've effectively contributed as if they were a team member now yeah and to explain that for people that are listening so the way the anti-backlash blocks even the printed ones were designed is there were the four holes to attach the lead screw nuts
+[02:20:02] Something that I had never even thought about is there's no alignment whatsoever done between the lead screw starts and the hole positions they're just sort of there so I was running into problems when I got my machined anti-backlash blocks that no matter what I did I couldn't get the two nuts into the correct orientation on one of my axes two of them were fine but one of them I just couldn't get it to work as intended with the new Belleville washer preload system so on my spindle axis I actually wound up lock titing the compression screws into place because if I took the screws out then it would not turn freely but if I put just a little preload tension on it it was fine so what LDO has done is added another four screws in that hole pattern on the side of the anti-backlash nut or anti-backlash block rather that is spring loaded to give you more opportunities to actually line up the lead screw start in a position so that it will work as well as it can they've also added i don't know if you're aware of these alan um they've also added these which are uh little m8 washer shims so if you want a more granular uh movement you can put these between the belleville washers um and they'll space the bellville washers out by i think it's like it looks like uh 0.
+[02:21:53] 5 of a millimeter half a mil um and that can also help in getting everything lined up yeah they didn't send me any of those they haven't sent you any of those cool no it's okay um i have a feeling that just this new um panel or plate rather will uh will do what i need it to do yeah and it's not that difficult to pull the the spindle uh assembly off yeah i actually got pretty good at it while i was trying to get that thing to work oh uh that's another thing i need to ask i haven't printed the spindle mount yet so i was going to ask you sent me the um because you you updated the part that i originally made for the ldo kit didn't you yes you sent me the front part of the shroud did you make any changes to the rear part of the shroud or can i print the one that i did not didn't you can print the one that you have gotcha i still i think i still have it on a test part somewhere in here so i'll have a look around but uh i'll print the the front part of the shroud that you sent me it is you were saying sorry well no i was going to say you know those those are in the repo now um they still print way faster than the 1.
+[02:23:36] 5s uh the 1.
+[02:23:40] 5s uh printed a lot slower because they had the little um they had the little egg inside them well the 1.
+[02:23:51] 5s printed slower because they were structural yes yeah um i mean you can still you can still make the uh the two structural it's just there's no point in doing that if you're going with his yeah yeah um but yeah i'm i don't think we'll see i think from what we've learned some things that get included in the ldo kit then become permanent fixtures for us as a design team so things like the fmjs uh weren't originally part of milo we never we never had them as part of milo so it was a community mod someone made it first but then they got so popular with the f in the ldo kits that we thought well there's no point in not including them uh i feel like this will be the last iteration of the hOi mods because everyone will just be using uh the
+[02:25:01] LDO mount and just the shroud because I've already integrated that mount into Atlas.
+[02:25:08] Like, I think it's gonna, it just makes more sense to go that route, you know?
+[02:25:14] It makes way more sense.
+[02:25:23] Yeah, well, and you're not spending the time and material.
+[02:25:26] I want to say it was almost a kilogram of material to print the completely printed spindle mounts.
+[02:25:37] Yeah, so you and I, it was at least like 12 hours per part.
+[02:25:47] I could get away with way less than 12 hours.
+[02:25:49] For just the part, I could do eight hours, but that's per part of the shroud.
+[02:25:57] But I'm also my P1S.
+[02:26:02] So it may have been longer on my V2 because I run that slowly.
+[02:26:08] Yeah, but the main thing is, is you spend all the time and material printing this spindle mount so that you can mill a spindle mount.
+[02:26:24] Then you have to rip apart your spindle and then retram everything.
+[02:26:29] Yeah, this is the problem.
+[02:26:31] The whole idea is it's the whole original idea with Milo was that it was bootstrappable.
+[02:26:38] But the problem with bootstrapping is it by necessity, it means throwing a lot of stuff away.
+[02:26:45] Yeah, and that's not a good way necessarily of doing things if all you have if it's going to cost you more in the long run and you already have very little time to commit to your hobby and this, that, and the next thing.
+[02:27:02] And if you're trying to make anything commercial, it's impossible to do it that way.
+[02:27:06] Yeah.
+[02:27:06] No, it's kind of why the original intent for rep wrap died.
+[02:27:13] Because you remember the original original intent for rep wrap was printers that could self-replicate and make their own upgrades consistently.
+[02:27:24] Yeah.
+[02:27:25] Until to a point where no one else, the printer was printing every part of the printer.
+[02:27:32] That idea kind of died, I think at least.
+[02:27:38] Because now we're printing parts, parts of the printer, like you're still printing Voron parts, but you're not printing the frame anymore.
+[02:27:46] You're not trying to figure out a way to print electronics, stuff like that.
+[02:27:50] That was all the original intent of rep rap.
+[02:27:53] Yeah.
+[02:27:58] Yeah.
+[02:27:59] Yeah.
+[02:28:03] I feel I'm really rambling this stream.
+[02:28:08] I really am just surprised that I haven't heard Manny screaming.
+[02:28:20] Why has he been screaming?
+[02:28:23] He normally starts sometime in the early afternoon because he wants dinner, which should be at five.
+[02:28:31] Okay, so this is a regular occurrence, is it?
+[02:28:33] Oh, every day when he's home.
+[02:28:42] So are you guys adding PPSCF to the Ambrosia line then?
+[02:28:45] We have PPS CF currently.
+[02:28:49] Oh, you already have it?
+[02:28:50] Cool.
+[02:28:51] Yeah.
+[02:28:53] What we are, what I have been playing with, which is even more fun is PPA CF.
+[02:29:05] Okay.
+[02:29:09] So is it PPS CF it is stronger than nylon?
+[02:29:17] Okay, yeah.
+[02:29:20] So yeah, the best thing about PPS CF is the temperature resistance.
+[02:29:27] I'm starting to print all of the ducks for my hot ends out of PPS CF because once it's properly annealed, it's oh, there he is.
+[02:29:40] The HDT is around 260 degrees.
+[02:29:48] So you've got to mess up pretty badly to melt PPS CF.
+[02:29:54] Yeah.
+[02:29:56] Jesus Christ.
+[02:29:57] But PPA CF is just ridiculously strong.
+[02:30:05] It is also fairly heat resistant.
+[02:30:07] Its HDT is still around 220.
+[02:30:11] Yeah.
+[02:30:12] But it's not as crazy as PPS.
+[02:30:17] I've also been working with some PA6 CF and PA6GF.
+[02:30:24] Now remind me, which one, which PA, which nylon is it that has the creep issue?
+[02:30:31] Is it PA6 or is it PA12?
+[02:30:34] Is it PA12?
+[02:30:34] Is that the one?
+[02:30:35] I don't remember.
+[02:30:37] And if anyone knows, feel free to chime in.
+[02:30:41] One of them has a worse creep issue than the other.
+[02:30:48] Again, I wonder whether or not that's after annealing.
+[02:30:55] Yeah.
+[02:30:57] I do.
+[02:30:57] Because I do remember a video that Stefan did a while back talking about annealing.
+[02:31:10] And he was saying, yeah, you know, I thought I was doing things well printing my V0 out of nylon and the parts started creeping, but he had not annealed them.
+[02:31:23] Ah, gotcha.
+[02:31:28] Gotcha, gotcha, gotcha.
+[02:31:29] Right.
+[02:31:30] And what I can say there is between the two, as I've been looking through the material sheets and also playing around with it, the carbon fiber is more impact resistant than the glass fiber.
+[02:31:46] So depending on your, you know, your application.
+[02:31:52] So the way I see it is carbon fiber is if you want a lighter material that is still fiber filled than glass filled.
+[02:32:01] It is stronger in a lot of ways.
+[02:32:06] There actually generally isn't too much of a difference in my experience with the two in terms of stiffness increasing.
+[02:32:16] But glass fiber has the vibration dampening has vibration dampening nearly twice as good as any equivalent CF filled, which makes sense due to the actual component parts.
+[02:32:32] Carbon fiber is not very good at dampening vibrations.
+[02:32:35] It's actually quite for the material it is.
+[02:32:38] It's actually really good at creating or propagating vibrations.
+[02:32:46] So they both have their use cases.
+[02:32:49] I still think glass filled makes more sense for CNC parts just because of vibration dampening.
+[02:32:58] Yeah.
+[02:32:59] But yeah, I totally get why it would be stronger than and more impact resistant than the glass filled stuff.
+[02:33:15] I was redesigning a hand grip for a camera that I just picked up and made it out of EPA and also did a version of it in ABS because I have some ABS here that I've been using.
+[02:33:35] I got a case of it.
+[02:33:36] So I've just been kind of using that for prototyping.
+[02:33:40] Yeah.
+[02:33:40] And the difference in stiffness between the ABS and this PPA is wild.
+[02:33:50] It is absolutely wild.
+[02:33:55] So full on Atlas made out of PPA when's that happening?
+[02:34:02] For you or for me for both of us I need a deal.
+[02:34:19] I was talking with Daniel yesterday.
+[02:34:22] Yeah I think we might start bringing in the nylon and the PPA and see how it does see what kind of price point we can do because as an example the Ibron DPS CF is I want to say the retail price is $60 for a half kilogram.
+[02:34:58] Yeah and we're selling our PPS.
+[02:35:03] At a full kilogram for a hundred.
+[02:35:07] So I'm hoping we can do the same with the nylon and PPA.
+[02:35:12] Yeah.
+[02:35:12] And have it be better price for people.
+[02:35:22] Yeah.
+[02:35:23] Is Fiber on part of Polymaker?
+[02:35:26] Is that yes, it is any idea why they made that split?
+[02:35:31] It doesn't really make too much sense to me as far as the weight?
+[02:35:38] No, why they made the split between Polymaker and Fiber on because Fiber on its own company.
+[02:35:44] I don't know.
+[02:35:46] Yeah, I'm not terribly sure.
+[02:35:51] Why am I unable to see the chat?
+[02:36:06] You're back.
+[02:36:07] Hey, it looks like we've got people filtering back in, though.
+[02:36:11] Everyone must have already had their dinner.
+[02:36:19] Well, I know that Manny just had his so god.
+[02:36:24] I love Manny Every time I look at Manny, I think I want another dog.
+[02:36:33] I do feel bad for Brisket because I am a fairly good owner in the fact that I see him every four hours.
+[02:36:41] Even when I'm at work, I can walk home because my work is so close by and see him for lunch or whatever and make sure he's gone out.
+[02:36:50] But I do feel like I leave him alone too much and I want to get him a buddy.
+[02:36:58] But I also think that's an excuse for me just to get another dog.
+[02:37:05] I could probably have Manny there in a couple days.
+[02:37:09] Oh, hell yeah.
+[02:37:10] Hell yeah.
+[02:37:15] I'll take Manny anyway.
+[02:37:16] You say that.
+[02:37:22] Hey, we have tons of dead seals that he can lick.
+[02:37:33] Yeah.
+[02:37:35] I believe the full name is Fiber on by Polymaker.
+[02:37:38] I think it is a different in trying to sell specifically for material properties versus Panchroma by Polymaker, which is an aesthetic line.
+[02:37:48] Gotcha.
+[02:37:50] Bamboo's just released a filament line today, haven't they?
+[02:37:53] Is it called Pure the Pure Line?
+[02:37:57] So it's basically PLA that you can eat off of or it's certified, okay, to be handled by children and animals and stuff like that just in other news.
+[02:38:17] Not that I want to give Bamboo any plout but whilst we're on the topic of filament Yeah Right Which way does the screw go in I always forget what the Z-axis one what direction it goes in What's the orientation for that's Y-axis stuff I don't want the y-axis anymore No keep talking if you want I am listening just also trying to find the right part of the manual So I got it There you go yeah so yeah what were you you weren't saying anything I know but is there anything you wanted to add to that no Yeah polymakers decent stuff Yeah, I wish it was easier to get in the UK though It's like 30 bucks for a roll and that's in pounds so that would be 45 we need to make ambrosia easier to get in the UK oh hell yeah I always say that ambrosia's
+[02:40:02] I'm not sure if it's the best filament I've ever had I've ever used other than Prushamant which is kind of a given because the Prussian has got a good reputation for it other than Prushment is the best filament I've ever used and I have never used Prushamin but you're a what have you announced the thing that you told us before I before I accidentally put foot in mouth have you announced the thing that you told us a while we are we are talking about the fact that we are authorized resellers of Prussia yes yes so you're authorized to sell as a Prussia but you've never used Prussia I've also never used a Prussia printer that's fair I hadn't used I hadn't even seen a Prussia printer in real life until my first smurf and that was the Smurf before they released the Core 1 Okay the Mark IVs wasn't even a thing yet either This is one of the reasons why I told them they should you know get me a printer How am I supposed to properly support our customers if I've never even touched the machine Hey, Tommy's on the Discord.
+[02:41:31] You can always ask him I talk to Dave and Dave not so much oh that's fair.
+[02:41:47] I do need to remember to take a photo for the guys from Prussia my first printer was a Mark IIS the Mark IIIs held its value like nothing else I used to when I still had my Mega Zero my NAC Mega Zero in the early days of Milo I would hunt for used Mark IIIs everywhere and you would like even two or three year old printers would still be priced at like 600 700 bucks here It was ridiculous But at the time they were the best printers out there other than self-built printers obviously yeah No, I mean they've got a reputation as just being work horses Although if it was nowadays I would never be able to get away with just using a Mark IIIs or a Mark III period It's I can't it I don't understand why people buy the A, the full-size A1.
+[02:43:03] I can get the A1 Mini.
+[02:43:06] I can get behind the A1 Mini.
+[02:43:08] I don't get why people buy the A1.
+[02:43:10] There's nothing about the A1 that makes me want to have it The fact that I can't go ahead So I guess you're not buying the A2L fuck no you mean the A1L It's it's not an A2.
+[02:43:29] I don't I don't know No, stop this stop this bamboo you have done nothing else to the printer other than make it bigger Don't call it an A2 Just call it the A1L It's fine.
+[02:43:48] You don't need to push your entire range of printers to another number But two is bigger than one So is it must be better But it has L in it, so it's obviously gonna be bigger The X is better than the P so obviously that whole idea doesn't make sense either it sorry Bamboo have been making just the worst plays in the last year my legal representation is encouraging me to say nothing They're not bad printers.
+[02:44:35] That's the thing like they're excellent printers is they just everything else is just annoying me it was the reason the reason I started to reach out to Prussia about the the Core 1L was simply because Bamboo Slicer every second time I launch the thing it's either asking me to log into something or saying I can't send
+[02:45:03] A file to the printers that I own because I have to refresh some fucking plugin that they have constant, constant annoyances like that that I just don't want to deal with.
+[02:45:18] You know what I do with my Core 1L?
+[02:45:20] I press print, brings me to Prussia Connect.
+[02:45:23] I say, ready, printer, and send this printed to ready and print.
+[02:45:28] That's it.
+[02:45:29] Doesn't ask me to do anything else.
+[02:45:31] I can use it from my phone.
+[02:45:32] I can do all the things that Bamboo said that they were going to do.
+[02:45:38] And I don't get the annoying interruptions in between.
+[02:45:42] Rant over.
+[02:45:44] Rant over Well, you know, as a member of the Millennium Machines development team, as well as an employee of an authorized genuine original Prussia reseller, I would be happy to incorporate a core 1L into all of my work.
+[02:46:11] So Papa Joe You got my number.
+[02:46:20] I do want to see if we can go on a road trip to Prague Maker Fair.
+[02:46:25] Maybe not next year, but the year after, but with the whole Prussia colored V2 because that would be awesome.
+[02:46:39] Have you ever been to Prussia HQ?
+[02:46:41] No.
+[02:46:44] No.
+[02:46:44] I would very much enjoy it.
+[02:46:52] You heard it here first, folks.
+[02:46:54] Papa Joe, get it done.
+[02:46:59] We'll see.
+[02:47:00] You know, maybe if I can actually get back to Smurf, then I could make the trip over.
+[02:47:08] Yeah, I don't know about Smurf this year.
+[02:47:11] So, lovely people of chat.
+[02:47:18] Every year we go to Spurf, and I understand why it happens.
+[02:47:21] I'm not begrudging the Sunday Mortimer guys, right?
+[02:47:25] I'm not begrudging them, but every year that we go, the price gets more expensive and we get less space.
+[02:47:32] So last year it was a grand for us to get a silver membership, which is a lot of money for us as a project.
+[02:47:41] Half of it was sponsored by LDO.
+[02:47:43] Half of it we had to get from releasing the V2 files as early access.
+[02:47:52] This year, it's the same price again, but the print venue I think is a little bit smaller than it was last year.
+[02:48:04] And last year we had, well, you know what we had, Alan.
+[02:48:09] Our spacing in the showroom wasn't the greatest.
+[02:48:14] Not because we didn't get any foot traffic, but because where all the raffles and things were taking place was at the end of our row.
+[02:48:22] So people would come around the corner, look at the end of the row, realize that it wouldn't be able to go forward, and instead of coming down the road to see us, they would turn around and go to another booth.
+[02:48:34] Which again, it's not the worst thing in the world, but it did make me feel a little bit deflated that half the time when it was unblocked, we had a full booth, and when it was blocked, we had we were paying a lot of money to go to a show when no one was coming to us because there was always something going on at the end of the row and had nothing to do with whether or not we were popular or not or that we had a bad booth or a good booth.
+[02:49:02] It was just the fact that there were people there.
+[02:49:06] I don't want that to happen again this year.
+[02:49:10] Where is it being held?
+[02:49:12] Same place, Dalton building.
+[02:49:15] Oh, it is the same place.
+[02:49:16] Yeah, so we have a bit more of a heads up, and we can maybe request if they're going to do it again.
+[02:49:22] I can request them not to put us there.
+[02:49:27] But I don't know.
+[02:49:28] It left a little bit of a sour taste in my mouth.
+[02:49:30] I'm not going to lie.
+[02:49:36] It's difficult.
+[02:49:41] You know, trade shows in general are a thing.
+[02:49:47] Yeah.
+[02:49:47] I don't know.
+[02:49:51] I feel like it's a little bit different for you guys at West 3D because the American shows tend to be a lot bigger and you get
+[02:50:02] Tend to get a little bit more space than we do.
+[02:50:05] And there's a lot more of them.
+[02:50:08] For us, that's it.
+[02:50:10] You either go to Smurf or you don't go to any shows that year.
+[02:50:16] And it's my, it was my most look for every year.
+[02:50:21] Smurf is the thing I look forward to the most.
+[02:50:26] I have the best time there every single year, and I just feel happy to be there.
+[02:50:33] And it's been like that for the last three years it's happened.
+[02:50:36] But that last little bit just, like I said, just left that sour taste in my mouth.
+[02:50:43] And I don't want it to happen again.
+[02:50:50] Yeah, it is a very different experience for us.
+[02:50:55] And no, Universe Smurf is once a year.
+[02:51:05] It's different on pretty much every level.
+[02:51:10] We have Step Role.
+[02:51:16] Although now the Midwest Festival, the organizers are stepping down.
+[02:51:26] So that will probably be something else.
+[02:51:30] I don't think it's going to go away, but it will probably be a very different show.
+[02:51:36] And my completely uninformed opinion goes back to what you were talking about earlier.
+[02:51:43] I mean, this, the organizers of the Midwest RepRap Festival were very hardcore into the concept of rep rap.
+[02:51:55] Yeah.
+[02:51:55] And they liked showing off, you know, the printers that they had built and things they had designed and all of that.
+[02:52:03] And I don't think they had any real love for the people that were more interested in maybe showing off what they had designed and printed on a commercially available printer.
+[02:52:19] So I think between, you know, I heard something about, you know, some stuff going on.
+[02:52:26] People had, you know, life happening, which is always something that comes up when you've been doing shows or anything for a long period of time.
+[02:52:37] But yeah, I have a feeling when that show comes back, they've already said it will not be the Midwest RepRap Festival.
+[02:52:46] It will be something else.
+[02:52:48] And I think it will be a little more geared to the entire printing community.
+[02:52:56] But, you know, so there's that one.
+[02:53:01] Towards the beginning of the year, we have the Rocky Mountain RepR Festival.
+[02:53:07] In September, we have the, well, it's 3D Printopia, which is, oh, David, it's Remurf.
+[02:53:19] So yeah, we have Remurf in the West Coast.
+[02:53:27] We have the Midwest RepRAP Festival.
+[02:53:29] We have 3D Printopia, which was Earth, which is now being moved to Philadelphia on the East Coast.
+[02:53:38] There's going to be something in Texas, which unfortunately I think is like in August.
+[02:53:49] Yeah.
+[02:53:49] Which is not a good time to be in Texas.
+[02:53:54] Okay.
+[02:53:56] But yeah, we have multiple shows.
+[02:54:00] Yeah, you have heat.
+[02:54:02] Ah, gotcha.
+[02:54:03] Yeah, tons of shows.
+[02:54:06] I mean, outside of Smurf, you've got Maker Fair, really.
+[02:54:15] And that's pretty much it.
+[02:54:18] There was also one thing that kind of hit me.
+[02:54:22] So I've forgotten his name.
+[02:54:25] The guy behind Baby Belt.
+[02:54:28] Rob.
+[02:54:29] Rob.
+[02:54:30] So Rob and I shared an elevator ride just before we went down to the after party at Smurf.
+[02:54:38] And the dude obviously looked haggard.
+[02:54:41] Like, you could tell that he was a bit kind of out of it.
+[02:54:46] And I asked him what was up.
+[02:54:48] And he said, despite the fact that this whole show is marketed around neurodivergent people being able to show off what they want
+[02:55:03] The floor itself and the actual show itself doesn't take care of neurodivergent people and obviously Rob has his own issues and stuff going on and like I don't want to get into that but that was another point that I did genuinely feel whilst we were there It just felt like very commercialized compared to the other years that we were there, which isn't necessarily a bad thing, but it is a point worth stating Yeah, I agree with you I it's it's getting harder and harder as things get more expensive Again, that was one of the things that the organizers of Murph were really pushing was that it was not a trade show It was an event for creators which I had no problem with the thing is is you know when you start looking at the expense of venues and everything else that goes into it you unless you want to charge people admission then you're leaning on sponsorship yeah and if you're asking businesses to give you money to make an event happen then they're going to want to see some sort of return on their investment as far as advertising which turns it into a trade show yeah although smurf does charge for tickets they do charge for entry yes they do yeah most of the shows here don't rocky mountain doesn't charge i i don't know what's going to happen at printopia because it's in a new venue um in a new city uh it's a much larger venue and it is a union facility so i don't i know as a sponsor our costs are going up but i don't know if they're also planning on charging uh but a lot of the organizers really don't want it to cost anything to get in and i know at least at rocky mountain and i think at most of the others um you know the maker tables are free but they're kind of a first come first serve when it comes to registration yeah right i think i'm going to get this motor installed and then we're going to call it for the evening one thing that's worth saying about this motor mount is it actually has two it has two distinct sizes of vault to fix the motor down and that's just a clearance issue that i had uh with the rail and the fact that i wanted a certain length of extrusion for it um and i also wanted this beak section so that i could actually have the a place to mount the uh end stop properly uh i'm just trying to figure out what length they are because i can't find it in the manual just yet i am doing things out of order for anyone who's just popped in i know i'm doing it out of order if you are wanting the manual is fine the manual is correct do it the way the manual says i'm just doing it my own way because i'm me i like making my life difficult you're special i'm special i'm a little snowflake uh also raj uh what is he saying raj was saying something about sponsoring us for smurf uh feel free to uh put a donation towards the project that does go uh to that does go forward to um fund our trips wherever we are in the world or wherever we could be going in the world um but i don't want just a single person to it's a lot of money a thousand pounds is a lot of money and i don't like the idea of someone just one person being hit with that burden all right there we go so i need m5 by 65 and m5 by 60 that's the bolts i was looking for so thank you for the offerage but um and if you do want to contribute contribute what you can but a thousand pounds is a lot of money to ask just one person for
+[03:00:05] Well, if you want to come over to any events here, you can always stay at my house.
+[03:00:09] Yeah, which one's the closest one to Portland?
+[03:00:13] That would be Rocky Mountain.
+[03:00:16] Okay, cool.
+[03:00:17] Rocky Mountain's always the one I wanted to go to.
+[03:00:22] Rocky Mountain is my favorite for a number of reasons at least partially.
+[03:00:35] And I'm not saying that Rocky Mountain is one of my favorite shows, as I was literally about to say because Voron is there.
+[03:00:45] And look, it's Steve from Voron.
+[03:00:48] It's Steve from Steve Builds.
+[03:00:52] You know, that worldwide show that everyone knows.
+[03:00:59] You're saying, but it is pretty funny because, yes, I genuinely was going to say that's one of my reasons why I love Rocky Mountain is because that's the most heavily attended show by Voron.
+[03:01:17] And I get to see all my friends there and it's awesome.
+[03:01:21] But it is generally an awesome show.
+[03:01:23] Yeah.
+[03:01:25] Yeah, I do want to go.
+[03:01:27] I want to do the it's weighing up the pros and cons of going to either Rocky Mountain or going to open source.
+[03:01:38] Because I think there'd be more coverage at open source for the project that is.
+[03:01:44] But I don't think at the same time, it's not just 3D printing centric there.
+[03:01:51] It's more just projects in general.
+[03:01:54] So it might work in the exact opposite way where it's less good for us.
+[03:02:03] But that all this is all assuming that I can afford to go to the US.
+[03:02:09] And then also assuming that they'll let me into the US, which is never a guarantee.
+[03:02:17] I will admit that I was slightly concerned coming back after being in Manchester.
+[03:02:25] Okay.
+[03:02:29] A little funky here, but well, you know.
+[03:02:33] Yeah.
+[03:02:34] I know you can't see me, but I'm wildly gesticulating my arms about in the general like everything.
+[03:02:44] It's a nicer shade of orange here than you've got, but like that.
+[03:02:50] Yes, yes, very much so.
+[03:02:52] Well, if you decide that you want to come over, when is open sauce usually?
+[03:03:02] I think it's like mid-year.
+[03:03:05] Might be wrong.
+[03:03:06] Let me know.
+[03:03:08] I will do.
+[03:03:10] But it's a case of I'd need to probably borrow an entire booth from people in the US in terms of like getting Milo's there and all that stuff.
+[03:03:20] Middle of July.
+[03:03:21] Okie Doug.
+[03:03:23] Steve knows.
+[03:03:24] I still assume Steve knows because there's going to be a Voron presence there this year.
+[03:03:35] Oh, God.
+[03:03:36] Steve, I'm going to be messaging you.
+[03:03:38] I have a project that I need your input on.
+[03:03:43] So I will DM you later.
+[03:03:49] Hey, Steve, any, how's the Cascade launch going?
+[03:03:53] Honestly, interested about it, though.
+[03:03:55] Like, there's nothing really like Cascade on the DIY side.
+[03:04:09] But I've not heard too much about it, but it seems like it's gone well.
+[03:04:13] So who's behind it?
+[03:04:17] I always forget people's names.
+[03:04:19] Tell them congrats from the Millennium team for the launch.
+[03:04:24] Doug.
+[03:04:25] Doug, that's the one.
+[03:04:27] Yeah.
+[03:04:28] Tell him congrats from the Millennium team.
+[03:04:29] Tell Doug that for me.
+[03:04:34] I did get a chance to look through the CAD the other day.
+[03:04:36] It's a solid little thing.
+[03:04:38] It's a solid little machine.
+[03:04:48] Yeah.
+[03:04:49] Had some really nice conversations with them at Rocky Mountain.
+[03:04:58] Super nice guy.
+[03:05:00] Yeah, I just managed to get.
+[03:05:02] Updated to the latest version.
+[03:05:03] Should be making chips on it when I can dedicate it, when I can dedicate some time to it.
+[03:05:07] Cool.
+[03:05:09] Well, feel free to hop onto the Millennium Discord and stick something in the showcase channel if you would like when you've got some parts to show off, obviously.
+[03:05:20] There's also CNC Other if you want to just show off the cascade in there.
+[03:05:36] Right.
+[03:05:37] These bolts are literally the worst part of this entire assembly.
+[03:05:41] Just they never stop.
+[03:05:47] Come on.
+[03:05:49] Nearly there'll make CNC Trident V2 parts first.
+[03:06:01] Not me.
+[03:06:02] I'm focusing on CNC CNC parts.
+[03:06:12] There is a point to be made as to when will are we going to get to the point where making rep wrap style parts becomes less I don't know less common than just seeing CNCing the parts because you see more and more Vorons every day or more and more every kind of 3D print nowadays that has a CNC gantry or a monolith this or even LDOs getting on that bandwagon when does it become unviable to if you're if you're wanting to make improvements when does it stop being viable to do 3D printed parts as a point of design a point to design around rather than just CNCing everything because Vorons that are popular enough Vorons are popular enough that you could get anything CNC you could design anything in CNC and it would be cost effective because enough people would buy it Yeah, I think there are people that are leaning into that idea and then others that are of the opinion that a lot of those parts are designed to have some compliance to them Yeah, but you can always design you can always design in compliance you know you can always have spherical bearings where a joint would bend right and there's also the argument to be made that any compliance is a form of wear over time if you bend a joint enough times even if it's just a small amount that joint's going to become weaker over time But there's the argument to be made on the art side where if it's a 3D printed compliant mechanism or compliant part then if it were to break you just treat it as a wear component and then reprint it Yeah Steve builds dollar dollar dollar it's expensive Yeah, at scale, I don't think it would be that expensive I don't think it would be that much more expensive than a 3D printed part if you included this is the caveat if you included labor a lot of people in this hobby don't include the labour cost of printing all their parts Whereas if you're buying a CNC part that labor's obviously already accounted for Then you've also got the design cost to actually take those parts and design them properly to be milled I have seen some all-metal Voron kits that it looks like all they did was take the STLs and mill them Well you've seen the was it Mello who made the CNC parts kit for the V1.
+[03:09:39] 5 where it's an entirely metal kit and they've added speed holes to everything because they don't understand how a mill actually works They've either taken the STL that we gave them that we that we made and just milled that one for one or they've made changes to it by adding pockets to a lot of the parts
+[03:10:02] Which in turn just reduces the mass and reduces the ability for the machine to absorb vibration while simultaneously also making it more expensive.
+[03:10:18] Yeah, yeah, anyways.
+[03:10:25] I think that's gonna be the end of the stream for the night.
+[03:10:28] Thank you very much, everyone, for showing up.
+[03:10:30] It has been great fun.
+[03:10:31] Z-axis was basically done other than the Z plates.
+[03:10:34] Those can be done easily, and we're going to do them at the end anyway.
+[03:10:37] Next up, we'll probably start on the Y-axis and get this all mounted together.
+[03:10:41] And we'll probably start that later this week because I've got a few days off.
+[03:10:46] Other than that, if you want to donate to the project at all, there are some links down in the description with links to our Patreon, our PayPal, stuff like that, all the bits and pieces that help fund the project.
+[03:10:57] If you don't want to do that, a simple subscribe or a like also goes a long way to help us out.
+[03:11:01] Other than that, hope you all have a great day.
+[03:11:04] And thank you for coming along, Alan.
+[03:11:07] Thank you.
+[03:11:07] It's cool to hang out and see you as always.
+[03:11:11] Oh, yeah.
+[03:11:11] Get some rest.
+[03:11:14] Oh, yeah.
+[03:11:15] Oh, God.
+[03:11:15] It's six minutes past midnight, and I've got work.
+[03:11:18] I'm in at seven.
+[03:11:21] Whoops.
+[03:11:23] Go to bed.
+[03:11:24] Yeah, I'm going to go to bed.
+[03:11:25] Night all.
+[03:11:26] Bye.
