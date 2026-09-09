@@ -4,30 +4,29 @@ Source: https://www.youtube.com/watch?v=-OHCU9msaxs
 
 ---
 
+I checked the text for likely ASR mis-hearings against the terminology already established in this project's other summaries (Millennium Machines, Milo/Miley V2, LDO, Belleville washers, RepRapFirmware, Prusament PC-CF, etc.), and nothing stands out as a phonetic misspelling needing correction — the names are internally consistent and plausible as given. Returning the text unchanged:
+
 ## TL;DR
-This is episode 4 of a live-streamed build log from Millennium Machines, assembling the LDO Miley V2.0 (an open-source CNC machine kit, a variant of the Milo V2). The streamer builds out the Y-axis table, bearing blocks and belt/pulley hardware while explaining build steps, flagging kit-quality issues to LDO, and chatting with viewers about hobby-CNC news and unrelated topics. It's a casual, unedited hangout stream rather than a structured tutorial — useful mainly to people already following this specific build.
+This is a Millennium Machines livestream in which the host resumes building a Miley V2 (CNC router) kit from LDO, working through the Y-axis table, compression-plate preload, and pulley installation while fielding chat questions. Along the way he explains why LDO's kits have been delayed (dropped anti-backlash blocks, a power-supply/contactor brownout bug) and asks viewers to lobby LDO directly for faster kits. Roughly half the ~1h50m runtime is unstructured chat banter (gaming, a garage fire he helped with, filament shortages) rather than build content. Useful mainly for people already committed to building a Milo/Miley V2 or following LDO's kit-delivery saga.
 
 ## Key points
-- Milo vs. Miley are the same LDO kit with different C-beam/hole orientation: Miley routes through the top, Milo faces the other way; the kit ships with holes for both.
-- LDO's shipping delay is attributed to waiting on developer approval for design changes, and the CNC-machined anti-backlash blocks are being dropped from the initial kit after some users reported tuning trouble (though the streamer says he's had six pairs with no issues).
-- Detailed diagnosis of a contactor/inrush-current problem: LDO's dual-purpose AC/DC contactor draws ~15W at idle (vs. ~3W for the contactors he sources in the UK), causing a brief inrush that browns out the board and shows up as a false "motor ground" error; workaround is delaying fan startup, real fix would be a lower-draw contactor or a larger (~45-50W) 24V DIN power supply instead of the stock 30W one.
-- He asks viewers to message LDO's vendor channel on the Millennium Discord to show demand, since visible interest is what moves kit production up LDO's priority list.
-- LDO's informal estimate at the time: kit ships from China by end of July, arrives at sellers by end of August — he cautions to take that "with a grain of salt" since a similar promise for June slipped.
-- Critiques LDO's prototype "bulldog vise": an extra material-rest piece is mechanically coupled to the jaw in a way that blocks the drawer screws, requiring near-full disassembly to remove it; he suggests just extending the fixed jaw instead, similar to how the "Inception" vise handles the same overhang need.
-- Describes his own grease-distribution system for the Y-axis rails (part of his "Atlas" side project), letting each axis be greased independently or, optionally, continuously oiled via a sump.
-- Walks through the Belleville-washer (conical washer) preload procedure for the leadscrew nut assembly, including what to do if the screw doesn't catch threads within the washers' travel (add a spacer between the two washers).
-- Stream cuts short after discovering the pulley grub screws are M4 — not the M3/M5 he expected — a kit inconsistency he flags for LDO; he only had two spare M4 grub screws salvaged from an old kit.
-- His own MillenniumOS-based tool-changer firmware ("my homebrew version of MOS") is nearly ready for testing on the ATC side, with the goal of finishing the mechanical build so only minor tuning and covers remain.
+- LDO dropped the CNC anti-backlash blocks from the initial kit and is also fighting a contactor inrush-current bug that browns out the board (shows up as a false "motor ground" error); firmware now delays fan power-up to work around it [11:43](https://www.youtube.com/watch?v=-OHCU9msaxs&t=703s).
+- Fix for the brownout: use a lower-draw contactor (host's UK-sourced one draws ~3W vs LDO's ~15W idle) or a bigger DIN power supply (45-50W instead of 30W) [16:05](https://www.youtube.com/watch?v=-OHCU9msaxs&t=965s).
+- Host asks viewers who want kits sooner to post in the LDO vendors channel on the Millennium Machines Discord, politely asking about the holdup — visible demand moves LDO's priorities [17:05](https://www.youtube.com/watch?v=-OHCU9msaxs&t=1025s).
+- LDO told him kits should ship from China end of July, ready at sellers by end of August — he explicitly says take that with a grain of salt since a June date already slipped [54:57](https://www.youtube.com/watch?v=-OHCU9msaxs&t=3297s).
+- Compression-plate preload technique: stack two 0.3mm Belleville (conical) washers cone-to-cone, tighten evenly in a diamond pattern, then back off a quarter-turn at a time per corner until the leadscrew nut thread just catches; if it never catches, add a spacer between the washers to shift the engagement point [39:12](https://www.youtube.com/watch?v=-OHCU9msaxs&t=2352s), [42:41](https://www.youtube.com/watch?v=-OHCU9msaxs&t=2561s), [46:39](https://www.youtube.com/watch?v=-OHCU9msaxs&t=2799s).
+- LDO's new pulleys use a non-standard (M4) grub screw size that doesn't match the M3/M5 hardware in the rest of the kit or older LDO rings — a build snag he says he'll report to LDO [1:40:16](https://www.youtube.com/watch?v=-OHCU9msaxs&t=6016s), [1:47:16](https://www.youtube.com/watch?v=-OHCU9msaxs&t=6436s).
+- V2's Y-axis is 200mm longer than V1.5's — described as a significant usable-space upgrade [20:31](https://www.youtube.com/watch?v=-OHCU9msaxs&t=1231s).
+- Milo vs. Miley are the same V2 platform built two ways: Milo has the C-beam facing one way through the top, Miley the other way, using different pre-drilled holes on the same kit [7:28](https://www.youtube.com/watch?v=-OHCU9msaxs&t=448s).
+- Critiques LDO's prototype "bulldog vise": good split-jaw concept, but a mechanically-coupled front ledge piece blocks the drawer screws, requiring a multi-step teardown just to remove the drawer [21:09](https://www.youtube.com/watch?v=-OHCU9msaxs&t=1269s).
+- On the software side, his own homebrew firmware/CAM stack for the ATC is basically ready to test; separately, a community member ("Nine") has closed-loop control working on NEMA17 motors under RepRapFirmware 3.7, pending an official merged config image [6:18](https://www.youtube.com/watch?v=-OHCU9msaxs&t=378s), [1:00:48](https://www.youtube.com/watch?v=-OHCU9msaxs&t=3648s).
 
 ## Details worth keeping
-- Fasteners used during this session: M5x12/M5x10 for the frame and T-nuts, M3x10 for most sub-assemblies, M3x40 for the compression-plate preload screws, and 0.3mm Belleville washers (a size he specifically requested LDO include in kits).
-- Blind-hole butt joints on the C-beam should go on the screw side, not the extrusion side — otherwise the T-nut can get dragged out of position when sliding parts together.
-- He recommends against glass-fiber-filled filament (e.g. PETG-GF) for these printed parts, since it throws off sliding fits; plain ASA or ABS is his recommendation.
-- Y-axis wire rail length for V2 is roughly 600mm, per his recollection (he wasn't fully certain — check the BOM).
-- Expect to lose roughly 10mm of usable Z build height when running a BT30 tool holder at full retraction for ATC.
-- Pulley grub screws in this kit turned out to be M4, not the M3/M5 typically expected — worth checking before assembly.
+- Ran out of PETG-GF filament (finally, gladly) and is switching to ABS-GF (~10kg incoming) for future prints — he no longer wants to use glass-fiber-filled material because it ruins sliding-fit tolerances [31:49](https://www.youtube.com/watch?v=-OHCU9msaxs&t=1909s).
+- Separately ran short on Prusament PC-CF mid-assembly (last ring on the spool); waiting on a resupply from a contact ("Tommy") before finishing the missing panels, otherwise will substitute ABS-GF [54:57](https://www.youtube.com/watch?v=-OHCU9msaxs&t=3297s).
+- Grease port design note: the CNC'd part is drilled from two directions and sealed with a grub screw to form the internal grease channel — same principle used in his in-development independent per-axis (or optional sump) grease system for his own "Atlas" machine [25:06](https://www.youtube.com/watch?v=-OHCU9msaxs&t=1506s).
+- Saunders Machine Works (SMW) also makes plates for other hobby CNC machines (Shapeoko, DMT Mini/DMC2) [18:19](https://www.youtube.com/watch?v=-OHCU9msaxs&t=1099s).
+- Personal aside: helped evacuate an elderly neighbor during a garage fire a few doors from his flat [48:41](https://www.youtube.com/watch?v=-OHCU9msaxs&t=2921s).
 
 ## Skip it if
-You're not building or evaluating this specific LDO Miley/Milo V2 kit — the stream is mostly raw build narration interspersed with long unrelated chat (video games, pets, the weather) and has no general CNC-building tutorial value.
-
-Let me know if you'd like me to save this to `summary.md` in that video's folder — I'll need write permission approved for that path.
+You're not already invested in Millennium Machines' Milo/Miley V2 kit or LDO's supply situation — there's no general CNC tutorial value here, and a large chunk of the stream is off-topic chat (gaming, personal life) rather than build instruction.
