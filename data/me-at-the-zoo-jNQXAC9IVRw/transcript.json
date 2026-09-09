@@ -1,0 +1,21 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+  "video_id": "jNQXAC9IVRw",
+  "title": "Me at the zoo",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-09T19:37:04+00:00",
+  "text": "Alright, so here we are, one of the uh elephants. Cool thing about these guys is they is that they have really really really long um fronts and that's that's cool and that's pretty much all there is to say",
+  "segments": [
+    {
+      "start": 1.6799999475479126,
+      "end": 4.71999979019165,
+      "text": "Alright, so here we are, one of the uh elephants."
+    },
+    {
+      "start": 4.71999979019165,
+      "end": 18.479999542236328,
+      "text": "Cool thing about these guys is they is that they have really really really long um fronts and that's that's cool and that's pretty much all there is to say"
+    }
+  ]
+}

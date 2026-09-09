@@ -1,0 +1,25 @@
+[project]
+name = "video-distiller"
+version = "0.1.0"
+description = "Turn a YouTube URL into a transcript plus an answer to what you actually wanted to know."
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2025.1.1",
+    "sherpa-onnx>=1.12",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+# Only needed for --backend parakeet (fp32 NeMo). Pulls in torch; several GB.
+nemo = ["nemo_toolkit[asr]>=2.0.0", "torch>=2.4", "torchaudio"]
+whisper = ["faster-whisper>=1.1.0"]
+
+[project.scripts]
+vdistill = "vdistill.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["vdistill*"]

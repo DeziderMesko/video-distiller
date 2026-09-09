@@ -1,0 +1,10 @@
+# Me at the zoo
+Source: https://www.youtube.com/watch?v=jNQXAC9IVRw
+Channel: jawed
+Duration: 00:00:19
+Transcribed: 2026-09-09T19:37:04+00:00 using csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8] (parakeet-onnx)
+
+---
+Alright, so here we are, one of the uh elephants. Cool thing about these guys is they is
+that they have really really really long um fronts and that's that's cool and that's
+pretty much all there is to say
