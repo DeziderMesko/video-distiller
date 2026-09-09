@@ -33,6 +33,7 @@ def distill(
     keep_audio: bool = False,
     summarize: bool = True,
     force: bool = False,
+    summary_language: str | None = None,
     data_dir: Path = DATA_DIR,
     work_dir: Path = WORK_DIR,
     progress=lambda _m: None,
@@ -42,7 +43,9 @@ def distill(
         if existing is not None:
             output, output_path = (None, None)
             if summarize:
-                output, output_path = answer(existing, question, progress=progress)
+                output, output_path = answer(
+                    existing, question, progress=progress, language=summary_language
+                )
             return Result(existing, _stored_transcript(existing), output, output_path, None)
 
     backend_name, model = _pick_backend(backend_name, language, model, progress)
@@ -88,18 +91,28 @@ def distill(
 
     output = output_path = None
     if summarize:
-        output, output_path = answer(entry, question, progress=progress)
+        output, output_path = answer(
+            entry, question, progress=progress, language=summary_language
+        )
 
     return Result(entry, transcript, output, output_path, kept)
 
 
 def answer(entry: Entry, question: str | None, model: str = "",
-           progress=lambda _m: None) -> tuple[str, Path]:
+           progress=lambda _m: None, language: str | None = None) -> tuple[str, Path]:
     """Summarise, or answer a question, against an already-stored transcript."""
-    from .summarize import get_summarizer
+    from .summarize import get_summarizer, language_name
 
-    progress("answering your question" if question else "summarising")
-    text = get_summarizer(model).run(entry.read_transcript(), question, progress=progress)
+    # Default to the language the video was actually spoken in.
+    lang = language or entry.language
+    if question:
+        progress("answering your question")
+    else:
+        name = language_name(lang)
+        progress(f"summarising in {name}" if name else "summarising")
+    text = get_summarizer(model).run(
+        entry.read_transcript(), question, progress=progress, language=lang
+    )
     path = store.save_output(entry, text, question)
     progress(f"saved to {path}")
     return text, path
@@ -144,6 +157,7 @@ def _stored_transcript(entry: Entry) -> Transcript:
         segments=[],
         backend=data.get("backend", ""),
         model=data.get("model", ""),
+        language=data.get("language", ""),
     )
 
 

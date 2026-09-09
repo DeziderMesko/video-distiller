@@ -36,7 +36,17 @@ already have, so there's no extra API key. Use `--no-summary` for transcripts on
 | `vdistill show <id> [--transcript]` | print a stored summary or transcript |
 
 Useful flags: `--keep-audio`, `--chunk-seconds 180` (lower it if memory is
-tight), `--no-summary`, `--data-dir`, `--backend`.
+tight), `--no-summary`, `--data-dir`, `--backend`, `--summary-language`.
+
+### Output language
+
+Summaries are written in the language the video is spoken in — a Czech podcast
+gets a Czech summary, section headings included. The language is detected during
+transcription and stored in `meta.json`. Override it with
+`--summary-language en` (on `run` or `ask`).
+
+Questions are different: `-q` is answered in whatever language you asked in, so
+you can ask an English question about a Czech video and get an English answer.
 
 ## Backends
 

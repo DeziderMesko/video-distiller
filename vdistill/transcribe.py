@@ -37,6 +37,7 @@ class Transcript:
     segments: list[Segment] = field(default_factory=list)
     backend: str = ""
     model: str = ""
+    language: str = ""
 
 
 Progress = Callable[[str], None]
@@ -107,7 +108,7 @@ class ParakeetBackend:
             text, segs = self._one(model, chunk.path)
             pieces.append((chunk.offset, segs, text))
         text, segments = _merge(pieces)
-        return Transcript(text, segments, self.name, self.model_id)
+        return Transcript(text, segments, self.name, self.model_id, "en")
 
     def _one(self, model, path: Path) -> tuple[str, list[Segment]]:
         import torch
@@ -206,7 +207,8 @@ class ParakeetOnnxBackend:
             )
             pieces.append((chunk.offset, segs, result.text))
         text, segments = _merge(pieces)
-        return Transcript(text, segments, self.name, f"{self.model_id} [{self.precision}]")
+        return Transcript(text, segments, self.name,
+                          f"{self.model_id} [{self.precision}]", "en")
 
 
 def read_wav(path: Path):
@@ -268,6 +270,7 @@ class WhisperBackend:
         self._threads = max(1, cores // self._workers)
         self._language = language
         self._batch_size = batch_size
+        self._detected = ""
         self._model = None
         self._pipeline = None
 
@@ -328,7 +331,8 @@ class WhisperBackend:
             pieces = [one(chunk) for chunk in chunks]
 
         text, segments = _merge(pieces)
-        return Transcript(text, segments, self.name, self.model_id)
+        return Transcript(text, segments, self.name, self.model_id,
+                          self._language or self._detected or "")
 
     def _decode(self, model, path: Path) -> list[Segment]:
         """Greedy, context-free decode -- matches how Parakeet is run, and
@@ -342,11 +346,13 @@ class WhisperBackend:
             vad_filter=True,
         )
         if self._pipeline is not None:
-            segs, _ = self._pipeline.transcribe(
+            segs, info = self._pipeline.transcribe(
                 str(path), batch_size=self._batch_size, **options
             )
         else:
-            segs, _ = model.transcribe(str(path), **options)
+            segs, info = model.transcribe(str(path), **options)
+        if not self._detected:
+            self._detected = getattr(info, "language", "") or ""
         return [Segment(s.start, s.end, s.text.strip()) for s in segs]
 
 

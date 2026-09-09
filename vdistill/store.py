@@ -32,6 +32,7 @@ class Entry:
 
     dir: Path
     info: VideoInfo
+    language: str = ""
 
     @property
     def transcript_txt(self) -> Path:
@@ -114,6 +115,7 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
         "upload_date": info.upload_date,
         "backend": transcript.backend,
         "model": transcript.model,
+        "language": transcript.language,
         "transcribed_at": _now(),
         "audio_retained": False,
     }
@@ -121,7 +123,7 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
         json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8"
     )
     _append_index(meta, root)
-    return Entry(dir=target, info=info)
+    return Entry(dir=target, info=info, language=transcript.language)
 
 
 def save_output(entry: Entry, text: str, question: str | None) -> Path:
@@ -172,7 +174,7 @@ def _entry_from(directory: Path) -> Entry:
         duration=meta.get("duration_seconds"),
         upload_date=meta.get("upload_date"),
     )
-    return Entry(dir=directory, info=info)
+    return Entry(dir=directory, info=info, language=meta.get("language", ""))
 
 
 def _append_index(meta: dict, root: Path) -> None:

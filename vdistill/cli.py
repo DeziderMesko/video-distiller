@@ -42,12 +42,16 @@ def build_parser() -> argparse.ArgumentParser:
                      help="stop after the transcript")
     run.add_argument("--force", action="store_true",
                      help="re-download and re-transcribe even if already stored")
+    run.add_argument("--summary-language", metavar="CODE",
+                     help="language for the summary (default: the video's own)")
     run.add_argument("--data-dir", type=Path, default=DATA_DIR)
     run.add_argument("--quiet", action="store_true")
 
     ask = subs.add_parser("ask", help="ask a stored transcript, without re-downloading")
     ask.add_argument("target", help="video id, source URL, or data/ folder name")
     ask.add_argument("-q", "--question", help="omit to regenerate the summary")
+    ask.add_argument("--summary-language", metavar="CODE",
+                     help="language for the summary (default: the video's own)")
     ask.add_argument("--data-dir", type=Path, default=DATA_DIR)
     ask.add_argument("--quiet", action="store_true")
 
@@ -85,6 +89,7 @@ def cmd_run(args) -> int:
         keep_audio=args.keep_audio,
         summarize=not args.no_summary,
         force=args.force,
+        summary_language=args.summary_language,
         data_dir=args.data_dir,
         progress=progress,
     )
@@ -104,7 +109,8 @@ def cmd_ask(args) -> int:
         print(f"nothing stored for {args.target!r}; run 'vdistill list' to see what is",
               file=sys.stderr)
         return 1
-    text, _ = answer(entry, args.question, progress=_quiet if args.quiet else _log)
+    text, _ = answer(entry, args.question, progress=_quiet if args.quiet else _log,
+                     language=args.summary_language)
     print()
     print(text)
     return 0

@@ -8,5 +8,6 @@
   "backend": "whisper",
   "model": "Zoont/faster-whisper-large-v3-turbo-int8-ct2",
   "transcribed_at": "2026-09-09T20:47:46+00:00",
-  "audio_retained": false
+  "audio_retained": false,
+  "language": "cs"
 }

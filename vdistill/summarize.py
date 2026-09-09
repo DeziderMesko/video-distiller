@@ -72,6 +72,40 @@ and order key points by importance rather than by when they appeared.
 """
 
 
+# Claude follows a language name far more reliably than an ISO code.
+LANGUAGE_NAMES = {
+    "cs": "Czech", "sk": "Slovak", "en": "English", "de": "German",
+    "fr": "French", "es": "Spanish", "it": "Italian", "pl": "Polish",
+    "ru": "Russian", "uk": "Ukrainian", "pt": "Portuguese", "nl": "Dutch",
+    "sv": "Swedish", "da": "Danish", "no": "Norwegian", "fi": "Finnish",
+    "hu": "Hungarian", "ro": "Romanian", "bg": "Bulgarian", "hr": "Croatian",
+    "sr": "Serbian", "sl": "Slovenian", "el": "Greek", "tr": "Turkish",
+    "ar": "Arabic", "he": "Hebrew", "hi": "Hindi", "ja": "Japanese",
+    "ko": "Korean", "zh": "Chinese", "vi": "Vietnamese", "th": "Thai",
+    "id": "Indonesian", "ca": "Catalan", "et": "Estonian", "lv": "Latvian",
+    "lt": "Lithuanian",
+}
+
+
+def language_name(code: str | None) -> str | None:
+    if not code:
+        return None
+    code = code.split("-")[0].lower()
+    return LANGUAGE_NAMES.get(code, code)
+
+
+def _language_clause(code: str | None) -> str:
+    """Instruct the model to answer in the video's own language."""
+    name = language_name(code)
+    if not name or name == "English":
+        return ""
+    return (
+        f"\n\nWrite your entire response in {name}, the language of the video. "
+        f"Translate the section headings into {name} too. Keep technical terms, "
+        "product names and proper nouns in their original form.\n"
+    )
+
+
 class SummarizerError(RuntimeError):
     pass
 
@@ -107,8 +141,13 @@ class ClaudeSummarizer:
         return out
 
     def run(self, transcript: str, question: str | None = None,
-            progress=lambda _m: None) -> str:
-        task = QUESTION_TASK.format(question=question) if question else SUMMARY_TASK
+            progress=lambda _m: None, language: str | None = None) -> str:
+        # Summaries follow the video's language; a question is answered in
+        # whatever language it was asked in, which Claude handles on its own.
+        task = (
+            QUESTION_TASK.format(question=question) if question
+            else SUMMARY_TASK + _language_clause(language)
+        )
         if len(transcript) <= MAP_THRESHOLD:
             return self._ask(task, transcript)
 
@@ -131,7 +170,7 @@ class ClaudeSummarizer:
             )
         progress("merging passes")
         return self._ask(
-            REDUCE_TASK,
+            REDUCE_TASK + _language_clause(language),
             "\n\n---\n\n".join(f"### Part {i}\n{n}" for i, n in enumerate(notes, 1)),
         )
 
