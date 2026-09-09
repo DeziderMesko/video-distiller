@@ -32,3 +32,7 @@ CLAUDE_MODEL = os.environ.get("VDISTILL_CLAUDE_MODEL", "")
 
 # int8 is 663 MB and faster on CPU; fp32 is 2.5 GB for a little more accuracy.
 DEFAULT_ONNX_PRECISION = os.environ.get("VDISTILL_ONNX_PRECISION", "int8")
+
+# How many 30 s Whisper windows to decode at once. Higher fills more cores at
+# the cost of memory; 8 is comfortable on a 16-core box with 16 GB.
+WHISPER_BATCH_SIZE = int(os.environ.get("VDISTILL_WHISPER_BATCH", 8))

@@ -1,0 +1,1941 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=IVJy6Z1uSsQ",
+  "video_id": "IVJy6Z1uSsQ",
+  "title": "Millennium Electronics Box : Ep 2 #3dprinting #millenniummachines #opensource #filament #cncmachine",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-09T20:20:24+00:00",
+  "text": "Well, hello, hello, hello. How is everybody doing? Thank you everyone. I hope everyone's having a good day. I'm going to try and open this with this. Will it work? Probably not. No. But I do have a bottle opener. I was just trying to be cool. Right, how is everyone? I see Jose's with us. I see Jack Landry's with us. Brisket is such a good mannered dog. No, he is fucking not. He is the worst behaved dog I have ever met, and that is solely my fault, and I understand that entirely. He's a friendly dog, but he's not very well behaved. Is that a purebred good boy? Yes, yes. Yes. He's not a well-mannered dog, but he is a good boy. He is a good boy. Maurice is with us. How are you all doing today? How are you all doing today? It's been nearly a month since we last did a stream. It's been nearly a month since we've been about three weeks. Been about three weeks since we last did a stream. Why has it been three weeks since I last did a stream? Because getting parts self-sourced takes time and money. But we have all of the parts now, I think. We've got everything that we need to finish off the electronic box. We have got every single bit we need. I've got some ACM panels. I've got all the electronics bits behind me into my sides and all that kind of stuff. I've got beer. I repeat, I've got beer, and that's the most important part. Do or do not. There is no try, so be cool. Fair enough. Yeah. Also, we put our first tutorial video out. How did everyone like it? Did anyone watch it? Did anyone in stream watch it? Do you guys like it? Is there anything you wanted to change about it? Should there have been more information? Because I tried to make it as kind of condensed as possible. Was awesome. Cool. Nice. Yeah. The audio was the thing that I needed to, that I worried about. I don't have the ears for good audio. And I know that sounds weird, but I can't distinguish good audio from bad audio a lot of the time unless I'm very much concentrated on it. Like, that's the only thing I do that day is deal with the audio. Right. Anyways, let's stop talking. Right, I've got some ACM panels that I need to drill out as first thing first. And I actually don't know off the top of my head how far away from each corner the holes need to be thingy from, drilled from. I'm going to hop into fusion and I'm just going to project off the top surface. I'm just going to measure it. We're not going to do these two holes anymore. I was doing them because I thought it would stop the panels from vibrating as much, but then I realized it's the electronics box. It's not going to be vibrating because it's going to be away from the mill and it's just extra cost at the end of the day. And I also kind of don't always get a sense, a good sense of scale when you're doing CAD stuff. So you kind of think, oh, this is going to be way bigger than it's going to be. It's going to need something to hold the panels down. Well, in actual fact, it's that. Ignore that. It's that. It's tiny. You don't need the center holes anymore. So I'm going to ignore those holes for now. And we're going to try drill some ACM. Right. We need to make some measurements. Right, so edge to edge is 13 millimeters. Yeah, 13 millimeters and 10 millimeters. Cool. So center to edge. Steve Knobs is here. Hello, hello, hello. Jose Rivera, very informed to Tranvi. Thank you. Thank you. I tried really hard. Another reason we haven't had a lot of streams in a while is because I've been concentrating on that video. I've been concentrating on trying to get it to a decent standard. I know it's very different from the first two videos I've put out. I wasn't happy with the first two videos. Hans is here. Is Hans going to be trying out his steel on his Milo today? Or were you just teasing us? Ah, perfect timing. Popped in whilst I'm abusing my Milo with steel. Cool. So I'm just going to, I need to do both panels, so I might as well do this. Get both panels ready. I'm just going to mark out 13 mil These holes are oversized, so they don't need to be perfectly exact. And the sides that I am marking are going to go inside the machine, so you won't be able to see any of the scratch. The chicken scratches first cuts didn't sound happy. Oh, we need videos. Even if Milo's screaming like a pig. We need videos. We need proof. What's everyone been up to recently? What has what projects have people been up to? I've got a plan for a video. I've got a plan for a video coming up, and it's going to be a dumb thing, and I don't want anyone to repeat it. But I do have a plan. The only thing is, I need to get my Milo back inside my enclosure. And yes, over that three-week period, I still haven't put my Milo back in there because I spent a week of that three-week that three-week period filming the last video where I needed my Milo outside to do that to get B-roll for printing a life-size mammoth tusk. Baby mammoth tusk or big mammoth tusk at 12. I need 10 Actually, did I yes, I did. Okay. Oh, because I'm tight. I'm thinking about compression pressing compression pressing the Kildoza mod back plate out of forged carbon fiber because ain't got no money to order it from steel why I've seen a few attempts at a carbon fiber mill honestly I would just do it out of aluminium Especially when you're thinking of what I think is your compression for your your forged carbon fiber which is even worse to do if you haven't done it before it What is it? What are the composite guys on YouTube? There's a composite YouTube channel. I forget what they're called but they Thomas Sam Adder mentions them a couple times they make forged carbon fiber look so easy. It is not it is one of the hardest things I've ever attempted to do because it's just so messy anytime you're working with epoxy is messy I mean carbon fiber is pretty stiff. That's why I wanted to yeah it's pretty stiff, but you're not really adding any dampening mass Right. Remember the epoxy in the epoxy granite kind of framework that you work along the epoxy doesn't add anything it doesn't add the stiffness it doesn't add the dampening all it is doing in epoxy granite is acting as a binder so it's the sand that does all the dampening so if you're taking a forged carbon fiber piece you're taking a material that doesn't that's just meant to act as a binder and you're combining it with another material that is well known for not being very good at dampening anything and stuffing them together so yeah you're gonna get a very stiff part but you're also gonna get a part that's gonna probably add nothing to the worst part of Milo just need to redo one of these 13 mil lines Okay, all right, I have never drilled ACM before I normally work with acrylic So I'm going to assume that this is going to be a pain in the ass Because if you assume everything's gonna be a pain in the ass you're just pleasantly surprised sometimes beer What do I need I need drill bits? That's what I need levels on That's not a bad argument honestly. That's why I was thinking about something even crazy a while ago. What were you thinking about there's no such thing as too crazy To mention to me, where's my drill? There's my drill like a backside stiffer that has forged carbon fiber faceplates and like granite epoxy cooling for weight. See, I could get behind that more, because at least you're adding dampening mass. At least you're adding some kind of dampening mass to it. That actually cuts really nicely. That cuts way nicer than acrylic than just straight acrylic does That is super nice Be very careful not to break any of these panels because if I do and then have to pay I have to wait another three weeks Yeah, so that video went really well the the tramming video went really well. It's actually the most believe it or not the most popular video that we put out on the channel that wasn't an announcement video of some kind like a proper content wise so I think I'm gonna do more videos in future I think we're gonna do we're still gonna do streams but we might do one every once a week rather than once every few days or whatever and I'd like to get some more like projecty stuff so the tutorial stuff's cool and all but I also like to do some projects oh Thomas is with us the German sensation that is rocking the nation I run a normal dial indicator for myself so I can tram my Milo properly nice yeah see this is the thing right when LDO so I actually had Dave from LDO not Dave on the team come to my house he was in the UK for something and he came to my house to talk about Milo and the kit and what we should include in it I said an indicator and then he asked me what kind of indicator and honestly it was one of those things where you can add both indicators into the kit but then you add 50 bucks to the kit 50 to 100 bucks for both of them if you're having both of them together and I really wanted that first one of Milo to be to be as cheap as you could get it and still be a good kit also hey Thomas how are you doing so I said okay use a DTI because a DTI you can get you can tram with a DTI you can do a lot with a DTI and I think you can do a lot more with a DTI on average but it would have been nice to have both in the kit the same with things like one two three blocks like that's stuff that I don't expect that should come with kits especially when it's like precision stuff like things like dowel pins and and one two three blocks and stuff like that people have their tolerance for them especially like even collets people have their tolerance with them so they can be really really cheap which people then immediately throw away some people do at least or they can be expensive and then the people who don't want to spend too much money are stuck buying really expensive stuff and let's face it the stuff that comes with the kit is probably always going to air on the cheaper side okay adjusted cutting frames gonna send my milo against the steel again wish me luck good luck Good luck good luck Right whilst Hans is Hans is puckering hard and pushing his Milo to the limits I think it's a good time to remind everyone that if you do enjoy the stuff that we do here give us a like I'm not gonna ask you to subscribe I'm not gonna ask you to send any money or anything like that I just like a like every now and again because honestly that helps a lot but if you do want to go that extra little mile the perfect thing that you can do is share the video tell people about me right the last two days we've had the biggest spike in subscribers because of that video so I think it's a good time to tell people to share stuff Glenn how you doing we've got a Glenn in the house Mitatoyo or AliExpress for myself I get most of my tools for CNC from a place called from a company called Cutwell here in the UK and they sell insize brand tools they're they're kind of middle of the range they're not amazing they're not mid-toyo but they are kind of mid-range decently priced ones Acu in the UK also sells them which side is the matte side this is the matte side so this is a side I can bust up all right I believe I'm gonna make an uninformed guess here's funny there it is I told a good couple of my friends about Milo though sadly they don't share my tissm for it there yeah do you know what's really annoying really annoying I had an A1 mini Bamboo Labs A1 mini that I just I never used it so I gave it to my friend and my friend is he's he's a bit he's got his tisms um don't we all um and he took it to the place that I used to work at and he started taking prints out and he started showing people and I'd been talking about these machines for years and I talk about them in like a useful capacity like I'm making machines and designing things and stuff like this he is going off of he's going on principles he is going on maker world and he is taking whatever the print of the week is and showing people and there has been more interest in those from those people about 3D printing than I could ever get out of them talking about actual projects hey Jose Jose Ferreira this time how you doing yeah we'll definitely do more than that I want to do some project videos as well I'm not talking like oh I made this cool sign type projects video like I have a plan to do something with some climbing gear I'm gonna say this right now if you do watch that video if it does come out don't repeat what I'm about to do what I'm going to do in that video please don't it's going to be stupid but I will have all the necessary safety equipment set up for it but I want to do videos like that because that gets people who aren't in the wider kind of maker space it gets that gets people like that involved I still want to do all the tutorials and stuff hell yeah like those are still gonna be a thing but I want to do some practical applications for having a CNC machine because thousands of people can think of a practical reason to have a 3D printer you have a 3D printer oh you need to print a gasket oh you need to print a shelf a bookshelf oh you need to print a little toy it's an easy thing to market as a 3D printer I'm gonna mill my mild steel putter Jonathan Lagging lagging I'm gonna say it's lagging Jonathan Lagging Why have you not put that up on the Discord yet? And if you have, why have I not seen it? It's crazy how small the community is. 3D printing exploded, but CNC seems to be much slower on the hobby level. Yeah. Yeah. It's because a 3D printer, once it's built, like you need your knowledge. You need your knowledge base to build it if you're going from like a moron self-built perspective. You need that. But after it's working... It's plug and play I'm at the wrong side. Okay, this side's gonna be shiny. This panel's gonna have to be shiny. It's plug and play. It's um it's design your thing on fusion or get it off Make world press print and it goes CNC no matter how much you dumb it down will always be oh I need to set this up I need to tram this I need to indicate it I need to set a work coordinate system There's a lot more steps to it and whilst it's probably the more powerful technology It's at that point where there's still a small amount of craftsmanship that goes into actually creating a part and that's not to like say oh I'm better than anyone who 3D prints that's just kind of the that's the reason it hasn't taken as much hasn't taken the world by storm I think Where is my little stabby thing? I put it away didn't I always do this on stream I posted the potter last year I think now that I've rebuilt my M43 with 48 volt motors I want to revisit steel nice But miles steel chips are less really annoying to deal with why they know I know I know because you're doing really thin chips aren't you and they let me guess they're really spiky and they get everywhere That's my guess tiny knives in my hands. Yep That is a pain have you ever seen there's a Titans CNC video where is it Titan Gilroy the guy who owns the Titans of CNC company He does like snow angels in a big barrel of steel chips and he comes out with like half of them buried under his skin It was commitment to the bit on that one. I'll give him that I don't like titans I don't like Titans of CNC that much, but I'll give them that hands you feel like Wolverine for a second you feel like Wolverine Do you just get like three chips and hold them between your fingers and go tiny Wolverine This is dumb, but I'm doing it anyway Oh just a heads up to you guys I'm not trying to preempt it because I haven't got the job yet but if I do get this job that I'm applying for I may be moving and if I may be moving I think I'm going to get a van I think I'm gonna get a van and I'm going to do some van lifing for a while Because I honestly think it'll be cheaper for me to do that have not have pay counts attacks not having to pay extortion amounts of rent because where I'm looking at the rent it's the rent to be able to have a dog is like a thousand pounds a month Because I'm looking at moving to a city and that's expensive So there may be some CNC van projects on the go some CNC van projects on the go right And last little bit of preparation we need to need to thread some bolts and stuff I need to thread the end caps on the enclosure Okay, we'll do it dry What kind of job are you looking into It's an engineering job It'll be my first engineering job but the issue is the issue is so I bought this place with the help of my parents and it's such a good deal around here that if I decide to move to wherever this place is I would probably be taking home less money than if I had an engineering job than I would if I stayed here and just did a bar job or a waitering job or something like that Oh I've already tapped these I didn't realize I don't already tap these oh I'm a genius and I didn't even know it No So yeah, so it's this I'm in this this weird situation where if I even if I want this bar job sorry this this engineering job which is going to give me more money I would need to move for it and the costs of moving and renting a place would mean I would actually be taking home less money than if I stayed here and just became a waiter but I really want this job. I really want to get into that industry so the way I'm thinking about it is because I own this place. I can rent this place out so the whole idea is the rent from this place goes towards the kind of cost of living for the van for van. So that's things like fuel, water, well electricity would be solar. So I could figure that out myself But yeah, things like fuel water stuff like that I have some friends who do want to who said that they'd be willing to rent this place I just want to get out of the outdoors to be fair Yeah, outdoors is it's a great lifestyle, but that's it. It's a lifestyle. It's not a good living All right, change parameters again. Let's see if Milo will scream less now If it keeps screaming, we're gonna have to take you to Child Court Oh no oh no Let's see if this panel fits better Nope I fucked that up I fucked up I fucked up Right, what about the big panels the holes aren't in the right places I was just about to hold that in my mouth and I realized that that would probably be not great Okay, the big panels are fine The big panels are fine The big panels are fine That's okay, it's okay luckily Top panels I can just print those yeah best of luck with a new job opportunity great idea to rent out your current place. Yeah, so rent this place out use that money to kind of pay for my living I need to take out a small loan well a small loan a decent size loan and the rent would help pay towards that loan if you get what I'm get what I'm getting at But it'll be fun to try and fit a seat because I do want to take Milo with me I do want to take Milo with me on the road, so as it were So trying to figure that out the logistics of that Because even if I don't get the job honestly honestly if I've still rented this place out got the van had to pay back the van and all and the loan I would need to renovate it and all that stuff I would probably still be bringing home more money than if I still lived here and I'd have a van because van's fucking cool This could just be my ADHD just hyper-focusing on something and then in three days I'll just completely forget it's a thing But right now my brain is on van It also just means I'm not stuck anywhere I'm not I don't have that commitment of having to stay in a town and work or any job around this town or anything like that I could go and I could work wherever I wanted in the country I could do whatever I wanted in the country So even if the job doesn't work out and I don't have to have to move I still think the van's a good idea Carefully catch the holes mouse and move them yeah I could do the issue is The issue is that if I make them too big then the head of the bolts won't fit through and I think I would need to make them that size to get the threaded the holes in the right positions Like they're that fucked up fucked up they're that far off of center well not off of center but off of where they're meant to be Right let's brainstorm a little bit the bottom should be fine because the feet should hold it in place because so I'm gonna have to chase it Yeah, I think if I chased it with an 8mm a button head screw has a 10mm head or 10.5mm head so then 8mm that should be enough just looks like might just be enough and I think out of everyone in the community I've seen you been hyped the most to actually do projects and things I've seen more test cuts and projects and things from you than I think anyone else in the community We might just be able to get away with that Oh yeah, I love doing stuff with the mill and experimenting with it. That's the thing like sometimes sometimes it's not even about the project itself or getting something out of it at the end. Sometimes it's just about fucking around with something cool Turn this around and put this on the top actually actually yeah we'll do it like that Also gonna it's just on the edge and I'll chase the other ones Risk gets fast asleep Just takes my ADHD off in the right way. Nice Yeah I get you I understand you got some HTP got some HDPE cutting boards to make the other day to make spoil boards nice I have one but I never got around to actually doing any cutting on it I was meant to do the spoil board that I cut the plates for V1.6 with that but I never got around to doing it and I just printed them instead I'd still say it's probably a better idea to have proper spoil boards and to have it done to do the HTPE ones those are probably going to be better and last longer Oh my I think I've some I've some I've made I've somehow made not bad cutting parameters chips are like brownish colour so they're taking heat away they are cool that's like brown is kind of your starting of the temper that kind of brownish straw colour is kind of like the starting of the temper colours for steel so that's good that's good Nice well done dude I saw you printed one in AVS found these for like eight euro should be good for two boards yes yeah um weirdly enough in the UK it was really hard for me to find like an online somewhere from somewhere online because I couldn't find any in the supermarket like Amazon was charging would only give me would only sell me a pack of like six big chopping boards I've actually got one of them down here It was a pack of these for like 20 bucks and it was the only way I could find them because my local supermarket didn't have any cutting boards for some reason or the ones that they did have were did have were like three mil thin I swear I feel more like lions tactics every day the more I drop things in this place Alright, I need to chase these old spoon Yeah, so what are people thinking about like go very all the way to the back of the stream to the back of the start of the stream all right and I mentioned I might be doing less streams and doing more videos all right are people okay with that do people want to do me to do less streams want me to do more videos want me to do less videos and more streams what is what are people's opinions on things and also speak about projects like I have an opinion I think doing more project-based stuff rather than purely Milo tutorial stuff will be a good idea because I think it'll bring a broader audience obviously we do the tutorial stuff as well but yeah what are people's thoughts on it I've got some TPU feet here some feet Though it was a bit scary to see a onemillimeter deep cut start at those speeds Damn, you're going straight into this. You're going to a one mil deep one. I like the streams, but I think if we are thinking about views and exposure, videos bring more. Or at least that's what I saw on YouTube mostly. Yeah, put it like this. I think Nero agrees with me on this one. Nero has said this on his streams as well. YouTube videos are what bring people to the channel and actually add to the exposure. I'm going to need longer balls. YouTube videos actually bring people to the channel. The streams probably make more money because obviously you get everyone who donates to the video or to the stream or whatever. And you get your super chats and all that kind of stuff. You get all that fun stuff. But you kind of need to get to a point where you're able to have a lot of people show up for stream. Like Nero has 300 people up for stream. Before I took that like three-week break, I had like an average of 20 to 30 people join us. And obviously, taking a break means there's less people. Taking a break's never good on YouTube. It's never a good idea to take a break on YouTube. I was kind of forced to take a break on YouTube because, well, I didn't have the stuff I needed to actually continue doing stuff. And that's just a shame. But it is what it is. Oh, yeah, I learned that from when I started. Remember my first MLs that got Ali welded to them? And that's when you guys told me if I go too conservative. Yeah, exactly. I'd like to see more content on Milo usage, real life cutting videos or streaming. Yeah. So has a question for another question for you guys. What CNC content do you guys watch? Do you guys watch anyone else or anything else on CNC? Or is it just kind of maker stuff? Like, do you watch like Pray Tex designs? Does anyone watch Pray Tex Designs or CNC or what are they called? Titans of CNC or any of that stuff. You know, stuff where CNC might not be the end goal, but it is a tool that's being used because that's the type of content I actually watch. I do try to avoid Titans of CNC, I will not lie, because I find this content to be quite in your face and annoying more than anything else. But you really did a great job on that last one. Cheers, man. I appreciate it. I appreciate it. It was a struggle to get out. I will not lie. But that's because it was the first time we were doing it. It was the first time I was doing it. And stuff's always hard the first time. Or not hard the first time, if you get what I mean. Giggity Project videos definitely bring in the most views. The biggest videos I've seen around the topic were always like projects. Yeah, exactly. Like, I want to make a PC case. I want to make a PC case one day. I want to do all the stuff that I built Milo personally to do. I want to make 3D printer parts. I've got a Micron coming some stage in the next few months. All parts for a Micron. I'd like to do a bunch of those parts in CNC. I'd love to do that. I've been so caught up for the last three years in building Milo out for you guys that and I kind of thought, okay, if I build it, they will come type of situation. And yeah, that's true for the most part. The community that we have is awesome and that they did kind of do that where they wanted to do some CNC. They found some stuff. Dee how you doing dude how are you doing awesome right look at that look at that we have side panels we have side panels we have feet it's looking awesome um I have done a couple things on the internals and the back plates off the stream so I'm just gonna run you over those before I continue uh effectively what I've what I've done I've added a Raspberry Pi I've changed the orientation of the power supply I would still say that if you got one of the Huanyang VFDs you're gonna have to do it sideways but luckily the whole spacing is the same so you can either mount it sideways or flat we're gonna be mounting it flat for this build on the back I have added the last two panels that we didn't do on the stream prior and I've added some grommets so you've got some cable grommets for the back on the front oh sorry on the back and on the front they are some keystone jacks so you can choose what I/O you want to put on the front and on the back on this build we're probably going to do one ethernet on the back one USB on the back and then one USB on the front and one HDMI on the front so that if you have if whoever gets this has a monitor that they want to hook up to the Raspberry Pi they can do so just going to tighten these feet up a little bit but now we get to do the fun part or the not so fun part depending on how much you enjoy doing wiring we've got some wiring to do oh actually no we don't I'm actually going to take all the electronics out I'm going to just take the I'm just going to undo the din rails and take the din rails out with all the electronics on them because I've got some stuff I've got some cable channels to put in so 3D printed cable channels Casey's looking good looks clean I could see a PC build in that case yeah yeah well might do one day who knows who knows I want to make some videos to though I'm getting a Wi-Fi cam for it so I can hook that up to RRF and also I can't I can't pass the guide the the duet guide for a Wi-Fi cam I don't understand I none of it makes sense it's like talking gibberish to me so if you can get one working please let me know how you've done it so I can do it because I really want to set up a Wi-Fi camera in here as well in my Casa Why am I doing that looks weird I just wanted to say it looks like PC case too yeah yeah get a whole ATX case in there whole ATX build yeah so I'm not gonna lie this was kind of inspired by the stuff that Rat Rig's doing with their with their electronics box I don't like their electronics box because it's A way too big of a box and B the electronics layout isn't the greatest from what I've seen but I will give credit where credit's due I think the box idea was a good idea and because open source is a thing they will be getting an open source credit because whilst we're not affect we're not stealing the idea from them it was an inspired thing I always like to make sure that even if we are inspired by something that we give them an open source credit in the manuals and things so rat rig will be getting one same with Voron same with everyone who's with all the big projects that have given inspiration to the project for this project the right thing to do you should see my electronics box that full-blown old PC case takes a huge then any update on the spice rack and full pack uh the four pack is currently in the middle of testing uh the four pack should be ready soonish Yeah, four packs should be ready soon-ish But Nine Mile is poor guy poor guy. He's a brand new dad and he's really really struggling with doing that and testing everything. So hence why if you're in the Illuminate Illuminati you saw us put out a little call for aid for him so he needs to kind of think about how he's going to do deal with automatic tool changes in Moss Because we can have the hardware ready in the next few months really but unless he's able to get the software side of things going Not gonna do anything we can't really do anything Plans for index on Milo not on Milo but if we do do the if the micron build comes out and I have enough money to spend on a little index I'm gonna make that micron my little travel printer if the van works out as well So yeah we might do an index on the micron If you guys need beta testing with the tool changes to I'd be up there too like I said we know that the the module itself works all right we've done the testing well writes done the testing on it the little module that makes up both the four pack and the spice rack they work that doesn't need any more testing the stuff that needs testing is for example on the four pack there's a lid that needs to open and close and that needs a servo so we need to make sure the servo opens at the correct times and we need to be able to actually perform the tool changes and we need to make sure that there's a little bit of line a little line of text a little line of code that that allows it to be opened whenever the tool change occurs and then we also need to integrate it into other stuff so it's a it's a software issue at this point the hardware's done and unfortunately we only have one software guy uh nine mile nailed my voice settings nice nice i'm guessing you're flow you flow glen are you flow or are you someone else on the discord uh do the tool changes work like the rapid team um in principle yes but not in operating in operation so the rapid change acts in the same way an impact gun does it's basically if you don't know how an impact gun works it's a it's an arm that comes round and it whacks it so it's that's where the impact and impact guns are from it whacks the um the actual spindle and then slips off the other side because it kind of cams off the other side um and then it goes around and whacks and wax and wax and wax that's the same operator bridge as the rapid change right um whereas we the way we do it is we have teeth that only engage at a certain z height so the module the top of the module spins freely and then as it gets pressed down because there's a spring that keeps the two halves separate there's teeth on the bottom and teeth on the top and as it gets pushed down then the teeth engage so in terms of like a macro operator operation yes it's still a collet-based tool changer but in terms of how they actually operate and tighten everything up no uh also phil should be done well phil's working on the level return to nominal levels thank you alexa uh phil's working on the fourth axis so the fourth axis should also be out soon fourth axis is going to be a little bit easier to do on software because you just have to tell it it's a fourth axis but the hardware is going to take a little bit longer to do The tool changer in the video sounded like it would not last long. Are you talking about the street the one we did on the stream? The one I was doing on the stream, I was trying to get away with some other stuff. I was trying to get away with some stuff that Bright's one didn't have, and I wasn't getting away with it. I didn't get away with it. But I know that Bright's one has been tested a lot. Bright's design has been tested a lot more rigorously, and it's held up fine. And it operates differently to the one I tested on stream. Alright, I need beer. Drink like Trump. Have you ever seen that video of Trump has Trump has to drink water with two hands? I feel more American already fourth axis with a tool changer sounds like a dream from true for my lady. I have some bad news for you. Fusion's fourth axis stuff is a paid feature. This is why it's taken us so long to do a fourth axis. We could have done a fourth axis pretty early on. Will then I even be designing a Swiss machine? Probably not in some ways. A Swiss machine is actually easier to build than a lathe in some ways. In other ways, it's a lot harder to build than a lathe. And a Swiss machine, the whole point of a Swiss machine Swiss machine is it's from a practical standpoint, it's a lathe with live tooling and sorry, no, it's not a lathe. It's a mill with a fourth axis that acts like a lathe that also has a bar feeder and it's the bar feeder bit that concerns me because then it's not a desktop machine anymore and then it becomes a lot harder to design any schisms Yeah, that's my goal for the fourth axis in tool changer, but I wouldn't pay for the software just set up on position G54 G55 and G56 and then you don't have to move the part I'm here yeah so you're thinking more like acting as a tombstone type thing which is fair I think that is actually something you can do in the free version of Fusion Yeah, yeah Are you actually gonna go full tombstone or are you you doing like the same the same part but you're only doing one face at a time effectively I've just realized something I forgot to put the things on the handles this comes with handles Let's do the handles first Let's get a handle on the situation See this is what it's like when you don't have a manual to follow You look really stupid on camera Not that I don't look stupid on camera naturally. I mean that it's it's part of my charm. It's part of who I am If I'm not looking stupid on camera then The world will be coming to an end soon deep enough, do you reckon? Yeah, I'll be deep enough Handles like a real product. I post on the Discord using the Inception Machines low profile bikes Oh I know who you are you furky Are you furky on the Discord I don't know why I like the name Furky so much handle furky just tickles me That's me oh cool nice finally meet you thanks for coming to the stream As much as seeing someone on stream is meeting them It's always weird because people have lots of different handles so figuring out who's who and remembering all the handles for Discord versus the handles for YouTube are just a pain. I'm gonna need longer bolts I'm gonna need a bigger boat I was gonna need longer bolts those are M 5x10s I need M5x12s for those of you who did watch the tramming video were the little like jokes like the Snoop Dog reference and the Rick and Morty reference too much should I should I leave them out in future I was a bit worried to keep those little additions in there I know some people find that kind of stuff annoying I like humor ah yes the German response sorry Thomas No This old Tony tone turns the humour to 11 yeah yeah I wish he kept posting more What was this last video? It was months ago I like them as well and trying to mount the dialing kid in the spindle Yeah, I thought that was a good one these stuff jokes like that I'm not worried about the kind of like on-topic self-contained jokes. It's the kind of mean culture jokes I'm more worried about because you know what at the end of the day and I hate to say this the 3D printing community is often I'm not saying it's always is often an older community You do have your youngins like you got Jacob from Construct 3D and Nero's not that old he's in his mid-30s nearly 40 it's it's rare that you'll see young young people though make your own in I that was the last one See I have this issue when I watch content I look at it and go that's probably not something I want to do and then I actually go back to the video and this is how I got into CNC stuff believe it or not When I got into CNC stuff, I didn't want to watch Tony's CNC videos, his CNC basics video. And then I actually watched it after watching the rest of his content, because I wanted to watch the rest of his content. And now we're here. Now we're here. I need a mouse. I need a clicky thing. Is my mouse gone? There it is. I need fusion up. I need a keyboard too. What was I looking for? Oh, yes. So I think I just need to check some measurements, just some rough stuff. This is a really awkward way to operate keyboard, I'm not going to lie. I will not lie to you. So yeah, I made these all 3D principal so that they could be more custom. So that is 10mm. Cool. So we'll see how well they do. I thought it was going to be in... I still think it's going to be a nice way to make this whole thing, this whole look a lot more clean, a lot cleaner. Steve's barely mid-40s. Yeah, okay. Alright. I have to straddle a line here. I have to straddle the line here. When I say young, I don't mean that people... When I say young people aren't really in the 3D printing community, I don't mean that it's full of old people. I mean it's more full of people who are in their mid to late 30s or older Which I don't think I wouldn't classify as old I just don't think I wouldn't classify them as young is what I'm more trying to get at Like I'm the youngest guy on my team I'm the youngest guy in the Millennium team Still annoys me that Nine Mile is probably the oldest in the teams at the moment. No, he's the second oldest in the team at the moment and he looks way younger than most other team. It's so unfair How old are me? I am how old are me? I am 25 26 this year it was like at Smurf you could tell where the young people were The guys who are next to me at Smurf were pretty much the youngest ones Inheritance Machining is great there was a there was a period of time where Inheritance Machining changed his style and I didn't like it as much. It was still entertaining, but I didn't like it as much and then he moved back to doing his old kind of voiceover style which I much much preferred I was still watching his content. I still do watch his content. I like the fact that he gets people to guess on what they think he's making every week. So like check something. I'm not gonna hold the knife in my mouth. That's probably a bad idea Thank you, Alexa. Try not murder me in the next robot uprising, please. I'll be nice. What are people saying? Sorry, fusion's up. Steve Knobs, you young whipper snappers, you my day we all had to walk 15 miles to find a maplin to buy our electronics. I do remember coming to the UK when I was younger and realized. Like if you don't know, I grew up in East Africa. I only moved here when I was 18? No, 19. When I was 19. Well, I technically moved here when I was 18, but then I spent a year in Canada after like three months of being here, so that I'm not counting that year. And I remember everything being so convenient. That was my first thing about being in the UK. Because when you come from Africa, everything in a first world country is convenient, and you don't realize it if you've lived in a first world country your whole life If money wasn't an option If money wasn't an object, sorry, get my terminology correct if money wasn't an object, was no object for you for just a project, not necessarily machine What would you build with Milo? It has to be CNC related It doesn't need to be CNC doesn't need to be your main tool it can just be a tool but what would you make using Milo Do you know what's really depressing 1999 was when I was born that is nearly 30 years ago To be honest I'd make a nice case for a small PC I'm gonna dedicate for controlling Milo with a touchscreen. Okay cool Robotic centa Okay Talk to me because I'm not knocking it I'm not gonna knock it I'm gonna I'm not gonna knock it What is your thought process behind that how would you how would you do it on a machine like Milo like what's your what what steps are you taking to be able to accomplish that on a machine like Milo Jose River damn I'm feeling old I feel old every day I wake up so we're even and I'm not even that old I'm not even old at all but I do have a bad back because I used to row and rowing gives you bad backs don't do exercise folks bad for you Don't do exercise don't go outside there's scary things outside This is coming from someone who worked in the outside for years To be honest I just came up with it. Okay fair Spare the moment then Of course I had to sell my shoes to buy resistors You were lucky to have shoes We just had bits of string and tire that we had to strap to our feet You lived in bloody luxury 73 I'll see myself out years old or that's when you were born I'm joking I'm joking Just realized I can collect the steel chips that escaped from my enclosure with a big magnet took my dumbass like two minutes staring at a magnet inside the case that attracted chips to realize we all have those brain party move movements moments We all have them even the most intelligent person on earth has dumb moments I feel so young here at the point I was born in 2004 Jesus Jesus Do you know what will always feel wrong to me is my dating pool is people who are born is technically still within people who are born post 2005 like that's still that's still socially acceptable for me to date someone who was born after 2005 well maybe not all the way after 2005 but a few years after 2005 I think I got everyone bought I think I got everyone beat born in 57 Fair enough Damn When was the Vietnam War don't actually know what year the Vietnam War was What was the Korean War? That's another one I don't know the date of everyone knows World War II no one knows the wars after that terms of dates unless you probably grew up in the States you probably know it if you're in the you grew up in the States I'm gonna shut up now But I mean your assessment that most of the printing CNC community are not young is pretty correct because like none of my friends are interested in this I tried to get them into exactly exactly and those and those of those people who are into it at a young age are probably doing it as part of another thing like I know a lot of the D?? D community the young people in the DND community because DD community is actually quite a young community nowadays I'm gonna turn you off goodbye The DND community is quite small sorry quite young believe it or not considering it's a game that was made in what the 70s I would say the three printed community is probably damn it broke something I broke it like print any extras can I God damn it Pain in the ass right I'm gonna use it just to space things out yeah CNC definitely is a much older community on average and remember folks you can still be a young person with an old soul also remember just because you're old doesn't mean you're wise oh yeah one of my friends asked me on behalf of his other friend group if he could print them figures out of resin had to tell them that my FDM printer is not going to fly yeah that's why I have the FDM printer behind me I got into D?? D after I got into 3D printing so it's the only reason I have a resin printer is to do D?? D stuff but because everyone I did play D?? D with has left my old job and I don't work there either anymore I don't print anything I don't use my resin printer I don't even play D?? D at all. I'd love to play D?? D. I would love to get back into it, but finding a group is hard for sure money is a big factor. I'm lucky I could get money back together from my student job for Milo, and I still felt it quite hard, and my tism makes me able to find ways to save up for stuff like that. Yeah, I mean, remember, the first ever Milo was built in a university dorm room where I was earning at the time less than 400 pounds a month, and I would forego meals to forego a few meals every day to pay for the parts for the first prototypes of Milo And I did that for I did the first few prototypes of Milo before the first release for two years Where there's a will there's a way out of space I have an amount of filament that is not healthy anymore Oh yeah, I ate bread for like a month so I could buy it. I didn't even get the bread hashtag sacrifice Dropping my scissors enough it might be a blood sacrifice soon good thing Brisket's protected All dogs are protected by God that is why dog is God backwards True words A falling knife has no handle very true But you know what does have handles the electronics box It's not a case of too much filament just the lack of creative storage solutions Yeah if the van stuff does go through finding storage for stuff is going to be yeah Especially because I want to bring Casa with me I want to bring Casa and Milo with me I'm still gonna be renting the container that we store all the extra parts for Milo and stuff with so I'll probably use that as like a home base whenever I'm doing stuff for like Atlas and stuff but I'm just gonna shave this down here a double decker bus one floor to live on the second floor is a workshop Nah What I do want to do I don't want to get a van van like a Mercedes Sprinter or anything like that I want to get a looting van or what in the States would be called a moving truck like one of those big box trucks That's the style of machine that I want to convert Whole point being that there's extra this is I never know known this I've never seen this happen but I do have some ideas So my granddad is a yachty he has been living on a yacht since he was 30 and he's 82 I think right now and on yachts you have almost every single floor is hollow and just every single floor is hollow and a looten van you have maybe nine eight or nine feet of headroom from floor to top and I'm six foot and most vans most vans when they get converted they only have about seven foot of clearance so you can get a whole foot of underfloor storage or another even more because I think they're actually more like 10 feet you can get two feet of underfloor storage and the loot and vans that I've seen converted have never ever once used that amount that storage so what I want to do is I want to raise the whole floor by about two feet and then I have underfloor storage so I can put everything like my battery packs all that stuff some bulk storage stuff and then where the rolling door is I want to have seats so the seats are going to come up and about where the back door is and underneath where the seats would be would be Milo would be Milo and Casa so I would just roll the door up or if I get a van with opening doors Casa would be there I'd have a printer there on one side and it just means that if I want to operate the mill I'd need to be outside of the van looking in but I think it would be possible and that way it doesn't eat into any of my living space By the way I have a solenoid valve for my mist cooling just thinking about using different cooling solutions so I can blast steel can solenides be used with liquids too yes yes they can I'd still check to make sure that they are rated for it I'm not sure if there's a rating if there's a rate there's a gas rating for it but I'm pretty sure you're not pressurizing over a couple of PSI once it's in the tube itself and I'm pretty sure most solenoids will be able to handle that pressure. Make sure it's pressure rated effectively, is what I'm saying I am such a f?? ing numpty There's my stabby thing gone There's my stabby I'm thinking maybe like flood would trigger the air solenoid and the steel coolant and other would trigger the air solenoid and 75% up here. Okay, so you want to have honestly if you if you've got the option for flood pulling there's no point in having if you've got flood coolant no point in having mist pullant you'll be you'll use flood coolant 99% of the time that's all of those in hopefully you can see it all right it's about as straight as a hooker's teeth but she'll do the job I imagine you on an RV camping yard starting at my thing is I would probably never go to an RV like a camping yard I'd probably just rode do it in lay buys and stuff like that oh I meant like flood would trigger the sol the air solenoid and the steel cooling solution so that the flowers to the mister not the okay okay I get you now sadly didn't have the patience to set up flood on my own fair enough yeah flood coolant is a flood coolant's extra it's a lot of extra effort for almost no it is I'm not gonna say that because it's actually a big game having flood coolant is a huge gain it is a it's a huge gain to your health because you're not having to suck in atomized coolant constantly and it's a huge gain to your cooling as well obviously cooling the parts this is why I don't I don't say people should make mist coolers I don't recommend it obviously do what you will take all the proper portions I know of a lot of horror stories of people who end up with serious forms of cancer because they're constantly inhaling atomized coolant so I don't touch it and I don't want the diesel I don't want diesel my parents dog I don't want brisket anywhere near anything that's atomized even when I'm doing resin printing he's not allowed in this room I'm gonna have to take out the fan as well I'll reinstall the fan afterwards though I'm planning on making another mill while I'm in uni while I'm on uni but that'll be a longer process because I want to have a moving table in Y but moving spindle in Z and X set up to do flood bit until Atlas is done that is exactly it's called a fixed gantry and that's exactly what Atlas is going to be so if you can wait a year It's gonna be a pain in the ass, isn't it? I mean, waiting is like a curse word for my ADHD. Fair enough If I'm honest, I don't know if Atlas if I'm being completely candid for people, I'm gonna take a moment to do be completely candid with people. I can't say right now whether or not Atlas will be a thing I can't say whether or not I'll be with the project in a year's time I can't say any of these things Burnout is a thing that happens and I've been burnt out on the project a few times so I've had to take time off I'm hoping I can only ever say that I'm gonna hope I'm hoping the project lasts and that we get to do some stuff It could be that my interest shifts in that time so I hope we get Atlas done I hope it goes well But I'm also not gonna bank on it Does that make sense? I hope that makes sense Meds help yeah Unfortunately I got diagnosed with ADHD in a country that doesn't really offer meds so if I and they won't accept my diagnosis here in the UK so I don't get that option unless I go through the whole process and wait five years to get tested and confirmed with our little ADHD is a five-year waiting waiting well process to get diagnosed with ADHD here in the UK Right Take a breath take a breath try the other rail for a bit I'm making my life a lot harder by doing it with all the electronics already on finish uni in that time not wait for my diagnos yeah Thing is I've had the diagnosis I know I have ADHD and it's a thing it's just that The NHS won't accept it. Okay, right. This isn't working with all the bits and pieces on, so I'm going to have to take the Din Rails. Everything off the Din Rails. Which is going to be a bit of a pain. And I can see that there's definitely been a drop-off on people watching. So I've lost people since 10, which is fine. Absolutely fine. People have other stuff to do in their life. What I'm going to do now that we have approaches precariously now case is done other than this panel, but I kind of need this panel off. I'm going to take some time. I'm going to take everything off of the Din Rails off of stream. I'm going to remount the Din Rails so that it's a little bit easier. It stops me from being forced to fuck around with all this stuff whilst it's still on the rails itself. And then next time, we'll get to actually wiring everything in here. So, thank you guys all for coming. I really appreciate having everyone around as per usual. It does make my life so much easier to have a great community and a great group of people. You saw nothing. Sorry, Brisket, let's get you There's a start granite surface plate, 900 million with legs for a grand on Marketplace. I wish I had place for it. Yeah, so thank you guys all for coming. It really does help. If you guys want to help out with the project or the YouTube channel or anything like that, please feel free to feel free to share the stream and also share that last video. I'm going to be focusing more on getting a lot more of those videos out. So on Discord, shoot through what videos you want to know me to do most in the next few months, whether it be a project video, whether it be a tutorial video, whether it be this, that, or the next thing. Thank you guys all for coming. I will see you guys next time. Bye now. You didn't want to take anything off anyway. Yeah. Bye. See you next time.",
+  "segments": [
+    {
+      "start": 316.6399841308594,
+      "end": 318.0799865722656,
+      "text": "Well, hello, hello, hello."
+    },
+    {
+      "start": 318.0799865722656,
+      "end": 320.3999938964844,
+      "text": "How is everybody doing?"
+    },
+    {
+      "start": 321.3674999523163,
+      "end": 322.00749993801116,
+      "text": "Thank you everyone."
+    },
+    {
+      "start": 322.00749993801116,
+      "end": 323.2875000286102,
+      "text": "I hope everyone's having a good day."
+    },
+    {
+      "start": 323.2875000286102,
+      "end": 325.0475000190735,
+      "text": "I'm going to try and open this with this."
+    },
+    {
+      "start": 325.0475000190735,
+      "end": 325.6874998855591,
+      "text": "Will it work?"
+    },
+    {
+      "start": 325.6874998855591,
+      "end": 326.4074996757507,
+      "text": "Probably not."
+    },
+    {
+      "start": 326.4074996757507,
+      "end": 326.7274998474121,
+      "text": "No."
+    },
+    {
+      "start": 326.7274998474121,
+      "end": 328.3274997520447,
+      "text": "But I do have a bottle opener."
+    },
+    {
+      "start": 328.3274997520447,
+      "end": 329.92749965667724,
+      "text": "I was just trying to be cool."
+    },
+    {
+      "start": 329.92749965667724,
+      "end": 331.2874993133545,
+      "text": "Right, how is everyone?"
+    },
+    {
+      "start": 331.2874993133545,
+      "end": 332.80749977111816,
+      "text": "I see Jose's with us."
+    },
+    {
+      "start": 332.80749977111816,
+      "end": 334.7274998474121,
+      "text": "I see Jack Landry's with us."
+    },
+    {
+      "start": 334.7274998474121,
+      "end": 336.3274992752075,
+      "text": "Brisket is such a good mannered dog."
+    },
+    {
+      "start": 336.3274992752075,
+      "end": 337.9274987030029,
+      "text": "No, he is fucking not."
+    },
+    {
+      "start": 337.9274987030029,
+      "end": 346.7274998474121,
+      "text": "He is the worst behaved dog I have ever met, and that is solely my fault, and I understand that entirely."
+    },
+    {
+      "start": 346.7274998474121,
+      "end": 350.96749961853027,
+      "text": "He's a friendly dog, but he's not very well behaved."
+    },
+    {
+      "start": 350.96749961853027,
+      "end": 352.32750022888183,
+      "text": "Is that a purebred good boy?"
+    },
+    {
+      "start": 352.32750022888183,
+      "end": 353.84749877929687,
+      "text": "Yes, yes."
+    },
+    {
+      "start": 353.84749877929687,
+      "end": 354.7274998474121,
+      "text": "Yes."
+    },
+    {
+      "start": 354.7274998474121,
+      "end": 357.84749877929687,
+      "text": "He's not a well-mannered dog, but he is a good boy."
+    },
+    {
+      "start": 357.84749877929687,
+      "end": 359.36749923706054,
+      "text": "He is a good boy."
+    },
+    {
+      "start": 359.36749923706054,
+      "end": 360.8074978637695,
+      "text": "Maurice is with us."
+    },
+    {
+      "start": 360.8074978637695,
+      "end": 362.7274998474121,
+      "text": "How are you all doing today?"
+    },
+    {
+      "start": 362.7274998474121,
+      "end": 364.08750045776367,
+      "text": "How are you all doing today?"
+    },
+    {
+      "start": 364.08750045776367,
+      "end": 367.0474995422363,
+      "text": "It's been nearly a month since we last did a stream."
+    },
+    {
+      "start": 367.0474995422363,
+      "end": 370.4874981689453,
+      "text": "It's been nearly a month since we've been about three weeks."
+    },
+    {
+      "start": 370.4874981689453,
+      "end": 374.1674984741211,
+      "text": "Been about three weeks since we last did a stream."
+    },
+    {
+      "start": 374.1674984741211,
+      "end": 376.4075001525879,
+      "text": "Why has it been three weeks since I last did a stream?"
+    },
+    {
+      "start": 376.4075001525879,
+      "end": 384.2475003051758,
+      "text": "Because getting parts self-sourced takes time and money."
+    },
+    {
+      "start": 384.2475003051758,
+      "end": 387.84749877929687,
+      "text": "But we have all of the parts now, I think."
+    },
+    {
+      "start": 387.84749877929687,
+      "end": 392.5675,
+      "text": "We've got everything that we need to finish off the electronic box."
+    },
+    {
+      "start": 392.5675,
+      "end": 394.5675,
+      "text": "We have got every single bit we need."
+    },
+    {
+      "start": 394.5675,
+      "end": 396.2475003051758,
+      "text": "I've got some ACM panels."
+    },
+    {
+      "start": 396.2475003051758,
+      "end": 400.32749450683593,
+      "text": "I've got all the electronics bits behind me into my sides and all that kind of stuff."
+    },
+    {
+      "start": 400.32749450683593,
+      "end": 401.84749877929687,
+      "text": "I've got beer."
+    },
+    {
+      "start": 401.84749877929687,
+      "end": 406.6475018310547,
+      "text": "I repeat, I've got beer, and that's the most important part."
+    },
+    {
+      "start": 406.6475018310547,
+      "end": 407.6874951171875,
+      "text": "Do or do not."
+    },
+    {
+      "start": 407.6874951171875,
+      "end": 409.7674969482422,
+      "text": "There is no try, so be cool."
+    },
+    {
+      "start": 409.7674969482422,
+      "end": 411.12749755859375,
+      "text": "Fair enough."
+    },
+    {
+      "start": 411.12749755859375,
+      "end": 412.0074948120117,
+      "text": "Yeah."
+    },
+    {
+      "start": 412.0074948120117,
+      "end": 416.9675015258789,
+      "text": "Also, we put our first tutorial video out."
+    },
+    {
+      "start": 416.9675015258789,
+      "end": 417.92750061035156,
+      "text": "How did everyone like it?"
+    },
+    {
+      "start": 417.92750061035156,
+      "end": 420.32749450683593,
+      "text": "Did anyone watch it?"
+    },
+    {
+      "start": 420.32749450683593,
+      "end": 422.2475003051758,
+      "text": "Did anyone in stream watch it?"
+    },
+    {
+      "start": 422.2475003051758,
+      "end": 423.3674954223633,
+      "text": "Do you guys like it?"
+    },
+    {
+      "start": 423.3674954223633,
+      "end": 425.12749755859375,
+      "text": "Is there anything you wanted to change about it?"
+    },
+    {
+      "start": 425.12749755859375,
+      "end": 427.2875012207031,
+      "text": "Should there have been more information?"
+    },
+    {
+      "start": 427.2875012207031,
+      "end": 434.0074948120117,
+      "text": "Because I tried to make it as kind of condensed as possible."
+    },
+    {
+      "start": 434.0074948120117,
+      "end": 434.8074978637695,
+      "text": "Was awesome."
+    },
+    {
+      "start": 434.8074978637695,
+      "end": 435.2875012207031,
+      "text": "Cool."
+    },
+    {
+      "start": 435.2875012207031,
+      "end": 436.0074948120117,
+      "text": "Nice."
+    },
+    {
+      "start": 436.0074948120117,
+      "end": 436.8074978637695,
+      "text": "Yeah."
+    },
+    {
+      "start": 436.8074978637695,
+      "end": 439.7674969482422,
+      "text": "The audio was the thing that I needed to, that I worried about."
+    },
+    {
+      "start": 439.7674969482422,
+      "end": 443.60750091552734,
+      "text": "I don't have the ears for good audio."
+    },
+    {
+      "start": 443.60750091552734,
+      "end": 453.6874951171875,
+      "text": "And I know that sounds weird, but I can't distinguish good audio from bad audio a lot of the time unless I'm very much concentrated on it."
+    },
+    {
+      "start": 453.6874951171875,
+      "end": 457.7674969482422,
+      "text": "Like, that's the only thing I do that day is deal with the audio."
+    },
+    {
+      "start": 457.7674969482422,
+      "end": 458.24749267578125,
+      "text": "Right."
+    },
+    {
+      "start": 458.24749267578125,
+      "end": 461.84749877929687,
+      "text": "Anyways, let's stop talking."
+    },
+    {
+      "start": 461.84749877929687,
+      "end": 467.6874951171875,
+      "text": "Right, I've got some ACM panels that I need to drill out as first thing first."
+    },
+    {
+      "start": 467.6874951171875,
+      "end": 476.96749389648437,
+      "text": "And I actually don't know off the top of my head how far away from each corner the holes need to be thingy from, drilled from."
+    },
+    {
+      "start": 476.96749389648437,
+      "end": 483.7674969482422,
+      "text": "I'm going to hop into fusion and I'm just going to project off the top surface."
+    },
+    {
+      "start": 483.7674969482422,
+      "end": 484.8874920654297,
+      "text": "I'm just going to measure it."
+    },
+    {
+      "start": 484.8874920654297,
+      "end": 487.2875012207031,
+      "text": "We're not going to do these two holes anymore."
+    },
+    {
+      "start": 487.2875012207031,
+      "end": 492.32749450683593,
+      "text": "I was doing them because I thought it would stop the panels from vibrating as much, but then I realized it's the electronics box."
+    },
+    {
+      "start": 492.32749450683593,
+      "end": 499.6874951171875,
+      "text": "It's not going to be vibrating because it's going to be away from the mill and it's just extra cost at the end of the day."
+    },
+    {
+      "start": 499.6874951171875,
+      "end": 505.84749877929687,
+      "text": "And I also kind of don't always get a sense, a good sense of scale when you're doing CAD stuff."
+    },
+    {
+      "start": 505.84749877929687,
+      "end": 509.04749572753906,
+      "text": "So you kind of think, oh, this is going to be way bigger than it's going to be."
+    },
+    {
+      "start": 509.04749572753906,
+      "end": 511.3675030517578,
+      "text": "It's going to need something to hold the panels down."
+    },
+    {
+      "start": 511.3675030517578,
+      "end": 516.2474926757812,
+      "text": "Well, in actual fact, it's that."
+    },
+    {
+      "start": 516.2474926757812,
+      "end": 517.1274975585937,
+      "text": "Ignore that."
+    },
+    {
+      "start": 517.1274975585937,
+      "end": 517.9275006103516,
+      "text": "It's that."
+    },
+    {
+      "start": 517.9275006103516,
+      "end": 518.6475018310547,
+      "text": "It's tiny."
+    },
+    {
+      "start": 518.6475018310547,
+      "end": 520.6475018310547,
+      "text": "You don't need the center holes anymore."
+    },
+    {
+      "start": 520.6475018310547,
+      "end": 525.8474987792969,
+      "text": "So I'm going to ignore those holes for now."
+    },
+    {
+      "start": 525.8474987792969,
+      "end": 527.8474987792969,
+      "text": "And we're going to try drill some ACM."
+    },
+    {
+      "start": 527.8474987792969,
+      "end": 528.1674908447266,
+      "text": "Right."
+    },
+    {
+      "start": 528.1674908447266,
+      "end": 532.2474926757812,
+      "text": "We need to make some measurements."
+    },
+    {
+      "start": 532.2474926757812,
+      "end": 539.7674969482422,
+      "text": "Right, so edge to edge is 13 millimeters."
+    },
+    {
+      "start": 539.7674969482422,
+      "end": 543.8474987792969,
+      "text": "Yeah, 13 millimeters and 10 millimeters."
+    },
+    {
+      "start": 543.8474987792969,
+      "end": 544.2474926757812,
+      "text": "Cool."
+    },
+    {
+      "start": 544.2474926757812,
+      "end": 549.7674969482422,
+      "text": "So center to edge."
+    },
+    {
+      "start": 549.7674969482422,
+      "end": 551.0474957275391,
+      "text": "Steve Knobs is here."
+    },
+    {
+      "start": 551.0474957275391,
+      "end": 552.807490234375,
+      "text": "Hello, hello, hello."
+    },
+    {
+      "start": 552.807490234375,
+      "end": 554.9674938964844,
+      "text": "Jose Rivera, very informed to Tranvi."
+    },
+    {
+      "start": 554.9674938964844,
+      "end": 555.5274914550781,
+      "text": "Thank you."
+    },
+    {
+      "start": 555.5274914550781,
+      "end": 556.1674908447266,
+      "text": "Thank you."
+    },
+    {
+      "start": 556.1674908447266,
+      "end": 557.9275006103516,
+      "text": "I tried really hard."
+    },
+    {
+      "start": 557.9275006103516,
+      "end": 563.6074932861328,
+      "text": "Another reason we haven't had a lot of streams in a while is because I've been concentrating on that video."
+    },
+    {
+      "start": 563.6074932861328,
+      "end": 568.0874890136719,
+      "text": "I've been concentrating on trying to get it to a decent standard."
+    },
+    {
+      "start": 568.0874890136719,
+      "end": 571.7674969482422,
+      "text": "I know it's very different from the first two videos I've put out."
+    },
+    {
+      "start": 571.7674969482422,
+      "end": 573.9275006103516,
+      "text": "I wasn't happy with the first two videos."
+    },
+    {
+      "start": 573.9275006103516,
+      "end": 574.9674938964844,
+      "text": "Hans is here."
+    },
+    {
+      "start": 574.9674938964844,
+      "end": 580.0075024414062,
+      "text": "Is Hans going to be trying out his steel on his Milo today?"
+    },
+    {
+      "start": 580.0075024414062,
+      "end": 585.2875012207031,
+      "text": "Or were you just teasing us?"
+    },
+    {
+      "start": 585.2875012207031,
+      "end": 586.9674938964844,
+      "text": "Ah, perfect timing."
+    },
+    {
+      "start": 586.9674938964844,
+      "end": 590.2474926757812,
+      "text": "Popped in whilst I'm abusing my Milo with steel."
+    },
+    {
+      "start": 590.2474926757812,
+      "end": 590.6474865722656,
+      "text": "Cool."
+    },
+    {
+      "start": 590.6474865722656,
+      "end": 596.0075024414062,
+      "text": "So I'm just going to, I need to do both panels, so I might as well do this."
+    },
+    {
+      "start": 596.0075024414062,
+      "end": 597.6075085449219,
+      "text": "Get both panels ready."
+    },
+    {
+      "start": 597.6075085449219,
+      "end": 616.0874890136719,
+      "text": "I'm just going to mark out 13 mil These holes are oversized, so they don't need to be perfectly exact."
+    },
+    {
+      "start": 616.0874890136719,
+      "end": 620.4874829101562,
+      "text": "And the sides that I am marking are going to go inside the machine, so you won't be able to see any of the scratch."
+    },
+    {
+      "start": 621.0830000023841,
+      "end": 626.602999923706,
+      "text": "The chicken scratches first cuts didn't sound happy."
+    },
+    {
+      "start": 626.602999923706,
+      "end": 639.4029991607665,
+      "text": "Oh, we need videos."
+    },
+    {
+      "start": 639.4029991607665,
+      "end": 644.682999847412,
+      "text": "Even if Milo's screaming like a pig."
+    },
+    {
+      "start": 644.682999847412,
+      "end": 645.4829990844726,
+      "text": "We need videos."
+    },
+    {
+      "start": 645.4829990844726,
+      "end": 648.2830002288817,
+      "text": "We need proof."
+    },
+    {
+      "start": 648.2830002288817,
+      "end": 651.8829987030028,
+      "text": "What's everyone been up to recently?"
+    },
+    {
+      "start": 651.8829987030028,
+      "end": 654.122998474121,
+      "text": "What has what projects have people been up to?"
+    },
+    {
+      "start": 654.122998474121,
+      "end": 655.8029987792968,
+      "text": "I've got a plan for a video."
+    },
+    {
+      "start": 655.8029987792968,
+      "end": 661.2429974060058,
+      "text": "I've got a plan for a video coming up, and it's going to be a dumb thing, and I don't want anyone to repeat it."
+    },
+    {
+      "start": 661.2429974060058,
+      "end": 662.5229999999999,
+      "text": "But I do have a plan."
+    },
+    {
+      "start": 662.5229999999999,
+      "end": 667.1629993896483,
+      "text": "The only thing is, I need to get my Milo back inside my enclosure."
+    },
+    {
+      "start": 667.1629993896483,
+      "end": 687.8830006103515,
+      "text": "And yes, over that three-week period, I still haven't put my Milo back in there because I spent a week of that three-week that three-week period filming the last video where I needed my Milo outside to do that to get B-roll for printing a life-size mammoth tusk."
+    },
+    {
+      "start": 687.8830006103515,
+      "end": 697.8029987792968,
+      "text": "Baby mammoth tusk or big mammoth tusk at 12."
+    },
+    {
+      "start": 697.8029987792968,
+      "end": 716.2030003051757,
+      "text": "I need 10 Actually, did I yes, I did."
+    },
+    {
+      "start": 716.2030003051757,
+      "end": 719.8029987792968,
+      "text": "Okay."
+    },
+    {
+      "start": 719.8029987792968,
+      "end": 721.0829975585937,
+      "text": "Oh, because I'm tight."
+    },
+    {
+      "start": 721.0829975585937,
+      "end": 763.1629993896483,
+      "text": "I'm thinking about compression pressing compression pressing the Kildoza mod back plate out of forged carbon fiber because ain't got no money to order it from steel why I've seen a few attempts at a carbon fiber mill honestly I would just do it out of aluminium Especially when you're thinking of what I think is your compression for your your forged carbon fiber which is even worse to do if you haven't done it before it What is it?"
+    },
+    {
+      "start": 763.1629993896483,
+      "end": 765.3230030517577,
+      "text": "What are the composite guys on YouTube?"
+    },
+    {
+      "start": 765.3230030517577,
+      "end": 768.0430042724608,
+      "text": "There's a composite YouTube channel."
+    },
+    {
+      "start": 768.0430042724608,
+      "end": 779.4029896240233,
+      "text": "I forget what they're called but they Thomas Sam Adder mentions them a couple times they make forged carbon fiber look so easy."
+    },
+    {
+      "start": 779.4029896240233,
+      "end": 800.3629963378905,
+      "text": "It is not it is one of the hardest things I've ever attempted to do because it's just so messy anytime you're working with epoxy is messy I mean carbon fiber is pretty stiff."
+    },
+    {
+      "start": 800.3629963378905,
+      "end": 810.7629902343749,
+      "text": "That's why I wanted to yeah it's pretty stiff, but you're not really adding any dampening mass Right."
+    },
+    {
+      "start": 810.7629902343749,
+      "end": 905.0029804687499,
+      "text": "Remember the epoxy in the epoxy granite kind of framework that you work along the epoxy doesn't add anything it doesn't add the stiffness it doesn't add the dampening all it is doing in epoxy granite is acting as a binder so it's the sand that does all the dampening so if you're taking a forged carbon fiber piece you're taking a material that doesn't that's just meant to act as a binder and you're combining it with another material that is well known for not being very good at dampening anything and stuffing them together so yeah you're gonna get a very stiff part but you're also gonna get a part that's gonna probably add nothing to the worst part of Milo just need to redo one of these 13 mil lines Okay, all right, I have never drilled ACM before I normally work with acrylic So I'm going to assume that this is going to be a pain in the ass Because if you assume everything's gonna be a pain in the ass you're just pleasantly surprised sometimes beer What do I need I need drill bits?"
+    },
+    {
+      "start": 905.0029804687499,
+      "end": 912.9229938964843,
+      "text": "That's what I need levels on That's not a bad argument honestly."
+    },
+    {
+      "start": 912.9229938964843,
+      "end": 915.8029987792968,
+      "text": "That's why I was thinking about something even crazy a while ago."
+    },
+    {
+      "start": 915.8029987792968,
+      "end": 920.0429890136718,
+      "text": "What were you thinking about there's no such thing as too crazy"
+    },
+    {
+      "start": 921.3714999690055,
+      "end": 947.4514992370605,
+      "text": "To mention to me, where's my drill?"
+    },
+    {
+      "start": 947.4514992370605,
+      "end": 966.4114983215331,
+      "text": "There's my drill like a backside stiffer that has forged carbon fiber faceplates and like granite epoxy cooling for weight."
+    },
+    {
+      "start": 966.4114983215331,
+      "end": 971.8514969482421,
+      "text": "See, I could get behind that more, because at least you're adding dampening mass."
+    },
+    {
+      "start": 971.8514969482421,
+      "end": 987.131495727539,
+      "text": "At least you're adding some kind of dampening mass to it."
+    },
+    {
+      "start": 987.131495727539,
+      "end": 990.3315003051757,
+      "text": "That actually cuts really nicely."
+    },
+    {
+      "start": 990.3315003051757,
+      "end": 1031.371501220703,
+      "text": "That cuts way nicer than acrylic than just straight acrylic does That is super nice Be very careful not to break any of these panels because if I do and then have to pay I have to wait another three weeks Yeah, so that video went really well the the tramming video went really well."
+    },
+    {
+      "start": 1031.371501220703,
+      "end": 1220.891490234375,
+      "text": "It's actually the most believe it or not the most popular video that we put out on the channel that wasn't an announcement video of some kind like a proper content wise so I think I'm gonna do more videos in future I think we're gonna do we're still gonna do streams but we might do one every once a week rather than once every few days or whatever and I'd like to get some more like projecty stuff so the tutorial stuff's cool and all but I also like to do some projects oh Thomas is with us the German sensation that is rocking the nation I run a normal dial indicator for myself so I can tram my Milo properly nice yeah see this is the thing right when LDO so I actually had Dave from LDO not Dave on the team come to my house he was in the UK for something and he came to my house to talk about Milo and the kit and what we should include in it I said an indicator and then he asked me what kind of indicator and honestly it was one of those things where you can add both indicators into the kit but then you add 50 bucks to the kit 50 to 100 bucks for both of them if you're having both of them together and I really wanted that first one of Milo to be to be as cheap as you could get it and still be a good kit also hey Thomas how are you doing so I said okay use a DTI because a DTI you can get you can tram with a DTI you can do a lot with a DTI and I think you can do a lot more with a DTI on average but it would have been nice to have both in the kit the same with things like one two three blocks like that's stuff that I don't expect that should come with kits especially when it's like precision stuff like things like dowel pins and and one two three blocks and stuff like that people have their tolerance for them especially like even collets people have their tolerance with them so they can be really really cheap which people then immediately throw away some people do at least or they can be expensive and then the people who don't want to spend too much money are stuck buying really expensive stuff and let's face it the stuff that comes with the kit is probably always going to air on the cheaper side okay adjusted cutting frames gonna send my milo against the steel again wish me luck good luck"
+    },
+    {
+      "start": 1222.0449999523162,
+      "end": 1493.4050036621093,
+      "text": "Good luck good luck Right whilst Hans is Hans is puckering hard and pushing his Milo to the limits I think it's a good time to remind everyone that if you do enjoy the stuff that we do here give us a like I'm not gonna ask you to subscribe I'm not gonna ask you to send any money or anything like that I just like a like every now and again because honestly that helps a lot but if you do want to go that extra little mile the perfect thing that you can do is share the video tell people about me right the last two days we've had the biggest spike in subscribers because of that video so I think it's a good time to tell people to share stuff Glenn how you doing we've got a Glenn in the house Mitatoyo or AliExpress for myself I get most of my tools for CNC from a place called from a company called Cutwell here in the UK and they sell insize brand tools they're they're kind of middle of the range they're not amazing they're not mid-toyo but they are kind of mid-range decently priced ones Acu in the UK also sells them which side is the matte side this is the matte side so this is a side I can bust up all right I believe I'm gonna make an uninformed guess here's funny there it is I told a good couple of my friends about Milo though sadly they don't share my tissm for it there yeah do you know what's really annoying really annoying I had an A1 mini Bamboo Labs A1 mini that I just I never used it so I gave it to my friend and my friend is he's he's a bit he's got his tisms um don't we all um and he took it to the place that I used to work at and he started taking prints out and he started showing people and I'd been talking about these machines for years and I talk about them in like a useful capacity like I'm making machines and designing things and stuff like this he is going off of he's going on principles he is going on maker world and he is taking whatever the print of the week is and showing people and there has been more interest in those from those people about 3D printing than I could ever get out of them talking about actual projects hey Jose Jose Ferreira this time how you doing yeah we'll definitely do more than that I want to do some project videos as well I'm not talking like oh I made this cool sign type projects video like I have a plan to do something with some climbing gear I'm gonna say this right now if you do watch that video if it does come out don't repeat what I'm about to do what I'm going to do in that video please don't it's going to be stupid but I will have all the necessary safety equipment set up for it but I want to do videos like that because that gets people who aren't in the wider kind of maker space it gets that gets people like that involved I still want to do all the tutorials and stuff hell yeah like those are still gonna be a thing but I want to do some practical applications for having a CNC machine because thousands of people can think of a practical reason to have a 3D printer you have a 3D printer oh you need to print a gasket oh you need to print a shelf a bookshelf oh you need to print a little toy it's an easy thing to market as a 3D printer I'm gonna mill my mild steel putter Jonathan Lagging lagging I'm gonna say it's lagging Jonathan Lagging Why have you not put that up on the Discord yet?"
+    },
+    {
+      "start": 1493.4050036621093,
+      "end": 1495.965001220703,
+      "text": "And if you have, why have I not seen it?"
+    },
+    {
+      "start": 1495.965001220703,
+      "end": 1500.204991455078,
+      "text": "It's crazy how small the community is."
+    },
+    {
+      "start": 1500.204991455078,
+      "end": 1504.1250048828124,
+      "text": "3D printing exploded, but CNC seems to be much slower on the hobby level."
+    },
+    {
+      "start": 1504.1250048828124,
+      "end": 1505.72498046875,
+      "text": "Yeah."
+    },
+    {
+      "start": 1505.72498046875,
+      "end": 1506.3649951171874,
+      "text": "Yeah."
+    },
+    {
+      "start": 1506.3649951171874,
+      "end": 1512.9249926757811,
+      "text": "It's because a 3D printer, once it's built, like you need your knowledge."
+    },
+    {
+      "start": 1512.9249926757811,
+      "end": 1519.6449938964843,
+      "text": "You need your knowledge base to build it if you're going from like a moron self-built perspective."
+    },
+    {
+      "start": 1519.6449938964843,
+      "end": 1520.2850085449218,
+      "text": "You need that."
+    },
+    {
+      "start": 1520.2850085449218,
+      "end": 1521.72498046875,
+      "text": "But after it's working..."
+    },
+    {
+      "start": 1522.5349999523164,
+      "end": 1529.5749996757509,
+      "text": "It's plug and play I'm at the wrong side."
+    },
+    {
+      "start": 1529.5749996757509,
+      "end": 1531.2549995040895,
+      "text": "Okay, this side's gonna be shiny."
+    },
+    {
+      "start": 1531.2549995040895,
+      "end": 1534.615000114441,
+      "text": "This panel's gonna have to be shiny."
+    },
+    {
+      "start": 1534.615000114441,
+      "end": 1535.3349994277955,
+      "text": "It's plug and play."
+    },
+    {
+      "start": 1535.3349994277955,
+      "end": 1600.614997253418,
+      "text": "It's um it's design your thing on fusion or get it off Make world press print and it goes CNC no matter how much you dumb it down will always be oh I need to set this up I need to tram this I need to indicate it I need to set a work coordinate system There's a lot more steps to it and whilst it's probably the more powerful technology It's at that point where there's still a small amount of craftsmanship that goes into actually creating a part and that's not to like say oh I'm better than anyone who 3D prints that's just kind of the that's the reason it hasn't taken as much hasn't taken the world by storm I think Where is my little stabby thing?"
+    },
+    {
+      "start": 1600.614997253418,
+      "end": 1652.1349938964845,
+      "text": "I put it away didn't I always do this on stream I posted the potter last year I think now that I've rebuilt my M43 with 48 volt motors I want to revisit steel nice But miles steel chips are less really annoying to deal with why they know I know I know because you're doing really thin chips aren't you and they let me guess they're really spiky and they get everywhere That's my guess tiny knives in my hands."
+    },
+    {
+      "start": 1652.1349938964845,
+      "end": 1679.8950036621095,
+      "text": "Yep That is a pain have you ever seen there's a Titans CNC video where is it Titan Gilroy the guy who owns the Titans of CNC company He does like snow angels in a big barrel of steel chips and he comes out with like half of them buried under his skin It was commitment to the bit on that one."
+    },
+    {
+      "start": 1679.8950036621095,
+      "end": 1820.2149804687501,
+      "text": "I'll give him that I don't like titans I don't like Titans of CNC that much, but I'll give them that hands you feel like Wolverine for a second you feel like Wolverine Do you just get like three chips and hold them between your fingers and go tiny Wolverine This is dumb, but I'm doing it anyway Oh just a heads up to you guys I'm not trying to preempt it because I haven't got the job yet but if I do get this job that I'm applying for I may be moving and if I may be moving I think I'm going to get a van I think I'm gonna get a van and I'm going to do some van lifing for a while Because I honestly think it'll be cheaper for me to do that have not have pay counts attacks not having to pay extortion amounts of rent because where I'm looking at the rent it's the rent to be able to have a dog is like a thousand pounds a month Because I'm looking at moving to a city and that's expensive So there may be some CNC van projects on the go some CNC van projects on the go right"
+    },
+    {
+      "start": 1822.245000014305,
+      "end": 1933.5249993896484,
+      "text": "And last little bit of preparation we need to need to thread some bolts and stuff I need to thread the end caps on the enclosure Okay, we'll do it dry What kind of job are you looking into It's an engineering job It'll be my first engineering job but the issue is the issue is so I bought this place with the help of my parents and it's such a good deal around here that if I decide to move to wherever this place is I would probably be taking home less money than if I had an engineering job than I would if I stayed here and just did a bar job or a waitering job or something like that Oh I've already tapped these I didn't realize I don't already tap these oh I'm a genius and I didn't even know it No So yeah, so it's this I'm in this this weird situation where if I even if I want this bar job sorry this this engineering job which is going to give me more money I would need to move for it and the costs of moving and renting a place would mean I would actually be taking home less money than if I stayed here and just became a waiter but I really want this job."
+    },
+    {
+      "start": 1933.5249993896484,
+      "end": 1940.0049951171875,
+      "text": "I really want to get into that industry so the way I'm thinking about it is because I own this place."
+    },
+    {
+      "start": 1940.0049951171875,
+      "end": 1956.3250024414062,
+      "text": "I can rent this place out so the whole idea is the rent from this place goes towards the kind of cost of living for the van for van."
+    },
+    {
+      "start": 1956.3250024414062,
+      "end": 1962.5649926757812,
+      "text": "So that's things like fuel, water, well electricity would be solar."
+    },
+    {
+      "start": 1962.5649926757812,
+      "end": 1996.1649987792969,
+      "text": "So I could figure that out myself But yeah, things like fuel water stuff like that I have some friends who do want to who said that they'd be willing to rent this place I just want to get out of the outdoors to be fair Yeah, outdoors is it's a great lifestyle, but that's it."
+    },
+    {
+      "start": 1996.1649987792969,
+      "end": 1998.0849969482422,
+      "text": "It's a lifestyle."
+    },
+    {
+      "start": 1998.0849969482422,
+      "end": 2005.364995727539,
+      "text": "It's not a good living All right, change parameters again."
+    },
+    {
+      "start": 2005.364995727539,
+      "end": 2090.485006103516,
+      "text": "Let's see if Milo will scream less now If it keeps screaming, we're gonna have to take you to Child Court Oh no oh no Let's see if this panel fits better Nope I fucked that up I fucked up I fucked up Right, what about the big panels the holes aren't in the right places I was just about to hold that in my mouth and I realized that that would probably be not great Okay, the big panels are fine The big panels are fine The big panels are fine That's okay, it's okay luckily Top panels I can just print those yeah best of luck with a new job opportunity great idea to rent out your current place."
+    },
+    {
+      "start": 2090.485006103516,
+      "end": 2124.2449853515627,
+      "text": "Yeah, so rent this place out use that money to kind of pay for my living I need to take out a small loan well a small loan a decent size loan and the rent would help pay towards that loan if you get what I'm get what I'm getting at But it'll be fun to try and fit a seat because I do want to take Milo with me"
+    },
+    {
+      "start": 2125.394999961853,
+      "end": 2299.394993286133,
+      "text": "I do want to take Milo with me on the road, so as it were So trying to figure that out the logistics of that Because even if I don't get the job honestly honestly if I've still rented this place out got the van had to pay back the van and all and the loan I would need to renovate it and all that stuff I would probably still be bringing home more money than if I still lived here and I'd have a van because van's fucking cool This could just be my ADHD just hyper-focusing on something and then in three days I'll just completely forget it's a thing But right now my brain is on van It also just means I'm not stuck anywhere I'm not I don't have that commitment of having to stay in a town and work or any job around this town or anything like that I could go and I could work wherever I wanted in the country I could do whatever I wanted in the country So even if the job doesn't work out and I don't have to have to move I still think the van's a good idea Carefully catch the holes mouse and move them yeah I could do the issue is The issue is that if I make them too big then the head of the bolts won't fit through and I think I would need to make them that size to get the threaded the holes in the right positions Like they're that fucked up fucked up they're that far off of center well not off of center but off of where they're meant to be Right let's brainstorm a little bit the bottom should be fine because the feet should hold it in place because so I'm gonna have to chase it Yeah, I think if I chased it with an 8mm a button head screw has a 10mm head or 10."
+    },
+    {
+      "start": 2299.394993286133,
+      "end": 2372.2749981689453,
+      "text": "5mm head so then 8mm that should be enough just looks like might just be enough and I think out of everyone in the community I've seen you been hyped the most to actually do projects and things I've seen more test cuts and projects and things from you than I think anyone else in the community We might just be able to get away with that Oh yeah, I love doing stuff with the mill and experimenting with it."
+    },
+    {
+      "start": 2372.2749981689453,
+      "end": 2380.7549938964844,
+      "text": "That's the thing like sometimes sometimes it's not even about the project itself or getting something out of it at the end."
+    },
+    {
+      "start": 2380.7549938964844,
+      "end": 2415.554981689453,
+      "text": "Sometimes it's just about fucking around with something cool Turn this around and put this on the top actually actually yeah we'll do it like that Also gonna it's just on the edge and I'll chase the other ones Risk gets fast asleep"
+    },
+    {
+      "start": 2425.989999914169,
+      "end": 2428.469999694824,
+      "text": "Just takes my ADHD off in the right way."
+    },
+    {
+      "start": 2428.469999694824,
+      "end": 2479.4299987792965,
+      "text": "Nice Yeah I get you I understand you got some HTP got some HDPE cutting boards to make the other day to make spoil boards nice I have one but I never got around to actually doing any cutting on it I was meant to do the spoil board that I cut the plates for V1."
+    },
+    {
+      "start": 2479.4299987792965,
+      "end": 2724.789984130859,
+      "text": "6 with that but I never got around to doing it and I just printed them instead I'd still say it's probably a better idea to have proper spoil boards and to have it done to do the HTPE ones those are probably going to be better and last longer Oh my I think I've some I've some I've made I've somehow made not bad cutting parameters chips are like brownish colour so they're taking heat away they are cool that's like brown is kind of your starting of the temper that kind of brownish straw colour is kind of like the starting of the temper colours for steel so that's good that's good Nice well done dude I saw you printed one in AVS found these for like eight euro should be good for two boards yes yeah um weirdly enough in the UK it was really hard for me to find like an online somewhere from somewhere online because I couldn't find any in the supermarket like Amazon was charging would only give me would only sell me a pack of like six big chopping boards I've actually got one of them down here It was a pack of these for like 20 bucks and it was the only way I could find them because my local supermarket didn't have any cutting boards for some reason or the ones that they did have were did have were like three mil thin I swear I feel more like lions tactics every day the more I drop things in this place Alright, I need to chase these old spoon Yeah, so what are people thinking about like go very all the way to the back of the stream to the back of the start of the stream all right and I mentioned I might be doing less streams and doing more videos all right are people okay with that do people want to do me to do less streams want me to do more videos want me to do less videos and more streams what is what are people's opinions on things and also speak about projects like I have an opinion I think doing more project-based stuff rather than purely Milo tutorial stuff will be a good idea because I think it'll bring a broader audience obviously we do the tutorial stuff as well but yeah what are people's thoughts on it I've got some TPU feet here some feet Though it was a bit scary to see a onemillimeter deep cut start at those speeds"
+    },
+    {
+      "start": 2725.9599999952316,
+      "end": 2728.040000038147,
+      "text": "Damn, you're going straight into this."
+    },
+    {
+      "start": 2728.040000038147,
+      "end": 2729.7199998664855,
+      "text": "You're going to a one mil deep one."
+    },
+    {
+      "start": 2729.7199998664855,
+      "end": 2734.7599993515014,
+      "text": "I like the streams, but I think if we are thinking about views and exposure, videos bring more."
+    },
+    {
+      "start": 2734.7599993515014,
+      "end": 2737.08,
+      "text": "Or at least that's what I saw on YouTube mostly."
+    },
+    {
+      "start": 2737.08,
+      "end": 2742.2799988555907,
+      "text": "Yeah, put it like this."
+    },
+    {
+      "start": 2742.2799988555907,
+      "end": 2744.6000004577636,
+      "text": "I think Nero agrees with me on this one."
+    },
+    {
+      "start": 2744.6000004577636,
+      "end": 2747.9599991607665,
+      "text": "Nero has said this on his streams as well."
+    },
+    {
+      "start": 2747.9599991607665,
+      "end": 2758.1999989318847,
+      "text": "YouTube videos are what bring people to the channel and actually add to the exposure."
+    },
+    {
+      "start": 2758.1999989318847,
+      "end": 2759.5599995422363,
+      "text": "I'm going to need longer balls."
+    },
+    {
+      "start": 2759.5599995422363,
+      "end": 2762.4400006103515,
+      "text": "YouTube videos actually bring people to the channel."
+    },
+    {
+      "start": 2762.4400006103515,
+      "end": 2774.6000004577636,
+      "text": "The streams probably make more money because obviously you get everyone who donates to the video or to the stream or whatever."
+    },
+    {
+      "start": 2774.6000004577636,
+      "end": 2777.1599980163573,
+      "text": "And you get your super chats and all that kind of stuff."
+    },
+    {
+      "start": 2777.1599980163573,
+      "end": 2780.519998626709,
+      "text": "You get all that fun stuff."
+    },
+    {
+      "start": 2780.519998626709,
+      "end": 2790.1999951171874,
+      "text": "But you kind of need to get to a point where you're able to have a lot of people show up for stream."
+    },
+    {
+      "start": 2790.1999951171874,
+      "end": 2794.359998779297,
+      "text": "Like Nero has 300 people up for stream."
+    },
+    {
+      "start": 2794.359998779297,
+      "end": 2805.2399960327148,
+      "text": "Before I took that like three-week break, I had like an average of 20 to 30 people join us."
+    },
+    {
+      "start": 2805.2399960327148,
+      "end": 2809.2399960327148,
+      "text": "And obviously, taking a break means there's less people."
+    },
+    {
+      "start": 2809.2399960327148,
+      "end": 2811.2399960327148,
+      "text": "Taking a break's never good on YouTube."
+    },
+    {
+      "start": 2811.2399960327148,
+      "end": 2813.1600018310546,
+      "text": "It's never a good idea to take a break on YouTube."
+    },
+    {
+      "start": 2813.1600018310546,
+      "end": 2822.279996948242,
+      "text": "I was kind of forced to take a break on YouTube because, well, I didn't have the stuff I needed to actually continue doing stuff."
+    },
+    {
+      "start": 2822.279996948242,
+      "end": 2827.399999694824,
+      "text": "And that's just a shame."
+    },
+    {
+      "start": 2827.399999694824,
+      "end": 2833.959997253418,
+      "text": "But it is what it is."
+    },
+    {
+      "start": 2833.959997253418,
+      "end": 2835.959997253418,
+      "text": "Oh, yeah, I learned that from when I started."
+    },
+    {
+      "start": 2835.959997253418,
+      "end": 2839.559995727539,
+      "text": "Remember my first MLs that got Ali welded to them?"
+    },
+    {
+      "start": 2839.559995727539,
+      "end": 2842.279996948242,
+      "text": "And that's when you guys told me if I go too conservative."
+    },
+    {
+      "start": 2842.279996948242,
+      "end": 2843.08,
+      "text": "Yeah, exactly."
+    },
+    {
+      "start": 2843.08,
+      "end": 2849.7999935913085,
+      "text": "I'd like to see more content on Milo usage, real life cutting videos or streaming."
+    },
+    {
+      "start": 2849.7999935913085,
+      "end": 2850.9999981689452,
+      "text": "Yeah."
+    },
+    {
+      "start": 2850.9999981689452,
+      "end": 2856.520002441406,
+      "text": "So has a question for another question for you guys."
+    },
+    {
+      "start": 2856.520002441406,
+      "end": 2858.4400006103515,
+      "text": "What CNC content do you guys watch?"
+    },
+    {
+      "start": 2858.4400006103515,
+      "end": 2865.319990234375,
+      "text": "Do you guys watch anyone else or anything else on CNC?"
+    },
+    {
+      "start": 2865.319990234375,
+      "end": 2869.800001220703,
+      "text": "Or is it just kind of maker stuff?"
+    },
+    {
+      "start": 2869.800001220703,
+      "end": 2872.600004272461,
+      "text": "Like, do you watch like Pray Tex designs?"
+    },
+    {
+      "start": 2872.600004272461,
+      "end": 2878.1999951171874,
+      "text": "Does anyone watch Pray Tex Designs or CNC or what are they called?"
+    },
+    {
+      "start": 2878.1999951171874,
+      "end": 2889.2400036621093,
+      "text": "Titans of CNC or any of that stuff."
+    },
+    {
+      "start": 2889.2400036621093,
+      "end": 2909.4799938964843,
+      "text": "You know, stuff where CNC might not be the end goal, but it is a tool that's being used because that's the type of content I actually watch."
+    },
+    {
+      "start": 2909.4799938964843,
+      "end": 2929.6399975585937,
+      "text": "I do try to avoid Titans of CNC, I will not lie, because I find this content to be quite in your face and annoying more than anything else."
+    },
+    {
+      "start": 2929.6399975585937,
+      "end": 2931.3999920654296,
+      "text": "But you really did a great job on that last one."
+    },
+    {
+      "start": 2931.3999920654296,
+      "end": 2932.039991455078,
+      "text": "Cheers, man."
+    },
+    {
+      "start": 2932.039991455078,
+      "end": 2933.319990234375,
+      "text": "I appreciate it."
+    },
+    {
+      "start": 2933.319990234375,
+      "end": 2935.559995727539,
+      "text": "I appreciate it."
+    },
+    {
+      "start": 2935.559995727539,
+      "end": 2938.279996948242,
+      "text": "It was a struggle to get out."
+    },
+    {
+      "start": 2938.279996948242,
+      "end": 2941.3999920654296,
+      "text": "I will not lie."
+    },
+    {
+      "start": 2941.3999920654296,
+      "end": 2943.8799877929687,
+      "text": "But that's because it was the first time we were doing it."
+    },
+    {
+      "start": 2943.8799877929687,
+      "end": 2945.9599896240234,
+      "text": "It was the first time I was doing it."
+    },
+    {
+      "start": 2945.9599896240234,
+      "end": 2950.520002441406,
+      "text": "And stuff's always hard the first time."
+    },
+    {
+      "start": 2950.520002441406,
+      "end": 2955.559995727539,
+      "text": "Or not hard the first time, if you get what I mean."
+    },
+    {
+      "start": 2955.559995727539,
+      "end": 2962.519987182617,
+      "text": "Giggity Project videos definitely bring in the most views."
+    },
+    {
+      "start": 2962.519987182617,
+      "end": 2965.319990234375,
+      "text": "The biggest videos I've seen around the topic were always like projects."
+    },
+    {
+      "start": 2965.319990234375,
+      "end": 2966.1199932861327,
+      "text": "Yeah, exactly."
+    },
+    {
+      "start": 2966.1199932861327,
+      "end": 2967.4799938964843,
+      "text": "Like, I want to make a PC case."
+    },
+    {
+      "start": 2967.4799938964843,
+      "end": 2969.559995727539,
+      "text": "I want to make a PC case one day."
+    },
+    {
+      "start": 2969.559995727539,
+      "end": 2981.2400036621093,
+      "text": "I want to do all the stuff that I built Milo personally to do."
+    },
+    {
+      "start": 2981.2400036621093,
+      "end": 2983.319990234375,
+      "text": "I want to make 3D printer parts."
+    },
+    {
+      "start": 2983.319990234375,
+      "end": 2986.999982910156,
+      "text": "I've got a Micron coming some stage in the next few months."
+    },
+    {
+      "start": 2986.999982910156,
+      "end": 2988.359998779297,
+      "text": "All parts for a Micron."
+    },
+    {
+      "start": 2988.359998779297,
+      "end": 2990.839979248047,
+      "text": "I'd like to do a bunch of those parts in CNC."
+    },
+    {
+      "start": 2990.839979248047,
+      "end": 2995.319990234375,
+      "text": "I'd love to do that."
+    },
+    {
+      "start": 2995.319990234375,
+      "end": 3012.759992675781,
+      "text": "I've been so caught up for the last three years in building Milo out for you guys that and I kind of thought, okay, if I build it, they will come type of situation."
+    },
+    {
+      "start": 3012.759992675781,
+      "end": 3014.759992675781,
+      "text": "And yeah, that's true for the most part."
+    },
+    {
+      "start": 3014.759992675781,
+      "end": 3024.279981689453,
+      "text": "The community that we have is awesome and that they did kind of do that where they wanted to do some CNC."
+    },
+    {
+      "start": 3024.279981689453,
+      "end": 3025.4799938964843,
+      "text": "They found some stuff."
+    },
+    {
+      "start": 3026.9500000143053,
+      "end": 3325.2699926757814,
+      "text": "Dee how you doing dude how are you doing awesome right look at that look at that we have side panels we have side panels we have feet it's looking awesome um I have done a couple things on the internals and the back plates off the stream so I'm just gonna run you over those before I continue uh effectively what I've what I've done I've added a Raspberry Pi I've changed the orientation of the power supply I would still say that if you got one of the Huanyang VFDs you're gonna have to do it sideways but luckily the whole spacing is the same so you can either mount it sideways or flat we're gonna be mounting it flat for this build on the back I have added the last two panels that we didn't do on the stream prior and I've added some grommets so you've got some cable grommets for the back on the front oh sorry on the back and on the front they are some keystone jacks so you can choose what I/O you want to put on the front and on the back on this build we're probably going to do one ethernet on the back one USB on the back and then one USB on the front and one HDMI on the front so that if you have if whoever gets this has a monitor that they want to hook up to the Raspberry Pi they can do so just going to tighten these feet up a little bit but now we get to do the fun part or the not so fun part depending on how much you enjoy doing wiring we've got some wiring to do oh actually no we don't I'm actually going to take all the electronics out I'm going to just take the I'm just going to undo the din rails and take the din rails out with all the electronics on them because I've got some stuff I've got some cable channels to put in so 3D printed cable channels Casey's looking good looks clean I could see a PC build in that case yeah yeah well might do one day who knows who knows I want to make some videos to though I'm getting a Wi-Fi cam for it so I can hook that up to RRF and also I can't I can't pass the guide the the duet guide for a Wi-Fi cam I don't understand I none of it makes sense it's like talking gibberish to me so if you can get one working please let me know how you've done it so I can do it because I really want to set up a Wi-Fi camera in here as well in my Casa Why am I doing that looks weird I just wanted to say it looks like PC case too yeah yeah get a whole ATX case in there whole ATX build yeah so I'm not gonna lie this was kind of inspired by the stuff that Rat Rig's doing with their with their electronics box I don't like their electronics box because it's A way too big of a box and B the electronics layout isn't the greatest from what I've seen but I will give credit where credit's due I think the box idea was a good idea and because open source is a thing they will be getting an open source credit because whilst we're not affect we're not stealing the idea from them it was an inspired thing I always like to make sure that even if we are inspired by something that we give them an open source credit in the manuals and things so rat rig will be getting one same with Voron same with everyone who's with all the big projects that have given inspiration to the project for this project the right thing to do you should see my electronics box that full-blown old PC case takes a huge then any update on the spice rack and full pack uh the four pack is currently in the middle of testing uh the four pack should be ready soonish"
+    },
+    {
+      "start": 3327.2349999713897,
+      "end": 3336.4349995422363,
+      "text": "Yeah, four packs should be ready soon-ish But Nine Mile is poor guy poor guy."
+    },
+    {
+      "start": 3336.4349995422363,
+      "end": 3345.6350003051757,
+      "text": "He's a brand new dad and he's really really struggling with doing that and testing everything."
+    },
+    {
+      "start": 3345.6350003051757,
+      "end": 3623.395002441406,
+      "text": "So hence why if you're in the Illuminate Illuminati you saw us put out a little call for aid for him so he needs to kind of think about how he's going to do deal with automatic tool changes in Moss Because we can have the hardware ready in the next few months really but unless he's able to get the software side of things going Not gonna do anything we can't really do anything Plans for index on Milo not on Milo but if we do do the if the micron build comes out and I have enough money to spend on a little index I'm gonna make that micron my little travel printer if the van works out as well So yeah we might do an index on the micron If you guys need beta testing with the tool changes to I'd be up there too like I said we know that the the module itself works all right we've done the testing well writes done the testing on it the little module that makes up both the four pack and the spice rack they work that doesn't need any more testing the stuff that needs testing is for example on the four pack there's a lid that needs to open and close and that needs a servo so we need to make sure the servo opens at the correct times and we need to be able to actually perform the tool changes and we need to make sure that there's a little bit of line a little line of text a little line of code that that allows it to be opened whenever the tool change occurs and then we also need to integrate it into other stuff so it's a it's a software issue at this point the hardware's done and unfortunately we only have one software guy uh nine mile nailed my voice settings nice nice i'm guessing you're flow you flow glen are you flow or are you someone else on the discord uh do the tool changes work like the rapid team um in principle yes but not in operating in operation so the rapid change acts in the same way an impact gun does it's basically if you don't know how an impact gun works it's a it's an arm that comes round and it whacks it so it's that's where the impact and impact guns are from it whacks the um the actual spindle and then slips off the other side because it kind of cams off the other side um and then it goes around and whacks and wax and wax and wax that's the same operator bridge as the rapid change right um whereas we the way we do it is we have teeth that only engage at a certain z height so the module the top of the module spins freely and then as it gets pressed down because there's a spring that keeps the two halves separate there's teeth on the bottom and teeth on the top and as it gets pushed down then the teeth engage so in terms of like a macro operator operation yes it's still a collet-based tool changer but in terms of how they actually operate and tighten everything up no uh also phil should be done well phil's working on the level return to nominal levels thank you alexa uh phil's working on the fourth axis so the fourth axis should also be out soon fourth axis is going to be a little bit easier to do on software because you just have to tell it it's a fourth axis but the hardware is going to take a little bit longer to do"
+    },
+    {
+      "start": 3628.4149998664857,
+      "end": 3631.4549998283387,
+      "text": "The tool changer in the video sounded like it would not last long."
+    },
+    {
+      "start": 3631.4549998283387,
+      "end": 3633.854999923706,
+      "text": "Are you talking about the street the one we did on the stream?"
+    },
+    {
+      "start": 3633.854999923706,
+      "end": 3650.3349994659425,
+      "text": "The one I was doing on the stream, I was trying to get away with some other stuff."
+    },
+    {
+      "start": 3650.3349994659425,
+      "end": 3657.134998703003,
+      "text": "I was trying to get away with some stuff that Bright's one didn't have, and I wasn't getting away with it."
+    },
+    {
+      "start": 3657.134998703003,
+      "end": 3659.054998779297,
+      "text": "I didn't get away with it."
+    },
+    {
+      "start": 3659.054998779297,
+      "end": 3663.2950004577638,
+      "text": "But I know that Bright's one has been tested a lot."
+    },
+    {
+      "start": 3663.2950004577638,
+      "end": 3670.654997253418,
+      "text": "Bright's design has been tested a lot more rigorously, and it's held up fine."
+    },
+    {
+      "start": 3670.654997253418,
+      "end": 3679.054998779297,
+      "text": "And it operates differently to the one I tested on stream."
+    },
+    {
+      "start": 3679.054998779297,
+      "end": 3681.8549980163575,
+      "text": "Alright, I need beer."
+    },
+    {
+      "start": 3681.8549980163575,
+      "end": 3683.214998626709,
+      "text": "Drink like Trump."
+    },
+    {
+      "start": 3683.214998626709,
+      "end": 3689.934996032715,
+      "text": "Have you ever seen that video of Trump has Trump has to drink water with two hands?"
+    },
+    {
+      "start": 3689.934996032715,
+      "end": 3708.495001220703,
+      "text": "I feel more American already fourth axis with a tool changer sounds like a dream from true for my lady."
+    },
+    {
+      "start": 3708.495001220703,
+      "end": 3710.8150009155274,
+      "text": "I have some bad news for you."
+    },
+    {
+      "start": 3710.8150009155274,
+      "end": 3714.5749954223634,
+      "text": "Fusion's fourth axis stuff is a paid feature."
+    },
+    {
+      "start": 3714.5749954223634,
+      "end": 3718.334997558594,
+      "text": "This is why it's taken us so long to do a fourth axis."
+    },
+    {
+      "start": 3718.334997558594,
+      "end": 3724.8150009155274,
+      "text": "We could have done a fourth axis pretty early on."
+    },
+    {
+      "start": 3724.8150009155274,
+      "end": 3728.654997253418,
+      "text": "Will then I even be designing a Swiss machine?"
+    },
+    {
+      "start": 3728.654997253418,
+      "end": 3736.0149978637696,
+      "text": "Probably not in some ways."
+    },
+    {
+      "start": 3736.0149978637696,
+      "end": 3744.254995727539,
+      "text": "A Swiss machine is actually easier to build than a lathe in some ways."
+    },
+    {
+      "start": 3744.254995727539,
+      "end": 3750.654997253418,
+      "text": "In other ways, it's a lot harder to build than a lathe."
+    },
+    {
+      "start": 3750.654997253418,
+      "end": 3770.4149993896485,
+      "text": "And a Swiss machine, the whole point of a Swiss machine Swiss machine is it's from a practical standpoint, it's a lathe with live tooling and sorry, no, it's not a lathe."
+    },
+    {
+      "start": 3770.4149993896485,
+      "end": 3912.25498046875,
+      "text": "It's a mill with a fourth axis that acts like a lathe that also has a bar feeder and it's the bar feeder bit that concerns me because then it's not a desktop machine anymore and then it becomes a lot harder to design any schisms Yeah, that's my goal for the fourth axis in tool changer, but I wouldn't pay for the software just set up on position G54 G55 and G56 and then you don't have to move the part I'm here yeah so you're thinking more like acting as a tombstone type thing which is fair I think that is actually something you can do in the free version of Fusion Yeah, yeah Are you actually gonna go full tombstone or are you you doing like the same the same part but you're only doing one face at a time effectively I've just realized something I forgot to put the things on the handles this comes with handles Let's do the handles first Let's get a handle on the situation See this is what it's like when you don't have a manual to follow You look really stupid on camera Not that I don't look stupid on camera naturally."
+    },
+    {
+      "start": 3912.25498046875,
+      "end": 3914.334997558594,
+      "text": "I mean that it's it's part of my charm."
+    },
+    {
+      "start": 3914.334997558594,
+      "end": 3922.334997558594,
+      "text": "It's part of who I am If I'm not looking stupid on camera then"
+    },
+    {
+      "start": 3923.154999985695,
+      "end": 3937.4750000381473,
+      "text": "The world will be coming to an end soon deep enough, do you reckon?"
+    },
+    {
+      "start": 3937.4750000381473,
+      "end": 3949.9549986267093,
+      "text": "Yeah, I'll be deep enough Handles like a real product."
+    },
+    {
+      "start": 3949.9549986267093,
+      "end": 4014.0349966430667,
+      "text": "I post on the Discord using the Inception Machines low profile bikes Oh I know who you are you furky Are you furky on the Discord I don't know why I like the name Furky so much handle furky just tickles me That's me oh cool nice finally meet you thanks for coming to the stream As much as seeing someone on stream is meeting them It's always weird because people have lots of different handles so figuring out who's who and remembering all the handles for Discord versus the handles for YouTube are just a pain."
+    },
+    {
+      "start": 4014.0349966430667,
+      "end": 4140.194992675782,
+      "text": "I'm gonna need longer bolts I'm gonna need a bigger boat I was gonna need longer bolts those are M 5x10s I need M5x12s for those of you who did watch the tramming video were the little like jokes like the Snoop Dog reference and the Rick and Morty reference too much should I should I leave them out in future I was a bit worried to keep those little additions in there I know some people find that kind of stuff annoying I like humor ah yes the German response sorry Thomas No This old Tony tone turns the humour to 11 yeah yeah I wish he kept posting more What was this last video?"
+    },
+    {
+      "start": 4140.194992675782,
+      "end": 4154.194992675782,
+      "text": "It was months ago I like them as well and trying to mount the dialing kid in the spindle Yeah, I thought that was a good one these stuff jokes like that I'm not worried about the kind of like on-topic self-contained jokes."
+    },
+    {
+      "start": 4154.194992675782,
+      "end": 4222.194992675782,
+      "text": "It's the kind of mean culture jokes I'm more worried about because you know what at the end of the day and I hate to say this the 3D printing community is often I'm not saying it's always is often an older community You do have your youngins like you got Jacob from Construct 3D and Nero's not that old he's in his mid-30s nearly 40 it's it's rare that you'll see young young people though make your own in I that was the last one See I have this issue when I watch content I look at it and go that's probably not something I want to do and then I actually go back to the video and this is how I got into CNC stuff believe it or not"
+    },
+    {
+      "start": 4223.359999952316,
+      "end": 4232.480000076293,
+      "text": "When I got into CNC stuff, I didn't want to watch Tony's CNC videos, his CNC basics video."
+    },
+    {
+      "start": 4232.480000076293,
+      "end": 4239.839998779296,
+      "text": "And then I actually watched it after watching the rest of his content, because I wanted to watch the rest of his content."
+    },
+    {
+      "start": 4239.839998779296,
+      "end": 4242.799999771118,
+      "text": "And now we're here."
+    },
+    {
+      "start": 4242.799999771118,
+      "end": 4253.75999885559,
+      "text": "Now we're here."
+    },
+    {
+      "start": 4253.75999885559,
+      "end": 4256.959997711181,
+      "text": "I need a mouse."
+    },
+    {
+      "start": 4256.959997711181,
+      "end": 4260.319998321533,
+      "text": "I need a clicky thing."
+    },
+    {
+      "start": 4260.319998321533,
+      "end": 4261.279997406005,
+      "text": "Is my mouse gone?"
+    },
+    {
+      "start": 4261.279997406005,
+      "end": 4262.479998168945,
+      "text": "There it is."
+    },
+    {
+      "start": 4262.479998168945,
+      "end": 4271.679998931884,
+      "text": "I need fusion up."
+    },
+    {
+      "start": 4271.679998931884,
+      "end": 4272.639998016357,
+      "text": "I need a keyboard too."
+    },
+    {
+      "start": 4272.639998016357,
+      "end": 4296.640001831054,
+      "text": "What was I looking for?"
+    },
+    {
+      "start": 4296.640001831054,
+      "end": 4301.759996948242,
+      "text": "Oh, yes."
+    },
+    {
+      "start": 4301.759996948242,
+      "end": 4316.960001525878,
+      "text": "So I think I just need to check some measurements, just some rough stuff."
+    },
+    {
+      "start": 4316.960001525878,
+      "end": 4320.799997863769,
+      "text": "This is a really awkward way to operate keyboard, I'm not going to lie."
+    },
+    {
+      "start": 4320.799997863769,
+      "end": 4324.63999420166,
+      "text": "I will not lie to you."
+    },
+    {
+      "start": 4324.63999420166,
+      "end": 4330.240000305175,
+      "text": "So yeah, I made these all 3D principal so that they could be more custom."
+    },
+    {
+      "start": 4330.240000305175,
+      "end": 4332.479998168945,
+      "text": "So that is 10mm."
+    },
+    {
+      "start": 4332.479998168945,
+      "end": 4332.959993896484,
+      "text": "Cool."
+    },
+    {
+      "start": 4332.959993896484,
+      "end": 4338.799997863769,
+      "text": "So we'll see how well they do."
+    },
+    {
+      "start": 4338.799997863769,
+      "end": 4341.839998779296,
+      "text": "I thought it was going to be in..."
+    },
+    {
+      "start": 4341.839998779296,
+      "end": 4354.959993896484,
+      "text": "I still think it's going to be a nice way to make this whole thing, this whole look a lot more clean, a lot cleaner."
+    },
+    {
+      "start": 4354.959993896484,
+      "end": 4358.319994506835,
+      "text": "Steve's barely mid-40s."
+    },
+    {
+      "start": 4358.319994506835,
+      "end": 4359.759996948242,
+      "text": "Yeah, okay."
+    },
+    {
+      "start": 4359.759996948242,
+      "end": 4360.959993896484,
+      "text": "Alright."
+    },
+    {
+      "start": 4360.959993896484,
+      "end": 4364.319994506835,
+      "text": "I have to straddle a line here."
+    },
+    {
+      "start": 4364.319994506835,
+      "end": 4367.679995117187,
+      "text": "I have to straddle the line here."
+    },
+    {
+      "start": 4367.679995117187,
+      "end": 4372.5599999999995,
+      "text": "When I say young, I don't mean that people..."
+    },
+    {
+      "start": 4372.5599999999995,
+      "end": 4379.599993286132,
+      "text": "When I say young people aren't really in the 3D printing community, I don't mean that it's full of old people."
+    },
+    {
+      "start": 4379.599993286132,
+      "end": 4425.759996948242,
+      "text": "I mean it's more full of people who are in their mid to late 30s or older Which I don't think I wouldn't classify as old I just don't think I wouldn't classify them as young is what I'm more trying to get at Like I'm the youngest guy on my team I'm the youngest guy in the Millennium team Still annoys me that Nine Mile is probably the oldest in the teams at the moment."
+    },
+    {
+      "start": 4425.759996948242,
+      "end": 4431.920000610351,
+      "text": "No, he's the second oldest in the team at the moment and he looks way younger than most other team."
+    },
+    {
+      "start": 4431.920000610351,
+      "end": 4435.119997558593,
+      "text": "It's so unfair How old are me?"
+    },
+    {
+      "start": 4435.119997558593,
+      "end": 4437.039995727539,
+      "text": "I am how old are me?"
+    },
+    {
+      "start": 4437.039995727539,
+      "end": 4478.880007324218,
+      "text": "I am 25 26 this year it was like at Smurf you could tell where the young people were The guys who are next to me at Smurf were pretty much the youngest ones Inheritance Machining is great there was a there was a period of time where Inheritance Machining changed his style and I didn't like it as much."
+    },
+    {
+      "start": 4478.880007324218,
+      "end": 4497.759981689453,
+      "text": "It was still entertaining, but I didn't like it as much and then he moved back to doing his old kind of voiceover style which I much much preferred I was still watching his content."
+    },
+    {
+      "start": 4497.759981689453,
+      "end": 4499.919985351562,
+      "text": "I still do watch his content."
+    },
+    {
+      "start": 4499.919985351562,
+      "end": 4506.39999633789,
+      "text": "I like the fact that he gets people to guess on what they think he's making every week."
+    },
+    {
+      "start": 4506.39999633789,
+      "end": 4513.199984130859,
+      "text": "So like check something."
+    },
+    {
+      "start": 4513.199984130859,
+      "end": 4515.679995117187,
+      "text": "I'm not gonna hold the knife in my mouth."
+    },
+    {
+      "start": 4515.679995117187,
+      "end": 4516.479982910156,
+      "text": "That's probably a bad idea"
+    },
+    {
+      "start": 4539.554999923706,
+      "end": 4543.554999923706,
+      "text": "Thank you, Alexa."
+    },
+    {
+      "start": 4543.554999923706,
+      "end": 4548.034999465943,
+      "text": "Try not murder me in the next robot uprising, please."
+    },
+    {
+      "start": 4548.034999465943,
+      "end": 4550.994998550415,
+      "text": "I'll be nice."
+    },
+    {
+      "start": 4550.994998550415,
+      "end": 4551.794999694825,
+      "text": "What are people saying?"
+    },
+    {
+      "start": 4551.794999694825,
+      "end": 4553.475,
+      "text": "Sorry, fusion's up."
+    },
+    {
+      "start": 4553.475,
+      "end": 4568.194997406006,
+      "text": "Steve Knobs, you young whipper snappers, you my day we all had to walk 15 miles to find a maplin to buy our electronics."
+    },
+    {
+      "start": 4568.194997406006,
+      "end": 4573.234998321534,
+      "text": "I do remember coming to the UK when I was younger and realized."
+    },
+    {
+      "start": 4573.234998321534,
+      "end": 4577.6349998474125,
+      "text": "Like if you don't know, I grew up in East Africa."
+    },
+    {
+      "start": 4577.6349998474125,
+      "end": 4580.354997253418,
+      "text": "I only moved here when I was 18?"
+    },
+    {
+      "start": 4580.354997253418,
+      "end": 4581.71499786377,
+      "text": "No, 19."
+    },
+    {
+      "start": 4581.71499786377,
+      "end": 4583.71499786377,
+      "text": "When I was 19."
+    },
+    {
+      "start": 4583.71499786377,
+      "end": 4590.914994812012,
+      "text": "Well, I technically moved here when I was 18, but then I spent a year in Canada after like three months of being here, so that I'm not counting that year."
+    },
+    {
+      "start": 4590.914994812012,
+      "end": 4598.1950012207035,
+      "text": "And I remember everything being so convenient."
+    },
+    {
+      "start": 4598.1950012207035,
+      "end": 4602.914994812012,
+      "text": "That was my first thing about being in the UK."
+    },
+    {
+      "start": 4602.914994812012,
+      "end": 4661.555001831055,
+      "text": "Because when you come from Africa, everything in a first world country is convenient, and you don't realize it if you've lived in a first world country your whole life If money wasn't an option If money wasn't an object, sorry, get my terminology correct if money wasn't an object, was no object for you for just a project, not necessarily machine What would you build with Milo?"
+    },
+    {
+      "start": 4661.555001831055,
+      "end": 4731.154992675782,
+      "text": "It has to be CNC related It doesn't need to be CNC doesn't need to be your main tool it can just be a tool but what would you make using Milo Do you know what's really depressing 1999 was when I was born that is nearly 30 years ago To be honest I'd make a nice case for a small PC I'm gonna dedicate for controlling Milo with a touchscreen."
+    },
+    {
+      "start": 4731.154992675782,
+      "end": 4821.234979248047,
+      "text": "Okay cool Robotic centa Okay Talk to me because I'm not knocking it I'm not gonna knock it I'm gonna I'm not gonna knock it What is your thought process behind that how would you how would you do it on a machine like Milo like what's your what what steps are you taking to be able to accomplish that on a machine like Milo Jose River damn I'm feeling old I feel old every day I wake up so we're even and I'm not even that old I'm not even old at all but I do have a bad back because I used to row and rowing gives you bad backs don't do exercise folks bad for you Don't do exercise don't go outside there's scary things outside This is coming from someone who worked in the outside for years To be honest I just came up with it."
+    },
+    {
+      "start": 4821.234979248047,
+      "end": 4821.63500366211,
+      "text": "Okay fair"
+    },
+    {
+      "start": 4823.039999969005,
+      "end": 5034.719993896484,
+      "text": "Spare the moment then Of course I had to sell my shoes to buy resistors You were lucky to have shoes We just had bits of string and tire that we had to strap to our feet You lived in bloody luxury 73 I'll see myself out years old or that's when you were born I'm joking I'm joking Just realized I can collect the steel chips that escaped from my enclosure with a big magnet took my dumbass like two minutes staring at a magnet inside the case that attracted chips to realize we all have those brain party move movements moments We all have them even the most intelligent person on earth has dumb moments I feel so young here at the point I was born in 2004 Jesus Jesus Do you know what will always feel wrong to me is my dating pool is people who are born is technically still within people who are born post 2005 like that's still that's still socially acceptable for me to date someone who was born after 2005 well maybe not all the way after 2005 but a few years after 2005 I think I got everyone bought I think I got everyone beat born in 57 Fair enough Damn When was the Vietnam War don't actually know what year the Vietnam War was What was the Korean War?"
+    },
+    {
+      "start": 5034.719993896484,
+      "end": 5099.279991455078,
+      "text": "That's another one I don't know the date of everyone knows World War II no one knows the wars after that terms of dates unless you probably grew up in the States you probably know it if you're in the you grew up in the States I'm gonna shut up now But I mean your assessment that most of the printing CNC community are not young is pretty correct because like none of my friends are interested in this I tried to get them into exactly exactly and those and those of those people who are into it at a young age are probably doing it as part of another thing like I know a lot of the D ?"
+    },
+    {
+      "start": 5099.279991455078,
+      "end": 5099.279991455078,
+      "text": "?"
+    },
+    {
+      "start": 5099.279991455078,
+      "end": 5120.079979248047,
+      "text": "D community the young people in the DND community because DD community is actually quite a young community nowadays I'm gonna turn you off goodbye The DND community is quite small sorry quite young believe it or not considering it's a game that was made in what the"
+    },
+    {
+      "start": 5121.314999995231,
+      "end": 5220.994997558593,
+      "text": "70s I would say the three printed community is probably damn it broke something I broke it like print any extras can I God damn it Pain in the ass right I'm gonna use it just to space things out yeah CNC definitely is a much older community on average and remember folks you can still be a young person with an old soul also remember just because you're old doesn't mean you're wise oh yeah one of my friends asked me on behalf of his other friend group if he could print them figures out of resin had to tell them that my FDM printer is not going to fly yeah that's why I have the FDM printer behind me I got into D ?"
+    },
+    {
+      "start": 5220.994997558593,
+      "end": 5220.994997558593,
+      "text": "?"
+    },
+    {
+      "start": 5220.994997558593,
+      "end": 5230.354998168945,
+      "text": "D after I got into 3D printing so it's the only reason I have a resin printer is to do D ?"
+    },
+    {
+      "start": 5230.354998168945,
+      "end": 5230.354998168945,
+      "text": "?"
+    },
+    {
+      "start": 5230.354998168945,
+      "end": 5233.394999084472,
+      "text": "D stuff but because everyone I did play D ?"
+    },
+    {
+      "start": 5233.394999084472,
+      "end": 5233.394999084472,
+      "text": "?"
+    },
+    {
+      "start": 5233.394999084472,
+      "end": 5245.874994812011,
+      "text": "D with has left my old job and I don't work there either anymore I don't print anything I don't use my resin printer I don't even play D ?"
+    },
+    {
+      "start": 5245.874994812011,
+      "end": 5245.874994812011,
+      "text": "?"
+    },
+    {
+      "start": 5245.874994812011,
+      "end": 5248.115000305175,
+      "text": "D at all."
+    },
+    {
+      "start": 5248.115000305175,
+      "end": 5249.074999389648,
+      "text": "I'd love to play D ?"
+    },
+    {
+      "start": 5249.074999389648,
+      "end": 5249.074999389648,
+      "text": "?"
+    },
+    {
+      "start": 5249.074999389648,
+      "end": 5249.714998779296,
+      "text": "D."
+    },
+    {
+      "start": 5249.714998779296,
+      "end": 5264.114992675781,
+      "text": "I would love to get back into it, but finding a group is hard for sure money is a big factor."
+    },
+    {
+      "start": 5264.114992675781,
+      "end": 5273.474993286132,
+      "text": "I'm lucky I could get money back together from my student job for Milo, and I still felt it quite hard, and my tism makes me able to find ways to save up for stuff like that."
+    },
+    {
+      "start": 5273.474993286132,
+      "end": 5330.994997558593,
+      "text": "Yeah, I mean, remember, the first ever Milo was built in a university dorm room where I was earning at the time less than 400 pounds a month, and I would forego meals to forego a few meals every day to pay for the parts for the first prototypes of Milo And I did that for I did the first few prototypes of Milo before the first release for two years Where there's a will there's a way out of space I have an amount of filament that is not healthy anymore Oh yeah, I ate bread for like a month so I could buy it."
+    },
+    {
+      "start": 5330.994997558593,
+      "end": 5419.234987792968,
+      "text": "I didn't even get the bread hashtag sacrifice Dropping my scissors enough it might be a blood sacrifice soon good thing Brisket's protected All dogs are protected by God that is why dog is God backwards True words A falling knife has no handle very true"
+    },
+    {
+      "start": 5428.52499961853,
+      "end": 5719.804992675781,
+      "text": "But you know what does have handles the electronics box It's not a case of too much filament just the lack of creative storage solutions Yeah if the van stuff does go through finding storage for stuff is going to be yeah Especially because I want to bring Casa with me I want to bring Casa and Milo with me I'm still gonna be renting the container that we store all the extra parts for Milo and stuff with so I'll probably use that as like a home base whenever I'm doing stuff for like Atlas and stuff but I'm just gonna shave this down here a double decker bus one floor to live on the second floor is a workshop Nah What I do want to do I don't want to get a van van like a Mercedes Sprinter or anything like that I want to get a looting van or what in the States would be called a moving truck like one of those big box trucks That's the style of machine that I want to convert Whole point being that there's extra this is I never know known this I've never seen this happen but I do have some ideas So my granddad is a yachty he has been living on a yacht since he was 30 and he's 82 I think right now and on yachts you have almost every single floor is hollow and just every single floor is hollow and a looten van you have maybe nine eight or nine feet of headroom from floor to top and I'm six foot and most vans most vans when they get converted they only have about seven foot of clearance so you can get a whole foot of underfloor storage or another even more because I think they're actually more like 10 feet you can get two feet of underfloor storage and the loot and vans that I've seen converted have never ever once used that amount that storage so what I want to do is I want to raise the whole floor by about two feet and then I have underfloor storage so I can put everything like my battery packs all that stuff some bulk storage stuff and then where the rolling door is I want to have seats so the seats are going to come up and about where the back door is and underneath where the seats would be would be Milo would be Milo and Casa so I would just roll the door up or if I get a van with opening doors Casa would be there I'd have a printer there on one side and it just means that if I want to operate the mill I'd need to be outside of the van looking in but I think it would be possible and that way it doesn't eat into any of my living space By the way I have a solenoid valve for my mist cooling just thinking about using different cooling solutions so I can blast steel can solenides be used with liquids too yes yes they can I'd still check to make sure that they are rated for it I'm not sure if there's a rating if there's a rate there's a gas rating for it but I'm pretty sure you're not pressurizing over a couple of"
+    },
+    {
+      "start": 5721.800000014305,
+      "end": 5729.799999656677,
+      "text": "PSI once it's in the tube itself and I'm pretty sure most solenoids will be able to handle that pressure."
+    },
+    {
+      "start": 5729.799999656677,
+      "end": 5737.960000457763,
+      "text": "Make sure it's pressure rated effectively, is what I'm saying I am such a f ?"
+    },
+    {
+      "start": 5737.960000457763,
+      "end": 5737.960000457763,
+      "text": "?"
+    },
+    {
+      "start": 5737.960000457763,
+      "end": 5760.44,
+      "text": "ing numpty There's my stabby thing gone There's my stabby I'm thinking maybe like flood would trigger the air solenoid and the steel coolant and other would trigger the air solenoid and 75% up here."
+    },
+    {
+      "start": 5760.44,
+      "end": 5993.4800085449215,
+      "text": "Okay, so you want to have honestly if you if you've got the option for flood pulling there's no point in having if you've got flood coolant no point in having mist pullant you'll be you'll use flood coolant 99% of the time that's all of those in hopefully you can see it all right it's about as straight as a hooker's teeth but she'll do the job I imagine you on an RV camping yard starting at my thing is I would probably never go to an RV like a camping yard I'd probably just rode do it in lay buys and stuff like that oh I meant like flood would trigger the sol the air solenoid and the steel cooling solution so that the flowers to the mister not the okay okay I get you now sadly didn't have the patience to set up flood on my own fair enough yeah flood coolant is a flood coolant's extra it's a lot of extra effort for almost no it is I'm not gonna say that because it's actually a big game having flood coolant is a huge gain it is a it's a huge gain to your health because you're not having to suck in atomized coolant constantly and it's a huge gain to your cooling as well obviously cooling the parts this is why I don't I don't say people should make mist coolers I don't recommend it obviously do what you will take all the proper portions I know of a lot of horror stories of people who end up with serious forms of cancer because they're constantly inhaling atomized coolant so I don't touch it and I don't want the diesel I don't want diesel my parents dog I don't want brisket anywhere near anything that's atomized even when I'm doing resin printing he's not allowed in this room I'm gonna have to take out the fan as well I'll reinstall the fan afterwards though I'm planning on making another mill while I'm in uni while I'm on uni but that'll be a longer process because I want to have a moving table in Y but moving spindle in Z and X set up to do flood bit until Atlas is done that is exactly it's called a fixed gantry and that's exactly what Atlas is going to be so if you can wait a year"
+    },
+    {
+      "start": 6051.184999847412,
+      "end": 6052.625000381469,
+      "text": "It's gonna be a pain in the ass, isn't it?"
+    },
+    {
+      "start": 6052.625000381469,
+      "end": 6077.984999084472,
+      "text": "I mean, waiting is like a curse word for my ADHD."
+    },
+    {
+      "start": 6077.984999084472,
+      "end": 6102.944998168945,
+      "text": "Fair enough If I'm honest, I don't know if Atlas if I'm being completely candid for people, I'm gonna take a moment to do be completely candid with people."
+    },
+    {
+      "start": 6102.944998168945,
+      "end": 6162.064993286132,
+      "text": "I can't say right now whether or not Atlas will be a thing I can't say whether or not I'll be with the project in a year's time I can't say any of these things Burnout is a thing that happens and I've been burnt out on the project a few times so I've had to take time off I'm hoping I can only ever say that I'm gonna hope I'm hoping the project lasts and that we get to do some stuff It could be that my interest shifts in that time so I hope we get Atlas done I hope it goes well But I'm also not gonna bank on it Does that make sense?"
+    },
+    {
+      "start": 6162.064993286132,
+      "end": 6332.704992675781,
+      "text": "I hope that makes sense Meds help yeah Unfortunately I got diagnosed with ADHD in a country that doesn't really offer meds so if I and they won't accept my diagnosis here in the UK so I don't get that option unless I go through the whole process and wait five years to get tested and confirmed with our little ADHD is a five-year waiting waiting well process to get diagnosed with ADHD here in the UK Right Take a breath take a breath try the other rail for a bit I'm making my life a lot harder by doing it with all the electronics already on finish uni in that time not wait for my diagnos yeah Thing is I've had the diagnosis I know I have ADHD and it's a thing it's just that"
+    },
+    {
+      "start": 6333.514999985695,
+      "end": 6383.1149978637695,
+      "text": "The NHS won't accept it."
+    },
+    {
+      "start": 6383.1149978637695,
+      "end": 6384.875,
+      "text": "Okay, right."
+    },
+    {
+      "start": 6384.875,
+      "end": 6389.194999694824,
+      "text": "This isn't working with all the bits and pieces on, so I'm going to have to take the Din Rails."
+    },
+    {
+      "start": 6389.194999694824,
+      "end": 6391.754997253418,
+      "text": "Everything off the Din Rails."
+    },
+    {
+      "start": 6391.754997253418,
+      "end": 6393.754997253418,
+      "text": "Which is going to be a bit of a pain."
+    },
+    {
+      "start": 6393.754997253418,
+      "end": 6399.034996032715,
+      "text": "And I can see that there's definitely been a drop-off on people watching."
+    },
+    {
+      "start": 6399.034996032715,
+      "end": 6400.875,
+      "text": "So I've lost people since 10, which is fine."
+    },
+    {
+      "start": 6400.875,
+      "end": 6401.674995422363,
+      "text": "Absolutely fine."
+    },
+    {
+      "start": 6401.674995422363,
+      "end": 6404.154998779297,
+      "text": "People have other stuff to do in their life."
+    },
+    {
+      "start": 6404.154998779297,
+      "end": 6416.154998779297,
+      "text": "What I'm going to do now that we have approaches precariously now case is done other than this panel, but I kind of need this panel off."
+    },
+    {
+      "start": 6416.154998779297,
+      "end": 6417.434997558594,
+      "text": "I'm going to take some time."
+    },
+    {
+      "start": 6417.434997558594,
+      "end": 6422.474998474121,
+      "text": "I'm going to take everything off of the Din Rails off of stream."
+    },
+    {
+      "start": 6422.474998474121,
+      "end": 6425.034996032715,
+      "text": "I'm going to remount the Din Rails so that it's a little bit easier."
+    },
+    {
+      "start": 6425.034996032715,
+      "end": 6433.434997558594,
+      "text": "It stops me from being forced to fuck around with all this stuff whilst it's still on the rails itself."
+    },
+    {
+      "start": 6433.434997558594,
+      "end": 6439.1149978637695,
+      "text": "And then next time, we'll get to actually wiring everything in here."
+    },
+    {
+      "start": 6439.1149978637695,
+      "end": 6441.514999389648,
+      "text": "So, thank you guys all for coming."
+    },
+    {
+      "start": 6441.514999389648,
+      "end": 6446.235000610352,
+      "text": "I really appreciate having everyone around as per usual."
+    },
+    {
+      "start": 6446.235000610352,
+      "end": 6453.034996032715,
+      "text": "It does make my life so much easier to have a great community and a great group of people."
+    },
+    {
+      "start": 6453.034996032715,
+      "end": 6458.074996948242,
+      "text": "You saw nothing."
+    },
+    {
+      "start": 6458.074996948242,
+      "end": 6467.514999389648,
+      "text": "Sorry, Brisket, let's get you There's a start granite surface plate, 900 million with legs for a grand on Marketplace."
+    },
+    {
+      "start": 6467.514999389648,
+      "end": 6469.595001220703,
+      "text": "I wish I had place for it."
+    },
+    {
+      "start": 6469.595001220703,
+      "end": 6471.514999389648,
+      "text": "Yeah, so thank you guys all for coming."
+    },
+    {
+      "start": 6471.514999389648,
+      "end": 6472.634994506836,
+      "text": "It really does help."
+    },
+    {
+      "start": 6472.634994506836,
+      "end": 6482.315002441406,
+      "text": "If you guys want to help out with the project or the YouTube channel or anything like that, please feel free to feel free to share the stream and also share that last video."
+    },
+    {
+      "start": 6482.315002441406,
+      "end": 6486.394989013672,
+      "text": "I'm going to be focusing more on getting a lot more of those videos out."
+    },
+    {
+      "start": 6486.394989013672,
+      "end": 6500.074996948242,
+      "text": "So on Discord, shoot through what videos you want to know me to do most in the next few months, whether it be a project video, whether it be a tutorial video, whether it be this, that, or the next thing."
+    },
+    {
+      "start": 6500.074996948242,
+      "end": 6502.315002441406,
+      "text": "Thank you guys all for coming."
+    },
+    {
+      "start": 6502.315002441406,
+      "end": 6504.074996948242,
+      "text": "I will see you guys next time."
+    },
+    {
+      "start": 6504.074996948242,
+      "end": 6505.754989624023,
+      "text": "Bye now."
+    },
+    {
+      "start": 6505.754989624023,
+      "end": 6508.714996337891,
+      "text": "You didn't want to take anything off anyway."
+    },
+    {
+      "start": 6508.714996337891,
+      "end": 6509.114990234375,
+      "text": "Yeah."
+    },
+    {
+      "start": 6509.114990234375,
+      "end": 6510.794998168945,
+      "text": "Bye."
+    },
+    {
+      "start": 6510.794998168945,
+      "end": 6513.9949951171875,
+      "text": "See you next time."
+    }
+  ]
+}

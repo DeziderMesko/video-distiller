@@ -10,6 +10,7 @@ from typing import Callable, Protocol
 from .audio import Chunk
 from .config import (
     DEFAULT_ONNX_PRECISION,
+    WHISPER_BATCH_SIZE,
     DEFAULT_PARAKEET_MODEL,
     DEFAULT_WHISPER_MODEL,
     SAMPLE_RATE,
@@ -253,11 +254,13 @@ class WhisperBackend:
     }
 
     def __init__(self, model_id: str = DEFAULT_WHISPER_MODEL, threads: int | None = None,
-                 language: str | None = None):
+                 language: str | None = None, batch_size: int = WHISPER_BATCH_SIZE):
         self.model_id = self.ALIASES.get(model_id, model_id)
         self._threads = threads or os.cpu_count() or 4
         self._language = language
+        self._batch_size = batch_size
         self._model = None
+        self._pipeline = None
 
     def _load(self, progress: Progress):
         if self._model is not None:
@@ -272,10 +275,20 @@ class WhisperBackend:
         try:
             self._model = WhisperModel(
                 self.model_id, device="cpu", compute_type="int8",
-                cpu_threads=self._threads,
+                cpu_threads=self._threads, num_workers=1,
             )
         except Exception as exc:
             raise TranscriptionError(f"could not load {self.model_id}: {exc}") from exc
+
+        # Batching the 30 s windows is what actually fills the cores; a single
+        # sequential decode leaves most of a 16-core box idle.
+        try:
+            from faster_whisper import BatchedInferencePipeline
+
+            self._pipeline = BatchedInferencePipeline(model=self._model)
+        except Exception:
+            self._pipeline = None
+            progress("batched pipeline unavailable; falling back to sequential decode")
         return self._model
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
@@ -283,9 +296,24 @@ class WhisperBackend:
         pieces = []
         for i, chunk in enumerate(chunks, 1):
             progress(f"transcribing chunk {i}/{len(chunks)} ({chunk.duration:.0f}s)")
-            segs, _ = model.transcribe(
-                str(chunk.path), language=self._language, vad_filter=True
+            # Greedy decoding, to match how the Parakeet backend is run, and
+            # without carrying context between windows -- conditioning on the
+            # previous text is both slower and the usual cause of Whisper
+            # repetition loops on long monologue audio.
+            options = dict(
+                language=self._language,
+                beam_size=1,
+                best_of=1,
+                temperature=0.0,
+                condition_on_previous_text=False,
+                vad_filter=True,
             )
+            if self._pipeline is not None:
+                segs, _ = self._pipeline.transcribe(
+                    str(chunk.path), batch_size=self._batch_size, **options
+                )
+            else:
+                segs, _ = model.transcribe(str(chunk.path), **options)
             found = [Segment(s.start, s.end, s.text.strip()) for s in segs]
             pieces.append((chunk.offset, found, " ".join(s.text for s in found)))
         text, segments = _merge(pieces)
