@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=8EXXnQp37gY",
+  "video_id": "8EXXnQp37gY",
+  "title": "Millennium Electronics Box : Ep 1 #3dprinting #millenniummachines #opensource #filament #cncmachine",
+  "uploader": "Millennium Machine Works Official",
+  "duration_seconds": 7186,
+  "upload_date": "20250418",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-09T19:51:29+00:00",
+  "audio_retained": false
+}
