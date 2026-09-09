@@ -1,0 +1,730 @@
+[00:00:00] Guess my heart and a consumer now You got me floating here a feather in the air But when the wind blows will I tumble or silhouette I know I'm spinning in a vicious cycle I'm scared of doing something I'll regret maybe this is right but I'm still staring at your silhouette What if I could be without you by my side What if I miss out on the last meant for a need by my side I'm not afraid We found something I don't never fade We can be ourselves and figure out the rest along the way I need a fire in my heart the air I breathe What if I'm incomplete without you by my side What if I miss out on the life meant for us I need by my side You think you've got my number figured out I'm on a born in drought and brevity And if I'm not the soul of your design I plainly decline your remedy Don't box me a dreamer I'd rather be free I'd rather be a leader I'd rather be a queen I'd rather be a singer in a trashy colour band I'd rather be a closer I'd rather be clean I'd rather be a poser in a magazine I'd rather be pretty much anything else than your machine I wasn't always just a single shade A palette full of grey in reverie And I can burn it brighter than the sun I have a golden gun inside of me I'd rather be a dreamer I'd rather be free I'd rather be a leader be a queen rather be a singer in a trashy cover band I'd rather be a closer I'd rather be clean I'd rather be a poser in a magazine I'd rather be pretty much anything else And if I fall behind all the signs the fight I still rage
+[00:05:05] How are we doing folks?
+[00:05:06] How are we doing?
+[00:05:08] Got Brisket here today with us Jake Mugging 40 streams port UK streamers.
+[00:05:15] Yes, we do need more people from the UK actually doing streams for once Right.
+[00:05:19] How's everyone doing?
+[00:05:21] How's everyone doing?
+[00:05:22] Right today, before we do anything else, I've got a couple things I need to do.
+[00:05:29] Right, if you want to send me anything during stream, there's now a channel dedicated to the stream stuff on the Discord.
+[00:05:35] So please all put it all in there.
+[00:05:36] Unless you want to do it privately, then obviously just DM me.
+[00:05:40] It just makes it so much easier whilst I'm on stream to actually be looking for all the resources that I get sent.
+[00:05:46] Also we need someone to send the first message in there to get rid of the new tag.
+[00:05:51] Hey, Jose, hey, Harage.
+[00:05:53] Hey, Ollie.
+[00:05:55] Who else was here?
+[00:05:58] Starting off a bit slower than usual with people.
+[00:06:01] I bet that's because, well, it's the middle of the week, isn't it?
+[00:06:04] Loads of people still need to come just dealing with stuff.
+[00:06:11] Right, what are we doing today?
+[00:06:13] What are we doing today?
+[00:06:13] That's it.
+[00:06:15] We are going to be continuing the tiny box build.
+[00:06:18] Right?
+[00:06:19] Jose, it's been a really long time since you've been here.
+[00:06:23] And we missed you, bud.
+[00:06:24] We missed you.
+[00:06:26] Right?
+[00:06:27] A lot of stuff has changed, including I got a fancy now new overhead camera.
+[00:06:31] So you can actually see what I'm doing in here.
+[00:06:32] You also might notice that I don't have the table, which there was always a feature I designed, but it just slides away.
+[00:06:39] So if you're wondering where the table's gone, it's just over here by my Jeff.
+[00:06:44] Good thanks.
+[00:06:47] How are you?
+[00:06:47] I'm not too bad.
+[00:06:49] I'm not too bad.
+[00:06:51] I've had a pretty good day.
+[00:06:52] It's been a day off.
+[00:06:54] I've been out with Brisket a few times.
+[00:06:57] Right.
+[00:06:58] If you look on the Doggo's channel on the Discord, you'll see him absolutely loving life, and that's just great to see.
+[00:07:06] I always forget the camera's up there now.
+[00:07:09] Right, so plan today is we're going to do...
+[00:07:12] We're going to start on the basement.
+[00:07:13] We'll probably finish the basement other than the panel that goes in the basement.
+[00:07:17] We'll be doing fitment for everything.
+[00:07:19] If you don't know what Tiny Box is yet, Tiny Box is the miniaturized Casa enclosure for Miley because Miley doesn't move left and right like Milo does.
+[00:07:29] So you can fit in a much smiler box smaller box.
+[00:07:34] So we're going to be continuing that.
+[00:07:35] So we're going to do the basement today.
+[00:07:37] We're going to start on the panels on the printed panels.
+[00:07:40] And then we're going to do a little bit of CAD work.
+[00:07:42] And I promised last stream and completely forgot about it that we were going to do, we're going to show off a bit of Atlas stuff.
+[00:07:49] So we'll show that off.
+[00:07:50] And I also want to take a look at Cascade because again, we said that we're going to do that.
+[00:07:56] I completely forgot about it.
+[00:08:00] I saw him so happy.
+[00:08:01] Yes, you such a happy boy.
+[00:08:03] You such a happy boy.
+[00:08:05] He hated me for the rest of the day because I rebuilt, effectively rebuilt the entire frame because I can't measure for shit.
+[00:08:13] And almost all the holes, except for the ones on the very ends, were in the wrong locations.
+[00:08:18] So the enclosure might have a few more holes than when you left when you last saw it.
+[00:08:24] But without further ado, let's actually get to it.
+[00:08:28] So if you haven't been here for the first stream, if you weren't here for the first stream on this, this is technically a Prussia sponsored build.
+[00:08:38] They're not sponsoring the parts or anything, but they did sponsor me the Core 1L.
+[00:08:42] So we are doing Prussia colours for this build.
+[00:08:45] So orange and black.
+[00:08:47] Now, if anyone can find me, Prussia doesn't do it themselves, but if anyone can find me an ABS glass-filled ABS that's really close to the Prussia Orange ASA, that would be fantastic.
+[00:09:05] I'm an Essex.
+[00:09:06] Ooh, fancy boy.
+[00:09:13] I'm guessing you are dear in Ali.
+[00:09:16] It's your job to remind me that we need to look at Atlas.
+[00:09:20] We need to look at Atlas.
+[00:09:22] So yeah, I had to drill a bunch of holes earlier, and Brisket, everyone knows what Brisket's like with holes and me drilling them.
+[00:09:32] God, everyone's from down south.
+[00:09:40] We need some northerners up here.
+[00:09:42] Say, I say that, but I'm also not.
+[00:09:46] I'm like, I'm northern, but I'm not northern at the same time.
+[00:09:49] I've got a southern accent, I suppose.
+[00:09:51] Alright, what am I looking for?
+[00:09:52] Looking for all these parts.
+[00:09:56] Oh, we also got some braces.
+[00:10:00] Yeah, so
+[00:10:02] These aren't technically necessary, but I just catted up a couple quick braces just to go in the corners to make things a little bit stiffer.
+[00:10:12] It's such a small enclosure that you probably won't need these.
+[00:10:16] I felt like the enclosure needed a few more orange accents, so those are going to be on the inside.
+[00:10:31] Sorry, near Oxford.
+[00:10:33] God, still all the southerners.
+[00:10:36] All the southerners.
+[00:10:39] Right.
+[00:10:40] Also, hi, Steve.
+[00:10:41] Right.
+[00:10:48] So I don't know.
+[00:10:51] What do people prefer?
+[00:10:53] So I'd have to make a completely custom piece for the center.
+[00:10:58] So that's probably gonna go in the center of each corner, of each side.
+[00:11:02] But if I make it...
+[00:11:05] I feel like that becomes a bit overpowering with the amount of millennium signs there are around the entire thing.
+[00:11:11] I can cat up another one that goes in the center, but it's going to be a different side.
+[00:11:15] Whereas this just gets printed and you have less parts that you need to worry about.
+[00:11:22] I'm going to do legs first.
+[00:11:25] We're going to do legs first.
+[00:11:27] Jake, where are you?
+[00:11:28] I live near the lake district.
+[00:11:30] I'm not going to tell you exactly where, just because I feel like that would be a bit too much information to go away, but I do live near the lake district.
+[00:11:42] Effectively, if I drive 10 minutes, I'm in the lake district.
+[00:12:01] Okay.
+[00:12:02] Right, we need some heat set inserts.
+[00:12:04] Did I bring is one of these boxes the one with my heat sets?
+[00:12:07] Yes, it is.
+[00:12:11] Alright, so we'll need some M5s.
+[00:12:16] Don't want the M6.
+[00:12:17] I want the M5s.
+[00:12:19] What's everyone else been up to today?
+[00:12:22] I'm sorry again.
+[00:12:23] I need to figure out a better solution for this with the cameras because you guys watching the back of my head is not very fun.
+[00:12:30] But I suppose for this bit, you can actually look at what I'm doing.
+[00:12:48] Yeah, nice area of the world.
+[00:12:49] It's not bad.
+[00:12:50] It's not bad.
+[00:12:51] I've lived here for I went to university in Ambleside.
+[00:12:56] So and university was I left four, five years ago now.
+[00:13:03] So it's been in the lake district basically since I've been in the UK so it's comfortable for me.
+[00:13:28] I have a feeling I've under oh there we go.
+[00:13:33] That's better.
+[00:13:33] I was trying to melt them down at 90 C.
+[00:13:36] That wasn't gonna work.
+[00:13:39] Why did I have it set to 90 C?
+[00:13:41] What was I doing that required it to be set to its lower setting Why are you not updating anyone's wondering what this whole monitor setup here is it's literally just an old phone of mine that's running Samsung decks It's not even my phone it's my mum's old phone But for simple stuff like this where you're literally just running a video in the background I've been back in the lake district back in 2005.
+[00:14:21] Yeah, I was six in 2005 I completely forgot which direction these are meant to go in they're actually meant to go in this way The music going up and down is a bit odd.
+[00:14:43] Yeah, it goes down so that you can actually hear me speak and when Jake, what's your plans for the trident?
+[00:14:52] None at the minute.
+[00:14:54] It's frustrated me to the point where I can't commit I'm not committing any more money to it
+[00:15:02] Well, at least not more than like a tenor a month or something like that.
+[00:15:06] It's just got to a point where I've spent so much money on it.
+[00:15:10] I don't really feel like doing much with it anymore.
+[00:15:13] And I don't have the space for it.
+[00:15:15] The Micron's going to be definitely a fun thing to play around with.
+[00:15:20] Just realize if my eyes are itchy and I'm handling glass fiber ABS, probably not a good idea to itch my eyes.
+[00:15:33] It's not the noise canceling.
+[00:15:34] It's called noise ducking.
+[00:15:35] So I haven't said an OBS to it lowers the music volume whenever I speak.
+[00:15:43] Whenever the input through my mic is coming through, it lowers the music by a lot because I was watching back some of my streams from months ago where you could barely hear the music.
+[00:15:57] It was basically just me.
+[00:15:58] And it was a bit awkward trying to fill silences sometimes.
+[00:16:16] I'll DM you if that's okay.
+[00:16:18] Yeah, sure, man.
+[00:16:19] Ooh.
+[00:16:29] I gotta get Discord downloaded on this, actually.
+[00:16:31] Actually, do I have Discord on here already?
+[00:16:37] No, that's a bad idea because the phone app for Discord doesn't have streamer mode.
+[00:16:42] I don't want to give anyone's details away.
+[00:16:46] Right.
+[00:16:47] So at the minute, I've just got TPU feet.
+[00:16:58] Nothing wrong with them.
+[00:17:00] I will need to probably ask LDO what size feet they want to include if they do do kits for this so that I can get the spacing right.
+[00:17:09] Because the whole thing is that this is a middle brace, hence why it's this goes down all the way to the floor or desk or whatever you're mounting it on and the feet need to be the same height.
+[00:17:26] So if you're using different feet, this isn't going to work.
+[00:17:30] So that's just a thing for dev for now.
+[00:17:32] I'm going to have to figure it out when LDO, if LDO decides to make a kit on these, I don't think they're going to make a Casa kit.
+[00:17:39] But we can always ask Kose What's needed for it?
+[00:17:50] What's needed for what?
+[00:17:51] What's needed for what, Jose?
+[00:17:56] Jake, you know, I was saying about the anodizing stuff in the UK work really where are you parking at?
+[00:18:09] You've got to go outside now.
+[00:18:12] Go on.
+[00:18:14] Go bugger about somewhere else.
+[00:18:19] Ghosts.
+[00:18:20] No one saw that, but a bunch of stuff just fell off my wall.
+[00:18:27] What's needed for the trident?
+[00:18:35] I don't know, really.
+[00:18:37] I have been trying to diagnose it for months.
+[00:18:44] I've swapped the controller board to a new octopus.
+[00:18:48] I've swapped the toolboard out.
+[00:18:54] I have swapped the upgraded the motion system, but something is happening with the extruder.
+[00:19:01] I've tried the different extruder motor.
+[00:19:02] I can't figure it out.
+[00:19:05] It's just, it's beyond my skill of 3D printing, of building 3D printers at this point.
+[00:19:13] I've rebuilt it from scratch three times.
+[00:19:18] It worked for the year and a half I had it.
+[00:19:20] Then I decided to do a bunch of upgrades to it, put a Nighthawk in there, do all that stuff.
+[00:19:25] And ever since then, I tried having a Galileo in it.
+[00:19:31] The Galileo didn't work.
+[00:19:32] Well, it did, but it was producing the same issue I had with the stealth burner.
+[00:19:37] So the only thing I could have thought at the time that was killing it was that the Nighthawk was being a bit iffy.
+[00:19:47] But then I went direct drive.
+[00:19:48] I did a hardwire from the main board to the stepper and the issues were still there.
+[00:19:58] I don't think it's anything to do with the LDO kit, because the LDO kit I got at the time.
+[00:20:03] It was the old version with the hard wired harness.
+[00:20:09] And that worked great at the time.
+[00:20:12] It was all the bits I did to it that were the issue.
+[00:20:27] But at this point in time, I have I like building 3D printers.
+[00:20:34] Don't get me wrong.
+[00:20:34] I've got the Micron, which I'm building at the minute, but I'm waiting for Atlas to be finished with that.
+[00:20:40] I can't commit a lot of time to building a trident.
+[00:20:45] That doesn't mean I don't think people should.
+[00:20:46] It just means that I don't have the time because I've got all this other stuff that I need to focus on for a bit.
+[00:21:03] It was just the extrusion thing.
+[00:21:04] It was extruding so inconsistently.
+[00:21:07] I tried different extruder gears.
+[00:21:09] I tried different extruders.
+[00:21:10] I tried different motors.
+[00:21:11] I've tried hardwiring it versus using two different tool boards.
+[00:21:16] I had two different Nighthawk boards.
+[00:21:19] So I don't think it was the Nighthawk that was the issue.
+[00:21:21] I've put about the same worth as the kit as the original price for the LDO kit back into it in upgrades.
+[00:21:36] And it's just gotten, it's never fixed that issue.
+[00:21:40] Again, not an LDO problem.
+[00:21:42] The kit that I received was perfect.
+[00:21:46] It was when I started to fuck around with it that we started getting issues.
+[00:22:04] Let me know if there's anything you can help with.
+[00:22:05] I mean, if I can get a main board for the Micron, that would be awesome.
+[00:22:14] I'm currently without a main board for Micron.
+[00:22:17] Ooh, and maybe a bed for the Micron, because I had the old LDO kit that Fabrico sent me for it.
+[00:22:27] But at the same time, I might want to mill my own bed, so ignore the bed.
+[00:22:33] I do want to do a one-piece CNC gantry, though.
+[00:22:36] So basically, take the gantry as it is, as it stands now and mill the motor mount into where the extrusions would be.
+[00:22:47] So it's all just a single piece that you plop on.
+[00:22:51] I don't have Leviathan.
+[00:22:52] No, I don't have a Leviathan.
+[00:22:58] Yes, it was the old LDO kit, the partial kit that you guys did that Fabrico had in stock, but was never going to sell because the new kit was coming out soon.
+[00:23:11] So heck the from Fabrico send it over for me to mess around with.
+[00:23:17] We did do a bit of it on stream.
+[00:23:21] I would like to help Jake if he accepts the rebuild.
+[00:23:25] Oh, cool.
+[00:23:26] Raj Raj, honestly, here's the bit.
+[00:23:39] If Jose says it's okay, and I would be happy for you to take the trident, get all the parts that are needed from LDO if you need them, if Jose's okay with it, obviously, and then put it back together so I can use it as a production machine again.
+[00:23:58] Because I do love my trident.
+[00:24:01] I do really love my trident.
+[00:24:03] I'm just not in a space where I can keep putting time into it.
+[00:24:21] We need button heads.
+[00:24:22] The problem is, I thought I was going to do a lot more work with Atlas, and Atlas uses all cat head screws.
+[00:24:28] So all my button heads are under here, and they're really inconvenient to get at every time I need one.
+[00:24:41] What are we thinking of your music choice today, guys?
+[00:24:44] I feel like I've been transported back to the early 2000s If multiple tool heads have been a problem, could it be a config?
+[00:25:00] It could be a config issue.
+[00:25:03] I'm not a clipper whiz could very well be an issue on my end.
+[00:25:12] I could just be incompetent, which, to be honest, is probably a fairly high likelihood of it being true.
+[00:25:20] That's definitely way too long.
+[00:25:23] Did I set these up for five by ten music is good, but I think the volume can go down a bit.
+[00:25:34] Okay, I built a V2 and I'm itching to work on a Trident.
+[00:25:55] Okay, Dog, I am happy for you to take it.
+[00:25:59] And even it, because I know the R2 Trident stuff has all come out as well, hasn't it?
+[00:26:03] Happy for you to take it.
+[00:26:05] But understand that the wiring is a rat's nest in there because I was basically scrapping of trying to get it done as cheaply as possible at the time for the rebuild.
+[00:26:21] So the wiring is a mess.
+[00:26:23] I didn't want to spend too much on it before I knew it worked.
+[00:26:27] The plan was always to get it to a working state and then get it to a working state and then I could worry about pretty up the wiring afterwards R2 not yet out but soon What was it?
+[00:26:49] What was the sticker that was on it the one at Rocky Mountain?
+[00:26:53] It was not Voron soon real soon When you have a mode you want to put your princess in Discord so we can have a look yeah I can do it means my trident's currently underneath Yeah, you're on the right camera Trident's currently underneath here so it would involve quite a lot of embarrassing getting on my knees and grunting and not the fun kind So I'll probably do that off-stream But I did work through it with oh another one another issue I was having and this was the final straw was the Nighthawk board the second one that I bought I updated it because obviously my clipper install was from two years ago it I got it connected again using Claude to help out but every time I power the board the machine back on it drops out That's what I get for trusting AI It's my granddad's old dining table by the way and I got it when he died And I've had it in the container for a very long time.
+[00:28:43] I even used it as my desk in the container for a bit but uh I really don't want to scratch it up any more than I already have because I do have eventually plan to have a proper build surface there proper built bench It was the first release version of the Nighthawk Because I had the LDO switchwire kit and that one worked flawlessly But it was the same the when the switchwire kit came out with the nighthawk in it the one I had it wasn't too long after the Nighthawk had just been released anyway and I know there was an issue with the V1 Nighthawks and I stole the Nighthawk that was off there after the Nighthawk that I'd bought had some issues So it's very possible that they might both be the V1 versions of the Nighthawk or the very early versions of them
+[00:30:05] When I say I got a newer Nighthawk, I got the Nighthawk that was off of the Switch wire when I gave the Switchwire away Also I'm really unhappy that LDO stopped doing the Switch wire.
+[00:30:23] I love the Switch wire.
+[00:30:24] It was my favorite printer to build I get that the margins on them was crap like I get the reason why you didn't do it no one really buys them but I love the switch wire needs a refresh Yeah, I know not many people were buying them don't trust AI it bought my mate to go to install for him told him to pseudo apt install fuse rather than fuse street.
+[00:30:59] Oh man, that sucks that sucks I do use it a lot.
+[00:31:05] I will not lie.
+[00:31:07] I use it a lot because I don't know how to do code.
+[00:31:10] I don't know how to code obviously so I use it for doing some dev stuff for things like the fourth axis and the tool changer stuff just to block ideas out and then I get the people who are actually competent being nine mile and Kada to do the proper work for stuff that I'm incapable of doing the right length screw.
+[00:32:32] I think those are the right length screw Yomangand sorry for being late getting my nine-year-old to bed.
+[00:32:43] Oh, no worries dude.
+[00:32:45] I'll put it on your your time sheet, but it won't go on your permanent record Not unless it keeps happening At which point we might need to get HR involved and by HR I mean brisket usually here the moment the stream is down yeah I know I know you are taking piss Yomangand is always here for stream Thomas is the one who's been lacking recently God think he was a part-timer Jose planning to do Phoenix kits when they come out when that machine's finally launched or is it just too big Yeah, what's up with Thomas?
+[00:34:11] I don't know.
+[00:34:12] I don't know That's what I'm asking dude Hey Philcia It's been a while since you've been one of our streams How you doing man how's your little side project doing going wink wink nudge nudge By side project I don't mean the fourth axis Phil is also working on the fourth axis Surely you understand that random internet people are more important
+[00:35:03] Family, of course.
+[00:35:05] All right, I don't care about random internet people, right?
+[00:35:08] But I need to feed Brisket, and this is how I support him.
+[00:35:11] So, if you're not here, you don't love brisket, and that I just cannot accept because you're always streaming when your evening is already booked.
+[00:35:30] What did we just say?
+[00:35:32] What did we just say?
+[00:35:34] Random people on the internet are more important than family members and other people you might be booked up for Brisket is important to random people on the internet.
+[00:35:49] Hell yeah.
+[00:35:51] Oh, he loved his loved his little day out in the grass today.
+[00:35:59] It's not often that it's clear enough for me to let him off the lead.
+[00:36:04] He's not a violent dog or anything.
+[00:36:06] Like, he's a very, very friendly dog, in fact.
+[00:36:09] The problem is that he's a bit too friendly and he likes to go around and say hi to people and jump up on them, and people don't like that all the time.
+[00:36:20] For the most part, it's been fine, but I don't like A, encouraging it, and B, I don't want someone to freak out and call the police on us because they think they're being attacked by a dog, especially with the amount of tourists we get around here.
+[00:36:53] I know this is upside down, but I don't think that looks too bad.
+[00:36:59] I don't think that looks too bad.
+[00:37:00] Considering the basement for Old Casa was like this tall, it's a lot shorter.
+[00:37:07] We don't have the ramped bits anymore, the bits that catch the little chip catcher ramps.
+[00:37:14] But yeah, also gonna just drop that because that light is coming up very what's it called on camera very easily on camera As always, I am constrained by money and time.
+[00:37:36] Hey, so am I So am I is it another Millennium project?
+[00:37:48] Yeah, well who knows who knows who knows we are not omniscient around here We are not gods Oh Jose just so that you know this is the total size and this is a lot more manageable than all CASA is it's other than four extrusions They're all the same extrusion So you don't need to worry about manufacturing loads of different types So it's all 700 mils and if you really wanted to you could drill them all to have the same blind holes and things like that It is top bottom panel the same side panels are the same one rear panel and one front panel that are both different from each other So this is like slightly bigger than a three a 350 trident kit would be in case people wanted to case LDO wanted to think about doing another trident another Casa enclosure I know the first one didn't go so well Wow, that's lots more yeah exactly exactly this is this has gone from it takes up your entire bench to oh if I could fit two printers on I can fit one of these If it does become an official project dude I love how you say if you need to polish it you still haven't finished the cat on it to be fair nor is the the Atlas card done so not mocking you or anything but like people gotta understand stuff takes time stuff takes time if it's anything CNC related I'm down yes it's all CNC related
+[00:40:03] I did want to do a couple of 3D printers at some stage, but all the ideas I had have unfortunately been beaten to it.
+[00:40:13] I wanted to do something similar to what's the print of that the bed tilt sideways.
+[00:40:23] It's Core XY, there's no bottom to it, the bed tilts back, and then everything drops down the bottom.
+[00:40:29] I wanted to do that, but a lot less complicated and just have the bed mounted sideways because I actually do think that that would be better for overhangs so long as you're following gravity.
+[00:40:43] I wanted to do a printer like that.
+[00:40:45] I wanted to do one that was like a Pantheon designs machine, but I couldn't.
+[00:40:50] I bit off a lot more than I could chew earlier this year, and I started, I kept starting new projects and never being able to actually commit all my time to it.
+[00:41:07] Done it again.
+[00:41:08] I've lost my screwdriver.
+[00:41:10] There it is.
+[00:41:11] I found my screwdriver.
+[00:41:13] Vertica, that's the one.
+[00:41:17] Just get a baby belt pro and use French clean mountain.
+[00:41:20] Yeah, but the baby belt can't do ABS.
+[00:41:23] Like it can print ABS, but it will warp like hell an elevator with the guy who makes the baby belt pro, I've completely forgotten his name.
+[00:41:42] I've completely banked up his name, but I did share an elevator with him.
+[00:41:58] The rack-mounted one we saw at Smurf.
+[00:42:00] No, not that, not the one at Smurf.
+[00:42:02] No, I like the idea of the rack-mounted one.
+[00:42:06] Oh, so I work in retail now.
+[00:42:09] I'm a manager in retail now, just because it's ever since I got brisket, it's made it a lot easier having an in-town job rather than out in the hills job.
+[00:42:20] So I've been there for three months, and I work in an outdoor store.
+[00:42:28] It's also I earn a lot more than I used to.
+[00:42:32] Still not crazy, but a lot more than I used to as an outdoor instructor.
+[00:42:41] Why is that?
+[00:42:41] Completely missed it really funny because we've just received a whole bunch of 3D printed like tag holders and one of our Merrill stands, our shoe stands, has a little 3D printed sensor in the bottom of it.
+[00:43:07] Or it's just a case that holds the sensor in place.
+[00:43:10] And I'm just thinking the print quality on these things is so awfully bad.
+[00:43:21] And they're probably paying three or four times as much as they need to.
+[00:43:28] Which reminds me, I do have my print calculator, which I need to release a video for at some stage.
+[00:43:37] Didn't you apply for some job and you can't relate to the thing at some point?
+[00:43:41] It was me.
+[00:43:42] It was me.
+[00:43:43] I have a mate of mine who does work in the nuclear sector.
+[00:43:48] I didn't get it.
+[00:43:50] I did not get it.
+[00:43:56] I got to like the second part of the interview because it was like a three-stage interview, but I didn't know it was a three-stage interview.
+[00:44:09] So when I got the job, when I got the bit saying that I got to the next stage, I thought I got the job and then turns out I didn't the case with commercially 3D printed stuff.
+[00:44:33] Yeah, I just get that people who work in an office don't know what a 3D printed part looks like.
+[00:44:43] But you can tell when something looks shit or not like overhangs are droopy as hell.
+[00:44:53] You could pull parts off of it.
+[00:44:55] The infill and wall structure is laughably bad so you can literally press through.
+[00:45:02] Most of the structure that's there.
+[00:45:10] I feel like half the time when 3D printing is integrated into commercial stuff, it's not because it's actually using the advantages of 3D printing.
+[00:45:20] It's just because 3D printing sounds cool, by the way, Jake, did I tell you started?
+[00:45:44] I'm also nice, dude.
+[00:45:47] Nice.
+[00:45:49] Is it the same as in the UK?
+[00:45:51] Because I know the UK system used to be the same as the European system, where you have to get a CVT first, and then you go for your A1 license, A2 license, and then a full A license.
+[00:46:09] I've just bought myself a Honda car.
+[00:46:12] So I'm actually trying to get out of motorcycling everywhere.
+[00:46:17] When I say I, I mean my dad loanweaver gave me half of the loan for it.
+[00:46:23] I took the other half out as a loan.
+[00:46:28] And it's currently sat outside.
+[00:46:33] I've driven it a few times.
+[00:46:34] Don't get me wrong.
+[00:46:35] I drive it at least once a week.
+[00:46:36] I just, I have to have someone who's been driving for three years with me as my accompanied driver or accompanied thing so I can actually drive it because it was costing me too much to do driving lessons every week.
+[00:46:52] I tell you what, if you wanted to be making money and doing the least possible work, become a driving instructor right now.
+[00:47:07] Right, they get paid nearly 25 pounds an hour on average, which is ridiculous considering the fact that you sit there all day.
+[00:47:33] Your A2 license comes after your A1 license.
+[00:47:37] It's really weird.
+[00:47:38] So it goes CBT A1, which is basically just a CBT, but you're allowed on motorways and autobans and stuff.
+[00:47:46] But so you're still limited to 125s.
+[00:47:49] A2 is limited to 42 kilowatts, I think, or 42 horsepower, something like that, or limited to 42.
+[00:48:01] So you can get a bigger bike and have it limited down.
+[00:48:04] And then A license is you're allowed to ride whatever you want.
+[00:48:13] Yes, tell me about it.
+[00:48:14] £25 here is about £40.
+[00:48:17] Jesus Christ.
+[00:48:20] 48 brake horsepower, I think.
+[00:48:22] That's the one.
+[00:48:30] What Honda?
+[00:48:31] It's a CR-V.
+[00:48:32] The only reason I bought one, a Honda CRV, is because it's a Honda, and I am a long time fan of Honda's through motorcycles.
+[00:48:43] So I wanted something that was reliable.
+[00:48:47] And B, it has fold flat seats, so I can put a mattress in it and go camping in it.
+[00:48:54] I've got a travel router that I used to use in the container that's currently hooked up to one of the USB ports of the Honda.
+[00:49:02] So whenever I'm anywhere and I don't have an internet signal, I just plug that in.
+[00:49:09] So my Honda has Wi-Fi.
+[00:49:16] Sorry, it's not the CR.
+[00:49:17] Did I say CRV?
+[00:49:18] I said, I meant to say HRV.
+[00:49:21] So it's the little brother to the CRV.
+[00:49:27] But yeah, I wanted the CRV originally, but they go really, really quickly whenever they're on the used market.
+[00:49:35] And the HRV was a similar price, slightly smaller, which is good for the UK.
+[00:49:41] Slightly better on fuel economy.
+[00:49:44] But obviously, like it's a slightly smaller car and it's not as comfortable.
+[00:49:57] Oh, yeah.
+[00:49:59] Jose's definitely on our Discord So Phil, did you hear that Duet has already released the Duet screen?
+[00:50:28] It's like you can physically buy it at some vendors.
+[00:50:32] I thought we were going to be getting one for free so that we could make stuff.
+[00:50:40] That's at least what Tony said.
+[00:50:42] When I say for free, I mean you've been donated to the project.
+[00:50:45] Tony's from Duet is being really nice about it.
+[00:50:49] But yeah, we're planning to move from the Pi and Pi screen and Linux install that we had on the pendant that was at Smurf to just doing it on board.
+[00:51:00] And that way you're effectively just setting everything over can.
+[00:51:04] I think it's connected via CAN Phil probably has a better idea of that because you actually went over to the Duet booth and talked to Jay from Bloomy Yeah, see a German distributor.
+[00:51:34] Okay, cool.
+[00:51:36] I feel like we need to get our hands on one.
+[00:51:38] Can anyone have a look real quick?
+[00:51:40] Like Phil, how much does it cost?
+[00:51:44] And if anyone's in the UK, if you can find the new Duet board anywhere and tell me how much it costs, that would be amazing.
+[00:51:52] That would be a real help.
+[00:51:54] Obviously, I can do it myself, but I'd have to stop stream for a second.
+[00:52:07] I still like the idea of using a cheap tablet I picked up on Amazon Fire.
+[00:52:09] You can do that.
+[00:52:12] And that's how a lot of people have been doing it.
+[00:52:14] It's just a bit of a pain when you're constantly tapping the screen to do movement.
+[00:52:20] Pennants are a lot nicer and there's nothing wrong with it.
+[00:52:27] I used, I basically used a BTT pendant for a while.
+[00:52:33] Not pendant.
+[00:52:33] BTT Pad 5, or it was the Pad 7 or something like that.
+[00:52:39] It was a 7-inch touchscreen, which I had a small Linux distro hooked up on a Raspberry Pi, and I was doing it that way.
+[00:52:45] Which is basically the same as having a tablet and just using the touchscreen on it.
+[00:52:48] It does become a little bit annoying, constantly dealing with the disconnects for one, having to wait a certain amount of time.
+[00:52:56] I know it's not long, but having to wait that split second between sending and actually sending a command and the controller actually receiving the command It's not as dexterous, so you can't do the quick, quick jogging with it, and there's no way to make it safe in terms of industrial stuff.
+[00:53:21] So you don't need the pendant, but the pendant makes your quality of life a little bit.
+[00:53:26] It improves your quality of life a little bit Maybe we could have Discord core with Jake and Jose during this up to Jose Jose is being the really really nice one here and saying that he'll get it sorted so whether or not he wants to do it is up to him.
+[00:53:52] I'd be down for it And Jose just because I'm up for it doesn't mean I'm pressuring you into want to doing it either Also The producer's been printing perfectly absolutely lovely I've got no complaints for it so far But hell I am so happy to be running a Marlin machine I never thought I'd say that I'm so happy to be running a Marlin machine because some of the stuff with Clipper was really annoying me and the bamboo printers have been annoying me a lot lately because they can print ABS GF at the same speed as their ABS right but if you have an AMS hooked up and you're trying to reprint a job right it doesn't it doesn't let you do it because the ABS GF doesn't match up with the print profile for normal ABS
+[00:55:00] Which is really annoying.
+[00:55:01] Whereas the Prussia just asks you to make sure that the material is the same type.
+[00:55:06] It doesn't check it itself.
+[00:55:07] It just knows that it's loaded or not.
+[00:55:10] And you can skip it if it's not the right material.
+[00:55:12] So you can just press print.
+[00:55:14] You can just press print.
+[00:55:16] I didn't think I would be so annoyed by that until I went from using the bamboo stuff constantly to using something that runs Marlin again.
+[00:55:34] There's no faff involved with it.
+[00:55:36] It just does it.
+[00:55:45] And right now, that's all I want in a printer.
+[00:55:48] It's just something where I can press it and goes I love the AMS, but it really is a bad product type.
+[00:56:01] I only use it for filament runover.
+[00:56:08] I'll use it rarely when I'm doing stuff like this, but I pretty much do single color prints 90% of the time.
+[00:56:21] Also, having 300 millimeters of build volume has been lovely.
+[00:56:28] Not having just one-off tools and things where I don't need to worry about fitting in on a 250mm bed.
+[00:56:36] Just been excellent.
+[00:56:37] Absolutely excellent.
+[00:56:40] So much stuff that I miss from old printers I used to own, but didn't realize I miss them until I had the Core One Lose, what's the what for?
+[00:57:01] What did I miss?
+[00:57:02] Why are you going, what?
+[00:57:04] What did I miss?
+[00:57:12] What did I say?
+[00:57:14] How have I upset you this time?
+[00:57:21] Marlon on a Voron, I just threw up a little in my mouth Gross Had so many damn problems with Clipper.
+[00:57:48] It's most likely because of senseless homing.
+[00:57:51] Yeah, I noticed this.
+[00:57:53] When you do senseless homing on a Voron, you have to change the end stop location, but there is almost nothing on the internet that tells you how to measure it and how to change it because it's now five like when I went senseless homing on my trident I found that I was now five millimeters too far back in Y and too far to the right And it just seemed that there was no resources for it.
+[00:58:26] I literally had to ask Claude how to do it.
+[00:58:28] I know that sounds ridiculous, but I was struggling to figure it out in my head for some strange reason But no one mentions this when you go senseless homing on a Voron that the the home position shifts because there isn't now I get that it's it's logical Hey D's here's Clipper so I have no reasonable benchmark for what is easy or to set up or not Marlin's more involved in certain ways to set up because it's it's basically just a big text file that you need to go through and change a lot of stuff on you can't do macros and you can't change it on the fly as far as I'm aware.
+[00:59:31] It's not a live firmware like Clipper is or reprep firmware is so it's harder to make changes to it but the thing is it just works I know the the Marlin that's on the core one is
+[01:00:00] So far removed from normal Marlin that is basically not Marlin, but still I would not want to go back to recompiling Marlin and Clipper ever over Clipper ever again.
+[01:00:22] Yeah, which is fear which is fear like Clipper is so much easier to get running nowadays, especially with how many people actually run it.
+[01:00:38] I'm not saying that everyone should hop back to Marlin.
+[01:00:45] In fact, I'm going to say straight away the opposite.
+[01:00:49] But as a firmware that's released on pre-built printers, it's amazing.
+[01:00:56] It just works like instead of just locking down Clipper all the time, like Cheedy did it on the GDX Smart 2s that I had two of them.
+[01:01:14] They both stopped being able to level after a while, but there were great printers up until that point.
+[01:01:20] The Centauri Carbon, for example, I know Open Centauri exists, but it's not great, and that's just that's more down to hardware than anything.
+[01:01:32] But if you're going to ship a machine that you don't have the firmware control over, I'd much rather it remain Marlin If you're going to ship a machine and you know that people are going to mod it ship it with Clipper like the U1 I really need to find a Pi 4 again my Linux CNC starts before my Linux CNC starts.
+[01:02:08] Oh yeah, you're going you're going Linux CNC aren't you Do you have any idea what's going on with the fourth access stuff in the background feel free to just message me if you don't want to chat about it now Because I have I know you've done all the hardware stuff, but I don't know how the software integration side is going.
+[01:02:34] I know Rumba and Kada are working on that side of things Also if you guys could do me a huge huge favor all right and please if you would be so kind as to like the stream tell people that you know about it post it in a Discord server somewhere just to say come on over have a look It would be very very much appreciated.
+[01:03:06] I would really really love if we could get monetized this year and whilst I love seeing you guys around I'd love to see some more new faces at the same time If not worry I'm not gonna beg No don't leave us RRF guys I think once you get to a certain class of machine Linux ENC kind of is the way forward And with what Phil is planning I think without trying to give too much away I think he's got to that class of machine I need to test DJ Rumbo's macros haven't had a chance to test them yet no idea where he is with the side quest of adding plugins I know Keda's working on getting all the GitHub stuff up from basically whatever's in the principal's links at the minute he's gonna try to get that all written down on GitHub so we can actually have it updated so everything for the V2 manual all the way up to Sila and the electronics box and stuff like that
+[01:05:06] Why is there so much resistance in there?
+[01:05:07] I think there's a chip stuck in the thread Right, there we go.
+[01:05:20] That's the basement done.
+[01:05:21] I can stop scratching up my table now.
+[01:05:24] Which way do I want it facing?
+[01:05:25] So the way I've kind of laid it out is you can just mirror the build if you wanted to.
+[01:05:32] So if you want to have electronics on this side rather than this side, all you need to do is flip the machine around and place the panels on the side that you want them to be on.
+[01:05:44] Whereas on old Casa, on Rev 2 and Rev 1, you had to mirror them either in your slicer or in your CAD software.
+[01:05:55] Whereas this time, you won't need to do any mirroring.
+[01:05:58] You just flip the part around effectively.
+[01:06:06] There we go.
+[01:06:08] Looking a shiver panels.
+[01:06:12] I need to wait until I can afford Jose Jose Jason if I could get some ACM panels cut because if I wanted to get them cut here, it would cost me near enough 200 quid.
+[01:06:32] And we don't have that in the budget right now.
+[01:06:44] Swapping back to steppers and a standard RRF software size just stopped just swapping out a few parts in the sourcing and a customized RF config.
+[01:06:54] Oh, sorry, you're responding to Ollie there But yeah, with a class of machine I am building HDR20 and 1610 ball screws Linux C and so is pretty much mandatory servos yes and that's where I think the Linux CNC part comes in but I still don't think just because it's HDR 20s and 1610 ball screws like I'm still doing RRF for Atlas Revo is still gonna be an Atlas thing but Atlas comes with the benefit of it being fairly simple to get around your head in terms of movement whereas like something like Milo you have to kind of invert your thinking because tool head stationary whereas Atlas everything moves in the direction you think it would like a Core XY so front front panel I am going to do it this way with the electronics panel on the left side just because if I put it on the right side I won't have the space to open the door when it does finally move under the table because remember I'm gonna have Atlas on the top and gonna have Miley at the bottom and Miley's gonna be my four axis machine send me the specs slash DXF files of what you need yeah of course I will do I will do all right so I need to do this was kind of caught me off guard but it doesn't matter all too much where did I put them my panels have gone missing I've lost my panels there we go found my panels so for the front panel IO and the rear panel IO you're gonna get these solid bits in the CAD So these are actually solid and all I've done is I've just picked an infill pattern done no top layers and no bottom layers and that's going to be your filter you can do them in whatever infill you want I think the hex looks a little bit nicer but this will probably but something like gyroid will still will work better as an actual air filter and you want to do both sides because one of them is going to be an intake fan for the enclosure to keep the enclosure at temperature and also to act as a de-atomizer for coolant so it's going to pull air from the box itself put it through a filter run it through a filter and then put it back in out into the room or you can run it the way around and not have that deatomizer set up but for something like that you might want to have one of a gyroid infill because it's better at actually stopping the dust getting in
+[01:09:59] Whereas this just looks better, I think, and my project is in the middle in between I'm confused.
+[01:10:26] Oh, nice.
+[01:10:27] I just have a primarily used RF for everything for the last few years.
+[01:10:31] I am now pretty competent with using and coding it.
+[01:10:35] Building plugins, pretty much most things.
+[01:10:38] Oh, cool.
+[01:10:39] So, Ollie, you can actually do plugins.
+[01:10:41] Ollie, do you have you have a Milo, don't you?
+[01:10:43] Or are you waiting until Atlas?
+[01:10:49] That's the rear cover.
+[01:10:51] So these are going to be magneted.
+[01:10:53] Magneted in.
+[01:10:54] In fact, why don't we do the magnets now so I can wait for them to cure what's the word?
+[01:11:04] There we go.
+[01:11:06] Super glue cure?
+[01:11:08] Is that the word that I'm looking for?
+[01:11:10] It dries.
+[01:11:11] I don't know one day a young man catches fire.
+[01:11:37] That was about the mind bending with Milo and the ease of thinking about Atlas movement.
+[01:11:42] My one is in between.
+[01:11:43] Yeah, it's a little bit in between.
+[01:11:44] I do think from a bringing people into the project standpoint, Alex is going to be better for that because you don't need to think in reverse coordinate maths.
+[01:12:04] It all just makes sense.
+[01:12:13] I still want to make my polar CNC.
+[01:12:16] Alright, I still think it's a good idea.
+[01:12:18] It's a horrible idea, but I think it's a good idea.
+[01:12:26] And free will exists for a reason.
+[01:12:33] But I'll need a second workshop at that point.
+[01:12:50] Polar CNC.
+[01:12:51] Have you ever seen a polar 3D printer?
+[01:12:55] Do me a quick solid and look up a polar 3D printer.
+[01:13:00] Or even better, find a video for a polar 3D printer and stick it in the stream chat on Discord for people for other people to have a look at it.
+[01:13:17] Now, I've tried to rib these for her pleasure to make them a bit stiffer, but they still do warp.
+[01:13:34] That's fine because the moment they're mounted, they're going to flatten themselves out.
+[01:13:38] But if they do warp, don't worry.
+[01:13:41] It's more the right kind of warping to be worried about.
+[01:13:45] It's not like lifting off the bed type warping.
+[01:13:48] This is just it'll flatten out when you actually attach it type warping.
+[01:14:04] Where's my other?
+[01:14:06] I've lost it.
+[01:14:20] Lost my other one of these.
+[01:14:23] That's the gyrode one there.
+[01:14:30] Found it.
+[01:14:52] I'm actually really liking the stream music today.
+[01:14:54] I tried a new.
+[01:14:55] I wanted to try new.
+[01:14:57] Stream beats catalog, and I am enjoying this as well show you guys what I'm actually doing Just a dab of soup son of super clear really reminds me of my emo phase Z axis life tooling effectively Yeah, yeah, so it's not technically a new concept, but it's more a concept for lathes I want to bring four axis milling to a three axis system that way you don't have to pay Fusion for the four axis cam stuff Please don't make it I'll struggle sleeping at night it's a great idea and and if you put a fourth axis you've only got five axis CNC last song was a cover of Justin Bieber Nick was it gross So I'm going with HR20 and 1605 I hope that closed loop memo 23 and 60 volt will give me high enough speeds and you have to upgrade the servers.
+[01:16:52] Yeah, you'll be fine you'll be fine I think any this is just a gut feeling I think if as long as you're over a fourmil lead you can get up to the speeds you need for three flute tooling and let's be honest as a hobbyist your machines aren't going to be using more than three flutes for the majority of cuts I have been looking at different five axis CNC machine designs lately that's Berkey Berkey's got he's working on his fourth access little mini thing I don't know if he wants to make that an official project though I've seen ideas about five axes for Milo think hash trunion past trunion the X horse looks nice but I don't know I don't know it's been being advertised for nearly three years now and a lot of what they were showing off was in foam or wood yes there is a bit of aluminium CNC in there don't get me wrong looks like a cool machine I think it's gonna be 10 grand though just off the top of my head because the closest CNC machine that I would want to use that you can buy is the Nestworks one which I think is 5k standard price at least and after that I don't really want to use a desktop CNC machine other than Milo obviously if you're wondering why some are ribbed for a pleasure and some are not it's just because I added the ribbing after I printed these ones and I didn't want to waste these ones so these ones go on the front and these ones have a little cutout for where the panel sits so it actually grabs onto the panel on the back whereas this ones don't need to do that I'm glad I picked that up because it nearly glued itself to the floor who also has ASA Jake I need to go we'll DM you on discord cheers Raj, thanks for coming dude.
+[01:19:27] Always appreciate when you coming to stream And you had a problem with my warning about what to call a Miley enclosure shush Get your mind out of the gutter how many times do I have to say it We are not naming it Miley's box
+[01:20:16] I like Cassita Cassita's not a bad little name though.
+[01:20:37] Does Cassita actually mean something?
+[01:20:40] I didn't name Casa, if case anyone's asking.
+[01:20:42] Tin Man did.
+[01:20:44] Tin Man was an old member of the team.
+[01:20:46] I haven't seen him in or talked to him in well over a year now.
+[01:20:53] But he was he did rev one of Casa actually means more Casa cool in that case.
+[01:21:12] I've had a few tries at designing five axes for Milo, but heist is an issue.
+[01:21:30] So far would only be left with 45mm Z axis I you can design it.
+[01:21:39] You're still paying two grand a year at least for five axis capability on the cam side So I don't see the point until there is a until there is a good cam software that doesn't cost too much that can do five axis I'm not even looking at a five axis machine I will not even look at it Because if you have the capability but you can't use it then what's what's the point Also there's a reason that a lot of fixed column machines aren't five axis That's because if you want to raise the Z height enough to the point where you could use a five axis you kind of ruin the whole point of what makes a column style so rigid if you make that Z if you make that Z axis too tall you're just losing out on rigidity free four axis yeah you can do you can still do indexing on four axis for free infusion and you can do a lot with just indexing I'm still in a student state but the worst thing you're gonna do to yourself especially is oh I've got this five axis machine that I built and I've used it for a year and now I don't have access to it anymore that's gonna be the worst thing in the world for you mate I should get into five access cam software hell yeah yeah I lost my student version exactly like it's great to to have access to it but then you lose it eventually which reminds me I don't know how much time we have left on our
+[01:24:57] Startup version of Fusion Free Cand always has potential Free CAD is built on the promise of potential Free CAD has never delivered on the promise of potential They also had a Blender version of they had the CAM software that was built in Blender at one stage Sorry not Cam CAD software Yeah, there was a parametric CAD plugin for Blender As cool as that is I'm not using it It could be as okay as you want it to be doesn't mean I'm gonna use it For God's sakes how many times are gonna drop this I need new socks I've got holes of these socks I need new socks Blender cameras are thing and I have seen some four access videos four access videos from Blender That's like you know what that reminds me of that's like playing Doom on a pregnancy test you know the guys you've got doom running on a pregnancy test that's what that feels like to me oh Steve do you fancy doing some 3D animation for us I would love to have like a I'd love to have you know how Nero has the spinning Voron I would love to have like a Milo that explodes and then self-assembles itself as an animation but I get I get that you that's a lot of time and effort for you and it's a lot of work so I'm not gonna ask out of in it in a disrespectful manner but if you'd be happy to make something for stream or something to show off some of our machines that'd be awesome I don't know what the pipeline is like going from parametric CAD to Blender though so it could be it could be a lot more of an ask than I was expecting can have a look Yeah, but it's Blender.
+[01:28:11] I don't think I could bring myself to use it for CND stuff.
+[01:28:15] Exactly.
+[01:28:16] Like there's nothing wrong with Blender for what it's designed for Why aren't you going in I don't think that's the right size hole No Is the fastener busted So if I traded that one out for different one Blender is designed for everything Yeah, but if it's designed for everything it's designed for nothing Look at the first stat maker.
+[01:29:09] I think it was called the Artisan that was designed for CNC for laser for everything and it was sucked for all of it when you design something for everything you design it for nothing Notice how almost no one uses the laser feature on the H2D
+[01:30:00] Phil Don't put that in chat It's bad enough that we got your mangun doing stuff like that I need the front one front IO which also has the E-stop Don't get me started on what Vanu's doing with this one did it wrong, but these are reversible so it doesn't matter all right that's that's fine I put the magnets in the wrong way around but it doesn't matter you can flip them around if you wanted to and just have the magnets pointing that way can the laser mark the 3D prints no not whilst it's in the chamber you can put 3D prints in there and it will mark the 3D prints but it's marking 3D prints is not great especially if it's something like PLA you can get away with it with certain materials don't ever do it with polycarbonate I think you're fine with AVS nylon is a no-go I think PETG is okay never ever do it with polycarbonate and never do it with vinyl either vinyl produces a really really toxic gas when you laser cut it's like fossil gas or something like that chlorine gas that was it it produces chlorine gas if you cut vinyl on a laser cutter or heat it there are some laser technologies where it's safe to do so uh UV is safe to cut vinyl on do your own research i might be wrong here but i do believe uv is fine for vinyl cutting because it's considered a a cool laser not as in super cool dude radical as in it's not melting it to a point where it's releasing the gas it's actually ablating the surface away rather than melting the surface away but the one in the bamboo of h2d is an led laser it's not a UV laser you can buy non-PVC vinyl yeah unless you want actual fire and explosion effects How did the fire start?
+[01:34:01] I want it to be Michael Bay.
+[01:34:03] I want it to be like Michael Bay do my own effects all the explosions I thought about doing a plasma thing is with plasma cutters is they're really simple and effectively the thing that costs a lot on a plasma cutter is the plasma gun itself You don't need them to be incredibly rigid you are better off making them belt fed or if you're gonna make them ball fed ball screw fed
+[01:34:55] Then just make sure the bull scrolls are fast enough.
+[01:34:59] Someone's squealing.
+[01:35:01] Come on, buddy.
+[01:35:12] You can make a really, really cheap plasma cutter to the point where anything we would...
+[01:35:18] It's the same thing, reason we don't make a mini lathe or something like that because there's no point in us making one if it's gonna be cheaper to get effectively.
+[01:35:30] I've seen people use old like cantilevered lasers that they've just upgraded to use the plasma torch to hold the plasma torch.
+[01:35:43] That is how cheap you can make it.
+[01:35:45] You can make a plasma table or a plasma, a CNC plasma that will cut steel and whatever else for less than 300 bucks an MPC and C would be perfect for plasma.
+[01:36:16] Yeah, actually, you know what?
+[01:36:19] You know what?
+[01:36:20] I'm very rarely cordial with the MPCNC.
+[01:36:26] It's not my cup of tea for the most part, but you know what?
+[01:36:31] As a plasma table, I think whoever said that in chat is correct.
+[01:36:36] It would be absolutely ideal.
+[01:36:42] Look at that.
+[01:36:46] All right.
+[01:36:47] This little baby can hold so many CNC chips now.
+[01:37:09] Unfortunately, you can't actually take these out and swap them out whilst they're in the machine, even though they are magnetic.
+[01:37:17] I couldn't get it to fit and be the right size for a 120mm PC fan.
+[01:37:25] But the front is going to be either an extra intake that blows cold air into the enclosure, or it's going to be an extraction fan that's going to pull all the hot air out and pass through a filter.
+[01:37:39] I don't know what I'm going to do yet.
+[01:37:42] You can't just put carbon pellets in it, though.
+[01:37:45] It's not like a 3D printer.
+[01:37:47] You can't just put carbon pellets in it.
+[01:37:49] You have to do a multi-stage filter that first brings any coolant that you might have inside from an atomized coolant that's in the air to a liquid state.
+[01:38:03] And then you need something that's going to absorb oils.
+[01:38:06] And then you put your carbon filter in just for the smell for any particulate that might pass through.
+[01:38:18] You can't just run carbon pellets, especially with oil-based coolants because the carbon pellets would just get saturated with oil within, I'm not even joking, like 30 seconds of use.
+[01:38:38] They are so cheap and relatively good compared to anything you could make yourself in a say for the same money.
+[01:38:45] Yeah, that's true.
+[01:38:47] Although, I made my first Milo for $850.
+[01:38:52] And when I built my MPCNC, it cost me nearly 600.
+[01:38:56] And that was with a 500-watt spindle and a really, really cheap control board.
+[01:39:03] Not the Milo, the MPCNC was the 500 watt spindle.
+[01:39:09] So if you can stretch it out to be 250 quid more, yeah.
+[01:39:18] Oh, it's talking about mini lathe.
+[01:39:22] Yeah, yeah, same thing with the mini lathe.
+[01:39:24] It's there's nothing you can make that's at home that's gonna even come close to a mini lathe.
+[01:39:33] And all you need to do with a mini lathe is just CNC or fire.
+[01:40:05] Yeah, I do want a mini lathe, but again, if I got a mini lathe, it would take up one of my assembly benches and I'd be left with the desk at the back as an assembly bench.
+[01:40:21] I suppose I could build a box to house the mini lathe in and then put Atlas on the top.
+[01:40:28] No, that's just a bad idea.
+[01:40:31] That's just a bad idea.
+[01:40:40] That's just a bad idea in every single way.
+[01:40:47] Do I need a lathe?
+[01:40:48] That's probably what I will do.
+[01:40:50] If you have a fourth axis, you're it's arguable to say that even with a fourth axis, you're probably not going to get the accuracy and concentricity Voluminous.
+[01:41:13] How are you doing, bud?
+[01:41:14] Print farm is in the middle of converting a lathe now.
+[01:41:18] I've been resisting lathe.
+[01:41:27] All you need for a lathe to work as a CNC conversion is you need to take the gearbox out of it.
+[01:41:34] You need to run a lead screw on the Z and the X and you need some way of powering the spindle, whether it be through a VFD or just a servo.
+[01:41:55] Servo is probably a better idea.
+[01:41:56] You can get all of that for like 300 bucks.
+[01:42:01] Prints and mounts because 3D printed mounts do really, really well in compression, which when you're driving a screw, that's the main force you're dealing with.
+[01:42:10] And you're done.
+[01:42:11] Drill a few holes in the casting to tap so you can actually hold things down.
+[01:42:16] That's it.
+[01:42:17] Attach to your control board.
+[01:42:18] Choose your flavor of control board and your flavor of software and you've got it.
+[01:42:28] You smashed it encoded for the spindle, ideally for threading.
+[01:42:35] Yeah, that's why I said servo, we've been on streaming for nearly two hours.
+[01:43:08] Okay, okay.
+[01:43:09] You're gonna get We'll see what it's like in a few panels time and then we're gonna call it here and then we're gonna have a look at Atlas before I call it because I did promise it twice now and I don't want to be a liar twice I've never seen a CNC lathe on RF you probably wouldn't want one on RRF you're not dealing with a fully Cartesian motion system you are but you aren't It would be very very confusing because there's no why there's no Y axis on a CNT lathe there's the Z and there's the X and this so you'd have half your half of DWC would be useless to you when you when you want to do lathe work it's again it's probably one of those things where you want a lathe specific firmware well or at least the layout should be sure we could do a plugin for our F that does that but I forgot that this one actually goes on a lower extrusion That's one of the things that we're kind of working on a lot in the background is getting plugins for everything and getting a good UI installed for the Millennium OS because that's what we've been seriously lacking.
+[01:44:50] We've got all the macros and things
+[01:44:53] And Nine's done a great job on that But yeah, a much nicer UI is on the cards Kate's working currently on the GitHub but when he's done with that he's also been working on getting a nice UI for tool management so that we can start working on the actual tool changing part of the tool changer so with all the testing that Bright has been doing on the actual physical tool changer side that's the mechanical side is basically at a point where we just need to keep we just need to do the testing on it but the actual design work has been put in but the software side of how we handle tools especially since RRF doesn't handle tools the same way a normal CNC software does it handles tools as if each tool would technically be a different spindle in RRF so we need a way of interfacing that I gotta go work day it's late why's back home after a long day always dude just coming I'll try start a little later next time a little earlier I mean meant to say not a little later unfortunately tomorrow my girlfriend went into surgery for some she had some some dental stuff done so I am probably not gonna be streaming tomorrow night when I built loads of stuff in our plugin I started working late plugins but I didn't get to finish it I didn't realize you were a code monkey a wizard as I like to call them also dear night are you in the US or are you in the UK because I assume by the by the fact you join our streams all the time that you're in the UK but then again so does Jose Now to everyone who does work in IT would you rather be called a tech priest or a tech wizard a tech priest or a tech wizard we're going cleric or are we going wizard what class are we picking here oh yeah I'm in the UK cool oh I miss DND I haven't played D ?
+[01:48:33] ?
+[01:48:33] D in so long do you think do you think the people who are on Patreon would want to host an online DD game as like a DD as like a Patreon reward I go with wizard also code monkey okay why the wizard do you have a long beard do you have a tower that you live in
+[01:49:57] Are you constantly the smartest person in your adventuring party, but also the most likely to get them all blown up?
+[01:50:03] I've also done this panel upside down, nicely done, nicely done.
+[01:51:11] Got the beard already.
+[01:51:14] Okay, cool.
+[01:51:16] Oh, yeah, and I've also been working on attachment for ER spindles, which means it could use ISO 20 tool holders.
+[01:51:25] Huh?
+[01:51:25] What I gotta see this.
+[01:51:30] Send me something about it.
+[01:51:31] I've been coding for a while, but now have let the younger guys have it all the fun.
+[01:51:36] I do the spreadsheets and shit.
+[01:51:37] Oh, what do you know what would be a really, really cool thing is if someone made a cheap version of the shrink fit ER16 tool holders?
+[01:51:58] Because one of the challenges with the collet style tool changes is that the tool fault falls out if your ER collets aren't matched up perfectly with your tooling.
+[01:52:10] Whereas if you had one of the shrink fit tool things, all you need is a blowtorch or just use your hob heat them up so you can fit the tool in.
+[01:52:19] It shrink fits and then you don't need to worry about it falling out of the collet when you're picking tools up.
+[01:52:29] That would be a good idea.
+[01:52:31] But unfortunately, shrink fit tool holders for ER16 are like a hundred bucks a piece from Cutwell here in the UK.
+[01:52:39] I haven't looked at AliExpress yet.
+[01:52:43] There might be some cheaper ones on AliExpress Little O-rings work as well.
+[01:53:01] Little O-rings work as well.
+[01:53:03] It's just that you get the benefit of having really, really precise run out with shrink foot tooling.
+[01:53:08] The O-rings don't make the run out worse, but if you're using collets to begin with, the runout on collets isn't always great, especially if you're using cheaper ones.
+[01:53:22] Which, let's be honest, we're probably using in our use cases.
+[01:53:27] We're not millionaires I hate it when they don't actually spring.
+[01:53:45] Spring nuts are meant to spring.
+[01:53:49] Why you know spring nut Why you know nuts spring?
+[01:53:55] Don't nut on springs.
+[01:53:57] Don't spring on nuts.
+[01:53:58] I don't know.
+[01:53:59] I don't know.
+[01:53:59] I'm tired.
+[01:54:01] Don't judge me You tired, buddy I think the O-rings are more of a workaround than a good solution But then again that's what all of hobby of hobby grade industrial open source is it's just doing workarounds for things
+[01:54:50] True, actually, one of the things I have noticed of the collet training is because it's not being tightened with the even force by hand.
+[01:54:56] The runout is even more ever so slightly worse.
+[01:55:01] And I've yet to figure out exactly why you need a certain amount of tool pressure, of course, before you can rely on the collet itself being a self-censoring device.
+[01:55:19] Not to say that it's impossible to do it with the collet style ATCs, but Phil is laughing at us right now because he has a full on proper ATC setup or at least has full-on proper ATC spindle.
+[01:56:36] Thanks for coming, dude.
+[01:56:37] Alright, there we go.
+[01:57:36] There we go, there we go, there we go.
+[01:57:40] Let me clear some space and I'll show you what it kind of looks like.
+[01:57:53] Oh, my main camera's gone dead.
+[01:57:59] Why you go to sleep?
+[01:58:01] Why you go sleepy, boys?
+[01:58:02] There we go.
+[01:58:13] Yeah, there we go.
+[01:58:17] Right, so so far that is what we've got.
+[01:58:24] Alright, skirts are on.
+[01:58:26] We've got panels at the front, panels at the back.
+[01:58:29] All my electronics are still on my old CASA, so I'm going to go to the container and I'm going to have to spend an evening taking that apart.
+[01:58:36] But for now, I think that's not too bad.
+[01:58:38] But again, this gives you a good perspective of how big this thing is.
+[01:58:42] It's not again, we're talking CNC scales here.
+[01:58:46] It's not that big.
+[01:58:47] It's really not that big compared to old Casa, especially.
+[01:58:55] I think genuinely, in terms of bomb cost, it's going to cost you half as much.
+[01:59:02] Alright, and just a quick test whilst I've got them.
+[01:59:07] Because I want, I'll definitely want a USB on the front.
+[01:59:10] So these are just keystone jacks just for Keystone Jackson.
+[01:59:30] Is it that way around that they goes?
+[01:59:43] Is it this way around?
+[01:59:57] Nope, not that way around.
+[01:59:59] Was right the first way I feel like these will need a bit of tuning to get the right pressure These are pulled directly from the Voron from the Varon Trident ones By the way, I was right I did post something about the AC adapter for the spindles I have been working on oh you've been working on spindle I'm confused These are the right ones these are pulled directly from the War on Trident skirts less than they just really need a load of force to insert this way around Yeah, I might need to reprint these Because if they fit this way around they fit with the little arm facing upwards But they also do pop out quite easily Is it the same with the Ethernet or is it just a quality thing now the Ethernet ones seem to fit better it might just be a quality thing might just be that the ones those keystone jacks that I have don't fit as nicely does this one fit this way around yeah this one fits this way around as well Yeah, oh that's way more solid.
+[02:02:03] Yeah, I think it's a quality thing I just realized that this is an Ethernet jack and I really no actually that's not true I do want an Ethernet jack for the pendant So that's fine.
+[02:02:11] I'll leave that as there I could almost fit one of those in my garage slash workshop got an extra spindle and VFD now do you mean almost this is the perfect excuse It's a perfect excuse for you to right I think that's we're done with with Cassita We're done with Cassita quick clean up and then I'll show you some stuff about Atlas that we've been working on It's not too much redone extra from last time from the stuff we showed off at So don't get too excited oh sorry bud But yeah Let me just open this up first No, I don't want that one don't want Just need to open some stuff up and I don't want you to see everything that we've been working on Still remember Atlas is still in very early beta there's some features that we haven't even done yet and I would really really like to get as much done as possible with it but again that's budgetary constraints it's budgetary stuff Oh that's old cast why did I open that one up that's old Atlas from when it was still before I moved it over to You can tell how long it's been since I named the wrong stuff still
+[02:04:46] So it's still named as the Calypso project, which it's not anymore.
+[02:04:50] So you might see that.
+[02:04:53] You might see that we go So this is Atlas Right if there's anything you want to see specifically about it just let me know so the whole idea behind Atlas is you can build it either as its own thing just a standalone thing or you build it as the enclosed version of it So the enclosure actually blind joints to one of the Y-axes The enclosure itself is still up for debate you if you might have seen the enclosure that we did that we showed off at Smurf which is a lot more refined we're at a point where we're just spitballing ideas for the enclosure But it's going to be dual electronics bay and the idea behind this is if you've got multiple different setups say you've got a computer that's running Linux CNC and you want that to be in a completely different bay to the one that's running the VFD and stuff just to keep communication errors and things like that down or EMI issues down you could put you just separate them entirely or if you wanted to water cool your spindle you'd have electronics in one bay and then all the water cooling components in the other just to keep them separate so they don't leak now a couple things have changed a little bit the z-axis is very very different to the one we showed off at smurf it's changed a lot one of the reasons for that is we've actually moved the ball screw transmission piece to the rear of the assembly and that's just to keep chip ingress down so you've got way covers on the y we might be doing top way covers on x now that we have the space we've also narrowed the uh the x-axis down quite a lot so if we open the z axis open again this is another reason why it's taking so long is uh the iterations we're doing on the c component mean that i'm struggling to i i keep changing my mind on how things are going to integrate these these are just chip covers so these are just printed parts right everything else is 20mm plate so we've got 20 mil plates for these which is what ultimately gave us that last 30 mil back so instead of it being 470 like i said in the video i did with nero the x is now 500 um and everything is 20 mil plate even the bits at the bottom it's 20 mil plate but just to keep the form factor down as much as possible i have had to obviously mill all the features into it um everything is machinable on a v2 milo because i'm obviously gonna have a v2 miley i'm going to have to rework the parts to fit on miley which is a 310 build area rather than a 340 now you can split everything we do we did have split versions for all the big plates so that you could do each part on a on a v1.
+[02:08:58] 5 um and we're probably gonna do the same thing with this i just want to get to a point where i'm happy with it but yeah if you had any ideas of what you want of questions you wanted to ask otherwise i'm just kind of showing off random bits at this point everything's ball screws it's all 1610 ball screws these are just proxies a lot of time it's easier to to design with proxies rather than to design with the threads because it means you're not constantly fighting fusion for resources this is going to have the same thing as the lDo kits uh it's gonna have a it's gonna have both the
+[02:09:45] HOI V2s as an option or it's going to have the spindle mount from the LDO V2 kits so it will come completely method up These features at the front are slide out So these are just gonna be filled with a popsy granite eventually They're gonna be hollowed up and filled with a potsy granite and then the way you tram it is so you've got two locking big HOI yeah you've got two fasteners that attach this assembly down to the sub assembly subplate and then this one is just a threaded point that goes down to the subplate but pushes up against it so imagine if you were if you would if you if you were to tighten this middle bolt up the entire assembly will start pivoting upwards and then the same thing applies for the one at the back The one at the back is going to be hard to get at so I might just completely get rid of it The whole point is there will be point bits to be able to tram it with and the same thing with the V2 where you just shim it to actually do the tram you use the bolts to get it to the the point that you want it and then you you shim it underneath and that holds it in place and then you you tighten it down on top of the shims now the most likely tramming that you'll need to be doing is anti-nod so if you imagine this was on side profile all the weight is on this side where the spindle is so it will no naturally be try to spin downwards in this direction right where the spindle would start to arc down towards the main assembly so naturally the only tram that you'll actually need to do is at the very front where these ones are quite accessible so I might just completely get rid of the tram option for the back but that might change who knows so in this version with the with the enclosure is it's 1.
+[02:12:08] 1 meters wide with a 500 build volume in X 350 in Y and 140 in Z and I don't know there's one of the other reasons I don't like the new enclosure style I want to go back to the old one but I can't get it to fit at the same time This looks amazing.
+[02:12:34] Is there any plan for adding liquid cooling or a vacuum hose?
+[02:12:38] We do have, if you ask Phil, if Phil is still here, he is working on vacuum tables that are entirely that fit every single bit of kit that we have.
+[02:12:51] So that'll fit V2, it'll fit V1.
+[02:12:53] 6, it'll fit V1.
+[02:12:54] 5, all that kind of stuff.
+[02:12:58] What fasteners does Tiny Box frames, M6, and ordering bits for the build?
+[02:13:02] I'm going to follow.
+[02:13:03] It's Cassita now.
+[02:13:04] We decided on stream earlier that it's Kasita.
+[02:13:06] It's not Tiny Box anymore.
+[02:13:09] Kazita uses mostly M5 by 10 and mostly M3 by 10.
+[02:13:16] I'd say you can, for M5s, you could probably get away with under 50.
+[02:13:21] This is just off the top of my head.
+[02:13:23] M3s, probably 100.
+[02:13:28] 100, 200, something like that.
+[02:13:33] Casa V2, Rev 2, took over 300 M3s.
+[02:13:38] It was crazy.
+[02:13:40] Hey guys, sorry, had to work late.
+[02:13:41] No worries, Thomas.
+[02:13:42] Thanks for coming.
+[02:13:44] You have missed the kind of build portion, but we're just talking about Atlas now.
+[02:13:49] Yeah, the back one would probably never get used.
+[02:13:51] Yeah, exactly.
+[02:13:52] Exactly.
+[02:13:54] And I am trying to...
+[02:13:55] I do want to move this motor inboard, which it is possible.
+[02:14:02] It just means getting a smaller motor or making a custom mount for the motor.
+[02:14:13] But if it's inboard, then I could do the old style enclosure.
+[02:14:16] If you're wondering what the old style enclosure looks like, let me see if I can get Nero's.
+[02:15:23] Oh, I miss my old beard.
+[02:15:24] It was so much bushier.
+[02:15:32] Last question: Do any of the holes that end the extrusion gets tapped?
+[02:15:35] I believe there are M6.
+[02:15:37] Nope, they're M5 If you've got M6 ones, you've got the wrong extrusions.
+[02:15:53] So that's the old style enclosure, which I liked more, but it meant having the motor inboard, and it meant that you couldn't do the full 500, and it was limited to 470.
+[02:16:04] I might go back to this style.
+[02:16:09] I just don't know.
+[02:16:12] What do people think?
+[02:16:13] This is very much an aesthetic thing.
+[02:16:16] This is very much an aesthetic compromise I would be going for Yeah, I like the look of this one better.
+[02:16:31] It's just having the electronics fitting the electronics in here is going to be hard.
+[02:16:36] We might do you could do an electronics blocks on the back, but I don't know I genuinely don't know I do like this one more Cool feature that I might not might not have come across on thingy on YouTube if you'd watch that one is that you can actually see the y-axis move on the old style enclosure you can see it a lot better whereas on the new style enclosure it doesn't look as good I don't think but the new style enclosure is way more practical Go for the old style increase the size of the box in the y direction and add electronics box around a currently outboard you can't add increase the y direction why why would I increase the y direction You mean increase the X direction but go for the old style the old style so the reason the old style is that size specifically is because there's features on these front plates here so the way it actually holds together is there are threaded hold these are meant to be threaded and these are M8 holes for blind jointing so the extrusion actually gets blind jointed up to it Yeah, so if you increased it in Y then you would have to add an extra column on the side and that would just look a bit weird because if you actually look at the way I showed Nero The end of the plate here is where the blind joint happens on this extrusion just here If I increased it in this way then that wouldn't line up and you wouldn't get the structural bit So what you'd have to do is you'd have to add another extrusion which kind of goes back to the way this one looks you know The whole thing another thing I'm really trying to push for is the ability to add what I call armor so these plates here these plates here are all aluminium, but they're just flat pieces of aluminium So you buy them, you drill them and because of the way the square cube lore works if you want a lot of extra rigidity right just having this extra plate here actually I think it adds an extra 10% of stiffness for
+[02:19:33] Not very much money.
+[02:19:34] I think this plate, when I bought it, I do have them, they're underneath this workbench here.
+[02:19:39] I think it was like 20 bucks.
+[02:19:42] It was somewhere between 20 and 40 bucks for that plate, and it increases the X-axis stiffness, the X direction stiffness, by like 10%.
+[02:19:57] So yeah, it's either I go outboard on the motor, which I can go outboard a little bit on the motor.
+[02:20:04] So if you actually look at I keep pressing the wrong thing, if you actually look at this, right, the end of the X-axis here lines up perfectly with the end of the enclosure.
+[02:20:19] The only reason I can do that without scraping by is because the little bit of weather stripping that's going to hold the panel literally 0.
+[02:20:26] 5 mil away from the end of the gantry.
+[02:20:29] Same way a boron Corex Y gantry works.
+[02:20:36] That's the only thing preventing rubbing.
+[02:20:38] So I can't move that motor any further out than it currently is The old one looks way better.
+[02:20:48] I agree with you.
+[02:20:49] I totally agree with you And I would love I personally want to do the old one, but it's more practical to do the first one the thing is you loot can if I ask you you guys if you could give up 30 millimeters on a 500 millimeter build volume so it would go from 500 to 470 would you guys give it up for the sake of aesthetics Actually I can do a poll in chat now what do people think old style being the one on screen now new style being that I love how everyone shows up now when the actual building part of the stream is done I would be worried about heat off the motors as it's too close to the sideboard I mean there's only a millimeter between the old style if you actually look at the old style It's the same spacing It's the same spacing off the side of the where the panel would be It's just now that it can be outboard so it can be 20 mils from well sorry 40 mil from here to here Whereas before it's only 0.
+[02:22:42] 5 mil from the edge of a plate itself everyone's saying old style so far there isn't a single vote for new style So even if I went old style or sorry even if I went new style the heat off the side would be the same issue but again we're using polycarbonate.
+[02:23:21] What's the the TG of polycarbonate So 145 C right so even if we went 30 degrees under that you're not showing that heat you're not getting 100 C from a stepper 110 C sorry you're not getting 110 C from a stepper old but bigger so we can get the 30 mil back.
+[02:24:09] Yeah, you can always build it bigger and you wouldn't be getting 30 mil back getting 50 mil back because the way it increments in with ball screws the way This is another thing that's great about lead screws is you can make it in whatever size you want because you can always cut the lead screw to whatever side you can't do that with ball screws they only come in 50 mil increments
+[02:24:37] No heat problem in my full-size castle and I can use it in it as a guest room to there That is one of the things we're doing with Casita is we're adding an extraction system to get the heat out of it because thermal expansion is a thing I'm just thinking it won't be allowing for a lot of passive cooling from the steppers you could pass you could put heat sinks on the y-axis there is a little bit of space in the y-axis So there is a little bit of space left over in the y-axis and remember this is a big aluminium plate here so what you could do is you can put some tin some some some thermal interface material between that stepper and get the whole of the mass of this front plate as well to help cool the steppers and you could probably do something similar by bridging the gap between here and here with some tin Casa Pro with noise cancelling when who knows right I think I'm gonna if no one else has any questions I think I'm gonna call I'm gonna call stream here just because Brisket sounds like he's desperate to go out so in that case right thank you all for coming as usual it has been a blast in the stream honestly we actually got this probably been the most productive stream that we've done ever loads of fun having loads of people who can actually chat every time as usual if you do want to support the stream leave us a like share the video around in any discord servers or Facebook groups or whatever because it always does help If you do want to go a step further and donate to us, there is a donation channel on the Discord server.
+[02:26:35] Please feel free to do so.
+[02:26:36] If you don't want to, that's absolutely fine as well.
+[02:26:38] And I'll catch you guys next time.
+[02:26:40] Bye now.
