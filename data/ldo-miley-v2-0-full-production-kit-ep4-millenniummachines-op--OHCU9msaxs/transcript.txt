@@ -1,0 +1,588 @@
+# LDO Miley V2.0 (full production kit) Ep4 #millenniummachines #opensource #cnc
+Source: https://www.youtube.com/watch?v=-OHCU9msaxs
+Channel: Millennium Machine Works Official
+Duration: 01:52:47
+Transcribed: 2026-09-09T22:01:37+00:00 using csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8] (parakeet-onnx)
+
+---
+Hello, Got the microphone. Hello, folks. Hello, hello. I've got university chat. I've
+got deep parking chat. Deep, you were here for a while, my dude. How is everyone doing?
+How is everyone doing? I know it has been a very long time since we last streamed, but
+because of super things like the World Cup, I'm afraid. Hey, Jose's here. Jose
+Ferreira's here. How are you doing, dude? There's too many Jose in chat nowadays. Right.
+Not that we don't want any more Jose. I'm just saying that there's a lot of Jos<unk>'s.
+So, last time we finished off, we kind of did a bit of the y-axis. We finished off the
+main bits of the Y-axis. You might notice that there's a couple of changes from last
+time. All I've done is mounted the Z plate. I've done no tuning or anything like that.
+Mounted the spindle mount, and then all these bits on the side aren't even attached yet.
+They're just there to look nice. So, we really haven't done very much since last stream.
+Sorry, it's taken so long to get back to you. I had my birthday week, so I had a bunch
+of stuff I was doing that week. And then this week, because of the World Cup, there's
+not been really a nice time for me to stream. But I'm going to make the most of it as I
+can today because I'm at a point now where my own internal MOS version, my own homebrew
+version of Moss is pretty much ready to go on the ATC side and all that stuff. So, you
+might hear the printer going off in the background or the P1S is printing. Let's put a
+Discord down. You don't need to see Discord. Yeah, so completely forgot what I was
+saying. Anyways, very orange. I am very I don't. Is this very orange or am I very
+orange? It looks like I'm very orange on the screen right now. I kind of look like
+Trump. Jose's plague. Right. Before I get so just too distracted by everything, I'm just
+gonna jump right into it. So, what do I actually need open? I need V2 guide up. Okay, so
+the guides for the rail position guides are just printing now because I forgot to print
+them off before, but we can get the table built in the meantime. So, there are two
+different types of Milo that you can build, or V2 that you can build. There's a Miley
+and a Milo for those of you who don't know. We're doing the Miley, which means that
+instead of having the C-beam facing that way, the C-beam's facing that way now. And then
+you're going through the top. But the LDL kit comes with all the holes. So, if you're
+doing Milo, you're using that hole. If you're doing Miley, you're using that hole.
+There's a bunch of dunk on here. It really has been a while since I did anything with
+this. Looks like there's some hot glue or something. Alright, so I'm going to need some
+M5x12s. Those are M5x10s. I'm going to need some M5 T-nuts. And then I'm going to need a
+relatively flat surface. And I'll just grab my big cast iron tooling plates to do that
+later. Copyright infringement, you'll come for you. You can't copyright Trump. God, that
+was slurpy. Can you copyright a look? Is that even possible? Can you copyright a skin
+tone? I feel like if you could, someone would already have done it. So this part can be
+a little bit tricky if you don't have these blind hole joints. These blind holes on the
+C-beam side. Typically, the blind hole goes on the screw side because these are butted
+blind holes, blind joints. You want them on the Thanks, Brisket. Thanks for protecting
+me from whatever's outside. You want the screw to go all the way through the hole so
+that when you're sliding this end on, it's not moving about so much. Because if you
+didn't have it where the whole, if you didn't have the hole on this side on the C-beam
+side, once you slid this on, there's a good chance that you'd bring this in the T-Nut
+with you as you tried to move around, and it would become impossible to get in place.
+You need long things to poke down there. And it just becomes a real pain. So having
+those holes here are just there to make the blind butt jointing a lot easier. Hey,
+Damascus, how are you doing, dude? Also, you get to say funny things like blind butt
+joint and it tickles my inner 12-year-old Anyways, I've had a pretty productive last two
+weeks We went camping for my birthday then my girlfriend came over the day after my
+birthday and we had just a day in for ourselves did absolutely nothing watched Hail Mary
+Which is a fantastic movie I'm not really a movie person but it was fun it was jovial it
+was it's not gonna light the world on fire or anything but it's definitely a fun movie
+good things cool now you do need quite a long Alan wrench or screwdriver to actually get
+through all these quite a large piece It's not so bad if you're doing the 1.6 Milo
+Because these are instead of them being 2060s they're 2040s I'm not gonna tighten them
+up very much I'm just gonna get them just finger tight Got a nice plate for my Milo
+cheap I'm so excited about it. Oh, how come you got it cheat I mean glad for you don't
+get me wrong but how did you get cheap in the back of my mind I'm going you bastard I
+really wish that was me Do you know what LDO's delay reason is they said they were
+waiting for developer approval changes or changes so as far as I know the because
+they're so far behind on production orders with whoever the CNC manufacturer is the CNC
+anti-backlash blocks aren't going to be in the initial kit anymore LDO is saying that
+they've been having some trouble with these although I've now had six pairs of these and
+never had a single issue so I think it might just be a little bit of user error error
+error error no no offense LDO I've had no issues with them so they're exploring some
+changes to make it a little bit easier for people to tune them or set them up even but
+to be honest LDO has been so busy with other projects and things and just their general
+company stuff that they've been a little bit hard to get in contact with lately there's
+also there was a contactor issue it's not a contactor issue so much basically Jose from
+LDO and I have had some issues with the contactor that LDO themselves have not been able
+to reproduce so basically it comes down to the fact that because we're only using a 30
+watt power supply for the 24 volts stuff so that runs the all the VMOS stuff the relay
+the board itself the MCU all that stuff all the fans that's also all running off of a 30
+watt din dim power supply the problem is that the content tactor that they use that
+they've sent with the kit is drawing too much current for the split second so the inrush
+current for the split second that it turns on which is causing the board to brown out a
+little bit now we've got it to a point where the board we're delaying fans on and stuff
+like that we can delay fans coming on and stuff like that to save as much power until
+that inrush current has been set up um has been has um has gone so basically not turn
+the fans on when um the contactor isn't on just to save as much wattage as possible but
+problem is is it shows up as errors in our finging that there's a motor ground issue
+when there isn't it's just that the board has grown out for a split second and part once
+it's past that brown out stage it's Fine. Now, the thing I've told LDO is my contactor,
+the ones that I use that are buyer here in the UK, only draws three watts maximum. So,
+even when they have an inrush current, it's like five watts total. So, the LDO ones run
+nearly five times that at idle. So, they run about 15 watts at idle once they're
+activated. And the reason for that is because they source them as dual purpose
+contactors, so it does both AC and DC It's just that that fit. So, the solution to that
+is either get a contactor that draws less power or get a larger DIN power supply, so
+something like a 50-watt or a 45-watt, would probably do it. It's just on the edge, as
+far as I can tell, but a lot of this is just me guessing their internal engineers are
+doing all this on their end. But the best thing you can do is if you're waiting for
+kits, because I can tell them, oh, we want this, we want that, we want this as much as
+possible. But unless people actually, unless it looks like people actually want to buy
+the kits, unless you guys are going out and saying, oh, when's the kit going to be
+ready? Oh, what's the holdup? Oh, this is like annoy LDO as much as you can, and then
+they'll be able to move faster because they'll see that there's more want for the
+machines. Actually, do us a favor. If anyone is looking for to get the kit and they want
+the kit soon, anyone shall go to the LDO vendors page on the Millennium Discord. Yeah,
+go to that channel and just put a message in saying, hey, LDO, what's the holdup? Be
+nice about it and say, I've been looking forward to the kit for a while. What's the
+situation? When are we actually going to be due to have it? Because the more people who
+do that, the more they see there's interest in the kit, the more they put it at the top
+of the priorities list. No, thanks for the explication. Well, it was actually DMC2, it
+had it on sale. Oh, cool. I like the fact that Saunders Machine Works does like random
+hobby CNC machines. Like, they've done plates for Shea Poco before. They've done plates
+for the DMT Mini, DMC2. And if you do see later on, I do have a hole in my sock. So, no
+one shout that out at me later. These are my indoor socks. I don't give a flying fuck if
+they've got holes in them. Cool. Right, so I don't have a big sheet of glass. What I do
+have is a big piece of aluminium to lay on top of here so that I can tighten it down and
+I know that it's at least roughly flat. This is the Atlas bed, by the way. Speaking of
+Atlas, I've done a bunch of design stuff. So, hopefully, we can get to doing some
+testing. Well, at least some building in the next few weeks. Not strictly necessary for
+you to do this if just find the flattest thing that you have doing it now. Cool. And if
+you're not waiting for Milo and you have your own Milo V1.5, tell LDO that you want more
+brothers and sisters for the cult. And that they should get their asses on it. And if
+you have a V1.5 and you're wondering what the actual like physical difference between a
+1.5 and a 1 and a V2 in terms of how much extra space there is in the Yeah That's how
+big the Y axis that's how big 200mm is It is a significant upgrade in terms of space
+Nice. Okay, so that's roughly flat now and Atlas bed can go bye-bye now I still want a
+bulldog vise I have a bulldog vise that they sent me a while ago I actually pulled it
+out and pulled it apart now there's one thing I don't understand about it I'm gonna move
+to here Let's move to the desk nope I forgot to turn this camera on Why is this camera
+not turning on Why is this camera there we go Ignore that there we go okay cool so this
+is the bulldog vise it's the vise that LDO was working on It's a split vise so it's
+there's one fixed side and one moving side so kind of like an SMW machine and it is
+genuinely well designed The problem I have with it is that they have this extra piece on
+it which is supposed to be where your material rests which is fine but they already have
+that built in here and the only way to get to this part which is never going to sit flat
+if it's mechanically coupled right which is going to make it harder to sit flat because
+it's mechanically coupled this piece blocks the jaw right so it blocks the screws that
+are on the draw so you can't take the removable draw off and the only way to take this
+piece off is to take this grub screw out move this entire assembly out take these two
+screws out and then there's two pocket screws at the very back here which I find really
+stupid because all you would need to do to get the benefits of this which is having that
+extra space at the front all you would need to do is extend this piece here and you
+would get the exact same effect and you'd have access to the entire draw and you'd be
+able to take the removable draw off whenever you want without having to take the whole
+vice apart this is an aluminium version of the of the jaw which is fine i don't i'd
+rather it be steel but you know that's the only thing i don't like about it otherwise
+once you take this piece off this piece that really shouldn't exist it's cheaper it has
+it still has that ledge to put a part on because you don't need a very big ledge and it
+works better wrong that's why uh how long are the wire rails on v2 i don't remember i
+don't remember it'll be in the bomb somewhere i think it's four i have a sneaky
+suspicion it's 420 or 600. 600 sounds about right I figured out a distribution system in
+an oil distribution system. Well, a grease distribution system, should I say, for Atlas.
+So you should be able to grease each y-axis independently. Or, if you wanted to, you
+could build a sump and have it continuously oiled through operation. But that's a bit
+overkill, I think. I don't know why I took those out, because I'm not actually going to
+use them right now. What I am going to do, flip this over, and I'm going to put the
+supports underneath. So I am going to need to put a load of T-nuts underneath there.
+Ooh, doing all this prep now. Okay, okay. Well, for once, for once, for once, I will
+actually do what Bright tells me to do. I can preload these later. I'll still have
+access to the preload if I needed them to be able to load them if I need to. So I'm just
+gonna follow Bright's suggestion. And yes, these are a slightly different orange to the
+rest of the build. They are glass fiber reinforced, whereas I couldn't get the Prussia
+orange in a glass fiber reinforced, so this is the closest I could get. And it's just to
+prevent twist in the bed. Hey, A, V, and C how much of the material does the vice hold
+it's two, three millimeters because it doesn't really matter because you've got the
+jaws, which are do jaws do the holding on a vice, right? Once it's tightened, having
+that little overlay doesn't really matter. The only reason you have that little ledge is
+just to place a part on it. If you look at, say, an inception vise. So Inception Vice,
+they have again like two, three mil on the overhang, and then it's the teeth that holded
+it. I like the concept of bulldog vice. Don't get me wrong. I like the concept of it. I
+think it just needed a little bit of refinement, and I haven't seen a refinement for it
+for a while, considering I got that prototype vice like a year ago now. But bully LDO on
+the bulldog vise. If you bulldolly them on that, they'll build it. Yeah, it's the same
+as the inception vice in terms of overhang. Alright, I'm getting distracted. I need to
+do some inserts first. Let's get the inserts done and dusted for today. That needs to go
+up to 360 because this is a glass field. Oh, actually, no. No, no, no, no. This is PTG.
+It isn't the carbon fiber-filled stuff that we were working with before that needed the
+360. It's going from the front because, yeah, that makes sense. Anyways, whilst we're
+getting this done, how's everyone been? How has everyone been? You may take this time to
+berate me for not streaming more often. I will take it. I'm a man. I can do it. I have a
+feeling that by the end of this build, I will have had way too many inserts given to me
+two more. No, not need only five more. My mistake. Two, three, four. Let's do the big
+boys first Oh no wants to share with the class what they've been up to What a shame What
+a shame I see the Linux CNC guys have been doing a lot of stuff on the server recently
+like Rumba's been really gone ham with this lemon tart It's funny to me because Rumba
+was like the guy behind the fourth access macros for Milo and then he got himself a
+lemon tart. He's still on the team cool guy. He's a cool guy Then he got himself a lemon
+tart and then moved to Linux CNC He's been doing a bunch of stuff with Linux CNC
+recently So he did all that development to then never use it God I hate big inserts it
+takes so long There we go that down a little bit since we're doing the M3s next Hey,
+looks like we've had a lot of people join. Hello everyone who's joined Make sales known
+in chat makes time go way faster and the stream is way nicer when I get to actually talk
+to people Where's Yormangan damn it? He keeps saying that he's gonna come to stream and
+then never does I think after we've done these heat inserts It's probably a good idea to
+build that last screw Since we've already got the camera over here we might as well
+raise the heat a little bit back to where it was Oh I'm so happy I'm so happy I finally
+used up the last of that PTG GF that glass fiber stuff and God never going back to the
+stuff ever again but I do have about 10 kilos of glass fiber ABS on the way on the way
+so I can get back to using the material I actually like to use Should those end plates
+be printed with something strong with the ASA? No nothing wrong with the ASA in fact ASA
+is probably like ASA or ABS is what we recommend There's really not going to be too much
+of a benefit from it. It's just I want this to be as reliable a machine as possible. I
+don't want to have to fuck about with it Especially I wouldn't use a glass fiber filled
+material again, especially because if you know how this is put together I've had to
+build two of these one with a reduced size so it actually slides in because the other
+one was way too big. There we go. So the cover on this because it's they both printed
+with fiber filled materials. They don't slide in very nicely. So that was the original
+size one. That's one I've had to reduce slightly just so that I can get it in and out.
+So I'm actually going to throw away the other one. That's the annoying part of fiber
+filled stuff is that I design everything for normal ABS, but when you use fiber-filled
+stuff, it makes it harder to get sliding fits to join in together. But, anyways, right,
+we have one last one of these to put together. So let's do the prep. Say it with me,
+kids. We need a grub screw first. We've done one of these every single stream except
+last stream. That's because we were doing the end of the y-axis stuff. So the reason you
+need these grub screw is to plug off because this is the oil filter or the grease port.
+Not filter. Why did I say filter? This is the grease port. So when because this is
+CNC'd, you can't make channels in it without drilling in two directions. So you drill in
+from this way, you drill in from that way, and then you close this end up with a thread.
+That's what this scrub screw is for. So that grub screw goes in there and then gets
+closed off. And that way you've got a grease port that works. And you've got to make
+sure that this sits below the surface of the material. And now, whenever you add grease
+into this port, it will then channel up into here and into where the screw cavity goes.
+The next bit is where are they? These little guiding pins. Normally on the printed
+versions of these, they would just be pins like this, and you'd insert them in, and just
+the fit of the pins in the bores would stop those from moving. But because we have
+access to threads, we might as well use them. So these get threaded in here, like that,
+and then tightened up nice and snug. And that is what the compression plate rides up
+against. If it's a little bit loose, don't worry. Don't worry at all. Now we just need
+to put the nuts in. There they are just like that. And because this is the LDO version,
+it follows, because it's the CNC version of the A-beam nuts, you got to do it a little
+bit differently. Everything is, or almost everything is M3 by 10 screws. Almost
+everything is M3 by 10 screws. Just like that. We just got to prep everything for
+assembly. It's probably a good idea to put Loctite on. I don't have any Loctite because
+I'm really bad at remembering to do the shopping and the preparation for these streams.
+There we go. There we go. There we go. And then we've got to do the other side. The
+other side's slightly different. Instead of four screws, it's three screws. Only reason
+for that is because if we put the fourth screw in, it would interfere with the grease
+port. But because this is CNC'd, it doesn't really need it. And I'm going to need one
+more ten. Cool. So here's the really, really important part: these are bellville
+washers. They're all conical washers. Depends where you are and what you want to call
+them from that place. Now, the thinner they are, the better, but they also deform
+quicker when they're thinner. So just be wary about that. I've got three sizes. I'm
+using the 0.3 mill size. I've asked LDL to include these this size specifically in the
+kits. And then we're going to keep them so that the cones are facing towards each other.
+So the highest points are facing towards each other And then we're going to flip it over
+so that they don't fall out and slide the compression plate on here, just like that. And
+then with some M3x40s, wherever they may be, M3x40s, we're going to tighten that
+compression plate down from the other side. If it was the printed version, it would be
+from the same side as the compression plate, but because this is the CNC version, it's
+from the opposite direction for now. Once it bottoms out, stop There you go. So you see
+how I haven't added any pressure onto these yet. That's just holding everything in
+place. Now what I want to do is I want to compress everything to the furthest that'll
+go, but I don't want to do it all on one screw at a time. I want to do it so that the
+pressure is shared amongst all the screws until that compression plate is completely
+completely down. So just do one screw at a time in like a little diamond pattern until
+those bell washers are completely flattened. There we go. Doesn't need to be overly
+tight. And that's what we want. Before you go into the next step, make sure that you've
+got some form of lubrication in them. Whether it's grease, whether it's oil, whatever
+you're using, just make sure that there's some form of lubrication on it on the internal
+threads. There we go. Probably a better idea to do this with gloves, but I don't have
+any gloves right now. There we go. Cool. And now we're going to grab our screw. And the
+idea is that you're trying to thread it in so that it goes all the way through to the
+other side. Now, because the compression plates are there and you don't know where the
+threads start and finish on each one of the brass nuts, the whole idea is to loosen the
+compression plate off just a tiny bit at a time until that thread begins to catch on the
+other side. So in the opposite order that we did before, where we're doing every
+opposite corner, just a quarter turn at a time. We're getting it through. There you go.
+I can start feeling that about to catch. So I'm just going to do it gentle bit at a time
+so close to being there. So this might be one of the screws that we have an issue with.
+I'll show you. So there's a chance that we might go through the entire movement of the
+Belleville spring without being able to find a point where the screw actually engages.
+And that's fine. Don't worry about that if it happens. There is a solution to it. I
+think that's going to be the case today Oh, I'm catching the thread there. Question is,
+am I going to catch it in time? Right. So it's threaded on now, but I don't know whether
+or not it's been successful until I take the entirety, all those screws off entirely and
+check for the tension. So just like before, take all the screws off until they're not
+holding the compression plate in anymore. Cool. And then, so that was just at the end of
+the movement of the Belleville spring, but it has actually caught still. So a good way
+to test it is if it still spins, even if it takes a lot of force to do so, it's working,
+but the real test is try and move it up and down. If you feel or hear any kind of linear
+play, then it needs redoing. That's just on the edge of that. So what I would actually
+end up doing, and I'll probably do this off camera next for next time, is I'd add
+between the two Belleville washers, I'd add one of these spacers. And the whole idea is
+when you add the spacer, you're changing the area or the place at which the thread will
+connect on both ends. But for now, that's actually pretty good. And we can come back up
+here. Hello again. So that's done. That's done. I think Bright wants us to put the motor
+mount on now. Where did I do? There it is. So is it motor mount next? Yeah. So he wants
+us to do motor mount first, which is going to be M3 by sorry, M5 by 12. 5 by 12s and
+5x12s. How is everyone's weekend, by the way? Does anyone get anything fun? Oh, I
+haven't streamed since 4th of July. Happy 4th of July to the folks. Hey, Yolanganzia.
+How are you doing, dude? How are you doing? You finally showed up. Finally showed up to
+stream. Finally clocked into his shift at the Time Management Bureau. Oh, I forgot a
+heat insert at the top here whilst my heat gun is still on. Oh, I actually here's a is a
+bit of fun news for you. I attended the scene of an ongoing fire and helped evacuate
+someone a few on the 8th, the day after my birthday. Yeah, someone's garage was on fire.
+So I was on the feet. There's a field next door to me. It's like a school field, and a
+lot of dog walkers go there. So I was walking brisket and we heard these popping sounds
+going off. And my girlfriend was having a smug back in the flat and she could hear them.
+So she came running, wondered what was happening. I said, someone's garage is on fire.
+Please take brisket. Handed brisket over to her to take back to the flat. Jumped over a
+little fence, and then went to go help an old man out of his house because his garage
+was on fire. It wasn't just me, there were like five other people. Congrats with getting
+old. I'm not that old. I feel that old. I'm not that old yet. Jake the hero. No, dude.
+This is gonna sound really bad, but like it was only a few doors down from me, and it
+was a case of yes, I wanted to help the person, but at the same time, I wanted to make
+sure that it got dealt with because I live so close by. So there was a selfish element
+to it, and I'm not afraid to admit that. Like, I'm glad he's okay. I'm glad we could
+help organize the fire brigade in and stuff like that, but there was a slightly selfish
+element to it. Thread's dead. I didn't even miss the entire stream this time with you, I
+mean brisket naturally. Brisket's okay. He's um he's just had a bath today, and uh, we
+finally got him deshed. We did a proper, like, head-to-toe deshedding for him. There was
+a pile of fluff that basically could have built another brisket if we felt like it, but
+he's good, he's good, he hates water, and even today, because of how hot it's been
+recently, he was okay with it for this one time because he was actually got cool for
+once Right, that's all those in cool See I'm not sure why he wants us to install this
+part next because we need to take this side off anyway So I'm gonna leave this part off
+and I'll just assemble it when we get to it the bearing block side So this gets put
+aside for now I'm gonna take the new long John off because I don't want the new long
+John getting damaged right now That's not the right screwdriver size We should put that
+in bags and sell it I'm sure you could make a lot of money from selling brisket assembly
+kits oh I do want to find him a girlfriend speaking of which speaking of brisket
+assembly kits I do want to find him a girlfriend because brisket puppies would be
+absolutely fantastic so that needs to go on there This is all M3x10s again if it was the
+normal version of the M3x40s and you just use the M3 reuse the M3x40s that you use to do
+the preloading on Hey Steve Nos is here Going me get brisket I want a brisket assembly
+pit kit I always hate this bit because you have to kind of balance things so I need a
+pin first Pin goes in there that then goes on top and so long as we can get at least one
+of these screws in the rest comes quite easy We are gonna leave these slightly loose as
+well I'm just gonna screw screwing a little bit so it's a little bit more centered There
+we go Natalie got a message from LDO stating that the kit should ship from China at the
+end of July be ready at sellers end of August cool take that with a grain of salt I'm
+sure that they mean well by saying that take it with a grain of salt they also said the
+same thing about shipping everything in June or yeah in June so I'm sure they mean it
+and I don't mean to be upsetting anyone with time frames and stuff like that it's just
+that things do get in the way every now and again but it's good good to hear good to
+hear regardless okay so that's been assembled Okay, I'll deal with that stuff when it
+gets time to it because it's quite obvious Okay I'm still leaving the bearing block off
+because I don't see the point in assembling it right now But we can do this stuff I
+think Bright's style of doing this and my style of doing this are a little bit different
+hey nine miles here it's a nine mile you doing bud It's been a long time since I saw you
+on stream Yeah, Bright's assembly method is kind of get everything ready and then do it
+whereas my assembly method is do everything basically as I go so that's why his assembly
+manual makes a lot of sense for people who don't know how the build goes together
+already So follow his obviously but for someone like me I just prefer doing it single
+assembly at a time so having the end piece on the the bearing block for the for Miley on
+here first just to then take it off later kind of annoys me but I get why he's done it
+like that but regardless of that I need to figure out what size screwings these are
+these are M5x10s going down are the M5x10s going the other way as well Yeah, so they're
+both M5x10s cool I think it's a case of I've done this so many times in the past as well
+that I have my own way of doing it Right, so I've got these these should be A's Ah well
+a problem seems to have arisen in the fact that I have six B's and I'm meant to have
+four B's and two A's So that's really annoying because I don't really have very much
+left in terms of filament for this because this is the Prouchment PCCF which has
+literally got the last ring of its spool left That's so annoying That's so annoying
+Okay, in that case I need to get back to Tommy because Tommy says that he's said he was
+gonna send me some another roll of this stuff anyway, so I'll do the B's we won't
+install it on the table yet if Tommy can send me those spools of filament in time I can
+then get the A sections in If not then I strip them off and replace them all with ABS
+glass fiber Chaos best way to assemble the machine. Yeah, I agree with you Chaos is more
+fun see chaos For now, I'm just gonna get the B supports in and we'll roll from there.
+We can get the actual mechanical part of it finished because you don't need the supports
+in necessarily for a finished machine. They do help keep chip exposure down, but that's
+about it. And they since we have the blind butt joints now for the table, they don't
+actually provide very much stiffness either. So they're kind of optional if you don't,
+if you want to, if you want to save a little bit of filament, they look cool, and to me,
+that means more than working good sometimes sometimes. Nine's been playing around with
+the little FOC modules for the N17. It's really good to see him back in back in action,
+actually doing some development stuff. How's Kiddo doing, dude? Time's up. Cool. Oh, one
+solid cubes here. Looking cool absolutely matters, of course. And I don't get to look
+cool very often. Although in this case, I suppose it's just not me looking cool, it's
+Milo looking cool. He's good. So fast now, I can't even show I can't even sit down. Dev
+work is new. He's now prompt clawed on my phone. Dude, I've been doing that basically to
+get as much usage out of Claude as you can. You've got to be maxing out your usage every
+four hours, four to five hours, if you're just on the normal scrub tier subscription. So
+I'll be at work going, can you do this whilst I'm working? Can you do this whilst I'm
+working? Can you do this whilst I'm working? And then when I get home, I review
+everything and actually upload it all. I knew it. I knew these weren't M5x10s. These
+must be M5x12s. Okay, that's an issue with the manual as long as these miners. Yeah,
+that's a manual issue. Actually, no, it might just be me fat fingering fingering it.
+Yeah, it was me fat fingering it. No, Bright was right. Bright was right. I was along
+We're looking pretty good for closed loop on the N17 in RF 3.7. Gloomy Annie will likely
+be merging my configs and such as it's such for it, so we'll have an official image.
+Cool, dude. Why is it a 3.7-ish like thing? Because Duet has closed loop drivers already
+that are can-based. So why is it 3.7 that's been holding you back for it? One solid
+cube. I want to make leather dies cut on boss leather. Is the Milo Miley able to cut
+steel? Brass Element crate the blades and mill the embossing. I've seen it done on five
+lasers. Yeah, you could do it. The issue is more you need to match up your CADs To the
+realistic internal diameter, internal radius of every single cut, and you also need to
+consider the fact that it's going to be a flat floor, or if you're using really fine
+engraving tools, it's going to be a 45-degree floor, which means that your matching die,
+so your male and female dies, need to have the same realistic features, real-world
+features, as each other. Because you can CAD it up and then realize, oh, damn, my CAD
+won't actually blend the two halves together. It's just that Andy is only working on 3.7
+stuff now. There's been a bunch of work on the TMC motor drivers, so merging it into 3.6
+is the same amount of work again. Oh, cool. Makes sense. Thickness of blades would be
+maybe two millimeters thick, maybe less. Yeah, it's possible. I've seen people see and
+see leather dies before and leather stamps and stuff like that. You've just got to make
+sure if it's a two-piece die, like a male and a female version, you've just got to make
+sure that they match up. And that's matching up per your tooling, not per your CAD. I
+kind of want this. I have this thing in my head where I want this to be the last stream
+of building this machine. I want to get this to a point where I can, all the work I need
+to do is small bits that I don't need to show on camera, things like tuning, putting
+covers on things, blah, blah, blah, stuff like that. Because I am at a point now where
+CASA is ready, the firmware is ready, or my version of firmware, whilst Cade works on
+NXT, and I just want to get testing. I just want to get a machine that works, and I can
+start doing stuff for Atlas, and it's going to be just nice. I'm going to be able to
+just do stuff that I've been wanting to do for a very long time. So, CAD, find out
+what's gone wrong, adjust CAD, repeat until you get the right result, or know what
+you're doing and get hit by the first attempt. Yeah, that's basically the same as pretty
+much any CAD experience I have, CAM experience I have at least Speaking of lasers,
+whilst once other cubes on the topic of lasers, I am actually so glad that lasers have
+become more than just a blue light diode on a gantry. Like, I have been impressed
+recently with how far lasers have come from the DIY solutions that we had up until now.
+Like, all the X tools, all the stuff that X-Tor is doing is actually incredible. And
+this is coming from a guy who doesn't really think lasers have a place in the everyday
+goings on of people. I'm curious if anyone has put an ATV spindle on a V1.5 to be an ATC
+I've got a 2.2 kilowatt HC spindle on my router. I was wondering if it would work. Yeah,
+yeah. Phil's got one. Phil's got an ATC. He doesn't actually use the ATC functionality
+of it. He still manually loads. But he does have an ATC spindle. And it does work I like
+a fiber laser, but want non-Chinese and likes of full spectrum laser seems. Cool. Got a
+friend who has built a large CO2 laser for fun, basically. Yeah, nothing wrong with
+that. See, the CO2 lasers are fine. Well, they're not fine. You still need to make sure
+it's safe and make sure you're running it with proper safety glasses and all that stuff.
+But the cheap blue light lasers from like from like five years ago. The you know, the
+ones that are all made of just 2020 extrusion An i surgeon's best friend because it's
+what makes them money well what will eventually make them money I make the die currently
+with FDM and I have a count for leather thickness muting the CAD muting the CAD only so
+far leather molds before tearing or cutting etc I guess more tools for the win okay I
+think you need to extend the Z above build area for ATC how tall is the BT30 tool holder
+plus a bit of stick out this is true you should probably be able to get away with it if
+this is if you make sure that the spindle itself is all the way choked up to the top the
+BT30 will be about that long and if you travel all the way to the top you might lose
+maybe 10 centimeters of workable build height oh my little birthday present for myself
+was uh I bought dawn of war if you have never played dawn of war it's uh it's a 40k game
+so it's worth based in the 40k universe but it's it's one of the all-time greatest RTSs
+and I remember playing it as a kid and it was it was 20 bucks for the remastered version
+of it and I thought I might as well give myself a quick birthday present a nice little
+birthday present that I actually want and it's been so much fun So my question to you
+guys is has anyone ever played Dawn of War before am I just in that weird little niche
+Yeah, sorry not 10 centimeters, it's 10 millimeters 1 centimeter I don't know why I had
+to think about that for so long You lose about 10 millimeters of build height The
+original Dawn of War games are among my all-time favourites so this point in the other
+Dawn of War games two isn't as bad as everyone harks on about It's just more of a squad
+based RTS rather than a whole field based RTS Dawn of World 3 is not great Dawn of War 4
+hasn't come out yet so I can't talk about it But it looks like it's gonna be a return to
+form What I found really weird though is that there is a Sale on there was the Steam
+Summer Sale had a sale, a 10% off sale for Dawn of War 4, but Dawn of War 4 hasn't come
+out yet. So, how do you put a sale on a game that hasn't come out yet? I found that a
+little bit weird. There's a sale on a pre-order, effectively. Yeah, it was a pre-order
+sale. But it wasn't like a pre-order deal. It was just a sale on pre-order. 10% off on a
+game that doesn't even exist yet. I've seen Warhammer games, but I've never played.
+Yeah, fair. And I get that you've got to get pre-orders, but pre-orders are their own
+thing. They still cost the exact same amount as the game cost, but you get a little bit
+extra with it. This was just the base game for 10% cheaper. I don't know. I know it
+sounds like I'm blowing out of proportion a little bit. It just seemed weird that the
+game wasn't even out yet and it was being sold for a discount. It either means that they
+have a lot of faith in that their game is going to get a lot of sales, or they don't
+have very much faith in the game as a whole, and they just want to make it make as much
+money as they can before everyone realizes that it's shit. Age of Empires 2 is great.
+Age of Empire 4 is okay. You can demo your teammates' structures and people can block
+you and it can't do anything about it. Another great Warhammer 40k game is Mechanicus.
+I've played Mechanicus for a little bit. It was alright. I don't... It didn't blow my
+socks off, but I can also see why people would spend so much time on it. I can see the
+appeal. Also, I'm getting back into Enshrouded, so I'll hop on Enshrouded for an hour
+every day. Well, not every day. An hour every day I have offius is also pretty good. I
+don't actually know what Gladius is. Is it? I'm guessing it's a Warhammer game. I think
+there's been a lot of Warhammer like fever going around since Space Marine 2 came out.
+So many people I know who had never ever cared about 40k before jumped on board with
+Space Marine 2. I remember playing Space Marine 1 when I was like 14 and I'm going to
+say something fairly controversial. Space Marine 1 is way better than Space Marine 2 Not
+saying Space Marine 2 is not a good game, but Space Marine 1 way better potentially
+controversial view, but you know what am I if not a walking controversy Okay, doke so
+the sports that I can mess around with that I didn't accidentally Put the wrong ones up
+in and now is I'm gonna guess is time the middle ones I'm still missing them I'll
+install them when I can now it's time to get the rails on is my next guess what is
+Bright wanting me to do though he wants me to install the floating bearing which is a
+fair that's fair you know I think I can do that it's a fair next step Roads of war turn-
+based strategy game okay cool cool I will have a look at it have a look into it hey
+Ollie's here it's alright dude you can be late that's fine your Mangan however never
+gonna let him live that down Cool right then what then what then what there we go then
+it's time to the rails okay dub so these get clipped on like that and then rail goes in
+the side so let's get a rail gonna need to put some tea nuts in first tea nuts and three
+teeth I will be bullied forever for missing stream I know it oh don't say you're gonna
+come to stream and then don't show up that's how you don't get bullied I'm jogging you
+on again we love having you around Where's Raj? I need Raj in stream I need to apologize
+to him because I have been very I have procrastinated enough. I've had my trident in a
+box on my kitchen table for like three weeks now ready to send to him and I just can't
+be asked to dragging it to work I still also have the CC1 in a box as well for I think
+it was Ollie's Ollie who was selling that one tokay that should be that and then I'll
+need a whole load of M3x10s over here so those are all ready and primed I'm gonna click
+this in that away that away all right there we go let's click them nicely and I'll just
+have to do a little bit of the jiggering And kajaggering, you know, when I'm ready, I
+should be soon. Fingers crossed. Cool. Yeah, sorry, dude. I was still working getting my
+garage to be secured. No worries, dude. Take your time. Just means my girlfriend makes
+fun of me whenever she comes around and sees the same box there. The same two boxes. But
+she makes fun of me every day, anyway. These rails are still loose. Same reason they're
+loose whenever I put anything else in so that we can adjust them later. We'll tighten
+them down if we need no adjusting. I got all my unassembled tridents in a room we never
+go to. How many unassembled tridents do you have? I mean, I can't say anything. I've got
+an unassembled micron, well, partially assembled micron right over there. Once Atlas is
+up and running, I can actually finish the Micron build. I know that sounds ridiculous. I
+do want to do like a really stupid mod to it where I figured out I could basically take
+the skirts out and replace the entire acrylic side panel with like a 10mm thick
+aluminium plate on all sides. I think that would be awesome, but it would be so wasteful
+at the same time. And it would make it so heavy. But at the same time, why the fuck not?
+I need to do the same thing on the other side now, don't I? Yes, so rail Skizzles. Oh,
+yeah, I forgot you ordered a bunch of frames and stuff at the same time, didn't you? I
+totally forgot about that's fair what's sitting uneven We'll have to heat suck your
+panels Five frames for a bit more than the price one that's fair but then they didn't
+they release our Trident R2 which is a different frame like all the extrusions are
+slightly shorter for the for the gantry What I don't understand is they did all the that
+Trident R2 work, but did they ever port that back to the R sorry? Yeah, it was Trident
+R2. Did they ever port that back to the V2.4? So the whole point was getting the was
+shortening the belt path Wasn't it? It was just shortening the belt path to make it a
+little better on resonances for input input shaping. Oh, I finally took a look at a
+proper look at the Cascade CAD and yeah it's a Voron with sorry it's like a 6040 made in
+Voron style I don't know what I kind of expected. I thought I was I was expecting it to
+be more than it is. It's not a bad thing, not a good thing. It's not anything in
+between. It's just a thing They will eventually change to my gantry but Z belt
+complicates it. Oh, okay, so I'm guessing it there's some clearance issues there Porting
+isn't done but I think it's being worked on I was just shortening the belt path for that
+was a mega post point not sure what you mean all the extrusions are the proper sizes
+Solvon Cheap almost recovered the cost of all five frames Nice I'm pretty sure Because I
+watched a slight bit of Nero's stream when he was doing it And I thought he had to cut a
+couple of his extrusions slightly shorter But I could just be wrong there I think it's
+around around that time of night where everyone's going to bed Yeah 1030 I still gotta
+make some dinner. Oh, that reminds me I don't have a fridge right now. I do but it's
+filled full of ice and acting as a coal box because the compressor blew on it and I've
+ordered another fridge but it's arriving on Thursday and I've got a lot of meat and
+stuff So I've moved everything into my freezer and filled it up with ice just to try and
+keep it for another few days But yeah, I woke up to a really really awful smell in my
+flat and my compressor going as hard as it could on the fridge and then went round the
+back of it and saw there's a gaping big hole in one of the tubes leading up for the
+compressor. So it must have blown in the heat and so yeah, I don't have a fridge right
+now I'm gonna keep two of these stoppers on on this end just in case That's that done.
+I'm sure I'm sure that's good enough. It's keeping everything kind of slightly frozen,
+which is better than it going completely rancid in the heat. It's just really annoying
+because I don't get to have cold drinks unless I put ice in them and all my ice is being
+used to keep the fridge cold. What's the next step? Yeah, it's exactly as I thought
+which one sticks out longer needs to go in this way, doesn't it? So I'm gonna just
+lengthen that through this side There we go This has now become significantly heavier
+Let's get the carriages slightly tightened suspicion the plate is being the rails aren't
+aligned I'm gonna have to do that in a second It's gonna be quite hard to do but a plate
+this big oh that might have just been it I'm running out of M3 by tens and found it up
+Before I do anything else, I'm gonna put one of these tooth pulleys on here just so that
+this side stays in two, don't I? The other one will go on the motor, so once an eight
+mil. So that's a smaller one. That's the eightmil that goes on eightmil ball that goes
+on this one. Do I shan't have the right screwdriver out already? I do. Oh those aren't
+the correct grub screws grab screws in here. Oh um slight issue Slight issue here I
+haven't got the grub screws for those grub screws in here I could use a bolt but I don't
+really want to have thrown it away by accident I doubt it for now I'm just gonna look
+dig into my own supplies should have some stainless steel ones the right size hopefully
+hopefully I've got at least two of these that are right size Nope Well that sucks that
+might be putting an end to the stream tonight Looks like these are M3 grub screws and I
+don't have any more than that I've got an M5 grub screw I would have thought they'd come
+with the grub screw pre-installed already but uh I guess not oh here we go unless are
+these not the ones I've just tried these different ones or does it need M5 grub screws
+pretty sure I just tried these no it needs m5 grub screws No it can't be sizing is this
+unpacked No, it's not even accepting the M5s an M4 grub screw Is it the same on the
+other pulley Yep Okay, that's a bit weird. Basically, the grub screws that are on these.
+Hello. Camera's gone. Yeah, the grub screws that are going to go on the side of these
+are not the standard M3 size. They're not an M5 size either. So I think that's probably
+going to mean this is where we end up for the day. Because I'm going to have to order
+some of those in before I can continue doing anything, really. I don't even have M4 grub
+screws anywhere unless... Hold on, hold on, hold on. I might just have some from an old
+kit. I just scrapped two pulleys that use M4 grub screws today. Got four spare. Oh,
+fair. This is definitely an issue, one of those issues I should really bring up with
+LDO. Why is my camera? Why does it do this? I think it's overheating. That's why I think
+the camera's overheating. Hey, saved by the bell. Right, so the old LDO rings have the
+correct grub screw size on them. So these are from like a V1.5 beta kit that I got a
+while back nearly two or three years ago. So I'll have to let LDO know about that.
+Pretty sure I only have those two as well. I've got to find one more should be enough.
+We can continue with stream a little bit longer now. I do think I'm going to end off
+soon though, because it's really fucking hot in here. Cool right seems to be running
+true The rails are fine, Titan under they travel just as easily Drill, drill, drill,
+drill, drill, drill, baby, drill Right rails are good, they'll align well enough Okie
+doke in that case, I think this is where we're gonna end off for the night folks I'm
+gonna try get more time to stream for one for two I'm gonna try and get some more parts
+printed because obviously we're still missing the two center panels here and here But
+other than that we made some decent headway next stream should be us done for the
+mechanical side of the build at least done enough to get it in the machine and going we
+still might have some magnets and stuff to do at some point but we'll get the motor
+mounted get the x-axis mounted get everything kind of vaguely trammed in and be ready to
+go from there anyways Thank you very much folks for coming it's always appreciated if
+you do want to support the project any further there are some links down below to some
+donations and stuff like that but you the regulars so you'll know about all that stuff
+anyway thank you very much for coming I will see you next time bye now folks

@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=-OHCU9msaxs",
+  "video_id": "-OHCU9msaxs",
+  "title": "LDO Miley V2.0 (full production kit) Ep4 #millenniummachines #opensource #cnc",
+  "uploader": "Millennium Machine Works Official",
+  "duration_seconds": 6767,
+  "upload_date": "20260714",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "language": "en",
+  "transcribed_at": "2026-09-09T22:01:37+00:00",
+  "audio_retained": false
+}
