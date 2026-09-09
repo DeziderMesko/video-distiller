@@ -1,0 +1,520 @@
+[00:05:01] Hello, folks
+[00:05:03] Right, I was a bit caught off the guard there.
+[00:05:04] Got to put the live notification going Discord be alive.
+[00:05:09] There we go.
+[00:05:10] Right.
+[00:05:11] Hello, Anyaka.
+[00:05:12] Good to see you in chat already.
+[00:05:18] Oh, something's talking to me.
+[00:05:21] My monitor back here is still on.
+[00:05:22] There we go.
+[00:05:23] Now we don't actually have to hit the stream.
+[00:05:25] Why is this live?
+[00:05:28] Right.
+[00:05:29] How is everyone doing?
+[00:05:30] We are going to get back to Casita today.
+[00:05:33] Sorry, it's been so long since our stream.
+[00:05:36] It's mostly because I was waiting for packages.
+[00:05:38] And when I was waiting for packages, well, after I waited for packages and got my filament, I've had so many issues.
+[00:05:44] So many issues.
+[00:05:46] Whether it's been CAD issues, whether it's been GTG issues, which we will get into in a little bit.
+[00:05:53] Hey, Ollie, how you doing, bud?
+[00:05:56] How are you doing?
+[00:05:59] Alright, let's try and bully people to get into stream today.
+[00:06:02] If you know anyone who wants who might enjoy the type of stuff we do here, bully them into coming into stream today.
+[00:06:08] Right?
+[00:06:09] No excuses.
+[00:06:10] Absolutely no excuses.
+[00:06:12] Right, before I forget, let's go to the overhead so you can actually see what we're doing.
+[00:06:17] A couple things have changed.
+[00:06:19] Nothing major.
+[00:06:20] Mostly just redesigning some of the parts that we'd already worked on in the past.
+[00:06:26] For example, I changed all the skirts out to be a little bit sturdier.
+[00:06:33] And I also have a portion now to slide in the panel when we finally get around to do it.
+[00:06:37] I haven't done the legs on it yet, though.
+[00:06:39] I need a chat over here so I can actually go.
+[00:06:45] Hey, Floky, how you doing, bud?
+[00:06:47] Right, so done a couple changes, moved a couple panels around, stuff like that.
+[00:06:53] I drilled and put together the door, but we, other than just the extrusion parts of it, nothing much done.
+[00:07:00] And there's the absolute shit ton of testing I've been doing on the filter.
+[00:07:06] We'll go over the filter assembly in a minute, but I'm just going to get brisket out for a second.
+[00:07:11] Oh, say goodbye, Brisket Just to show you how much testing I have been doing.
+[00:07:19] I am going to freeze the camera where it is so you can see the floor.
+[00:07:25] And I'm going to show you how much I've been doing.
+[00:07:30] One, two, three.
+[00:07:35] Some other stuff.
+[00:07:44] This is the bit that you guys don't get to see in testing.
+[00:08:01] This is what we have to deal with when we're developing stuff.
+[00:08:06] This is the bit that you guys don't get to see because I normally just throw it off camera or do it off camera and change some stuff around.
+[00:08:12] But the amount of filament that's been wasted here just either because PTG being PTG and being a real pain to print with or because slight things need to be tweaked or this, that, and the next thing.
+[00:08:29] That's kind of the deal when it comes to development that you guys don't see.
+[00:08:34] So I finally have something I'm happy with behind me.
+[00:08:41] But yeah, all of this is what got us to that point.
+[00:08:48] Alright, turn the tracking back on So a lot of this is failed prints because PTG GF absolutely sucks Jake how many KGs is that it's about five kilos And that's not even printed in That was all printed in the aesthetic settings So like that's not even the most filament I could have wasted because it doesn't it's not load bearing or anything I printed in the aesthetic settings There we go finally tracking so let's move over to the desk so I can actually show you what all that testing was for so we'll simplify things first and foremost This over here is just the replacement back panel it's got a vent on the back and it also has a little TPU there we go right there a little TPU not grommet gasket so that the air is always concentrated through the back and I decided to put this on the panel itself rather than on the filter box so that you could just constantly swap it out without having to print load
+[00:10:05] We'll say get a bunch of PLA for prototyping.
+[00:10:06] No, no, because half the time the prototyping is testing as well.
+[00:10:14] It's not just printing to see if it fits.
+[00:10:20] And I've also got to test with ABS to see if the shrinkage compensation or how the material is actually going to move and stuff works.
+[00:10:31] So we'll open up the fan box first.
+[00:10:35] So these use 12032 radial blower fans.
+[00:10:42] So the reason we want radial fans with this is because you need a whole load of pressure.
+[00:10:49] And that will make sense when I get to the actual filter section itself.
+[00:10:53] So we'll do the fan section first.
+[00:10:55] So the fan section is really, really simple.
+[00:10:58] It's just a front cover.
+[00:11:00] And the only reason the front cover is there is because aesthetically it makes it look the same as the other and it also holds the pre-filter in.
+[00:11:09] So I can expect I'm expecting this piece to be absolutely hammered by chips and things and just like all the other Adamascus, how are you doing?
+[00:11:20] Just like all the other parts.
+[00:11:22] This is actually a solid piece in CAD and then you're just printing it with no top or bottom layers and you can use whatever infill pattern you want.
+[00:11:30] So I just went with hexagons because it matches the rest of the build on you want this to be quite tight because obviously this is just to get bombarded with chips So it's a radial fan on there and it shoots out the top.
+[00:11:47] Yeah nice and simple.
+[00:11:48] There is a back plane the because the radial fans only have three mounting points.
+[00:11:53] There's no mounting point at the top here, which means one of the flaws is that this doesn't seal and here does leak out.
+[00:12:02] But when you've actually got it backed up against something where it's backed up in the enclosure, the enclosure itself is going to close that last bit, so it doesn't really matter.
+[00:12:11] But just so you know, these 12, these 120.
+[00:12:15] 32 fans are the same fans you have in like the auxiliary blower of a bamboo labs machine and there's no way you're going any lower in spec than this because like this just barely manages to do the job I made the mistake of ordering two of these in the 48 volt style but that's what you're looking at so it's not a small fan like this is the same size as like a big 120mm fan in terms of the housing but it's obviously radial style right really really simple mount that just stops it from leaking too much air I have designed a couple of them so there are little offsets written on these so there's a 0.
+[00:13:08] 05 offset 0.
+[00:13:09] 010 offset 0.
+[00:13:11] 015 offset and that's just to get as close as possible to a seal without obviously interfering with the part so much that you can't close it so we'll put that back together anyways whilst I'm putting this back together how's everyone's day been what have you guys been up to and whilst I'm at it I might as well ask you to do the shilling thing if you like the stuff we do here please make sure you leave us a like it does help Nine Miles just a hero sorry in our business trip I'm a little drunk No worries Floky no worries What's your Discord name will remind you of this tomorrow Yeah, we'll remind you all of this of all this tomorrow Nice so that's back together put the cover back together There are a few more things I need to install we need to install a few more magnets I just ran out of time before stream So this still technically isn't even done.
+[00:14:24] We might need to change some stuff But yeah We'll see my battery's running out pit stop There you go And because whenever I change my earphones out I have to restart the music There we go There we go perfect right beta testing guy.
+[00:14:59] Oh cool spent the day type trying to see what was wrong with my highlight.
+[00:15:03] I know I
+[00:15:05] Don't understand what is up with your Milo.
+[00:15:07] I'm convinced it's a spindle at this point.
+[00:15:11] I'm convinced there's something up with your spindle.
+[00:15:14] Or at least the control circuitry to your spindle because it just doesn't seem like it should be It should be fine.
+[00:15:24] We've run plenty of Milos of V2s at this point in time.
+[00:15:28] I've never seen that kind of cut quality on one before.
+[00:15:36] And like, it's not even like it's just us that hasn't seen it.
+[00:15:42] Like, there's like a handful of V2s out there.
+[00:15:45] Like, Vinitius has one.
+[00:15:48] At least I think that's how you pronounce his handle.
+[00:15:50] Vinitius has one.
+[00:15:53] And that's cutting fine.
+[00:16:02] Hey, Jose.
+[00:16:03] How are you doing, man?
+[00:16:04] Right, so here's the actual interesting part.
+[00:16:08] So, on a CNC filter, you can't just filter the air.
+[00:16:13] You can't just put a HEPA filter there.
+[00:16:15] And carbon, which is what we typically use in 3D printers, the carbon pellets, don't do anything to mist.
+[00:16:23] So I've been looking it up, looking up, looking up as much as I could.
+[00:16:29] And the big industrial style ones have normally a three-phase, no, not three-phase, three-stage filtering system.
+[00:16:40] And the way it works is the first stage is a coalescent.
+[00:16:46] So it's just a bunch of steel mesh that collects all the oil and turns it from mist back into a coolant.
+[00:16:53] The second stage is a coarse filter, and that's just like some coarse sponge, effectively.
+[00:17:02] And that sponge, what it does is it collects most of the big particles left over from the coalescent and stops it from going into the main Heper filter.
+[00:17:12] Now, the annoying thing is, when I was looking up these filters and the filter change magazines, they were really, really expensive, especially the Coalescor, because normally the Coalescor is done with a bunch of overlapping sheets of metal.
+[00:17:26] But I tried and tried and tried because if we don't make this not, if not cheap, then just affordable, no one's going to use it.
+[00:17:36] And the whole point of a mist filtering system is it keeps you alive.
+[00:17:40] And if people aren't using the thing that's keeping them alive, then it's not worth making it.
+[00:17:45] So I needed something that was metal that wasn't going to rust, even though it was probably just going to collect a bunch of coolant.
+[00:17:53] So it's not going to rust.
+[00:17:54] It's made of metal.
+[00:17:55] It's porous enough to allow water to well.
+[00:17:59] It's porous enough to let air pass through, but also thick enough and tangly enough to allow mists to coalesce inside of it.
+[00:18:10] And I found one thing that's really, really cheap that pretty much everyone has in their house.
+[00:18:15] And that is Scotch Bright or Scouring Pad if you're in the UK.
+[00:18:21] So this stuff is already stainless steel because it's used to wash dishes and stuff like that.
+[00:18:25] It's really nice and kind of thick, but also not porous.
+[00:18:30] It's thick, but porous enough to allow air to pass through.
+[00:18:34] It's like the perfect medium, and it's pennies.
+[00:18:39] Like, genuinely, this cost me less than a pound.
+[00:18:42] And you fit some enough into stage one.
+[00:18:44] There is a printed TPU gasket that goes all the way around it.
+[00:18:48] The second stage filter, again, it was quite expensive if you were buying them off the online, but I found out the exact same foam, this open cell phone, is also used in fish tank filters.
+[00:19:00] So that's just a big block of fish tank filter that I've cut down from.
+[00:19:07] So that's the original size it was.
+[00:19:10] Right.
+[00:19:10] And you only need about half the thickness.
+[00:19:13] Okay, like that.
+[00:19:14] That was like a fiver for everything.
+[00:19:18] And genuinely, I will probably not even...
+[00:19:22] You can wash these, but I probably will just make new ones every single time because it's that cheap to put in.
+[00:19:27] And then the last one was a Heper filter.
+[00:19:29] I really wanted to use one of the Heper filters that the Voron community is kind of flopped to, but none of them I could get would fit.
+[00:19:40] So what I found is the Xiaomi portable vacuum cleaners use circular filters.
+[00:19:49] This is one of the Xiaomi ones, but it's not the one that I wanted.
+[00:19:53] The ones that I wanted are coming from AliExpress, but they'll take a couple weeks to get here.
+[00:19:57] So we've got this one for now.
+[00:20:00] And this is your main filter.
+[00:20:01] So this is the thing that's making this air.
+[00:20:05] Completely toxic for you into air that is actually breathable and nice and does is it full of coolant that's gonna ruin your lungs.
+[00:20:14] So that's the construction of the filter box right there.
+[00:20:17] It has magnets that magnetize to the back of the plate itself, and there are gonna be some side magnets as well that we need to install.
+[00:20:26] So let's get that started Who of you guys knows Kai's man?
+[00:20:38] I had two nice I had the two nicest in my life today and I'm so happy I'm gonna guess that's nieces nieces I'm glad you're happy I'm glad you're happy man I am glad everyone's happy I went for a drive the other day in my car so I own a car but I don't have a license I know that's a bit weird but uh my girlfriend can still take me out for lessons so long as I'm not paying her for lessons because she's not an instructor So we went out for the first time in my new car and it was great fun second nicest I had the two I had the second nicest in my life today I have no idea what Kaiser Schmarin is Kaiser Smartin I am I'm butchering that I'm butchering that so plan is we're gonna do magnets first oh it's food okay gotcha what is it you're making me hungry now actually I haven't eaten anything today this is like the first time I've remembered to eat oh shit perfect nearly Deutsch Oh it's a type of pancake cool oh I haven't had pancakes in a long time all I have is bread flour I can't make pancakes don't do this to me don't do this to me on stream I haven't eaten all day because I've been worrying about other stuff like getting stuff ready for stream today hence why it is currently 25 degrees in here it is currently 25 degrees in here because I've been printing all day sorry drunk no worries my dude I'm just glad you're having so long as you don't start saying some inappropriate stuff in chat is all but you could be jolly drunk nothing wrong with being jolly drunk cool so these are the bits that are actually going to attach to the what's it called the enclosure itself and you'll see there's some spots for some m3s in there and then magnet spots so I need to do is I need to find the right side so that's that side that's that side and then we need to make sure that these get the right magnets in them What about you, Jose?
+[00:23:44] What have you been up to today?
+[00:23:48] Any word on the new on the kits?
+[00:23:50] Because I'm gonna be done with Casita soon-ish And if I get done with Kaisita soon-ish, I kind of need something to put in it little baby hands can't handle opening a glue bottle apparently Soon TM.
+[00:24:30] Oh no, this is the bottle that's already glued itself to the lid all right so I'm just gonna leave that there for now Everything soon TM there we go Have any of you guys had a look at managed to have a look at the four pack beta sorry not four pack beta
+[00:25:03] Spit Rose Beta My understanding is that it's very very soon.
+[00:25:15] Let me see if I can get official public timing cool Another soon TM.
+[00:25:36] Yep I think it was a bit We jumped the gun a little bit when we wanted to get the V2 released and kits done by It was actually meant to be summer last year It wasn't actually meant to be this late on and then we pushed it back to winter and then we pushed it back even further than that So it's been a while it's been a while Right Those can start curing And then we can do put the old panel back on well replace the panels.
+[00:26:33] It's not old Put the new one on where the old one was is you know what I mean Push the algorithm I can't say that word.
+[00:26:46] I'm not gonna even try Cool right so that should be those ones done oh not done but uh curing We actually do need to take the panels off of these because the way you line them up you actually go through these parts to screw these bits in even though they're magnetic Jake checks stream general added an image Alright, what's on Yeka put up in Stream General Kaiser Smart Kaiser Kaiser Schman Kaiser Schman Kaiser Schman okay It's like this can sound really weird, but it it looks to me almost like pancake ravioli Not that one that's the one I wanted Bayonet bites I never heard of bayonet bites either to be honest Oh no those ones are going together Cool Right these ones that one goes there that one goes there There are magnets that actually link these two together as well, so that's magnetized already just there and obviously there's a magnets here that magnetize the lack of that but I really want to make sure this stays in place so lots and lots of magnets and I want it to be easily replaceable so like the whole fan's gonna be able to come off the cartridge is gonna be also coming off and the whole point is though that you can like hot swap them so like if you're if we want to also release this alongside a plugin for it like a filter plugin which you can set the interv the maintenance interval between between what's it called between filter changes so say you do 10 hours of misting it traps when the mister is on and once it reaches 10 hours at the end of that program it will tell you you need to change the filter because this this should be good for about 20 hours but just to play it safe 10 hours is a fairly good idea to me and you can wash everything that's in here except for the heper filter and the heper filters are quite cheap you can get like four for a five for five quid and i think that's at the point where you're saving your lungs here so five quid every like 40 to 50 hours
+[00:30:03] A filtration site seems like a no-brainer to me.
+[00:30:15] It's like in Clipper, a lot of people run Nevermores now.
+[00:30:19] But when was the last time?
+[00:30:22] We'll do this as a poll.
+[00:30:23] When was the last time?
+[00:30:24] Well, not a poll.
+[00:30:26] When was the last time you guys changed the carbon in your Nevermore filters for those of you who do run Nevermore?
+[00:30:37] Like, you're meant to be changing that every like 40 hours of print time.
+[00:30:45] No one does Jose.
+[00:30:54] I decline to answer.
+[00:30:56] I'm the same.
+[00:30:57] I'm the same.
+[00:31:01] But here's the difference: VOCs have been very understudied, so we don't really understand how much damage they are doing to us.
+[00:31:09] Mist is the exact opposite.
+[00:31:12] We know how much damage it's doing to us.
+[00:31:15] Mist is not something you want to take lightly.
+[00:31:22] Okay, those are correct, don't they?
+[00:31:25] No, they're not.
+[00:31:26] Oh, bugger.
+[00:31:29] Magnets are still correct on that side.
+[00:31:35] Magnets are correct on this side.
+[00:31:36] Okay, Doc Got to and Both and the Change last time was in Jan.
+[00:31:41] Exactly.
+[00:31:47] Ever installed only the fans.
+[00:31:49] Yeah, I've done that.
+[00:31:50] I've got that running on my Trident.
+[00:31:51] Well, had that running on my Trident for a while.
+[00:31:57] But yeah, I tend to do room filtration.
+[00:32:00] So I've got a big filter already on the wall.
+[00:32:07] So can you guys see it?
+[00:32:09] No.
+[00:32:10] But over here, so just on the screen over here on the wall, there's one of those big IKEA filters, air filters, and I change that filter.
+[00:32:17] That's both a HEPA filter and a carbon filter.
+[00:32:19] I change that filter monthly.
+[00:32:21] So I treat the room and I also have the same filter in my room, my bedroom, which is over there behind that wall and in the main living room.
+[00:32:31] And that's mostly because I have brisket.
+[00:32:33] If I didn't have brisket, then I probably wouldn't have as many filters.
+[00:32:38] But yeah.
+[00:32:39] How's it going with Atlas?
+[00:32:40] It's slow.
+[00:32:41] I've been doing a little bit of CAD work on it.
+[00:32:44] I've decided that instead of doing the big 40-40 enclosure, so the whole frame is still going to be 40-40, but just to save on cost and also try and pull some of the stuff from Cassita, I'm going to make the Enclosure 2020 extrusion on that machine because the enclosure does the enclosure doesn't need to be 40-40.
+[00:33:14] It just doesn't need to be.
+[00:33:15] Doesn't need to be that beefy.
+[00:33:19] To be fair, I have an oversized room HEPA filter in the printer office.
+[00:33:23] That's fine.
+[00:33:24] Heper doesn't filter VOCs, though.
+[00:33:28] So as far as I know, you do need some kind of carbon filter, but a lot of them bundle both together nowadays, anyway.
+[00:33:36] So yeah.
+[00:33:42] Anyways, so those are all curing now.
+[00:33:45] Those are all drying.
+[00:33:46] Let's move over to getting the back in the stored.
+[00:33:51] So let's go to the overhead.
+[00:33:53] You don't need the monitor on So this is an optional add-on.
+[00:34:00] You don't have to have it.
+[00:34:03] Same with the front intake.
+[00:34:04] If you don't want the front intake, you just don't add it.
+[00:34:08] I'm going to have to cat up a plug that goes over here instead.
+[00:34:12] But yeah, so you can make your Cassita slash Casa builds as expensive or as cheap as you want them to be generally.
+[00:34:28] I'm going to have the Mister, but I'm also probably not going to use it very much because I don't run coolant.
+[00:34:32] And again, that's just because I've got brisket Sorry, I'm back now.
+[00:34:55] I had to set the CNC going.
+[00:34:56] Nice.
+[00:34:56] What are you making?
+[00:34:57] And which CNC?
+[00:34:59] Is it Milo or is it your other one?
+[00:35:03] Polly I'll be moving out of my apartment in July and more likely moving into a multi-residential apartment.
+[00:35:16] What can I do for noise reduction on the Casa?
+[00:35:19] Make sure it's not transmitting vibration through the floor.
+[00:35:23] So if you can get one of those paving stones, a bunch of paving stones and or those washer dryer rubber mats that you use to isolate them from the ground so that they start causing that much sound.
+[00:35:39] That's an option for you.
+[00:35:42] Another is how you use weather stripping all the way around it.
+[00:35:47] And secondly, with your current Milo, close the door and walk out the room and tell me how silent it is.
+[00:35:56] Because a lot of the time you won't realize that you probably can't even hear it through the door very loudly.
+[00:36:02] And if you can't hear it through the door, you're definitely not going to hear it through the floor unless it's producing vibrations.
+[00:36:14] Nice if you get progress.
+[00:36:16] Still loving your designs.
+[00:36:17] Cheers, man.
+[00:36:17] I'm still running that big surfboard and foam I showed yesterday.
+[00:36:27] Earplugs, yeah.
+[00:36:30] I do somewhere in the budget, I will fit in some ISO tunes because I obviously like streaming and listen to music with you guys, and it helps me think when I'm on stream.
+[00:36:42] So I am definitely going to be investing in some ISO tunes at some stage.
+[00:36:47] If you don't know what ISO tunes are, they're basically OSHA-rated hearing protection, but as earbuds so you can listen to music or whatever.
+[00:37:01] And they actually hold up to the EN to some EN standard.
+[00:37:07] I can't remember what the EN standard is off the top of my head.
+[00:37:10] But yeah, so this is going to be a very mixed-mashed machine when it's finally done because we've got loads of AVS CF parts, AVS GF parts, sorry, normal ABS parts.
+[00:37:24] We've got some PTG GF parts.
+[00:37:26] And we're also going to have some polycarbonate parts once we're all done.
+[00:37:34] Some polycarbonate CF parts.
+[00:37:37] So we're going to have glass fiber, unfilled, and carbon fiber all in one setup.
+[00:37:45] And PTG, polycarbonate, and ABS sweet.
+[00:37:58] One of the annoying things is because obviously where the placement is on the filter, it's going to be at the back here.
+[00:38:07] You'll have to take the filter off if you want to take the wiring box off that we showed off last stream, I think, was last stream.
+[00:38:15] But they're magnetic, so it's not too much of an issue.
+[00:38:19] Okay, so that's that.
+[00:38:22] So I've got an exit now and exit now.
+[00:38:25] I wanted originally to put the filter up here at the back so that you had cold air coming in and all the hot air would be pulled out from the top of the machine.
+[00:38:35] Problem with that is I really don't want to do custom cut panels as in custom laser cut panels and I would need to cut a section out of the laser out with a laser for the panels to get it to exit by the top of the chamber.
+[00:38:51] Whereas right here because it's all printed panels, I don't need to worry about that as much.
+[00:38:58] Right.
+[00:38:59] So first thing I'm going to test is I'm just going to test that the magnets sit here.
+[00:39:05] Okay doke So that locks into the right location the actual filter section all right magnets fit and now all I need to do is install the orange bits so to install the orange bits I'm actually going to take these off first and that'll make sense more if we go over here and I show you now one of the parts of designing anything is designing for installation So you can design for process design for installation and do a bunch of other different types of things and design for maintenance so all the magnets and stuff that's what we're doing for designing for maintenance right the use of it is designing for production
+[00:40:02] Now, design for installation is often the one that people kind of forget about.
+[00:40:07] So, the way we're going to install these is obviously we're going to put the inserts and the extrusions.
+[00:40:15] But these sections here, right, do you see how I can't quite sync the full head of a screw so that it's flush with this bit here?
+[00:40:27] And because I want to keep this all M10s, I could have sunk it farther, right?
+[00:40:30] Because I wanted to keep them all M3 by 10s, right?
+[00:40:33] Instead, I decided that I'm going to actually use this and do some design for production.
+[00:40:40] So, these will clip on here, just like before.
+[00:40:43] And then I'm using the pass-through to be able to line it up.
+[00:40:47] So, that's actually both lining it up with the magnets on the back to the position that I need, right?
+[00:40:54] And then, once this is all closed up, all I need to do is pull it off again, and everything's all these orange bits will stay in the right positions.
+[00:41:06] If that makes any sense.
+[00:41:08] So, if you need anyone to do it, I would help you out.
+[00:41:23] I've got a CO2 laser.
+[00:41:25] Yeah, it's a possibility.
+[00:41:31] Like, I know Voron panels are technically laser cut panels, and they do it, but for me, I want to just be able to order rectangles.
+[00:41:40] Any further...
+[00:41:43] Oh, why aren't you following me?
+[00:41:47] Any further processing from a rectangle costs more and complicates life.
+[00:41:53] So, for those of you who live in like Brazil and East Africa, where I'm from, it makes it really hard to source stuff like that.
+[00:42:04] Whereas if you just manage to find a plastic panel and you ask them to cut it in a rectangle, it's easier.
+[00:42:12] So, it also makes kit cost lower.
+[00:42:15] There's lots of small stuff like that, which does help.
+[00:42:21] Sorry, I was a while away from Milo V2 is V2 coming as LDO kits.
+[00:42:30] Yes, LDO kits.
+[00:42:31] LDO is making V2.
+[00:42:33] Talk to Jose in chat.
+[00:42:35] He's one of the Jose guys.
+[00:42:37] He's one of the LDO guys.
+[00:42:39] And he can probably tell you more.
+[00:42:45] What was I doing?
+[00:42:45] I lost my train of thought.
+[00:42:47] Yes, that's what I was doing.
+[00:42:49] I'm going to hide Brisket's little treat biscuits.
+[00:42:52] That's not cereal, the Brisket's treat, and I need some M3 inserts.
+[00:43:02] Actually, before I even do that, I need to remove this brace.
+[00:43:11] I can hear it through two floors.
+[00:43:13] Ooh, in that case, you've got a loud Milo.
+[00:43:24] Can you hear it through two floors, or is it annoying through two floors?
+[00:43:28] There's a big difference there.
+[00:43:29] I can hear it through a door.
+[00:43:32] I can't hear it through a second door.
+[00:43:33] So, like, if I close this door and then the door that goes into the hallway, I say hallway if the hallway is that long.
+[00:44:12] So, I'm going to do filter box first because the filter box actually needs to be positioned in a specific place.
+[00:44:18] So, I'll attach those bits onto there so I've got them and then grab some M3s, M3 T-Nuts.
+[00:44:37] That might be because your Milo isn't running 100% yet.
+[00:44:39] Yeah, here's the thing: generally, as you go up in flute counts, so if you go from one flute to three flute, the sound, the overall sound doesn't decrease, but the annoying perceived sounders, the annoying sounders, because there's a big difference between actual sound and perceived sound
+[00:45:02] So sounds that are annoying, so high-pitched noises, things like that, tend to sound seem louder than they actually are sound is not sound anymore.
+[00:45:34] Loudness is not the same as perception of loudness.
+[00:45:39] So for example, if you have something that's really, really high-pitched, like a baby screaming or crying or whatever, that generally actually sounds louder to humans than more baritone sounds.
+[00:45:57] So if you ever listen to opera or even just someone singing, the people who sing in high-pitched notes, if you ever watch Freddie Mercury's little crowd stuff that he does, that sounds really, really loud, but the baritones in like opera singing where they go sound really right, their voices tend to be just as loud, but it sounds a lot quieter to a human being.
+[00:46:33] Constantly worry about disturbingly worried I'm disturbing family or neighbors, but I really doesn't carry far or I'm deaf.
+[00:46:41] Yeah, both are a possibility.
+[00:46:56] At least you're considerate That's the rule, isn't it?
+[00:47:12] If you feel bad about doing a bad thing, but still do it, that's fine as long it's the whole it's all about feeling bad about it, isn't it?
+[00:47:20] It's not about actually changing your ways or making things better.
+[00:47:25] PEE333D My neighbour must really love CNC machines I've talked to my neighbor about it before she doesn't actually know what I do in here So and considering I've lived in this place for four years now run 3D printers every single night drilled things in here at night done a whole load of stuff She's never ever once complained and I've even asked her if she's ever heard any of it no she's every time she said no look like the correct locations Are the V2 files on principles up to date Yes, but if you go on the main website now we released them earlier this week the V2 files are completely free and on GitHub now instead of being on principles so you can go on the principal's ones but they're missing all the documentation Whereas all the documentation is now on the main website for free you don't need to pay for it or anything I should probably take down the principal's ones to be fair But if you haven't seen on Principles Now there is the closed beta for the paid beta for the spit roast which is the fourth axis if you want to take a quick look at that Did you ever get any free filament from principles?
+[00:49:43] I didn't get free filament from Principles because my personal account which is the one that I have my proto link to is not the same as my Millennium's account I did get
+[00:50:02] Free filament from Prussia when they sent over the Core 1L.
+[00:50:06] By the way, this thing's been fucking fantastic.
+[00:50:12] I honestly understand now why everyone loved Prussia back in the day.
+[00:50:23] I know a lot of people say that they have, but I haven't swappable filter part is now in.
+[00:50:47] And then using these as reference, I can actually just do the bottom part quite simply.
+[00:50:58] It's not annoying to me when it doesn't chatter.
+[00:51:01] My brother's room is directly below where the CNC is.
+[00:51:04] And part he says it's not loud, just annoying.
+[00:51:11] I ran mine at university.
+[00:51:12] Well, no, I ran my NPC and see at university.
+[00:51:15] I didn't have Milo.
+[00:51:16] Actually, no, that's not true.
+[00:51:17] I did have Milo at university.
+[00:51:19] It was in my last few months of university that I had Milo.
+[00:51:24] I had an NPC and C for a while at uni So if people think I'm being really harsh on the NPC and C when I say I don't like it as a machine I've actually used them I've used mine a lot Will you guys only have four kits if only or will you be selling parts separately like motor kits and extreme kits I don't know if they'll do motor kits and things simply because last time no one really bought the motor kits at least from my perception of things from the DMS side where we were reselling them reselling the LDO kits no one really wanted the separate kits but that might just be in Western countries where kits were already available so Kaiser Schmart Damn it really did change your life didn't it mode kit is just three steppers right yeah three steppers cables stuff like that also how's music and stuff like that obviously we had the full team stream a few days ago so I'm always worried when I had to change a bunch of settings around and hopefully got them back to where they were for like music and stuff if you guys could just confirm that music is all good and my voice is all good and all that stuff that would be great then I won't have to worry push the algo hey hey all right if Floki asks so nicely I will push the algorithm I'll do it I'll do it I'll do it I'll do it just for you know what we're gonna do this properly we're gonna do we're gonna go all the way to this camera over here and then there we go that's your your algorithm push there right there I think that was good I think did you like my voice did you like my speech my little soliloquy
+[00:55:03] Pushing the algorithms what chatbots are for I need some more M3s.
+[00:55:16] I need to restock up on some M3s, actually I also I do need to do a few orders from Akyu actually or I might try that one that Dirinator sent me the link to the suppliers Is it Dirinator I can't even remember who sent me that link now Was it Ollie?
+[00:55:51] It was either Ollie or Dirinator.
+[00:55:53] I can't remember I just realized those two might be the same people person Ollie and Dirinator might be the same person I need to sync these M3s a little bit further That's something I it's not something I need to change or reprint for it It's just something that needs to change Right and for the moment of truth that part there fits There we go that's lined up nicely that part there cable needs to come out the bottom remember that guys There we go nice Bought the spit roast just for the heck of it Now for sorting out the printing Thank you very much humanist druid Shermanist druid Is that where you grow tanks in your garden You grow World War II tanks Same just for the support when I get to the Milo cutting OP I will build it nice man Yeah, it's one of the reasons I want to get my V2 up and running because I want to test all these things we're severely lacking in testing on the inside on the inside bit the filter system will fit in Casa as well.
+[00:57:54] Yeah, so basically anything that you see on Cassita I'm going to backport to the next alpha release of Casa so all the electronics are gonna be the same setup obviously there's gonna be some dimensional changes because it's gonna be slightly different Just the frame because the thing is with Cassita I had full rain to do what I wanted with the frame because it's a brand new frame with Casa I'm gonna have to change things genuine question for you guys do you want me to keep the sliding door on Casa because there's a couple things I want to add to Kasita that require the fold out not the folding door it requires just a normal standard swivel door I will obviously I want to keep as much to the frame as possible but some stuff some stuff does get cut like the bottom panel on the alpha release of Casa R3 is obviously a brand new panel whereas I managed to save all the others What am I adding?
+[00:59:23] I'm adding everything that's here so 90% of what's in the current alpha release of CASA R3 and this is why it's an alpha guys.
+[00:59:34] It does even say that loads of that stuff is untested and might change.
+[00:59:38] Alright you should understand this when you go into alpha builds.
+[00:59:42] Beta stuff is fine because it's only minor changes.
+[00:59:45] When you go into an alpha release It's likely that everything will change so all of Cass all the stuff all the structural stuff on CASA
+[00:59:55] The R3 release is basically deprecated.
+[01:00:00] And it's being replaced with a lot of the stuff that's now currently on Casita.
+[01:00:06] The only thing I'm really keeping is the frame and the panels.
+[01:00:09] Most of the panels on Atlas, will the spindle overhang the front of the bed on Y?
+[01:00:19] Yeah.
+[01:00:20] So same way I did a V2.
+[01:00:23] V2 has six mil overhang on the front and the back of the machine.
+[01:00:32] So the whole point is that you should be able to mill your own bed out.
+[01:00:36] You're basically going to buy a big plate.
+[01:00:39] You're going to drill four holes.
+[01:00:42] You're going to put it on.
+[01:00:43] And then everything else is going to be milled down to size on the machine itself.
+[01:00:50] Damascus ever grade.
+[01:00:52] No, you're already.
+[01:00:53] That was the same question I just saw.
+[01:00:54] Normal door would be cool, would be easier to clean.
+[01:00:57] Yeah, true.
+[01:00:59] It's just obviously the door.
+[01:01:01] The door on Cassita is only like 500 mil wide.
+[01:01:07] So the swing on it will only open that far.
+[01:01:11] On a full-size Casa, it's going to open that far.
+[01:01:17] So if you have a small workshop, the sliding door works better in terms of being able to actually, you know, open it, which is kind of important for a door.
+[01:01:27] You want to be able to open a door.
+[01:01:34] It's not really doing a very good job as a door if you can't open it.
+[01:01:39] At least I don't.
+[01:01:40] I don't think it would.
+[01:01:41] Free to have your own opinion on that, though.
+[01:01:52] I should actually bring up the CAD for Cassita because you guys haven't seen it in a while.
+[01:02:01] Let me grab the CAD for you.
+[01:02:06] Let me just need to log out of Fusion on my other computer.
+[01:02:09] I will be back in a second.
+[01:02:23] You guys can probably still hear me.
+[01:02:38] Long as the filter saved, that's fine.
+[01:02:40] Yeah, so I can log out.
+[01:02:43] That's logged out now.
+[01:02:45] I'm back.
+[01:02:47] Come on through, bud.
+[01:02:48] Come on in.
+[01:02:50] Hey, buddy.
+[01:02:56] Boody boy on some moving gantry machines.
+[01:03:03] You can get a lot of overhang on the front of the bed.
+[01:03:05] It's a very useful area for milling the end of long items or good spot for tool chainer.
+[01:03:12] I wouldn't say it's a good spot for a tool chainer rack because that's like where you're interacting with the machine.
+[01:03:17] I get what you mean, but I want that space empty.
+[01:03:21] I know what you mean though with overhanging the end of stock.
+[01:03:25] You could probably do that, but it's not going to be a goal I'm going to aim for specifically because it requires a very precision 90-degree edge.
+[01:03:39] So because we're dealing with extrusions and I can't really affect that overhanged area, I'm not going to worry about it as a stock thing.
+[01:03:52] No sound.
+[01:03:55] Why no sound Hello Hello Hello There is sound.
+[01:04:20] Yes, there is sounding me So I should build a Milo V2 first then Casa due to the upcoming changes I want to get started printing.
+[01:04:40] Yeah, definitely do I misunderstood something while I was on crypto live channels every comment pushes the algo or does it not?
+[01:04:55] It does we're not talking about crypto that's that's just not what I'm talking about I have an official answer as to when okay so we are going to go We are gonna go over to the main monitor This camera's turned off again.
+[01:05:18] I don't get why it keeps doing that I've set it up so that it shouldn't Hello I think I had a power search I think I had a power search that's why that camera's off and that's why my hey buddy so in that case Jose what is the official time the official answer tell us tell us we want to know whilst you do that I'm gonna do some trips and crisk all right soon TM jump good boy okay Milo V2 will begin shipping to resellers by the end of June so it's May right now it's May 21st I think so that's in a month and a week it will start shipping do you know when pre-orders will be hey sit bye down as early as mid-June okie doke folks you heard it from the horse's mouth v2 will be shipping to resellers in June and pre-orders will be mid-June God it's hot in here it's now 26.
+[01:06:55] 3 degrees in here it's hot oh it's hot right got lost in the excitement what were we doing what were we doing we're putting the cover back on that so that can go back in there that's now hot swappable that can go in there there is a lip on here so this needs to be sled up rather than pressed again the filter it's the best that i could do and still have it fit in that location i'm afraid but it's better than nothing definitely and i will be performing some flow tests because i've actually bought myself a smoke machine i bought myself a smoke machine specifically so that when we have the panels on i can tell you guys how long it would take to clear and the best part is the same the smoke that's in a smoke machine is just water and it's glycol based so it's very very similar to a lot of coolants uh so it's actually a really good stand-in for if we were actually filtering mist because it is filtering mist are there resellers in canada i believe there would be if not uh west 3d does ship to canada that being said we need you guys to tell us what resellers want milo v2 i know west 3d wants them i know west 3d wants them right 24 volt i'm gonna turn this fan off so i can get a good feeling that's my only cooling fan by the way like i said it is 26.
+[01:08:59] 3 still it's hot oh it's hot we need the people to tell your favorite resellers that you want it you heard it here folks if you want a v2 go to whatever discord go to whatever um blogs or forums you get talk to the people who own the um who own all the shops and stores that you want go tell them that you want them to ship to stop milos i've just realized something i forgot to put the filter back on here that's fine so yeah there's definitely a lot there is air coming out the back there is filtered air coming out the back but it definitely is not as much as the intake
+[01:09:55] So the intake is going to have to be rattled down in software to be throttled down in software whenever this is running.
+[01:10:07] What kits will there be?
+[01:10:08] So it should just be the V2 kit and the UEB.
+[01:10:13] You can buy their separate kits.
+[01:10:16] The UEB is just the electronics part portion of the machines.
+[01:10:30] Spartan 3D is a reseller.
+[01:10:31] Yeah.
+[01:10:34] All-in-one motors only and electronics and so on.
+[01:10:37] So it's going to be frame and motors.
+[01:10:41] I believe Spindle is in there because it's machine specific.
+[01:10:46] All right.
+[01:10:46] And then all the other electronics, so Sila, power supplies, all that extra bit is going to be part of the UEB.
+[01:10:56] But you want to get out there you go right so we got door to do next.
+[01:11:11] That still needs to be done today.
+[01:11:12] Oh, before I forget, I really need to reinstall that panel.
+[01:11:17] Sorry, not that panel, that chip guard.
+[01:11:22] The little pre-filter filter.
+[01:11:24] The pre-filter for the main filter.
+[01:11:28] Your assistant to the manager is the V2 specific firmware out yet?
+[01:11:47] No, no, it is not.
+[01:11:52] But we are working on it.
+[01:11:56] There is a version of it, but it's my old version.
+[01:12:01] I wasn't running a stock V2 when I made the firmware, so it's easy enough to change, though.
+[01:12:11] And with all the next changes that are happening, so firmware-wise, a lot of stuff is changing.
+[01:12:27] So Spartan 3D for Eastern Buyer and 3D Lab Tech for Western Buyers.
+[01:12:31] Cool.
+[01:12:35] I think Kadda is working on the, yeah.
+[01:12:37] Yeah, Caddy is working on that.
+[01:12:39] He's working on all the plugins.
+[01:12:42] This is what I forgot.
+[01:12:45] The pre-filter.
+[01:12:50] So if you didn't catch live stream the other day, the one with the full team, we're changing MOS to be MOS next or next.
+[01:12:58] Right, so MOS is being retired and we're creating next instead.
+[01:13:04] And the whole idea is that instead of having just one fundamental MOS that controls everything, everything's going to be broken down into plugins instead.
+[01:13:14] So if you want all the main stuff that Moss has, that Moss does, it's going to be one MOS plugin.
+[01:13:25] And if you want all the fourth axis bits and pieces, so all the fourth axis probing, the fourth axis screen, all that kind of stuff, then that's going to be its own separate plugin.
+[01:13:38] And that allows for more developers to do their own independent things and get more things out quickly.
+[01:13:49] So the filter system is going to be its own plugin.
+[01:13:53] And you just mix and match what you want.
+[01:13:57] I think CADA's also working on a way to auto-populate everything.
+[01:14:02] So instead of having to go through and change everything so that you've got all the right pins set up for all the right places, we're going to have our own setup.
+[01:14:15] So our own standard setup that you literally just click and it's going to populate everything for you Same way if you know Arba Control, which is the RS485 implementation for Spindle Control It's that's its own separate plugin and that works really well I like the 3D visual on next 3D visual the visualizer like I don't know what you mean by 3D visual do you mean the like the path visualization if that's what you mean I haven't even seen that yet so
+[01:14:54] If you can link that in chat, that would be really cool.
+[01:15:09] One thing I that won't be in kits is carbide.
+[01:15:12] There won't be any end mills in the kit.
+[01:15:13] That's just because the price of carbide right now is really, really expensive, and it's too expensive to include carbide in the kit.
+[01:15:21] So get your own carbide, which is a shame because the LDO stuff was really nice.
+[01:15:33] It was just a bit pricey.
+[01:15:36] Although, the champ for mills in the LDO kit were fantastic.
+[01:15:43] Well worth the money.
+[01:15:47] Cool.
+[01:15:47] So it's door time.
+[01:15:49] I don't have the right fastness for this, and some bits and pieces are still printing.
+[01:15:55] Effectively, I want to make this entire enclosure as enclosed as possible.
+[01:16:05] That might sound a bit weird, but as airtight as possible.
+[01:16:08] Hence why we're doing all the filtration stuff with the fans and all that bit.
+[01:16:13] So we need to install a gasket that goes all the way around here.
+[01:16:18] Now, the only material that we have is weather stripper and TPU.
+[01:16:25] The problem with weather stripping is it's fine when it's in compression, but it's constantly got side-to-side movement, it tends to rip over time, and then you lose that seal over time.
+[01:16:35] So we're going to be streams disconnected.
+[01:16:46] Oh, I'm back.
+[01:16:47] We're back.
+[01:16:48] Check stream general.
+[01:16:50] We're checking Stream General.
+[01:16:57] Let's go over to When did 9 put this?
+[01:17:13] Oh, this was six months ago.
+[01:17:14] Yeah, this is the stuff that Nine was doing.
+[01:17:19] Yeah, so I don't know if this is still going to be part of what we do, but it is cool.
+[01:17:27] Yeah, I do remember seeing this now.
+[01:17:30] So this was, I don't think this was live tracking at the time.
+[01:17:38] I think this was just this was pre-canned like facing passes and things like that.
+[01:17:46] So instead of having to go into your CAD software and do a facing operation, this was a pre-made facing operation that you could do in the firmware itself.
+[01:17:59] I believe that's what this was.
+[01:18:01] It's not like the visualizer you get in other cam software, although I've been told that the visualizer should be easy enough to implement Unfortunately what is impossible to implement at this point in time, unless Duet changes a bunch of things is cutter comp cutter comp is just not something that's possible in RepR firmware right now at least Where's my little box?
+[01:18:40] There it is I'm running out of M3 T-Nuts Damn so we're gonna do we've got the corners where the corners are the corners we've got two strips and we've got the corners.
+[01:18:57] So we're gonna do up and down and then both corners.
+[01:18:59] There we go.
+[01:19:00] So we're gonna do corner there, corner there, and then the first the back strip and the backstrip and that's just so that we have something to index against when we install the door I also do want to add a little just a switch there to check if the door is closed and you can enable that or disable it in your firmware What is that?
+[01:19:28] Cutter comp.
+[01:19:29] Okay, so cutter comp doesn't really apply to people in the hobby realm because in the hobby realm I'll explain what cutter comp is first of all.
+[01:19:42] So if you're stood at a machine and you have something that is a 10 millimeter square, right?
+[01:19:50] Those are the on-point dimensions.
+[01:19:52] They need to be 10 millimeters by 10 millimeters.
+[01:19:55] Now, the more you use a tool, or if you buy cheap tools or whatever, the tool really is rarely ever its actual diameter.
+[01:20:06] So instead of being a six mil tool, it's 6.
+[01:20:09] 9999, for example.
+[01:20:12] What cutter comp allows you to do is instead of going all the way back to your computer, changing the diameter of the tool, and then reposting and re-exporting the tool path as it's meant to be, right?
+[01:20:28] Where it's saying that the tool is actually 5.
+[01:20:31] 9999, whatever, right?
+[01:20:33] Cutter comp allows you to do that at the machine.
+[01:20:36] So you actually say, this machine is meant to be 6mm, but in fact, it isn't 6mm, it's 5.
+[01:20:42] 999.
+[01:20:43] So I want you to cut slightly closer than it was before to compensate for the cutter diameter not being what it says it is.
+[01:20:51] Now, in the hobby world, we're often making single parts.
+[01:20:57] We don't tend to be doing production runs, so it doesn't benefit us as much as it benefits people who are in an operating operational environment.
+[01:21:07] So, people who have like environments where there are 10 machines and 10 operators, or more likely going to be like two or three operators, if those operators don't have the luxury of just going back to the computer, whereas the hobbyist does.
+[01:21:22] So, cutter comp is a good thing, but it's not something that is necessarily something that needs to be added for the hobbyist.
+[01:21:33] Hopefully, that was a good explanation.
+[01:21:44] Good enough, at least.
+[01:21:46] Right, this corner and that corner You do it like this when I do it like that.
+[01:22:03] That is cool.
+[01:22:04] Yeah, it's a cool bit of firmware.
+[01:22:05] Linux CNC does support it, but as far as I'm know, it requires something called look ahead, which is when the firmware itself looks ahead in the programming.
+[01:22:21] It's not just looking at the line of code that it's executing, it's looking at the code that it will be executing in the next few seconds or minutes or whatever.
+[01:22:31] And look ahead is not something that's implemented in Republic's sakes.
+[01:23:00] These are slightly too long, and I don't have any shorter ones.
+[01:23:08] Do I have washers?
+[01:23:11] Do I have M3 washers anywhere?
+[01:23:14] Can I steal some M3 washers from the Micron?
+[01:23:22] Do M3 washers even exist on the Micron M3 washers.
+[01:23:41] Remember when I said that I need to order some stuff from Acu?
+[01:23:44] This is one of those things.
+[01:23:48] We'll text next when all is good.
+[01:23:51] Cool.
+[01:23:53] Yeah, next is going to definitely be a huge benefit too.
+[01:23:57] It's going to be a huge upgrade to the current ecosystem.
+[01:24:05] You know what?
+[01:24:07] I'm not overly happy with that.
+[01:24:19] I think this may need a bit of revisiting.
+[01:24:23] Live development, folks.
+[01:24:24] Live development.
+[01:24:28] Fuck it, we'll do it live.
+[01:24:36] And sometimes stuff just doesn't go great when you're doing it live.
+[01:25:02] Where's everyone going Looks like we're losing a lot of people?
+[01:25:08] I know.
+[01:25:08] It's not the most thrilling work in the world See, that's fine there.
+[01:25:23] Don't get why that needed a washer Hmm I might need to make these all flat pieces instead of that 90 degree corner because everything else is flat other than that 90 degree corner which needs to be printed on its side Time weun How far are we into this we're an hour and a half basically I'm busy reading the V2 manual Bright did a really good job on that manual He did an excellent job Bright is very good at what he does I just It's not worth talking about off it's a private private matter Bright is very good at what he does though No see it's just bubbling up no TPU is not the answer so in that case I'm gonna stop that print there because that's just the same thing Yeah, TPU is not the option It's just not the answer in that case that was the only thing I had left for stream so I am gonna probably end things here so if you made it this far thank you for coming it has been a great amount of fun having everyone around Thank you to Jose for finally finally letting us know a rough idea as to when V2 is coming Thank you all for coming hope you have a great rest of your day if you haven't done so already and feel like you enjoyed yourself on stream please make sure that you like us if you want to get yourself any Millennium Machines merch there is some links down in the bio to that as well as to all our sponsors so Prussia LDO Fabrico West 3D all that lot who helped us get along to where we are and I hope you guys have a great rest of your stream bye now
