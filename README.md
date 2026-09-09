@@ -48,6 +48,16 @@ transcription and stored in `meta.json`. Override it with
 Questions are different: `-q` is answered in whatever language you asked in, so
 you can ask an English question about a Czech video and get an English answer.
 
+### Mis-heard names
+
+ASR mangles proper nouns more than anything else, and a summary that repeats the
+mis-hearing turns it into an apparent fact. The prompts therefore ask for names
+to be repaired where the transcript settles them — someone described as the
+author of a named book is the author of that book, however the recogniser spelt
+it — using standard international spelling even when the summary is written in
+another language. Genuinely ambiguous names are kept as transcribed and marked
+`(sic)` rather than guessed at.
+
 ## Backends
 
 Every option below is a *quantised* build. Vendors publish fp32/fp16 reference

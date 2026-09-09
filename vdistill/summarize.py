@@ -13,6 +13,26 @@ from .config import CLAUDE_MODEL
 MAP_THRESHOLD = 320_000
 MAP_PIECE = 220_000
 
+# ASR reliably mangles names. Left alone, the model faithfully repeats the
+# mis-hearing ("Pavel Caculin" for Tsatsouline), which then looks like a fact.
+NAME_REPAIR = """\
+Speech recognition mangles proper nouns worst of all: people, brands, products,
+places, and field-specific jargon. Before you write, work out who and what is
+actually being discussed, and use the real spelling rather than the recogniser's
+phonetic guess. Spell each name the same way throughout.
+
+A name is settled -- correct it -- when the transcript pairs it with something
+identifiable: a book or product it is known for, an organisation, a field, a
+collaborator. If someone is described as the author of a named book, the
+author of that book is who is meant, however the recogniser spelled it.
+
+Use each person's standard international spelling, not a phonetic rendering,
+and keep that spelling even when you are writing in another language. Only
+leave a name alone when context genuinely fails to settle it: then keep the
+transcript's form and mark it "(sic)". Never invent a fact that is not in the
+transcript merely to justify a name.
+"""
+
 SUMMARY_TASK = """\
 You are reading the transcript of a video. It came from automatic speech
 recognition, so expect mis-heard words, missing punctuation and no speaker
@@ -39,7 +59,8 @@ worth keeping.
 One or two lines on who would get nothing from this video.
 
 Do not pad. If the transcript is thin, say so plainly and keep it short.
-"""
+
+""" + NAME_REPAIR
 
 QUESTION_TASK = """\
 You are reading the transcript of a video. It came from automatic speech
@@ -55,7 +76,8 @@ quoting briefly where a quote carries more than a paraphrase would. If the
 transcript only partly covers the question, answer the part it covers and say
 plainly what it does not address. If it does not address the question at all,
 say so instead of guessing.
-"""
+
+""" + NAME_REPAIR
 
 REDUCE_TASK = """\
 Below are notes taken from consecutive parts of one long video transcript.
@@ -69,7 +91,8 @@ this structure:
 
 Remove repetition across the parts, keep specifics (numbers, names, tools),
 and order key points by importance rather than by when they appeared.
-"""
+
+""" + NAME_REPAIR
 
 
 # Claude follows a language name far more reliably than an ISO code.
