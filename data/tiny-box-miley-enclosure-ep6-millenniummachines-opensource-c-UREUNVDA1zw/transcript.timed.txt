@@ -1,0 +1,999 @@
+[00:05:00] Hello, folks.
+[00:05:02] How are we doing?
+[00:05:02] How is everybody doing?
+[00:05:04] I gotta show you this because we've been really cuddly today.
+[00:05:08] Just just hold on, hold on.
+[00:05:12] Just look at this dude.
+[00:05:15] He will not leave my side.
+[00:05:18] He will not leave my side.
+[00:05:22] He's been so needy today.
+[00:05:24] So I'm gonna keep him in the shop for a little bit and see if he gets bored.
+[00:05:29] He needs a good brush, though.
+[00:05:33] Howdy, Brisket.
+[00:05:34] Well, howdy to you too, Damascus.
+[00:05:36] How are we doing?
+[00:05:36] Hey, Omagand.
+[00:05:41] Hey, Ollie, how are we doing, dude?
+[00:05:42] How is everyone doing?
+[00:05:45] It's been a hot day.
+[00:05:47] It's been a hot day.
+[00:05:48] But I already wimped out on a stream earlier in the week, so I'm going to hold up my end of the bargain and we're going to stream tonight.
+[00:05:59] But I have been in the warehouse all day, so if I sound like I'm tired or anything like that, just let me know.
+[00:06:05] David Brown.
+[00:06:07] Hi to you as well, I guess, Jake.
+[00:06:09] Yeah, he's the more important one.
+[00:06:11] As long as you're saying hi to Brisket, that doesn't matter.
+[00:06:16] Hey, bud.
+[00:06:17] Right, plans for today.
+[00:06:19] Plans for today.
+[00:06:20] You're on this camera.
+[00:06:21] Plans for today.
+[00:06:22] We've got the door to put on and all the door trim to do.
+[00:06:26] I haven't figured out a good way of doing the door seal since last time.
+[00:06:32] Hey, Print Farm.
+[00:06:33] So the door seal isn't going to be a thing, but I've got door magnets to install as well.
+[00:06:39] We've also got some of the panels.
+[00:06:42] Unfortunately, I couldn't afford all of the panels for the machine just yet.
+[00:06:46] So we've got all the clear polycarb panels.
+[00:06:49] I decided to change the design a little bit.
+[00:06:52] It used to be that it just had one polycarbonate panel, and now go to the monitor.
+[00:07:00] Now I'm changing it so that both these panels are now clear because I think it gives a nice indication through for my build in particular.
+[00:07:09] I want to have this side panel clear as well, just because this is going to be a show-off rig.
+[00:07:16] So I can show it off at like Smurf or whatever and show off all the electronics as well.
+[00:07:21] So if you're building this yourself, that's going to be an opaque panel, whereas these two are going to stay clear on the bottom.
+[00:07:30] But yeah, we might also be doing a little bit of the electronics today.
+[00:07:35] We might do.
+[00:07:37] No promises, though.
+[00:07:38] And it won't be any wiring or anything like that because I hate doing that on stream.
+[00:07:42] But yeah, yeah.
+[00:07:44] If you weren't here last stream and you want to know the good news, Jose last stream said that everything should start shipping in about a week's time, early June.
+[00:07:56] So all the parts will be shipping out to vendors in that time.
+[00:08:00] Let them know what vendors you want to ask and LDO will do it for you and I'll send him a list if you have a vendor of choice that you want to buy from after that pre-sales should be ready to go by the end of June and I should be building one of those kits before pre-sales start.
+[00:08:22] Right, so without further ado, let's get going What do I need?
+[00:08:26] First things first I need to spin this around this way I still haven't found a good alternative for the metal bracket the metal door hinger sorry so I installed one earlier just as a test fit So unfortunately those are sticking around but I have beefed them up I put four here so that's a bit overkill for a door of this size But hopefully it gets rid of the problem door trim here's one here's a door I made earlier right so I need to put that on there first things first and then if I can grab a clamp just to hold it in place that would be delightful Anyways, how is everyone doing?
+[00:09:19] I haven't actually said hi properly to everyone Yeah Damascus I saw that you said that you've been making something some chips.
+[00:09:27] What have you been making What delectable recipes in aluminium have you been creating If you're wondering what I'm taking out now, it's just the prototype door seal I wasn't happy with it, so we're not doing it this way I might just do the weather stripping like we did on the last one promise I wanted to do a TPU seal mostly because it meant
+[00:10:01] It means that you don't need to.
+[00:10:03] How am I going to say this?
+[00:10:04] The weather stripping tends to weigh down over time and gets a bit hairy.
+[00:10:13] So I wanted to do TPU because that way it wouldn't wear down as quickly.
+[00:10:19] Yeah.
+[00:10:20] Doing I posted it in the CNC other.
+[00:10:23] Oh, cool.
+[00:10:24] Oh, you're doing the watchmakers brilliant.
+[00:10:27] Hey, Tommy, how are you doing, buds?
+[00:10:29] We've got Tommy from Prussia in the house.
+[00:10:31] Say hi.
+[00:10:33] How do you like it?
+[00:10:36] What are you thinking so far?
+[00:10:38] Lots of orange and black.
+[00:10:40] Lots of orange and black.
+[00:10:43] Tommy is the guy who reached out to me.
+[00:10:45] Well, technically, I reached out to Nomad first, and then Tommy reached out to me about getting me the core 1L.
+[00:10:52] And it has been a fantastic machine, and I love it.
+[00:10:56] Looks legit and awesome.
+[00:10:57] Nice.
+[00:10:57] Thank you, man.
+[00:10:57] A part of my meal project that I'm calling Mildred.
+[00:11:04] Why?
+[00:11:04] Why is it all 2020?
+[00:11:05] That's what I don't understand.
+[00:11:07] It's surely it's not economical at that point to do all 2020 when you're making a meal that size.
+[00:11:14] And filling that with a box of granite is going to be hard to do.
+[00:11:18] Jake, you know that bit of metal I was trying to bend.
+[00:11:21] Well, I bent it now.
+[00:11:22] It's warped and I can't figure out how to make it flat again.
+[00:11:25] That's the problem with sheet metal.
+[00:11:27] You basically need a good reference when you're doing anything sheet metal.
+[00:11:33] So you can get things called sheet metal pans if you're doing dome shaped or seat metal flat, sheet metal flats.
+[00:11:38] But once it's bent, if you don't have those tools, you're basically not getting it unbent Those brackets look nice.
+[00:11:48] I got five Mile V1.
+[00:11:51] 5 kits super cheap.
+[00:11:53] Oh, yeah, yeah.
+[00:11:54] I remember this.
+[00:11:55] I remember this.
+[00:11:57] Cool.
+[00:11:57] I'm getting distracted.
+[00:11:58] You guys are distracting.
+[00:12:00] And so is Brisket.
+[00:12:02] Hey, buddy.
+[00:12:04] He thinks I'm shouting at him, but I'm not.
+[00:12:07] He doesn't understand that you guys are there.
+[00:12:10] What am I doing?
+[00:12:11] I'm getting very distracted.
+[00:12:13] Clamps.
+[00:12:17] Like I said, I've been in a hot warehouse all day.
+[00:12:20] My brain is melted.
+[00:12:24] Hey, Alan's here.
+[00:12:26] We got everyone in chat today.
+[00:12:27] We got Tommy, we got Alan.
+[00:12:32] How you doing?
+[00:12:33] How's Manny?
+[00:12:34] I mean, you're my friend.
+[00:12:42] I care for you, but how's Manny right now?
+[00:12:45] Care more about your dog.
+[00:12:50] Oh, buddy.
+[00:12:51] It's okay.
+[00:12:51] I'm not shouting at you.
+[00:12:52] Promise King Brisket.
+[00:12:58] Hell yeah.
+[00:13:03] Keeping the sun spots on lockdown.
+[00:13:05] Yeah, I found that with brisket.
+[00:13:07] I would have thought Brisket would get really, really hot.
+[00:13:10] So I always make sure his bowls full of like water that I've kept in the fridge overnight before I leave for work and put ice in there when I'm back for my lunch break and all that stuff.
+[00:13:20] And the dude just ignores it and literally just bakes in the sun like a potato.
+[00:13:37] I suppose I should actually show you guys what the show you guys what the front part's gonna look.
+[00:13:47] Ignore the bits that are missing at the bottom.
+[00:13:49] I just haven't mirrored them yet.
+[00:13:50] But yeah, so I want the trim to kind of sit flush with the panels because I think it looks weird when the panels are offset forward ninemeters, the printed ones, from the frame.
+[00:14:03] So I wanted that at least one whole face to be flush with each other.
+[00:14:15] Dogs are gonna dog.
+[00:14:17] Yep.
+[00:14:20] That's not wrong.
+[00:14:25] I bought a bunch of M4 T-Nuts just to do these and I'm pretty sure they've short changed me on them because I ordered 50 and I only counted 30 of them But I remember ordering 50 Tommy if you're still in chat let me know if you want me to write anything up because you said you mentioned when we had our meeting a while ago I might you might want us to do like a little blog spot
+[00:15:02] For Prussia website about Milo and stuff, and I'd still be down if you are once you get the project is closer to be done.
+[00:15:32] We can talk about it.
+[00:15:34] No rush.
+[00:15:34] Okay, dog.
+[00:15:36] Okay, I might need to ask you if we can get some more Prussia ASA Because I went through a kilo doing all this, all the accent parts, and I need three kilos for the main build.
+[00:15:56] So I need just about three kilos.
+[00:16:02] I might be able just to stretch through, but yeah, it was an early revision, so 260mm C-beams.
+[00:16:12] Oh, okay.
+[00:16:13] Did you get them from Fabrico by any chance?
+[00:16:16] Because when we started, the whole project for Brico were the first like partial kit makers and they made they accidentally ordered loads of loads of the old versions of the C-beams before realizing that they got it wrong See me on Discord.
+[00:16:50] I can check it tomorrow.
+[00:16:51] Cool Cool just more V1.
+[00:16:59] 5 stuff God I'm like I'm don't get me wrong V1.
+[00:17:09] 5 is still a thing, but damn I didn't think it would last this long It's been three years since V1.
+[00:17:16] 5 came out Just to make everyone in chat feel a little bit older today than they felt 10 seconds ago I have an idea with some aluminium intrusions about Milo size Everyone loves modding starting mods from Milo Loads of people never finish mods on Milo But you know what that's kind of part of the hobby isn't it everyone gets in over their heads originally that's how I mean that's how we started this the whole project so once these two hinges are on I can actually start doing the other bits and pieces V1.
+[00:18:34] 5 is still a very good CNC yeah yeah nothing wrong with 1.
+[00:18:38] 5 I still still doesn't mean I don't like V2 Obviously I like V2 I designed the thing And there's also the whole thing with this big chunk of scrap at the minute.
+[00:19:07] Well, it's not scrap.
+[00:19:08] But I do need to get back to Atlas.
+[00:19:11] I can't get back to Atlas until I have a machine that I can prototype on Atlas because it's costing us too much to get prototypes from JLC And considering how many small changes I make every day to CNC parts it becomes quite costly after a while Gotcha all right so that should be enough to get the clamps off at the very least Yeah, we had the discussion on V15 versus V2 a few times.
+[00:19:46] They're both good just different.
+[00:19:47] Yeah, I wouldn't even say they're that different to be honest Right that will open all the way That's good to see
+[00:20:01] Problem with these is if you push them too far in the opposite direction, see there's a little bit of play there, these tend to put it tends to put a lot of stress on the hinges, and they just don't like that and they break really easily.
+[00:20:13] Right, I need my magic box apart.
+[00:20:16] Magic box apart.
+[00:20:19] I'm gonna need some M3 by 10s.
+[00:20:24] I did refresh my supply, so we should have loads of those.
+[00:20:29] And then I'll also need some M3 T-nuts, which is this box.
+[00:20:39] You could ask some UK Milo onus for help.
+[00:20:45] Ignore that for now.
+[00:20:48] It's not a case of people who are willing to help.
+[00:20:51] It's a case of people who say that they're willing to help.
+[00:20:56] We send them materials or send them cash to buy stock, this, that, and the next thing.
+[00:21:00] And then the part never arrives.
+[00:21:02] And it's happened a few times, especially in the early days of Milo.
+[00:21:10] And everyone's Milo is built to a different spec.
+[00:21:13] So some people have them really high, set up to hold really high tolerances.
+[00:21:17] Some people have them to have them set up to hold like 0.
+[00:21:22] 1 millimeter tolerances, which is not the greatest.
+[00:21:26] It's actually pretty bad, especially on Milo.
+[00:21:28] So you can't trust that everyone's machines are going to work together.
+[00:21:41] Not to say that the UK builders aren't making good machines, because they probably are.
+[00:21:47] It's just more of a I can't rely on it.
+[00:21:50] There's always a big thing with reliability in this project.
+[00:22:04] The thing with Milo is I've never had one break on me.
+[00:22:08] I've never had any of my Milos break on me.
+[00:22:11] And they're robust machines in that way.
+[00:22:14] They're simple, but they're extremely robust.
+[00:22:19] What are you growling at?
+[00:22:21] And I forgot where my point was going.
+[00:22:28] I completely ignore me.
+[00:22:32] I got distracted by him growling at something.
+[00:22:37] Right.
+[00:22:38] Parts, parts, parts, pots, parts.
+[00:22:43] Magnetic hook.
+[00:22:45] Trim, Tommy, a question for you.
+[00:22:57] Why is the print bed in the core one?
+[00:23:04] Well, Core and L.
+[00:23:05] I'm not sure about the core one because I haven't seen one in person yet.
+[00:23:11] Why is it slightly textured and not just the straight flat PEI that's on the like the Mark IV or the Mark or even the Mark III?
+[00:23:21] It's very, very slightly textured.
+[00:23:26] It's great because it means that even on black filament, like it doesn't look like your hands are staining it.
+[00:23:33] And I love it.
+[00:23:34] I'm just wondering what the shift was, what the mentality was.
+[00:23:41] Still missing one bracket somewhere.
+[00:23:47] So there are three different sheets, PI, Saturn, and textured.
+[00:23:51] This is the Saturn sheet.
+[00:23:52] Gotcha.
+[00:23:53] Gotcha.
+[00:24:06] And do all the core one L's come with the Saturn sheet initially.
+[00:24:23] You may notice that I've added the wiper mod on this.
+[00:24:26] That's the only mod I've made so far.
+[00:24:28] And it's not even because it was failing.
+[00:24:31] The only time it was failing, it failed ever, was when I tried to print TPU with it, and some of the TPU got strung up on the nozzle itself, and it just failed to do its initial level.
+[00:24:45] But the machine told me so and stopped, and then we just re-leveled it.
+[00:24:49] That's the only reason, and I had to print a bunch of TPUs, so I thought I'd better be safe than sorry with it.
+[00:24:55] But that's the only time it's ever failed.
+[00:24:59] It's actually really good.
+[00:25:02] Basically, it all comes down to how much materials stick to them.
+[00:25:04] PEI sticks a lot, often too much, and textured less.
+[00:25:08] Saturn is the perfect middle ground that almost everything works on.
+[00:25:11] Corn L comes with Saturn, regular core, one with PEI.
+[00:25:15] The corn L we expect more engineering style materials, so it makes more sense.
+[00:25:20] Cool.
+[00:25:22] No worries about the mods.
+[00:25:23] I encourage them.
+[00:25:24] Make the printer yours.
+[00:25:25] Yeah, perfect.
+[00:25:27] That's something you won't see with bamboo, especially nowadays.
+[00:25:34] Gotcha.
+[00:25:35] Alright, I need M3 T-Nutes.
+[00:25:41] Oh, I am low on M3 T-Nuts.
+[00:25:43] I may have to steal some from a different kit.
+[00:25:46] I'm definitely going to have to steal some from a different kit tonight.
+[00:25:49] I'm going to get the door magnets in first because I think them make the most sense to get in.
+[00:25:57] In fact, let's glue those magnets in now whilst we're messing around.
+[00:26:06] Yeah, those are the correct ones.
+[00:26:31] Cannon shots fired.
+[00:26:32] It's not cannon shots if it's true.
+[00:26:38] I've been grow like I have two bamboo printers.
+[00:26:41] I have two bamboo printers over there.
+[00:26:44] They're becoming more and more annoying to use every day.
+[00:26:48] I have had Clipper printers.
+[00:26:52] Now, Clippers are great firmware.
+[00:26:54] I love my Vorons.
+[00:26:57] But do you know how nice it's been to have a Marlin-based printer that does everything I tell it to the minute I tell it to do it?
+[00:27:07] Not even the minute.
+[00:27:08] The second I tell it to do it That's all dried up Like genuinely and it sounds ridiculous but having a firmware that I can just tell it to do something and it does it instantly without having any processing in the background being done or having to buffer because my internet signal's bad has been wonderful And it's just saved me so many headaches that needs to go that side is this the correct side yeah that's the correct part there so that's repelling so it needs to go in this way awesome I mentioned this before but I've considered running Marlin on my printer since I know building since I'm now building five tridents I can justify using one of those for experiments Why are you building five tridents?
+[00:28:28] And you got some business opportunity that you're wanting to do Gotcha.
+[00:28:38] So let those cure for a bit and then we'll go on to the next one So these are just mirrored planes one top and one bottom I just mirrored them in slicer.
+[00:28:52] I didn't even bother doing it fusion yet Because I don't know if it'll work a lot of this is still experimental if you've been you'll know that if you've been watching the streams a lot of this is live dev We don't know whether it's gonna fit until we see on stream Which is kind of what happened last stream and I was a bit disappointed with last stream I must admit I want these to at least be the same direction so those can go in that way And then repels that way so those can go in that way I got five trident frames cheaper than what I could get with one So I had to order five frames Fair enough I mean economy is a scale I suppose
+[00:30:02] Now, where are you going to fit all these?
+[00:30:05] That's the question.
+[00:30:08] I thought you lived in a city, Yomangand Also, Damascus, do you is that CNC that you're building in CNC other your main CNC?
+[00:30:26] Or is it you have a Milo and that's what you're making on Milo?
+[00:30:30] Let me call you on Discord.
+[00:30:33] Yeah, I didn't.
+[00:30:35] I forgot to mention this bit earlier.
+[00:30:37] Yormangan is going to jump on stream just to be my second voice like Phil was the other day.
+[00:30:43] I find that it makes the stream a little bit more fun to watch.
+[00:30:50] So call me when you're ready, bud.
+[00:30:51] There we go.
+[00:30:58] Hello, hello.
+[00:30:59] Can you hear me?
+[00:31:03] Can you hear me?
+[00:31:04] No, I'm going to say you can't.
+[00:31:05] Microphone.
+[00:31:17] Hello?
+[00:31:17] Hello?
+[00:31:18] Hello.
+[00:31:30] Yeah, I can hear you now.
+[00:31:31] There we go.
+[00:31:31] Okay, fair enough.
+[00:31:32] There's a button to disable the microphone, apparently.
+[00:31:39] I thought you worked in software, man.
+[00:31:41] I work in software.
+[00:31:42] This is hardware.
+[00:31:43] It's a hardware button.
+[00:31:44] So I don't know anything about that.
+[00:31:46] No, I don't live in a city.
+[00:31:47] I live in my next door neighbor is a field of 15 hectares, and the next one over is a five-hectare field.
+[00:31:57] I have my man cave, which is an old pig pen that I'm fixing up.
+[00:32:04] It has enough for a lot more printers than just the five tridents.
+[00:32:09] This is really weird, but how fitting is a pig pen for a man cave?
+[00:32:16] It's extremely fitting.
+[00:32:20] And the best part is that there's a halo just on top where the floor is completely rotten because it's 100 years old where I can set up a cinema.
+[00:32:29] I did threaten to do that.
+[00:32:30] And then underneath, I'm going to have a what do you call it?
+[00:32:34] Like an illegal inn, right?
+[00:32:38] Where you can sell alcohol to people.
+[00:32:42] Okay.
+[00:32:45] All my neighbors think that's a good idea.
+[00:32:47] But they think it's a good idea.
+[00:32:51] Yes, all my neighbors think it's a good idea.
+[00:32:54] I want your neighbors, man.
+[00:32:55] You can beat my neighbor.
+[00:32:57] We have several houses for sale, very cheap.
+[00:32:59] So you can just move in.
+[00:33:01] Yeah, but it's probably still more expensive than what I can afford.
+[00:33:08] So my house I bought for 100,000 Euro-ish and that's one of the more expensive houses in this area.
+[00:33:19] Oh, really?
+[00:33:20] Yes.
+[00:33:21] And I got 230 square meters of living area and then I think I got 6700 square meters of floors in total.
+[00:33:31] Jesus.
+[00:33:33] That's really cool.
+[00:33:34] It's a good idea until Tax Man comes to order.
+[00:33:39] Yeah.
+[00:33:45] Well, depends whether or not you live far old enough away that the Tax Man.
+[00:33:50] What's your cover story?
+[00:33:51] That's the question.
+[00:33:55] Mine?
+[00:33:56] What do you mean?
+[00:33:56] Yeah.
+[00:33:57] Well, I don't have a cover story.
+[00:34:00] I just want space and I bought stuff.
+[00:34:04] No, I meant you know where I work.
+[00:34:07] So do you know sort of what I get?
+[00:34:10] No, you don't?
+[00:34:13] You can guess, I guess, right?
+[00:34:15] Yeah, I can kind of guess, yeah.
+[00:34:17] Yeah, I can kind of guess.
+[00:34:19] I won't mention them on stream.
+[00:34:21] Don't want to do it.
+[00:34:23] No, I'm also trying to build my Milo 2.
+[00:34:27] I'm getting a spindle sent to me soon.
+[00:34:30] That's a bit overpowered, maybe.
+[00:34:32] Fair.
+[00:34:33] It's a 2.
+[00:34:34] 2 kilowatts.
+[00:34:35] A guy got one for free that he wants to give to me.
+[00:34:38] Yeah.
+[00:34:39] Damascus, I want to do a stretched Atlas after this one, I think.
+[00:34:44] You wouldn't really need to stretch it that far, honestly.
+[00:34:47] The main atlas is going to either be 500 mil, like the standard version is either going to be 500 mil in X or it's going to be 450 in X.
+[00:34:59] So you're only adding.
+[00:35:00] 150 millimeter.
+[00:35:05] Oh, not that one.
+[00:35:05] I don't want that one.
+[00:35:06] I want that one.
+[00:35:09] Not that one.
+[00:35:10] He's all wrong.
+[00:35:11] There we go.
+[00:35:11] That's the one I want.
+[00:35:14] Actually, no, what am I doing?
+[00:35:16] I want that one.
+[00:35:17] Professional streamer, guys.
+[00:35:18] Professional streamer.
+[00:35:23] Awesome.
+[00:35:23] Right.
+[00:35:24] So it's not that one.
+[00:35:26] I want that one.
+[00:35:29] So those are now magnetized on.
+[00:35:31] That should at least stop the chips from being able to open the door.
+[00:35:35] I don't know whether or not people want a full-on lock for the door.
+[00:35:39] I am going to be putting a sensor, an optional sensor to see if the door is open or closed, which seems like a fairly good idea to have on a CNC machine.
+[00:35:51] But at the same time, it's going to be completely optional.
+[00:35:54] And CAD is working on all of that in the new next version of Moss.
+[00:36:05] We did figure out that a few days ago that not Path Pilot, Datron uses Next as the name for their CNC firmware.
+[00:36:15] So we might be changing the name very slightly just to not interfere with them.
+[00:36:26] Oh, yeah.
+[00:36:29] Feel free just to chime in with whatever, Yumigan, whenever you want.
+[00:36:33] Yeah, okay.
+[00:36:34] I'm a bit confused right now because audio is coming in, as you say it, ish because I get it from Discord.
+[00:36:40] But YouTube is a couple seconds late.
+[00:36:42] So it's a bit disorienting.
+[00:36:45] Here's a thing.
+[00:36:47] Just turn the YouTube volume all the way down.
+[00:36:50] I did that.
+[00:36:51] Yeah.
+[00:36:52] Try and not look at stream.
+[00:36:54] It gets really disorientating after a while.
+[00:36:56] It does.
+[00:36:57] It does.
+[00:36:57] It gets very disoriented.
+[00:36:59] Yeah.
+[00:37:02] Cool.
+[00:37:03] No, I guess I'm more likely than you are regarding solar power, by the way, because you got yours pretty much taken away, right?
+[00:37:12] Yeah, yeah.
+[00:37:16] I had them set up for the container, but then I got the container taken away.
+[00:37:23] So what happened?
+[00:37:26] What was the story about that, by the way?
+[00:37:27] I never really figured that out.
+[00:37:30] Someone's calling me.
+[00:37:31] There's my phone.
+[00:37:32] Hold on.
+[00:37:35] Just my girlfriend calling me.
+[00:37:37] I will ignore her for now and I will get near full later.
+[00:37:43] My wife's been calling me while I was at work a couple of times the last couple of days and I just hang up on her every time.
+[00:37:50] Even though she thought it was very important, it wasn't.
+[00:37:53] And I was in meetings.
+[00:37:55] Let me just tell her that I'm on stream.
+[00:37:58] Sweet.
+[00:38:11] There we go.
+[00:38:13] Nice.
+[00:38:14] Right.
+[00:38:15] What was I doing?
+[00:38:16] What were we talking about?
+[00:38:18] Let me talk about something.
+[00:38:19] Oh, yeah, the container.
+[00:38:21] So basically, I got permission to use it as a workshop.
+[00:38:25] Started setting everything up.
+[00:38:26] Filmed that video of me doing the workbench in there.
+[00:38:30] Bought a bunch of batteries, spent like a grand on everything I needed.
+[00:38:37] Only for then to then tell me that their insurance didn't in fact cover it and I wouldn't be able to use the container as a workshop.
+[00:38:46] I still have the container.
+[00:38:48] I just don't, I'm just not allowed to use it for what I originally intended it for.
+[00:38:55] It's basically just a container now.
+[00:38:57] Yeah.
+[00:38:58] Well, it is a container.
+[00:38:59] It's not just basically.
+[00:39:01] It is a container.
+[00:39:01] It is a container, yeah.
+[00:39:03] Container for nothing.
+[00:39:04] Exactly, yeah.
+[00:39:05] Yeah.
+[00:39:07] But it's fine.
+[00:39:08] It's fine.
+[00:39:09] Since last time, since before the container, everything in here has been upgraded.
+[00:39:14] So, you know, silver rainbooks, not silver rainbow, silver linings.
+[00:39:19] Silver rainbows.
+[00:39:21] Silver rainbows.
+[00:39:22] I think that's not a thing.
+[00:39:24] You can't get silver in a rainbow, right?
+[00:39:25] Well, you can now.
+[00:39:30] Yeah, it's gold.
+[00:39:34] Yeah, but regarding gold at the end of the rainbow, do you know where a rainbow actually ends?
+[00:39:42] No, it ends inside your eye.
+[00:39:46] So you're the gold at the end of the rainbow.
+[00:39:49] Oh, I feel slightly sick now.
+[00:39:53] I'm also the gold of the end of rainbow because it also entered my eye.
+[00:40:02] Oh, that's cute.
+[00:40:04] Yes.
+[00:40:05] All right, what are people saying?
+[00:40:07] Software named Natrod.
+[00:40:11] Nat Rod Cubed, what are you talking about?
+[00:40:15] Why Nat Rod Phil was doing a fat Atlas?
+[00:40:21] He's doing Fatless, which is a different project altogether.
+[00:40:25] So Fatless is what Atlas used to be.
+[00:40:29] So he wants to do a fixed gantry style machine.
+[00:40:34] I want to do a router style machine because I think a router style machine will fit more people more often.
+[00:40:41] So he's taken what I started with on the original concept for Atlas and he's changing it a load to suit what he's doing his small changes to suit his setup.
+[00:40:56] Whether or not it's going to be an official project remains to be seen.
+[00:41:02] There's no animosity.
+[00:41:04] There seemed to be a few people last stream who thought that I was upset that he's doing this.
+[00:41:10] I'm not upset at all.
+[00:41:12] It's just I want to go one way, he wants to go another.
+[00:41:15] So we're kind of just co-developing in different directions.
+[00:41:20] It seems to me you're too busy to be upset about stuff like that.
+[00:41:24] Yeah, a lot of people seem to get upset about a lot of weird stuff in this not this specific community, but the overall maker slash 3D printing community Some people have egos people are pretty good at just sharing stuff and it's those with appreciating people's cool stuff.
+[00:41:55] Yeah, it's the people with egos who you see most often and that's the only that like that's the whole thing about it like not every 90% of people absolutely fine It's the people I think everybody I talk to almost are the people who share stuff I don't have the impression that there's a lot of people who have egos but definitely yes they do they do make more noise I'm off again was a long day enjoy the stream and have fun cheers on me thanks again for next stream guys is either going to be tomorrow or the day after I'm just getting this point I want to do a Patreon only stream so if you haven't signed up to the Patreon already don't feel like you have to or anything we are going to be doing no bad Yomagand No okay you don't have to it's not going to be doing anything overly productive it might just be like a print and chill just to prepare for all the Atlas stuff that I've got coming up or even get some of the Milo stuff printed and just have a chat it probably won't even be more than like half an hour an hour I'll see if I could show up at least yeah oh you better show up now that you have yeah I'm donating to pictures I have to show up I have to give my money's worth right oh yeah yeah yeah are you trying to tell me that this is not getting your money's worth you don't owe me anything the work you're doing is with patronizing patronizing no funding the opposite I'm glad to see I'm not the only one who gets tongue-tied on stream you should listen to me just talking randomly I can try to say like three sentences at a time and jump all the words for each sentence of course so I just say random words I know exactly what I'm trying to say but it's just not the words that are coming up yeah this is why I tend to use the phrase if you understand what I mean at the end I say because I can't guarantee that people do in fact understand no not at all it's a bit annoying when you have to describe technical stuff to people especially people who don't speak the language you're speaking very well yeah I do that a lot at work it's
+[00:45:01] It can be interesting.
+[00:45:03] Sometimes you have to explain the same things four times.
+[00:45:07] Damascus, it makes sense to have both designs out there.
+[00:45:10] The double access drive adds new problems, but you can easily stretch it above a certain size.
+[00:45:16] It doesn't make sense to sling the bed back and forth.
+[00:45:19] True.
+[00:45:20] But it's more of an ethos thing.
+[00:45:23] So one of the things that we try and do as a design team, or at least I try and do as lead designer, is I try and make everything as accessible as possible to everyone.
+[00:45:36] Fatless requires a CNC machine that is bigger than Milo and requires a bunch of other machining to be done.
+[00:45:48] So part of the reason I went with the Atlas route rather than the Fatless route is because it was becoming prohibitively expensive to do the fatless.
+[00:45:58] So whereas Atlas, you can probably get away with less with about two, two and a half K worth of material and part.
+[00:46:07] Fatless is going to be more on the more on the 5K to 6K type machine.
+[00:46:15] And at that point, you're entering the territory of other professional machines where you can get support as well.
+[00:46:26] Hi.
+[00:46:27] Two seconds.
+[00:46:27] I have a, yeah, I have a kid.
+[00:46:30] It's all good, man.
+[00:46:31] Okay, right.
+[00:46:38] I'm going to get a panel on here so that I don't need to worry about getting it sorted up later.
+[00:46:43] So small panel.
+[00:46:44] Oh, Brisket's doing the stretches.
+[00:46:51] Now you see in evidence that I at least think that I'm a dad.
+[00:46:56] You at least think you're a dad.
+[00:46:57] I'm convinced.
+[00:47:04] Well, better you than me.
+[00:47:07] You should have a kid.
+[00:47:09] No, not.
+[00:47:10] I have a kid.
+[00:47:11] He's called Brisket.
+[00:47:12] Yeah, Brisket should have a playfellow.
+[00:47:17] Yeah, another dog.
+[00:47:20] No.
+[00:47:21] I nearly adopted another dog yesterday, but the owner ended up coming around the corner.
+[00:47:27] We went for a morning walk and there was just a stray.
+[00:47:33] Well, what I thought was a stray because it didn't have a collar or anything.
+[00:47:36] Turns out it was just one of the guys who lives down my road whose dog jumped out the window.
+[00:47:44] If you were still part of the EU, you could have just stolen that dog now, because if they're not marked, you can just do whatever you want with them.
+[00:47:53] Oh, really?
+[00:47:54] Yeah, yeah.
+[00:47:58] I feel like legally allowed, but morally, it just seems wrong.
+[00:48:06] Yeah, I think that Law's not going to be really doing anything in real life.
+[00:48:12] Because I mean, if I see a dog, at least where I live, I know who owns that dog.
+[00:48:17] Or something's really, really wrong.
+[00:48:21] Could you imagine?
+[00:48:22] Like, it's your best mate's dog, and he escapes one day, doesn't have a collar on him for whatever reason.
+[00:48:30] Yeah.
+[00:48:30] And then you just rock up.
+[00:48:32] He just rocks up your house a month later and you've got his dog and you're like, no, not yours anymore.
+[00:48:37] Yeah.
+[00:48:37] Yeah.
+[00:48:37] I chipped him.
+[00:48:38] He's in my name now.
+[00:48:40] My dog.
+[00:48:40] Yeah.
+[00:48:44] No, no, no, no.
+[00:48:45] No.
+[00:48:45] No, I got too many cats.
+[00:48:48] If you want cats, I got cats.
+[00:48:49] One of them is making more cats.
+[00:48:51] It's all right.
+[00:48:52] The cat distribution network works its wonders.
+[00:48:59] Builders show up and then you have a cat.
+[00:49:01] Yeah.
+[00:49:03] Door stripping, weather stripping time.
+[00:49:07] I hate doing this stuff, and you can all laugh at me whilst I do it on stream.
+[00:49:13] We all have the same problems regarding this stuff.
+[00:49:16] So we can laugh at you, but then we're laughing at ourselves as well.
+[00:49:23] You heard it here, folks.
+[00:49:24] You laugh at me, you laugh at yourself.
+[00:49:27] Yeah, problem is I don't even have a nice spot to do this in you can tell I'm concentrating because I'm not saying anything.
+[00:49:59] Yeah, and everybody else is concentrating at looking at you.
+[00:50:03] Concentrating that's why people are not writing anything I'm a trendsetter man.
+[00:50:09] I'm a trendsetter all of the nine people who are now watching could make comments.
+[00:50:24] Do we have nine likes?
+[00:50:25] No, it's down to eight, apparently.
+[00:50:28] Oh, God, goodness, and only three likes.
+[00:50:32] Gotta pump those numbers up.
+[00:50:34] To be fair, all the Americans are still at work They can just work a normal hour then they are working normal hours it's just that it's like midday for them working nine to five right working you've got that song stuck in my head now it's just I sure would work at 7 30 yeah so if you start working at nine you're late we there's a couple of us actually we live in the same area and we have to drive like 100 kilometers to get to work and we all make the same joke whoever shows up first gets to say good day to everybody else and everybody else has to say good morning to that person usually i'm number two how the hell do you drive 100 kilometers same way you drive 10 kilometers you just do it 10 times in a row and i drive 200 kilometers in a day i walked into that one didn't i yes you did while standing still stop it i'm very sorry it's all good uh ovn says he's working right now should you be watching milo content whilst you're working probably not are you going to do it anyway probably oh he has to listen to all the jokes oh yeah yeah yeah at your expense well so we can laugh at ourselves hey if you can't laugh at yourself you can't laugh at anything and if you don't laugh you'll cry yes do you want me to make you an inappropriate joke it's not too bad okay it's a it's it's a play on words in danish so uh one word for fun in danish is ski which is also the same word as for beard so we say that you only have the fun you sit on because you have hair where you sit right yep yep because it calls as beard right so we're never inviting uh your magnando stream ever again you knew this when you ask me this is true this is true yes it's it's very fun to tell kids because they don't know this play on words thing pun thing and then they'll figure that out with jokes like this right so it's really fun when you see like an eight-year-old kid and they understand what's going on fair right all the brisket hair wiped off you dog right next corner david really likes a joke it's a very good joke oh oh i didn't think of this we may have a design flaw never yeah it's the world that's conspying against you oh yeah always yes i didn't damn it this is actually quite a bad one as well all right let me get the camera sorted i didn't see this one because it was covered up in card so the corner just here interferes with the hinge itself and that's of the panel
+[00:55:02] So I can't even make a printed version.
+[00:55:07] It's really upsetting.
+[00:55:08] I guess this is why the clicky clacky door mod for Vorons is the way it is.
+[00:55:15] Yeah, I'd need to make a printed version of it to fix this, a printed version of the hinge.
+[00:55:31] Right, well, that's that you could also go complete and make one where it slides up on rails or something.
+[00:55:40] We wanted to do that for Atlas.
+[00:55:43] It's just the problem is if you slide it up to above the chamber, you're limiting people who don't have very high roofs, especially in the UK where people have sheds.
+[00:55:55] Yes.
+[00:55:56] So one of the ideas was to make it like a garage door style where it pulls out here and then slides in the very top of the machine.
+[00:56:05] I've been thinking about doing a similar thing like that on my V2 one and then using the same system to make an auto ejector.
+[00:56:16] Yeah, I just want to I think your have you seen the Vertigo printer?
+[00:56:22] The one where it prints to bed, right?
+[00:56:27] Yeah, I think you could simplify that so easily and just put a vawn on its side.
+[00:56:34] Yes.
+[00:56:34] Yeah, have it bring because the thing is there's the whole thing about like if you're printing upside down or printing normal way up the overhangs don't get any better because gravity is still acting in the same direction.
+[00:56:46] Whereas if you put it on its side right every time you move up or down to bridge left and right would be a bit weird but every time you move up and down so what would effectively be the y-axis yeah you're moving with gravity and you're effectively creating a column that works really well on compression so your your X movement bridging would still be weird because it would still be affected by gravity but your Y extrusion would be with the line of gravity so it would probably make that bridging that form of bridging better than if you printed it upside down or normal way up we should try that somehow oh yeah just I'll eventually when I actually get time to do so and the money to buy all the parts that I'm still missing make one of the tridents do exactly that cool remind me because I'll forget I will remind you though thank you and if anybody wants a cheap trident frame let me know because I got too many of them have you ever considered double paneling the enclosure for more sound absorption Yes and no I don't think it would make as big of a difference as you think the main thing when it comes to soundproofing is stopping air from getting to the outside of the machine so if you're weatherproofing it you're doing a better job of soundproofing it than you would be if you just had two panels for example i think two panels would help but i don't think it would produce the noise reduction that you're expecting or the amount of noise reduction that you're expecting i think maybe the reason why like windows that are double paint do add some sound absorption is because you don't have air inside yeah um that really makes a big difference but once you get the air inside it doesn't really make that much of a difference yeah and there is air traveling in and out of this machine hence the fans so i the the biggest thing that you can do in my opinion is uh isolate it from the ground or whatever table surface you've got it on so if you grab one of those um washing machine mats put it under the machine um at least at that point you're not transferring the vibrations through your floor through your table and those are acting as secondary means of uh sound production you could also do something like uh hula feeds or something like that they uh yeah i suppose but i wouldn't want that on a um cnc machine uh no yeah no also i don't understand the whole thing with the hula feet
+[01:00:04] Like years ago, we moved away from sound absorbing feet style things.
+[01:00:12] Yeah, I get them installed on my big ass V2 and I mean, they don't do anything to the printer as such.
+[01:00:19] But what they do, or what I told myself that they do is that they make whatever it's standing on vibrate less.
+[01:00:28] So it's my printer is on a kind of rickety table, and that's no longer no longer looks like it's gonna collapse when I print stuff because it's a hood of you.
+[01:00:40] I tell myself, at least I haven't done like scientific experiments or anything, but I think I notice the difference after I install them.
+[01:00:49] Could also just be I made a lot of effort to install them, right?
+[01:00:52] I don't know.
+[01:00:54] So, you know, one thing we need to improve on as a community of makers is actually testing our designs because you know the Nevermore filter.
+[01:01:09] So I have a VOC detector.
+[01:01:14] I borrowed it from a mate of mine who works with hazardous material and has a little handheld VLC thing.
+[01:01:23] Yeah, the Nevermore filter inside the chamber barely does anything and directly outside the chamber doesn't do a whole lot.
+[01:01:37] And that's with fresh carbon pellets.
+[01:01:41] But I do have it on good authority from him that the amount of dissipated VLC through a normal size room, so a size like this, is actually quite harmless.
+[01:01:52] Yeah.
+[01:01:55] So yeah, I don't know.
+[01:01:58] I got mine running and my wife claims that it makes a difference on the smell.
+[01:02:04] Yeah, and that's that's definitely something that I can't smell anything, so it doesn't really make a difference to me.
+[01:02:15] I feel like I don't have that strong a sense of smell, and then I end up, but I have a really good sense of smell for food.
+[01:02:30] So like I can smell when my girlfriend's making food from outside her flat.
+[01:02:37] Oh, I can smell food very easily as well.
+[01:02:40] Especially good food.
+[01:02:42] Oh, yeah.
+[01:02:42] But stuff that I don't care about, I tend to be not very good at smelling.
+[01:02:48] And I have a feeling that maybe sometimes my wife thinks she can smell something that doesn't really exist, but I can't really verify.
+[01:02:56] Yeah.
+[01:03:02] Oh, speaking of smell, you know, like most of your taste is actually smelling, right?
+[01:03:06] I had Corona just when I was peaking and I got admitted to the hospital because of it.
+[01:03:13] And while I was there, I couldn't smell anything and I couldn't taste anything because of it.
+[01:03:20] And then I got hospital food.
+[01:03:22] And it was all the foods I never wanted to eat ever in my life.
+[01:03:26] And it just tasted so good.
+[01:03:28] It was the weirdest experience.
+[01:03:32] That reminds me of that fruit that you can have.
+[01:03:36] So there's a fruit.
+[01:03:38] I think it's called a wonderberry.
+[01:03:39] Genuine name.
+[01:03:40] It's a weird.
+[01:03:43] But the whole thing about it is that if you eat one, anything that's got like a citrusy taste, so like a lemon or a lime, you can eat like an apple because it makes the taste really sweet.
+[01:03:59] So anything citrus, it just turns into something amazing.
+[01:04:03] I should get some of those.
+[01:04:06] Yeah, I really want to try.
+[01:04:10] But yeah, I did hear about that once.
+[01:04:13] I wonder how it makes like lemon cake taste.
+[01:04:16] Does it make lemon cake which is already sweet just taste even sweeter?
+[01:04:22] That's a good question.
+[01:04:24] We should get you some of those wonder berries so you can tell us I need to actually get those you can buy them on Amazon actually Okay, you can buy like little dried sacks of them Let's see those in front of them I can find a lot of music and books on wonder berries
+[01:05:06] Oh they might not be called wonderberries then.
+[01:05:09] I might just be remembering that bit wrong.
+[01:05:12] There's something called wonderberry or sunberry.
+[01:05:18] This is just the seeds.
+[01:05:19] So if I send you 100 seeds, you can grow them.
+[01:05:22] And then you can tell us in like 10 years because that's probably how long it will take before you get some in what garden in your container.
+[01:05:33] In the container?
+[01:05:35] Yeah, just cut off the top.
+[01:05:36] Then you got two containers and then you can have twice as big a garden, right?
+[01:05:40] Oh, maybe I should plant them.
+[01:05:44] Yeah.
+[01:05:45] Then I can dig up some of my grass.
+[01:05:49] I have way too much of it.
+[01:05:50] Oh, I have a I don't know if it's a funny story.
+[01:05:54] Yeah.
+[01:05:54] Can you see my finger?
+[01:05:58] Yeah, just about.
+[01:05:59] Yeah, it's I got it into an accident.
+[01:06:03] And it's a long story with an accident, but it ended up with my wife spending two days cutting our lawn with an edge trimmer because our actual lawnmower didn't really work.
+[01:06:17] And then after my finger was sort of okay again, I fixed the lawnmower and then I cut the remainder of the grass in like 10 minutes.
+[01:06:25] And then she was just looking at me like I was the most evil man in the world two days cutting down 1200 square meters of grass than I took the last single time Right, there we go all right, that's all the corner bits in now I can just set that in the frame and have it in with the magnets just to get a feel of what it looks like at the very least I think I made another oh my my design skills are not on form right now.
+[01:07:11] This is why I gotta test things before stream then why would you stream?
+[01:07:16] That's the point of stream I know so everybody can learn from the same experience No, no, no, same experience.
+[01:07:26] Yeah, like Thomas Edison, do not admit that you made a mistake, just say you found a way not to do it Yeah, but Thomas Edison was also Thomas Edison was also a huge dick who stole everyone we're not make we're not making that comparison You know the inventor of the light bulb who didn't actually invent the light bulb but stole it from another person The history of the light bulb is kind of interesting about the amount of people who actually pursued the same basic idea at the same time it was not just two people it's like a ton of people who tried inventing the incandescent light bulb in the same bay basically there's a book called I think it's called sentient light bulb it's it's the history of the light bulb but one of them is one of the main characters is an is a is a light bulb themselves and it's the whole conspiracy behind whether or not we can actually engineer a light bulb that never goes out and the fact that there's a good reason why engineers why companies don't make a light bulb that will never go out because they never sell anything hey universe how are you doing Damascus says they suggested the wonder berries when getting chemotherapy since that kills your sense of taste that's really interesting I get that it kills your sense of taste and all but what do the one what would the wonder berries do in that situation to help maybe it enhances some forms of taste some spectrum of the tasting spectrum some spectrum of the space of the tasting spectrum yes do you remember how we talked about not being able to actually pronounce the four sentences that you're trying to pronounce at the same time maybe that's a mild case of that did i just make fun of you and i feel bad now why should you feel that what because i made fun of you by accident i think it's fine i don't get offended easily so don't worry about it okay fair enough if i would have said you'll know don't worry i just ate buffalo hot wings a lot
+[01:10:05] That's a good thing to do, though.
+[01:10:07] Eating lots of buffalo hot wings It is what makes them buffalo hot wings.
+[01:10:13] This is a question because we don't have buffalo hot wings in the UK Have you ever seen a buffalo with wings no I haven't unfortunately that's why they cut them off I've seen pigs fly You know mostly when my girlfriend's parents are taking a trip somewhere but you know Is your girlfriend called Pepper This is weird this is actually now that we're on the top of my girlfriend This isn't specifically about her but it's about some of the girls I've dated in the past so my girlfriend's called Jody and the girl I dated directly before her was also called Jody and the funny right you don't make the name mistake exactly exactly but here's the funny thing I also early when I was in university within a two-year span dated three Beths in a row so I went Beth Beth and Beth so I keep telling my girlfriend every now and again that all I need is one more Jodi and then I can complete that set as well and move on to the next name and she does not look happy with me but she should just change her name then afterwards so she can get back to you in a new name right I won't suggest that to her because I think she'd written the balls off but just do like me what I did was I showed up and then my wife told me that we were now together and then a few years later she told me that we were not married and then immediately after about nine months later ish or so she told me that I was gonna be a father and that's that's yeah it was very easy all I had to do is just stand there and wait see ladies that's how it's done like that's how men want you to interact with the with us you know I may have actively encouraged all of those things but uh just maybe you know yes I have to leave you because I have to go to work tomorrow and I have a very long drive and I have to go there early and it's late and I've had a very long day because of solar panel stuff so I am gonna say goodbye now and thanks for all the fish and stuff like that no worries man and thank you for coming to you see ya and then there was one says I think the source comes from Buffalo New York okay but why is Buffalo called buffalo That's the real question And what makes Buffalo Sauce buffalo sauce the stuff that we get sold as buffalo sauce in supermarkets in the UK is just barbecue sauce It's just like an Americanized barbecue sauce Like everything in the UK it's slowly becoming just more American Probably not going to do the full front window now that I don't know that the hinges won't work because there's some clearance issues It's not an issue on V1.
+[01:14:58] 5 or the Casa R2 because the panel sits inside
+[01:15:05] The extrusions, but then you have to cut the panel to an odd size, and it looks weird being inset rather where everything else is outset from the frame.
+[01:15:28] Why is anything called anything?
+[01:15:30] That's was one of the hinge sides, so these hinge ones can just go over there for now.
+[01:15:45] Might be able to reuse them.
+[01:15:46] I might not be able to Who knows M3s.
+[01:15:57] Right, I'm gonna need to steal some M3s from somewhere This will fasten the kit from the OEB fastener kit from the UEB Here we go I have M3s everywhere, they're just everywhere and not where I want them to be annoying when something is somewhere else That's not buffalo sauce at all then barbecue sauce is sweet buffalo is hot it tastes like it tastes like Louisiana I thought Louisiana was mostly swampland So you're telling me it tastes like swamp all right you heard it from the American I might be getting my states completely mixed up there so I might be looking like a complete idiot right now Also is Louisiana Creole or is that St.
+[01:17:40] Louis but St.
+[01:17:41] Louis is in the state I don't know what state St.
+[01:17:43] Louis is in I have a sneaking suspicion everyone's gonna go have dinner because we have we started with like 12 people watching and now we've got five other than buffalo wings what's on the menu for tonight oh we've got two more people back now you guys can't see too much but uh that's currently what it looks like panel is gonna be a bit vibrating but I've got plans for the inside that's another reason I'm going with this style of the press down because when you did the inserted version of them you had to have special clips just to have something pressing up against it to stop it from vibrating a whole bunch and that got really annoying really quickly no Louisiana is mostly swamp but has the best has the best word has the best cuisine in country Louisiana is creole former French colony St.
+[01:19:23] Louis is in Missouri I think in the north you learn something new every day How's Brog versus Cassita?
+[01:19:47] It's back and forth.
+[01:19:49] It's back and forth.
+[01:19:50] I found an issue with the door.
+[01:19:52] So with how the door is going to be mounted.
+[01:20:02] So I need to rethink that.
+[01:20:05] Which is not going to be fun, probably means they're going to have to go with like with the same solution that clicky clap doors have, where it's just a slide-on mount.
+[01:20:15] But I don't want to steal from Clicky Clack from the guys who made Clicky Clack because, you know, not my idea.
+[01:20:25] I try and include as few people, other people's ideas as possible when designing stuff.
+[01:20:30] And it's nothing to do with the fact I don't want to use them.
+[01:20:33] It's a fact that I love this community.
+[01:20:40] I love the people in it.
+[01:20:41] And I want to make sure that everyone gets the acknowledgement that they deserve.
+[01:20:48] And I know that if I keep using other people's ideas, I'm going to at some point forget where those ideas came from and either claim them as my own by accident or fail to provide the acknowledgement to the people who actually did the work.
+[01:21:20] But yeah, other than that, it's fine.
+[01:21:22] I got a smoke machine for this for this, by the way.
+[01:21:25] I bought myself a smoke machine because it was like 20 bucks on Amazon.
+[01:21:31] I was like, yeah, hell yeah, that'll be great as like a visualization.
+[01:21:34] And I thought if I bring it to Smurf, I can get the machine to do like a whole dance thing, get the RGB lights going, get some kind of music going in the background, and just have it on a looping track that it can just play through and dance the night away.
+[01:22:01] And it's a good indicator of how well that filter's going to do.
+[01:22:05] Because if I fill the entire thing up with smoke, with it's not smoke, it's actually water with a bit of glycol in it.
+[01:22:15] That's what smoke machine smoke is made of.
+[01:22:17] That's a very good, or at least I think it will be, a very good indicator of what the filtration system will be like.
+[01:22:25] So I can then time how fast all of that mist will dissipate from the chamber.
+[01:23:05] But yeah, I do want to put my RG.
+[01:23:07] I have my machine set up to tell me whether or not the E-Stop has been pressed.
+[01:23:14] I have all the RGB lights turn red when the e-stop has been pressed when I know that the machine is not in a safe state.
+[01:23:23] So the door should be closed now.
+[01:23:31] Question for you guys.
+[01:23:32] A little bit of a debate in chat.
+[01:23:36] If we do the door interlock where, or the door sensor, at least, at the very least, if we do that, do you during operation, would you like it to e-stop or you like it to pause operation?
+[01:23:58] Personally, I would like it to pause the operation, but I'm not sure if that's a safety risk doing it that way.
+[01:24:29] Because the thing is, it would be really, really annoying if the door sensor accidentally went off and then you lost all your progress in a cut Pause for sure, pause for sure.
+[01:24:46] We could probably make it so that it triggers a macro The problem is you basically need to the daemon file, so the daemon.
+[01:24:56] g file that runs is basically what you need to track whether or not a job in RepRAP Firm
+[01:25:05] Running or if it's closed.
+[01:25:09] So, for example, in daemon.
+[01:25:11] g, I have to track whether or not the door is open during a job or whether or not it's open just when it's in idle mode.
+[01:25:27] So, setting a macro could be a little bit awkward because of that restriction That's starting to sound a lot better already, a lot less wobbly.
+[01:25:54] I've still got two more sides to do What's for sure, pause for sure any other thoughts?
+[01:26:03] Everyone else agree with just pausing gotcha Kate needs to be informed of all this stuff gotta have a good team I love my team I love the fact that I'm at a point in my design journey where I just can throw things at other people Be like do that please help me and then they're nice enough to actually do it No more people saying whether or not it should be pause or not cool I think that is our well obviously debated as a team Problem is there's a lot of thinking where if you do open a CNC machine whilst it's oh whilst it's running there's a chance that if you only pause it you could possibly press unpause on the screen and that becomes an issue so maybe an e-stop would be better in that case The ad on the server was something anyone was something anyone looking for a dev yeah well he didn't read the rules if he says anything else he gets banned What do you want me to say?
+[01:27:57] Like if people don't read the rules and they do things that are explicitly written down in the rules not to do They get banned I give them one shot They get banned I'll do the same thing with pornbots I'll do the same thing with random people on the server It is not an advertising space unless you have explicit permission from us Don't try and advertise Can you check for door open state whenever start program or resume feed and require confirmation possibly possibly but you talk about requires confirmation as in they can bypass it if they say yes The problem then would be that it would the daemon.
+[01:29:55] g because daemon.
+[01:29:56] g cycles it goes with clock speed so it needs to be able to cycle so what you'd end up with there is you'd end up with a loop
+[01:30:07] Where it would constantly be checking for the door sensor and constantly be asking you for whether or not you want to continue is something you could probably code around, but I'm not smart enough for that.
+[01:31:05] I think Cascade has an e-stop at the door.
+[01:31:08] Yeah, I'm not surprised.
+[01:31:17] You thinking of building Cascade universe The more and more I think about Cascade the less and less I think it makes sense but then again Vorons in general make less and less sense nowadays unless you're just trying to do something fun and you don't care about actually producing anything Vorons don't really make too much sense but in Voron's defense at the same time they've never advertised themselves as that they've advertised themselves as being performant and fun to build and customizable I remember back in the day Nero would even say no don't build a Voron for a print farm if it's your business just get a bunch of ender threes right I need to put some heat inserts in let me get my camera repositioned so you can see what we're doing there we go soldering iron on I'll need some M3s for my M3s my M3s I need two of these No I have enough headaches with this one machine I can't wait to see the mods for what community comes up with though I don't know there's not overly that much you can do with mods in terms of creativity at least that I don't think of I think someone will do a rapid change at some stage but we've seen it with the the Milo community as well mods aren't as big of a thing as they are on just printers for example I think it's less scary as well to mod your printer than it is to mod a CNC but for the most part like I most people will start off with a stock Milo Whereas most people will skip straight to a modded Voron nowadays That might have something to do with the fact that mods are more well traveled I suppose on Vorons like everyone mods them so they're all well tested just as a as a default these need to be smaller
+[01:35:25] So I need to remember to no, I can't.
+[01:35:28] These will need...
+[01:35:29] No, I can.
+[01:35:30] I can.
+[01:35:30] Never mind.
+[01:35:31] Ignore me.
+[01:35:32] Pretend I'm not here.
+[01:35:35] That's something I'm also looking forward to.
+[01:35:39] We'll try port them to Milo if I like them.
+[01:35:45] Is that a tape or a large bearing on your table, Jake?
+[01:35:50] These these are that's just weather stripping.
+[01:36:01] It's just weather stripping.
+[01:36:02] It's just tape.
+[01:36:18] Okay, dope.
+[01:36:18] Door handle on Right From an aesthetics point of view, Venes.
+[01:36:35] I actually like this way more than I thought I would.
+[01:36:38] I was a bit iffy on the way it looked in CAD, but I am happy with that.
+[01:36:51] Another nice thing about having the panel on the outset side is I'm going to model some ramps for chips.
+[01:36:59] So the chips will actually have a way to want to slide away rather than get inside the extrusions.
+[01:37:06] I'll probably just put it on the bottom.
+[01:37:07] There's no point in putting it at the top because gravity, but it stops the buildup of chips from behind the door.
+[01:37:13] So every time you open it, you don't get a bunch of chips on your floor.
+[01:37:17] Not designed it yet, because I wanted to make sure the door was in a good spot first there Something's jamming somewhere.
+[01:38:30] I don't like that fine there's because I don't have the hinges, it's dropping the whole assembly's dropping down Yeah, once the hinges are in this shouldn't be a problem, but I'm liking that Looking forward to Casa that is sleek looking for the CASA What advantage does four pack have against Spice Rack?
+[01:39:05] It's simpler for one It's simpler and cheaper.
+[01:39:11] That's why four pack is a thing so four pack is around more to cater for your average day-to-day type the spice rack is an amazing bit of engineering it's really cool and for people who want to for people who want to go a bit more overboard with the tooling it makes sense so if you're running really really complex parts it'll be good for that for anyone who is not doing that for the people who just run fairly standard programs four baths should be enough because you've got your roughing tool your finishing tool chamfer and then one specialty tool so say that specialty tool is a cobbed cutter if you're doing steel work or some kind of engraving tool or some kind of
+[01:40:07] Thread mill, so that should cover your all most of your bases with just four bits.
+[01:40:15] But if you get any more complicated than that, if you want to use two different rougers, if you want to use one small finishing end mill and one big finishing end mill, if you want multiple different sized holes, if you want drills or anything like that, that's when it makes sense to go spice rack instead because you're getting more tools for now until I get hinge done.
+[01:40:47] That doesn't sound too bad either.
+[01:40:49] Obviously, we've still got one side that's loose until I can figure out something to do with the hinge.
+[01:40:56] I'm going to take this off and then we're going to put the panels on the other two sides.
+[01:41:00] Well, one side, and then I'll do some stuff with the other.
+[01:41:06] I am just going to adjust these though.
+[01:41:09] I'm pleased with the magnets.
+[01:41:10] The magnets get a good amount of force.
+[01:41:17] The magnets going to give a really good amount of force.
+[01:41:24] I'll probably try and reuse for V2 because most people building Casita will be building Miley because obviously it's for that specific machine.
+[01:41:33] I'll try and reuse some of the M6 pins that you use to straighten the carriages because a lot of those don't actually get reused later on in the assembly manual.
+[01:41:48] It's one of the one things I wasn't able to reuse.
+[01:41:55] So use those M6 pins as the joints themselves to open and close the door.
+[01:42:04] But that does effectively kill the sliding door on Casa, which is a bit of a shame.
+[01:42:15] We'll figure something out for Casa.
+[01:42:17] We'll figure something out for Casa.
+[01:42:22] Okay, this panel Jesus.
+[01:42:32] Cassita's getting heavy.
+[01:42:35] Who would have thought adding a whole load of extrusions together?
+[01:42:42] Big fan, a filter, like three kilos of printed parts.
+[01:42:47] So start making something heavy.
+[01:42:53] What is the timeline for spice rack?
+[01:42:54] No idea.
+[01:42:55] You'll have to ask Bright for that.
+[01:42:58] I am not part of the Spice Rack development.
+[01:43:04] I help out with the four pack every now and again, but that's mostly done by Alan.
+[01:43:16] One of the issues we're having is we want a unified standard for the magazine itself or the actual module.
+[01:43:24] So whilst Bright's version is completely tested, his version that he's tested is for ER20 for a specific nut on ER20.
+[01:43:35] And it was all done in Imperial.
+[01:43:36] So we A need to convert that into metric.
+[01:43:41] B, need to size it down for ER16 colours because that's what most people are using.
+[01:43:50] And then C, we need to make it work across both machines.
+[01:43:55] Well, both different types.
+[01:44:07] I need magic parts bin.
+[01:44:11] I need four of those.
+[01:44:14] Four of those.
+[01:44:22] We've got a mixture of satin and textured PEI here.
+[01:44:45] So I'll do the two bottom ones first.
+[01:45:08] I've got to have more M3s somewhere.
+[01:45:11] Oh no, those are only M4s.
+[01:45:12] No, I did the wrong thing.
+[01:45:17] There's my M4 inserts.
+[01:45:30] I'm not even gonna need M4s anymore.
+[01:45:34] Now that I can't do the hinges, the M4s were literally just for the hinges.
+[01:45:46] I think the fact that I'm running out of M3s is a good sign for me to finally get around to going to the container and taking my old Casa apart.
+[01:45:57] And then I can scrounge a bunch of M3s from that I need two more serial quests to get M230.
+[01:46:14] Why do you want M230?
+[01:46:15] What's the significance of M230?
+[01:46:17] There we go It ends with zero Are you the type of guy who has to either have the TV volume on a five or a zero or even numbers some people like even numbers I don't like the look of 228 or 229 228 I'm pretty sure that's a rifle caliber Think of it like that You could have a rifle caliber for your cereal I can't explain why fair Oh no Gas are starting to take paint off my wall or Casita A little bit of scratch on my wall and two paint marks that I'm missing God damn it These M3s are M3s We can keep going we can keep going I found some more M3s Mumbrault Is that not everybody with volume what sort of animal would be okay with odd numbers what kind of animal would be okay with odd numbers five's an odd number five's an odd number I like to do all mine in prime numbers
+[01:50:12] Volume, I don't see the number after it fades away, so I don't care.
+[01:50:15] If I see it constantly, it would end with five or zero.
+[01:50:19] Fair enough.
+[01:50:26] Some people like to be wrong, you know that those bottom ones are in, let's take this on so it will rest on those Don't know if I mentioned it already, but one of the reasons I'm also doing this as a clear panel is because this is the side that's gonna face you guys.
+[01:51:05] So when I'm doing the overhead on some machining, when we do like machining streams, you'll actually be able to see inside through the side of the machine, not just through the camera that I'm gonna be putting in here.
+[01:51:21] Last time we did a camera in the enclosure, this spindle EMI made it really hard to see anything.
+[01:51:28] So I might feed in the USB from one of the bottom skirts instead Because it shortens the USB run because my computer's under there and it also means that I don't need to worry about the EMI because it'll be so far away from the spindle cable.
+[01:51:53] Oh, I need to do I nearly forgot.
+[01:51:57] Oh my god, there's so much static coming off of these panels.
+[01:52:02] I need to do weather stripping the fun part Hey, looks like we're getting a load more people back in for the US folks.
+[01:52:29] What time is it?
+[01:52:32] I know it's a Thursday and it's an odd time to stream.
+[01:52:34] Thursdays are always a bit of a hit or miss mostly a miss to stream I'm just happy that we're streaming tomorrow as well Well, hopefully It's 348 that makes a lot of sense a lot of you guys will be in rush hour traffic coming home or even still at work for those of you who work till five Shamanist yep general rule when unwrapping such things avoid touching electronics It's good that you reminded me of that because I've got a bunch I've got all the electronics for Casa over there well all the electronics for Milo over there on my office chair But oh my god these things are attracting so much dust I'm gonna have to give it a proper wipe down after stream I always forget how expensive where the stripping is you think you can do one roll right it's it's not expensive as a single role but for example I've done two panels on this and I've gone through a whole role already so by itself you think oh it's a fiver it's just gonna last a while no it does not there's a reason I bought three rolls and I was only doing three panels
+[01:55:18] Jake, why don't you use shipping container anymore?
+[01:55:20] We talked about this earlier in the stream because long story short, if you want the full story, head back to the beginning of the stream.
+[01:55:31] Long story short, they told me I could use it, then changed their mind, and I'd already spent a grand on all the stuff inside there.
+[01:55:40] And for other reasons, including insurance reasons from the company side, they will not even entertain the idea anymore.
+[01:55:49] So they initially said yes, then changed their mind.
+[01:55:56] I still have the container as a to use as a container, but I've still got the batteries and everything that I was meant to be using for them, just down here.
+[01:56:17] Right weather stripping done at least for that panel, I missed that bit.
+[01:56:54] I was bashing metal.
+[01:56:55] Are you still trying to flatten that plate?
+[01:56:56] I can't find a table wide enough to fit Casa.
+[01:57:06] Also, no available designs online.
+[01:57:09] Yeah, unfortunately, that just do be the way Dining tables work really well because they tend to be a lot wider.
+[01:57:36] Hence why I've got a dining table here.
+[01:57:38] But general workbenches tend to be only 600mm deep, which I don't genuinely don't think that that's deep enough for a work table, but maybe that's just a me preference.
+[01:57:54] Yeah, I heated it and got it flat now, but it's kind of mashed up and it's buggered all the measurements.
+[01:58:02] I think Dave has posted a wooden table cat.
+[01:58:04] Yes, he does have it somewhere, but it's from years ago at this point.
+[01:58:36] That's what I ended up using, but skirts had to go Is that for a dinner table if you guys ever end up having to build your own enclosure, just keep in mind the way that the door opens, it should always open in the opposite direction to where your e-stop is.
+[01:59:22] Because if you need to reach out, if you end up being in the machine for whatever reason, and I'm not advocating that you should ever be in your machine whilst it's running, but if you ever do end up in your machine whilst it's running, you need to have a clear line so that you can reach out and hit your e-stop.
+[01:59:44] So if your doors open to the right, always put your e-stop on the left.
+[01:59:50] And if you can, it's not a bad idea to have an e-stop inside the machine as well.
+[02:00:17] Could you get some 40-40 extrusion and build your own table while you're out?
+[02:00:21] Yeah, you can.
+[02:00:22] A nice thing with Casa is because the uprights are all the way down.
+[02:00:27] You can just get longer verticals and make a table out of that.
+[02:00:32] Just modify the legs and go all the way down and add some bracing at the bottom.
+[02:00:37] You really don't need 40-40.
+[02:00:39] Like, 20-20 is enough, so long as you brace them properly and maybe even do some 10 segrity lines.
+[02:00:48] So, literally just a cable that goes from one side to the other.
+[02:00:51] Tie it nice and tight.
+[02:00:53] You've got a whole CNC machine with storage.
+[02:00:57] And if you really wanted to make it fancy, you could put doors on the bottom and have buckets that have all the chips and don't put the bottom panel in so that all the chips fall down into the buckets and you could just pull them out.
+[02:01:26] Now, that's something I would love to see.
+[02:01:31] See, that's why I kind of prefer not having a door on an enclosure.
+[02:01:36] I don't feel like I'm trapped when being near the machine.
+[02:01:43] The problem with that is you could also say the opposite.
+[02:01:46] If you don't have a door, that bit can come straight out at you, unless you're talking about kind of a manifold cover where you literally just pull the whole door off without any hinges.
+[02:02:03] But even then, there's a good chance the force of an impact would knock that door off, and then you've got nothing protecting you.
+[02:02:11] So, you need to have some kind of clip system for it.
+[02:02:32] Ooh, someone's mentioned you in Discord.
+[02:02:42] Just Dave being Dave That's what I think Kado was talking about a while ago.
+[02:02:50] But he was thinking the full flood cooling, so like a few layers of sieves and a sump.
+[02:02:55] I am thinking because you could probably do that, and I have been thinking about it with Kasita because Casita's got about I'm gonna use some Imperial here, it's got about an inch of travel between where you could put a sieve, probably two inches.
+[02:03:17] So, if you add some skirting here so that you can have a sieve that sits flush with the extrusions at the top, you'd still have the space to mount it, and you can add some 3D printed no top, no bottom layer, some hexagon infill, and have them in steps so you're filtering all the big chips out and then recirculating that sump.
+[02:03:41] The only thing about that is you would need to make sure you went round with a bead of silicon, and it would be a permanent fixture.
+[02:03:48] You would never be able to change it off of that.
+[02:04:33] You know what?
+[02:04:33] I would be Roj, how are you doing?
+[02:04:38] How are we doing, man?
+[02:04:43] I've still got to reply to your trident proposal.
+[02:04:50] Raj has been ever so nice and said that he would take my trident off of me and get it to a working state.
+[02:04:57] Not sure if the offer's still there.
+[02:05:08] Hey Jake, all is well.
+[02:05:09] How are you?
+[02:05:10] I'm not bad.
+[02:05:12] Had not a rough day at work, just a tired day, tiring day at work with the heat.
+[02:05:20] But I basically live in a tin, well, work in a tin box, so it always seems hotter than it actually is.
+[02:05:29] But it wasn't as bad as it was over the weekend for the table.
+[02:05:52] If you're if you're bot fuzzy about it, a pallet and some legs, if you're not fussy about it, okay, cool.
+[02:05:59] If you're not fussy about it, a pallet and some legs, they are pre-made in steel to get them into table height.
+[02:06:04] Yeah, something like that would work.
+[02:06:06] Just don't overthink a table.
+[02:06:08] I went originally when I started, when I had my first CASA, I had an extrusion table.
+[02:06:15] I've still got the extrusions.
+[02:06:17] The problem is, is getting it to be stiff enough is a bit of a challenge because it likes to wobble a lot and it's expensive for what it costs me to get extrusions.
+[02:06:30] I could have built three 2x4 tables and had them and had proper hardwood.
+[02:06:38] The bench that I built for the container that cost me 200 quid to make.
+[02:06:43] It was either 200 or 300.
+[02:06:44] I can't remember.
+[02:06:45] Just the extrusions for a table cost me 400 quid.
+[02:06:55] And I don't even use them anymore because they're not that good.
+[02:07:10] I'm still really tempted by something like 950's plywood setup, like the draws and stuff with the drawers and stuff.
+[02:07:16] Yeah, I think if I was to, if I was going to make an enclosure again, that obviously I'm designing for most people here, right?
+[02:07:26] But if I was to make my dream enclosure, I would probably do what 950 did, but with the verticals, like a hybrid design where I cut the bits off the skirts.
+[02:07:42] I drop the skirts or the verticals of Cassita all the way down.
+[02:07:48] And then the bottom is filled in with plywood panels.
+[02:07:52] So I can put drawers in there and stuff.
+[02:07:54] Hey, bud.
+[02:07:54] Do you want to go out?
+[02:07:59] Is it too hot in here?
+[02:07:59] There you go.
+[02:08:06] Go lie in front of your fan.
+[02:08:15] I use 28mm stainless tubes for my XL stand on wheels.
+[02:08:21] It's very stable.
+[02:08:23] Yeah, but not all of us have access to 28mm stainless.
+[02:08:28] Or is it 2.
+[02:08:29] 4 2.
+[02:08:30] 8 mil you talk about?
+[02:08:33] Is 950 in the Discord?
+[02:08:34] Yes, he is.
+[02:08:35] Don't get him confused with 9 mile.
+[02:08:36] He's not the same person.
+[02:08:38] Despite the fact that both of their usernames are motorcycles.
+[02:08:47] I think they both ride Husk of Honors as well.
+[02:08:51] But they're not the same person.
+[02:09:11] The nice thing about is when I get this done is that'll be me done for Milo.
+[02:09:16] I will personally don't think I'll be touching Milo again.
+[02:09:21] I'll be passing the baton over to another developer.
+[02:09:30] So once V2 is done and all out there and in the wild and all that kind of nice stuff, I can finally start thinking about mods.
+[02:09:44] I don't mod any of the machines I develop specifically because I want to test them to see what they'll be like stock and if I'm not running a completely stocked machine and an issue comes up
+[02:10:06] With a certain part that I'm not running or whatever, I won't be able to quickly turn around and be able to produce a fix for it So like when LDO messed up the order for the extrusions for the Casa orders they used T-Slot rather than V-Slot It was really hard for me to come up with a solution because A I don't own anything other than my trident that has T-Slot and B I have no idea I have nothing to assemble it to So I was effectively just guessing based off cat when I designed the fixes for those side done check something will that fit there No, it won't obviously because yeah never mind and it never would have fit But yeah, that's good enough.
+[02:11:36] So that's that side panel done before we do the other side panel Let's install some electronics It's not gonna be crazy we're not gonna do any wiring today We're just gonna literally put din mail din rail mounts on and install anything that has a din mount I was lucky I got them for work nice Do you think there'll ever be a V3 Milo?
+[02:12:09] Yeah, I don't see why not for one of the promises that we make as a design team is that there'll be at least two to three minor iterations so there'll be up to a v2.
+[02:12:26] 2 or v2.
+[02:12:28] 3 at the very least yeah and that means all the main things stay the same the frame stays the same the linear rail stay the same everything else will stay the same or if there is a change in like the linear rails it will be only one set of linear rails it'll be very minor or we'll make the rails so that they can be cut shorter rather than make them longer you know stuff like that the minor changes will be things like fasteners need changing 3D printed parts need changing stuff like that and that is more of a promise to you guys because I don't like having to change frames constantly I don't like fucking people over so one of the things with v1.
+[02:13:16] 5 when V2 came out was initially people were some people who had a V1.
+[02:13:22] 5 weren't happy with the upgrades to the V2 because they weren't able to do the upgrade part hence why we did a V1.
+[02:13:29] 6 so V1 got V1.
+[02:13:34] 4 V1.
+[02:13:35] 5 and V1.
+[02:13:37] 6 as public releases for people to mess around with and they all use the same frame What up guys?
+[02:13:46] I'm currently going from 1.
+[02:13:47] 5 to 1.
+[02:13:48] 6 I'm not gonna even try pronounce your name.
+[02:13:54] I'm just gonna call you Screw Nice man.
+[02:14:00] Tell us about your build.
+[02:14:01] How's it going?
+[02:14:07] What about anything bigger than Atlas?
+[02:14:09] This kind of goes back to my old point with Atlas is I want to make machines that people are actually going to build.
+[02:14:21] It's why I'm not the biggest fan of Phoenix.
+[02:14:25] Phoenix is cool and all, but I don't think it suits a lot of people.
+[02:14:31] That's the correct way of saying it.
+[02:14:32] Nice.
+[02:14:35] There is Fatless.
+[02:14:36] And you can always make a big version of Atlas or Fatless.
+[02:14:43] Like there's nothing stopping you.
+[02:14:45] I think both machines will be stable up to a meter.
+[02:14:49] A meter in X for both machines and probably half a meter in Y so long as you double up on motors for Fatless and up to about anywhere between 600
+[02:15:05] And 600 millimeters and probably a meter in Y for normal atlas.
+[02:15:11] But at that point, it's probably a good idea to move to servos Right.
+[02:15:21] Let's get the CAD up because I want to remember So I haven't got these bits in because I'm not totally happy with the design of them the trays the cable trays so I need my MCB then cluster one then DC power supply then DC cluster does that make sense yeah that makes sense cool thing about the LDO electronics kit is they actually have a dual channel one so MCB so if I go to desk the one that we've always installed the minimum is just one channel so you put your live in the MCB and that's the kind of minimum spec for it the LDO guys actually have a dual one so you're putting both live and neutral in here it's technically a little bit safer it's not so much safer that it would make it unsafe just to do the single channel version but this is technically a little bit safer and I'm glad that they did include it The conversation is going well just had some trouble getting linear rails parallel the conversion sorry the conversion is going well just had some a little trouble getting linear rails parallel also two of the three compression plates for backdash nuts snapped uh sorry man um LDO is doing a CNC version that they want to sell I still need to ask them whether or not they don't mind me really releasing the CNC version of those nuts because there's technically a part that was on commission from them so I want permission before I accidentally do anything the great part about the so if you've ever built a volunt kit from LDO before they normally come with single or double channel either come with single or double channel terminal blocks the ones that they've put in the kits are actually multi-channel so you have your main input here or if you have if you have a big gauge wire you can use it there and then there's four inputs on every single one of these so if you want to get 240 volt you you have three ways of getting it or four ways of getting it from your viece it doesn't it's not too useful for the ac stuff but for the dc point right you now have four ways to get 24 volt which would be good for fans it'll be good for relays it'll be good for solenoids if you're running ear blasts or anything like that well there is the argument to be had that being safer or not about it being safe or not but yeah it doesn't make much difference yeah this is there is an argument to be made i don't think it's one that is life-changing right so how do i want this i want blue i want ground you always want ground to be the furthest wire right because it's the sorry the closest wire you always want it to be the closest wire to um the intake because that way it's always the one that gets pulled last if the wires ever get yanked out by ground i mean earth i didn't mean to say ground i'm going by british standard which is normally brown for live but we only have the red here so we've got yellow which is earth blue which is live and then brown which in this case is red is going to be neutral
+[02:20:08] Don't know how they want us to install these because these are actually quite strong when you have loads of them on If I drop a couple of these off these din connectors off That's some cool connectors.
+[02:20:28] Yeah, Bright told me about them They're really cool.
+[02:20:32] I just hope they don't increase the price by too much.
+[02:20:35] I don't know if LDOs are actually going for them these were part of a test kit for UEB I hope they do It's hard to install them together.
+[02:20:56] That's why I'm just getting rid of all but three of the DIN mounts for it so they normally have two on each one.
+[02:21:04] I'm just doing one on each There we go.
+[02:21:15] That's Miles easier Except for the last one.
+[02:21:21] Oh no the last one's already in perfect on DigiKey I got them for Scared 2.
+[02:21:35] 5 for the six put position cool Is blue not supposed to be neutral yes no you're correct you're correct I got that wrong I got that wrong earlier you are correct blue in the UK is neutral brown is live You are correct there Raj.
+[02:21:59] Thanks very much for stuff like that I do tend to make mistakes on don't take what we do in stream to be the Bible take what's on the documentation to be the Bible Because I'm just saying bullshit on stream sometimes and I get easily confused.
+[02:22:54] Where's the DC cluster?
+[02:22:55] I had the DC cluster earlier DC cluster Take two of these off since they're connected together they only need two only one per terminal There we go spread these bits out so that's the DC stuff and stuff and then it should go contact then plus to two How do I want this?
+[02:23:38] Do I want it that way?
+[02:23:40] No, that's gonna interfere Okay Red is DC plus 99% of the time I think the Chinese standard is also red for hot as well Brown this is life wire in older installations it may be red yeah red could be for signals such as between the switch and the light and a house that is so still mains but it's not always live in the UK all I know is that in the UK green slash yellow is your ground wire well sorry earth wire blue is neutral and brown it's kind of ready brown is your live and you always want you always want your ground
+[02:25:07] Sorry, not ground.
+[02:25:07] You always want your earth wire to be the one that's closest to the installation, just in case wires do get yanked.
+[02:25:16] So the last wire that gets yanked is always ground.
+[02:25:22] Sorry, not ground.
+[02:25:23] Earth.
+[02:25:24] Earth.
+[02:25:26] God, it's really annoying.
+[02:25:35] I gotta install this fan as well.
+[02:25:38] So this is the intake fan for the electronics.
+[02:25:42] Move all the din stuff around there.
+[02:25:45] Don't actually know what size screw I'll need.
+[02:25:49] I haven't carted this shit up yet.
+[02:25:51] That's gonna be way too long.
+[02:25:52] That's 35 30 looks like it'll be good enough.
+[02:26:11] Same for Sweden Denmark.
+[02:26:13] Oh, cool.
+[02:26:13] Hey, have we got another Denmarker?
+[02:26:15] We've got another Nordic person in chat.
+[02:26:23] Has Yorman gun been replaced?
+[02:26:27] Nah, you can never replace your gun.
+[02:26:53] Oh, I put this in the wrong way around.
+[02:26:57] Or have I?
+[02:26:58] Yeah.
+[02:27:03] Yeah, that's the wrong way around.
+[02:27:04] I would never get the airflow I needed with the obstructions.
+[02:27:58] Hey, Jake, I am thinking of getting a Milo kit when it comes.
+[02:28:02] I'm guessing you're saying Milo V2 kit when it come out or get the or just get extrusions and motion kit when it comes out.
+[02:28:10] Got a lot of headaches with this one.
+[02:28:13] Yeah, possibly, if you can afford it.
+[02:28:16] I would say keep your V1.
+[02:28:18] 5 if you're doing it and just buy a V2 as well.
+[02:28:23] The last job came out nice, but I still hear chatter and some horrible noise sometimes when X and Y are moving.
+[02:28:32] See, when you...
+[02:28:34] I saw that little bit of this on Discord where you realized all your rails were loose.
+[02:28:40] I have a sneaky suspicion that's your main issue.
+[02:28:43] It's those types of T-nut connectors that you've been using, not the dropping ones.
+[02:28:50] Right?
+[02:28:50] Sorry, you've been using the dropping ones and not they are dropping T-nuts.
+[02:28:59] What am I talking about?
+[02:29:01] You've been using the wrong type of T-nuts and it's caused you issues.
+[02:29:09] So I genuinely think strip everything down, give it a good clean, and restart the build and do it with the proper T-nuts for a start Because you have been the most unlucky builder of Milo I have ever seen with all the things that have gone wrong so far But you can hear the difference that other people like Vinitius Vinitius you've seen his build and the noise that it makes and it's beautiful it sings that that machine absolutely sings and it's pushing it he's pushing it way harder than your machine is being pushed I genuinely think there's something structurally wrong with how you put your Milo together more than anything oh you don't have the V1.
+[02:29:57] 5 just the V2 That's why I don't bet oh yeah you do have a V2 sorry
+[02:30:06] I meant I did know that.
+[02:30:07] I don't know why I said it.
+[02:30:08] I did know that you had a V2.
+[02:30:12] Like I said, scrambled brain today.
+[02:30:14] Scrambled brain all be moved back now.
+[02:30:26] That spins perfectly.
+[02:30:28] What else?
+[02:30:29] We can install the E-stop.
+[02:30:38] Oh, forgot about that, but forgot about the collar.
+[02:31:10] Yes, brisket, I know I want some printed mounts.
+[02:31:30] Now I need to figure out which ones are actually for PSU.
+[02:31:36] I think these are them.
+[02:31:40] So I need some M4s because M4s are what you use on the power supplies, the meanwhile power supplies.
+[02:31:49] Luckily, there should be an M4 in here somewhere.
+[02:31:52] Hey, if I'm more M3s.
+[02:31:54] So that's M3s and M5s.
+[02:32:04] There we go.
+[02:32:05] And we've got some M4s.
+[02:32:10] Very nice.
+[02:32:14] Right, do I need that will fit perfect perfeto mundo now Which way do I want these oriented?
+[02:32:33] I think that way will be fine So here's the thing that annoys me about PETG about PETG GF in specific every single day I want to print with it I need to dry it for at least two hours before I start printing it And that is the main thing that has been putting me off the quality of these parts in terms of the side finish the wall finish is way worse than when I printed it earlier that day just because it absorbs so much moisture so quickly and don't get me wrong you have to dry ABS every now and again but once you've dried it it tends to be fine for like a month PTG not a thing I don't think I will ever come back to this material The glass fiber makes it even worse I gave it a shot I gave it a chance and it betrayed me every single time Some people are just some things are just born bad and PETG is one of them What orientation did I do in the PSU room makes sense to me towards that Normal PTG isn't normally that bad no you're right there you're right there I do it does still need to be dried every few days in my not opinion but experience with it in my experience with it it does need to be dried quite often this may be an issue I think I'm actually gonna put this on the lower rail Sila there PSU here 48 volt PSU you can move straight to the PSU if you need to for power
+[02:35:06] And that gives you loads of space for the VFD because if you put this here, there's no space for the VFD.
+[02:35:14] And depending on what size VFD you've got, that might be an issue.
+[02:35:33] Damn it.
+[02:35:38] I knew these should have been ABS parts, just plain ABS parts, not even glass filled.
+[02:35:47] Problem is there's no bend to it.
+[02:36:08] I'm going to have to reprint these in normal ABS so there's actually some bend to it.
+[02:36:25] Am I missing a Okay, Jake, I'll be getting the Roland T-Nuts and do a full rebuild when I'm moving sooner So I can't stand it Let us know how the machine AB nut AB nuts go with LDO I'll get if I can get it machined maybe if I can get it machined I will do a rebuild after I get it controversial opinion, but I hate glass fulfill filament no hate by just for normal that's absolutely fine I don't actually recommend glass fulfill filament for people I like it because of the aesthetics and because I get less print failures that's it Well print failures due to warping but otherwise I completely agree with you PSU I'll have to do my own time they'll probably be the same with these parts in that case I'll probably end stream soonish I actually quite like it for ATC stuff but otherwise not really yeah honestly I'm with you on this one I'm with you on this one a lot of the parts that have been printed in normal ABS have actually been the parts that are easiest to install on this machine so anything orange would have been great again the only reason I use the glass filled stuff is because in the long run because the parts I make are so big it saves me a lot of money not having to worry about print failures and up until very recently I've just been running normal ABS But since it took a really really long time here in the UK to actually get warm I was experiencing a lot of print failures and I'd started with glass filled on this so I was going to end with glass filled on it as well like I said as well aesthetically it also looked really nice Also any update on the LDO vice nope they told us that they were redesigning it months back and we never got any updates with it I'm not even sure if they'll be in the kit Where is my LDO vice There we go So this is the I think they call it the bulldog vice The two-piece vice If they the problem we had with these ones is it's an aluminium jaw and the minute you start using it it's gonna wear down and stop being flat and it's gonna stop being a vice There's nothing wrong with aluminium soft jaws, but you don't want these to be But the whole point of a soft draw is you use them once or twice
+[02:40:06] And they conform to the part.
+[02:40:08] You want steel jaws wherever that vice force is going to be constant and varying.
+[02:40:16] Sorry, not constant and varying.
+[02:40:18] Constantly high and varying in shape.
+[02:40:27] Do you have one?
+[02:40:28] I'll buy it off you.
+[02:40:30] I don't have one of the new ones.
+[02:40:33] No, I don't have one of the new ones.
+[02:40:37] If you want that one, just send me a postal address, and as long as you pay for shipping to Canada, just have it.
+[02:40:48] Right.
+[02:40:49] Anyways, I think that was going to be enough for tonight.
+[02:40:53] Thank you very much, folks, for coming.
+[02:40:54] I know I've been a little bit off game today, just because it's so fucking hot and tired.
+[02:41:01] I am going to be streaming again tomorrow.
+[02:41:02] Whether or not it's Patreon stream, I don't know.
+[02:41:04] I will let you guys know as soon as I know myself.
+[02:41:09] Thank you, as usual, for coming.
+[02:41:11] It's always nice when I have people to talk to on stream.
+[02:41:14] I know it was a bit quieter this stream, but I think that's just what it's like on a Thursday.
+[02:41:20] Other than that, if you'd like to donate to the project, there's always some links down in the bottom or the donate to developer channel on Discord.
+[02:41:28] Don't feel like you guys have to.
+[02:41:29] We do all this stuff without expecting any kind of reward from you, but it does help buy parts and materials so that we can test some stuff.
+[02:41:41] If you haven't liked the video already, please do so.
+[02:41:44] It always helps spread the word.
+[02:41:47] And other than that, have a great evening.
+[02:41:50] I'll see you guys next time.
+[02:41:52] Bye now.
