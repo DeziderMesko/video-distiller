@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=mraFwKATOEA",
+  "video_id": "mraFwKATOEA",
+  "title": "Milo/Miley V2.0 LDO Kit Pre production kit Ep2 #millenniummachines #opensource  #cncmachine",
+  "uploader": "Millennium Machine Works Official",
+  "duration_seconds": 7391,
+  "upload_date": "20250925",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "language": "en",
+  "transcribed_at": "2026-09-10T08:08:55+00:00",
+  "audio_retained": false
+}
