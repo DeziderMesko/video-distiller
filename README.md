@@ -122,7 +122,7 @@ python scripts/build_index.py
 To hand a subset to someone else as a standalone public repository:
 
 ```bash
-python scripts/export_public.py ../milo-transcripts
+python scripts/export_public.py ../millennium-machines-transcripts
 ```
 
 ## What lands in data/

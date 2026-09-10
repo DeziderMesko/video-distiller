@@ -5,7 +5,7 @@ The private data/ directory is the working store; this renders a subset of it
 into a standalone repository that can be handed to the channel author. Re-run
 it whenever new episodes land -- it rewrites the tree from scratch.
 
-    python scripts/export_public.py ../milo-transcripts
+    python scripts/export_public.py ../millennium-machines-transcripts
 """
 
 from __future__ import annotations
