@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=USNZYueM1Is",
+  "video_id": "USNZYueM1Is",
+  "title": "Tiny Box Miley Enclosure Ep7 #millenniummachines #opensource #cnc",
+  "uploader": "Millennium Machine Works Official",
+  "duration_seconds": 7513,
+  "upload_date": "20260605",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "language": "en",
+  "transcribed_at": "2026-09-10T00:20:23+00:00",
+  "audio_retained": false
+}

@@ -1,0 +1,731 @@
+# Tiny Box Miley Enclosure Ep7 #millenniummachines #opensource #cnc
+Source: https://www.youtube.com/watch?v=USNZYueM1Is
+Channel: Millennium Machine Works Official
+Duration: 02:05:13
+Transcribed: 2026-09-10T00:20:23+00:00 using csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8] (parakeet-onnx)
+
+---
+Right, oh Hello, folks. How are we doing? I can see Jose in chat. I can see an Ollie in
+chat. I hope everyone is having a great day. I left the stream a little bit later today
+because I want to see whether or not it affects the people watching. Universe is also
+here. How are we doing, guys? How are we doing? Yeah, I want to see who actually shows
+up to stream today. Because in theory, this should be more conducive to the crowd who
+normally watches my videos than they're in the US. And it's not too late for the folks
+in the UK, especially with it being a Friday and all that. Good, how about you? I'm not
+too bad. I'm not too bad. I had a nice day at work. I was on the morning shift, so I
+went in at came in at 7 a.m. Obviously. And I love that because I don't have to deal
+with customers for two hours. I just get to get on with whatever I want to do. It's
+great. I love it. Right, so plans for today. I'm going to stop pacing. I don't know why
+I've been pacing all day. It's late for you, though. It's not that late. It's nine
+o'clock. Like, I'm up until like 1am most nights. Plans for today, before I get more
+distracted, is we're going to get the panels on. There's a couple things that I have
+done kind of off-screen. Like I said, I was going to do the start on the electronics,
+which I have done. So let's turn this whole thing around so that you guys can actually
+see what I'm doing. So I've put all the Din Rail mounted stuff in. Silas in. I'm
+debating where to put the power supply, but I need to grab the VFD from my other
+enclosure, from my other Casa in the container just to see where everything can go.
+Wired up the mains, check that all the power supplies worked, which is one thing.
+Mounted my monitor arm. So eventually that's where that monitor is actually going to end
+up going. It's going to be on the side of this. Oh, Shamelist Druid's here. Damascus is
+here. How are we doing, folks? Evening, lads. It's a Friday, also. Yes, it is a Friday.
+It is a Friday. Also, big news that I was not expecting to hear. Nero, who is mostly
+known as Connect Creator nowadays, is looking for a job and he's looking to not be a
+full-time YouTuber anymore. And I understand why. There's no malice or anything behind
+it. He's not leaving because of the state of the 3D printing community. It's just some
+personal stuff has changed. I just thought he was... I've always seen him as kind of the
+full-time 3D printing YouTuber guy who streams. But yeah, he just said on stream the
+other day that he was looking for a job. Not the other day. It was this morning. This
+morning for me. Damn, it must have been really, really early in the morning because he's
+in Canada for him. Now that I think of it. Hey, Raj, how are we doing? How are we doing?
+Raj, would you like my Trident? As in, would you like it, like it, and have it? I would
+rather go to a good home than me just not use it because I am planning to downsize in
+here. I want to get rid of the Centauri Carbon because I don't like the Prooster's
+great, but I don't like having it here because, especially on the main camera, well,
+what is normally the main camera? It takes up a significant portion of the screen, and
+you also can't see the enclosure. That was half the reason I put a polycarbonate panel
+on this side is so that you could see into the machine and now you can't see into the
+machine. So I'm getting rid of the Centauri Carbon because it's not it still prints.
+It's a fine machine. It's just got two spots, two dead spots on it where I can't get
+enough squish on it to make production parts. So I don't trust it as much and therefore
+I've left it unused for a while. The two P1Ss are here. The A1 Mini is kind of my TPU
+printer. The P1 sorry the not P1S. The Prush Core 1 has really been my workhorse
+printer. It's printing some PC CF right now from Prushment And I just want to move that
+to where the Centauri Carbon is to free up a little bit of space. Also, why am I so
+zoomed in? That's better. I will message you on Discord if that's okay. Yeah, go ahead.
+Absolutely fine. I'm going to take this arm off because it's just going to get in the
+way whilst we're building. But yeah, what's everyone else been up to? What projects have
+people been doing? You'd love it. Cool. It's in a state. Like, don't please understand
+that it is in a complete state. It's been in a state of me trying to get it up to
+scratch, finally getting there, and then it breaking soon afterwards for the last two
+years. So, if you can work your magic on it and get it working, that's fine with me. I'm
+just happy it's going to someone who I know is going to be able to take care of it and
+probably do a better job than I did. But I just don't have time to be messing around
+with printers nowadays. I would buy the carbon off you if you're interested. Yeah, well,
+it's the CC1. It's not the CC2. But if you're happy with it, go ahead. I had to replace
+the hot end fan with one of the Creality K2 fans because it was dead on arrival. It
+prints fine. It does surprisingly well with flexibles. I'll give you that much. But
+yeah. Right. First thing I need to do is I need to actually invert the whole thing
+because I need to put the bottom panel on. And that's actually going to take a little
+bit of grunt work because of the tolerances I've given it. There's a groove that goes
+all the way around the printed parts. And that's what keeps the bottom panel on. So I
+need to take the whole of this side off. I'm going to try, see if I can slide it in. I
+also need to replace all the feet anyway because I updated them. So top feet off first.
+I forgot that these are the torque screws, so they need a bigger screwdriver. You always
+need a bigger screw, don't you? He would like to build it for me. I appreciate that,
+mate. And I there's a bit of me that goes, I want that printer still. But there's
+another part of me that goes, I don't have the space for it. And I would never use it. I
+don't use the CC. I don't use the CC1 because of it. I'm going to have my Micron. Once
+I've got Atlas up and running, I'm going to have my Micron, and I'm going to be able to
+build that. And that's going to be my fun printer. And it won't take up a lot of space.
+And I can stick it in the kitchen or whatever. Probably not the kitchen, actually. Now
+that I think of it. But yeah. But by all means, if you want to get it ready and going
+and then donate it to a university or something like that, because you don't want it,
+feel free to. I just know I'm not in the state to be able to do that. Microns are great.
+I just got a second one. Yeah, I love the Micron. I do want to do a custom milled bed
+and a custom built Y gantry that's just a solid piece of aluminium. Yeah, it is the Y
+gantry. The flying gantry part I need this screwdriver Also Brisket's just having dinner
+so if you hear ravenous chomping it's him Jake would you say it's worth worth replacing
+the CC1 bed I don't know it the machine was really really good when I got it don't get
+me wrong I was surprised by how nice it was it wasn't as nice as the P1S was when I got
+that but it was way cheaper at the time at least so I think if I went if I if I wanted
+to I would probably go through with the whole canvas head rebuild because there's a
+canvas version the multi-material unit AMS thing for the CC1 now I would go ahead with
+the head rebuild and see if that made a difference because the new canvas is like 30
+quid It's not that expensive and I'd see if that would see if that fixed the error
+first. Hi Jake, do you know what UK vendors will be selling V2 kits? DMS most likely and
+that's pretty much it There's not really many vendors to choose from 123D might the
+thing is with 123D is from what they were talking to in Smurf to me about in Smurf they
+got kits far after the release pretty late after the release so they basically got all
+the kits that were left in the factory in China from LDO and at that point in time V2
+was already a thing so they weren't able to sell them and the want the need for machines
+in the UK is really low even even at even during the golden age even during the Voron
+Golden Age Kits in the UK were not a very big thing they're not a big part of the market
+it's mostly the US I heard they compare decently to the P1S yeah I like like I said I
+like it I don't like I actually prefer the CC1 to the CC2 I don't like how they've laid
+out the CC2 Hey oh that makes my heart sing knowing that that just slides in Hell yeah
+that was easier than I was expecting I still need to take these feet off though one
+crease grant you would be crazy yeah I think so I do want to build the bed as well I
+know I wouldn't buy them directly from bamboo seeing as how bamboo is right now but I
+would like to use the bamboo size 180 mil build plates the the ones that are on the A1
+mini just because I like the way that they clip in I'd probably buy a third-party one
+though because I don't really want to give bamboo any more money if I can help it that
+saying that said I also do need to be realistic and things like filament especially just
+for testing where half it gets thrown away anyway is probably easier for me to get from
+bamboo which is kind of annoying but c'est love say la bloody v awesome i need to stick
+some heat sets in uh you might be able to see all the v2 parts behind me so yes i'm
+actually going orange as main and black as accent colour for the v2 build so i'm going
+opposite i will be clearing all this out the way i ran out of um the asa the uh prusa
+orange asa and i wanted to do two specific parts in uh glass filled so i got some glass
+filled abs printed them out and the colors on them were so far off they were more more
+like a whitey orange so i also ordered some glass filled ptg and as much as i hate it
+it's the closest thing to the prusher orange that i can get in a glass field so on
+camera it doesn't really matter they show up as the same colour on camera it's but i'll
+know i'll know that they aren't the same reason i wanted those to be glass fiber
+specifically is because they see the most tortional load of the bed right you over there
+so i can see chat perfect i'm gonna swap over to that one why is chat not loading chat's
+not loading for some reason chat are you there there we go there we go how long are you
+drawing p in it i like the new dry i got jake how long am i drawing petg uh i don't i
+have a um what's it called uh What's it called? What's the word? You know, the thing.
+You know the thing. The thing I have a P1S which has a Panda Breath in it. That's the
+one. It has a Panda Breath in it. And I use that as like a bulk dryer nowadays. I stick
+the bed on Depending on what it is. If it's PTG, just straight PTG, then I'll do 80
+degrees. I'll stick that on 80 degrees C and then the chamber will get up to 60 with the
+Panda Breath. And I'll just leave that in there overnight. And that's how I dry PTG and
+AB. I even dry my ABS in there. Because the thing is, with ABS, the base polymer doesn't
+pull up water very much. But the fibers themselves do. The actual carbon fibers get
+saturated very, very, very quickly. Okay, fair enough. Cool. What orange did I go for?
+It was the Everyone? Everyone PTG CF Anyone going to Merf next week? I would love to go,
+but I'm not big enough of a YouTuber to get sponsored to do long trips across the pond
+because it would be at least two grand for me to do it, I think. Hey, VNC Avanucker.
+Hey, Avanuka. I'm butchering that name. Sorry. Trying not to make fun, I swear. I'm just
+really bad at not making fun of people. This feels sacrilegious. I'm using an M3 heat
+insert tool for an M5 heat insert. I missed the last stream. What's the best way to keep
+info such as LDO kits? Get on Discord. Come to streams. Do cool shit. And have fun. I
+know I'm putting these in two completely separate ways. There's no correct way of doing
+it. They don't see any load. No pulling load, so it's fine. Maybe we can start figuring
+out a way to get you to Remurf next year. Maybe Remurf's the big one that I want to go
+to. You know, the other big one I want to go through is Prague Maker Fair. I really,
+really want to do Prague Maker Fair. And I might actually be able to, since Prussia's
+sponsoring this build, obviously, because of the Prussia colors. Since they're
+sponsoring this build, it's might be that they want me to take it over to Prague and
+show it off at Maker Fair. Oh, you know the big pile of prints that I had on the floor?
+Yeah, that has since doubled since last stream. That's what it takes when you're
+prototyping for stuff. Also, really, really late to the game on this one, but has anyone
+played KCD2? Kingdom Come Deliverance 2 Did I fucked this up? Have I done something
+wrong here? These do pop out, don't they? Yeah, they do. Why are you not catching then?
+Oh, there we go. I had to spin it one more time before it engaged. How am I going to get
+it there? Magic. Magic and Pixie Dust. And fairies and lots of port because no magic can
+be completed without being utterly utterly wankered If you don't have a hammer
+anything's a hammer Except for this piece Let's take that out so I can actually line it
+up and see where the hole is giggity To be honest I would probably make a road trip of
+it I've always wanted to go to Czech Republic anyway because it's a it's a huge climbing
+destination for those who are not nerdy climbers like me So I would probably do a big
+road trip and just include Proud Maker Fair in that and this fits in the back of my car.
+I have actually tested this it does fit in the back of my car Sounds like fun. I'd like
+to do more climbing. Hey, you know, I was a climbing instructor for the last seven
+years. Oh, I was an outdoor instructor, which included climbing. I wasn't specifically a
+climbing instructor. Real climbing instructors get mad if you tell people you're a
+climbing instructor, but you're not a full-time climbing instructor. Climbers are weird,
+man. Climbers are weird now. A question for you guys. Do you prefer this close-up look
+when I'm working over here? Does it make it... Is it any better? Is it any worse? I'm
+going to hope and pray that these inserts are where I left them. Obviously, we're doing
+this assembly in a very backward way because the panel would probably go on first before
+you added all this stuff. It's just that sometimes when you're doing development, you've
+got to do things in the wrong order. No, no, no, no. It's not just when you don't have a
+hammer. It's anytime you need to hit something. Oh, yeah. Come on. But the thing is, I
+always need to hit something. I always need to hit something. Right. Has anyone been
+milling some fun stuff? I know Jose in chat. He's getting his mile ready to take to
+remirth. Oh, the universe has betrayed me. The inserts are not in the same place I left
+them. At least this one isn't a little bit more gotcha. Gucha Merf. Not Remurf. Sorry.
+I've been milling around the house. Well, that's just going to cause a mess. Shamanish,
+do you have a mano yet? Or are you just lurking with us? Because I've seen you on stream
+a few times now. Are you also Shamanish on the Discord? Or are you under a different
+name on Discord? This is another one of the kind of... It's not annoying. It's not
+annoying. It's just weird. Like, people will have different names. Like universes on
+Yeka in real life. But his discord is universe Dirinator is pretty easy because it's got
+Ollie Dia in it. So I know who that is not on Discord yet. Ooh, how did you find us then
+Made a mistake in cam that might have brought my CNC out of tram check stream general?
+Oh god. Alright, we've got to check this out We gotta check this out stream general What
+I wanted versus what I got confused Oh oh yep yep, I see it now Yeah How did you manage
+that How did you manage that also Jason sent me a message I'm just gonna have to check
+this message from Jason. This is LDO Jason by the way Excuse me two seconds Do you know
+how many kits will be available when you open up three sellers we're not ready and
+didn't want some reset to wait too long time after resells the price Okay Never mind
+Never mind Right God, I'm getting distracted Where's Yormangand when you need him? This
+is why we have Yormang Gand on stream because he stops me from getting too distracted I
+didn't watch the simulation. Oh no next time I'm using bore what were you trying to do?
+What operation were you trying to use were you trying to do a drill op with an end mill
+that is possible on a larger CNC probably just not a good idea on Milo though A normal
+bore op is fine but uh drilling with a an end mill is not exactly what you want to be
+doing if you can avoid it right now I've been thinking it's been a while since I've
+followed a project like a like obviously I follow the Voron project kind of vaguely
+nowadays I don't really follow it as much as I used to But I'm looking for a project
+that I can actually constantly follow like I know the annex engineering guys have
+basically stopped existing other than the guys who work on is it the archetype hot ends
+but like the K2 and all their variants are kind of lost to the wind now is there any
+cool projects that people are doing I had to look back into the rack robotic stuff and
+Jesus his most of his team's pretty much left him I just want there to be more projects
+that I can get behind and put my voice behind I know my voice isn't very big in the
+community but I would like to support some other projects Also has anyone been following
+along with the drama for Stonewolf Looking for a CNC for a while and somewhere MM came
+up have been waiting for the V2 and I'm the mech design guy at work so want to add CNCs
+to my skill set. Oh cool. What's your work if you don't mind me asking if you don't have
+to kill me after you tell me type thing I had a friend of mine who always introduced
+himself as the lead engineer for his work. The thing is, he doesn't work for an
+engineering company, nor does he work for any company that works with engineers. He
+works for Tesco's. So technically, he was the lead engineer because there were no other
+engineers. But also, technically, he wasn't an engineer. Oh, squeeze out I've got a load
+of squeeze out that I didn't do properly. Didn't deal with properly There we go. That
+should be fine now. We might hear some squeaks just because it's going to engage with
+the plastic. I don't know. We didn't hear any squeaks. Lovely. Lovely, lovely, lovely,
+jubbly. Alright, he needs to go this way around. Drama. Yes. Drama. Yeah, so
+effectively, and I know this from a few sources. I've known it for a while, but I wanted
+to keep it. I was asked to keep it quiet. The guy behind Stonewolf started a Kickstarter
+for it. And then, so he's got this 3D printer called Stonewolf. It's really, really
+cool. It's basically a billet gantry. So just a completely CNC frame. And it looks
+amazing. The design work that went into it was genuinely, genuinely really good. The
+problem is he placed a bunch of Kickstarter orders from it, put it at a price that was
+completely unbelievable and unreasonable. Like, it was way too cheap for what it was. I
+think it was 1,300 euros or something like that. 1,300 to 1,500, and couldn't pull
+through with it. So he's now only offering refunds on people who have only just placed
+orders. Industrial sensors, just keep it vague. So, like, the design work was actually
+really well done. I'm not disputing that at all. But what he did was he took people's
+money and tried to invest it perhaps, lost it all, and now people aren't getting their
+printers. Which to be fair is the risk that you run when you back a Kickstarter. Like,
+you know that as going in. It still doesn't make it any better, though. Doesn't make it
+feel any less bad. Wait, what? I swear he has to refund them. No, he doesn't have to
+refund them. That's the thing. He only needs to refund the things, the ones that he
+stated that he can refund. So anything that was part of the Kickstarter prior to, I
+think, a month ago or whatever, they've lost their money, and that's part of the deal of
+Kickstarter. Do not invest in anything to do with Kickstarter if you cannot afford to
+burn that money, right? Because there's a 50-50% chance that you are not getting that
+money or that item that you backed at all. That's part of the contract that you sign.
+Kickstarter is like gambling. Yeah. Yep, it is. It is basically. It's not just, it's not
+like gambling. It is gambling. It's high stakes gambling on people's integrity, their
+intelligence, whether or not they can hold up to their side of a bargain. It is 100%
+gambling. The difference is, it's gambling with hardware that you probably won't be able
+to resell even if it was given to you. And it flopped. So you're gambling twice, not
+just once. Especially for things like bamboo printers or anything with a closed source
+where you rely on that company for spare parts and troubleshooting and all that kind of
+stuff. I need smaller panel now. Good job. I have never backed big value things. I've
+never backed anything on Kickstarter. I don't believe in Kickstarter. Especially don't
+believe big companies doing Kickstarter things. Killer Prince lost his money. He put a
+video out today about it. His printer went to someone else. A fair I always thought you
+might not always get a fully working product, but you would get to share a share of the
+hardware if it's never finalized. No, the thing is, a lot of failed Kickstarters
+continue to be companies still. So look at Samurai CNC, right? Do us a favor, everyone.
+Just go over to the Samurai CNC page. Now they were pretty much the closest to an
+affordable commercial CNC system. Right? Proper epoxy granite ways. Sorry, not ways.
+Proper epoxy granite machine bases and structures and ball screws HDR 25 rails and HDR
+30 rails for everything. Proper, proper looking machine. They failed, but they're still
+in operation and they're still making money, but they make money on mostly pre-orders
+now for machines that they don't actually have. They're meant to have some five-axis
+smart turning system coming out sometime in future. It's been about a year since I
+actually looked them up. I need to loosen these bolts off at the back. Nope. Wrong
+screwdriver. Right screwdriver. The worst, worst bit, I think, is that Kickstarter will
+still get its cut. Because Kickstarter gets, I think, a 10% cut on everything that goes
+through them. And for a lot of people, they think that Kickstarter is the only way to
+enable them to be able to do the things that they want to do in terms of if they have a
+company or an idea or something that they want to get off the ground. So you're
+encouraged to sell your product for cheaper and you're getting a cut taken away from
+you. I've liked plenty of things, some want to be Arduino stuff, but most died after
+fulfillment due to lacking support. Had one outright scam where they took my money and
+ran, and the rest are board games. Yeah, fair. This is why I like the D?? D approach to
+Kickstarters. A lot of them are, a lot of D?? D Kickstarters aren't on Kickstarter. They
+run their own separate schemes. But the thing is, because the books have already been
+written and the characters have already been made up and all the spells have already
+been done, a lot of the time, if there's a failure to release or to get to their funding
+goal, they just don't release the physical versions. They don't release the books and or
+the cards or the little minis, but they still release the content because the content is
+ultimately what matters. Do you think Millennium would ever make big things like that?
+I've always thought you might not always know. I've already read that one. Ever make big
+things like that. Are you talking about the samurai machine stuff that I was referring
+to earlier? I don't know. I don't know The thing is to compete we'd need to hit we'd
+need to do a lot more than you expect because the thing is with Milo Milo's a working
+machine, but it's not a machine that works at scale And a lot of time businesses don't
+want a machine that they have to put together themselves right they want a machine that
+arrives at least 90% built preferably 100% built that they can literally just plug in
+and train someone up to use it potentially or if they might already have someone who's
+trained to work with CNCs and from there they just go right with Milo you get the kit
+have to get everything printed have to put everything together then you can start doing
+all the electronics you set everything up the way that you want it and only then can you
+start milling which is fine for hobbyists that's that's a great thing for hobbyists to
+do because it teaches them how to do everything yeah and it teaches them how a machine
+works how their specific machine works and they get to customize it to do what they want
+how they want it and when they want it but it wouldn't work for a company now building a
+company with a Milo so like a small business I know a lot of people who started off with
+Milos and then moved to Tall Max after they fulfilled their first thousand orders There
+was someone the other day who did a load of prototyping for whatever company that they
+were, but they were working in aerospace. So there was literal aerospace parts being
+made on Milo's But as you said never gamble with money you can't afford Yeah, it's all a
+gamble life is a gamble Life is a highway sorry nope not going there not going we're not
+doing karaoke tonight I've not drunk enough yet And obviously with how good my voice is
+and how beautiful that rendition of I don't even know what the name of that song is I
+would get copyright strike because they thought they would have thought I was the actual
+artist You guys can still see my monitor That's not good oh I can't wait to the panels
+I've been looking forward to most because I can't test the filter system until the
+panels are on I've got my smoke machine at the ready once I get the panels on I'm gonna
+fish some wires through so that I can power all the fans I'm gonna fill the entire
+chamber with smoke and I'm gonna have some fun with that and the best part about the
+smoke machine is I can take it to Red Rat Festivals get the RGB pumping in here and set
+up a dance routine for Milo And then all the smoke will be lit up by the RGB It'll be
+perfect. It'll be great be lovely I live for doing stupid shit like that Lol yes lol
+Don't you lull me boy First time printing polycarbonate and it genuinely looks better
+than any print I've done so far it is Prouchment polycarbonate and it is one of their
+machines so they've tuned their profiles really well for them But god damn they look
+good How much Engi how you doing bud Then I need a mini me bobblehead. That would be so
+sick. You know how like Joel and CNC Kitchen have like mini versions of themselves? I
+wish I knew enough Blender to be able to make mini versions of myself Just some just a
+bald mini or mostly bald mini with a ginger beard would do The older I get the more
+ginger my top is coming as well It's scaring me I'm starting to become what I hated most
+Don't lie know why I said like a vampire nice I've had way too much sugar today Gotcha
+gotcha gotcha I we really need more 3D printing in the UK right we have E3D and that's
+it That's pretty much it we got one two 3D 3D printing But for various personal reasons
+I'm not their biggest fans We've got some independents like printy please and things
+like that, but we don't have we've got E3D as well But like considering this country
+literally birthed rep rap We have next to no scale in terms of 3D printing Like if you
+go to Smurf Smurf is great. It's the biggest one we it's the biggest 3D printing show we
+have and I love going there every year but compared to every single other show that you
+see in the US remurf East Coast RepRAP Furniture No Earth is now 3D printopia is it I
+always forget which way around it goes then there's Merf There's all there's all of
+those Rocky Mountain Rep Festival as well and they're huge like they're in barns they're
+massive And then you come to the UK and we've got like one university hall The Americans
+always get the fun bits and all they have to do is sacrifice their health and well-being
+to live in America for it I'd do that any day Just this corner one left We have Additive
+X2 I want a Phoenix. I want a Phoenix. I want a Phoenix just to put a Milo in it What is
+additive X Additive X is a new concept to me is it a is it a show The 3D printing
+company I don't I'm gonna look this up Who is additive X Okay, so They're a bamboo
+reseller. Polymaker, Mark Forge, Form Labs. So it looks to me from first glance that
+they're more of a industrial 3D printing. So yeah, Form Labs, Mark Forge, those are
+industrial. Linkster are Polymakers and Polymakers Polymaker. Ooh, they sell the Euphemy
+Make stuff. God, I want one of these things so badly. I want one of these things so
+badly. But I no way I'd be able to do it. 3D training, 3D printing services. Oh, it's
+one of these. It's not an automated quoting system. That's a shame. Not that I need the
+needed or anything. Yeah. So they're more industrial. Which is cool. Nothing wrong with
+that. See, I have heard the Euphrate Make printers are not good. Really? I've heard
+nothing but good things about them in terms of reviews I've seen online. Who's making
+that Mamaki clone? Like the full color resin 3D printer. I think clone is a bit of a
+harsh word in that case. It's their own thing, but it's based on what the Mamaki can do.
+Oh, what's happened here? I need to lift. Let me loosen these up and lift this part
+panel a bit. Nope. What's the longest flute length cutter you use? I am cutting 25.4mm
+stock and probably using the wrong mills, but making it work. It depends on the diameter
+and the flute count. So higher flute tooling has more core material to it. Yeah, because
+if you think about it, wherever that cut is, the flute on a single flute has to take out
+the same material throughout the entirety of the end mill as a three flute does, but all
+that material's left on the outside to form the cutting edge. Whereas a three flute, the
+same volume of material is removed to create the flutes, but all the removal's done on
+the outside, and there's a solid core in the middle. So like on a single flute tool, I
+tend I try not to go over 40 millimeters on a three flute tool. I will maybe not
+happily. I won't say happily, but I've gone all the way up to 60mm tooling. There we go.
+That's better. I mean, I just had a couple of friends with bad experiences, but that
+doesn't mean a lot, really. No, it means something, right? I prefer it when things get
+spread word of mouth rather than over like video. If they had a bad experience with them
+and you trust those people, trust them. It's better than everyone online blindly
+following whatever company of the week is sponsoring them. Oh, I've just remembered
+something. I forgot to put weather stripping on any of these. Alright, I'm not changing
+it now. It's too late for it now. I'll do that off-stream. I'll put weather stripping on
+the top panel and on this side panel because we're gonna enclose the entire thing and do
+a smoke test Alright, those of you in chat who play video games on the regular not just
+once every like month or so not month not like once a year or whatever all right make
+yourselves known and tell me what you're playing right now. I am playing Kingdom Come
+Deliverance 2 good game horrible horse riding mechanics like absolute worst of the bunch
+horse riding mechanics I was playing I hopped back into Art Raiders for the first time a
+while in a while the other day I'm struggling to understand why I liked it so much
+Warframe and Warzone Yeah, I could never get into Warzone I got into Apex Legends I like
+the faster pace of it Warzone is just weird now like it's just so commercialized waiting
+for GTA 6 you'll be waiting for a long time then I really wanted to go with the brush
+dibond ACM and Dibond are the same thing for those of you who don't know to stop getting
+fingerprint marks everywhere but it was so expensive for the two biggest panels it was
+30 quid each and then if you wanted them in the brushed version it was nearly 60 quid
+each so as much as I like not having fingerprints on everything I like not being poor
+more let's start in the corners shall we oh I'm really jealous of Phil at the moment
+he's at some race meetup some Audi meetup or whatever Hey, they've promised October. Oh,
+Graveyard Keeper is such a good game. It's such a good game Where are you buying the
+panels from I buy them from a place called Cut My Plastic in the UK Tom Tom Lawson who
+is one of the long-term supporters of the project said hull plastics was a good place to
+get some but I tried emailing them and they never got back to me and I emailed them like
+twice So Cut My Plastic was pretty much the only sellers I could get a reasonable time
+frame on and a reasonable price with it's still bloody expensive Never ever ever try and
+get MDF or plywood cut from them because they will rip you off just go to BNQ But for
+plastic and dive on they're fine would you use acrylic acrylic wasn't much cheaper so
+probably not problem with acrylic is it shatters so I have my old enclosure is made of
+acrylic and it's nothing there's nothing technically wrong with it but there is there is
+an argument to be made that it's not as safe as using ACM or polycarbonate mostly
+because it just shatters but by the time it's gone through three mil acrylic like an end
+mill of the size that you would probably be using on Milo it's lost 90% of its kinetic
+energy so whilst I wouldn't recommend using it I don't think it's the worst thing in the
+world to use it whales way too hard in Wolframe a long time ago and gave up on it as it
+structured my life around it god damn Yeah, that's rough, man. Sorry to hear that I was
+like that with arc survival of old for one stage and then I can't even get back into
+that game now. I try every year. I go, you know what? I'm gonna play awesome arc. I'm
+gonna download it. I'm gonna get my dinos together. I'm gonna have some fun playing like
+a single player world. And then I get like an hour in and go, you know what? I'm bored.
+Let's play with some CNCs instead As I've got older, I have found it harder and harder
+to get into video games again Ooh, that's true. I've started playing in Shrouded again
+as well It's another survival game I really like I really enjoy it What's the rough
+sizes for Casita panels interested to see what acrylic costs 670 by 670 670 by 670 700
+710 by 670 710 by 670 This is 550 by 650 by 670 and then I can't remember what the front
+panel is but it's a similar size if a bit smaller than the rear panel I like green hell
+Damascus you're a sadist What about mini golf They've promised October yeah they also
+promised that it would be out earlier this year You know my expectation for GTA is that
+it's just gonna be mid It'll be good, but it will never ever outclass GTA 5 now and
+Rockstar I will eat my own hair if this is the case But I think Rockstar will not make
+the same cash cow that they did with GTA 5 out of GTA 6 which again it's not necessarily
+a bad thing GTA Online was getting a bit much they'll do what they did with Red Dead
+Redemption 2 where they'll see what it's like they'll put some feelers out and then
+they'll just completely abandon the online My bot has stopped working why is my bots it
+just hasn't shown up in the last few streams which is really annoying Oh Winrose is one
+I'm looking forward to get into holding off for a discount or at least that's what I'm
+telling myself isn't it early access right now isn't it already pretty cheap It's not a
+full$60 game is it or$70 if you're if you're Ubisoft nowadays Surely not oh my god this
+the panels have made this thing so much heavier I was not expecting the heft from just
+adding the panels That's good. That's good heft more heft is better if you're using a
+CNC machine I got a 458 by 305 by 76 granite surface break pretty cheap yesterday brand
+new And what's pretty cheap? What are we talking pretty cheap Because that's a that's
+fairly hefty that's that's basically the work area of Atlas Except slightly smaller in
+Z. Well, actually, less than half the width in Z, but you know No need to be pedantic
+130 US plus 40 shipping That's really good GTA 5 only became a massive cash cow because
+of COVID sparking a second wave of interest in it. Yeah, true. I mean it was it was
+popular before then I remember seeing headlines that it was the most popular game ever
+in terms of money to the most popular game ever before COVID was a thing and then it had
+a second wave on top of that Windrose was 30 euros last time I checked it. Yeah, that's
+early access. That's an early access price. That's a price I would be willing to pay
+considering the success of it I would be willing to pay that money so far. Oh, I said I
+was gonna put the I said I was gonna put the the seal on this one and then completely
+forgot to do it I'm gonna have fun off stream Says grade A has a surface map that says
+1.6 nanometers God Or is that microns? I always forget that's microns isn't it Yeah,
+that's microns I was gonna say nanometers is quite quite flat I just checked you can buy
+acrylic panels roughly those sizes for about £15 each where are you buying them from
+because you know what I would love to know so that I can start affording to build more
+enclosures and things Although yeah I still don't want to buy acrylic if I can avoid it
+Like if a kit came with acrylic panels I wouldn't say no to it But if I'm buying them
+myself I'm gonna be buying I'm gonna be buying polycarp or dibond the top you can get
+away with being acrylic because it's very very unlikely that it will ever hit the top
+panel without it already having bounced off another panel at which point it will have
+lost all its kinetic energy as a ricochet looking good looking good laser cutting
+suppliers if you ever need five millimeter panels I would give them to you five
+millimeters is too thick but thank you for the offer I shouldn't be rude thank you for
+the offer also I thought you couldn't cut acrylic on a laser because it off gases or am
+I thinking of something else I know you can't do PVC because it off gases some kind of
+poisonous substance yep but knowing myself I'll spend way too much time in it so I'm
+holding off until I sort out some other projects Milo being one a smart home system ran
+over can bus is another that'd be cool I have a ton of five millimeter panels I have no
+clue what to do with which is why I am trying to give it away fair Ollie whereabouts do
+you live you don't give me don't give me the exact address because this is the internet
+and I don't want someone to get your address but you living up north down south how easy
+is it for you to is it gonna be for you to get this Centauri carbon if you still want it
+Acrylic is fine, it's not that harmful at all. Yeah, fair. Yeah, PVC produces chlorine
+glass gas gas. God, where did that come from? That's good to know, at least. Yeah, oh, I
+never mentioned this. I tried and tried and tried. This is why it's been quite a while
+since last stream. I was testing and testing and testing alternatives, like printed
+alternatives for these hinges. I couldn't find any that were decent. I tried the clicky
+clack door stuff and they buckled after opening it maybe 20 times. And then I couldn't
+find anything that felt that matched the aesthetic either if I wanted to go thicker with
+them. So eventually I just caved and we've got another panel arriving. I think it's on
+the 8th this month, and that is going to be just the laser cut version. The only
+difference is it's got laser cut sections out for where the hinges are going to go. You
+know, the metal hinges. I really, really try my best to not require laser cutting any
+parts because it increases the bomb cost, but I just couldn't find an alternative that I
+was happy with the top panel done. Right. I'm just going to put this in as a mock-up.
+Here, Raj Island Southeast Cool Right. I'm going to just give this a heft test. Oh my
+god, it's so much heavier than it was before. So heavy. What's the view like on the
+inside? It's very dark in there for you right now, isn't it? I will try my best to find
+a solution for that. I've got in my other enclosure, I do have some LEDs, some RGB LEDs
+that I will be putting transferring into this one. So you will still be able to see once
+everything's on. Right, before I close up this side panel, I'm gonna put all the fan,
+all the things I need to power the fan cables through the grommet and hook them up to
+power supply. Alright, so power supply is gonna need to go on top. I know that do I want
+the intake fan as well, or am I just going to do a test with the extraction fan Right?
+Well, I'll figure something out. I'll figure something out so that'll be for the
+extraction fan. I won't need this box for now. What are you going to do with your old
+casa? Probably break it down, stick the parts in the loft. Either that or I'm going to
+just need it for testing when I put the other when I update proper Casa to have all the
+Cassita stuff with it. I'll just use that as a testing grid just to test measurements
+and stuff like that. So there are three fans that I need to power. I need to power. The
+electronics fan. I need to power the filter fan. And I also need to power the intake
+fan. So this is not going to look very good. I'm going to have to daisy chain off of
+these. So these ones will go in first. Sweet. They can drop down there. No. No, that's
+not it. That won't work. So that fan is over there. That fan is over there. That fan is
+over there. Ah, this is a bit of a pain, actually. Now that I look at it a bit longer.
+Hmm. Loft, that's the hidden storage. Do you think I will ever go back to having a Milo?
+I'm building a Milo next week. If the Milo kit arrives. Oh, sorry, Milo, not Miley. Yes.
+No, I don't think I'll go back to Milo. Just because I'm going to have Atlas, and that's
+what I need. The only real advantage to Milo is it's easier to put accessories on, like
+a fourth axis or a tool changer without work without going into your work table volume,
+work volume. It takes up more space to do so. Like a lot more space to do so, which is
+not something I have a lot of at the minute. My girlfriend's meant to be moving in with
+me sometime in this last half of the year or slightly earlier on to next year. It just
+depends how quick she can get stuff done. So I need to keep everything contained in here
+as much as I would love to have a Milo in my living room. That ain't happening. And I'm
+going to be using this machine exclusively for my fourth access parts. And the fourth
+axis doesn't take up a lot of space and you can't put that many big things in it. So I
+don't need the space a Milo provides. And Atlas is going to do all my big plate stuff
+anyway, so it doesn't really make too much sense for me to have a Milo, but yeah.
+Obviously, I'll build them to test them to test them mechanically. Yeah, that's why I
+don't think I want a Miley, but if it's it's nice because it takes up a lot less space.
+Yeah, you know what? That's not bad. Alright, you you people can make their own opinions
+up on things and decide what they want for themselves Okay, I think I've made a decision
+on how I'm gonna run these gonna go into there all right I'll connect these into each
+other Roger Roger Roger that's working so far so good Right that bit is gonna go down at
+the bottom I don't have any crocodile clips for it, but I will make it work so that go
+there that can go there those can be fed through that I know you guys can't see what I'm
+doing and that must be really really frustrating and then these I can do this with
+unscrew these from the terminal No, that's not gonna reach is it Damn it. Oh no. Oh no.
+It will reach. It will reach. I should have had faith in myself If anyone's wondering,
+I'm just trying to figure out how I'm going to wire everything up so it's actually
+running when I've got the panel on because obviously everything else is still I've got
+nothing else plugged in Yeah I've caught up with everyone's stuffs God damn it Has
+anyone seen the new God of War game the Mum of War with the giantness cube called Frank
+What the fuck is that game is either gonna go down horribly or it's gonna be one of the
+best games of the generation Right so that's the intake fan and that fan sorted now I
+just need to sort out a solution for the extraction fan Which is gonna be not as easy as
+I was expecting. Oh, I can do it this way I've got some Wagos that I can just slide in
+here right and I've got some testing I know these technically aren't meant for this, but
+I've got some probe testing needles There we go There we go This is so sketchy Sorry
+Alexa you're getting a lobotomy Nothing contacting anything Everything's on That's
+pulling in amazing How difficult uh seen enough to stay clear of it. Okay, cool How
+difficult is it to swap between a Milo and Miley build since the kit supports both I was
+wondering whether it would be make sense to start with Miley and move to Milo to start
+to expand the mod's not hard it's time consuming Because you basically the Z-axis will
+stay the same and you can just disconnect the Z axis and put it back on when you need it
+but there are some steps that you need to take when you're building the Y-axis that
+change depending on what version of the build that you're building Like 90% of it stays
+the same in terms of the Y axis but then you also have to make sure you rebuild the
+entirety of the X axis because that's the thing that you did nothing the X-axis on Milo
+versus Miley share absolutely nothing other than hardware There's no 3D printed parts
+that are the same there are no build steps that are the same other than the supports
+like the bed supports but you don't technically need those on either anymore because
+they're not a structural part they're just an aesthetic part my voice is killing me I've
+been doing too much yapping You're meant to stop me from yapping Quick if you would like
+to save my voice and stop me from yapping I would kindly ask that you heal me by liking
+the video Also, can you guys hear that? Can you hear the enclosure if I'm over here
+That's the sound of all the fans going brrright I say the word right too much I've got
+to teach myself not to every time I say the word right when I'm not meant to say it I
+must sacrifice one end mill to the carbide gods for my sins I think that is a fair
+exchange Either that or my firstborn child but I'm never having kids so I think
+firstborn child is a good deal There's a very faint whirring noise Selling carbide is
+not even a bad idea at the moment. Yeah, but I don't want any carbide to sell Although
+Dave at the MS does sell carbide end mills and he hasn't but his prices up Oops, I
+shouldn't have told you that I need these I need three more three more middle sections
+and four corner sections I'm back The only thing I will ask is that people please don't
+buy up all the threading end mills I need thread mills. I don't have any I have every
+other bit every other bit of carbide that I need I just don't have my threadmills yet So
+if you do go to DMS leave some for the rest of us Two wrongs don't make a right but two
+rights do make does make an airplane nice True very very very true And two wongs make a
+Chinese takeaway Hey universe is back You need a guest from every stream Oh I said right
+god damn it I must hold to the traditions and sacrifice some some carbide but I think it
+works kind of like warrior culture where it wants to be sacrificed to the gods you know
+to in battle so I will put it to battle against Sony 75 at some stage and that's how it
+will die that's how the sacrifice will be performed I think that's a fair deal why did I
+choose to do this one in acrylic sorry not acrylic polycarbonate now everyone gets to
+see my horrible wiring job let's take the arm mount off because I'm gonna need to move
+that anyway David, if you are trying to bait me into saying the R I'm not gonna say the
+R word because that sounds wrong if you're trying to bait me into saying the RIGHT word,
+it's not gonna happen You're trying to bait me by putting it in a comment because you
+know I read all the comments out loud I see what you did there, but I'm not falling for
+it I've always been here. I'm just driving why are you watching a stream whilst driving,
+dude Better yet, why are you in chat whilst driving Put your phone down dude I can get
+if you're just listening to stream But if you're actively at the wheel please don't
+Don't answer chat There's so much static on it it's already on it there's so much static
+on this panel it's already pulled all of Brisket's hair towards it I'm already gonna
+have to give this panel a wash I'm listening my brother is texting fear is there anyone
+else in the UK that's gonna build an Atlas most a lot of the team say that they're going
+to So you can revel in the fact that I'm not only keeping you guys waiting I'm also
+keeping the rest of the team waiting by my procrastination of putting that machine
+together Also universe I gotta say sorry to you I wasn't trying to make you a butt of my
+frustration the other day It's just I get asked we get asked constantly about when this
+is gonna be ready when that's gonna be ready and like a lot of us don't even have time
+between people asking to actually do any work on it because we have our own lives so
+constantly being asked about it gets really really frustrating I know that all people
+want is they just want to know what's going on But goddamn it gets so frustrating after
+the 17th person in a week has asked you the same question or if you haven't done any
+work because you know you've got life to live and work to go your own job to go to and
+all that stuff and someone's asked you how much longer it's gonna take to get something
+done and you haven't even done anything since the last time you updated people on it
+Also do us a favor for all of you who aren't there already go to the Rack Robotics
+channel on YouTube and please subscribe to them The guy who runs it works really really
+really fucking hard and EDM is not an easy thing to get into and he's basically
+performed the impossible task of making it both open source and available and easy and
+cheap enough for everyone to be able to use It might not be there yet but he is
+performing miracles that man I figure upgrading a Milo to a V1.6 before investing in an
+Atlas is the correct order anyway You could do it either way There's nothing wrong with
+holding a V1.5. If you don't want to do the upgrade to V1.6, there's no real performance
+benefit from it. It's just a quality of life upgrade. So if you've got your Milo, your
+V1.5 working fine, keep it as a V1.5. And then, if you're thinking of getting a V2
+anyway, you're going to get all the quality of life upgrades on the V2, as well as the
+ones that are missing on V1.6. And then you can actually make an informed decision on
+whether or not you need those features on your 1.5 Euro dance music. It's just Stream
+Beats. It's just like royalty-free music by Calvin. It's not Calvin Harris. Calvin
+something. The one time I decided to go to use music that wasn't from the Stream Beats
+archive was the one time I got 10 copyright infringements in a single video. And that
+was earlier. That was a stream that we did for Casita. That was only like a month or two
+back. I would have Yorman Gand on stream with me today or Phil, but Phil's Phil's
+enjoying himself a bit too much right now. So, and he needs the holiday. So, and
+Yormangand isn't in stream with us today. So, I'm assuming he's not available. Also,
+Yormangan messaged me after stream the other day after he came on. And I was like, oh,
+I'm really sorry if I annoyed you or pissed you off. Like, no, I enjoyed having him
+there. It was fun. Jeez, did you get in trouble for it? No, because generally nowadays,
+copyright strikes aren't as big of a deal as they used to be, especially for streams.
+Basically, what happens is any money that you do make on the stream just or would make
+on the stream goes back to that creator or whoever owns the IP. It's actually quite hard
+to get a copyright strike. I would be down to do a group order with people for Atlas
+stuff. I'm planning on producing a bunch of Atlas stuff at some stage. At least for the
+UK market. Doing all the print kits for it and all the TNC parts for it. Or at least
+getting them together and then selling them back as like a group order, like you said,
+like you suggested. Where can I find the Atlas details? Just Discord mostly. There's
+nothing that we haven't said, talked about on Discord that I have talked about anywhere
+else. There's Nero's video. If someone wants to just post that link in Stream General
+for me, that would be excellent. We talked about it a bit there. If you have questions
+about it, feel free to ask. As long as I know what it is and I've made a decision or I'm
+in the process of making a decision about it, I can answer it to you. I can even answer
+if I haven't made the decision yet at all. It's just in that case, things might change.
+I might say something and it might change down the road. Nothing set in stone with Atlas
+right now. See, I thought having removed the majority of the M3 bolts out of Casa would
+mean that I won't wouldn't have to be worrying about all this, but apparently I'm
+running out of M3 T-Nuts. Who knew? Oh, that's a nice idea. I was thinking about a group
+order on like extrusions and rails, etc. Might be able to do a group order through LBO
+The thing is with rails and stuff like that, unless you're going for quantities of like
+hundreds, the rails really don't get that much cheaper. The only thing you're going to
+save money on there is shipping. Ah, that's why that thread is fucked. That's like the
+third one as this set of T-Nuts where the thread has been so mangled I haven't been able
+to use it Right all I have left is corners now Jake do you know when LDO is sending you
+a V2 I know you want to build it before launch I don't think I'll get it before launch I
+don't think I'll get it built before launch but I know it's coming sometime in the next
+week I got a FedEx update from Tina from LDO yesterday is it yesterday no it was this
+morning it was this morning saying that it's going to be arriving in a few days so I'll
+get it started and I've got all the I've got most of the parts printed out already I'll
+try my best to get it done before launch I don't think I'm getting a UEB if I am I'm not
+gonna be building the UEB I'll double check it to make sure that it's all correct and
+stuff but I've got all the electronics from the last UEB that they sent me and that was
+fine God didn't think I'd be running out of M3 bolts first it's a good thing I've got a
+bunch how many I have three M3T nuts left all right I'm gonna have to restock LDO is a
+good shell extrusions you definitely would save a fair bit of money because they they do
+really good deals if you order a decent amount but what is a decent amount you gotta
+remember when I was part of DMS we sold I think we sold 15 Milos in this country all
+right and it was the same with Vorons and stuff like that the UK is not a very big
+proponent for DIY 3D printing or even or DIY CNC so you would need to be ordering I'd
+say at least 50 before you got a decent deal. At least 50 sets. Whether you can get 50
+sets of orders done in the UK is not a question you can answer easily. Most of the kits
+sold, I'm talking 90% of the kits that were sold. Well, maybe not 90, but 80 to 90% of
+the kits that were sold for V1.5 were sold in the US. Because that's where the biggest
+grouping of people is who are into this kind of thing. Right. That's that then. Only 15.
+Yeah, only 15. When I've ordered extrusions from China before, I was ordering for maybe
+three work bee machines and it was really, really cheap. Yeah, but I don't think the
+quantity would have made a difference there at that point. Must have knocked the That's
+just Chinese extrusions for you. I don't think that really had anything to do with the
+fact that it was whatever Do I have a longer extension for my power supply Is the
+current print list okay to follow for V2 or do you think LDO may change a few things
+like they did with V1.5 the only thing actually the only thing that's not in the print
+list but it there is an STL for it is the shroud for the LDO version of the plates yeah
+so the only thing that you'll need to print that's extra for LDO is the shroud the LDO
+marked shroud for the spindle mount you don't actually have to print that at all it's
+not a necessary component it's just an aesthetic component print it in whatever settings
+you would like it's not structural you can skip printing any of the AB blocks any of the
+anti-backlash blocks because LDO have metal anti-backlash blocks that they're sending I
+have asked them for the CAD for those because they updated a couple small things for it
+but they still haven't sent it to me yet but other than that the print list is up to
+date I'm gonna be right back I just need to grab a cable from the living room hey buddy
+everyone say hi come on hook yes everyone says hi hello hello mister Look at the camera
+look up there look at there look up there and they would have do free shipping there's
+no such thing as free shipping shipping if someone's selling you free shipping all
+they're doing is adding that price to your order and they do that for everyone there is
+no such thing as free shipping the price is baked in the price for shipping is baked
+into the price of whatever it is you're ordering it's just that that is how cheap
+Chinese products are in put the fan on because it's hot in here struggle at the dog
+because he's cute plug that back in with the longer leads so that I can spin Enclosure
+around I don't think I'm on the stream music anymore and I think I'm gonna get copyright
+struck again. Yep, I am damn I'm gonna get this video demonetized But basically it would
+have been 150 USD to ship it and when I said okay I'll take three they said we can do it
+for the same price times three with free shipping. Oh cool So Ollie if you've got a work
+bee why do you have a Milo or why do you have a Milo or are you just interested in the
+project Cool cool cool cool cool cool cool cool cool cool cool Now how do I show you
+this bit? I'm gonna put the the front panel back in and then I'm gonna get my smoke
+machine out and I'm gonna feed smoke into here so it fills the chamber up There we go
+all the fans are on right Yep, that's pulling air through Is the filter still pulling
+the filter is still pushing air out the back. That's good The more you buy you the more
+you save The work be is only for cutting foam. Oh yeah, yeah, I remember now you have
+two Milos technically and I don't even have one Okey dokes smoke machine time Do I I do
+have smoke liquid in here still I do have smoke liquid perfect Amazing Where's that cord
+I just put that all right? I'll need that for that This is gonna take a couple minutes
+to warm up So whilst that's warming up it is on it's off auto spray I'm just gonna take
+a couple of seconds just to get everything cleaned up and put away That's the M3T nuts
+in there those can go in there those can go in there Those can go there Gotcha gotcha
+gotcha Roger Roger Roger Well in a couple of weeks the other Milo is going my it's my
+V1.4 oh you've been you've been part of it since V1.4 Jesus I didn't realize you've been
+around for so long That was three years ago No, that was four years ago Yeah, I've been
+around for a while just never been part of the community god damn dude That's rough You
+wanted to go out bud come on It's too hot in here for you There you go you go annoy
+Robbie Well technically I didn't even realize there was a discord Then, how did you
+figure it out eventually? Like, how did you realize? I'm always interested in the people
+who come to us but aren't part of the Discord or anything. Like, Druid is well and truly
+not part of the, he's not even part of the Discord now, but somehow he's managed to find
+the stream, which is, I think, quite amazing. Also, if people are wondering about my
+little experiment about pushing the stream back an hour, it's worked. There's a lot more
+people, a lot more steady people here than there are normally. So, I think on the
+weekends, maybe not on Sunday, but if I've got a Saturday or a Friday free, I'm going to
+push those streams to be nine o'clock starts just because it gets all the Americans over
+and there's still enough time for Brits to watch in. I actually don't know, I just
+stumbled across it. I think it was after I had been doing some loads of testing of ATC
+stuff, and I was like, I should probably share this somewhere. And I looked on the
+Reddit and then I saw the Discord stuff. But you had a 1.4 before that That's the bit
+that amazes me most. You had a V1.4 before we even did anything with the ATC because the
+ATC stuff's only like a year old at this point, not even a year old. I think that's
+warmed up enough now. Oh my god, right, so the enclosure is now full of smoke. This
+whole room is now full of smoke as well. That's not from Right, so we've got way too
+much positive pressure right now, which means that it's coming out all the seams. I
+haven't sealed any of the seams, so that still makes sense. So that's not the worst news
+in the world. It just means that you need to tune in software, you need to tune down the
+intake fan so it's not over-pressuring the chamber too much. It is clearing quite
+quickly, though, which means the filter's working. Yeah, I had a 1.4 since the first
+release. I was working on an ATC stuff before you guys, maybe might have found you
+through principles or just some random Pinterest. Pinterest. God, Milo's got all the way
+to Pinterest. Now that's surprising. Awesome. And just like that, the entire closure is
+pretty much smoke-free. Hell yeah. Something I design worked. It's amazing. Hell yeah.
+Right. I think that is a good place to call it for the night. Thank you very much to
+everyone who joined stream today. It was a really, really productive stream. I enjoy it
+when we've got loads of people around. If you want to support the project in any way,
+there are some links down below to the Discord if you want to join the community. Some
+donation links. And there's also a link to Polymatrix where you can buy all of this nice
+little hoodies and t-shirts and things, and the money goes straight to the project.
+Other than that, I hope you guys have a great day. Please like and share the video if
+you can. And I'll see you next time. Bye now.

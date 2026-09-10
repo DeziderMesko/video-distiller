@@ -1,0 +1,3431 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=USNZYueM1Is",
+  "video_id": "USNZYueM1Is",
+  "title": "Tiny Box Miley Enclosure Ep7 #millenniummachines #opensource #cnc",
+  "backend": "parakeet-onnx",
+  "model": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8]",
+  "transcribed_at": "2026-09-10T00:20:23+00:00",
+  "text": "Right, oh Hello, folks. How are we doing? I can see Jose in chat. I can see an Ollie in chat. I hope everyone is having a great day. I left the stream a little bit later today because I want to see whether or not it affects the people watching. Universe is also here. How are we doing, guys? How are we doing? Yeah, I want to see who actually shows up to stream today. Because in theory, this should be more conducive to the crowd who normally watches my videos than they're in the US. And it's not too late for the folks in the UK, especially with it being a Friday and all that. Good, how about you? I'm not too bad. I'm not too bad. I had a nice day at work. I was on the morning shift, so I went in at came in at 7 a.m. Obviously. And I love that because I don't have to deal with customers for two hours. I just get to get on with whatever I want to do. It's great. I love it. Right, so plans for today. I'm going to stop pacing. I don't know why I've been pacing all day. It's late for you, though. It's not that late. It's nine o'clock. Like, I'm up until like 1am most nights. Plans for today, before I get more distracted, is we're going to get the panels on. There's a couple things that I have done kind of off-screen. Like I said, I was going to do the start on the electronics, which I have done. So let's turn this whole thing around so that you guys can actually see what I'm doing. So I've put all the Din Rail mounted stuff in. Silas in. I'm debating where to put the power supply, but I need to grab the VFD from my other enclosure, from my other Casa in the container just to see where everything can go. Wired up the mains, check that all the power supplies worked, which is one thing. Mounted my monitor arm. So eventually that's where that monitor is actually going to end up going. It's going to be on the side of this. Oh, Shamelist Druid's here. Damascus is here. How are we doing, folks? Evening, lads. It's a Friday, also. Yes, it is a Friday. It is a Friday. Also, big news that I was not expecting to hear. Nero, who is mostly known as Connect Creator nowadays, is looking for a job and he's looking to not be a full-time YouTuber anymore. And I understand why. There's no malice or anything behind it. He's not leaving because of the state of the 3D printing community. It's just some personal stuff has changed. I just thought he was... I've always seen him as kind of the full-time 3D printing YouTuber guy who streams. But yeah, he just said on stream the other day that he was looking for a job. Not the other day. It was this morning. This morning for me. Damn, it must have been really, really early in the morning because he's in Canada for him. Now that I think of it. Hey, Raj, how are we doing? How are we doing? Raj, would you like my Trident? As in, would you like it, like it, and have it? I would rather go to a good home than me just not use it because I am planning to downsize in here. I want to get rid of the Centauri Carbon because I don't like the Prooster's great, but I don't like having it here because, especially on the main camera, well, what is normally the main camera? It takes up a significant portion of the screen, and you also can't see the enclosure. That was half the reason I put a polycarbonate panel on this side is so that you could see into the machine and now you can't see into the machine. So I'm getting rid of the Centauri Carbon because it's not it still prints. It's a fine machine. It's just got two spots, two dead spots on it where I can't get enough squish on it to make production parts. So I don't trust it as much and therefore I've left it unused for a while. The two P1Ss are here. The A1 Mini is kind of my TPU printer. The P1 sorry the not P1S. The Prush Core 1 has really been my workhorse printer. It's printing some PC CF right now from Prushment And I just want to move that to where the Centauri Carbon is to free up a little bit of space. Also, why am I so zoomed in? That's better. I will message you on Discord if that's okay. Yeah, go ahead. Absolutely fine. I'm going to take this arm off because it's just going to get in the way whilst we're building. But yeah, what's everyone else been up to? What projects have people been doing? You'd love it. Cool. It's in a state. Like, don't please understand that it is in a complete state. It's been in a state of me trying to get it up to scratch, finally getting there, and then it breaking soon afterwards for the last two years. So, if you can work your magic on it and get it working, that's fine with me. I'm just happy it's going to someone who I know is going to be able to take care of it and probably do a better job than I did. But I just don't have time to be messing around with printers nowadays. I would buy the carbon off you if you're interested. Yeah, well, it's the CC1. It's not the CC2. But if you're happy with it, go ahead. I had to replace the hot end fan with one of the Creality K2 fans because it was dead on arrival. It prints fine. It does surprisingly well with flexibles. I'll give you that much. But yeah. Right. First thing I need to do is I need to actually invert the whole thing because I need to put the bottom panel on. And that's actually going to take a little bit of grunt work because of the tolerances I've given it. There's a groove that goes all the way around the printed parts. And that's what keeps the bottom panel on. So I need to take the whole of this side off. I'm going to try, see if I can slide it in. I also need to replace all the feet anyway because I updated them. So top feet off first. I forgot that these are the torque screws, so they need a bigger screwdriver. You always need a bigger screw, don't you? He would like to build it for me. I appreciate that, mate. And I there's a bit of me that goes, I want that printer still. But there's another part of me that goes, I don't have the space for it. And I would never use it. I don't use the CC. I don't use the CC1 because of it. I'm going to have my Micron. Once I've got Atlas up and running, I'm going to have my Micron, and I'm going to be able to build that. And that's going to be my fun printer. And it won't take up a lot of space. And I can stick it in the kitchen or whatever. Probably not the kitchen, actually. Now that I think of it. But yeah. But by all means, if you want to get it ready and going and then donate it to a university or something like that, because you don't want it, feel free to. I just know I'm not in the state to be able to do that. Microns are great. I just got a second one. Yeah, I love the Micron. I do want to do a custom milled bed and a custom built Y gantry that's just a solid piece of aluminium. Yeah, it is the Y gantry. The flying gantry part I need this screwdriver Also Brisket's just having dinner so if you hear ravenous chomping it's him Jake would you say it's worth worth replacing the CC1 bed I don't know it the machine was really really good when I got it don't get me wrong I was surprised by how nice it was it wasn't as nice as the P1S was when I got that but it was way cheaper at the time at least so I think if I went if I if I wanted to I would probably go through with the whole canvas head rebuild because there's a canvas version the multi-material unit AMS thing for the CC1 now I would go ahead with the head rebuild and see if that made a difference because the new canvas is like 30 quid It's not that expensive and I'd see if that would see if that fixed the error first. Hi Jake, do you know what UK vendors will be selling V2 kits? DMS most likely and that's pretty much it There's not really many vendors to choose from 123D might the thing is with 123D is from what they were talking to in Smurf to me about in Smurf they got kits far after the release pretty late after the release so they basically got all the kits that were left in the factory in China from LDO and at that point in time V2 was already a thing so they weren't able to sell them and the want the need for machines in the UK is really low even even at even during the golden age even during the Voron Golden Age Kits in the UK were not a very big thing they're not a big part of the market it's mostly the US I heard they compare decently to the P1S yeah I like like I said I like it I don't like I actually prefer the CC1 to the CC2 I don't like how they've laid out the CC2 Hey oh that makes my heart sing knowing that that just slides in Hell yeah that was easier than I was expecting I still need to take these feet off though one crease grant you would be crazy yeah I think so I do want to build the bed as well I know I wouldn't buy them directly from bamboo seeing as how bamboo is right now but I would like to use the bamboo size 180 mil build plates the the ones that are on the A1 mini just because I like the way that they clip in I'd probably buy a third-party one though because I don't really want to give bamboo any more money if I can help it that saying that said I also do need to be realistic and things like filament especially just for testing where half it gets thrown away anyway is probably easier for me to get from bamboo which is kind of annoying but c'est love say la bloody v awesome i need to stick some heat sets in uh you might be able to see all the v2 parts behind me so yes i'm actually going orange as main and black as accent colour for the v2 build so i'm going opposite i will be clearing all this out the way i ran out of um the asa the uh prusa orange asa and i wanted to do two specific parts in uh glass filled so i got some glass filled abs printed them out and the colors on them were so far off they were more more like a whitey orange so i also ordered some glass filled ptg and as much as i hate it it's the closest thing to the prusher orange that i can get in a glass field so on camera it doesn't really matter they show up as the same colour on camera it's but i'll know i'll know that they aren't the same reason i wanted those to be glass fiber specifically is because they see the most tortional load of the bed right you over there so i can see chat perfect i'm gonna swap over to that one why is chat not loading chat's not loading for some reason chat are you there there we go there we go how long are you drawing p in it i like the new dry i got jake how long am i drawing petg uh i don't i have a um what's it called uh What's it called? What's the word? You know, the thing. You know the thing. The thing I have a P1S which has a Panda Breath in it. That's the one. It has a Panda Breath in it. And I use that as like a bulk dryer nowadays. I stick the bed on Depending on what it is. If it's PTG, just straight PTG, then I'll do 80 degrees. I'll stick that on 80 degrees C and then the chamber will get up to 60 with the Panda Breath. And I'll just leave that in there overnight. And that's how I dry PTG and AB. I even dry my ABS in there. Because the thing is, with ABS, the base polymer doesn't pull up water very much. But the fibers themselves do. The actual carbon fibers get saturated very, very, very quickly. Okay, fair enough. Cool. What orange did I go for? It was the Everyone? Everyone PTG CF Anyone going to Merf next week? I would love to go, but I'm not big enough of a YouTuber to get sponsored to do long trips across the pond because it would be at least two grand for me to do it, I think. Hey, VNC Avanucker. Hey, Avanuka. I'm butchering that name. Sorry. Trying not to make fun, I swear. I'm just really bad at not making fun of people. This feels sacrilegious. I'm using an M3 heat insert tool for an M5 heat insert. I missed the last stream. What's the best way to keep info such as LDO kits? Get on Discord. Come to streams. Do cool shit. And have fun. I know I'm putting these in two completely separate ways. There's no correct way of doing it. They don't see any load. No pulling load, so it's fine. Maybe we can start figuring out a way to get you to Remurf next year. Maybe Remurf's the big one that I want to go to. You know, the other big one I want to go through is Prague Maker Fair. I really, really want to do Prague Maker Fair. And I might actually be able to, since Prussia's sponsoring this build, obviously, because of the Prussia colors. Since they're sponsoring this build, it's might be that they want me to take it over to Prague and show it off at Maker Fair. Oh, you know the big pile of prints that I had on the floor? Yeah, that has since doubled since last stream. That's what it takes when you're prototyping for stuff. Also, really, really late to the game on this one, but has anyone played KCD2? Kingdom Come Deliverance 2 Did I fucked this up? Have I done something wrong here? These do pop out, don't they? Yeah, they do. Why are you not catching then? Oh, there we go. I had to spin it one more time before it engaged. How am I going to get it there? Magic. Magic and Pixie Dust. And fairies and lots of port because no magic can be completed without being utterly utterly wankered If you don't have a hammer anything's a hammer Except for this piece Let's take that out so I can actually line it up and see where the hole is giggity To be honest I would probably make a road trip of it I've always wanted to go to Czech Republic anyway because it's a it's a huge climbing destination for those who are not nerdy climbers like me So I would probably do a big road trip and just include Proud Maker Fair in that and this fits in the back of my car. I have actually tested this it does fit in the back of my car Sounds like fun. I'd like to do more climbing. Hey, you know, I was a climbing instructor for the last seven years. Oh, I was an outdoor instructor, which included climbing. I wasn't specifically a climbing instructor. Real climbing instructors get mad if you tell people you're a climbing instructor, but you're not a full-time climbing instructor. Climbers are weird, man. Climbers are weird now. A question for you guys. Do you prefer this close-up look when I'm working over here? Does it make it... Is it any better? Is it any worse? I'm going to hope and pray that these inserts are where I left them. Obviously, we're doing this assembly in a very backward way because the panel would probably go on first before you added all this stuff. It's just that sometimes when you're doing development, you've got to do things in the wrong order. No, no, no, no. It's not just when you don't have a hammer. It's anytime you need to hit something. Oh, yeah. Come on. But the thing is, I always need to hit something. I always need to hit something. Right. Has anyone been milling some fun stuff? I know Jose in chat. He's getting his mile ready to take to remirth. Oh, the universe has betrayed me. The inserts are not in the same place I left them. At least this one isn't a little bit more gotcha. Gucha Merf. Not Remurf. Sorry. I've been milling around the house. Well, that's just going to cause a mess. Shamanish, do you have a mano yet? Or are you just lurking with us? Because I've seen you on stream a few times now. Are you also Shamanish on the Discord? Or are you under a different name on Discord? This is another one of the kind of... It's not annoying. It's not annoying. It's just weird. Like, people will have different names. Like universes on Yeka in real life. But his discord is universe Dirinator is pretty easy because it's got Ollie Dia in it. So I know who that is not on Discord yet. Ooh, how did you find us then Made a mistake in cam that might have brought my CNC out of tram check stream general? Oh god. Alright, we've got to check this out We gotta check this out stream general What I wanted versus what I got confused Oh oh yep yep, I see it now Yeah How did you manage that How did you manage that also Jason sent me a message I'm just gonna have to check this message from Jason. This is LDO Jason by the way Excuse me two seconds Do you know how many kits will be available when you open up three sellers we're not ready and didn't want some reset to wait too long time after resells the price Okay Never mind Never mind Right God, I'm getting distracted Where's Yormangand when you need him? This is why we have Yormang Gand on stream because he stops me from getting too distracted I didn't watch the simulation. Oh no next time I'm using bore what were you trying to do? What operation were you trying to use were you trying to do a drill op with an end mill that is possible on a larger CNC probably just not a good idea on Milo though A normal bore op is fine but uh drilling with a an end mill is not exactly what you want to be doing if you can avoid it right now I've been thinking it's been a while since I've followed a project like a like obviously I follow the Voron project kind of vaguely nowadays I don't really follow it as much as I used to But I'm looking for a project that I can actually constantly follow like I know the annex engineering guys have basically stopped existing other than the guys who work on is it the archetype hot ends but like the K2 and all their variants are kind of lost to the wind now is there any cool projects that people are doing I had to look back into the rack robotic stuff and Jesus his most of his team's pretty much left him I just want there to be more projects that I can get behind and put my voice behind I know my voice isn't very big in the community but I would like to support some other projects Also has anyone been following along with the drama for Stonewolf Looking for a CNC for a while and somewhere MM came up have been waiting for the V2 and I'm the mech design guy at work so want to add CNCs to my skill set. Oh cool. What's your work if you don't mind me asking if you don't have to kill me after you tell me type thing I had a friend of mine who always introduced himself as the lead engineer for his work. The thing is, he doesn't work for an engineering company, nor does he work for any company that works with engineers. He works for Tesco's. So technically, he was the lead engineer because there were no other engineers. But also, technically, he wasn't an engineer. Oh, squeeze out I've got a load of squeeze out that I didn't do properly. Didn't deal with properly There we go. That should be fine now. We might hear some squeaks just because it's going to engage with the plastic. I don't know. We didn't hear any squeaks. Lovely. Lovely, lovely, lovely, jubbly. Alright, he needs to go this way around. Drama. Yes. Drama. Yeah, so effectively, and I know this from a few sources. I've known it for a while, but I wanted to keep it. I was asked to keep it quiet. The guy behind Stonewolf started a Kickstarter for it. And then, so he's got this 3D printer called Stonewolf. It's really, really cool. It's basically a billet gantry. So just a completely CNC frame. And it looks amazing. The design work that went into it was genuinely, genuinely really good. The problem is he placed a bunch of Kickstarter orders from it, put it at a price that was completely unbelievable and unreasonable. Like, it was way too cheap for what it was. I think it was 1,300 euros or something like that. 1,300 to 1,500, and couldn't pull through with it. So he's now only offering refunds on people who have only just placed orders. Industrial sensors, just keep it vague. So, like, the design work was actually really well done. I'm not disputing that at all. But what he did was he took people's money and tried to invest it perhaps, lost it all, and now people aren't getting their printers. Which to be fair is the risk that you run when you back a Kickstarter. Like, you know that as going in. It still doesn't make it any better, though. Doesn't make it feel any less bad. Wait, what? I swear he has to refund them. No, he doesn't have to refund them. That's the thing. He only needs to refund the things, the ones that he stated that he can refund. So anything that was part of the Kickstarter prior to, I think, a month ago or whatever, they've lost their money, and that's part of the deal of Kickstarter. Do not invest in anything to do with Kickstarter if you cannot afford to burn that money, right? Because there's a 50-50% chance that you are not getting that money or that item that you backed at all. That's part of the contract that you sign. Kickstarter is like gambling. Yeah. Yep, it is. It is basically. It's not just, it's not like gambling. It is gambling. It's high stakes gambling on people's integrity, their intelligence, whether or not they can hold up to their side of a bargain. It is 100% gambling. The difference is, it's gambling with hardware that you probably won't be able to resell even if it was given to you. And it flopped. So you're gambling twice, not just once. Especially for things like bamboo printers or anything with a closed source where you rely on that company for spare parts and troubleshooting and all that kind of stuff. I need smaller panel now. Good job. I have never backed big value things. I've never backed anything on Kickstarter. I don't believe in Kickstarter. Especially don't believe big companies doing Kickstarter things. Killer Prince lost his money. He put a video out today about it. His printer went to someone else. A fair I always thought you might not always get a fully working product, but you would get to share a share of the hardware if it's never finalized. No, the thing is, a lot of failed Kickstarters continue to be companies still. So look at Samurai CNC, right? Do us a favor, everyone. Just go over to the Samurai CNC page. Now they were pretty much the closest to an affordable commercial CNC system. Right? Proper epoxy granite ways. Sorry, not ways. Proper epoxy granite machine bases and structures and ball screws HDR 25 rails and HDR 30 rails for everything. Proper, proper looking machine. They failed, but they're still in operation and they're still making money, but they make money on mostly pre-orders now for machines that they don't actually have. They're meant to have some five-axis smart turning system coming out sometime in future. It's been about a year since I actually looked them up. I need to loosen these bolts off at the back. Nope. Wrong screwdriver. Right screwdriver. The worst, worst bit, I think, is that Kickstarter will still get its cut. Because Kickstarter gets, I think, a 10% cut on everything that goes through them. And for a lot of people, they think that Kickstarter is the only way to enable them to be able to do the things that they want to do in terms of if they have a company or an idea or something that they want to get off the ground. So you're encouraged to sell your product for cheaper and you're getting a cut taken away from you. I've liked plenty of things, some want to be Arduino stuff, but most died after fulfillment due to lacking support. Had one outright scam where they took my money and ran, and the rest are board games. Yeah, fair. This is why I like the D?? D approach to Kickstarters. A lot of them are, a lot of D?? D Kickstarters aren't on Kickstarter. They run their own separate schemes. But the thing is, because the books have already been written and the characters have already been made up and all the spells have already been done, a lot of the time, if there's a failure to release or to get to their funding goal, they just don't release the physical versions. They don't release the books and or the cards or the little minis, but they still release the content because the content is ultimately what matters. Do you think Millennium would ever make big things like that? I've always thought you might not always know. I've already read that one. Ever make big things like that. Are you talking about the samurai machine stuff that I was referring to earlier? I don't know. I don't know The thing is to compete we'd need to hit we'd need to do a lot more than you expect because the thing is with Milo Milo's a working machine, but it's not a machine that works at scale And a lot of time businesses don't want a machine that they have to put together themselves right they want a machine that arrives at least 90% built preferably 100% built that they can literally just plug in and train someone up to use it potentially or if they might already have someone who's trained to work with CNCs and from there they just go right with Milo you get the kit have to get everything printed have to put everything together then you can start doing all the electronics you set everything up the way that you want it and only then can you start milling which is fine for hobbyists that's that's a great thing for hobbyists to do because it teaches them how to do everything yeah and it teaches them how a machine works how their specific machine works and they get to customize it to do what they want how they want it and when they want it but it wouldn't work for a company now building a company with a Milo so like a small business I know a lot of people who started off with Milos and then moved to Tall Max after they fulfilled their first thousand orders There was someone the other day who did a load of prototyping for whatever company that they were, but they were working in aerospace. So there was literal aerospace parts being made on Milo's But as you said never gamble with money you can't afford Yeah, it's all a gamble life is a gamble Life is a highway sorry nope not going there not going we're not doing karaoke tonight I've not drunk enough yet And obviously with how good my voice is and how beautiful that rendition of I don't even know what the name of that song is I would get copyright strike because they thought they would have thought I was the actual artist You guys can still see my monitor That's not good oh I can't wait to the panels I've been looking forward to most because I can't test the filter system until the panels are on I've got my smoke machine at the ready once I get the panels on I'm gonna fish some wires through so that I can power all the fans I'm gonna fill the entire chamber with smoke and I'm gonna have some fun with that and the best part about the smoke machine is I can take it to Red Rat Festivals get the RGB pumping in here and set up a dance routine for Milo And then all the smoke will be lit up by the RGB It'll be perfect. It'll be great be lovely I live for doing stupid shit like that Lol yes lol Don't you lull me boy First time printing polycarbonate and it genuinely looks better than any print I've done so far it is Prouchment polycarbonate and it is one of their machines so they've tuned their profiles really well for them But god damn they look good How much Engi how you doing bud Then I need a mini me bobblehead. That would be so sick. You know how like Joel and CNC Kitchen have like mini versions of themselves? I wish I knew enough Blender to be able to make mini versions of myself Just some just a bald mini or mostly bald mini with a ginger beard would do The older I get the more ginger my top is coming as well It's scaring me I'm starting to become what I hated most Don't lie know why I said like a vampire nice I've had way too much sugar today Gotcha gotcha gotcha I we really need more 3D printing in the UK right we have E3D and that's it That's pretty much it we got one two 3D 3D printing But for various personal reasons I'm not their biggest fans We've got some independents like printy please and things like that, but we don't have we've got E3D as well But like considering this country literally birthed rep rap We have next to no scale in terms of 3D printing Like if you go to Smurf Smurf is great. It's the biggest one we it's the biggest 3D printing show we have and I love going there every year but compared to every single other show that you see in the US remurf East Coast RepRAP Furniture No Earth is now 3D printopia is it I always forget which way around it goes then there's Merf There's all there's all of those Rocky Mountain Rep Festival as well and they're huge like they're in barns they're massive And then you come to the UK and we've got like one university hall The Americans always get the fun bits and all they have to do is sacrifice their health and well-being to live in America for it I'd do that any day Just this corner one left We have Additive X2 I want a Phoenix. I want a Phoenix. I want a Phoenix just to put a Milo in it What is additive X Additive X is a new concept to me is it a is it a show The 3D printing company I don't I'm gonna look this up Who is additive X Okay, so They're a bamboo reseller. Polymaker, Mark Forge, Form Labs. So it looks to me from first glance that they're more of a industrial 3D printing. So yeah, Form Labs, Mark Forge, those are industrial. Linkster are Polymakers and Polymakers Polymaker. Ooh, they sell the Euphemy Make stuff. God, I want one of these things so badly. I want one of these things so badly. But I no way I'd be able to do it. 3D training, 3D printing services. Oh, it's one of these. It's not an automated quoting system. That's a shame. Not that I need the needed or anything. Yeah. So they're more industrial. Which is cool. Nothing wrong with that. See, I have heard the Euphrate Make printers are not good. Really? I've heard nothing but good things about them in terms of reviews I've seen online. Who's making that Mamaki clone? Like the full color resin 3D printer. I think clone is a bit of a harsh word in that case. It's their own thing, but it's based on what the Mamaki can do. Oh, what's happened here? I need to lift. Let me loosen these up and lift this part panel a bit. Nope. What's the longest flute length cutter you use? I am cutting 25.4mm stock and probably using the wrong mills, but making it work. It depends on the diameter and the flute count. So higher flute tooling has more core material to it. Yeah, because if you think about it, wherever that cut is, the flute on a single flute has to take out the same material throughout the entirety of the end mill as a three flute does, but all that material's left on the outside to form the cutting edge. Whereas a three flute, the same volume of material is removed to create the flutes, but all the removal's done on the outside, and there's a solid core in the middle. So like on a single flute tool, I tend I try not to go over 40 millimeters on a three flute tool. I will maybe not happily. I won't say happily, but I've gone all the way up to 60mm tooling. There we go. That's better. I mean, I just had a couple of friends with bad experiences, but that doesn't mean a lot, really. No, it means something, right? I prefer it when things get spread word of mouth rather than over like video. If they had a bad experience with them and you trust those people, trust them. It's better than everyone online blindly following whatever company of the week is sponsoring them. Oh, I've just remembered something. I forgot to put weather stripping on any of these. Alright, I'm not changing it now. It's too late for it now. I'll do that off-stream. I'll put weather stripping on the top panel and on this side panel because we're gonna enclose the entire thing and do a smoke test Alright, those of you in chat who play video games on the regular not just once every like month or so not month not like once a year or whatever all right make yourselves known and tell me what you're playing right now. I am playing Kingdom Come Deliverance 2 good game horrible horse riding mechanics like absolute worst of the bunch horse riding mechanics I was playing I hopped back into Art Raiders for the first time a while in a while the other day I'm struggling to understand why I liked it so much Warframe and Warzone Yeah, I could never get into Warzone I got into Apex Legends I like the faster pace of it Warzone is just weird now like it's just so commercialized waiting for GTA 6 you'll be waiting for a long time then I really wanted to go with the brush dibond ACM and Dibond are the same thing for those of you who don't know to stop getting fingerprint marks everywhere but it was so expensive for the two biggest panels it was 30 quid each and then if you wanted them in the brushed version it was nearly 60 quid each so as much as I like not having fingerprints on everything I like not being poor more let's start in the corners shall we oh I'm really jealous of Phil at the moment he's at some race meetup some Audi meetup or whatever Hey, they've promised October. Oh, Graveyard Keeper is such a good game. It's such a good game Where are you buying the panels from I buy them from a place called Cut My Plastic in the UK Tom Tom Lawson who is one of the long-term supporters of the project said hull plastics was a good place to get some but I tried emailing them and they never got back to me and I emailed them like twice So Cut My Plastic was pretty much the only sellers I could get a reasonable time frame on and a reasonable price with it's still bloody expensive Never ever ever try and get MDF or plywood cut from them because they will rip you off just go to BNQ But for plastic and dive on they're fine would you use acrylic acrylic wasn't much cheaper so probably not problem with acrylic is it shatters so I have my old enclosure is made of acrylic and it's nothing there's nothing technically wrong with it but there is there is an argument to be made that it's not as safe as using ACM or polycarbonate mostly because it just shatters but by the time it's gone through three mil acrylic like an end mill of the size that you would probably be using on Milo it's lost 90% of its kinetic energy so whilst I wouldn't recommend using it I don't think it's the worst thing in the world to use it whales way too hard in Wolframe a long time ago and gave up on it as it structured my life around it god damn Yeah, that's rough, man. Sorry to hear that I was like that with arc survival of old for one stage and then I can't even get back into that game now. I try every year. I go, you know what? I'm gonna play awesome arc. I'm gonna download it. I'm gonna get my dinos together. I'm gonna have some fun playing like a single player world. And then I get like an hour in and go, you know what? I'm bored. Let's play with some CNCs instead As I've got older, I have found it harder and harder to get into video games again Ooh, that's true. I've started playing in Shrouded again as well It's another survival game I really like I really enjoy it What's the rough sizes for Casita panels interested to see what acrylic costs 670 by 670 670 by 670 700 710 by 670 710 by 670 This is 550 by 650 by 670 and then I can't remember what the front panel is but it's a similar size if a bit smaller than the rear panel I like green hell Damascus you're a sadist What about mini golf They've promised October yeah they also promised that it would be out earlier this year You know my expectation for GTA is that it's just gonna be mid It'll be good, but it will never ever outclass GTA 5 now and Rockstar I will eat my own hair if this is the case But I think Rockstar will not make the same cash cow that they did with GTA 5 out of GTA 6 which again it's not necessarily a bad thing GTA Online was getting a bit much they'll do what they did with Red Dead Redemption 2 where they'll see what it's like they'll put some feelers out and then they'll just completely abandon the online My bot has stopped working why is my bots it just hasn't shown up in the last few streams which is really annoying Oh Winrose is one I'm looking forward to get into holding off for a discount or at least that's what I'm telling myself isn't it early access right now isn't it already pretty cheap It's not a full$60 game is it or$70 if you're if you're Ubisoft nowadays Surely not oh my god this the panels have made this thing so much heavier I was not expecting the heft from just adding the panels That's good. That's good heft more heft is better if you're using a CNC machine I got a 458 by 305 by 76 granite surface break pretty cheap yesterday brand new And what's pretty cheap? What are we talking pretty cheap Because that's a that's fairly hefty that's that's basically the work area of Atlas Except slightly smaller in Z. Well, actually, less than half the width in Z, but you know No need to be pedantic 130 US plus 40 shipping That's really good GTA 5 only became a massive cash cow because of COVID sparking a second wave of interest in it. Yeah, true. I mean it was it was popular before then I remember seeing headlines that it was the most popular game ever in terms of money to the most popular game ever before COVID was a thing and then it had a second wave on top of that Windrose was 30 euros last time I checked it. Yeah, that's early access. That's an early access price. That's a price I would be willing to pay considering the success of it I would be willing to pay that money so far. Oh, I said I was gonna put the I said I was gonna put the the seal on this one and then completely forgot to do it I'm gonna have fun off stream Says grade A has a surface map that says 1.6 nanometers God Or is that microns? I always forget that's microns isn't it Yeah, that's microns I was gonna say nanometers is quite quite flat I just checked you can buy acrylic panels roughly those sizes for about £15 each where are you buying them from because you know what I would love to know so that I can start affording to build more enclosures and things Although yeah I still don't want to buy acrylic if I can avoid it Like if a kit came with acrylic panels I wouldn't say no to it But if I'm buying them myself I'm gonna be buying I'm gonna be buying polycarp or dibond the top you can get away with being acrylic because it's very very unlikely that it will ever hit the top panel without it already having bounced off another panel at which point it will have lost all its kinetic energy as a ricochet looking good looking good laser cutting suppliers if you ever need five millimeter panels I would give them to you five millimeters is too thick but thank you for the offer I shouldn't be rude thank you for the offer also I thought you couldn't cut acrylic on a laser because it off gases or am I thinking of something else I know you can't do PVC because it off gases some kind of poisonous substance yep but knowing myself I'll spend way too much time in it so I'm holding off until I sort out some other projects Milo being one a smart home system ran over can bus is another that'd be cool I have a ton of five millimeter panels I have no clue what to do with which is why I am trying to give it away fair Ollie whereabouts do you live you don't give me don't give me the exact address because this is the internet and I don't want someone to get your address but you living up north down south how easy is it for you to is it gonna be for you to get this Centauri carbon if you still want it Acrylic is fine, it's not that harmful at all. Yeah, fair. Yeah, PVC produces chlorine glass gas gas. God, where did that come from? That's good to know, at least. Yeah, oh, I never mentioned this. I tried and tried and tried. This is why it's been quite a while since last stream. I was testing and testing and testing alternatives, like printed alternatives for these hinges. I couldn't find any that were decent. I tried the clicky clack door stuff and they buckled after opening it maybe 20 times. And then I couldn't find anything that felt that matched the aesthetic either if I wanted to go thicker with them. So eventually I just caved and we've got another panel arriving. I think it's on the 8th this month, and that is going to be just the laser cut version. The only difference is it's got laser cut sections out for where the hinges are going to go. You know, the metal hinges. I really, really try my best to not require laser cutting any parts because it increases the bomb cost, but I just couldn't find an alternative that I was happy with the top panel done. Right. I'm just going to put this in as a mock-up. Here, Raj Island Southeast Cool Right. I'm going to just give this a heft test. Oh my god, it's so much heavier than it was before. So heavy. What's the view like on the inside? It's very dark in there for you right now, isn't it? I will try my best to find a solution for that. I've got in my other enclosure, I do have some LEDs, some RGB LEDs that I will be putting transferring into this one. So you will still be able to see once everything's on. Right, before I close up this side panel, I'm gonna put all the fan, all the things I need to power the fan cables through the grommet and hook them up to power supply. Alright, so power supply is gonna need to go on top. I know that do I want the intake fan as well, or am I just going to do a test with the extraction fan Right? Well, I'll figure something out. I'll figure something out so that'll be for the extraction fan. I won't need this box for now. What are you going to do with your old casa? Probably break it down, stick the parts in the loft. Either that or I'm going to just need it for testing when I put the other when I update proper Casa to have all the Cassita stuff with it. I'll just use that as a testing grid just to test measurements and stuff like that. So there are three fans that I need to power. I need to power. The electronics fan. I need to power the filter fan. And I also need to power the intake fan. So this is not going to look very good. I'm going to have to daisy chain off of these. So these ones will go in first. Sweet. They can drop down there. No. No, that's not it. That won't work. So that fan is over there. That fan is over there. That fan is over there. Ah, this is a bit of a pain, actually. Now that I look at it a bit longer. Hmm. Loft, that's the hidden storage. Do you think I will ever go back to having a Milo? I'm building a Milo next week. If the Milo kit arrives. Oh, sorry, Milo, not Miley. Yes. No, I don't think I'll go back to Milo. Just because I'm going to have Atlas, and that's what I need. The only real advantage to Milo is it's easier to put accessories on, like a fourth axis or a tool changer without work without going into your work table volume, work volume. It takes up more space to do so. Like a lot more space to do so, which is not something I have a lot of at the minute. My girlfriend's meant to be moving in with me sometime in this last half of the year or slightly earlier on to next year. It just depends how quick she can get stuff done. So I need to keep everything contained in here as much as I would love to have a Milo in my living room. That ain't happening. And I'm going to be using this machine exclusively for my fourth access parts. And the fourth axis doesn't take up a lot of space and you can't put that many big things in it. So I don't need the space a Milo provides. And Atlas is going to do all my big plate stuff anyway, so it doesn't really make too much sense for me to have a Milo, but yeah. Obviously, I'll build them to test them to test them mechanically. Yeah, that's why I don't think I want a Miley, but if it's it's nice because it takes up a lot less space. Yeah, you know what? That's not bad. Alright, you you people can make their own opinions up on things and decide what they want for themselves Okay, I think I've made a decision on how I'm gonna run these gonna go into there all right I'll connect these into each other Roger Roger Roger that's working so far so good Right that bit is gonna go down at the bottom I don't have any crocodile clips for it, but I will make it work so that go there that can go there those can be fed through that I know you guys can't see what I'm doing and that must be really really frustrating and then these I can do this with unscrew these from the terminal No, that's not gonna reach is it Damn it. Oh no. Oh no. It will reach. It will reach. I should have had faith in myself If anyone's wondering, I'm just trying to figure out how I'm going to wire everything up so it's actually running when I've got the panel on because obviously everything else is still I've got nothing else plugged in Yeah I've caught up with everyone's stuffs God damn it Has anyone seen the new God of War game the Mum of War with the giantness cube called Frank What the fuck is that game is either gonna go down horribly or it's gonna be one of the best games of the generation Right so that's the intake fan and that fan sorted now I just need to sort out a solution for the extraction fan Which is gonna be not as easy as I was expecting. Oh, I can do it this way I've got some Wagos that I can just slide in here right and I've got some testing I know these technically aren't meant for this, but I've got some probe testing needles There we go There we go This is so sketchy Sorry Alexa you're getting a lobotomy Nothing contacting anything Everything's on That's pulling in amazing How difficult uh seen enough to stay clear of it. Okay, cool How difficult is it to swap between a Milo and Miley build since the kit supports both I was wondering whether it would be make sense to start with Miley and move to Milo to start to expand the mod's not hard it's time consuming Because you basically the Z-axis will stay the same and you can just disconnect the Z axis and put it back on when you need it but there are some steps that you need to take when you're building the Y-axis that change depending on what version of the build that you're building Like 90% of it stays the same in terms of the Y axis but then you also have to make sure you rebuild the entirety of the X axis because that's the thing that you did nothing the X-axis on Milo versus Miley share absolutely nothing other than hardware There's no 3D printed parts that are the same there are no build steps that are the same other than the supports like the bed supports but you don't technically need those on either anymore because they're not a structural part they're just an aesthetic part my voice is killing me I've been doing too much yapping You're meant to stop me from yapping Quick if you would like to save my voice and stop me from yapping I would kindly ask that you heal me by liking the video Also, can you guys hear that? Can you hear the enclosure if I'm over here That's the sound of all the fans going brrright I say the word right too much I've got to teach myself not to every time I say the word right when I'm not meant to say it I must sacrifice one end mill to the carbide gods for my sins I think that is a fair exchange Either that or my firstborn child but I'm never having kids so I think firstborn child is a good deal There's a very faint whirring noise Selling carbide is not even a bad idea at the moment. Yeah, but I don't want any carbide to sell Although Dave at the MS does sell carbide end mills and he hasn't but his prices up Oops, I shouldn't have told you that I need these I need three more three more middle sections and four corner sections I'm back The only thing I will ask is that people please don't buy up all the threading end mills I need thread mills. I don't have any I have every other bit every other bit of carbide that I need I just don't have my threadmills yet So if you do go to DMS leave some for the rest of us Two wrongs don't make a right but two rights do make does make an airplane nice True very very very true And two wongs make a Chinese takeaway Hey universe is back You need a guest from every stream Oh I said right god damn it I must hold to the traditions and sacrifice some some carbide but I think it works kind of like warrior culture where it wants to be sacrificed to the gods you know to in battle so I will put it to battle against Sony 75 at some stage and that's how it will die that's how the sacrifice will be performed I think that's a fair deal why did I choose to do this one in acrylic sorry not acrylic polycarbonate now everyone gets to see my horrible wiring job let's take the arm mount off because I'm gonna need to move that anyway David, if you are trying to bait me into saying the R I'm not gonna say the R word because that sounds wrong if you're trying to bait me into saying the RIGHT word, it's not gonna happen You're trying to bait me by putting it in a comment because you know I read all the comments out loud I see what you did there, but I'm not falling for it I've always been here. I'm just driving why are you watching a stream whilst driving, dude Better yet, why are you in chat whilst driving Put your phone down dude I can get if you're just listening to stream But if you're actively at the wheel please don't Don't answer chat There's so much static on it it's already on it there's so much static on this panel it's already pulled all of Brisket's hair towards it I'm already gonna have to give this panel a wash I'm listening my brother is texting fear is there anyone else in the UK that's gonna build an Atlas most a lot of the team say that they're going to So you can revel in the fact that I'm not only keeping you guys waiting I'm also keeping the rest of the team waiting by my procrastination of putting that machine together Also universe I gotta say sorry to you I wasn't trying to make you a butt of my frustration the other day It's just I get asked we get asked constantly about when this is gonna be ready when that's gonna be ready and like a lot of us don't even have time between people asking to actually do any work on it because we have our own lives so constantly being asked about it gets really really frustrating I know that all people want is they just want to know what's going on But goddamn it gets so frustrating after the 17th person in a week has asked you the same question or if you haven't done any work because you know you've got life to live and work to go your own job to go to and all that stuff and someone's asked you how much longer it's gonna take to get something done and you haven't even done anything since the last time you updated people on it Also do us a favor for all of you who aren't there already go to the Rack Robotics channel on YouTube and please subscribe to them The guy who runs it works really really really fucking hard and EDM is not an easy thing to get into and he's basically performed the impossible task of making it both open source and available and easy and cheap enough for everyone to be able to use It might not be there yet but he is performing miracles that man I figure upgrading a Milo to a V1.6 before investing in an Atlas is the correct order anyway You could do it either way There's nothing wrong with holding a V1.5. If you don't want to do the upgrade to V1.6, there's no real performance benefit from it. It's just a quality of life upgrade. So if you've got your Milo, your V1.5 working fine, keep it as a V1.5. And then, if you're thinking of getting a V2 anyway, you're going to get all the quality of life upgrades on the V2, as well as the ones that are missing on V1.6. And then you can actually make an informed decision on whether or not you need those features on your 1.5 Euro dance music. It's just Stream Beats. It's just like royalty-free music by Calvin. It's not Calvin Harris. Calvin something. The one time I decided to go to use music that wasn't from the Stream Beats archive was the one time I got 10 copyright infringements in a single video. And that was earlier. That was a stream that we did for Casita. That was only like a month or two back. I would have Yorman Gand on stream with me today or Phil, but Phil's Phil's enjoying himself a bit too much right now. So, and he needs the holiday. So, and Yormangand isn't in stream with us today. So, I'm assuming he's not available. Also, Yormangan messaged me after stream the other day after he came on. And I was like, oh, I'm really sorry if I annoyed you or pissed you off. Like, no, I enjoyed having him there. It was fun. Jeez, did you get in trouble for it? No, because generally nowadays, copyright strikes aren't as big of a deal as they used to be, especially for streams. Basically, what happens is any money that you do make on the stream just or would make on the stream goes back to that creator or whoever owns the IP. It's actually quite hard to get a copyright strike. I would be down to do a group order with people for Atlas stuff. I'm planning on producing a bunch of Atlas stuff at some stage. At least for the UK market. Doing all the print kits for it and all the TNC parts for it. Or at least getting them together and then selling them back as like a group order, like you said, like you suggested. Where can I find the Atlas details? Just Discord mostly. There's nothing that we haven't said, talked about on Discord that I have talked about anywhere else. There's Nero's video. If someone wants to just post that link in Stream General for me, that would be excellent. We talked about it a bit there. If you have questions about it, feel free to ask. As long as I know what it is and I've made a decision or I'm in the process of making a decision about it, I can answer it to you. I can even answer if I haven't made the decision yet at all. It's just in that case, things might change. I might say something and it might change down the road. Nothing set in stone with Atlas right now. See, I thought having removed the majority of the M3 bolts out of Casa would mean that I won't wouldn't have to be worrying about all this, but apparently I'm running out of M3 T-Nuts. Who knew? Oh, that's a nice idea. I was thinking about a group order on like extrusions and rails, etc. Might be able to do a group order through LBO The thing is with rails and stuff like that, unless you're going for quantities of like hundreds, the rails really don't get that much cheaper. The only thing you're going to save money on there is shipping. Ah, that's why that thread is fucked. That's like the third one as this set of T-Nuts where the thread has been so mangled I haven't been able to use it Right all I have left is corners now Jake do you know when LDO is sending you a V2 I know you want to build it before launch I don't think I'll get it before launch I don't think I'll get it built before launch but I know it's coming sometime in the next week I got a FedEx update from Tina from LDO yesterday is it yesterday no it was this morning it was this morning saying that it's going to be arriving in a few days so I'll get it started and I've got all the I've got most of the parts printed out already I'll try my best to get it done before launch I don't think I'm getting a UEB if I am I'm not gonna be building the UEB I'll double check it to make sure that it's all correct and stuff but I've got all the electronics from the last UEB that they sent me and that was fine God didn't think I'd be running out of M3 bolts first it's a good thing I've got a bunch how many I have three M3T nuts left all right I'm gonna have to restock LDO is a good shell extrusions you definitely would save a fair bit of money because they they do really good deals if you order a decent amount but what is a decent amount you gotta remember when I was part of DMS we sold I think we sold 15 Milos in this country all right and it was the same with Vorons and stuff like that the UK is not a very big proponent for DIY 3D printing or even or DIY CNC so you would need to be ordering I'd say at least 50 before you got a decent deal. At least 50 sets. Whether you can get 50 sets of orders done in the UK is not a question you can answer easily. Most of the kits sold, I'm talking 90% of the kits that were sold. Well, maybe not 90, but 80 to 90% of the kits that were sold for V1.5 were sold in the US. Because that's where the biggest grouping of people is who are into this kind of thing. Right. That's that then. Only 15. Yeah, only 15. When I've ordered extrusions from China before, I was ordering for maybe three work bee machines and it was really, really cheap. Yeah, but I don't think the quantity would have made a difference there at that point. Must have knocked the That's just Chinese extrusions for you. I don't think that really had anything to do with the fact that it was whatever Do I have a longer extension for my power supply Is the current print list okay to follow for V2 or do you think LDO may change a few things like they did with V1.5 the only thing actually the only thing that's not in the print list but it there is an STL for it is the shroud for the LDO version of the plates yeah so the only thing that you'll need to print that's extra for LDO is the shroud the LDO marked shroud for the spindle mount you don't actually have to print that at all it's not a necessary component it's just an aesthetic component print it in whatever settings you would like it's not structural you can skip printing any of the AB blocks any of the anti-backlash blocks because LDO have metal anti-backlash blocks that they're sending I have asked them for the CAD for those because they updated a couple small things for it but they still haven't sent it to me yet but other than that the print list is up to date I'm gonna be right back I just need to grab a cable from the living room hey buddy everyone say hi come on hook yes everyone says hi hello hello mister Look at the camera look up there look at there look up there and they would have do free shipping there's no such thing as free shipping shipping if someone's selling you free shipping all they're doing is adding that price to your order and they do that for everyone there is no such thing as free shipping the price is baked in the price for shipping is baked into the price of whatever it is you're ordering it's just that that is how cheap Chinese products are in put the fan on because it's hot in here struggle at the dog because he's cute plug that back in with the longer leads so that I can spin Enclosure around I don't think I'm on the stream music anymore and I think I'm gonna get copyright struck again. Yep, I am damn I'm gonna get this video demonetized But basically it would have been 150 USD to ship it and when I said okay I'll take three they said we can do it for the same price times three with free shipping. Oh cool So Ollie if you've got a work bee why do you have a Milo or why do you have a Milo or are you just interested in the project Cool cool cool cool cool cool cool cool cool cool cool Now how do I show you this bit? I'm gonna put the the front panel back in and then I'm gonna get my smoke machine out and I'm gonna feed smoke into here so it fills the chamber up There we go all the fans are on right Yep, that's pulling air through Is the filter still pulling the filter is still pushing air out the back. That's good The more you buy you the more you save The work be is only for cutting foam. Oh yeah, yeah, I remember now you have two Milos technically and I don't even have one Okey dokes smoke machine time Do I I do have smoke liquid in here still I do have smoke liquid perfect Amazing Where's that cord I just put that all right? I'll need that for that This is gonna take a couple minutes to warm up So whilst that's warming up it is on it's off auto spray I'm just gonna take a couple of seconds just to get everything cleaned up and put away That's the M3T nuts in there those can go in there those can go in there Those can go there Gotcha gotcha gotcha Roger Roger Roger Well in a couple of weeks the other Milo is going my it's my V1.4 oh you've been you've been part of it since V1.4 Jesus I didn't realize you've been around for so long That was three years ago No, that was four years ago Yeah, I've been around for a while just never been part of the community god damn dude That's rough You wanted to go out bud come on It's too hot in here for you There you go you go annoy Robbie Well technically I didn't even realize there was a discord Then, how did you figure it out eventually? Like, how did you realize? I'm always interested in the people who come to us but aren't part of the Discord or anything. Like, Druid is well and truly not part of the, he's not even part of the Discord now, but somehow he's managed to find the stream, which is, I think, quite amazing. Also, if people are wondering about my little experiment about pushing the stream back an hour, it's worked. There's a lot more people, a lot more steady people here than there are normally. So, I think on the weekends, maybe not on Sunday, but if I've got a Saturday or a Friday free, I'm going to push those streams to be nine o'clock starts just because it gets all the Americans over and there's still enough time for Brits to watch in. I actually don't know, I just stumbled across it. I think it was after I had been doing some loads of testing of ATC stuff, and I was like, I should probably share this somewhere. And I looked on the Reddit and then I saw the Discord stuff. But you had a 1.4 before that That's the bit that amazes me most. You had a V1.4 before we even did anything with the ATC because the ATC stuff's only like a year old at this point, not even a year old. I think that's warmed up enough now. Oh my god, right, so the enclosure is now full of smoke. This whole room is now full of smoke as well. That's not from Right, so we've got way too much positive pressure right now, which means that it's coming out all the seams. I haven't sealed any of the seams, so that still makes sense. So that's not the worst news in the world. It just means that you need to tune in software, you need to tune down the intake fan so it's not over-pressuring the chamber too much. It is clearing quite quickly, though, which means the filter's working. Yeah, I had a 1.4 since the first release. I was working on an ATC stuff before you guys, maybe might have found you through principles or just some random Pinterest. Pinterest. God, Milo's got all the way to Pinterest. Now that's surprising. Awesome. And just like that, the entire closure is pretty much smoke-free. Hell yeah. Something I design worked. It's amazing. Hell yeah. Right. I think that is a good place to call it for the night. Thank you very much to everyone who joined stream today. It was a really, really productive stream. I enjoy it when we've got loads of people around. If you want to support the project in any way, there are some links down below to the Discord if you want to join the community. Some donation links. And there's also a link to Polymatrix where you can buy all of this nice little hoodies and t-shirts and things, and the money goes straight to the project. Other than that, I hope you guys have a great day. Please like and share the video if you can. And I'll see you next time. Bye now.",
+  "segments": [
+    {
+      "start": 300.79998779296875,
+      "end": 301.1999816894531,
+      "text": "Right, oh"
+    },
+    {
+      "start": 302.06949998569485,
+      "end": 303.02949990463253,
+      "text": "Hello, folks."
+    },
+    {
+      "start": 303.02949990463253,
+      "end": 304.70949997138973,
+      "text": "How are we doing?"
+    },
+    {
+      "start": 304.70949997138973,
+      "end": 306.1494997901916,
+      "text": "I can see Jose in chat."
+    },
+    {
+      "start": 306.1494997901916,
+      "end": 308.1494997901916,
+      "text": "I can see an Ollie in chat."
+    },
+    {
+      "start": 308.1494997901916,
+      "end": 311.3495000762939,
+      "text": "I hope everyone is having a great day."
+    },
+    {
+      "start": 311.3495000762939,
+      "end": 318.30949916076656,
+      "text": "I left the stream a little bit later today because I want to see whether or not it affects the people watching."
+    },
+    {
+      "start": 318.30949916076656,
+      "end": 319.7494996948242,
+      "text": "Universe is also here."
+    },
+    {
+      "start": 319.7494996948242,
+      "end": 320.5494989318847,
+      "text": "How are we doing, guys?"
+    },
+    {
+      "start": 320.5494989318847,
+      "end": 322.70949877929684,
+      "text": "How are we doing?"
+    },
+    {
+      "start": 322.70949877929684,
+      "end": 326.2294992370605,
+      "text": "Yeah, I want to see who actually shows up to stream today."
+    },
+    {
+      "start": 326.2294992370605,
+      "end": 334.94950045776363,
+      "text": "Because in theory, this should be more conducive to the crowd who normally watches my videos than they're in the US."
+    },
+    {
+      "start": 334.94950045776363,
+      "end": 344.4695009155273,
+      "text": "And it's not too late for the folks in the UK, especially with it being a Friday and all that."
+    },
+    {
+      "start": 344.4695009155273,
+      "end": 345.26950015258785,
+      "text": "Good, how about you?"
+    },
+    {
+      "start": 345.26950015258785,
+      "end": 346.46949710083004,
+      "text": "I'm not too bad."
+    },
+    {
+      "start": 346.46949710083004,
+      "end": 347.6694978637695,
+      "text": "I'm not too bad."
+    },
+    {
+      "start": 347.6694978637695,
+      "end": 350.3894990844726,
+      "text": "I had a nice day at work."
+    },
+    {
+      "start": 350.3894990844726,
+      "end": 354.94950045776363,
+      "text": "I was on the morning shift, so I went in at came in at 7 a."
+    },
+    {
+      "start": 354.94950045776363,
+      "end": 354.94950045776363,
+      "text": "m."
+    },
+    {
+      "start": 354.94950045776363,
+      "end": 357.18949832153316,
+      "text": "Obviously."
+    },
+    {
+      "start": 357.18949832153316,
+      "end": 362.94950045776363,
+      "text": "And I love that because I don't have to deal with customers for two hours."
+    },
+    {
+      "start": 362.94950045776363,
+      "end": 365.3494981689453,
+      "text": "I just get to get on with whatever I want to do."
+    },
+    {
+      "start": 365.3494981689453,
+      "end": 366.0694993896484,
+      "text": "It's great."
+    },
+    {
+      "start": 366.0694993896484,
+      "end": 366.94949664306637,
+      "text": "I love it."
+    },
+    {
+      "start": 366.94949664306637,
+      "end": 368.7895006103515,
+      "text": "Right, so plans for today."
+    },
+    {
+      "start": 368.7895006103515,
+      "end": 369.7494996948242,
+      "text": "I'm going to stop pacing."
+    },
+    {
+      "start": 369.7494996948242,
+      "end": 374.30949725341793,
+      "text": "I don't know why I've been pacing all day."
+    },
+    {
+      "start": 374.30949725341793,
+      "end": 377.3494981689453,
+      "text": "It's late for you, though."
+    },
+    {
+      "start": 377.3494981689453,
+      "end": 378.3894990844726,
+      "text": "It's not that late."
+    },
+    {
+      "start": 378.3894990844726,
+      "end": 379.42949999999996,
+      "text": "It's nine o'clock."
+    },
+    {
+      "start": 379.42949999999996,
+      "end": 382.54949511718746,
+      "text": "Like, I'm up until like 1am most nights."
+    },
+    {
+      "start": 382.54949511718746,
+      "end": 386.62949694824215,
+      "text": "Plans for today, before I get more distracted, is we're going to get the panels on."
+    },
+    {
+      "start": 386.62949694824215,
+      "end": 390.94949664306637,
+      "text": "There's a couple things that I have done kind of off-screen."
+    },
+    {
+      "start": 390.94949664306637,
+      "end": 394.70949877929684,
+      "text": "Like I said, I was going to do the start on the electronics, which I have done."
+    },
+    {
+      "start": 394.70949877929684,
+      "end": 402.4695009155273,
+      "text": "So let's turn this whole thing around so that you guys can actually see what I'm doing."
+    },
+    {
+      "start": 402.4695009155273,
+      "end": 406.94949664306637,
+      "text": "So I've put all the Din Rail mounted stuff in."
+    },
+    {
+      "start": 406.94949664306637,
+      "end": 408.30949725341793,
+      "text": "Silas in."
+    },
+    {
+      "start": 408.30949725341793,
+      "end": 418.30949725341793,
+      "text": "I'm debating where to put the power supply, but I need to grab the VFD from my other enclosure, from my other Casa in the container just to see where everything can go."
+    },
+    {
+      "start": 418.30949725341793,
+      "end": 422.94949664306637,
+      "text": "Wired up the mains, check that all the power supplies worked, which is one thing."
+    },
+    {
+      "start": 422.94949664306637,
+      "end": 424.8694948120117,
+      "text": "Mounted my monitor arm."
+    },
+    {
+      "start": 424.8694948120117,
+      "end": 429.74949206542965,
+      "text": "So eventually that's where that monitor is actually going to end up going."
+    },
+    {
+      "start": 429.74949206542965,
+      "end": 432.4694932861328,
+      "text": "It's going to be on the side of this."
+    },
+    {
+      "start": 432.4694932861328,
+      "end": 435.66949023437496,
+      "text": "Oh, Shamelist Druid's here."
+    },
+    {
+      "start": 435.66949023437496,
+      "end": 436.70949877929684,
+      "text": "Damascus is here."
+    },
+    {
+      "start": 436.70949877929684,
+      "end": 437.74949206542965,
+      "text": "How are we doing, folks?"
+    },
+    {
+      "start": 437.74949206542965,
+      "end": 440.3094896240234,
+      "text": "Evening, lads."
+    },
+    {
+      "start": 440.3094896240234,
+      "end": 441.1894945068359,
+      "text": "It's a Friday, also."
+    },
+    {
+      "start": 441.1894945068359,
+      "end": 442.3894914550781,
+      "text": "Yes, it is a Friday."
+    },
+    {
+      "start": 442.3894914550781,
+      "end": 444.2295030517578,
+      "text": "It is a Friday."
+    },
+    {
+      "start": 444.2295030517578,
+      "end": 448.1495012207031,
+      "text": "Also, big news that I was not expecting to hear."
+    },
+    {
+      "start": 448.1495012207031,
+      "end": 461.50950183105465,
+      "text": "Nero, who is mostly known as Connect Creator nowadays, is looking for a job and he's looking to not be a full-time YouTuber anymore."
+    },
+    {
+      "start": 461.50950183105465,
+      "end": 463.0294908447265,
+      "text": "And I understand why."
+    },
+    {
+      "start": 463.0294908447265,
+      "end": 465.58950366210934,
+      "text": "There's no malice or anything behind it."
+    },
+    {
+      "start": 465.58950366210934,
+      "end": 469.42949999999996,
+      "text": "He's not leaving because of the state of the 3D printing community."
+    },
+    {
+      "start": 469.42949999999996,
+      "end": 471.0294908447265,
+      "text": "It's just some personal stuff has changed."
+    },
+    {
+      "start": 471.0294908447265,
+      "end": 472.8695024414062,
+      "text": "I just thought he was..."
+    },
+    {
+      "start": 472.8695024414062,
+      "end": 480.2295030517578,
+      "text": "I've always seen him as kind of the full-time 3D printing YouTuber guy who streams."
+    },
+    {
+      "start": 480.2295030517578,
+      "end": 484.62949694824215,
+      "text": "But yeah, he just said on stream the other day that he was looking for a job."
+    },
+    {
+      "start": 484.62949694824215,
+      "end": 486.1495012207031,
+      "text": "Not the other day."
+    },
+    {
+      "start": 486.1495012207031,
+      "end": 487.1894945068359,
+      "text": "It was this morning."
+    },
+    {
+      "start": 487.1894945068359,
+      "end": 489.1094926757812,
+      "text": "This morning for me."
+    },
+    {
+      "start": 489.1094926757812,
+      "end": 495.42949999999996,
+      "text": "Damn, it must have been really, really early in the morning because he's in Canada for him."
+    },
+    {
+      "start": 495.42949999999996,
+      "end": 497.2694963378906,
+      "text": "Now that I think of it."
+    },
+    {
+      "start": 497.2694963378906,
+      "end": 498.7895006103515,
+      "text": "Hey, Raj, how are we doing?"
+    },
+    {
+      "start": 498.7895006103515,
+      "end": 499.9894975585937,
+      "text": "How are we doing?"
+    },
+    {
+      "start": 499.9894975585937,
+      "end": 503.42949999999996,
+      "text": "Raj, would you like my Trident?"
+    },
+    {
+      "start": 503.42949999999996,
+      "end": 505.82949389648434,
+      "text": "As in, would you like it, like it, and have it?"
+    },
+    {
+      "start": 505.82949389648434,
+      "end": 511.82949389648434,
+      "text": "I would rather go to a good home than me just not use it because I am planning to downsize in here."
+    },
+    {
+      "start": 511.82949389648434,
+      "end": 521.7494920654296,
+      "text": "I want to get rid of the Centauri Carbon because I don't like the Prooster's great, but I don't like having it here because, especially on the main camera, well, what is normally the main camera?"
+    },
+    {
+      "start": 521.7494920654296,
+      "end": 527.0294908447265,
+      "text": "It takes up a significant portion of the screen, and you also can't see the enclosure."
+    },
+    {
+      "start": 527.0294908447265,
+      "end": 535.7494920654296,
+      "text": "That was half the reason I put a polycarbonate panel on this side is so that you could see into the machine and now you can't see into the machine."
+    },
+    {
+      "start": 535.7494920654296,
+      "end": 541.3494981689453,
+      "text": "So I'm getting rid of the Centauri Carbon because it's not it still prints."
+    },
+    {
+      "start": 541.3494981689453,
+      "end": 542.5494951171875,
+      "text": "It's a fine machine."
+    },
+    {
+      "start": 542.5494951171875,
+      "end": 551.0294908447265,
+      "text": "It's just got two spots, two dead spots on it where I can't get enough squish on it to make production parts."
+    },
+    {
+      "start": 551.0294908447265,
+      "end": 557.1894945068359,
+      "text": "So I don't trust it as much and therefore I've left it unused for a while."
+    },
+    {
+      "start": 557.1894945068359,
+      "end": 559.1094926757812,
+      "text": "The two P1Ss are here."
+    },
+    {
+      "start": 559.1094926757812,
+      "end": 562.3095048828125,
+      "text": "The A1 Mini is kind of my TPU printer."
+    },
+    {
+      "start": 562.3095048828125,
+      "end": 564.2294877929687,
+      "text": "The P1 sorry the not P1S."
+    },
+    {
+      "start": 564.2294877929687,
+      "end": 568.8695024414062,
+      "text": "The Prush Core 1 has really been my workhorse printer."
+    },
+    {
+      "start": 568.8695024414062,
+      "end": 579.1094926757812,
+      "text": "It's printing some PC CF right now from Prushment And I just want to move that to where the Centauri Carbon is to free up a little bit of space."
+    },
+    {
+      "start": 579.1094926757812,
+      "end": 580.6294816894531,
+      "text": "Also, why am I so zoomed in?"
+    },
+    {
+      "start": 580.6294816894531,
+      "end": 583.8294938964843,
+      "text": "That's better."
+    },
+    {
+      "start": 583.8294938964843,
+      "end": 585.90948046875,
+      "text": "I will message you on Discord if that's okay."
+    },
+    {
+      "start": 585.90948046875,
+      "end": 587.1894792480468,
+      "text": "Yeah, go ahead."
+    },
+    {
+      "start": 587.1894792480468,
+      "end": 588.3894914550781,
+      "text": "Absolutely fine."
+    },
+    {
+      "start": 588.3894914550781,
+      "end": 594.8695024414062,
+      "text": "I'm going to take this arm off because it's just going to get in the way whilst we're building."
+    },
+    {
+      "start": 594.8695024414062,
+      "end": 597.5094865722656,
+      "text": "But yeah, what's everyone else been up to?"
+    },
+    {
+      "start": 597.5094865722656,
+      "end": 603.0295061035156,
+      "text": "What projects have people been doing?"
+    },
+    {
+      "start": 606.5654998188019,
+      "end": 606.9654999141693,
+      "text": "You'd love it."
+    },
+    {
+      "start": 606.9654999141693,
+      "end": 607.9254997138977,
+      "text": "Cool."
+    },
+    {
+      "start": 607.9254997138977,
+      "end": 609.0455000762939,
+      "text": "It's in a state."
+    },
+    {
+      "start": 609.0455000762939,
+      "end": 613.1255,
+      "text": "Like, don't please understand that it is in a complete state."
+    },
+    {
+      "start": 613.1255,
+      "end": 626.4054987792969,
+      "text": "It's been in a state of me trying to get it up to scratch, finally getting there, and then it breaking soon afterwards for the last two years."
+    },
+    {
+      "start": 626.4054987792969,
+      "end": 630.8055003051758,
+      "text": "So, if you can work your magic on it and get it working, that's fine with me."
+    },
+    {
+      "start": 630.8055003051758,
+      "end": 640.0854990844726,
+      "text": "I'm just happy it's going to someone who I know is going to be able to take care of it and probably do a better job than I did."
+    },
+    {
+      "start": 640.0854990844726,
+      "end": 644.9655001525879,
+      "text": "But I just don't have time to be messing around with printers nowadays."
+    },
+    {
+      "start": 644.9655001525879,
+      "end": 647.5254977111816,
+      "text": "I would buy the carbon off you if you're interested."
+    },
+    {
+      "start": 647.5254977111816,
+      "end": 651.4454996948242,
+      "text": "Yeah, well, it's the CC1."
+    },
+    {
+      "start": 651.4454996948242,
+      "end": 653.2854998474121,
+      "text": "It's not the CC2."
+    },
+    {
+      "start": 653.2854998474121,
+      "end": 657.3654978637695,
+      "text": "But if you're happy with it, go ahead."
+    },
+    {
+      "start": 657.3654978637695,
+      "end": 664.3254969482422,
+      "text": "I had to replace the hot end fan with one of the Creality K2 fans because it was dead on arrival."
+    },
+    {
+      "start": 664.3254969482422,
+      "end": 666.005497253418,
+      "text": "It prints fine."
+    },
+    {
+      "start": 666.005497253418,
+      "end": 668.1655009155273,
+      "text": "It does surprisingly well with flexibles."
+    },
+    {
+      "start": 668.1655009155273,
+      "end": 670.005497253418,
+      "text": "I'll give you that much."
+    },
+    {
+      "start": 670.005497253418,
+      "end": 673.1255,
+      "text": "But yeah."
+    },
+    {
+      "start": 673.1255,
+      "end": 674.0854990844726,
+      "text": "Right."
+    },
+    {
+      "start": 674.0854990844726,
+      "end": 678.4054987792969,
+      "text": "First thing I need to do is I need to actually invert the whole thing because I need to put the bottom panel on."
+    },
+    {
+      "start": 678.4054987792969,
+      "end": 684.6454966430664,
+      "text": "And that's actually going to take a little bit of grunt work because of the tolerances I've given it."
+    },
+    {
+      "start": 684.6454966430664,
+      "end": 688.0854990844726,
+      "text": "There's a groove that goes all the way around the printed parts."
+    },
+    {
+      "start": 688.0854990844726,
+      "end": 693.0454981689453,
+      "text": "And that's what keeps the bottom panel on."
+    },
+    {
+      "start": 693.0454981689453,
+      "end": 694.8055003051758,
+      "text": "So I need to take the whole of this side off."
+    },
+    {
+      "start": 694.8055003051758,
+      "end": 697.605495727539,
+      "text": "I'm going to try, see if I can slide it in."
+    },
+    {
+      "start": 697.605495727539,
+      "end": 701.0454981689453,
+      "text": "I also need to replace all the feet anyway because I updated them."
+    },
+    {
+      "start": 701.0454981689453,
+      "end": 709.4454996948242,
+      "text": "So top feet off first."
+    },
+    {
+      "start": 709.4454996948242,
+      "end": 713.5254938964844,
+      "text": "I forgot that these are the torque screws, so they need a bigger screwdriver."
+    },
+    {
+      "start": 713.5254938964844,
+      "end": 715.3654978637695,
+      "text": "You always need a bigger screw, don't you?"
+    },
+    {
+      "start": 715.3654978637695,
+      "end": 721.2054942016601,
+      "text": "He would like to build it for me."
+    },
+    {
+      "start": 721.2054942016601,
+      "end": 723.5254938964844,
+      "text": "I appreciate that, mate."
+    },
+    {
+      "start": 723.5254938964844,
+      "end": 731.4454920654297,
+      "text": "And I there's a bit of me that goes, I want that printer still."
+    },
+    {
+      "start": 731.4454920654297,
+      "end": 739.7654993896484,
+      "text": "But there's another part of me that goes, I don't have the space for it."
+    },
+    {
+      "start": 739.7654993896484,
+      "end": 740.7254908447266,
+      "text": "And I would never use it."
+    },
+    {
+      "start": 740.7254908447266,
+      "end": 742.3254969482422,
+      "text": "I don't use the CC."
+    },
+    {
+      "start": 742.3254969482422,
+      "end": 744.4054987792969,
+      "text": "I don't use the CC1 because of it."
+    },
+    {
+      "start": 744.4054987792969,
+      "end": 745.8455012207031,
+      "text": "I'm going to have my Micron."
+    },
+    {
+      "start": 745.8455012207031,
+      "end": 756.5655024414062,
+      "text": "Once I've got Atlas up and running, I'm going to have my Micron, and I'm going to be able to build that."
+    },
+    {
+      "start": 756.5655024414062,
+      "end": 758.0854914550781,
+      "text": "And that's going to be my fun printer."
+    },
+    {
+      "start": 758.0854914550781,
+      "end": 759.5254938964844,
+      "text": "And it won't take up a lot of space."
+    },
+    {
+      "start": 759.5254938964844,
+      "end": 761.0454981689453,
+      "text": "And I can stick it in the kitchen or whatever."
+    },
+    {
+      "start": 761.0454981689453,
+      "end": 763.8455012207031,
+      "text": "Probably not the kitchen, actually."
+    },
+    {
+      "start": 763.8455012207031,
+      "end": 766.9654963378906,
+      "text": "Now that I think of it."
+    },
+    {
+      "start": 766.9654963378906,
+      "end": 772.2454951171875,
+      "text": "But yeah."
+    },
+    {
+      "start": 772.2454951171875,
+      "end": 783.6854975585937,
+      "text": "But by all means, if you want to get it ready and going and then donate it to a university or something like that, because you don't want it, feel free to."
+    },
+    {
+      "start": 783.6854975585937,
+      "end": 787.605495727539,
+      "text": "I just know I'm not in the state to be able to do that."
+    },
+    {
+      "start": 787.605495727539,
+      "end": 788.4054987792969,
+      "text": "Microns are great."
+    },
+    {
+      "start": 788.4054987792969,
+      "end": 789.5254938964844,
+      "text": "I just got a second one."
+    },
+    {
+      "start": 789.5254938964844,
+      "end": 790.8854945068359,
+      "text": "Yeah, I love the Micron."
+    },
+    {
+      "start": 790.8854945068359,
+      "end": 805.2854884033203,
+      "text": "I do want to do a custom milled bed and a custom built Y gantry that's just a solid piece of aluminium."
+    },
+    {
+      "start": 805.2854884033203,
+      "end": 807.9254877929687,
+      "text": "Yeah, it is the Y gantry."
+    },
+    {
+      "start": 807.9254877929687,
+      "end": 895.4455073242187,
+      "text": "The flying gantry part I need this screwdriver Also Brisket's just having dinner so if you hear ravenous chomping it's him Jake would you say it's worth worth replacing the CC1 bed I don't know it the machine was really really good when I got it don't get me wrong I was surprised by how nice it was it wasn't as nice as the P1S was when I got that but it was way cheaper at the time at least so I think if I went if I if I wanted to I would probably go through with the whole canvas head rebuild because there's a canvas version the multi-material unit AMS thing for the CC1 now I would go ahead with the head rebuild and see if that made a difference because the new canvas is like 30 quid It's not that expensive and I'd see if that would see if that fixed the error first."
+    },
+    {
+      "start": 895.4455073242187,
+      "end": 899.8455012207031,
+      "text": "Hi Jake, do you know what UK vendors will be selling V2 kits?"
+    },
+    {
+      "start": 899.8455012207031,
+      "end": 903.8455012207031,
+      "text": "DMS most likely and that's pretty much it"
+    },
+    {
+      "start": 904.9679999785424,
+      "end": 1201.287998779297,
+      "text": "There's not really many vendors to choose from 123D might the thing is with 123D is from what they were talking to in Smurf to me about in Smurf they got kits far after the release pretty late after the release so they basically got all the kits that were left in the factory in China from LDO and at that point in time V2 was already a thing so they weren't able to sell them and the want the need for machines in the UK is really low even even at even during the golden age even during the Voron Golden Age Kits in the UK were not a very big thing they're not a big part of the market it's mostly the US I heard they compare decently to the P1S yeah I like like I said I like it I don't like I actually prefer the CC1 to the CC2 I don't like how they've laid out the CC2 Hey oh that makes my heart sing knowing that that just slides in Hell yeah that was easier than I was expecting I still need to take these feet off though one crease grant you would be crazy yeah I think so I do want to build the bed as well I know I wouldn't buy them directly from bamboo seeing as how bamboo is right now but I would like to use the bamboo size 180 mil build plates the the ones that are on the A1 mini just because I like the way that they clip in I'd probably buy a third-party one though because I don't really want to give bamboo any more money if I can help it that saying that said I also do need to be realistic and things like filament especially just for testing where half it gets thrown away anyway is probably easier for me to get from bamboo which is kind of annoying but c'est love say la bloody v awesome i need to stick some heat sets in uh you might be able to see all the v2 parts behind me so yes i'm actually going orange as main and black as accent colour for the v2 build so i'm going opposite i will be clearing all this out the way i ran out of um the asa the uh prusa orange asa and i wanted to do two specific parts in uh glass filled so i got some glass filled abs printed them out and the colors on them were so far off they were more more like a whitey orange so i also ordered some glass filled ptg and as much as i hate it it's the closest thing to the prusher orange that i can get in a glass field so on camera it doesn't really matter they show up as the same colour on camera it's but i'll know i'll know that they aren't the same reason i wanted those to be glass fiber specifically is because they see the most tortional load of the bed right you over there so i can see chat perfect i'm gonna swap over to that one why is chat not loading chat's not loading for some reason chat are you there there we go there we go how long are you drawing p in it i like the new dry i got jake how long am i drawing petg uh i don't i have a um what's it called uh"
+    },
+    {
+      "start": 1204.9199999141692,
+      "end": 1209.239999847412,
+      "text": "What's it called?"
+    },
+    {
+      "start": 1209.239999847412,
+      "end": 1209.8799997138976,
+      "text": "What's the word?"
+    },
+    {
+      "start": 1209.8799997138976,
+      "end": 1211.4799996185302,
+      "text": "You know, the thing."
+    },
+    {
+      "start": 1211.4799996185302,
+      "end": 1212.279999809265,
+      "text": "You know the thing."
+    },
+    {
+      "start": 1212.279999809265,
+      "end": 1221.0000000762939,
+      "text": "The thing I have a P1S which has a Panda Breath in it."
+    },
+    {
+      "start": 1221.0000000762939,
+      "end": 1221.9599991607665,
+      "text": "That's the one."
+    },
+    {
+      "start": 1221.9599991607665,
+      "end": 1223.5599995422363,
+      "text": "It has a Panda Breath in it."
+    },
+    {
+      "start": 1223.5599995422363,
+      "end": 1226.4399987030029,
+      "text": "And I use that as like a bulk dryer nowadays."
+    },
+    {
+      "start": 1226.4399987030029,
+      "end": 1229.159999923706,
+      "text": "I stick the bed on Depending on what it is."
+    },
+    {
+      "start": 1229.159999923706,
+      "end": 1234.519998626709,
+      "text": "If it's PTG, just straight PTG, then I'll do 80 degrees."
+    },
+    {
+      "start": 1234.519998626709,
+      "end": 1240.3599987792968,
+      "text": "I'll stick that on 80 degrees C and then the chamber will get up to 60 with the Panda Breath."
+    },
+    {
+      "start": 1240.3599987792968,
+      "end": 1245.3999996948241,
+      "text": "And I'll just leave that in there overnight."
+    },
+    {
+      "start": 1245.3999996948241,
+      "end": 1247.7999974060058,
+      "text": "And that's how I dry PTG and AB."
+    },
+    {
+      "start": 1247.7999974060058,
+      "end": 1249.4799977111816,
+      "text": "I even dry my ABS in there."
+    },
+    {
+      "start": 1249.4799977111816,
+      "end": 1257.1599980163573,
+      "text": "Because the thing is, with ABS, the base polymer doesn't pull up water very much."
+    },
+    {
+      "start": 1257.1599980163573,
+      "end": 1262.6000004577636,
+      "text": "But the fibers themselves do."
+    },
+    {
+      "start": 1262.6000004577636,
+      "end": 1270.5199948120116,
+      "text": "The actual carbon fibers get saturated very, very, very quickly."
+    },
+    {
+      "start": 1270.5199948120116,
+      "end": 1271.3999996948241,
+      "text": "Okay, fair enough."
+    },
+    {
+      "start": 1271.3999996948241,
+      "end": 1271.800001220703,
+      "text": "Cool."
+    },
+    {
+      "start": 1271.800001220703,
+      "end": 1273.8799954223632,
+      "text": "What orange did I go for?"
+    },
+    {
+      "start": 1273.8799954223632,
+      "end": 1277.959997253418,
+      "text": "It was the Everyone?"
+    },
+    {
+      "start": 1277.959997253418,
+      "end": 1285.6399975585937,
+      "text": "Everyone PTG CF Anyone going to Merf next week?"
+    },
+    {
+      "start": 1285.6399975585937,
+      "end": 1304.3599987792968,
+      "text": "I would love to go, but I'm not big enough of a YouTuber to get sponsored to do long trips across the pond because it would be at least two grand for me to do it, I think."
+    },
+    {
+      "start": 1304.3599987792968,
+      "end": 1306.8399945068359,
+      "text": "Hey, VNC Avanucker."
+    },
+    {
+      "start": 1306.8399945068359,
+      "end": 1309.08,
+      "text": "Hey, Avanuka."
+    },
+    {
+      "start": 1309.08,
+      "end": 1310.1200009155273,
+      "text": "I'm butchering that name."
+    },
+    {
+      "start": 1310.1200009155273,
+      "end": 1313.559995727539,
+      "text": "Sorry."
+    },
+    {
+      "start": 1313.559995727539,
+      "end": 1316.5199948120116,
+      "text": "Trying not to make fun, I swear."
+    },
+    {
+      "start": 1316.5199948120116,
+      "end": 1325.959997253418,
+      "text": "I'm just really bad at not making fun of people."
+    },
+    {
+      "start": 1325.959997253418,
+      "end": 1327.08,
+      "text": "This feels sacrilegious."
+    },
+    {
+      "start": 1327.08,
+      "end": 1342.8399945068359,
+      "text": "I'm using an M3 heat insert tool for an M5 heat insert."
+    },
+    {
+      "start": 1342.8399945068359,
+      "end": 1343.800001220703,
+      "text": "I missed the last stream."
+    },
+    {
+      "start": 1343.800001220703,
+      "end": 1348.1999951171874,
+      "text": "What's the best way to keep info such as LDO kits?"
+    },
+    {
+      "start": 1348.1999951171874,
+      "end": 1351.6399975585937,
+      "text": "Get on Discord."
+    },
+    {
+      "start": 1351.6399975585937,
+      "end": 1354.1999951171874,
+      "text": "Come to streams."
+    },
+    {
+      "start": 1354.1999951171874,
+      "end": 1358.039991455078,
+      "text": "Do cool shit."
+    },
+    {
+      "start": 1358.039991455078,
+      "end": 1362.2799969482421,
+      "text": "And have fun."
+    },
+    {
+      "start": 1362.2799969482421,
+      "end": 1365.4799938964843,
+      "text": "I know I'm putting these in two completely separate ways."
+    },
+    {
+      "start": 1365.4799938964843,
+      "end": 1368.8399945068359,
+      "text": "There's no correct way of doing it."
+    },
+    {
+      "start": 1368.8399945068359,
+      "end": 1370.6799908447265,
+      "text": "They don't see any load."
+    },
+    {
+      "start": 1370.6799908447265,
+      "end": 1376.8399945068359,
+      "text": "No pulling load, so it's fine."
+    },
+    {
+      "start": 1376.8399945068359,
+      "end": 1380.9999981689452,
+      "text": "Maybe we can start figuring out a way to get you to Remurf next year."
+    },
+    {
+      "start": 1380.9999981689452,
+      "end": 1391.08,
+      "text": "Maybe Remurf's the big one that I want to go to."
+    },
+    {
+      "start": 1391.08,
+      "end": 1397.4799938964843,
+      "text": "You know, the other big one I want to go through is Prague Maker Fair."
+    },
+    {
+      "start": 1397.4799938964843,
+      "end": 1399.6399975585937,
+      "text": "I really, really want to do Prague Maker Fair."
+    },
+    {
+      "start": 1399.6399975585937,
+      "end": 1411.6399975585937,
+      "text": "And I might actually be able to, since Prussia's sponsoring this build, obviously, because of the Prussia colors."
+    },
+    {
+      "start": 1411.6399975585937,
+      "end": 1432.4400006103515,
+      "text": "Since they're sponsoring this build, it's might be that they want me to take it over to Prague and show it off at Maker Fair."
+    },
+    {
+      "start": 1432.4400006103515,
+      "end": 1436.1199932861327,
+      "text": "Oh, you know the big pile of prints that I had on the floor?"
+    },
+    {
+      "start": 1436.1199932861327,
+      "end": 1442.1199932861327,
+      "text": "Yeah, that has since doubled since last stream."
+    },
+    {
+      "start": 1442.1199932861327,
+      "end": 1466.8399792480468,
+      "text": "That's what it takes when you're prototyping for stuff."
+    },
+    {
+      "start": 1466.8399792480468,
+      "end": 1471.08,
+      "text": "Also, really, really late to the game on this one, but has anyone played KCD2?"
+    },
+    {
+      "start": 1471.08,
+      "end": 1479.1599865722656,
+      "text": "Kingdom Come Deliverance 2 Did I fucked this up?"
+    },
+    {
+      "start": 1479.1599865722656,
+      "end": 1483.7199841308593,
+      "text": "Have I done something wrong here?"
+    },
+    {
+      "start": 1483.7199841308593,
+      "end": 1484.8399792480468,
+      "text": "These do pop out, don't they?"
+    },
+    {
+      "start": 1484.8399792480468,
+      "end": 1489.1599865722656,
+      "text": "Yeah, they do."
+    },
+    {
+      "start": 1489.1599865722656,
+      "end": 1490.5200024414062,
+      "text": "Why are you not catching then?"
+    },
+    {
+      "start": 1490.5200024414062,
+      "end": 1492.8399792480468,
+      "text": "Oh, there we go."
+    },
+    {
+      "start": 1492.8399792480468,
+      "end": 1497.319990234375,
+      "text": "I had to spin it one more time before it engaged."
+    },
+    {
+      "start": 1497.319990234375,
+      "end": 1498.4399853515624,
+      "text": "How am I going to get it there?"
+    },
+    {
+      "start": 1498.4399853515624,
+      "end": 1500.7599926757812,
+      "text": "Magic."
+    },
+    {
+      "start": 1500.7599926757812,
+      "end": 1502.5200024414062,
+      "text": "Magic and Pixie Dust."
+    },
+    {
+      "start": 1503.5749999785423,
+      "end": 1574.2950003051758,
+      "text": "And fairies and lots of port because no magic can be completed without being utterly utterly wankered If you don't have a hammer anything's a hammer Except for this piece Let's take that out so I can actually line it up and see where the hole is giggity To be honest I would probably make a road trip of it I've always wanted to go to Czech Republic anyway because it's a it's a huge climbing destination for those who are not nerdy climbers like me So I would probably do a big road trip and just include Proud Maker Fair in that and this fits in the back of my car."
+    },
+    {
+      "start": 1574.2950003051758,
+      "end": 1588.9349996948242,
+      "text": "I have actually tested this it does fit in the back of my car Sounds like fun."
+    },
+    {
+      "start": 1588.9349996948242,
+      "end": 1590.4549963378906,
+      "text": "I'd like to do more climbing."
+    },
+    {
+      "start": 1590.4549963378906,
+      "end": 1593.6550009155274,
+      "text": "Hey, you know, I was a climbing instructor for the last seven years."
+    },
+    {
+      "start": 1593.6550009155274,
+      "end": 1597.8149969482422,
+      "text": "Oh, I was an outdoor instructor, which included climbing."
+    },
+    {
+      "start": 1597.8149969482422,
+      "end": 1601.5749990844727,
+      "text": "I wasn't specifically a climbing instructor."
+    },
+    {
+      "start": 1601.5749990844727,
+      "end": 1608.1349966430664,
+      "text": "Real climbing instructors get mad if you tell people you're a climbing instructor, but you're not a full-time climbing instructor."
+    },
+    {
+      "start": 1608.1349966430664,
+      "end": 1610.2950003051758,
+      "text": "Climbers are weird, man."
+    },
+    {
+      "start": 1610.2950003051758,
+      "end": 1627.6550009155274,
+      "text": "Climbers are weird now."
+    },
+    {
+      "start": 1627.6550009155274,
+      "end": 1629.494997253418,
+      "text": "A question for you guys."
+    },
+    {
+      "start": 1629.494997253418,
+      "end": 1634.7750036621094,
+      "text": "Do you prefer this close-up look when I'm working over here?"
+    },
+    {
+      "start": 1634.7750036621094,
+      "end": 1635.4150030517578,
+      "text": "Does it make it..."
+    },
+    {
+      "start": 1635.4150030517578,
+      "end": 1636.6950018310547,
+      "text": "Is it any better?"
+    },
+    {
+      "start": 1636.6950018310547,
+      "end": 1645.1749975585938,
+      "text": "Is it any worse?"
+    },
+    {
+      "start": 1645.1749975585938,
+      "end": 1655.3350012207031,
+      "text": "I'm going to hope and pray that these inserts are where I left them."
+    },
+    {
+      "start": 1655.3350012207031,
+      "end": 1664.9349920654297,
+      "text": "Obviously, we're doing this assembly in a very backward way because the panel would probably go on first before you added all this stuff."
+    },
+    {
+      "start": 1664.9349920654297,
+      "end": 1682.1349890136719,
+      "text": "It's just that sometimes when you're doing development, you've got to do things in the wrong order."
+    },
+    {
+      "start": 1682.1349890136719,
+      "end": 1683.094995727539,
+      "text": "No, no, no, no."
+    },
+    {
+      "start": 1683.094995727539,
+      "end": 1686.4549963378906,
+      "text": "It's not just when you don't have a hammer."
+    },
+    {
+      "start": 1686.4549963378906,
+      "end": 1688.7749884033203,
+      "text": "It's anytime you need to hit something."
+    },
+    {
+      "start": 1688.7749884033203,
+      "end": 1689.8949987792969,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 1689.8949987792969,
+      "end": 1693.4150030517578,
+      "text": "Come on."
+    },
+    {
+      "start": 1693.4150030517578,
+      "end": 1700.1349890136719,
+      "text": "But the thing is, I always need to hit something."
+    },
+    {
+      "start": 1700.1349890136719,
+      "end": 1711.2549993896484,
+      "text": "I always need to hit something."
+    },
+    {
+      "start": 1711.2549993896484,
+      "end": 1712.374994506836,
+      "text": "Right."
+    },
+    {
+      "start": 1712.374994506836,
+      "end": 1714.2949926757813,
+      "text": "Has anyone been milling some fun stuff?"
+    },
+    {
+      "start": 1714.2949926757813,
+      "end": 1717.7349951171875,
+      "text": "I know Jose in chat."
+    },
+    {
+      "start": 1717.7349951171875,
+      "end": 1727.9750006103516,
+      "text": "He's getting his mile ready to take to remirth."
+    },
+    {
+      "start": 1727.9750006103516,
+      "end": 1730.2149908447266,
+      "text": "Oh, the universe has betrayed me."
+    },
+    {
+      "start": 1730.2149908447266,
+      "end": 1735.7349951171875,
+      "text": "The inserts are not in the same place I left them."
+    },
+    {
+      "start": 1735.7349951171875,
+      "end": 1759.8149816894531,
+      "text": "At least this one isn't a little bit more gotcha."
+    },
+    {
+      "start": 1759.8149816894531,
+      "end": 1763.1749975585938,
+      "text": "Gucha Merf."
+    },
+    {
+      "start": 1763.1749975585938,
+      "end": 1763.8949987792969,
+      "text": "Not Remurf."
+    },
+    {
+      "start": 1763.8949987792969,
+      "end": 1766.0550024414063,
+      "text": "Sorry."
+    },
+    {
+      "start": 1766.0550024414063,
+      "end": 1768.9350073242188,
+      "text": "I've been milling around the house."
+    },
+    {
+      "start": 1768.9350073242188,
+      "end": 1773.1749975585938,
+      "text": "Well, that's just going to cause a mess."
+    },
+    {
+      "start": 1773.1749975585938,
+      "end": 1775.0149938964844,
+      "text": "Shamanish, do you have a mano yet?"
+    },
+    {
+      "start": 1775.0149938964844,
+      "end": 1778.5349829101563,
+      "text": "Or are you just lurking with us?"
+    },
+    {
+      "start": 1778.5349829101563,
+      "end": 1784.0550024414063,
+      "text": "Because I've seen you on stream a few times now."
+    },
+    {
+      "start": 1784.0550024414063,
+      "end": 1786.1349890136719,
+      "text": "Are you also Shamanish on the Discord?"
+    },
+    {
+      "start": 1786.1349890136719,
+      "end": 1791.3350012207031,
+      "text": "Or are you under a different name on Discord?"
+    },
+    {
+      "start": 1791.3350012207031,
+      "end": 1793.0149938964844,
+      "text": "This is another one of the kind of..."
+    },
+    {
+      "start": 1793.0149938964844,
+      "end": 1793.9749853515625,
+      "text": "It's not annoying."
+    },
+    {
+      "start": 1793.9749853515625,
+      "end": 1795.0149938964844,
+      "text": "It's not annoying."
+    },
+    {
+      "start": 1795.0149938964844,
+      "end": 1796.6949865722656,
+      "text": "It's just weird."
+    },
+    {
+      "start": 1796.6949865722656,
+      "end": 1798.1349890136719,
+      "text": "Like, people will have different names."
+    },
+    {
+      "start": 1798.1349890136719,
+      "end": 1801.09498046875,
+      "text": "Like universes on Yeka in real life."
+    },
+    {
+      "start": 1802.0649999952316,
+      "end": 1818.8650003051757,
+      "text": "But his discord is universe Dirinator is pretty easy because it's got Ollie Dia in it."
+    },
+    {
+      "start": 1818.8650003051757,
+      "end": 1821.9849992370605,
+      "text": "So I know who that is not on Discord yet."
+    },
+    {
+      "start": 1821.9849992370605,
+      "end": 1830.5449987030029,
+      "text": "Ooh, how did you find us then Made a mistake in cam that might have brought my CNC out of tram check stream general?"
+    },
+    {
+      "start": 1830.5449987030029,
+      "end": 1831.344999847412,
+      "text": "Oh god."
+    },
+    {
+      "start": 1831.344999847412,
+      "end": 1883.1049981689453,
+      "text": "Alright, we've got to check this out We gotta check this out stream general What I wanted versus what I got confused Oh oh yep yep, I see it now Yeah How did you manage that How did you manage that also Jason sent me a message I'm just gonna have to check this message from Jason."
+    },
+    {
+      "start": 1883.1049981689453,
+      "end": 1915.185,
+      "text": "This is LDO Jason by the way Excuse me two seconds Do you know how many kits will be available when you open up three sellers we're not ready and didn't want some reset to wait too long time after resells the price Okay Never mind Never mind Right God, I'm getting distracted Where's Yormangand when you need him?"
+    },
+    {
+      "start": 1915.185,
+      "end": 1922.7049966430664,
+      "text": "This is why we have Yormang Gand on stream because he stops me from getting too distracted I didn't watch the simulation."
+    },
+    {
+      "start": 1922.7049966430664,
+      "end": 1927.664995727539,
+      "text": "Oh no next time I'm using bore what were you trying to do?"
+    },
+    {
+      "start": 1927.664995727539,
+      "end": 2084.5449853515624,
+      "text": "What operation were you trying to use were you trying to do a drill op with an end mill that is possible on a larger CNC probably just not a good idea on Milo though A normal bore op is fine but uh drilling with a an end mill is not exactly what you want to be doing if you can avoid it right now I've been thinking it's been a while since I've followed a project like a like obviously I follow the Voron project kind of vaguely nowadays I don't really follow it as much as I used to But I'm looking for a project that I can actually constantly follow like I know the annex engineering guys have basically stopped existing other than the guys who work on is it the archetype hot ends but like the K2 and all their variants are kind of lost to the wind now is there any cool projects that people are doing I had to look back into the rack robotic stuff and Jesus his most of his team's pretty much left him I just want there to be more projects that I can get behind and put my voice behind I know my voice isn't very big in the community but I would like to support some other projects Also has anyone been following along with the drama for Stonewolf Looking for a CNC for a while and somewhere MM came up have been waiting for the V2 and I'm the mech design guy at work so want to add CNCs to my skill set."
+    },
+    {
+      "start": 2084.5449853515624,
+      "end": 2085.8249841308593,
+      "text": "Oh cool."
+    },
+    {
+      "start": 2085.8249841308593,
+      "end": 2097.5849938964843,
+      "text": "What's your work if you don't mind me asking if you don't have to kill me after you tell me type thing"
+    },
+    {
+      "start": 2109.0350000762937,
+      "end": 2118.714999427795,
+      "text": "I had a friend of mine who always introduced himself as the lead engineer for his work."
+    },
+    {
+      "start": 2118.714999427795,
+      "end": 2125.115,
+      "text": "The thing is, he doesn't work for an engineering company, nor does he work for any company that works with engineers."
+    },
+    {
+      "start": 2125.115,
+      "end": 2127.9149992370603,
+      "text": "He works for Tesco's."
+    },
+    {
+      "start": 2127.9149992370603,
+      "end": 2136.7950003051756,
+      "text": "So technically, he was the lead engineer because there were no other engineers."
+    },
+    {
+      "start": 2136.7950003051756,
+      "end": 2162.874998321533,
+      "text": "But also, technically, he wasn't an engineer."
+    },
+    {
+      "start": 2162.874998321533,
+      "end": 2171.835001220703,
+      "text": "Oh, squeeze out I've got a load of squeeze out that I didn't do properly."
+    },
+    {
+      "start": 2171.835001220703,
+      "end": 2179.835001220703,
+      "text": "Didn't deal with properly There we go."
+    },
+    {
+      "start": 2179.835001220703,
+      "end": 2182.714998474121,
+      "text": "That should be fine now."
+    },
+    {
+      "start": 2182.714998474121,
+      "end": 2188.634996643066,
+      "text": "We might hear some squeaks just because it's going to engage with the plastic."
+    },
+    {
+      "start": 2188.634996643066,
+      "end": 2189.034998168945,
+      "text": "I don't know."
+    },
+    {
+      "start": 2189.034998168945,
+      "end": 2192.0749990844724,
+      "text": "We didn't hear any squeaks."
+    },
+    {
+      "start": 2192.0749990844724,
+      "end": 2193.594995727539,
+      "text": "Lovely."
+    },
+    {
+      "start": 2193.594995727539,
+      "end": 2196.4750006103513,
+      "text": "Lovely, lovely, lovely, jubbly."
+    },
+    {
+      "start": 2196.4750006103513,
+      "end": 2198.7950003051756,
+      "text": "Alright, he needs to go this way around."
+    },
+    {
+      "start": 2198.7950003051756,
+      "end": 2201.754999389648,
+      "text": "Drama."
+    },
+    {
+      "start": 2201.754999389648,
+      "end": 2204.155000915527,
+      "text": "Yes."
+    },
+    {
+      "start": 2204.155000915527,
+      "end": 2206.2349951171873,
+      "text": "Drama."
+    },
+    {
+      "start": 2206.2349951171873,
+      "end": 2210.634996643066,
+      "text": "Yeah, so effectively, and I know this from a few sources."
+    },
+    {
+      "start": 2210.634996643066,
+      "end": 2214.634996643066,
+      "text": "I've known it for a while, but I wanted to keep it."
+    },
+    {
+      "start": 2214.634996643066,
+      "end": 2216.5549948120115,
+      "text": "I was asked to keep it quiet."
+    },
+    {
+      "start": 2216.5549948120115,
+      "end": 2223.2749960327146,
+      "text": "The guy behind Stonewolf started a Kickstarter for it."
+    },
+    {
+      "start": 2223.2749960327146,
+      "end": 2227.8349935913084,
+      "text": "And then, so he's got this 3D printer called Stonewolf."
+    },
+    {
+      "start": 2227.8349935913084,
+      "end": 2229.034998168945,
+      "text": "It's really, really cool."
+    },
+    {
+      "start": 2229.034998168945,
+      "end": 2231.275003662109,
+      "text": "It's basically a billet gantry."
+    },
+    {
+      "start": 2231.275003662109,
+      "end": 2235.275003662109,
+      "text": "So just a completely CNC frame."
+    },
+    {
+      "start": 2235.275003662109,
+      "end": 2236.4750006103513,
+      "text": "And it looks amazing."
+    },
+    {
+      "start": 2236.4750006103513,
+      "end": 2242.2349951171873,
+      "text": "The design work that went into it was genuinely, genuinely really good."
+    },
+    {
+      "start": 2242.2349951171873,
+      "end": 2251.835001220703,
+      "text": "The problem is he placed a bunch of Kickstarter orders from it, put it at a price that was completely unbelievable and unreasonable."
+    },
+    {
+      "start": 2251.835001220703,
+      "end": 2253.6749975585935,
+      "text": "Like, it was way too cheap for what it was."
+    },
+    {
+      "start": 2253.6749975585935,
+      "end": 2256.7149908447263,
+      "text": "I think it was 1,300 euros or something like that."
+    },
+    {
+      "start": 2256.7149908447263,
+      "end": 2263.6749975585935,
+      "text": "1,300 to 1,500, and couldn't pull through with it."
+    },
+    {
+      "start": 2263.6749975585935,
+      "end": 2275.354990234375,
+      "text": "So he's now only offering refunds on people who have only just placed orders."
+    },
+    {
+      "start": 2275.354990234375,
+      "end": 2280.3949987792967,
+      "text": "Industrial sensors, just keep it vague."
+    },
+    {
+      "start": 2280.3949987792967,
+      "end": 2282.8749945068357,
+      "text": "So, like, the design work was actually really well done."
+    },
+    {
+      "start": 2282.8749945068357,
+      "end": 2285.4349920654295,
+      "text": "I'm not disputing that at all."
+    },
+    {
+      "start": 2285.4349920654295,
+      "end": 2299.27498840332,
+      "text": "But what he did was he took people's money and tried to invest it perhaps, lost it all, and now people aren't getting their printers."
+    },
+    {
+      "start": 2299.27498840332,
+      "end": 2306.794992675781,
+      "text": "Which to be fair is the risk that you run when you back a Kickstarter."
+    },
+    {
+      "start": 2306.794992675781,
+      "end": 2309.354990234375,
+      "text": "Like, you know that as going in."
+    },
+    {
+      "start": 2309.354990234375,
+      "end": 2311.1950018310545,
+      "text": "It still doesn't make it any better, though."
+    },
+    {
+      "start": 2311.1950018310545,
+      "end": 2316.3949987792967,
+      "text": "Doesn't make it feel any less bad."
+    },
+    {
+      "start": 2316.3949987792967,
+      "end": 2317.1950018310545,
+      "text": "Wait, what?"
+    },
+    {
+      "start": 2317.1950018310545,
+      "end": 2318.555002441406,
+      "text": "I swear he has to refund them."
+    },
+    {
+      "start": 2318.555002441406,
+      "end": 2321.115,
+      "text": "No, he doesn't have to refund them."
+    },
+    {
+      "start": 2321.115,
+      "end": 2321.994989624023,
+      "text": "That's the thing."
+    },
+    {
+      "start": 2321.994989624023,
+      "end": 2327.9149877929685,
+      "text": "He only needs to refund the things, the ones that he stated that he can refund."
+    },
+    {
+      "start": 2327.9149877929685,
+      "end": 2338.314996948242,
+      "text": "So anything that was part of the Kickstarter prior to, I think, a month ago or whatever, they've lost their money, and that's part of the deal of Kickstarter."
+    },
+    {
+      "start": 2338.314996948242,
+      "end": 2346.554987182617,
+      "text": "Do not invest in anything to do with Kickstarter if you cannot afford to burn that money, right?"
+    },
+    {
+      "start": 2346.554987182617,
+      "end": 2357.115,
+      "text": "Because there's a 50-50% chance that you are not getting that money or that item that you backed at all."
+    },
+    {
+      "start": 2357.115,
+      "end": 2360.794992675781,
+      "text": "That's part of the contract that you sign."
+    },
+    {
+      "start": 2360.794992675781,
+      "end": 2363.59498046875,
+      "text": "Kickstarter is like gambling."
+    },
+    {
+      "start": 2363.59498046875,
+      "end": 2365.034982910156,
+      "text": "Yeah."
+    },
+    {
+      "start": 2365.034982910156,
+      "end": 2365.9149877929685,
+      "text": "Yep, it is."
+    },
+    {
+      "start": 2365.9149877929685,
+      "end": 2366.555002441406,
+      "text": "It is basically."
+    },
+    {
+      "start": 2366.555002441406,
+      "end": 2368.314981689453,
+      "text": "It's not just, it's not like gambling."
+    },
+    {
+      "start": 2368.314981689453,
+      "end": 2369.6749975585935,
+      "text": "It is gambling."
+    },
+    {
+      "start": 2369.6749975585935,
+      "end": 2387.1949865722654,
+      "text": "It's high stakes gambling on people's integrity, their intelligence, whether or not they can hold up to their side of a bargain."
+    },
+    {
+      "start": 2387.1949865722654,
+      "end": 2393.754984130859,
+      "text": "It is 100% gambling."
+    },
+    {
+      "start": 2393.754984130859,
+      "end": 2403.835001220703,
+      "text": "The difference is, it's gambling with hardware that you probably won't be able to resell even if it was given to you."
+    },
+    {
+      "start": 2404.639999985695,
+      "end": 2405.439999938011,
+      "text": "And it flopped."
+    },
+    {
+      "start": 2405.439999938011,
+      "end": 2409.119999885559,
+      "text": "So you're gambling twice, not just once."
+    },
+    {
+      "start": 2409.119999885559,
+      "end": 2431.0399990081787,
+      "text": "Especially for things like bamboo printers or anything with a closed source where you rely on that company for spare parts and troubleshooting and all that kind of stuff."
+    },
+    {
+      "start": 2431.0399990081787,
+      "end": 2438.0799980163574,
+      "text": "I need smaller panel now."
+    },
+    {
+      "start": 2438.0799980163574,
+      "end": 2438.4799995422363,
+      "text": "Good job."
+    },
+    {
+      "start": 2438.4799995422363,
+      "end": 2440.2399978637695,
+      "text": "I have never backed big value things."
+    },
+    {
+      "start": 2440.2399978637695,
+      "end": 2445.9199981689453,
+      "text": "I've never backed anything on Kickstarter."
+    },
+    {
+      "start": 2445.9199981689453,
+      "end": 2447.599998474121,
+      "text": "I don't believe in Kickstarter."
+    },
+    {
+      "start": 2447.599998474121,
+      "end": 2454.0799980163574,
+      "text": "Especially don't believe big companies doing Kickstarter things."
+    },
+    {
+      "start": 2454.0799980163574,
+      "end": 2455.439998626709,
+      "text": "Killer Prince lost his money."
+    },
+    {
+      "start": 2455.439998626709,
+      "end": 2458.5599975585938,
+      "text": "He put a video out today about it."
+    },
+    {
+      "start": 2458.5599975585938,
+      "end": 2461.03999710083,
+      "text": "His printer went to someone else."
+    },
+    {
+      "start": 2461.03999710083,
+      "end": 2474.6399993896484,
+      "text": "A fair I always thought you might not always get a fully working product, but you would get to share a share of the hardware if it's never finalized."
+    },
+    {
+      "start": 2474.6399993896484,
+      "end": 2491.5199966430664,
+      "text": "No, the thing is, a lot of failed Kickstarters continue to be companies still."
+    },
+    {
+      "start": 2491.5199966430664,
+      "end": 2493.759994506836,
+      "text": "So look at Samurai CNC, right?"
+    },
+    {
+      "start": 2493.759994506836,
+      "end": 2496.479995727539,
+      "text": "Do us a favor, everyone."
+    },
+    {
+      "start": 2496.479995727539,
+      "end": 2498.9599990844727,
+      "text": "Just go over to the Samurai CNC page."
+    },
+    {
+      "start": 2498.9599990844727,
+      "end": 2508.7999954223633,
+      "text": "Now they were pretty much the closest to an affordable commercial CNC system."
+    },
+    {
+      "start": 2508.7999954223633,
+      "end": 2509.1199951171875,
+      "text": "Right?"
+    },
+    {
+      "start": 2509.1199951171875,
+      "end": 2511.4399948120117,
+      "text": "Proper epoxy granite ways."
+    },
+    {
+      "start": 2511.4399948120117,
+      "end": 2512.3999938964844,
+      "text": "Sorry, not ways."
+    },
+    {
+      "start": 2512.3999938964844,
+      "end": 2524.9599990844727,
+      "text": "Proper epoxy granite machine bases and structures and ball screws HDR 25 rails and HDR 30 rails for everything."
+    },
+    {
+      "start": 2524.9599990844727,
+      "end": 2526.879997253418,
+      "text": "Proper, proper looking machine."
+    },
+    {
+      "start": 2526.879997253418,
+      "end": 2542.800003051758,
+      "text": "They failed, but they're still in operation and they're still making money, but they make money on mostly pre-orders now for machines that they don't actually have."
+    },
+    {
+      "start": 2542.800003051758,
+      "end": 2550.0,
+      "text": "They're meant to have some five-axis smart turning system coming out sometime in future."
+    },
+    {
+      "start": 2550.0,
+      "end": 2554.720001220703,
+      "text": "It's been about a year since I actually looked them up."
+    },
+    {
+      "start": 2554.720001220703,
+      "end": 2561.279998779297,
+      "text": "I need to loosen these bolts off at the back."
+    },
+    {
+      "start": 2561.279998779297,
+      "end": 2561.9199981689453,
+      "text": "Nope."
+    },
+    {
+      "start": 2561.9199981689453,
+      "end": 2563.279998779297,
+      "text": "Wrong screwdriver."
+    },
+    {
+      "start": 2563.279998779297,
+      "end": 2584.8799896240234,
+      "text": "Right screwdriver."
+    },
+    {
+      "start": 2584.8799896240234,
+      "end": 2590.3999938964844,
+      "text": "The worst, worst bit, I think, is that Kickstarter will still get its cut."
+    },
+    {
+      "start": 2590.3999938964844,
+      "end": 2603.9199981689453,
+      "text": "Because Kickstarter gets, I think, a 10% cut on everything that goes through them."
+    },
+    {
+      "start": 2603.9199981689453,
+      "end": 2616.479995727539,
+      "text": "And for a lot of people, they think that Kickstarter is the only way to enable them to be able to do the things that they want to do in terms of if they have a company or an idea or something that they want to get off the ground."
+    },
+    {
+      "start": 2616.479995727539,
+      "end": 2626.239990234375,
+      "text": "So you're encouraged to sell your product for cheaper and you're getting a cut taken away from you."
+    },
+    {
+      "start": 2626.239990234375,
+      "end": 2633.8399963378906,
+      "text": "I've liked plenty of things, some want to be Arduino stuff, but most died after fulfillment due to lacking support."
+    },
+    {
+      "start": 2633.8399963378906,
+      "end": 2638.7999877929688,
+      "text": "Had one outright scam where they took my money and ran, and the rest are board games."
+    },
+    {
+      "start": 2638.7999877929688,
+      "end": 2642.0,
+      "text": "Yeah, fair."
+    },
+    {
+      "start": 2642.0,
+      "end": 2642.8799896240234,
+      "text": "This is why I like the D ?"
+    },
+    {
+      "start": 2642.8799896240234,
+      "end": 2642.8799896240234,
+      "text": "?"
+    },
+    {
+      "start": 2642.8799896240234,
+      "end": 2646.0800018310547,
+      "text": "D approach to Kickstarters."
+    },
+    {
+      "start": 2646.0800018310547,
+      "end": 2647.8399963378906,
+      "text": "A lot of them are, a lot of D ?"
+    },
+    {
+      "start": 2647.8399963378906,
+      "end": 2647.8399963378906,
+      "text": "?"
+    },
+    {
+      "start": 2647.8399963378906,
+      "end": 2649.9199981689453,
+      "text": "D Kickstarters aren't on Kickstarter."
+    },
+    {
+      "start": 2649.9199981689453,
+      "end": 2652.959991455078,
+      "text": "They run their own separate schemes."
+    },
+    {
+      "start": 2652.959991455078,
+      "end": 2671.4400024414062,
+      "text": "But the thing is, because the books have already been written and the characters have already been made up and all the spells have already been done, a lot of the time, if there's a failure to release or to get to their funding goal, they just don't release the physical versions."
+    },
+    {
+      "start": 2671.4400024414062,
+      "end": 2685.3599853515625,
+      "text": "They don't release the books and or the cards or the little minis, but they still release the content because the content is ultimately what matters."
+    },
+    {
+      "start": 2685.3599853515625,
+      "end": 2688.3999938964844,
+      "text": "Do you think Millennium would ever make big things like that?"
+    },
+    {
+      "start": 2688.3999938964844,
+      "end": 2693.6799926757812,
+      "text": "I've always thought you might not always know."
+    },
+    {
+      "start": 2693.6799926757812,
+      "end": 2695.9199829101562,
+      "text": "I've already read that one."
+    },
+    {
+      "start": 2695.9199829101562,
+      "end": 2697.6000061035156,
+      "text": "Ever make big things like that."
+    },
+    {
+      "start": 2697.6000061035156,
+      "end": 2702.6399841308594,
+      "text": "Are you talking about the samurai machine stuff that I was referring to earlier?"
+    },
+    {
+      "start": 2705.029999933243,
+      "end": 2706.5499999141693,
+      "text": "I don't know."
+    },
+    {
+      "start": 2706.5499999141693,
+      "end": 2831.430001220703,
+      "text": "I don't know The thing is to compete we'd need to hit we'd need to do a lot more than you expect because the thing is with Milo Milo's a working machine, but it's not a machine that works at scale And a lot of time businesses don't want a machine that they have to put together themselves right they want a machine that arrives at least 90% built preferably 100% built that they can literally just plug in and train someone up to use it potentially or if they might already have someone who's trained to work with CNCs and from there they just go right with Milo you get the kit have to get everything printed have to put everything together then you can start doing all the electronics you set everything up the way that you want it and only then can you start milling which is fine for hobbyists that's that's a great thing for hobbyists to do because it teaches them how to do everything yeah and it teaches them how a machine works how their specific machine works and they get to customize it to do what they want how they want it and when they want it but it wouldn't work for a company now building a company with a Milo so like a small business I know a lot of people who started off with Milos and then moved to Tall Max after they fulfilled their first thousand orders There was someone the other day who did a load of prototyping for whatever company that they were, but they were working in aerospace."
+    },
+    {
+      "start": 2831.430001220703,
+      "end": 2931.3499993896485,
+      "text": "So there was literal aerospace parts being made on Milo's But as you said never gamble with money you can't afford Yeah, it's all a gamble life is a gamble Life is a highway sorry nope not going there not going we're not doing karaoke tonight I've not drunk enough yet And obviously with how good my voice is and how beautiful that rendition of I don't even know what the name of that song is I would get copyright strike because they thought they would have thought I was the actual artist You guys can still see my monitor That's not good oh I can't wait to the panels I've been looking forward to most because I can't test the filter system until the panels are on I've got my smoke machine at the ready once I get the panels on I'm gonna fish some wires through so that I can power all the fans I'm gonna fill the entire chamber with smoke and I'm gonna have some fun with that and the best part about the smoke machine is I can take it to Red Rat Festivals get the RGB pumping in here and set up a dance routine for Milo And then all the smoke will be lit up by the RGB It'll be perfect."
+    },
+    {
+      "start": 2931.3499993896485,
+      "end": 3000.229989013672,
+      "text": "It'll be great be lovely I live for doing stupid shit like that Lol yes lol Don't you lull me boy First time printing polycarbonate and it genuinely looks better than any print I've done so far it is Prouchment polycarbonate and it is one of their machines so they've tuned their profiles really well for them But god damn they look good How much Engi how you doing bud"
+    },
+    {
+      "start": 3006.6899999809266,
+      "end": 3008.6100000572205,
+      "text": "Then I need a mini me bobblehead."
+    },
+    {
+      "start": 3008.6100000572205,
+      "end": 3010.289999885559,
+      "text": "That would be so sick."
+    },
+    {
+      "start": 3010.289999885559,
+      "end": 3015.6499995422364,
+      "text": "You know how like Joel and CNC Kitchen have like mini versions of themselves?"
+    },
+    {
+      "start": 3015.6499995422364,
+      "end": 3147.649995727539,
+      "text": "I wish I knew enough Blender to be able to make mini versions of myself Just some just a bald mini or mostly bald mini with a ginger beard would do The older I get the more ginger my top is coming as well It's scaring me I'm starting to become what I hated most Don't lie know why I said like a vampire nice I've had way too much sugar today Gotcha gotcha gotcha I we really need more 3D printing in the UK right we have E3D and that's it That's pretty much it we got one two 3D 3D printing But for various personal reasons I'm not their biggest fans We've got some independents like printy please and things like that, but we don't have we've got E3D as well But like considering this country literally birthed rep rap We have next to no scale in terms of 3D printing Like if you go to Smurf Smurf is great."
+    },
+    {
+      "start": 3147.649995727539,
+      "end": 3239.649995727539,
+      "text": "It's the biggest one we it's the biggest 3D printing show we have and I love going there every year but compared to every single other show that you see in the US remurf East Coast RepRAP Furniture No Earth is now 3D printopia is it I always forget which way around it goes then there's Merf There's all there's all of those Rocky Mountain Rep Festival as well and they're huge like they're in barns they're massive And then you come to the UK and we've got like one university hall The Americans always get the fun bits and all they have to do is sacrifice their health and well-being to live in America for it I'd do that any day Just this corner one left We have Additive X2 I want a Phoenix."
+    },
+    {
+      "start": 3239.649995727539,
+      "end": 3241.649995727539,
+      "text": "I want a Phoenix."
+    },
+    {
+      "start": 3241.649995727539,
+      "end": 3304.7700061035157,
+      "text": "I want a Phoenix just to put a Milo in it What is additive X Additive X is a new concept to me is it a is it a show The 3D printing company I don't I'm gonna look this up Who is additive X Okay, so"
+    },
+    {
+      "start": 3305.6300000023843,
+      "end": 3308.9899998378755,
+      "text": "They're a bamboo reseller."
+    },
+    {
+      "start": 3308.9899998378755,
+      "end": 3311.5500000190737,
+      "text": "Polymaker, Mark Forge, Form Labs."
+    },
+    {
+      "start": 3311.5500000190737,
+      "end": 3319.2299998474123,
+      "text": "So it looks to me from first glance that they're more of a industrial 3D printing."
+    },
+    {
+      "start": 3319.2299998474123,
+      "end": 3321.7099993896486,
+      "text": "So yeah, Form Labs, Mark Forge, those are industrial."
+    },
+    {
+      "start": 3321.7099993896486,
+      "end": 3325.8699992370607,
+      "text": "Linkster are Polymakers and Polymakers Polymaker."
+    },
+    {
+      "start": 3325.8699992370607,
+      "end": 3329.8699992370607,
+      "text": "Ooh, they sell the Euphemy Make stuff."
+    },
+    {
+      "start": 3329.8699992370607,
+      "end": 3333.7899993133547,
+      "text": "God, I want one of these things so badly."
+    },
+    {
+      "start": 3333.7899993133547,
+      "end": 3336.509998626709,
+      "text": "I want one of these things so badly."
+    },
+    {
+      "start": 3336.509998626709,
+      "end": 3340.2700007629396,
+      "text": "But I no way I'd be able to do it."
+    },
+    {
+      "start": 3340.2700007629396,
+      "end": 3346.029999084473,
+      "text": "3D training, 3D printing services."
+    },
+    {
+      "start": 3346.029999084473,
+      "end": 3346.8299983215334,
+      "text": "Oh, it's one of these."
+    },
+    {
+      "start": 3346.8299983215334,
+      "end": 3349.949997253418,
+      "text": "It's not an automated quoting system."
+    },
+    {
+      "start": 3349.949997253418,
+      "end": 3352.2700007629396,
+      "text": "That's a shame."
+    },
+    {
+      "start": 3352.2700007629396,
+      "end": 3357.2299998474123,
+      "text": "Not that I need the needed or anything."
+    },
+    {
+      "start": 3357.2299998474123,
+      "end": 3357.789997406006,
+      "text": "Yeah."
+    },
+    {
+      "start": 3357.789997406006,
+      "end": 3359.8699992370607,
+      "text": "So they're more industrial."
+    },
+    {
+      "start": 3359.8699992370607,
+      "end": 3360.9899981689455,
+      "text": "Which is cool."
+    },
+    {
+      "start": 3360.9899981689455,
+      "end": 3375.3099978637697,
+      "text": "Nothing wrong with that."
+    },
+    {
+      "start": 3375.3099978637697,
+      "end": 3378.509994812012,
+      "text": "See, I have heard the Euphrate Make printers are not good."
+    },
+    {
+      "start": 3378.509994812012,
+      "end": 3378.8300021362306,
+      "text": "Really?"
+    },
+    {
+      "start": 3378.8300021362306,
+      "end": 3395.3099978637697,
+      "text": "I've heard nothing but good things about them in terms of reviews I've seen online."
+    },
+    {
+      "start": 3395.3099978637697,
+      "end": 3398.1899951171877,
+      "text": "Who's making that Mamaki clone?"
+    },
+    {
+      "start": 3398.1899951171877,
+      "end": 3411.7900012207033,
+      "text": "Like the full color resin 3D printer."
+    },
+    {
+      "start": 3411.7900012207033,
+      "end": 3415.229996032715,
+      "text": "I think clone is a bit of a harsh word in that case."
+    },
+    {
+      "start": 3415.229996032715,
+      "end": 3424.349998779297,
+      "text": "It's their own thing, but it's based on what the Mamaki can do."
+    },
+    {
+      "start": 3424.349998779297,
+      "end": 3427.3099978637697,
+      "text": "Oh, what's happened here?"
+    },
+    {
+      "start": 3427.3099978637697,
+      "end": 3429.629997558594,
+      "text": "I need to lift."
+    },
+    {
+      "start": 3429.629997558594,
+      "end": 3441.4699938964845,
+      "text": "Let me loosen these up and lift this part panel a bit."
+    },
+    {
+      "start": 3441.4699938964845,
+      "end": 3457.549995727539,
+      "text": "Nope."
+    },
+    {
+      "start": 3457.549995727539,
+      "end": 3459.9499896240236,
+      "text": "What's the longest flute length cutter you use?"
+    },
+    {
+      "start": 3459.9499896240236,
+      "end": 3462.349998779297,
+      "text": "I am cutting 25."
+    },
+    {
+      "start": 3462.349998779297,
+      "end": 3468.349998779297,
+      "text": "4mm stock and probably using the wrong mills, but making it work."
+    },
+    {
+      "start": 3468.349998779297,
+      "end": 3475.2300036621095,
+      "text": "It depends on the diameter and the flute count."
+    },
+    {
+      "start": 3475.2300036621095,
+      "end": 3482.2699969482424,
+      "text": "So higher flute tooling has more core material to it."
+    },
+    {
+      "start": 3482.2699969482424,
+      "end": 3503.07,
+      "text": "Yeah, because if you think about it, wherever that cut is, the flute on a single flute has to take out the same material throughout the entirety of the end mill as a three flute does, but all that material's left on the outside to form the cutting edge."
+    },
+    {
+      "start": 3503.07,
+      "end": 3513.7900012207033,
+      "text": "Whereas a three flute, the same volume of material is removed to create the flutes, but all the removal's done on the outside, and there's a solid core in the middle."
+    },
+    {
+      "start": 3513.7900012207033,
+      "end": 3522.7499926757814,
+      "text": "So like on a single flute tool, I tend I try not to go over 40 millimeters on a three flute tool."
+    },
+    {
+      "start": 3522.7499926757814,
+      "end": 3525.07,
+      "text": "I will maybe not happily."
+    },
+    {
+      "start": 3525.07,
+      "end": 3543.869987792969,
+      "text": "I won't say happily, but I've gone all the way up to 60mm tooling."
+    },
+    {
+      "start": 3543.869987792969,
+      "end": 3544.589989013672,
+      "text": "There we go."
+    },
+    {
+      "start": 3544.589989013672,
+      "end": 3558.589989013672,
+      "text": "That's better."
+    },
+    {
+      "start": 3558.589989013672,
+      "end": 3564.7499926757814,
+      "text": "I mean, I just had a couple of friends with bad experiences, but that doesn't mean a lot, really."
+    },
+    {
+      "start": 3564.7499926757814,
+      "end": 3567.54998046875,
+      "text": "No, it means something, right?"
+    },
+    {
+      "start": 3567.54998046875,
+      "end": 3573.54998046875,
+      "text": "I prefer it when things get spread word of mouth rather than over like video."
+    },
+    {
+      "start": 3573.54998046875,
+      "end": 3579.7099841308595,
+      "text": "If they had a bad experience with them and you trust those people, trust them."
+    },
+    {
+      "start": 3579.7099841308595,
+      "end": 3595.7099841308595,
+      "text": "It's better than everyone online blindly following whatever company of the week is sponsoring them."
+    },
+    {
+      "start": 3595.7099841308595,
+      "end": 3600.670006103516,
+      "text": "Oh, I've just remembered something."
+    },
+    {
+      "start": 3600.670006103516,
+      "end": 3606.589989013672,
+      "text": "I forgot to put weather stripping on any of these."
+    },
+    {
+      "start": 3609.499999952316,
+      "end": 3611.2599999427794,
+      "text": "Alright, I'm not changing it now."
+    },
+    {
+      "start": 3611.2599999427794,
+      "end": 3612.5399996757506,
+      "text": "It's too late for it now."
+    },
+    {
+      "start": 3612.5399996757506,
+      "end": 3615.09999961853,
+      "text": "I'll do that off-stream."
+    },
+    {
+      "start": 3615.09999961853,
+      "end": 3650.459998321533,
+      "text": "I'll put weather stripping on the top panel and on this side panel because we're gonna enclose the entire thing and do a smoke test Alright, those of you in chat who play video games on the regular not just once every like month or so not month not like once a year or whatever all right make yourselves known and tell me what you're playing right now."
+    },
+    {
+      "start": 3650.459998321533,
+      "end": 3779.420001220703,
+      "text": "I am playing Kingdom Come Deliverance 2 good game horrible horse riding mechanics like absolute worst of the bunch horse riding mechanics I was playing I hopped back into Art Raiders for the first time a while in a while the other day I'm struggling to understand why I liked it so much Warframe and Warzone Yeah, I could never get into Warzone I got into Apex Legends I like the faster pace of it Warzone is just weird now like it's just so commercialized waiting for GTA 6 you'll be waiting for a long time then I really wanted to go with the brush dibond ACM and Dibond are the same thing for those of you who don't know to stop getting fingerprint marks everywhere but it was so expensive for the two biggest panels it was 30 quid each and then if you wanted them in the brushed version it was nearly 60 quid each so as much as I like not having fingerprints on everything I like not being poor more let's start in the corners shall we oh I'm really jealous of Phil at the moment he's at some race meetup some Audi meetup or whatever Hey, they've promised October."
+    },
+    {
+      "start": 3779.420001220703,
+      "end": 3782.0600006103514,
+      "text": "Oh, Graveyard Keeper is such a good game."
+    },
+    {
+      "start": 3782.0600006103514,
+      "end": 3905.9799987792967,
+      "text": "It's such a good game Where are you buying the panels from I buy them from a place called Cut My Plastic in the UK Tom Tom Lawson who is one of the long-term supporters of the project said hull plastics was a good place to get some but I tried emailing them and they never got back to me and I emailed them like twice So Cut My Plastic was pretty much the only sellers I could get a reasonable time frame on and a reasonable price with it's still bloody expensive Never ever ever try and get MDF or plywood cut from them because they will rip you off just go to BNQ But for plastic and dive on they're fine would you use acrylic acrylic wasn't much cheaper so probably not problem with acrylic is it shatters so I have my old enclosure is made of acrylic and it's nothing there's nothing technically wrong with it but there is there is an argument to be made that it's not as safe as using ACM or polycarbonate mostly because it just shatters but by the time it's gone through three mil acrylic like an end mill of the size that you would probably be using on Milo it's lost 90% of its kinetic energy so whilst I wouldn't recommend using it I don't think it's the worst thing in the world to use it whales way too hard in Wolframe a long time ago and gave up on it as it structured my life around it god damn"
+    },
+    {
+      "start": 3907.8749999284746,
+      "end": 3908.7549999237062,
+      "text": "Yeah, that's rough, man."
+    },
+    {
+      "start": 3908.7549999237062,
+      "end": 3921.555000114441,
+      "text": "Sorry to hear that I was like that with arc survival of old for one stage and then I can't even get back into that game now."
+    },
+    {
+      "start": 3921.555000114441,
+      "end": 3923.2349994659426,
+      "text": "I try every year."
+    },
+    {
+      "start": 3923.2349994659426,
+      "end": 3923.874998855591,
+      "text": "I go, you know what?"
+    },
+    {
+      "start": 3923.874998855591,
+      "end": 3925.0749996185305,
+      "text": "I'm gonna play awesome arc."
+    },
+    {
+      "start": 3925.0749996185305,
+      "end": 3926.27500038147,
+      "text": "I'm gonna download it."
+    },
+    {
+      "start": 3926.27500038147,
+      "end": 3927.634999084473,
+      "text": "I'm gonna get my dinos together."
+    },
+    {
+      "start": 3927.634999084473,
+      "end": 3932.355000305176,
+      "text": "I'm gonna have some fun playing like a single player world."
+    },
+    {
+      "start": 3932.355000305176,
+      "end": 3936.194998550415,
+      "text": "And then I get like an hour in and go, you know what?"
+    },
+    {
+      "start": 3936.194998550415,
+      "end": 3936.595000076294,
+      "text": "I'm bored."
+    },
+    {
+      "start": 3936.595000076294,
+      "end": 3957.554997253418,
+      "text": "Let's play with some CNCs instead As I've got older, I have found it harder and harder to get into video games again Ooh, that's true."
+    },
+    {
+      "start": 3957.554997253418,
+      "end": 4158.675,
+      "text": "I've started playing in Shrouded again as well It's another survival game I really like I really enjoy it What's the rough sizes for Casita panels interested to see what acrylic costs 670 by 670 670 by 670 700 710 by 670 710 by 670 This is 550 by 650 by 670 and then I can't remember what the front panel is but it's a similar size if a bit smaller than the rear panel I like green hell Damascus you're a sadist What about mini golf They've promised October yeah they also promised that it would be out earlier this year You know my expectation for GTA is that it's just gonna be mid It'll be good, but it will never ever outclass GTA 5 now and Rockstar I will eat my own hair if this is the case But I think Rockstar will not make the same cash cow that they did with GTA 5 out of GTA 6 which again it's not necessarily a bad thing GTA Online was getting a bit much they'll do what they did with Red Dead Redemption 2 where they'll see what it's like they'll put some feelers out and then they'll just completely abandon the online My bot has stopped working why is my bots it just hasn't shown up in the last few streams which is really annoying Oh Winrose is one I'm looking forward to get into holding off for a discount or at least that's what I'm telling myself isn't it early access right now isn't it already pretty cheap It's not a full $60 game is it or $70 if you're if you're Ubisoft nowadays Surely not oh my god this the panels have made this thing so much heavier I was not expecting the heft from just adding the panels That's good."
+    },
+    {
+      "start": 4158.675,
+      "end": 4188.194989013672,
+      "text": "That's good heft more heft is better if you're using a CNC machine I got a 458 by 305 by 76 granite surface break pretty cheap yesterday brand new And what's pretty cheap?"
+    },
+    {
+      "start": 4188.194989013672,
+      "end": 4206.275006103516,
+      "text": "What are we talking pretty cheap Because that's a that's fairly hefty that's that's basically the work area of Atlas"
+    },
+    {
+      "start": 4207.749999961852,
+      "end": 4210.229999980926,
+      "text": "Except slightly smaller in Z."
+    },
+    {
+      "start": 4210.229999980926,
+      "end": 4230.949999771117,
+      "text": "Well, actually, less than half the width in Z, but you know No need to be pedantic 130 US plus 40 shipping That's really good GTA 5 only became a massive cash cow because of COVID sparking a second wave of interest in it."
+    },
+    {
+      "start": 4230.949999771117,
+      "end": 4231.749999008178,
+      "text": "Yeah, true."
+    },
+    {
+      "start": 4231.749999008178,
+      "end": 4253.429997406005,
+      "text": "I mean it was it was popular before then I remember seeing headlines that it was the most popular game ever in terms of money to the most popular game ever before COVID was a thing and then it had a second wave on top of that Windrose was 30 euros last time I checked it."
+    },
+    {
+      "start": 4253.429997406005,
+      "end": 4254.390000305175,
+      "text": "Yeah, that's early access."
+    },
+    {
+      "start": 4254.390000305175,
+      "end": 4255.50999923706,
+      "text": "That's an early access price."
+    },
+    {
+      "start": 4255.50999923706,
+      "end": 4271.430001220702,
+      "text": "That's a price I would be willing to pay considering the success of it I would be willing to pay that money so far."
+    },
+    {
+      "start": 4271.430001220702,
+      "end": 4288.709999999999,
+      "text": "Oh, I said I was gonna put the I said I was gonna put the the seal on this one and then completely forgot to do it I'm gonna have fun off stream Says grade A has a surface map that says 1."
+    },
+    {
+      "start": 4288.709999999999,
+      "end": 4298.2299966430655,
+      "text": "6 nanometers God Or is that microns?"
+    },
+    {
+      "start": 4298.2299966430655,
+      "end": 4504.069985351562,
+      "text": "I always forget that's microns isn't it Yeah, that's microns I was gonna say nanometers is quite quite flat I just checked you can buy acrylic panels roughly those sizes for about £15 each where are you buying them from because you know what I would love to know so that I can start affording to build more enclosures and things Although yeah I still don't want to buy acrylic if I can avoid it Like if a kit came with acrylic panels I wouldn't say no to it But if I'm buying them myself I'm gonna be buying I'm gonna be buying polycarp or dibond the top you can get away with being acrylic because it's very very unlikely that it will ever hit the top panel without it already having bounced off another panel at which point it will have lost all its kinetic energy as a ricochet looking good looking good laser cutting suppliers if you ever need five millimeter panels I would give them to you five millimeters is too thick but thank you for the offer I shouldn't be rude thank you for the offer also I thought you couldn't cut acrylic on a laser because it off gases or am I thinking of something else I know you can't do PVC because it off gases some kind of poisonous substance yep but knowing myself I'll spend way too much time in it so I'm holding off until I sort out some other projects Milo being one a smart home system ran over can bus is another that'd be cool I have a ton of five millimeter panels I have no clue what to do with which is why I am trying to give it away fair Ollie whereabouts do you live you don't give me don't give me the exact address because this is the internet and I don't want someone to get your address but you living up north down south how easy is it for you to is it gonna be for you to get this Centauri carbon if you still want it"
+    },
+    {
+      "start": 4514.029999732971,
+      "end": 4515.949999809265,
+      "text": "Acrylic is fine, it's not that harmful at all."
+    },
+    {
+      "start": 4515.949999809265,
+      "end": 4517.389999389648,
+      "text": "Yeah, fair."
+    },
+    {
+      "start": 4517.389999389648,
+      "end": 4521.069999694824,
+      "text": "Yeah, PVC produces chlorine glass gas gas."
+    },
+    {
+      "start": 4521.069999694824,
+      "end": 4522.269999504089,
+      "text": "God, where did that come from?"
+    },
+    {
+      "start": 4522.269999504089,
+      "end": 4536.590000152588,
+      "text": "That's good to know, at least."
+    },
+    {
+      "start": 4536.590000152588,
+      "end": 4538.670000076294,
+      "text": "Yeah, oh, I never mentioned this."
+    },
+    {
+      "start": 4538.670000076294,
+      "end": 4540.9899978637695,
+      "text": "I tried and tried and tried."
+    },
+    {
+      "start": 4540.9899978637695,
+      "end": 4544.110000610352,
+      "text": "This is why it's been quite a while since last stream."
+    },
+    {
+      "start": 4544.110000610352,
+      "end": 4551.069999694824,
+      "text": "I was testing and testing and testing alternatives, like printed alternatives for these hinges."
+    },
+    {
+      "start": 4551.069999694824,
+      "end": 4554.270000457764,
+      "text": "I couldn't find any that were decent."
+    },
+    {
+      "start": 4554.270000457764,
+      "end": 4568.669998168945,
+      "text": "I tried the clicky clack door stuff and they buckled after opening it maybe 20 times."
+    },
+    {
+      "start": 4568.669998168945,
+      "end": 4576.589996337891,
+      "text": "And then I couldn't find anything that felt that matched the aesthetic either if I wanted to go thicker with them."
+    },
+    {
+      "start": 4576.589996337891,
+      "end": 4584.669998168945,
+      "text": "So eventually I just caved and we've got another panel arriving."
+    },
+    {
+      "start": 4584.669998168945,
+      "end": 4591.709999084473,
+      "text": "I think it's on the 8th this month, and that is going to be just the laser cut version."
+    },
+    {
+      "start": 4591.709999084473,
+      "end": 4598.75,
+      "text": "The only difference is it's got laser cut sections out for where the hinges are going to go."
+    },
+    {
+      "start": 4598.75,
+      "end": 4606.9899978637695,
+      "text": "You know, the metal hinges."
+    },
+    {
+      "start": 4606.9899978637695,
+      "end": 4631.8699951171875,
+      "text": "I really, really try my best to not require laser cutting any parts because it increases the bomb cost, but I just couldn't find an alternative that I was happy with the top panel done."
+    },
+    {
+      "start": 4631.8699951171875,
+      "end": 4632.430000305176,
+      "text": "Right."
+    },
+    {
+      "start": 4632.430000305176,
+      "end": 4634.909996032715,
+      "text": "I'm just going to put this in as a mock-up."
+    },
+    {
+      "start": 4634.909996032715,
+      "end": 4654.190002441406,
+      "text": "Here, Raj Island Southeast Cool Right."
+    },
+    {
+      "start": 4654.190002441406,
+      "end": 4656.270004272461,
+      "text": "I'm going to just give this a heft test."
+    },
+    {
+      "start": 4656.270004272461,
+      "end": 4661.229995727539,
+      "text": "Oh my god, it's so much heavier than it was before."
+    },
+    {
+      "start": 4661.229995727539,
+      "end": 4662.669998168945,
+      "text": "So heavy."
+    },
+    {
+      "start": 4662.669998168945,
+      "end": 4665.949996948242,
+      "text": "What's the view like on the inside?"
+    },
+    {
+      "start": 4665.949996948242,
+      "end": 4668.429992675781,
+      "text": "It's very dark in there for you right now, isn't it?"
+    },
+    {
+      "start": 4668.429992675781,
+      "end": 4672.429992675781,
+      "text": "I will try my best to find a solution for that."
+    },
+    {
+      "start": 4672.429992675781,
+      "end": 4681.309997558594,
+      "text": "I've got in my other enclosure, I do have some LEDs, some RGB LEDs that I will be putting transferring into this one."
+    },
+    {
+      "start": 4681.309997558594,
+      "end": 4687.949996948242,
+      "text": "So you will still be able to see once everything's on."
+    },
+    {
+      "start": 4687.949996948242,
+      "end": 4704.029998779297,
+      "text": "Right, before I close up this side panel, I'm gonna put all the fan, all the things I need to power the fan cables through the grommet and hook them up to power supply."
+    },
+    {
+      "start": 4704.029998779297,
+      "end": 4706.190002441406,
+      "text": "Alright, so power supply is gonna need to go on top."
+    },
+    {
+      "start": 4706.190002441406,
+      "end": 4749.309997558594,
+      "text": "I know that do I want the intake fan as well, or am I just going to do a test with the extraction fan Right?"
+    },
+    {
+      "start": 4749.309997558594,
+      "end": 4751.389999389648,
+      "text": "Well, I'll figure something out."
+    },
+    {
+      "start": 4751.389999389648,
+      "end": 4763.149993896484,
+      "text": "I'll figure something out so that'll be for the extraction fan."
+    },
+    {
+      "start": 4763.149993896484,
+      "end": 4767.790008544922,
+      "text": "I won't need this box for now."
+    },
+    {
+      "start": 4767.790008544922,
+      "end": 4769.949981689453,
+      "text": "What are you going to do with your old casa?"
+    },
+    {
+      "start": 4769.949981689453,
+      "end": 4777.949981689453,
+      "text": "Probably break it down, stick the parts in the loft."
+    },
+    {
+      "start": 4777.949981689453,
+      "end": 4794.190002441406,
+      "text": "Either that or I'm going to just need it for testing when I put the other when I update proper Casa to have all the Cassita stuff with it."
+    },
+    {
+      "start": 4794.190002441406,
+      "end": 4804.75,
+      "text": "I'll just use that as a testing grid just to test measurements and stuff like that."
+    },
+    {
+      "start": 4804.75,
+      "end": 4809.549987792969,
+      "text": "So there are three fans that I need to power."
+    },
+    {
+      "start": 4809.549987792969,
+      "end": 4810.429992675781,
+      "text": "I need to power."
+    },
+    {
+      "start": 4811.1249999856955,
+      "end": 4813.284999952317,
+      "text": "The electronics fan."
+    },
+    {
+      "start": 4813.284999952317,
+      "end": 4817.925000057221,
+      "text": "I need to power the filter fan."
+    },
+    {
+      "start": 4817.925000057221,
+      "end": 4820.964999542237,
+      "text": "And I also need to power the intake fan."
+    },
+    {
+      "start": 4820.964999542237,
+      "end": 4824.084999427796,
+      "text": "So this is not going to look very good."
+    },
+    {
+      "start": 4824.084999427796,
+      "end": 4826.324999198914,
+      "text": "I'm going to have to daisy chain off of these."
+    },
+    {
+      "start": 4826.324999198914,
+      "end": 4840.084998474122,
+      "text": "So these ones will go in first."
+    },
+    {
+      "start": 4840.084998474122,
+      "end": 4841.7649987792975,
+      "text": "Sweet."
+    },
+    {
+      "start": 4841.7649987792975,
+      "end": 4849.845000610352,
+      "text": "They can drop down there."
+    },
+    {
+      "start": 4849.845000610352,
+      "end": 4853.604998931885,
+      "text": "No."
+    },
+    {
+      "start": 4853.604998931885,
+      "end": 4854.884997711182,
+      "text": "No, that's not it."
+    },
+    {
+      "start": 4854.884997711182,
+      "end": 4857.604998931885,
+      "text": "That won't work."
+    },
+    {
+      "start": 4857.604998931885,
+      "end": 4859.7649987792975,
+      "text": "So that fan is over there."
+    },
+    {
+      "start": 4859.7649987792975,
+      "end": 4860.564998016358,
+      "text": "That fan is over there."
+    },
+    {
+      "start": 4860.564998016358,
+      "end": 4866.244998321534,
+      "text": "That fan is over there."
+    },
+    {
+      "start": 4866.244998321534,
+      "end": 4869.284999237061,
+      "text": "Ah, this is a bit of a pain, actually."
+    },
+    {
+      "start": 4869.284999237061,
+      "end": 4874.084998474122,
+      "text": "Now that I look at it a bit longer."
+    },
+    {
+      "start": 4874.084998474122,
+      "end": 4878.96499572754,
+      "text": "Hmm."
+    },
+    {
+      "start": 4878.96499572754,
+      "end": 4884.245002136231,
+      "text": "Loft, that's the hidden storage."
+    },
+    {
+      "start": 4884.245002136231,
+      "end": 4886.485000000001,
+      "text": "Do you think I will ever go back to having a Milo?"
+    },
+    {
+      "start": 4886.485000000001,
+      "end": 4889.604995117188,
+      "text": "I'm building a Milo next week."
+    },
+    {
+      "start": 4889.604995117188,
+      "end": 4891.364997253419,
+      "text": "If the Milo kit arrives."
+    },
+    {
+      "start": 4891.364997253419,
+      "end": 4893.444999084473,
+      "text": "Oh, sorry, Milo, not Miley."
+    },
+    {
+      "start": 4893.444999084473,
+      "end": 4895.7649987792975,
+      "text": "Yes."
+    },
+    {
+      "start": 4895.7649987792975,
+      "end": 4898.324996337891,
+      "text": "No, I don't think I'll go back to Milo."
+    },
+    {
+      "start": 4898.324996337891,
+      "end": 4901.044997558594,
+      "text": "Just because I'm going to have Atlas, and that's what I need."
+    },
+    {
+      "start": 4901.044997558594,
+      "end": 4919.845000610352,
+      "text": "The only real advantage to Milo is it's easier to put accessories on, like a fourth axis or a tool changer without work without going into your work table volume, work volume."
+    },
+    {
+      "start": 4919.845000610352,
+      "end": 4926.004996643067,
+      "text": "It takes up more space to do so."
+    },
+    {
+      "start": 4926.004996643067,
+      "end": 4934.324996337891,
+      "text": "Like a lot more space to do so, which is not something I have a lot of at the minute."
+    },
+    {
+      "start": 4934.324996337891,
+      "end": 4944.0050042724615,
+      "text": "My girlfriend's meant to be moving in with me sometime in this last half of the year or slightly earlier on to next year."
+    },
+    {
+      "start": 4944.0050042724615,
+      "end": 4947.044997558594,
+      "text": "It just depends how quick she can get stuff done."
+    },
+    {
+      "start": 4947.044997558594,
+      "end": 4953.604995117188,
+      "text": "So I need to keep everything contained in here as much as I would love to have a Milo in my living room."
+    },
+    {
+      "start": 4953.604995117188,
+      "end": 4955.7649987792975,
+      "text": "That ain't happening."
+    },
+    {
+      "start": 4955.7649987792975,
+      "end": 4959.7649987792975,
+      "text": "And I'm going to be using this machine exclusively for my fourth access parts."
+    },
+    {
+      "start": 4959.7649987792975,
+      "end": 4964.2449945068365,
+      "text": "And the fourth axis doesn't take up a lot of space and you can't put that many big things in it."
+    },
+    {
+      "start": 4964.2449945068365,
+      "end": 4968.485000000001,
+      "text": "So I don't need the space a Milo provides."
+    },
+    {
+      "start": 4968.485000000001,
+      "end": 4980.64500366211,
+      "text": "And Atlas is going to do all my big plate stuff anyway, so it doesn't really make too much sense for me to have a Milo, but yeah."
+    },
+    {
+      "start": 4980.64500366211,
+      "end": 4987.845000610352,
+      "text": "Obviously, I'll build them to test them to test them mechanically."
+    },
+    {
+      "start": 4987.845000610352,
+      "end": 4993.444991455079,
+      "text": "Yeah, that's why I don't think I want a Miley, but if it's it's nice because it takes up a lot less space."
+    },
+    {
+      "start": 4993.444991455079,
+      "end": 4996.084990844727,
+      "text": "Yeah, you know what?"
+    },
+    {
+      "start": 4996.084990844727,
+      "end": 4999.684996948243,
+      "text": "That's not bad."
+    },
+    {
+      "start": 4999.684996948243,
+      "end": 5110.324996337891,
+      "text": "Alright, you you people can make their own opinions up on things and decide what they want for themselves Okay, I think I've made a decision on how I'm gonna run these gonna go into there all right I'll connect these into each other Roger Roger Roger that's working so far so good Right that bit is gonna go down at the bottom I don't have any crocodile clips for it, but I will make it work so that go there that can go there those can be fed through that I know you guys can't see what I'm doing and that must be really really frustrating and then these I can do this with unscrew these from the terminal No, that's not gonna reach is it"
+    },
+    {
+      "start": 5111.404999952316,
+      "end": 5114.844999771118,
+      "text": "Damn it."
+    },
+    {
+      "start": 5114.844999771118,
+      "end": 5115.244999866485,
+      "text": "Oh no."
+    },
+    {
+      "start": 5115.244999866485,
+      "end": 5115.804999809265,
+      "text": "Oh no."
+    },
+    {
+      "start": 5115.804999809265,
+      "end": 5116.844999771118,
+      "text": "It will reach."
+    },
+    {
+      "start": 5116.844999771118,
+      "end": 5118.284999828338,
+      "text": "It will reach."
+    },
+    {
+      "start": 5118.284999828338,
+      "end": 5242.605,
+      "text": "I should have had faith in myself If anyone's wondering, I'm just trying to figure out how I'm going to wire everything up so it's actually running when I've got the panel on because obviously everything else is still I've got nothing else plugged in Yeah I've caught up with everyone's stuffs God damn it Has anyone seen the new God of War game the Mum of War with the giantness cube called Frank What the fuck is that game is either gonna go down horribly or it's gonna be one of the best games of the generation Right so that's the intake fan and that fan sorted now I just need to sort out a solution for the extraction fan Which is gonna be not as easy as I was expecting."
+    },
+    {
+      "start": 5242.605,
+      "end": 5316.844990234375,
+      "text": "Oh, I can do it this way I've got some Wagos that I can just slide in here right and I've got some testing I know these technically aren't meant for this, but I've got some probe testing needles There we go There we go This is so sketchy Sorry Alexa you're getting a lobotomy Nothing contacting anything Everything's on That's pulling in amazing How difficult uh seen enough to stay clear of it."
+    },
+    {
+      "start": 5316.844990234375,
+      "end": 5409.485004882812,
+      "text": "Okay, cool How difficult is it to swap between a Milo and Miley build since the kit supports both I was wondering whether it would be make sense to start with Miley and move to Milo to start to expand the mod's not hard it's time consuming Because you basically the Z-axis will stay the same and you can just disconnect the Z axis and put it back on when you need it but there are some steps that you need to take when you're building the Y-axis that change depending on what version of the build that you're building Like 90% of it stays the same in terms of the Y axis but then you also have to make sure you rebuild the entirety of the X axis because that's the thing that you did nothing the X-axis on Milo versus Miley share absolutely nothing other than hardware There's no 3D printed parts that are the same there are no build steps that are the same other than the supports like the bed supports but you don't technically need those on either anymore because they're not a structural part they're just an aesthetic part my voice is killing me"
+    },
+    {
+      "start": 5414.10499994278,
+      "end": 5441.864999694824,
+      "text": "I've been doing too much yapping You're meant to stop me from yapping Quick if you would like to save my voice and stop me from yapping I would kindly ask that you heal me by liking the video Also, can you guys hear that?"
+    },
+    {
+      "start": 5441.864999694824,
+      "end": 5530.664995117188,
+      "text": "Can you hear the enclosure if I'm over here That's the sound of all the fans going brrright I say the word right too much I've got to teach myself not to every time I say the word right when I'm not meant to say it I must sacrifice one end mill to the carbide gods for my sins I think that is a fair exchange Either that or my firstborn child but I'm never having kids so I think firstborn child is a good deal There's a very faint whirring noise Selling carbide is not even a bad idea at the moment."
+    },
+    {
+      "start": 5530.664995117188,
+      "end": 5584.664995117188,
+      "text": "Yeah, but I don't want any carbide to sell Although Dave at the MS does sell carbide end mills and he hasn't but his prices up Oops, I shouldn't have told you that I need these I need three more three more middle sections and four corner sections I'm back The only thing I will ask is that people please don't buy up all the threading end mills I need thread mills."
+    },
+    {
+      "start": 5584.664995117188,
+      "end": 5708.265001220703,
+      "text": "I don't have any I have every other bit every other bit of carbide that I need I just don't have my threadmills yet So if you do go to DMS leave some for the rest of us Two wrongs don't make a right but two rights do make does make an airplane nice True very very very true And two wongs make a Chinese takeaway Hey universe is back You need a guest from every stream Oh I said right god damn it I must hold to the traditions and sacrifice some some carbide but I think it works kind of like warrior culture where it wants to be sacrificed to the gods you know to in battle so I will put it to battle against Sony 75 at some stage and that's how it will die that's how the sacrifice will be performed I think that's a fair deal why did I choose to do this one in acrylic sorry not acrylic polycarbonate now everyone gets to see my horrible wiring job let's take the arm mount off because I'm gonna need to move that anyway"
+    },
+    {
+      "start": 5721.790000038147,
+      "end": 5759.709997253418,
+      "text": "David, if you are trying to bait me into saying the R I'm not gonna say the R word because that sounds wrong if you're trying to bait me into saying the RIGHT word, it's not gonna happen You're trying to bait me by putting it in a comment because you know I read all the comments out loud I see what you did there, but I'm not falling for it I've always been here."
+    },
+    {
+      "start": 5759.709997253418,
+      "end": 5999.870008544922,
+      "text": "I'm just driving why are you watching a stream whilst driving, dude Better yet, why are you in chat whilst driving Put your phone down dude I can get if you're just listening to stream But if you're actively at the wheel please don't Don't answer chat There's so much static on it it's already on it there's so much static on this panel it's already pulled all of Brisket's hair towards it I'm already gonna have to give this panel a wash I'm listening my brother is texting fear is there anyone else in the UK that's gonna build an Atlas most a lot of the team say that they're going to So you can revel in the fact that I'm not only keeping you guys waiting I'm also keeping the rest of the team waiting by my procrastination of putting that machine together Also universe I gotta say sorry to you I wasn't trying to make you a butt of my frustration the other day It's just I get asked we get asked constantly about when this is gonna be ready when that's gonna be ready and like a lot of us don't even have time between people asking to actually do any work on it because we have our own lives so constantly being asked about it gets really really frustrating I know that all people want is they just want to know what's going on But goddamn it gets so frustrating after the 17th person in a week has asked you the same question or if you haven't done any work because you know you've got life to live and work to go your own job to go to and all that stuff and someone's asked you how much longer it's gonna take to get something done and you haven't even done anything since the last time you updated people on it Also do us a favor for all of you who aren't there already go to the Rack Robotics channel on YouTube and please subscribe to them The guy who runs it works really really really fucking hard and EDM is not an easy thing to get into and he's basically performed the impossible task of making it both open source and available and easy and cheap enough for everyone to be able to use It might not be there yet but he is performing miracles that man I figure upgrading a Milo to a V1."
+    },
+    {
+      "start": 5999.870008544922,
+      "end": 6007.469984130859,
+      "text": "6 before investing in an Atlas is the correct order anyway You could do it either way"
+    },
+    {
+      "start": 6010.359999904633,
+      "end": 6012.119999895096,
+      "text": "There's nothing wrong with holding a V1."
+    },
+    {
+      "start": 6012.119999895096,
+      "end": 6012.679999837876,
+      "text": "5."
+    },
+    {
+      "start": 6012.679999837876,
+      "end": 6014.279999980927,
+      "text": "If you don't want to do the upgrade to V1."
+    },
+    {
+      "start": 6014.279999980927,
+      "end": 6018.1999995803835,
+      "text": "6, there's no real performance benefit from it."
+    },
+    {
+      "start": 6018.1999995803835,
+      "end": 6023.720000038147,
+      "text": "It's just a quality of life upgrade."
+    },
+    {
+      "start": 6023.720000038147,
+      "end": 6025.239999542237,
+      "text": "So if you've got your Milo, your V1."
+    },
+    {
+      "start": 6025.239999542237,
+      "end": 6028.36000038147,
+      "text": "5 working fine, keep it as a V1."
+    },
+    {
+      "start": 6028.36000038147,
+      "end": 6033.559999237061,
+      "text": "5."
+    },
+    {
+      "start": 6033.559999237061,
+      "end": 6044.280000457764,
+      "text": "And then, if you're thinking of getting a V2 anyway, you're going to get all the quality of life upgrades on the V2, as well as the ones that are missing on V1."
+    },
+    {
+      "start": 6044.280000457764,
+      "end": 6046.6799981689455,
+      "text": "6."
+    },
+    {
+      "start": 6046.6799981689455,
+      "end": 6054.359998474121,
+      "text": "And then you can actually make an informed decision on whether or not you need those features on your 1."
+    },
+    {
+      "start": 6054.359998474121,
+      "end": 6066.199998626709,
+      "text": "5 Euro dance music."
+    },
+    {
+      "start": 6066.199998626709,
+      "end": 6069.239999542237,
+      "text": "It's just Stream Beats."
+    },
+    {
+      "start": 6069.239999542237,
+      "end": 6073.160001525879,
+      "text": "It's just like royalty-free music by Calvin."
+    },
+    {
+      "start": 6073.160001525879,
+      "end": 6075.399999389649,
+      "text": "It's not Calvin Harris."
+    },
+    {
+      "start": 6075.399999389649,
+      "end": 6081.800000915528,
+      "text": "Calvin something."
+    },
+    {
+      "start": 6081.800000915528,
+      "end": 6096.519994506836,
+      "text": "The one time I decided to go to use music that wasn't from the Stream Beats archive was the one time I got 10 copyright infringements in a single video."
+    },
+    {
+      "start": 6096.519994506836,
+      "end": 6098.120000610352,
+      "text": "And that was earlier."
+    },
+    {
+      "start": 6098.120000610352,
+      "end": 6100.99999786377,
+      "text": "That was a stream that we did for Casita."
+    },
+    {
+      "start": 6100.99999786377,
+      "end": 6111.800000915528,
+      "text": "That was only like a month or two back."
+    },
+    {
+      "start": 6111.800000915528,
+      "end": 6123.480001220703,
+      "text": "I would have Yorman Gand on stream with me today or Phil, but Phil's Phil's enjoying himself a bit too much right now."
+    },
+    {
+      "start": 6123.480001220703,
+      "end": 6125.319997558594,
+      "text": "So, and he needs the holiday."
+    },
+    {
+      "start": 6125.319997558594,
+      "end": 6133.159993896485,
+      "text": "So, and Yormangand isn't in stream with us today."
+    },
+    {
+      "start": 6133.159993896485,
+      "end": 6142.840001831055,
+      "text": "So, I'm assuming he's not available."
+    },
+    {
+      "start": 6142.840001831055,
+      "end": 6148.359990844727,
+      "text": "Also, Yormangan messaged me after stream the other day after he came on."
+    },
+    {
+      "start": 6148.359990844727,
+      "end": 6152.2000024414065,
+      "text": "And I was like, oh, I'm really sorry if I annoyed you or pissed you off."
+    },
+    {
+      "start": 6152.2000024414065,
+      "end": 6154.840001831055,
+      "text": "Like, no, I enjoyed having him there."
+    },
+    {
+      "start": 6154.840001831055,
+      "end": 6158.120000610352,
+      "text": "It was fun."
+    },
+    {
+      "start": 6158.120000610352,
+      "end": 6159.319997558594,
+      "text": "Jeez, did you get in trouble for it?"
+    },
+    {
+      "start": 6159.319997558594,
+      "end": 6169.239995727539,
+      "text": "No, because generally nowadays, copyright strikes aren't as big of a deal as they used to be, especially for streams."
+    },
+    {
+      "start": 6169.239995727539,
+      "end": 6185.959996948242,
+      "text": "Basically, what happens is any money that you do make on the stream just or would make on the stream goes back to that creator or whoever owns the IP."
+    },
+    {
+      "start": 6185.959996948242,
+      "end": 6196.9199884033205,
+      "text": "It's actually quite hard to get a copyright strike."
+    },
+    {
+      "start": 6196.9199884033205,
+      "end": 6203.07999206543,
+      "text": "I would be down to do a group order with people for Atlas stuff."
+    },
+    {
+      "start": 6203.07999206543,
+      "end": 6210.840001831055,
+      "text": "I'm planning on producing a bunch of Atlas stuff at some stage."
+    },
+    {
+      "start": 6210.840001831055,
+      "end": 6214.2000024414065,
+      "text": "At least for the UK market."
+    },
+    {
+      "start": 6214.2000024414065,
+      "end": 6223.07999206543,
+      "text": "Doing all the print kits for it and all the TNC parts for it."
+    },
+    {
+      "start": 6223.07999206543,
+      "end": 6248.999990234375,
+      "text": "Or at least getting them together and then selling them back as like a group order, like you said, like you suggested."
+    },
+    {
+      "start": 6248.999990234375,
+      "end": 6250.9199884033205,
+      "text": "Where can I find the Atlas details?"
+    },
+    {
+      "start": 6250.9199884033205,
+      "end": 6253.239995727539,
+      "text": "Just Discord mostly."
+    },
+    {
+      "start": 6253.239995727539,
+      "end": 6258.359990844727,
+      "text": "There's nothing that we haven't said, talked about on Discord that I have talked about anywhere else."
+    },
+    {
+      "start": 6258.359990844727,
+      "end": 6260.359990844727,
+      "text": "There's Nero's video."
+    },
+    {
+      "start": 6260.359990844727,
+      "end": 6268.279989013672,
+      "text": "If someone wants to just post that link in Stream General for me, that would be excellent."
+    },
+    {
+      "start": 6268.279989013672,
+      "end": 6270.519979248047,
+      "text": "We talked about it a bit there."
+    },
+    {
+      "start": 6270.519979248047,
+      "end": 6273.640004882813,
+      "text": "If you have questions about it, feel free to ask."
+    },
+    {
+      "start": 6273.640004882813,
+      "end": 6284.839986572266,
+      "text": "As long as I know what it is and I've made a decision or I'm in the process of making a decision about it, I can answer it to you."
+    },
+    {
+      "start": 6284.839986572266,
+      "end": 6289.719991455078,
+      "text": "I can even answer if I haven't made the decision yet at all."
+    },
+    {
+      "start": 6289.719991455078,
+      "end": 6292.360006103516,
+      "text": "It's just in that case, things might change."
+    },
+    {
+      "start": 6292.360006103516,
+      "end": 6296.279989013672,
+      "text": "I might say something and it might change down the road."
+    },
+    {
+      "start": 6296.279989013672,
+      "end": 6311.559987792969,
+      "text": "Nothing set in stone with Atlas right now."
+    },
+    {
+      "start": 6343.189998550415,
+      "end": 6361.269998474121,
+      "text": "See, I thought having removed the majority of the M3 bolts out of Casa would mean that I won't wouldn't have to be worrying about all this, but apparently I'm running out of M3 T-Nuts."
+    },
+    {
+      "start": 6361.269998474121,
+      "end": 6361.67,
+      "text": "Who knew?"
+    },
+    {
+      "start": 6361.67,
+      "end": 6367.109998626709,
+      "text": "Oh, that's a nice idea."
+    },
+    {
+      "start": 6367.109998626709,
+      "end": 6370.229997558594,
+      "text": "I was thinking about a group order on like extrusions and rails, etc."
+    },
+    {
+      "start": 6370.229997558594,
+      "end": 6393.109994812012,
+      "text": "Might be able to do a group order through LBO The thing is with rails and stuff like that, unless you're going for quantities of like hundreds, the rails really don't get that much cheaper."
+    },
+    {
+      "start": 6393.109994812012,
+      "end": 6399.1899966430665,
+      "text": "The only thing you're going to save money on there is shipping."
+    },
+    {
+      "start": 6399.1899966430665,
+      "end": 6409.429994506836,
+      "text": "Ah, that's why that thread is fucked."
+    },
+    {
+      "start": 6409.429994506836,
+      "end": 6608.869981689453,
+      "text": "That's like the third one as this set of T-Nuts where the thread has been so mangled I haven't been able to use it Right all I have left is corners now Jake do you know when LDO is sending you a V2 I know you want to build it before launch I don't think I'll get it before launch I don't think I'll get it built before launch but I know it's coming sometime in the next week I got a FedEx update from Tina from LDO yesterday is it yesterday no it was this morning it was this morning saying that it's going to be arriving in a few days so I'll get it started and I've got all the I've got most of the parts printed out already I'll try my best to get it done before launch I don't think I'm getting a UEB if I am I'm not gonna be building the UEB I'll double check it to make sure that it's all correct and stuff but I've got all the electronics from the last UEB that they sent me and that was fine God didn't think I'd be running out of M3 bolts first it's a good thing I've got a bunch how many I have three M3T nuts left all right I'm gonna have to restock LDO is a good shell extrusions you definitely would save a fair bit of money because they they do really good deals if you order a decent amount but what is a decent amount you gotta remember when I was part of DMS we sold I think we sold 15 Milos in this country all right and it was the same with Vorons and stuff like that the UK is not a very big proponent for DIY 3D printing or even or DIY CNC so you would need to be ordering"
+    },
+    {
+      "start": 6610.259999952316,
+      "end": 6612.819999895096,
+      "text": "I'd say at least 50 before you got a decent deal."
+    },
+    {
+      "start": 6612.819999895096,
+      "end": 6614.659999809265,
+      "text": "At least 50 sets."
+    },
+    {
+      "start": 6614.659999809265,
+      "end": 6625.939999542236,
+      "text": "Whether you can get 50 sets of orders done in the UK is not a question you can answer easily."
+    },
+    {
+      "start": 6625.939999542236,
+      "end": 6630.579998931885,
+      "text": "Most of the kits sold, I'm talking 90% of the kits that were sold."
+    },
+    {
+      "start": 6630.579998931885,
+      "end": 6634.499999008179,
+      "text": "Well, maybe not 90, but 80 to 90% of the kits that were sold for V1."
+    },
+    {
+      "start": 6634.499999008179,
+      "end": 6638.339999160767,
+      "text": "5 were sold in the US."
+    },
+    {
+      "start": 6638.339999160767,
+      "end": 6660.899998626709,
+      "text": "Because that's where the biggest grouping of people is who are into this kind of thing."
+    },
+    {
+      "start": 6660.899998626709,
+      "end": 6663.619999847412,
+      "text": "Right."
+    },
+    {
+      "start": 6663.619999847412,
+      "end": 6666.579998931885,
+      "text": "That's that then."
+    },
+    {
+      "start": 6666.579998931885,
+      "end": 6667.5399980163575,
+      "text": "Only 15."
+    },
+    {
+      "start": 6667.5399980163575,
+      "end": 6669.619999847412,
+      "text": "Yeah, only 15."
+    },
+    {
+      "start": 6669.619999847412,
+      "end": 6676.419999084473,
+      "text": "When I've ordered extrusions from China before, I was ordering for maybe three work bee machines and it was really, really cheap."
+    },
+    {
+      "start": 6676.419999084473,
+      "end": 6687.779999694824,
+      "text": "Yeah, but I don't think the quantity would have made a difference there at that point."
+    },
+    {
+      "start": 6687.779999694824,
+      "end": 6693.860001525879,
+      "text": "Must have knocked the That's just Chinese extrusions for you."
+    },
+    {
+      "start": 6693.860001525879,
+      "end": 6723.219994506836,
+      "text": "I don't think that really had anything to do with the fact that it was whatever Do I have a longer extension for my power supply Is the current print list okay to follow for V2 or do you think LDO may change a few things like they did with V1."
+    },
+    {
+      "start": 6723.219994506836,
+      "end": 6908.900002441406,
+      "text": "5 the only thing actually the only thing that's not in the print list but it there is an STL for it is the shroud for the LDO version of the plates yeah so the only thing that you'll need to print that's extra for LDO is the shroud the LDO marked shroud for the spindle mount you don't actually have to print that at all it's not a necessary component it's just an aesthetic component print it in whatever settings you would like it's not structural you can skip printing any of the AB blocks any of the anti-backlash blocks because LDO have metal anti-backlash blocks that they're sending I have asked them for the CAD for those because they updated a couple small things for it but they still haven't sent it to me yet but other than that the print list is up to date I'm gonna be right back I just need to grab a cable from the living room hey buddy everyone say hi come on hook yes everyone says hi hello hello mister Look at the camera look up there look at there look up there and they would have do free shipping there's no such thing as free shipping shipping if someone's selling you free shipping all they're doing is adding that price to your order and they do that for everyone there is no such thing as free shipping the price is baked in the price for shipping is baked into the price of whatever it is you're ordering it's just that that is how cheap Chinese products are in put the fan on because it's hot in here struggle at the dog because he's cute plug that back in with the longer leads so that I can spin"
+    },
+    {
+      "start": 6910.2249999523165,
+      "end": 6925.264999198914,
+      "text": "Enclosure around I don't think I'm on the stream music anymore and I think I'm gonna get copyright struck again."
+    },
+    {
+      "start": 6925.264999198914,
+      "end": 6948.864998626709,
+      "text": "Yep, I am damn I'm gonna get this video demonetized But basically it would have been 150 USD to ship it and when I said okay I'll take three they said we can do it for the same price times three with free shipping."
+    },
+    {
+      "start": 6948.864998626709,
+      "end": 6990.785000610352,
+      "text": "Oh cool So Ollie if you've got a work bee why do you have a Milo or why do you have a Milo or are you just interested in the project Cool cool cool cool cool cool cool cool cool cool cool Now how do I show you this bit?"
+    },
+    {
+      "start": 6990.785000610352,
+      "end": 7029.984997558594,
+      "text": "I'm gonna put the the front panel back in and then I'm gonna get my smoke machine out and I'm gonna feed smoke into here so it fills the chamber up There we go all the fans are on right Yep, that's pulling air through Is the filter still pulling the filter is still pushing air out the back."
+    },
+    {
+      "start": 7029.984997558594,
+      "end": 7037.024998474121,
+      "text": "That's good The more you buy you the more you save The work be is only for cutting foam."
+    },
+    {
+      "start": 7037.024998474121,
+      "end": 7076.865002441406,
+      "text": "Oh yeah, yeah, I remember now you have two Milos technically and I don't even have one Okey dokes smoke machine time Do I I do have smoke liquid in here still I do have smoke liquid perfect Amazing Where's that cord I just put that all right?"
+    },
+    {
+      "start": 7076.865002441406,
+      "end": 7150.064999389649,
+      "text": "I'll need that for that This is gonna take a couple minutes to warm up So whilst that's warming up it is on it's off auto spray I'm just gonna take a couple of seconds just to get everything cleaned up and put away That's the M3T nuts in there those can go in there those can go in there Those can go there Gotcha gotcha gotcha Roger Roger Roger Well in a couple of weeks the other Milo is going my it's my V1."
+    },
+    {
+      "start": 7150.064999389649,
+      "end": 7154.145001220703,
+      "text": "4 oh you've been you've been part of it since V1."
+    },
+    {
+      "start": 7154.145001220703,
+      "end": 7210.865002441406,
+      "text": "4 Jesus I didn't realize you've been around for so long That was three years ago No, that was four years ago Yeah, I've been around for a while just never been part of the community god damn dude That's rough You wanted to go out bud come on It's too hot in here for you There you go you go annoy Robbie Well technically I didn't even realize there was a discord"
+    },
+    {
+      "start": 7211.495000002384,
+      "end": 7213.415000019073,
+      "text": "Then, how did you figure it out eventually?"
+    },
+    {
+      "start": 7213.415000019073,
+      "end": 7215.654999790191,
+      "text": "Like, how did you realize?"
+    },
+    {
+      "start": 7215.654999790191,
+      "end": 7231.494999465942,
+      "text": "I'm always interested in the people who come to us but aren't part of the Discord or anything."
+    },
+    {
+      "start": 7231.494999465942,
+      "end": 7249.254999694824,
+      "text": "Like, Druid is well and truly not part of the, he's not even part of the Discord now, but somehow he's managed to find the stream, which is, I think, quite amazing."
+    },
+    {
+      "start": 7249.254999694824,
+      "end": 7256.455000457763,
+      "text": "Also, if people are wondering about my little experiment about pushing the stream back an hour, it's worked."
+    },
+    {
+      "start": 7256.455000457763,
+      "end": 7261.8149972534175,
+      "text": "There's a lot more people, a lot more steady people here than there are normally."
+    },
+    {
+      "start": 7261.8149972534175,
+      "end": 7279.655001220703,
+      "text": "So, I think on the weekends, maybe not on Sunday, but if I've got a Saturday or a Friday free, I'm going to push those streams to be nine o'clock starts just because it gets all the Americans over and there's still enough time for Brits to watch in."
+    },
+    {
+      "start": 7279.655001220703,
+      "end": 7281.8149972534175,
+      "text": "I actually don't know, I just stumbled across it."
+    },
+    {
+      "start": 7281.8149972534175,
+      "end": 7289.335001525878,
+      "text": "I think it was after I had been doing some loads of testing of ATC stuff, and I was like, I should probably share this somewhere."
+    },
+    {
+      "start": 7289.335001525878,
+      "end": 7291.8149972534175,
+      "text": "And I looked on the Reddit and then I saw the Discord stuff."
+    },
+    {
+      "start": 7291.8149972534175,
+      "end": 7293.094996032714,
+      "text": "But you had a 1."
+    },
+    {
+      "start": 7293.094996032714,
+      "end": 7302.534998474121,
+      "text": "4 before that That's the bit that amazes me most."
+    },
+    {
+      "start": 7302.534998474121,
+      "end": 7303.335001525878,
+      "text": "You had a V1."
+    },
+    {
+      "start": 7303.335001525878,
+      "end": 7319.174997863769,
+      "text": "4 before we even did anything with the ATC because the ATC stuff's only like a year old at this point, not even a year old."
+    },
+    {
+      "start": 7319.174997863769,
+      "end": 7330.9349999999995,
+      "text": "I think that's warmed up enough now."
+    },
+    {
+      "start": 7330.9349999999995,
+      "end": 7346.054995117187,
+      "text": "Oh my god, right, so the enclosure is now full of smoke."
+    },
+    {
+      "start": 7346.054995117187,
+      "end": 7353.814989624023,
+      "text": "This whole room is now full of smoke as well."
+    },
+    {
+      "start": 7353.814989624023,
+      "end": 7367.414995727539,
+      "text": "That's not from Right, so we've got way too much positive pressure right now, which means that it's coming out all the seams."
+    },
+    {
+      "start": 7367.414995727539,
+      "end": 7372.214998779296,
+      "text": "I haven't sealed any of the seams, so that still makes sense."
+    },
+    {
+      "start": 7372.214998779296,
+      "end": 7377.1749902343745,
+      "text": "So that's not the worst news in the world."
+    },
+    {
+      "start": 7377.1749902343745,
+      "end": 7395.334993896484,
+      "text": "It just means that you need to tune in software, you need to tune down the intake fan so it's not over-pressuring the chamber too much."
+    },
+    {
+      "start": 7395.334993896484,
+      "end": 7419.1749902343745,
+      "text": "It is clearing quite quickly, though, which means the filter's working."
+    },
+    {
+      "start": 7419.1749902343745,
+      "end": 7419.814989624023,
+      "text": "Yeah, I had a 1."
+    },
+    {
+      "start": 7419.814989624023,
+      "end": 7422.054995117187,
+      "text": "4 since the first release."
+    },
+    {
+      "start": 7422.054995117187,
+      "end": 7429.334993896484,
+      "text": "I was working on an ATC stuff before you guys, maybe might have found you through principles or just some random Pinterest."
+    },
+    {
+      "start": 7429.334993896484,
+      "end": 7430.534990844726,
+      "text": "Pinterest."
+    },
+    {
+      "start": 7430.534990844726,
+      "end": 7435.734987792968,
+      "text": "God, Milo's got all the way to Pinterest."
+    },
+    {
+      "start": 7435.734987792968,
+      "end": 7440.134996948242,
+      "text": "Now that's surprising."
+    },
+    {
+      "start": 7440.134996948242,
+      "end": 7440.614992675781,
+      "text": "Awesome."
+    },
+    {
+      "start": 7440.614992675781,
+      "end": 7447.814989624023,
+      "text": "And just like that, the entire closure is pretty much smoke-free."
+    },
+    {
+      "start": 7447.814989624023,
+      "end": 7450.374987182617,
+      "text": "Hell yeah."
+    },
+    {
+      "start": 7450.374987182617,
+      "end": 7452.134996948242,
+      "text": "Something I design worked."
+    },
+    {
+      "start": 7452.134996948242,
+      "end": 7458.214998779296,
+      "text": "It's amazing."
+    },
+    {
+      "start": 7458.214998779296,
+      "end": 7461.894991455078,
+      "text": "Hell yeah."
+    },
+    {
+      "start": 7461.894991455078,
+      "end": 7464.854998168945,
+      "text": "Right."
+    },
+    {
+      "start": 7464.854998168945,
+      "end": 7468.854982910156,
+      "text": "I think that is a good place to call it for the night."
+    },
+    {
+      "start": 7468.854982910156,
+      "end": 7471.975008544921,
+      "text": "Thank you very much to everyone who joined stream today."
+    },
+    {
+      "start": 7471.975008544921,
+      "end": 7473.574984130859,
+      "text": "It was a really, really productive stream."
+    },
+    {
+      "start": 7473.574984130859,
+      "end": 7477.334993896484,
+      "text": "I enjoy it when we've got loads of people around."
+    },
+    {
+      "start": 7477.334993896484,
+      "end": 7484.214998779296,
+      "text": "If you want to support the project in any way, there are some links down below to the Discord if you want to join the community."
+    },
+    {
+      "start": 7484.214998779296,
+      "end": 7486.9349999999995,
+      "text": "Some donation links."
+    },
+    {
+      "start": 7486.9349999999995,
+      "end": 7496.77499633789,
+      "text": "And there's also a link to Polymatrix where you can buy all of this nice little hoodies and t-shirts and things, and the money goes straight to the project."
+    },
+    {
+      "start": 7496.77499633789,
+      "end": 7500.214998779296,
+      "text": "Other than that, I hope you guys have a great day."
+    },
+    {
+      "start": 7500.214998779296,
+      "end": 7502.9349999999995,
+      "text": "Please like and share the video if you can."
+    },
+    {
+      "start": 7502.9349999999995,
+      "end": 7505.574984130859,
+      "text": "And I'll see you next time."
+    },
+    {
+      "start": 7505.574984130859,
+      "end": 7512.614992675781,
+      "text": "Bye now."
+    }
+  ]
+}
