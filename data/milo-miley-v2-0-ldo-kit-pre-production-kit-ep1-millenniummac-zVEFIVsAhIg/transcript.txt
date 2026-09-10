@@ -1,0 +1,1125 @@
+# Milo/Miley V2.0 LDO Kit Pre production kit Ep1 #millenniummachines #opensource  #cncmachine
+Source: https://www.youtube.com/watch?v=zVEFIVsAhIg
+Channel: Millennium Machine Works Official
+Duration: 02:49:01
+Transcribed: 2026-09-10T07:53:08+00:00 using csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming [int8] (parakeet-onnx)
+
+---
+My back on. How are we doing folks? How are we doing? Where's Discord gone? Why is my
+Discord vanished? Hey, there it is. Perfect. Right. So, how is everyone? I hope
+everyone's doing all right. Everyone's having a great time. We are on stream today,
+starting our V2 build, and we have a very, very special guest. So, Hans, would you like
+to introduce yourself for me, bud? Hello there. Can everyone hear me? Hopefully,
+everyone can hear you. Right, let us know if there are any audio issues, guys. Hey,
+folks. Right. Hey, Thomas. Hey, Omangand. Hey, Damascus. Hey, Straw Dog. How is
+everyone? Right, sorry, I cut straight in there. Go ahead, Hans. How are you doing, bud?
+Very low audio. He's very quiet. Good. Okay. Yeah, introduce yourself, Hans. I'm
+basically the one behind the shots. But most people who are here. I'm very happy to be
+here and actually received the V2 kit that I had to fight with UPS to get. So that was
+quite a fight, but at least now we are here. Nice. Yeah, how long did it actually take?
+What was it, like was it like two weeks late or something like that? Because we've been
+waiting for these kits for like these kits for a good two or three months now. Oh, yeah.
+I think when UPS received the kit, it took like a week to get the notification that it's
+being delivered. Then the day it was supposed to be delivered, it never got here. And
+then it took another week to get here. And it supposedly was in my city, so my city
+doesn't even have like a UPS warehouse, so I don't know where they stored, but it was
+here. Okay, right, so plan for today is we're gonna get started. There are a few things
+that... Oh, speaking of which, hey, Jose. Yeah, Jose Rivera, who works for LDO, if you
+don't know, he's already made us aware of. So there's a few things that we'll need to
+tweak and change throughout the build. We'll need to drill a few more holes. We'll need
+to thread a couple holes as well. So yeah, just remember, this is a completely pre-
+production kit. It's not really ready for the prime time, hence why we're doing this
+part. So we just need to just want to make you guys aware that the quality of this pre-
+production kit doesn't necessarily dictate the quality of the final kit itself. I don't
+know what we finally landed on, Hans. Are you doing Miley and I'm doing Milo or are we
+both doing the same build? I think yeah, because you said that you want Miley and Milo
+to be built on stream, so I think it will be better if I do Mail and you do Milo. Yeah,
+so it takes it's a fewly different build in terms of the X axis, but also order of
+operations changes a little bit. So I'll try my best to make it as coherent as possible.
+But other than that, we do need to get started on the Y-axis today at the very least,
+because the Y-axis pretty much stays the same. And speaking of which, let's get Fusion
+up. Ooh, why is my Fusion window not working? There we go. Right. So, this is the
+Y-axis. It's really, really simple to build, but there is an order of operations you
+need to go about when building it. So, effectively, we're going to ignore the skirts for
+today, and we're just going to focus not the skirts, the hold downs. And we're just
+going to focus on the main metallic assembly. Which of the Y-axis motor mounts did you
+decide on? Did you go on the split one or the full length one? I think I did the full
+length one. You did the full length one. Okay, so we can work that out in a bit. It's
+basically the same assembly, it's just split down the middle. Oh, yeah, because I think
+the full one fit on my P1S, so I just did that. Yeah, yeah, it fits on my VNS as well,
+so it makes sense. Right, so let's take everything away. Let's take everything away.
+Might be a little nicer if I actually have My face on stream for once. I know you guys
+hate my face, but come on. You gotta deal with it sometimes. So the first things we'll
+need is you'll need the second longest C-beam, and you'll need the 2080 flat extrusion.
+Now, if LDL got this correct, they've tapped both sides of it, and then we're just going
+to get the y-axis bearing block. Now, we don't actually need to assemble the bearing
+block right now, but it just helps to do all the bits and bobs beforehand. Do you have
+your soldering iron on you? Have we forgotten to have we forgotten to repair? No, we
+haven't. Okay, cool. Cool. I did four also. Yeah, it fits on most standard size printers
+nowadays. I don't think it fits on a Prussia core one, which is kind of annoying. The
+Prussia Core 1 is a great machine in every single way, despite the fact the only thing I
+don't like about the Preacher Core one is the fact that it uses the Mark 3 slash Mark 4
+bed size because the whole point was I like it in the fact that it's upgradable and
+that's cool, but for a lot of the stuff that I do nowadays, 220 is just too small of a
+build plate. It's too small of a build area. I forgot to get my there. It is like 250 is
+a great size. Time is up. Oh no, use this information for whatever you feel you can. So
+this time is done, which means that you need to start getting on the next timer. That's
+what the timers are for. Each timer when it ends is just a reminder to start a new
+timer. All right, so we're going to need to do some heat inserts straight up, which is
+always everyone's favorite pastime. There we go. Time for the second timer, I guess. 10
+minutes until I printed a full one on my Flash Ford 5M Pro. Well, how big is the 5M Pro?
+Flash Ford is one of those companies. They get notoriety for being different when
+everyone asks, slightly different when the community wants things to be different. But
+the products that they have have never really stood out to me. Like, I think it's the 5M
+Pro that has the independent inlets for like four different spools of filament. Your
+god, I am the timer. So the heat inserts that we got with the kit were wrong. So that's
+fine. LDO doesn't know about it. They are aware about it, but we spec Voron sized
+inserts so that everyone who's got a million Voron inserts can just use those ones. But
+they sent us the old V1.5 spec ones, which are too small to fit in Boron-sized bores. So
+that's alright. That's alright. If LDO doesn't fix it, they do still fit the CNC
+kitchen-sized parts. So if when you get your kit, double check to see if the inserts are
+the correct Voron spec ones. If they're not, print the CNC kitchen spec parts, and
+they'll still work. Basically, I'm saying don't print anything until your kit arrives
+because you don't want a nasty surprise. How are you doing, Hans? Oh, these just popped
+back up. Nope, it's the inclusive Nope, it's the enclosed one. Bed is 220-ish, if I
+recall. Oh, cool. Yeah, I just there's a lot of stuff I print that 220 is just too small
+for because it's never, it's not always about the maximum build size. If you print in
+almost exclusively ABS, like I do, if you print in almost exclusively ABS, then you need
+to worry about like the last 10 millimeters on either side of the bed because they
+don't... Those are though the edges of a bed don't tend to heat up the same as the
+central mass of a bed do. So you end up if you have a 250 size bed, you don't have a 250
+size bed, you end up actually having a 230 size bed because you do 10 millimeters on
+either side, especially if you're printing really big flat parts or really really thick
+ABS parts. So something with like six bottom layers and six walls, which is like the
+structural setting for Milo, those curl really easily if you don't have like if you're
+not printing in the central mass part of the print bed. Obviously, if you're printing
+like PETG or less warp-prone materials a lot, PTG, PLA, or even carbon-filled stuff,
+it's not too bad. And your mileage may vary. It might be that you manage to print edge
+to edge and you're absolutely fine. Right. So Hans, if you want to grab your Y-bearing
+block and you're just going to stick four inserts into the front for me, there's four
+holes just around the central ball that you want to stick four inserts in. ASA forever.
+Away from me, it prints like a dream. I've never, to be honest, I've never really had a
+different printing experience between ASA and ABS. The only time I print ASA is when I
+want the thing to be outside, and I very rarely do that because I don't have a garden,
+so I never need things to be printed outside. I do have some camping gear, actually. I
+say that. I do have some camping gear that's printed from ASA specifically so I can take
+it outside and not have to worry about it. I need so the main every time I design
+something, I try and design it around as few fasteners as possible. And where possible,
+I try and have main size main size screws. So the main size screws for pretty much
+everything is M3x40, M3x10, M5x10, and M5x12. So if you're ever wondering what size
+screw to use somewhere and you don't have the instructions with you, then it's probably
+going to be one of those ones. Can I push up Hans' audio anymore? Very hard to
+understand. I can try I can do, but it blows out my ears because I can only control the
+Discord volume for his voice, I'm afraid. Is that any better? Hans. Yeah, can you hear
+me, Hans? Hans, can you hear me? Can you hear me guys now? Yeah, yeah, I can hear you.
+Okay, cool. I was just saying because I thought you'd just repeated what I said before
+from what someone said on stream. Cool. So we're going to need some M3 by 12s and some
+M3x40s for this bit. Am I better than this? I was just asking Chat if my voice is
+better. Maybe they can hear it now. Maybe we hear him from your earbuds. Probably not
+because oh, you might do. Can you are you hearing double? Is that what it is? Because
+I've not, I don't have a speaker in this room, so all my audio comes through my earbud
+not double. Okay, you guys hear me through my little lapel mic and Hans is hearing me
+through my earbud. Does Discord have an independent Does Discord have an independent
+sound setting? Do you know I'm just going to turn you off for one second just so I can
+go through Discord? You can still speak, but they just can't see you. Oh, double
+streams. Don't you just love them? Output volume. There we go. Right. Right, try and
+speak now. Is that any better? This is why I don't stream things with my friends. Yom
+Garden says, This is why I don't stream things with my friends. Also, I need friends to
+stream with to do so. You have friends. When you're not bullying me on stream, you have
+friends. Well, you're bullying me all the time, so actually, no, no, I retract that
+statement. Yeah, can you guys hear Hans a little bit better? I really hope so. Awesome.
+Because my ear is being blown out right now Hope you can hear me better guys. No, the
+mask the V2 is not getting the class and the RPM spindle. The whole point of us testing
+these kits is not really now. Okay. Well, I've maxed out windows, the volume on Windows.
+This is annoying. A bit better, but not as good as you. Yeah. Yeah, that's unfortunately
+going to happen. Oh, maybe this one Maybe this will help. Try now, Hans. Oh, now? Maybe
+now you can hear me next. Really hope so. Yeah, this one needs to be stockers designed
+so that we can show actually show off what the stop build is going to be like. There
+might be one little change. That's better. Perfect. Yes, awesome. All right. YouTube
+music one. Yeah, so in OBS, you can change the desktop setting, the desktop audio. I
+just have it set quite low just because I don't like the music being overpowering. I
+think the music can be a little bit overpowering in some streams. Like I was watching, I
+watched the stream that I did the other day where I couldn't hear myself because I
+didn't have my earphones in. My earphones were being an asshole to me. So it was way too
+loud. Awesome. Kiron Azarov, we've got someone new here. How are you doing, bud? Hey,
+Steve. Hey, Steve. Anyone else do? Awesome. So have you managed to get those four
+inserts in? Oh, yeah. Yep, there. Awesome. So you'll need one 608 bearing. I'll need as
+well. I've done it again, folks. I've gone on stream and not prepped any of my parts.
+Does anyone at Nomad Stream? Well, technically earlier today, it was at like 2 a.m. my
+time. I'm guessing no one was because most of my audience is European side. Awesome. You
+got your bearing? So bearing just slots into the little part inside the bearing housing.
+And this is just a concentricity bearing. It doesn't actually see any actual loading. So
+it doesn't matter that this is just a plain roller bearing. The thrust bearings that go
+on the outside are the ones that actually take the brunt of the force. That's okay. We
+love the friends that scramble to find things. Thank you. Thank you. That is my whole
+life, so you must love me a whole lot. Awesome. So the way most of what I designed works
+out is if it's going into the end of an extrusion, it's M12. If it's going into the not
+M12, 12mm, if it's going into the channel with a T-nut, it's an M10. So if I ever tell
+you to do something, that's what I mean. That's the size I mean. So we need to take some
+M5 by 12s and we're going to screw the bearing just temporarily. Oh, sorry, I missed one
+step. I missed one step. We're going to take some M3x40s first, and we're just going to
+close off that bearing, make sure that it's snug M3 by 40s. Now, I am doing most of this
+build off the top of my head, just as a like trying to remember bits that are designed.
+Yes, I did design it, but remember, the V2 has mostly been finalized for over a year
+now. So it's been a while since I did a build. I think the last time I built anything in
+to do V2 was like February. So there's going to be things I forget or things I get
+wrong. So don't use this stream as a build along, just in case. I know some people like
+to do that on YouTube. I used to do it with when I when Nero built his trident. That's
+what I did. I just followed his stream. And you guys, you gotta encourage Hans to speak
+to say some stuff. But Yomangand, right? Be fair here. If you're gonna bully anyone,
+bully Hans for a bit. Alright, he's the new guy. You're meant to bully him. I'm joking,
+by the way. Oh, yeah, I mean, it's pretty good that the AC wiring behind me is not
+showing in stream, I guess. Oh, yeah, yeah. Your live AC wiring. Are you at your uni
+right now? Are you in your uni room? Or is this your room at home? Yeah. I will only
+bully people I know can handle it. Hans can handle it. Hans can handle it. Oh, I can
+handle it. Awesome. So grab the second longest C-beam, the one that doesn't have the
+holes in the side of it. Not soft weak people. Yomangan's calling you soft and weak. Are
+you gonna take that, Hans? No, I mean, let me turn the camera a little bit. Look at that
+EC layer. I think they're there. I just gotta verify something real quick. Don't so it
+looks like we're gonna we might need to do some tapping already. Yeah, we're gonna need
+to do some tapping Right. Have you got your dagger gun? Oh no Hold on No, we won't need
+to do any tapping We won't need to do any tapping so on one side of the C-beam this
+there should be four tapped holes on the other side of the C-beam just the top two are
+tapped so the one the side that has the top two that are tapped to M5 is for the motor
+mount and then the one that has the four M5s tapped is for the bottom mount Sorry is for
+the the bearing block bearing block assembly Hans has the better beard and proper length
+of hair Oi you trying to say I'm balding You trying to say I'm balding that is something
+I can take Hard enough to break carbide that see the chat comes to your aid. The chat
+just bullies me. I deserve it. I fully deserve being bullied. Right? But they're nice to
+guests. That's what I like to see. Where are you up to, bud? I'm working on my table, to
+be honest. Oh, very nice. I deserve brisket. Yes, I do. I do deserve brisket. I can walk
+you through the whole thing if you want instead of having to look at you. Okay, so I got
+the bearings in which part do I need here before I is one of these. I'll show you an
+example of what they look like. So where is it? I won't show you an example of what they
+look like because I don't know where I put them. I'll take it out and just show you. So
+it's like a little box section. It looks like a little box with a rounded part on the
+top and it fits straight into that little piece there. Half an hour into stream and
+we've done one party, but we are getting there. Well, we'll get there. We'll get there
+eventually. Can you see stream? Are you able to see stream? So if I go over to this one,
+that's what the part looks like. Oh, yeah. I think I have it somewhere in here. That's a
+printed part, right? We're professionals. So, whilst Hans catches up, how's everyone
+doing? How is everyone today? I'll do my typical thing. Is this stream part one of 200?
+Yeah, yeah. It's going to be called viewer mileage. It's getting your money's worth,
+right? The more streams you have, the more entertainment you can have. Remember, there
+are three, and all three are different heights. Yes. Yes, he's correct. They all sit.
+Sorry, this one sits flush with the assembly, though, so it's the easiest one to find.
+Should be at least any projects that anyone's working on? Did you did you have you not
+done the printed part? I either have lost it somewhere in my room or have forgotten to
+print it. So one second, I will send my someone has to print me professionals, I swear.
+Okay, whilst Hans goes to go print that, I'll get on with the rest of the assembly.
+Right, so if you can look at the if you sorry, look at the top left screen. The assembly
+has this assembly has six bolts that go on the front side of it. There are also two
+bolts that go in the very top. We're going to ignore those for now. And we're just going
+to take care and we're going to ignore a couple of these. We're only going to use the
+top two for now because we're going to take it off in a second anyway. Also, two accent
+colours and one is primary. Yeah, you can print them in whatever material you want. The
+odds are you'll have a lot of accent colour left over, so you might as well print it in
+the accent colour. You don't need to do it. The same with any of these. Like, you can
+print them in whatever colour you want, because they're going to be hidden most of the
+time. The only one that you really see is the Z-axis one. And just again, it doesn't
+look too bad. It is a quick print. It's a tiny piece. It'll be like 10 minutes. And we
+don't need it. We don't necessarily need it need it right now. So as long as he gets it
+printing, as long as he gets it printing now, we can get on with the rest of the
+assembly and come back to it. Anyways, anyways, anyways, anyways. All right. Whilst Hans
+is doing that, whilst Hans is doing that, let's have a bit of a cuddle with this boy.
+Hey, buddies, did I wake you up from your nap? Did I wake you up from your nap? Did I
+have to tie you out by taking you for an hour and a half walk before stream so that you
+didn't mess around with my stuff? Yes, yes, I did. Yes, I did. Let's put money on the
+spaghetti print unique. Brisket is growing. He's nearly a year old. He's a year old
+in... What's the date today? It's the 23rd today. He's a year old in seven days. In
+exactly one week, he is going to be one year old. Yeah. And believe it or not, about 20
+minutes after I set up stream with Hans earlier today at like five, he ate through my
+Ethernet cable. So I had to scramble to repin a whole Ethernet cable just to get stream
+going today. Because this room doesn't get Wi-Fi or it does, but it's really, really
+spotty. So next week we'll get a birthday stream. I'm not sure about birthday stream,
+but I have booked the day off just so I can take him out for a long walk. Yeah, I have
+done that. Alexa workshop light on. There we go. Hey, it's a little lighter now. Brisket
+deserves me. Yeah, we're definitely going to have a brisket stream. Hans, how's it
+looking? It's looking pretty good. It should be printed in around 30 minutes or so.
+That's what it's telling me. Yeah, it's a compressive load piece. So you can put it in
+the SS settings. But I just realized Hans and SS probably shouldn't be something you say
+in the same sentence. Okay, it's a very interesting combination of words. Yeah, in a
+semi-structural. I'll say semi-structural. For now, for now, we just need to do the
+rails. So do you want to stick the what's it called on just this piece on to the
+extrusion? So the side that has the four tapped holes is going to be the front bit and
+just put the first two screws in there after that we'll need some M3T nuts and some
+M3x10 screws. There's a lot less screws than V1.5 had. There's so much less. Oh yeah,
+when I was checking out the model, I already saw on the FMGs that there is a lot less
+screwing to be done. The FMJs, I made sure to put a lot of thought into where the screw
+bolts went. Because if you didn't know, I didn't design, well, I didn't design the FMJs
+that are now popular. The FMJs I designed, I gave to Tech Morphic, and Tech got them
+laser cut. My original ones were meant to be milled and they had a lot less holes in
+them. And then tech took it on and they became popular because they could be laser cut.
+And because they could be laser cut, they were a lot cheaper. And people just started
+using those. So we adopted them as a standard. That's a big thing I like to do. It's one
+of those tricky things because you want to attribute everyone that's giving you any kind
+of help along the way, but sometimes things are just so obvious or so repetitive or
+something like this. Or there's complications behind the scenes. Because like tech full-
+on made the FMJs, but he also took them from an idea that I originally had. So it's
+attribution's a hard thing, is what I'm trying to get at. Attribution's a hard thing to
+get right. Is Nero still streaming? Does anyone know? Want to see if I can pop in and be
+like, you raid me, please? Can I have all your peoples Awesome? You got your rails The
+second longest from this two, right? Yeah, the second longest for the white axis and
+there should be a bag full of No, he finished an hour ago. Okay, yeah, there should be a
+bag full of rail carriers before actually do you before we do anything let's make sure
+these get marked off. Do you have a marker I don't have a marker? I just found a new
+store my really can't see label printers So what I'm trying to do is I want to mark the
+carriages that come from a certain rail So I'm just gonna do R1 R2 and then on one side
+which is gonna be my starting side because I want them to go on the same way that they
+came off right I'm gonna write R so it this means that it goes R R1 R2 in that order so
+from left to right in my case I don't I don't know why I chose R, but I'm gonna use
+different letters for the other rails in a second. So I'll just use I'll just do Y on
+this one Y1 Y2 So just so that you guys can see This is what I mean Because matching
+rails is more important than rail order, but rail order also helps just helps make
+things a little bit more predictable Where is it what the hell is going on My monitor's
+going crazy Holy shit, I don't know why that happened My OBS is going mad. It's
+literally glitching all across my monitor. Oh no, it's Discord that's doing it I mean
+Discord didn't really want to comply at the stats, I wouldn't be surprised What on earth
+is happening I'm gonna video this because you you guys won't believe me if I'm gonna
+video this and put it on Discord This is currently what Discord is doing and when I open
+OBS Something balked Windows is behaving really weird Jesus nothing wants to go right
+this stream I guess the world really didn't want this stream to happen first UPS now uh
+then discord and now obvious and don't forget Brisket Brisket also tried to get the the
+stream cancelled What's chat saying right I've stuck it in general chat for people who
+want to see what my monitors are doing right now. Oh, I know what it was. I know what it
+was. I put a box on my F11 key. Oh, yeah. That might explain it. That might explain it.
+So it was trying to constantly my fault. My fault. Hey, Dominic, how you doing? User
+area, yeah. Yeah, it's completely user. That was entirely my fault. Entirely my fault.
+Right, let's go back to what I wanted to actually show you and show you. There we go.
+So, what I've done is I've marked one side of the rail with just a letter. So, in this
+case, it was Y. Then each rail, so Y1, Y2, and I want the order when it gets put back
+together to be Y, Y1, Y2, just to keep the same order. It doesn't matter too much if Y1
+and Y2 get mixed up. It's not as bad as not using the same rail. The reason we use the
+same rails is so that the preload, because the preload is set to the rail standard, to
+the rail itself, it's not just a magical preload that happens. They actually get matched
+to the rails. Hey, excessive builds, how are you doing, bud? What are you doing? How are
+you doing? Hey, there excessive. I nearly said Exeth by accident. I really struggle to
+say excessive. I really struggle to say excessive. Cool. So now the rails are all marked
+up. Let's make sure that we take the carriages off and put them somewhere safe. Where
+can one buy this machine if you're from South Africa? Been long to build one. Probably
+couldn't buy one in South Africa. I know JoeBurg has a few 3D printing stores. So if you
+head to JoeBurg, if you're in Kauteng or anything like that, maybe go visit. It's either
+Joburg or Pretoria or find a friend who's going to visit. I go to SA like once a year.
+So I might be able to bring one down at some stage, but currently the V2 kits aren't in
+production yet. Right, because I know the direction these are going to go on. I know
+they're going to go on from the front backwards. I'm going to make sure that that letter
+was oriented to the front of the build to the way the blaring block is And then I'm
+going to clip it in. I know I haven't put the T-nuts in yet. The reason for that is I'm
+going to put T-nuts in aligned on the other side first just so that they're vaguely in
+the right direction and then repeat it on the other side. I just need the other rail as
+a reference point so that the camera kept working Oh well webcam's not working What
+makes this machine different to the first Milo Well technically that's not the first
+Milo the V1.5 was the fifth production ready one and there was a bunch of middle buttons
+in between It's got a bigger build volume. It's a much easier build. The whole point is
+it's more of a quality of life thing. Performance is around about the same. It's got a
+larger capacity for accessories, things like fourth axis, tool changer, all that kind of
+stuff. It has two modes that it can be built with. So the X-axis is either going to be a
+Milo standard X-axis or a My Lee standard X-axis. And the difference between a Milo one
+is the Milo, the whole bed moves. With the Milo, it's just the build plate that moves.
+And they're slightly different sizes. So Hans is building a Milo. I'm building Milo.
+Could you fit all the T-nuts to the rail, then slide them in from? You can, but it's a
+pain in the ass. I find this just to be quicker. I say that whilst also not doing the
+part that I was going to do and taking a million years to do it. Here's the thing about
+building on stream, it makes everything take like 10 times longer. But it also makes it
+less not strenuous, less, I don't know, annoying because I get to speak to people. I get
+to speak to the best community in the world. Genuinely the best community in the world.
+Even Yolangand. Even him. I am behind, Lol. Only came back to 3D printing and all three
+months ago. Been away for about a year. Was working in Seychelles. Oh, cool. I have some
+family who live out on Seychelles. Well, I have some yachties that live out in the
+Seychelles that I pretend to call my family. Awesome. So I'm just going to take these
+clips off now. We are indeed. Yes. Yes, you guys are. And if you like the community that
+we've built up here, make sure to join either the Discord or to smash the like button. I
+can't believe I just said smash the like button. Hit the like button. You know what?
+Smash it. Stomp it. Destroy it. Pretend like it's your ex. Oh, that's cute. You've got
+kids, don't you? Did you meet the love of your life the first time around? Button the
+smash like. Yes. How many entry nuts should I fit in? Like for each hole or for each
+hole, yeah. We're not doing what we did for V1.5 where we did every other hole like
+Vorons do. Voron does that because they don't really see very much force on moving on
+any of their gantries. So they don't need to. And the precision of a precision of a 3D
+printed of a 3D printer is not the same as a CNC, so they don't need to worry about it
+as much. Whereas for us, you can put strain gauges on it or put an indicator on it. When
+the spindle is about to make contact, you can actually take a reading of how much the
+bed gets pulled up when the spindle engages. Because a natural thing for like either a
+drill or an end mill to want to do is it wants to push the flutes down into the
+workpiece, which in turn means that the column gets in turn, that means that the column
+is trying to pull up on the piece and you can physically take a reading on how far the
+bed blows upwards if you're taking a really deep cut. Oh yeah, awesome. I mean, I like
+taking deeper cuts. You like taking big cuts. Yeah. If no one knows, if the people on
+stream don't know this, Hans is the guy who does steal on Milo pretty consistently. And
+your Milo is not even that. Beefed up, is it? Well, when you started those cuts, it
+wasn't beefed up at least. You've beat it up. Right now, it's not even that beef stuff,
+because basically it has the hoise and a really big chunk of epoxy granite, but other
+than that, there is nothing much extra about it. Yeah, now it has the ball screws, but
+before it didn't. And I was cutting stainless. That's my go-to material right now in
+steel, because it's a bit less misses for me somewhere than regular steel. I did cut the
+ball screws on Milo, so it handled hard and still pretty alright. Yeah, yeah, expected.
+Yeah, but your epoxy granite isn't a structural piece, is it? It's just you've just
+basically done the equivalent of bolting it down to an epoxy granite table, haven't you?
+Because you've filled the electronics box. It's not a structural, it doesn't increase
+the stiffness of the actual machine itself. I need some M3 by the just for vibrations.
+Yeah, it helps with vibrations and stuff like that. It's good dampening method. You can
+achieve the same thing by just bolting the machine down to concrete if you had a big
+concrete slab. Actually, that's what I'm planning right now to my Milo. I'm going to get
+some concrete from my dad over here, and we're going to fill the base of my steel table,
+so it will weigh like around 160 kilograms. So Milo is getting a pretty heavy base.
+Nice, right? Your dad sounds awesome. The fact that he'll just... Oh, you know what?
+Well, that's fine. We'll pour some concrete for you. Oh, yeah. I mean, today I even got
+the little base plate for it that I will have to drill and tap something. So basically,
+I'm just going to like drill horse holes on this and bolt Milo to this. And this will
+just go into the concrete and basically connect the two. Yeah. Yeah, that's one of the
+not a design flaw. It's just something I couldn't achieve with CASA. Because the thing
+with Casa is like it's an enclosure that's meant to fit everyone's well 99% of people's
+setups and 99% of people aren't bolting things down to big heavy blocks of concrete and
+or sticking filling their entire electronics cabinet up with epoxy granite but it does
+mean that you lose the ability to bolt it directly down to a stiff work surface and that
+can oftentimes help quite a lot with performance Hans my friend you need to share more
+stuff from Yormangand he shares tons of stuff he literally posts on YouTube at least two
+or three times a week It's just in the form of shorts I mean now yeah yeah I mean now
+it's a bit slow down because my Milo is not working. I'm waiting on some locking colors
+for the war screws because I may have forgot about them when I was building it. So it's
+not really operational right now. I had the boss on the X-axis like slide out two times
+so I was like okay I'm going to wait for the colours. But surprisingly the Epsilon axis
+I think one of the bearings are like so good of a press fit that it's actually keeping
+the ball screws in place so I didn't even have any problems on Epsilon only on axe that
+that was just sliding out all the time. Okay. Is this why you asked me whether or not
+you should have locking colours on your X axis because so generally I've got an example
+of a ball screw here so ball screws have a machined end on them. I'll come a bit closer
+to the camera for you. So ball screws have one flat end generally and one machined end
+and the machined end comes it's a lot thinner than the actual diameter of the screw
+itself. So this is a 1204 ball screw so 12mm here and then it reduces to an 8mm piece
+here. So generally you've got one floating bearing so in here is just a normal roller
+bearing and that can move back and forth and it's the whole point is it is it can grow
+with the thermal expansion of the ball screw itself and then the other side is the only
+bit that actually has bearings that can take a radial load sorry not radial an actual
+load so this kind of up and down Direction and the way you secure it in place is there's
+a little square nut that you screw into the back of that and that stops the screw from
+being able to move back and forth And I'm guessing Hans is this the piece that you're
+missing are you did you forget to install this bit that little nut there Yeah, yeah So
+basically my boss screws are not even secured I'm really surprised that when I first did
+the test cup that I uploaded to showcase that it actually finished because like the
+screws weren't even secure at all yeah If anyone's wondering those 1204s are the size of
+ball screw that we're gonna be using on Atlas and just not necessarily in that size I
+only follow this stream nothing else only for Brisket and his weird balding friend oi
+You're mean today Stop stop taking the piss out of my hair just because Hans has got
+luscious long hair Alright, I'm gonna take the other carriages off now Whilst the
+carriages are off Well whilst the carriages are off yeah it's a good idea to grease them
+up the ones that came with the LDL kits are the test for them is that if they don't fall
+down when you pick them up vertically then they're greased well enough whether or not
+you want to put more grease on them is up to you Probably not going to just because I
+don't like handling grease if I don't have to All the best people are balding is that
+you saying that you're balding Steve We need to get you another camera so that we can
+actually see what you're what you're doing Oh yeah it's a pretty basic setup right now
+so I'm not surprised that it's wait let me try to I personally always soak in IPA and
+it's not a bad idea Jose you are correct you are correct you probably should grease
+those carriages let it be known that I am wrong I'm probably wrong here but that I am
+also quite lazy in this regard Jose is correct you should probably do it God made only a
+few perfect heads the rest are covered with hair you say that but I was so problematic
+as a kid I've got scars all across my head from from jumping in the pool and the shallow
+end from falling out of trees I was an injury prone child There was also the fact that
+my sister used to beat living daylights out of me when I was a kid She once convinced me
+to let her paint me with acrylic paint acrylic based paint all over my body in return
+she would give me a can of Pringles. I think that was a good trade to be honest Oh this
+is an amazing thing. Yeah don't tighten any of the M3 rail screws down just yet Leave
+them alone. Yeah, just leave them a little bit loose. We're gonna tighten one just so it
+doesn't move around when we're doing other bits, but don't tighten the rest up just yet
+What we do for a Klondike bar That's a very American thing. We don't have Klondike bars
+here Yes, people please grease your rails I started losing mine at 18 yeah I went from a
+fairly full head of hair To what I am now in about two years Like the first kind of
+video where I put where I appear online was the first year of me balding I think that
+was at Smurf in when did we first go to Smurf so there's Smurf last year 2024 so it's
+2023 so between 2022 and 2023 that's when I lost my hair What we do for your Yorkie
+Thomas hashtag blame Yolmand That's what we do here. That's what we do here. We always
+blame Yorman Awesome My cat is trying to take care of it because I think this was the
+fourth day in a row that he woke me up at like 4am so it was amazing. He wanted to play
+Raj, how you doing Oh yeah have a look at the the new stream elements pop up and and
+Followed so are my old my older and younger brother Awesome have you got your have you
+got both your rails on yet we managed to get both rails on almost almost almost cool I'm
+getting the second one screwed in cool and I think I just heard my printer finish so we
+got that part nice I really hope that was my people because my A1 mini sprinting little
+cable covers with the plate changer so I'm not sure if I'm finished but I didn't hear a
+play drop so I'm pretty sure it's the P1S oh cool that's no issues then right all can't
+remember did I get rid of those or did I keep them oh no I got rid of them all good I
+missed your micron build I hope all is well with you yeah the Micron build is going well
+actually the reason we I don't actually want to do a full full build stream of it like
+I've already started working on it the only reason we didn't was because Hans was having
+some UPS difficulties with getting his kit so yeah that's pretty much the only reason we
+did it cool uh we're gonna flip this entire well tighten up one of the screws at the
+very end tightly it doesn't matter which side just so that it stays in relatively the
+same position and then we're gonna flip the entire thing over and we're gonna install
+the uh 2080 now they've tapped both sides of this but you don't need both sides of it oh
+what's well with you yeah i'm good i'm good i think hands is good as well i think
+everyone's good everyone's chilled everyone's having a good time hey jack how you doing
+uh jake is this the four hammer ship that makes the call observation yes it is so we're
+gonna be working on that next actually so we're just gonna install this bit and we're
+Again, this doesn't need to be we're going to take this off in a bit anyway, so it
+doesn't matter if it's entirely right, but we are going to use it just to index some
+measurements off of, some rough measurements off of. So if you wanna get the bearing
+block and screw it into the 2080, that's probably a good idea. Yeah, this is the four
+hammers assembly. You'll understand what that means in a bit because it just looks like
+Force Hammer when it's all put together. Jirill, why did you decide to introduce new
+joint on Y and Z on V2? Because tramming became an issue for new people. Tramming on
+V1.5 is kind of, if you don't know what you're doing, it's kind of like poking around in
+the dark and hoping to find a pin, right? It's not the easiest thing to do. And shimming
+works, but you need to apply a fairly consistent amount of downward pressure to do it.
+And when you're doing that by hand, it's just a pain in the ass. It's just a pain. Once
+you get it trammed, it's technically a stiffer joint. V1.5 slash V1.6 is technically a
+much, much stiffer joint mechanically, just because the way it's set up. But in terms of
+an ease of use thing, in terms of I need I'm going to need to tram this machine a few
+times in its lifetime, having a platform which completely you can completely separate
+the Z axis from without having to do anything else and being able to tilt it forward and
+backwards much easier and being able to shim the front or back depending on where the
+tram needs to go makes it a much nicer experience If you don't know what I'm talking
+about I have a tramming video on this channel It's like 12 minutes long go watch that
+and you can see what I mean about how the Z axis is trammed on V2 It makes such a big
+difference just to just to the everyday ease of use of it Where are you at Hanship for
+you dropped it Have you dropped it No I just lost it on the table some I'm not sure
+where it is but I know I had one there but I don't know where it went because I love how
+you're like oh no I didn't lose it I just dropped it and I can't find it so you've lost
+it I did lose it but I don't think I dropped this because the cat didn't come and try to
+play with something under the table so I just put some screws on it We haven't seen a
+cat on stream yet excessive you are not an you are not an engineer if you cannot find
+things in your workplace No, no, if you lose things in your workplace, it's a sign that
+you are an engineer If you lose every bolt that you've put in your hands or put it down
+in one place and walk off and forget about it and then spend the next 20 minutes trying
+to look for it that's when you know you've made it as an engineer I mean then I will
+make up that engineer because I never can find anything in my well I would say workshop
+but it's my bedroom too so let's say goodbye to this really nice ABS glass fiber part I
+had loaded in the previous I mean not that I will see it ever again but still do that
+all the time yeah it's the ADHD in most people who the people attracted to these kinds
+of hobbies right you can lump them in with people who are attracted to Warhammer to D??
+D to figurine painting in general people who like making stuff whether it be artistic
+whether it be we're all ADHD There's all kinds of things, and just the ability to put
+something down and walk away with it is tantamount to the mental state that we find
+ourselves in with these hobbies. Awesome. Right, so Hans is getting caught up with that.
+For now, I'm going to explain a fairly complicated joint to you whilst we're doing
+waiting. I see, looking forward to see what people will come up with to reinforce it.
+Yeah, yeah. This might upset Hans a little bit, but I didn't... One of the upgrades I
+didn't look at for V2 was to make it stiffer. I wasn't looking at that because I don't
+design the machines to be for steel. I design them for aluminium because that's what the
+majority of people are going to be messing with. Yes, there are people who go crazy and
+do stainless steel and mild steel and stuff like that, like Hans over here. And that's
+cool and all, but it's not what the majority of people are going to mess with. The
+majority of people are going to want aluminium because they're doing 3D printers or
+they're doing artsy projects or stuff like that, stuff that doesn't require steel. So I
+wanted ease of use whilst maintaining the same performance in terms of material
+performance as V1.5. At some stage, someone will come out with a mod for V2, which makes
+it 10 times stiffer. And that's okay, right? I'm not designing for that for that 10% of
+people. I'm designing for that 90% of people at my work. We have a rule. Prosper prior
+planning prior planning prevents piss-poor performance. God, first you get me with
+excessive excessive. And now you're getting me with proper prior planning prevents piss-
+poor performance. Right. Back to what I was doing. I said I was going to explain a
+joint. I was going to explain a joint. Unfortunately, whilst I do try and make
+everything as simple as possible and try and reduce the count of nuts and bolts and
+different sizes and different lengths of things, this joint has a lot of different
+length of screws. And I will explain why they have that just here. So the way the Thor's
+hammer assembly works is I'll actually get rid of Give me a second, get rid of all this
+stuff. Where's the one? I can't the way it works is you have a big mass at the end,
+which kind of looks like a big hammer or a big mace of some kind, hence why I call it
+the Thor's hammer assembly. Now, this wraps around the entirety of the extrusion. So
+it's a big box that wraps around it and then gets bolted directly to it to try and make
+this core as stiff as possible with as few bits as possible, with as few bits as
+possible. Now, in order to maintain the trammability of things, to make the trammability
+of things easier, imagine the Y column is the Z column is there. Sorry, this is only the
+Y assembly for now. In order to assemble it and then also use it, I need to do blind
+joints in some places that go all the way through the extrusion. And in some places, I
+needed to do blind joints that only go partially the way through the extrusion. So the Z
+axis actually connects to these corner connectors here, and then the bolt for these, the
+front and the back corner connectors goes all the way through the extrusion, all the way
+down to the bottom to try and maintain as much stiffness as possible. The reason I don't
+do that on all four is because if I did it on all four, every time you took the Z axis
+off, this plate here, this plate here wouldn't be attached to anything. So I use the two
+center screws as blind joints to attach it together so that the assembly stays intact
+and then I use the outer ones to do to actually attach the Z axis to the Y-axis.
+Hopefully... That made a bit more sense than I think it did It's not a clever idea I
+don't think it's a clever idea I think it's necessary to achieve what we needed to
+achieve Etal how you doing bud Is it the same work area as on V1.5 and V2 no v2 is a lot
+bigger well in terms of square area in terms of area it's a lot bigger The X axis is
+10mm bigger on Milo it's actually smaller on Miley Miley is 310 Milo is 350 V1.5 was 340
+in X on V1.5 in Y that was 160 on Milo and Miley it's one it's 200 in Y and that's the
+big one that's that makes a huge difference in what you can actually do on it Yeah
+whereas V1.5 is 160 and then the Z axis is the same at 120 technically the technically
+Miley is actually 110 millimeters in Z but the moment you put a fix but that's just
+because the fixture plate is already pre-built into Miley whereas on Milo if you took
+that fixture plate off you'd get the full 120 but if you had the fixture plate on it
+would still be 110 it gets confusing but they basically work out to be the same It's
+just that the fixed plate is integral to a Miley but the fixture plate isn't integral to
+Milo I wonder if someone would ever do an automatic tool changer on it Look on the
+shorts we have one that's in the works we have two that are in the works actually a
+simplified one and a slightly more complicated one Yeah, have a look at the channel it's
+either in the shorts or it might be a full-size video a full length video by full length
+I think it's just more than three minutes Right have you got every are you caught up
+Hans Yes the method plastic is blocking the screw from screwing into the little heated
+inserts so I'm just doing it from the other side first oh yeah yeah is that the have you
+are you using the heated inserts that came with kit No, I'm using my own heated inserts.
+You're using your own that shouldn't happen then Yeah, I might need to revisit Didn't
+you say the wrong heated inserts can be the kit or those are in these ones Yeah, it
+might be that the heated inserts you have are slightly bigger than the Moron ones Yeah,
+we have a collet-based tool changer So the idea is instead of having a pneumatic tool
+changer tool changers are better don't get me wrong, they're better, but they're really
+expensive a tool changing an ATC spindle is like the same cost as and probably more
+expensive than a V1.5 was and whilst that's technically a simpler setup after you've
+introduced a compressor for the pneumatic control a bunch of plumbing a bunch of control
+stuff it gets even more expensive and then you're looking at tool holders each one of
+those tool holders is about 60 bucks if you get a cheap one by the time you have an
+eight eight tools worth of tool changing ability you're looking at about 3,000 pounds
+and it's expensive the collet-based tool changers basically use the inertia yeah they
+they do exist they do exist and then mad people again hands likes to mess around with
+them the collet-based ones are cool because all the only expense is you need another nut
+another spindle nut and a collet and then you also need a bunch of the you need some
+printer parts and some screws for assembly and some heated inserts by the time you get
+eight tools worth of tool changing you've spent maybe a hundred bucks whereas so it's a
+it's it's the difference between going industrial with something or doing something at
+home that works 90 99 of the time but may fail on occasion but it's a lot cheaper so it
+swings and roundabouts swings and roundabouts We've also got a fourth axis in the works
+and a vacuum plate So if you want to if you want to get the the real good circle you can
+use a vacuum plate Are you swapping We've lost hands. I think he's swapping over No,
+this was just somewhere kick the headphones on or off No it switched to the phones
+speaker I was like where did you go uh let me first get a machine built first. Yeah
+you're probably gonna have to be waiting until V2 comes out to be honest. There aren't
+really very many stores left around the world even that have a V1.5 kit left that still
+boggles like that still blows my mind that we've managed to get a Milo in every single
+hemisphere like something that I came up with in my university room my university
+bedroom has now gone to every single continent other than Antarctica I know there's some
+in Asia I know there's some I will wait for V2 yeah V2 should pre-orders Jose you might
+need to what's it called to double check on this one but pre-orders in December time
+maybe does that sound about right so long as the kits get changed and we manage to build
+these in time do you have any info regarding the amount of kits sold worldwide I think
+it was around about 500 Yeah, I think it's about 500 we have we have 200 serial Milos. I
+know there's about 50 more Milos that I'm aware of that haven't been serialized So yeah
+Possibly we just have to get these kits fixed slash tested. Yeah How did you build the
+one at the LDL headquarters Because Dave was telling me that they they've already built
+one but obviously there's all the extrusion hole weirdness that we need to get fixed so
+how did they manage to build it Yes, that's when I get my 13th check going to buy one
+how do I get it serialized you need to build it go to the serial channel use the serial
+request command it's been a while since I checked it out that will ping one of the
+moderators we'll double check the video to see if it's moving and if it's cutting
+something and if it does then you get the cereal and you get to go you get to go on all
+the serial channels get access to all the serial channels It's really easy basically
+video it put it up on serial We'll check it bam you're in That is a fantastic question
+Yeah, Jose Jose works for LDO So you can always ask him questions Are you struggling
+there, Hans you okay I think the heated inserts that I use are not long enough So right
+now I'm doing a very sketchy solution of just messing them a little bit further in okay
+that surprises me that they're not long enough because the ones I do the the oh yeah,
+you're using Voron size parts aren't you okay that makes sense The the ones I design if
+you don't know I prefer the CNC kitchen heated inserts Heym I prefer the CNC kitchen
+heated inserts and they're only three mil deep whereas these ones are 4.7 mil deep I
+like the CNC kitchen so every time whenever I design anything I design it first for the
+CNC kitchen sized ones and then I do the Voron Size ones after that. I copy everything
+over, change the whole sizes and the whole depth to fit Voron, and that's that's how I
+support the Voron assembly ones. Brisket is snoring by my feet. So if you hear a
+rumbling, that's him. The CNC kitchen ones are just so much easier to design for because
+the way the sizing that you need is 4mm diameter, 4mm deep. You can just remember that
+really easily. 4mm diameter, 4mm deep. Whereas the Voron ones are 4.7 mil diameter, I
+think, and then 5mm deep, I think. It's just not as easy to remember. What will come
+with a kit? Printed non-I printed non-Voron parts. It doesn't come with CNC kitchen
+ones, I'm afraid. It doesn't come with CNC Kitchen ones, I'm afraid. Luckily, there's
+less heated inserts than there was in V1.5. So less parts. All the M5 ones, so the
+Y-axis motor mount, the Y-axis motor mount, the Y-axis hold downs, all the M5 ones are a
+universal size, so they work with both CNC kitchen ones and the ones that LDO are going
+to supply. Because as far as we know, Voron doesn't supply, doesn't have a standard M5
+heat insert size. So we could choose that size. So the only things that you need to
+reprint are you'll need to reprint the X-axis bearing and motor block, the Y-axis
+bearing block, the Z-axis bearing block, the I don't think the Z-axis motor mount needs
+them. In these kits, we accidentally sent the smaller CNC kitchen size ones, but for
+production, it should be Voron size. Yeah, exactly. So you'll get Voron size ones in the
+kit when they come out. It also makes it easier for LDO because they don't have to
+supply a bunch of different size heat inserts. Because that was a real problem with V1.5
+in the early in the batch one kits for V1.5. I think it was the 2.5mm ones were heat
+inserts were not great. Hey, Cobra, how you doing? They were the wrong size and they
+just fell straight through the holes. But LDO did the right thing and they sent a bunch
+out to replace it. Just a genuine shout out because Nomad said this on stream yesterday.
+Just a genuine shout out. I know LDO's been having a little bit of trouble this year,
+but there is no better company in this space that I would rather work with. Right. And
+when I say that there was some trouble with this or trouble with that, that's not a
+slight on LDO. Because no matter what, if you're producing anything in volume, if you're
+producing kits or parts or anything like that, there's going to be mistakes. There's
+going to be things that get wrong. That's just part of the process. And LDO goes out of
+their way to make sure that if there is a mistake, they fix it. If something happens,
+they fix it. Their community efforts, whether it's been social or just straight up
+supporting the creators that they work with, have been fucking fantastic. Absolutely
+fantastic. And I just want to give a quick shout out to LDO because honestly, they're a
+great company. If you ever get a chance, say thank you to Jose, say thank you to Jason.
+Honestly, they're an amazing company to work with Not too bad, just redoing my speeds
+and feeds for the entire 50 tool library. Oh no, I hate that. I hate doing that. This is
+why I have so tool one to 10 for me is just standard sizes of with standard feeds and
+speeds for like 6mm and 3mm end mils in my tool library. And then everything after that
+is whatever tool I specifically have. So I just have generic for the first 10 and then
+after that I just change it up. And Fusion does a really annoying thing where if you set
+up your library into a bunch of different folders, it names the first tool in that fold
+in every folder tool one and it confuses Moss sometimes. So Moss will be like, oh,
+you've already installed this tool because this is tool one. I'm just going to start the
+next part of the program, even though tool one in the first library might have been a
+three-flute end mil and tool one in the other library might have been a champ for end
+mil. So I've had to consolidate everything into a single library and it makes it a pain
+when you're trying to find the right tool. Hey, one solo cube. Hi, hi again. On
+materials, could you mill brass out of the box on an out-of-the-box kit? I'm thinking
+about doing leather stamps. Second question, could you mill parts for more a more rigid
+plane from doing honor metals? We talked about this earlier in stream. There's very few
+modifications you actually really need to do to get Milo going to get Milo working on
+mild steel. Hans, if you haven't watched the rest of the stream down there, he does mild
+steel stainless steel hardened steel all the time on Milo. It's not designed for it. The
+machine does struggle a little bit every now and again, but you can manage it. You can
+manage it. As for brass, brass is one of the easiest materials in the world to cut. It's
+so nice to cut. So honestly... Jake, I have something that I will use on V2. You said
+it's not as stiff as 1.5, but I will make it cut stainless pretty nicely. I got this
+little high-fit mill for it, so nice. Nice, I don't want to swap my audio input. I get
+it. I have two audio inputs. Stop fighting with me. What are you doing? Discord. Fuck
+off. Okay, are you gonna... Hans, can you still hear me? Oh, yeah, yeah. I can hear you
+now. You won't fight for a bit. Is there a post-processor for Milo Slash Mali? Not yet,
+but it's really easy to edit the current post-processor for V2. It's literally just
+changing it, changing dimensions. That's it. I've to step away for a little bit, but
+we'll be back soon. No worries, dude. Yeah, one-sized cube. Going back to what we were
+saying earlier, for brass, you can do brass on a tiny, tiny one of those Genbitsu
+routers. You'll be fine. It's a really easy, really nice material to work with. It
+doesn't come up, it chips so nicely. It's quite a hard material. It's harder than
+aluminium, and just because which makes it cut so well. So, yeah, you can do leather
+stamps on it. I mean, if you want a less gummy aluminium alloy, I can really vouch for
+775 and 2007. I really love those alloys. What size spindle comes with the kit, Jake?
+Just so I print out the right size part. It's an 80mm diameter, but it's not a 2.2
+kilowatt spindle. Generally, 1.5 kilowatt spindles come in 65mm bodies. The one that
+comes with an LDL kit is still 1.5 kilowatts, but it's an 80mm spindle. The reason for
+that is because they don't cheap out on the bearings. It's actually a really good
+spindle. They actually have proper Angular content bearings in it. Brass, you don't need
+cooling for either. You don't really need cooling for a lot of things on Milo. I say
+this quite a lot on the Discord. There's a lot of people who use Mist coolers. Mist
+cooling is a hazard to your health. If you are in a small room and you don't have some
+kind of system like Hans has to collect mist and what's the term? Is it de-atomize it to
+take it out of the air? I would avoid it. Milo is more than happy to cut to cut without
+coolant. It's more than happy to cut without coolant. You just need to make sure you're
+taking a big enough chip. If you aren't brave with CNC machines, if you aren't taking a
+big enough chip, you're leaving all that heat inside the part and that part gets really
+hot and it either warps it or makes it gum up or does a whole load of things to it. My
+personal philosophy about it is if you're not pushing your machine hard enough to take a
+big enough chip to keep the machine cool anyway, coolant is not going to help you. You
+need to be able to run it without coolant at any time before you should even start
+thinking about coolant. Coolant is something you add because you want good surface
+finishes for a hobby machine, in my opinion. Obviously, there are people use Miss Coolin
+and it does help performance. I'm not saying it doesn't help performance. I'm saying
+that it's not worth your health in a small enclosed room if you don't have a way of
+handling it. We need a copy and paste of hands are set up. It's really simple. All he's
+done is he's done HOIs, which is a standard mod, and he's filled the electronics bay
+with epoxy granite. That's it. Oh, and he's put ball screws on it, but the ball screws
+are a different thing entirely. Yeah, and by the way, you can actually mill steel
+without any coolant too. When I first did stainless and the mired steel, I didn't use
+any coolant, just airblast, so it's not even needed for harder materials, usually. Yeah,
+just a good cutting on that mill I wouldn't use ISO if I was doing steel, though. That's
+probably a disaster ready to if you don't know, ISO, like ice probable alcohol, is a
+common coolant used for aluminium cutting because aluminium is non-ferrous. It doesn't
+spark when you mill it. So it's a fairly safe material to use to use it on and it works
+really, really well. Or the what's the who makes the M8 cube? What Datron. Datron uses
+pretty much they recommend ISO on all the machines when you're cutting aluminium. If you
+used ISO on steel, because steel is Ferris and can spark, you're just effectively
+creating a firebombing your enclosure to blow up. Yeah, cut it on steel for the first
+time. I remember that I even put like the isopropyl button I had out of the room. I was
+like, nah, I'm not taking anything with this. Yeah. Aerosis can work, then spray
+paraffin or part while I'm finishing up. Yeah, you can do that. Kerosene, which is what
+WD-40 is, is also a really good for getting really nice part finishes on aluminium. So
+if you're coming around to your finishing up and you've got a spray can of WG-40, just
+spray it on real quick and it will do the finish look really good. And that way you're
+not constantly flooding your room with fumes and mist. You're only spraying it once. So
+ISO when milling titanium is the way to go. Yeah, no, no. For those of you who don't
+understand that joke, titanium is flammable. A lot of people don't know this, but
+titanium chips, just like magnesium, is flammable. It's highly flammable. It's so
+flammable in fact that you can't pour water on it because you'll end up just making it
+explode. Here's some titanium. This is something probably mad, man. How's that part
+coming along? We've been waiting. Stop getting distracted hands. How is that part coming
+along? What's the hold up? It was just throwing stuff off Okay. Let's ignore that part
+for now. Screw it back onto the extrusion and then we'll you can put the bearing block
+in later. It's going inside. Oh, it's going in finally. Okay, fine. Fine. Just make us
+wait. It's too busy grabbing stuff to show off. Kirill, Hans got stuff for all
+occasions. Yes, he is like Mary Poppins, I swear. I don't understand how you have how
+you're at university and you have the money to buy all this stuff. Then again, maker
+supplies in the UK is really expensive. Like, aluminium is about three or four times
+more expensive here than it is in mainland Europe. Whereas Hans seems to have really
+good aluminium suppliers or just metal suppliers in general. I mean, eating toast for a
+man goes a long way for getting, you know, a lot of material to work from I remember.
+Yeah, yeah, I remember. I remember doing that at uni when I when I was first developing
+B1.2, I think it was I was doing it at university and I can only spend I think it was 40
+quid a month on things So I ended up buying the wrong size piece of aluminium sorry of
+extrusion and it needed to be slightly longer so what I did was I got I went to my
+university's job shop got them to cut a piece off of another C-beam that I had and then
+basically filed the threads off the center of a bit of threaded rod of like of M5
+threaded rod and then passed that entire thing through the extrusion to mount it on both
+sides So if you look at the really really old videos the the y-axis is actually two
+pieces of extrusion butted end-to-end But that was when I was that was way back that was
+nearly like five years ago now that was Jesus Christ I've been doing Milo for half a
+decade That makes me feel old. Okay, we should be able Okay, cool get that screw back on
+and let's get going You just have a nightmare little man you just wake up from a
+nightmare What's up? What's up little baby growling at Can you guys hear him bark Not
+old we age like fine wine Well, I hate wine so that tells you all you need to know about
+how I think about myself Oh he's back in his bed Yeah If you join if this is your first
+time joining us and you joined us late This is Brisket. He's kind of the community
+mascot at this point I've had him for nearly a year now and he's the best But he was a
+bit of an accident Weren't you buddy you were just my little accident Okay, I got it
+multidomes. So you're gonna find the two shortest extrusions now so these ones over here
+and on both of them stick the screw M5x12s in the two middle middle tappings Brisket is
+the CEO of Millennium Maybe when he's a bit older He still likes to lick his balls on
+occasion Yeah, the two tiny tiny extrusions The ones that are 40 mil long Just a
+reminder folks if you're just joining us now Thank you for coming. Thank you for being
+on Streamless. It always makes it so much nicer when I can interact with the community
+If you do like what we do here And you want to donate, there are some links down in the
+description if you want to donate to the project. It means that things go a little bit
+faster on the development side of things, and it means that sometimes I can actually pay
+my rent on time. No, I'm joking on that. Yeah, those ones. If you don't want to donate
+and you still want to put something towards projects, make sure you like the smash
+button. Sorry, smash the like button. Oh, God, I've done a Nero. I've done a Nero Every
+bit of popularity that we gain means the project can go a little bit further, more
+people will win to donate, and it just makes it a much easier time for us. So thank you.
+I appreciate it. Thank you. Even you, Yomangand, if you're still here, I think he's gone
+to bed by now. What time is it in the States now? Are we going to be getting the US
+contingent soon? It'll be like six, six or seven. Okay, so is that East or West Coast?
+Three in Colorado. So at least 4pm on the West Coast. No, sorry, East Coast? East Coast.
+Cobra, are you in Loveland? I need someone to five in the east, two in the west. Okay,
+cool. Yeah, so we might get some more of the Americans on Cobra, can you convince me? Do
+I go Rep Mountain Rocky Mountain Rap Rat Festival next year? 3 Prince Hopia or do I go
+to open source? Which one do I go to? Hey, Lewis 6pm on the east coast of Canada. Sorry,
+that was a god-awful Canadian accent. I'm so sorry. Sorry, it's 4.52am here in Perth. Oh
+my god. I mean, if you go to Remurf, you can have beers with me, so open source. Have
+you managed to get those screws in? Where do I need to get the screws in? Did you not
+install the M5x12s in the center? The two centrepieces from what I've heard, East Coast
+RepRat Festival, which is now 3D Prince Opia, is the oldest rep rap event, the oldest
+big one at least. Remurf seems like the biggest out of the 3D printing exclusive ones
+and a lot of announcements tend to get made there. But open source might be the best for
+the project because it gets people who aren't necessarily in the 3D printing world or
+the RepR Festival world. It gets them into the project because we can get a booth there.
+But at the same time, there's a lot more not competition. There's a lot of other things
+going on there that people might want to see rather than just coming to a CNC stand for
+real though, Remurf is fun and the area is beautiful. Plus you have a Milo here you can
+use so you won't need to ship it. Yeah, that's a good point. That's a good point. Both
+sides I agree with that logic. Yeah I need to think about it more. I need to think about
+it more. This is all assuming that we have the money to do it anyway. And the Rockies
+are expensive from what I've been told. I know the Canadian Rockies were expensive when
+I was there. Like Banff was not an easy place to live for six months It's cheaper than
+California. Yeah, that's true. But what isn't cheaper than California? Weirdly enough,
+everyone tells me this, but Boston was the cheapest place I've been to in the States. At
+least the places I was going to loads of people told me that it was really expensive
+than Boston, but I didn't think so. Right, you've got those sorted. So we're going to do
+two, we're going to create a little box section. So with the slightly longer pieces, I
+think these are the second, the second's smallest ones. We're going to create a box
+section with so one on one side, one on the other. Yeah. And these are blind jointed, so
+you need to screw them in nice and tight. I'm off. Have fun. Cheers solid. Hey, so
+coming. When is Smurf next here? I think it's sometime in too far after Smurf, and Smurf
+is in March. I missed Smurf. I want Smurf to be the winter show. I prefer it as the
+winter show because it's always been that, oh, it's around about Christmas time.
+Everyone's having fun. It's always been a more personal event. It's not like Smurf
+where, sorry, it's not like Rocky Mountain where you get a lot of stuff that's actually
+there to show off. Smurf is about being the community. It's about helping the community
+out and just being part of it. And the after party is always fun. Watching Nero dance is
+a spectacle. I'll tell you that we went from being the new guys on the block in 2023 to
+Max and all the Moron guys coming up to me and knowing my name, which was a surreal
+experience. Like it was really, really cool, but it is the first time I've truly felt
+like being part of the open source community. Because obviously I feel like it with the
+Discord and the streams and stuff like that. I've got you guys here, but it's different
+when it's in person. When you can physically see the face of the person that you're
+talking to or shake their hand or this, that, and they see, or have that conversation
+just in real life. It just changes things. I'll check it out. A bit of a trek from
+Norfolk, but it's worth a ticket. Yeah, Smurf. Smurf is great. Awesome. Have you
+managed? Have you got both those in? Hey, Daniel. What would it take to get more usable
+Z travel on Milo? Just longer extrusions? No. No. You're not getting any more Z Travel.
+I'll explain why. I'll explain why. All right, I'll come in nice and close for you. I'll
+come in nice and close for you. So this is the Z plate for Milo. Now, in order to get
+more travel, you need to move the carriages closer together. If you get these closer
+together, you get a whole lot more unsupported section. And that compounded with an
+already not very stiff for a mil frame means your deflection goes really crazy. You've
+also got to fit a whole bunch of other features in this section here. So you would need
+to change the Z plate, right, just to get over the fact that the shoulder is there. If
+Milo didn't have the shoulder, it would be a different story, and you'd be able to
+easily get more Z travel. But because Milo has that shoulder, you're not getting any
+more than 120 usable. So I would not even care. I wouldn't even bat an eye about getting
+more Z travel. You can increase the rail length. Right, but increasing the rail length
+doesn't do anything. It just means because you've still got that shoulder there. The
+shoulder height doesn't change, right? And if you can't, if the part that you have in
+your vice doesn't clear that shoulder height, you could have rails that go all the way
+to the moon. It wouldn't matter. It wouldn't change anything. Hey, Jose And trust me,
+120 is enough. 120 is enough. I have yet to see anyone use more than 120 Z travel.
+Unless Hans is about Hans looks like he's about to say something to me. Oh, yeah. I
+mean, the build I'm doing to my 1.5 that's turning it into something that was once a
+1.5. It will have if I don't install the ATC carousel, I think around 300 millimeters of
+Z travel, because it doesn't use a shoulder. I'm pretty sure it will be a nightmare to
+trim. I'm very sure about that, but it will be very fun. I think I got the plate for it
+too. Yeah. But you're going, like you said, you're going away from having that shoulder.
+So yeah, the reason Milo has that shoulder. Yeah, exactly. So you've got a honking great
+bit of aluminium that you're attaching your Z axis to The reason Milo has that shoulder
+is specifically to be able to get the Y clearance, right? If it doesn't have that Y
+clearance, then your machinable area, your machinable distance in Y would be like 50
+millimeters. It would be a tiny, tiny work area. So that's why you have that shoulder
+there. If you took that shoulder away, you're then left with the same kind of issue of
+how do you extend that Y clearance. And on a normal size mill, oh, kitty cat on a normal
+mill, they get away with that by having a huge cast iron piece that juts out along the
+y-axis. We don't have access to cast iron and asking people to do epoxy granite is a
+lot, especially for newbies to CNC. So we get away with that. We get around it by having
+that shoulder. The way I will do the little hanging out or the spindle will be, it will
+be like a really intensive thing to create because I'm using steel tubing and steel
+plates as I will mill. So the steel tubing will fit into the plate, so it will make
+alignment a little bit easier, but I will have to weld a lot. Yeah. It basically you
+have to work with steel at that point. And one of the goals with Milo is the only thing
+that you need to make it is maybe a drill and some Allen keys and some taps. Like it's
+all hand tools at the point where you're doing what Hans is doing you need to either
+have access to a CNC machine already or be able to cast something and like I said before
+epoxy granite is not for the faint of heart it gets everywhere It's also not as well
+understood in the public eye as people think it is right have you managed to get that
+little box section created should look like that Yep perfect so this is gonna slide on
+and it's gonna index against that that bottom extrusion so it should sit like that so
+nothing on the top half and then indexes across this piece here awesome and if you want
+you can put the top piece on and do the same thing so just blind jointed it down to the
+less stability yeah it's it's slightly more nuanced than that but it's that's basically
+it That's basically it That's what I thought as well. Yeah the thing is like even though
+Hans wants to do Even though Hans wants to do that mod to make it a longer Z axis the
+reason he's doing that is to make it compatible with an ATC he's not doing it because of
+lack of work area unless unless that is what you're doing it for I'm doing it for the
+ATC Carusa because I first I wanted to do it with the regular 1.5 type of build and just
+use sticker extrusions but then I quickly realized that for these little chunky guys
+they won't fit in there yeah so basically I have to either just make the rails longer
+and do a really complex like multi-part attached to the enclosure carouser or just make
+the like wall ZX and Z travel and Z clearance longer and that way I can just fit it in
+easily. Yeah to be honest I don't think I ever was limited by Z-Travel even once. Yeah
+because if you look at it like this is the inception machine vice that most people use
+It's a good thing my floor is carpet because otherwise I would have just ruined my vice
+So these are the inception vices that most people use right these are like 30 mil tall
+Alright and the LDO vice that's coming out whether or not I'm allowed to talk about it
+Jose is about the same height so you've still got 90 mils of travel that you can use in
+Z and most of the time you're going to be limited to Yeah, the Bulldog Vice is coming
+out soon most of the time you're going to be limited to your tool length I have yet to
+see someone use an end mill that is longer than 60 or 70 mil of stick out So you'll even
+if you're using one of those big end mills Hans is just swapping over to a different
+phone even if you're not using Even if you are using one of those big end mills or long
+end mills which I don't recommend because it's a lot of stick out and you'll just end up
+deflecting but even if you do use it you'll still have like 20 mils of unused travel The
+LDO vice looks really nice though the only thing I will I've asked for them to change is
+to put some steel draws on it Because the current ones are aluminium Which isn't a bad
+thing in itself the aluminium tends to actually grip a little bit better but steel draws
+will last longer Right can you hear me Hans He's having fun Oh there we go I'm back
+Could make the drawers interchangeable for aluminium I think they are they're installed
+on my oh no I can't hear you the jaws for the bulldog are in sorry the bulldog isn't
+installed on my my lee right now If you give me a second I might actually be able to
+take them off I keep losing you every now and again Hans If you have one there feel free
+to show yeah I'll get into it don't rush me don't rush me It's just installed on my
+machine at the moment. That's all Let's get a proper Alan key for this I'm not sure what
+happened, but I think I lost this you keep popping in and out on my side Are your
+earphones your battery or your earphones or whatever you're using to record charged up
+properly they might just be a low battery thing There we go We got time Hans is a bit
+behind. Yeah, he's a bit behind So this is the wall log vise. It's a split piece vise so
+you have one clamping side and one stationary side and from the looks of it From the
+looks of it I think the jaws do come off because it's just a big it's just a big square
+I think these do come off there's definitely gonna be what looks like a vice stop that
+comes with it. I like that's a good idea that means if you're doing a lot of work it's
+repeatable Yeah, they do come off says Jose so the ones that are in here are aluminium
+at the moment But yeah, it's a good vise. It looks like a nice vise. It's a split piece
+vise so it has no maximum the maximum it can capacity it has is basically the width of
+your table Anodized surfaces on precision parts I'm not a big fan of I think at the very
+least this bottom jaw here which is a separate part I think this needs to come
+unanodized completely unanodized Just because anodizing can sometimes mess up the
+flatness of a part same thing with this one here so this piece is actually loose I think
+it's designed to be loose actually But yeah, that needs to be I think this needs to be
+the anodizing needs to be stripped off of this. That's my only real issue and it's a
+very small one at that I think a few testers mentioned there. Yeah. Yeah the the drawers
+need to be either steel or at least replaceable to steel needs Elia needs to offer a
+replacement for them or and that one piece needs to be unannodized Other than that I'd
+still be happy to use it in the state that it's in Yeah, I mean I have been daily
+driving the LDO vices and so far is pretty nice. Oh you're back. Hey, he's back needs to
+be raw material maybe surface grind or heap precision. I don't think surface grinding
+aluminium is expensive and I think it would be more expensive to do that I don't think
+it's worth it to be honest I don't think it's worth it It's not a high precision vise a
+split vise should never be seen as a high precision vise even the Sawners Machine Works
+ones aren't high precision Split vices have a very very specific function in CNC and
+that's oversized stock Right they're they're specifically designed to have a very wide
+jaw and the precision should just come from clamping and I wouldn't use it in a in more
+than a one-sided operation if I had the choice if I don't have the choice because it's a
+really big piece of stock I'd still trust it enough for a hobby level part but yeah
+having it milled but just not anodized would really help with that awesome so first
+thing we're gonna do is we're gonna check to see if the depth of this is correct So the
+little halo that we've just put on, the little hammer head, needs to be 20 mil away from
+the end of the extrusion. So you can either check it with some calipers if you've got
+calipers by using the little depth stop. Don't worry if it's only if it's a few tenths
+of a millimeter off, so that's 20.3 for example. That's well within tolerance. Or if you
+really want to, you can take one of the pieces that you're going to be attaching to it
+anyway, put it up against the end, just like that. Just like that. And if that looks to
+be the same height as the difference between this surface and this surface, it's right.
+It's correct. If it's not, go back to the original steps. You might have an extrusion
+that's cut to the wrong size or anything like that. Or something like that. I just
+ordered the LDO CNC starter kit and a mesa card from my low build. Oh, you're going
+Linux CNC My heart goes out to you, man. My heart goes out to you. You are the braver of
+us. Of us too. I tried getting Linux CNC going once. I ran away very quickly. One of
+those things, like Linux CNC is great. It's honestly the best CNC firmware that you can
+get. It's just so complicated to set up. I would not be surprised if 90% of the people
+who started trying to get Linux CNT to work stopped and never made it to the end.
+Awesome. So corner connectors. Hans, if I'm speaking too much, just let me know. So if
+you're ready to go, just let me know so I'm not wasting your time. Yeah, I got you. Can
+you hear me? I'm not sure what's happening to Discord, but I cannot hear you again. You
+can't hear me, but you can hear me on Can you hear me on stream? Discord's being really
+weird at the moment. Okay, I think it's a mic setting input device. Yo, can you hear me?
+Can you hear me now? Hello No, I can't hear you. You can hear me. Okay, cool. Discord
+keeps changing my audio device Right. So stop doing this. No, I don't want to switch
+devices. It keeps trying to switch my audio device. I don't want to switch my audio
+device. Okay, stop asking me. Right, sorry, not you, Hans. I'm talking about Discord.
+Right, corner connectors. So the first corner connector we're going to do is you can,
+can you see how the bottom extrusion here is very loose? Oh, yeah. Yeah. So we're going
+to do the corner connector that goes from the top of that loose extrusion into the
+hammer head. And you'll need two M8s. So M5x8 and a corner connector and two T-nuts for
+every single piece. So you'll need your M5x8s, which are just over there. Your corner
+connectors and then some M5T nuts. Good morning from Oz. Just starting self-source my
+V2. Nice, man. There's a lot more people self-sourcing V2s. I think it's because the
+project's more popular nowadays than when we started. So there's more people who are
+willing to do the self-sourcing. But congrats, dude. I hope you like the build. Keep us
+informed of how it goes on the Discord, because it makes a big difference when we have
+some feedback for a potential v2.1 or something like that. Hans, do you have a time that
+you need to finish, by the way? Oh, really? No, no, do you... I'm asking, do you have a
+time? No, no, no, no. Not really, because like I think tomorrow my work starts at like
+2pm. So it's not for my cat, I have time to sleep. Okay, okay. Yeah, I'll jump onto this
+quad for sure. Cool. We do have a channel dedicated to project builds and things like
+that. So if you want to do it through there, you can show people, because a lot of
+people just have forgotten about it. Etel, how much could you extend the X before it
+would be problem? Depends on what your enclosure system looks like. If you're using a
+CASA, you couldn't expand it anymore. It basically uses all of the X space in CASA. If
+you got a CASA that was a bit longer, or you had an enclosure that was a bit longer, I'd
+say this is a just off the top of my head guess would probably be about 400 millimeters.
+I would need to do some testing to figure out a more precise number for you, but off the
+top of my head, about 400 millimeters. But again, I don't think people will use that. I
+don't think people will use that space if you want something that will do 400
+millimeters, wait for Atlas. Ignore Milo and wait for Atlas. Miley with X-Purse might be
+interesting. Yeah, the only way to increase Miley in X-axis is to make a bigger build
+plate. And then you'd have to get that custom made. You couldn't just buy extrusions and
+get bigger rails. You need to get a custom made plate. But I assume you're talking about
+Milo where that doesn't really matter as much at this well what work area will Atlas be?
+So Atlas has two work areas. It's got an accessories table as well as a main work table.
+So it's got two y-axis effectively and it shares an x-axis. So if you were to just do
+the main work area, it's the size of two Milo It's the size of two of these plates. So
+it's one and then one next to it. So do I have one available? It's that size. So that's
+the main work area. And then the second work area, which is the accessories table, is
+that the idea behind the accessories table is you can put your tool changer on it. You
+could put a vice that you don't like setting up constantly. On it, you could put your
+fourth axis on it. Basically, it's all there so that you don't have to constantly be
+changing things around if you have fixtures that you like having on your table and it
+doesn't eat into your main work table area. Because when you're adding like a fourth
+axis or a tool changer or something like that, it quickly eats into the available real
+estate that you have, that you might have the main work area is 350 by 400, and the
+secondary work area is 350 by 350 by 200. So at this point, if you're following along
+this build later on in the future, you've got to be kind of careful because you want to
+make sure that there's no twist between these two extrusions. So I can feel a little bit
+of a gap forming at this end of the extrusion between the C-beam and the 2080. And that
+gap doesn't go all the way down to the bottom. So I'm going to assume that that's a
+little bit of twist. It happens, extrusions aren't all straight. So before I tighten
+this piece up, I'm just going to grab a clamp and just going to force it shut
+effectively. And then that means when I tighten everything down, hopefully it should
+keep that twist from affecting me. So it might be a good thing for you to check as well,
+Hans. But should I check for the twist? Check for the twist, yeah. Do you need me to go
+over again? So I'll explain it again. So it's kind of important that the C beam, so
+that's this extrusion here, and the 2080 here don't have a gap that forms in the middle
+because it means it's twisted. And that means that that twist can propagate through the
+rails themselves. Yeah, so all I did, I felt that there was a little bit of a twist here
+because there was a little bit of a gap on this side, but not on this side. So I just
+clamped it in this direction and tightened them up. So that twist is now gone, or at
+least it's mitigated. At the very least, it's mitigated. Once you've done that, we're
+going to add two more corner connectors here on either side. We're going to put three,
+so two on the back on both sides, so that's another four. And then we're also going to
+fill a bunch of other spaces as well. If you want to see exactly which ones, here's the
+CAD. So we've just done these two bottom ones here. And we need to do two more on top on
+either side. These two here. These two here. These two here. And then these four at the
+bottom is interesting, but I can imagine the price would be much greater. Yeah, I priced
+up the extrusions, just the extrusions the other day. It's over a grand and a half just
+for the extrusions. So it's the entire cost of Milo just for the extrusions. Hey, Brent,
+anything I need to know before getting the CNC parts made or should I just send it? You
+can get them cheaper if you use the manufacturing files and then tap everything
+yourself. So every CNC file except for the fixture plate right now has a manufacturing
+file where all the holes are sized to the are sized correctly to be tapped. So all the
+M5 holes for example are sized to 4.2 millimeters so that you can then tap them by hand
+afterwards. It's a lot cheaper to do it that way if you're going through PCB way or
+something like that and you don't need to provide drawings whereas if you're if you're
+tapping everything if you're getting everything tapped on a machine they need to have a
+drawing available for it does the Thor Hammer setup make it easier to do a rough dram?
+Yes, yes it does I never got round to doing a manufacturing file for fixated plates but
+someone has made it on the Discord recently so have a look around on the Discord and you
+can find a manufacturing file I need corner connectors that's it Yeah, getting stuff
+tapped in factories is a whole lot more expensive mostly because of the assumption of
+not quality assumption of how do I explain it the assumption of accuracy so they're
+assuming those threads need to be extremely accurate and that takes money to get that
+done Whereas if you're tapping by hand which is 99% of the time fine to do when you're
+making assemblies it doesn't need to be as accurate Jack the Thor's hammer assembly
+makes it easier to tram about the X axis so the nod back and forth you could technically
+do it for about the Y-axis as well It's just a bit more of a pain that doing it that way
+And it's not even just for rough tram it can be for the normal tram as well this is this
+is more akin to how a lot of mini mills do it and a lot of normal column style mills do
+it Right we're coming up to about two and a half well we're just over two and a half
+hours in now Hans When are you next free? I know you said you're free tomorrow, but I'm
+at my girlfriend's tomorrow. Yeah So I won't be able to do tomorrow. Are you free on
+what was it? On Tuesday today Wednesday think I'm off on Thursday Are you free on
+Thursday or are we gonna have to I think so yeah cool how does everyone feel about a
+Thursday stream And hopefully now that we've got most of the awkwardness of double
+streaming out of the way we'll manage to make a bit more progress than we did today Jose
+good perfect Excessive will be there. Awesome. We'll stream for we'll get to like a
+three hour mark, maybe and then we'll end stream for today. Oh, that's an M3 peanut.
+This may look like an excessive amount of corner connectors, but honestly, when I was
+doing the initial testing, there was so much deflection before I put these in, these
+made a huge difference. Like a huge difference, right? So need to do the other side now.
+Oh, this is starting to feel chunky. Give this away at the end of stream and see how
+much it is. V2 definitely weighs a lot more. Definitely weighs a lot more. Any value in
+Loctite corner pieces? Yeah, I probably should have should be doing Loctite. My
+Loctite's built in my cabinet, so I don't want to... I don't have any. It's the only
+reason I'm not using it. You should probably use some Loctite. Remember, Loctite only
+goes in places that doesn't have any plastic parts on it. We've had parts in the past
+break because Loctite will melt APS if you're not lucky. If you're not careful. If
+you're not lucky. You're feeling a lucky kid. That's not even the right accent. If any
+part goes near plastic, don't lock tight it. Unless you know there is no less. Heavy is
+good. Heavy is reliable. If it doesn't work, you can always hit them with it. Boris the
+blade. You know what? Valid. I feel like that's a Terry Pratchett thing. Where's that?
+What's that from? Night, Raj. Sleep well. Looks like most people are going to bed around
+about now. Yeah, we'll end this. We'll end the stream in like 10-20 minutes. How's that
+sound for you, Hans? I mean, it's good. I mean, my cat is already sleeping, so he got
+the message. Oh, yeah. I mean, half the stream, my cat was eating. I don't know how much
+he ate, but every time I like listen for my printer to be finished with that part, I
+just heard him eat and then it was like what? Yeah. But I oh yeah, he ate up all his
+food, so. I guess that's why he's sleeping Is that the name of the movie or is it from
+Snatch or is it from We He He He He He He He He He Hear the Beard or is that a line from
+the movie Snatch? I've never watched Snatch I know it's a classic movie I just never
+watched it Oh where you been Okay, I'm gonna move this now I will put it there put it
+there so you don't have to listen to the scratchy beard Sorry remind us next time that
+we need to go through a checklist of what parts we need for that stream Oh yeah so that
+we make sure that everything's I cannot spell I am tired it's alright. I can't spell
+when I'm not tired So you're doing better than me Yeah, I mean today at work I was
+teaching a newbie and we both like couldn't talk and it was very funny because like I
+worked in customer service so there was a call he did with a customer and like it was me
+trying to explain to him something and I was like speaking very interestingly like he
+couldn't spell like half of my words and then he was trying to test the customer and he
+started doing the same thing so it was very funny oh no what happened just died on it so
+yes it's signaling how much difference the soft plight made like hard at the sister yeah
+I guess next stream I will not run the splice from the battery just fire it so that's
+why it's not die so this is why I made sure that I have lights that are definitely
+plugged in I had I had a bunch of battery operated ones at one stage but when when
+you're somewhere that you have electricity at but you need to charge a battery it just
+gets so annoying like you could be using it whilst especially because a lot of lights
+you can't charge you can't charge them and use them at the same time I'm pretty sure I
+can do that on this one so oh cool at least I'm safe on that front oh yeah because when
+I tested it out when it arrived I put it wasn't it didn't even have I think like a
+little bit of charge in it so I had to charge it and I was like ah let's test it so I
+was testing it while charging so yeah okay well I remember it right that's one better
+than me better than the one I had the one I had only lasted for like 30 minutes on on
+full last almost lasted like I don't know if that was you or me this time, because it
+says I'm still speaking on Discord, but I've lost you. I'm going to be rude and say
+goodnight as it's 11pm. I've got to wake up at 5 a.m. for work. Have a good stream. See
+you Thursday. Good night, everyone. Stay safe. No worries, dude. We're going to be
+finishing up soon anyway. We're literally going to do corner connectors, and then I'm
+going to go to bed because it is also nearly 11 o'clock. We'll see you on Thursday.
+We're down to our last 10 people anyway, so the 10 people who have stuck through the
+till the end. I've completely lost your hands. Wait, can you hear me? You're still on
+camera. I just can't hear you. Yeah, we're going to have to figure out a way of better
+way of doing this. No, still don't have you. We can hear him. I can't hear him. How can
+you hear him? What? Oh, this is a me problem this time. My earphone died. Oh yeah, I
+mean, I need to like my other earphones died too. Should we try that again? No, no.
+Earphones aren't connecting. This bud was giving me problems earlier. Can you hear me?
+No? Ah, fuck's sakes. Can you hear him in it? Right, I think, because my earphones are
+being a pain again. I think I'm going to end stream here. I can't hear what Hans is
+saying, but I will act like he is still here. Anyways, thank you, folks, for coming.
+It's been fun. I'm sorry for the technical issues. Hopefully, by the time we start the
+next stream, it's going to be a lot, a lot smoother, and we don't have half an hour of
+getting cameras working and stuff like that. And we'll be able to make a little bit more
+progress. We're pretty much actually done with the bulk of the Y-axis. It's a very, very
+simple and quick build comparative to like a Voron or something like that. Thank you all
+for coming. It always makes it easier when we've got a nice engaged crowd. We can have a
+little bit of back and forth. So I always want to say thank you for being honestly the
+best community in the world. I don't know if Hans is gonna say anything, but if he does
+want to say anything, say it in the next 10 seconds. Okay, I mean, I don't just wish
+everyone a nice night. I think I'm just going to finish these connectors up, but yeah,
+and then give me a thumbs up when you're done. Hey, perfect, because I can see him, but
+I can't hear him. So, cheers, guys. If you want to donate to the project, there's some
+links down below. If you don't, just give us a like. It always helps out. And hope you
+guys all have a great evening. Bye now. Bye-bye.
