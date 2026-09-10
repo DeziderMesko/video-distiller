@@ -4,8 +4,6 @@ Source: https://www.youtube.com/watch?v=mraFwKATOEA
 
 ---
 
-Nothing in the text needs correction — cross-checking against saved project memory confirms "Milo" (the Millennium Machines CNC) and "Miley" (the host's personal nickname for their own build) are both accurate as written, not ASR mishearings, and terms like LDO, Voron, Klicky/Tap/Beacon/BTT Eddy, Blanchard ground, Belleville, and Bambu A1 Mini are all legitimate real-world names already rendered correctly.
-
 ## TL;DR
 This is a ~2-hour co-working/live-build stream for the Milo/Miley V2.0 CNC mill kit (parts supplied by LDO), hosted by the machine's designer (addressed on stream as Jake) alongside co-builder Hans, with heavy Discord chat interspersed throughout. Genuine build content — heat-inserts, motor mounts, anti-backlash lead-screw nut assemblies, floating bearing blocks — is scattered between long stretches of banter, but the stream does surface a real kit defect (wrong washer type from LDO) and some design-philosophy and project-roadmap news. Anyone not actively assembling this specific kit will get little out of it.
 

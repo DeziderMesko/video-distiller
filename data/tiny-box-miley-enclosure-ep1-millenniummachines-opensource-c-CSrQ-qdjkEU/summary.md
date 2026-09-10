@@ -4,8 +4,6 @@ Source: https://www.youtube.com/watch?v=CSrQ-qdjkEU
 
 ---
 
-The text checks out — all proper nouns (Millennium Machines, Miley/Milo, CASA, Cascade, RepRapFirmware/Klipper/Marlin, Duet3D, Expatria, West3D, Carvera, Fusion 360, OnShape, Wera, Voron, LinuxCNC) match their standard real-world spellings, and the Miley/Milo distinction is intentional (the host's personal machine nickname vs. the product line), consistent with prior sessions. No corrections needed — returning unchanged.
-
 ## TL;DR
 This is a casual Millennium Machines livestream, not a tutorial. The host spends most of the two-hour session drilling and tapping 2020 extrusion to start "Tiny Box," a shrunk-down version of the team's CASA enclosure sized to fit their Miley CNC machine rather than the full-size Milo. Interwoven with the build is running commentary on the same-day launch of Cascade (a new Voron-style desktop CNC), a comparison of RepRapFirmware vs. Klipper vs. Marlin, and shop-life banter (calipers, AI use, the dog, food). Anyone wanting hands-on CAD/build steps will get some, but a large fraction of runtime is chat and asides.
 

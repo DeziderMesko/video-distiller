@@ -4,7 +4,7 @@ Source: https://www.youtube.com/watch?v=sbp-t1ARIxI
 
 ---
 
-TL;DR
+## TL;DR
 This is a community livestream from the Millennium Machines open-source CNC/3D-printer project, mostly build-log footage of the "Tiny Box" enclosure (renamed "Casita" mid-stream) — a scaled-down version of the "Casa" enclosure, sized for the Miley machine rather than the larger Milo. Alongside the fabrication (panels, filters, magnets, keystone jacks), the host previews early CAD work on Atlas, a much larger dual-electronics-bay CNC still in beta, and talks through firmware, tooling, and workshop opinions with regular chat members. It's casual and conversational — long stretches of dog talk, jobs, motorcycles, and D&D — with only intermittent hands-on technical content.
 
 ## Key points

@@ -218,6 +218,19 @@ class ClaudeSummarizer:
         if not 0.5 < len(fixed) / max(len(text), 1) < 1.5:
             progress("name-repair pass returned something unexpected; keeping original")
             return text
+
+        # Asked for the text alone, the model sometimes still reports on its
+        # work first ("The text checks out -- no corrections needed"). Anchor on
+        # the original opening line: drop anything before it, and if it is gone
+        # altogether the structure was rewritten, so keep what we had.
+        opening = text.lstrip().split("\n", 1)[0].strip()
+        if not fixed.lstrip().startswith(opening):
+            position = fixed.find(opening)
+            if position < 0:
+                progress("name-repair pass altered the structure; keeping original")
+                return text
+            progress("dropped a preamble from the name-repair pass")
+            fixed = fixed[position:]
         return fixed
 
     def run(self, transcript: str, question: str | None = None,

@@ -4,10 +4,6 @@ Source: https://www.youtube.com/watch?v=8EXXnQp37gY
 
 ---
 
-I don't have web search access approved in this session, so I can't verify the less-common names (e.g. "HartK," "Nine Mile," "Bright," "West3D's Alan") against outside sources. Based on context alone, none of the proper nouns in the text show a clear, resolvable mis-hearing — the technical terms and brand/board names (Scylla, Casa, Atlas, Huanyang, BigTreeTech Kraken, Manta M8P, Octopus, Leviathan, Duet/RepRapFirmware, Klipper, Voron) all match their standard real-world spellings, and the ambiguous personal handles are exactly the kind of name the instructions say to leave alone absent stronger evidence.
-
-Returning the text unchanged:
-
 ## TL;DR
 This is a \~2-hour live build/chat stream from the Millennium Machines project (makers of the Milo desktop CNC mill), spent mostly assembling a new standalone electronics box that will work across Milo V1.5/V1.6/V2, the Casa enclosure, and even third-party routers. Between DIN-rail mounting and wiring, the streamer gives status updates on Milo V2 (release-candidate CAD, near-final BOM) and V1.6 (low priority, several months out), explains tramming technique, and talks through a side project building a "Micron" CNC sponsored by Voron-team member HartK. A large chunk is unstructured chat/banter (his dog Brisket, Monty Python, drinking jokes, YouTube monetization), so the technical payload is moderate relative to the runtime.
 

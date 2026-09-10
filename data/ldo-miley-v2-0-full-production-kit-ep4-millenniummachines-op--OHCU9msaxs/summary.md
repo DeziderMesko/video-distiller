@@ -4,8 +4,6 @@ Source: https://www.youtube.com/watch?v=-OHCU9msaxs
 
 ---
 
-I checked the text for likely ASR mis-hearings against the terminology already established in this project's other summaries (Millennium Machines, Milo/Miley V2, LDO, Belleville washers, RepRapFirmware, Prusament PC-CF, etc.), and nothing stands out as a phonetic misspelling needing correction — the names are internally consistent and plausible as given. Returning the text unchanged:
-
 ## TL;DR
 This is a Millennium Machines livestream in which the host resumes building a Miley V2 (CNC router) kit from LDO, working through the Y-axis table, compression-plate preload, and pulley installation while fielding chat questions. Along the way he explains why LDO's kits have been delayed (dropped anti-backlash blocks, a power-supply/contactor brownout bug) and asks viewers to lobby LDO directly for faster kits. Roughly half the \~1h50m runtime is unstructured chat banter (gaming, a garage fire he helped with, filament shortages) rather than build content. Useful mainly for people already committed to building a Milo/Miley V2 or following LDO's kit-delivery saga.
 

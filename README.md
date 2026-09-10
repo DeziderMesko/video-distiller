@@ -110,6 +110,21 @@ Parakeet is English-only in every packaging — you don't have to pass
 `--backend whisper` as well. `--model turbo` (the default), `large-v3` and any
 CTranslate2 repo id also work.
 
+## Index
+
+[`INDEX.md`](INDEX.md) is a table of everything distilled so far, linking to
+each summary and transcript. Rebuild it after adding videos:
+
+```bash
+python scripts/build_index.py
+```
+
+To hand a subset to someone else as a standalone public repository:
+
+```bash
+python scripts/export_public.py ../milo-transcripts
+```
+
 ## What lands in data/
 
 ```
