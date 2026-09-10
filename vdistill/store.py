@@ -152,7 +152,7 @@ def save_output(entry: Entry, text: str, question: str | None) -> Path:
             f"Video: {entry.info.title}\nSource: {entry.info.url}\n"
             f"Asked: {_now()}\n\n---\n\n"
         )
-    body = link_timestamps(text.strip(), entry.info.url)
+    body = link_timestamps(escape_tildes(text.strip()), entry.info.url)
     path.write_text(head + body + "\n", encoding="utf-8")
     return path
 
@@ -197,6 +197,21 @@ def _append_index(meta: dict, root: Path) -> None:
 
 
 _STAMP_RE = re.compile(r"\[(\d{1,2}):([0-5]\d):([0-5]\d)\]")
+_LINK_RE = re.compile(r"\]\([^)]*\)")
+
+
+def escape_tildes(text: str) -> str:
+    """A summary saying "~$100 ... ~$2000" gets everything between the two
+    prices struck through: GitHub Markdown reads a single ~x~ as strikethrough,
+    and "~" is how the model writes "approximately". Escape them, except inside
+    link targets, where a backslash would break the URL."""
+    parts, last = [], 0
+    for match in _LINK_RE.finditer(text):
+        parts.append(text[last:match.start()].replace("~", "\\~"))
+        parts.append(match.group(0))
+        last = match.end()
+    parts.append(text[last:].replace("~", "\\~"))
+    return "".join(parts)
 
 
 def link_timestamps(text: str, url: str) -> str:
