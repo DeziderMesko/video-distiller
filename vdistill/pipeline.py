@@ -54,7 +54,11 @@ def distill(
     progress(f"fetching audio from {url}")
     # A unique staging dir keeps concurrent runs from clobbering each other.
     staging = Path(tempfile.mkdtemp(prefix="dl-", dir=_ensure(work_dir)))
-    info, source = download.fetch_audio(url, staging, quiet=True)
+    try:
+        info, source = download.fetch_audio(url, staging, quiet=True)
+    except Exception:
+        download.discard_audio(staging)
+        raise
     scratch = work_dir / info.video_id
     length = f" ({info.duration/60:.1f} min)" if info.duration else ""
     progress(f"got: {info.title}{length}")
@@ -111,9 +115,11 @@ def answer(entry: Entry, question: str | None, model: str = "",
         name = language_name(lang)
         progress(f"summarising in {name}" if name else "summarising")
     # The timed form is what lets the summary point at where things were said.
-    text = get_summarizer(model).run(
-        entry.read_transcript(timed=True), question, progress=progress, language=lang
-    )
+    transcript = entry.read_transcript(timed=True)
+    text = get_summarizer(model).run(transcript, question, progress=progress, language=lang)
+    text, changed = store.check_timestamps(text, transcript, entry.info.duration)
+    if changed:
+        progress(f"corrected {changed} timestamp(s) not found in the transcript")
     path = store.save_output(entry, text, question)
     progress(f"saved to {path}")
     return text, path

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a shareable, public-facing copy of the Millennium Machines transcripts.
 
-The private data/ directory is the working store; this renders a subset of it
+The private data directory (VDISTILL_DATA_DIR) is the working store; this renders a subset of it
 into a standalone repository that can be handed to the channel author. Re-run
 it whenever new episodes land -- it rewrites the tree from scratch.
 
@@ -17,7 +17,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+from vdistill.config import DATA_DIR as DATA
 
 # Ordered: the first pattern that matches a title wins.
 SERIES = [

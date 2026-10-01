@@ -6,8 +6,12 @@ __pycache__/
 # Scratch space for downloads and chunking. Never committed.
 work/
 
-# Transcripts and summaries in data/ are meant to be committed.
-# Audio never is, wherever it ends up.
+# Results live outside the repo, wherever VDISTILL_DATA_DIR in .env points.
+# data/ is only the fallback when that is unset, and never committed either.
+data/
+INDEX.md
+
+# Audio is never committed, wherever it ends up.
 *.wav
 *.mp3
 *.m4a

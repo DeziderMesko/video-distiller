@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Write INDEX.md: a table of everything in data/, linking to each summary."""
+"""Write INDEX.md into the data directory: a table of everything distilled,
+linking to each summary."""
 
 from __future__ import annotations
 
 import json
 import re
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+from vdistill.config import DATA_DIR as DATA
 
 
 def hms(seconds) -> str:
@@ -27,11 +26,11 @@ def main() -> int:
         title = re.split(r"\s+#", meta.get("title", directory.name))[0].strip()
         links = []
         if (directory / "summary.md").exists():
-            links.append(f"[summary](data/{directory.name}/summary.md)")
+            links.append(f"[summary]({directory.name}/summary.md)")
         if (directory / "transcript.timed.txt").exists():
-            links.append(f"[timed](data/{directory.name}/transcript.timed.txt)")
+            links.append(f"[timed]({directory.name}/transcript.timed.txt)")
         elif (directory / "transcript.txt").exists():
-            links.append(f"[text](data/{directory.name}/transcript.txt)")
+            links.append(f"[text]({directory.name}/transcript.txt)")
         answers = sorted((directory / "answers").glob("*.md"))
         if answers:
             links.append(f"{len(answers)} Q&A")
@@ -56,8 +55,8 @@ def main() -> int:
             f"| {uploader[:28]} | {title[:58]} | {length} | {lang} | {links} "
             f"| [watch]({url}) |"
         )
-    (ROOT / "INDEX.md").write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"INDEX.md: {len(rows)} videos, {hms(total)}")
+    (DATA / "INDEX.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+    print(f"{DATA / 'INDEX.md'}: {len(rows)} videos, {hms(total)}")
     return 0
 
 

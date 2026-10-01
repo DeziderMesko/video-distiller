@@ -17,6 +17,8 @@ from .config import (
     DEFAULT_PARAKEET_MODEL,
     DEFAULT_WHISPER_MODEL,
     SAMPLE_RATE,
+    SEGMENT_MAX_SECONDS,
+    SEGMENT_PAUSE_SECONDS,
 )
 
 
@@ -225,23 +227,40 @@ def read_wav(path: Path):
 
 
 def _segment_tokens(tokens: list[str], stamps: list[float]) -> list[Segment]:
-    """Rebuild sentence-level segments from BPE tokens and their timestamps."""
+    """Rebuild sentence-level segments from BPE tokens and their timestamps.
+
+    Parakeet sometimes stops punctuating for minutes on end, and splitting on
+    sentence ends alone then turned a whole 300 s chunk into one segment -- a
+    summary had nothing finer to cite and started inventing times in between.
+    So a pause, or a segment grown too long, ends one too, at a word boundary.
+    """
     if not tokens or len(tokens) != len(stamps):
         return []
     segments: list[Segment] = []
     words: list[str] = []
-    start = stamps[0]
+    start = prev = stamps[0]
+
+    def close(end: float) -> None:
+        body = "".join(words).strip()
+        if body:
+            segments.append(Segment(start, end, body))
+
     for token, when in zip(tokens, stamps):
-        # SentencePiece marks a word boundary with U+2581.
-        words.append(token.replace("\u2581", " "))
-        if token.rstrip().endswith((".", "?", "!")):
-            body = "".join(words).strip()
-            if body:
-                segments.append(Segment(start, when, body))
+        # A word starts with a space as sherpa-onnx returns tokens, or with
+        # SentencePiece's own U+2581 marker.
+        if words and token.startswith((" ", "\u2581")) and (
+            when - prev >= SEGMENT_PAUSE_SECONDS or when - start >= SEGMENT_MAX_SECONDS
+        ):
+            close(prev)
             words, start = [], when
-    tail = "".join(words).strip()
-    if tail:
-        segments.append(Segment(start, stamps[-1], tail))
+        if not words:
+            start = when
+        words.append(token.replace("\u2581", " "))
+        prev = when
+        if token.rstrip().endswith((".", "?", "!")):
+            close(when)
+            words = []
+    close(stamps[-1])
     return segments
 
 

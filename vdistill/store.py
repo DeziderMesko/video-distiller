@@ -214,6 +214,42 @@ def escape_tildes(text: str) -> str:
     return "".join(parts)
 
 
+def check_timestamps(text: str, transcript: str,
+                     duration: float | None = None) -> tuple[str, int]:
+    """Make every [HH:MM:SS] in a summary one the transcript actually has.
+
+    Told not to, the model still interpolates between segment starts. A time
+    it made up is replaced by the start of the segment it falls in -- the
+    finest place the transcript can honestly point to -- and one past the end
+    of the recording, or with no timed transcript at all, is dropped.
+    Returns the text and how many stamps were changed."""
+    def seconds(match: re.Match) -> int:
+        h, m, s = (int(g) for g in match.groups())
+        return h * 3600 + m * 60 + s
+
+    starts = sorted({seconds(m) for m in _STAMP_RE.finditer(transcript)})
+    known = set(starts)
+    changed = 0
+
+    def replace(match: re.Match) -> str:
+        nonlocal changed
+        space, stamp = match.group(1), _STAMP_RE.match(match.group(2))
+        when = seconds(stamp)
+        if when in known:
+            return match.group(0)
+        changed += 1
+        if not starts or (duration and when > duration):
+            return ""                         # the space before it goes too
+        earlier = [s for s in starts if s <= when]
+        return f"{space}[{_stamp(earlier[-1] if earlier else starts[0])}]"
+
+    text = re.sub(r"([ \t]*)(" + _STAMP_RE.pattern + ")", replace, text)
+    if changed:
+        # Two neighbouring guesses can land on the same segment start.
+        text = re.sub(r"(\[\d\d:\d\d:\d\d\])(?:[ \t]*\1)+", r"\1", text)
+    return text, changed
+
+
 def link_timestamps(text: str, url: str) -> str:
     """Turn [HH:MM:SS] markers into links that jump into the video."""
     if not url or not any(h in url for h in ("youtube.com", "youtu.be")):

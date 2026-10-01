@@ -3,11 +3,12 @@
 Point it at a video URL. It downloads the audio, transcribes it locally with
 [Parakeet Unified EN 0.6B](https://huggingface.co/nvidia/parakeet-unified-en-0.6b),
 deletes the audio, and hands you either a summary or the answer to your
-question. The transcript stays in `data/` next to the URL it came from.
+question. The transcript stays in the data directory next to the URL it came from.
 
 ```bash
 vdistill "https://www.youtube.com/watch?v=..."
 vdistill "https://www.youtube.com/watch?v=..." -q "does he explain how the cache is invalidated?"
+vdistill ~/Downloads/meeting-recording.m4a     # a local file works too, and is left in place
 ```
 
 ## Install
@@ -24,6 +25,19 @@ model (663 MB) downloads on first use into `~/.cache/vdistill/models`.
 
 Summaries shell out to the `claude` CLI, reusing the Claude Code login you
 already have, so there's no extra API key. Use `--no-summary` for transcripts only.
+
+### Where results go
+
+Transcripts and summaries are kept out of this repository. Point
+`VDISTILL_DATA_DIR` at a folder of your own in a `.env` file beside
+`pyproject.toml` (git-ignored, and read by vdistill itself, so it applies however
+you run it; a real environment variable overrides it):
+
+```bash
+echo 'VDISTILL_DATA_DIR=/mnt/e/video-distiller' > .env
+```
+
+Without it, results fall back to `data/` in the repo, which is git-ignored too.
 
 ## Commands
 
@@ -112,8 +126,8 @@ CTranslate2 repo id also work.
 
 ## Index
 
-[`INDEX.md`](INDEX.md) is a table of everything distilled so far, linking to
-each summary and transcript. Rebuild it after adding videos:
+`INDEX.md`, in the data directory, is a table of everything distilled so far,
+linking to each summary and transcript. Rebuild it after adding videos:
 
 ```bash
 python scripts/build_index.py
@@ -125,10 +139,10 @@ To hand a subset to someone else as a standalone public repository:
 python scripts/export_public.py ../millennium-machines-transcripts
 ```
 
-## What lands in data/
+## What lands in the data directory
 
 ```
-data/some-video-title-dQw4w9WgXcQ/
+some-video-title-dQw4w9WgXcQ/
 ├── meta.json             # source URL, title, channel, duration, ASR model used
 ├── transcript.txt        # the transcript, with the source URL in its header
 ├── transcript.timed.txt  # same text, one line per segment, [HH:MM:SS] prefixed
@@ -138,7 +152,7 @@ data/some-video-title-dQw4w9WgXcQ/
     └── does-he-explain-how-the-cache-is-invalidated.md
 ```
 
-`data/index.jsonl` gets one line per transcription run.
+`index.jsonl` gets one line per transcription run.
 
 ## How it works
 
