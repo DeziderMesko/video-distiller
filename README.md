@@ -157,6 +157,7 @@ some-video-title-dQw4w9WgXcQ/
 ## How it works
 
 1. **Download** — `yt-dlp` takes the best audio-only stream. Video is never fetched.
+   A local file is read in place instead: never copied, never deleted.
 2. **Normalise** — ffmpeg decodes to 16 kHz mono PCM.
 3. **Chunk** — anything over ~5 minutes is split. Cut points come from ffmpeg's
    `silencedetect`, snapped to the nearest pause, so splits rarely land
@@ -164,8 +165,8 @@ some-video-title-dQw4w9WgXcQ/
    of chunk length.
 4. **Transcribe** — each chunk goes through Parakeet; segment timestamps are
    shifted back onto the original timeline.
-5. **Delete** — audio is removed once the transcript is safely on disk. If
-   transcription fails the audio is deliberately kept in `work/`, so retrying is cheap.
+5. **Delete** — audio is removed once the transcript is safely on disk, and
+   also when transcription fails, so `work/` does not fill up.
 6. **Distil** — the transcript goes to Claude for a summary or an answer. Very
    long transcripts are summarised in passes and then merged.
 

@@ -2,16 +2,13 @@
 
 from __future__ import annotations
 
-import os
 import shutil
 import urllib.error
 import urllib.request
 from pathlib import Path
 
-CACHE_DIR = Path(
-    os.environ.get("VDISTILL_MODEL_DIR", Path.home() / ".cache" / "vdistill" / "models")
-)
-HF_ENDPOINT = os.environ.get("HF_ENDPOINT", "https://huggingface.co")
+from .config import HF_ENDPOINT
+from .config import MODEL_DIR as CACHE_DIR
 
 
 class ModelFetchError(RuntimeError):

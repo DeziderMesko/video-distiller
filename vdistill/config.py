@@ -32,6 +32,12 @@ for _key, _value in _dotenv(PROJECT_ROOT / ".env").items():
 DATA_DIR = Path(os.environ.get("VDISTILL_DATA_DIR", PROJECT_ROOT / "data")).expanduser()
 WORK_DIR = Path(os.environ.get("VDISTILL_WORK_DIR", PROJECT_ROOT / "work"))
 
+# Where the ONNX Parakeet weights are cached, and the hub they come from.
+MODEL_DIR = Path(os.environ.get(
+    "VDISTILL_MODEL_DIR", Path.home() / ".cache" / "vdistill" / "models"
+)).expanduser()
+HF_ENDPOINT = os.environ.get("HF_ENDPOINT", "https://huggingface.co")
+
 # ASR wants 16 kHz mono; everything downstream assumes it.
 SAMPLE_RATE = 16_000
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build a shareable, public-facing copy of the Millennium Machines transcripts.
 
-The private data directory (VDISTILL_DATA_DIR) is the working store; this renders a subset of it
-into a standalone repository that can be handed to the channel author. Re-run
+The private data directory (VDISTILL_DATA_DIR) is the working store; this
+renders a subset of it into a standalone repository that can be handed to the channel author. Re-run
 it whenever new episodes land -- it rewrites the tree from scratch.
 
     python scripts/export_public.py ../millennium-machines-transcripts
@@ -13,11 +13,16 @@ from __future__ import annotations
 import json
 import re
 import shutil
-import sys
 from dataclasses import dataclass
+import sys
 from pathlib import Path
 
-from vdistill.config import DATA_DIR as DATA
+# Run with any Python, not just the venv's: the two modules used here are
+# dependency-free, so the project root on sys.path is all they need.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from vdistill.config import DATA_DIR as DATA  # noqa: E402
+from vdistill.timecode import duration  # noqa: E402
 
 # Ordered: the first pattern that matches a title wins.
 SERIES = [
@@ -54,13 +59,6 @@ class Episode:
         if self.number is not None:
             return f"ep{self.number:02d}-{self.meta['video_id']}"
         return self.meta["video_id"]
-
-
-def hms(seconds: float | None) -> str:
-    if not seconds:
-        return "?"
-    seconds = int(seconds)
-    return f"{seconds // 3600}:{seconds % 3600 // 60:02d}:{seconds % 60:02d}"
 
 
 def published(meta: dict) -> str:
@@ -103,7 +101,7 @@ def render_episode(ep: Episode) -> str:
     out.append(f"# {ep.title}\n")
     out.append(f"**Watch:** {meta['source_url']}  ")
     out.append(f"**Channel:** {meta.get('uploader') or CHANNEL}  ")
-    out.append(f"**Length:** {hms(meta.get('duration_seconds'))}  ")
+    out.append(f"**Length:** {duration(meta.get('duration_seconds'))}  ")
     out.append(f"**Streamed:** {published(meta)}\n")
     out.append("> Automatic transcript — see the [repository README](../../README.md)")
     out.append("> for how it was made and what it gets wrong.\n")
@@ -134,7 +132,7 @@ def render_index(episodes: list[Episode]) -> str:
         "# Millennium Machines — stream transcripts\n",
         f"Searchable transcripts and summaries of {len(episodes)} livestreams from the",
         f"[{CHANNEL}](https://www.youtube.com/@millenniummachineworksoffi3032) YouTube",
-        f"channel — **{hms(total)}** of video in total.\n",
+        f"channel — **{duration(total)}** of video in total.\n",
         "This is an unofficial, fan-made archive, published so the streams can be",
         "searched and referenced by text. Every page links back to the original video,",
         "and the videos themselves remain the channel's work.\n",
@@ -149,7 +147,7 @@ def render_index(episodes: list[Episode]) -> str:
         for ep in group:
             label = f"Ep{ep.number}" if ep.number else "—"
             out.append(
-                f"| {label} | {hms(ep.meta.get('duration_seconds'))} "
+                f"| {label} | {duration(ep.meta.get('duration_seconds'))} "
                 f"| {published(ep.meta)} "
                 f"| [{ep.title[:52]}](transcripts/{key}/{ep.stem}.md) "
                 f"| [watch]({ep.meta['source_url']}) |"

@@ -8,6 +8,7 @@ from pathlib import Path
 
 from . import __version__, store
 from .config import CHUNK_SECONDS, DATA_DIR, DEFAULT_ASR_BACKEND
+from .timecode import duration
 
 
 def _log(message: str) -> None:
@@ -21,7 +22,7 @@ def _quiet(_message: str) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="vdistill",
-        description="Download a video's audio, transcribe it, and get the answer you came for.",
+        description="Transcribe a video (by URL or local file) and get the answer you came for.",
     )
     parser.add_argument("--version", action="version", version=f"vdistill {__version__}")
     subs = parser.add_subparsers(dest="command")
@@ -48,7 +49,7 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--quiet", action="store_true")
 
     ask = subs.add_parser("ask", help="ask a stored transcript, without re-downloading")
-    ask.add_argument("target", help="video id, source URL, or data/ folder name")
+    ask.add_argument("target", help="video id, source URL, or folder name in the data directory")
     ask.add_argument("-q", "--question", help="omit to regenerate the summary")
     ask.add_argument("--summary-language", metavar="CODE",
                      help="language for the summary (default: the video's own)")
@@ -65,14 +66,6 @@ def build_parser() -> argparse.ArgumentParser:
     show.add_argument("--data-dir", type=Path, default=DATA_DIR)
 
     return parser
-
-
-def _fmt_duration(seconds: float | None) -> str:
-    if not seconds:
-        return "?"
-    minutes, secs = divmod(int(seconds), 60)
-    hours, minutes = divmod(minutes, 60)
-    return f"{hours}:{minutes:02d}:{secs:02d}" if hours else f"{minutes}:{secs:02d}"
 
 
 def cmd_run(args) -> int:
@@ -131,7 +124,7 @@ def cmd_list(args) -> int:
             if count:
                 marks.append(f"{count} answer{'s' if count > 1 else ''}")
         extra = f"  [{', '.join(marks)}]" if marks else ""
-        print(f"{entry.info.video_id}  {_fmt_duration(entry.info.duration):>8}  "
+        print(f"{entry.info.video_id}  {duration(entry.info.duration):>8}  "
               f"{entry.info.title[:64]}{extra}")
         print(f"{'':>10}  {entry.info.url}")
     return 0

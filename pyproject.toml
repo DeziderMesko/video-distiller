@@ -1,7 +1,7 @@
 [project]
 name = "video-distiller"
 version = "0.1.0"
-description = "Turn a YouTube URL into a transcript plus an answer to what you actually wanted to know."
+description = "Turn a video URL or local recording into a transcript plus an answer to what you actually wanted to know."
 requires-python = ">=3.10"
 dependencies = [
     "yt-dlp>=2025.1.1",

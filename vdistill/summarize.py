@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import shutil
 import subprocess
-from pathlib import Path
 
 from .config import CLAUDE_MODEL
 
@@ -202,7 +201,11 @@ class ClaudeSummarizer:
         except subprocess.TimeoutExpired as exc:
             raise SummarizerError(f"claude timed out after {self.timeout}s") from exc
         if proc.returncode != 0:
-            raise SummarizerError(f"claude failed: {(proc.stderr or '').strip()[:400]}")
+            # Some failures, an expired login among them, arrive on stdout.
+            reason = (proc.stderr or "").strip() or (proc.stdout or "").strip()
+            raise SummarizerError(
+                f"claude failed (exit {proc.returncode}): {reason[:400] or 'no output'}"
+            )
         out = proc.stdout.strip()
         if not out:
             raise SummarizerError("claude returned nothing")

@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import shutil
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
@@ -49,6 +50,14 @@ def local_file(url: str) -> Path | None:
 def _local_info(path: Path) -> VideoInfo:
     """Metadata for a recording that never had a web page. The id is a hash of
     the content, so the same file is recognised wherever it is moved to."""
+    # probe() and fetch_audio() both ask in one run; read the file only once.
+    stat = path.stat()
+    return _hashed_info(path, stat.st_size, stat.st_mtime_ns)
+
+
+@lru_cache(maxsize=8)
+def _hashed_info(path: Path, _size: int, _mtime_ns: int) -> VideoInfo:
+    """Keyed on size and mtime as well, so an edited file is hashed afresh."""
     digest = hashlib.sha1()
     with path.open("rb") as fh:
         for block in iter(lambda: fh.read(1 << 20), b""):

@@ -78,8 +78,9 @@ def distill(
         entry = store.save_transcript(info, transcript, root=data_dir)
         progress(f"transcript saved to {entry.transcript_txt}")
     except Exception:
-        # Transcription failed: leave the audio behind so a retry is cheap.
-        progress(f"failed before a transcript existed; audio kept in {scratch}")
+        # Nothing would reuse it -- a retry downloads and converts afresh -- so
+        # keeping the audio would only leave work/ to fill up with failures.
+        download.discard_audio(staging, scratch)
         raise
 
     kept: Path | None = None

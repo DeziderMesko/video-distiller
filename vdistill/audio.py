@@ -104,15 +104,18 @@ def split(path: Path, out_dir: Path, target: float = CHUNK_SECONDS,
         return [Chunk(path=path, offset=0.0, duration=total)]
 
     points = _cut_points(total, find_silences(path), target, slack)
-    bounds = [0.0, *points, total]
+    # On the sample grid, so neighbouring chunks neither overlap nor leave a gap.
+    bounds = [round(t * SAMPLE_RATE) / SAMPLE_RATE for t in (0.0, *points, total)]
     out_dir.mkdir(parents=True, exist_ok=True)
 
     chunks: list[Chunk] = []
     for i, (start, end) in enumerate(zip(bounds, bounds[1:])):
         piece = out_dir / f"chunk_{i:04d}.wav"
+        # -ss before -i seeks the input instead of decoding up to the cut, which
+        # made splitting quadratic in length; on PCM WAV it is sample-exact.
         _run([
             "ffmpeg", "-y", "-loglevel", "error",
-            "-i", str(path), "-ss", f"{start:.3f}", "-to", f"{end:.3f}",
+            "-ss", f"{start:.7f}", "-t", f"{end - start:.7f}", "-i", str(path),
             "-c:a", "pcm_s16le", str(piece),
         ])
         chunks.append(Chunk(path=piece, offset=start, duration=end - start))

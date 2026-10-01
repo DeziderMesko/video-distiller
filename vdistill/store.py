@@ -1,7 +1,8 @@
-"""The data/ folder: one directory per video, transcript kept beside its source URL."""
+"""The data directory: one folder per video, transcript kept beside its source URL."""
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from dataclasses import asdict, dataclass
@@ -10,6 +11,7 @@ from pathlib import Path
 
 from .config import DATA_DIR
 from .download import VideoInfo
+from .timecode import duration, stamp
 from .transcribe import Transcript
 
 INDEX = "index.jsonl"
@@ -17,13 +19,6 @@ INDEX = "index.jsonl"
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
-
-
-def _stamp(seconds: float) -> str:
-    seconds = max(0, int(seconds))
-    h, rem = divmod(seconds, 3600)
-    m, s = divmod(rem, 60)
-    return f"{h:02d}:{m:02d}:{s:02d}"
 
 
 @dataclass
@@ -85,7 +80,7 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
     if info.uploader:
         header.append(f"Channel: {info.uploader}")
     if info.duration:
-        header.append(f"Duration: {_stamp(info.duration)}")
+        header.append(f"Duration: {stamp(info.duration)}")
     header += [
         f"Transcribed: {_now()} using {transcript.model} ({transcript.backend})",
         "",
@@ -112,11 +107,16 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
         encoding="utf-8",
     )
 
+    timed = target / "transcript.timed.txt"
     if transcript.segments:
-        (target / "transcript.timed.txt").write_text(
-            "\n".join(f"[{_stamp(s.start)}] {s.text}" for s in transcript.segments) + "\n",
+        timed.write_text(
+            "\n".join(f"[{stamp(s.start)}] {s.text}" for s in transcript.segments) + "\n",
             encoding="utf-8",
         )
+    else:
+        # A --force re-run without timings must not leave the previous run's
+        # timed text behind: summaries read it in preference to transcript.txt.
+        timed.unlink(missing_ok=True)
 
     meta = {
         "source_url": info.url,
@@ -146,7 +146,7 @@ def save_output(entry: Entry, text: str, question: str | None) -> Path:
     else:
         answers = entry.dir / "answers"
         answers.mkdir(exist_ok=True)
-        path = answers / f"{_slugify(question)}.md"
+        path = answers / f"{_answer_name(question)}.md"
         head = (
             f"# {question}\n\n"
             f"Video: {entry.info.title}\nSource: {entry.info.url}\n"
@@ -241,7 +241,7 @@ def check_timestamps(text: str, transcript: str,
         if not starts or (duration and when > duration):
             return ""                         # the space before it goes too
         earlier = [s for s in starts if s <= when]
-        return f"{space}[{_stamp(earlier[-1] if earlier else starts[0])}]"
+        return f"{space}[{stamp(earlier[-1] if earlier else starts[0])}]"
 
     text = re.sub(r"([ \t]*)(" + _STAMP_RE.pattern + ")", replace, text)
     if changed:
@@ -259,8 +259,7 @@ def link_timestamps(text: str, url: str) -> str:
     def replace(match: re.Match) -> str:
         h, m, sec = (int(g) for g in match.groups())
         total = h * 3600 + m * 60 + sec
-        label = f"{h}:{m:02d}:{sec:02d}" if h else f"{m}:{sec:02d}"
-        return f"[{label}]({url}{joiner}t={total}s)"
+        return f"[{duration(total)}]({url}{joiner}t={total}s)"
 
     return _STAMP_RE.sub(replace, text)
 
@@ -268,6 +267,14 @@ def link_timestamps(text: str, url: str) -> str:
 def _slugify(text: str, limit: int = 60) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:limit].strip("-")
     return slug or "answer"
+
+
+def _answer_name(question: str) -> str:
+    """Readable, but unique per question: the slug alone is ASCII-only and
+    truncated, so a Cyrillic question, or two sharing their first 60
+    characters, would overwrite each other's answer."""
+    digest = hashlib.sha1(question.strip().encode("utf-8")).hexdigest()[:8]
+    return f"{_slugify(question)}-{digest}"
 
 
 def _wrap(text: str, width: int = 88) -> str:
