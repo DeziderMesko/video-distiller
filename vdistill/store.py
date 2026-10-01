@@ -233,8 +233,8 @@ def check_timestamps(text: str, transcript: str,
 
     def replace(match: re.Match) -> str:
         nonlocal changed
-        space, stamp = match.group(1), _STAMP_RE.match(match.group(2))
-        when = seconds(stamp)
+        space, found = match.group(1), _STAMP_RE.match(match.group(2))
+        when = seconds(found)
         if when in known:
             return match.group(0)
         changed += 1
