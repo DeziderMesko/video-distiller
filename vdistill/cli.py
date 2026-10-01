@@ -27,7 +27,7 @@ def build_parser() -> argparse.ArgumentParser:
     subs = parser.add_subparsers(dest="command")
 
     run = subs.add_parser("run", help="distill a video from its URL (default command)")
-    run.add_argument("url")
+    run.add_argument("url", help="video URL, or the path of a local recording")
     run.add_argument("-q", "--question",
                      help="ask this instead of producing a general summary")
     run.add_argument("--backend", default=DEFAULT_ASR_BACKEND,

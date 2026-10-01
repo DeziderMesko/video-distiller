@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import hashlib
 import shutil
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 from yt_dlp import YoutubeDL
 from yt_dlp.utils import DownloadError
+
+from .audio import duration_of
 
 
 class DownloadFailed(RuntimeError):
@@ -33,8 +37,41 @@ class VideoInfo:
         return f"{stem}-{self.video_id}" if stem else self.video_id
 
 
+def local_file(url: str) -> Path | None:
+    """The file a "URL" points at, if it is really a path on this machine."""
+    if "://" in url and not url.startswith("file://"):
+        return None
+    path = Path(unquote(urlparse(url).path) if url.startswith("file://") else url)
+    path = path.expanduser()
+    return path.resolve() if path.is_file() else None
+
+
+def _local_info(path: Path) -> VideoInfo:
+    """Metadata for a recording that never had a web page. The id is a hash of
+    the content, so the same file is recognised wherever it is moved to."""
+    digest = hashlib.sha1()
+    with path.open("rb") as fh:
+        for block in iter(lambda: fh.read(1 << 20), b""):
+            digest.update(block)
+    try:
+        duration = duration_of(path)
+    except Exception:
+        duration = None
+    return VideoInfo(
+        video_id=f"local-{digest.hexdigest()[:10]}",
+        title=path.stem,
+        url=path.as_uri(),
+        uploader=None,
+        duration=duration,
+        upload_date=None,
+    )
+
+
 def probe(url: str) -> VideoInfo:
     """Read a video's metadata without downloading anything."""
+    local = local_file(url)
+    if local is not None:
+        return _local_info(local)
     opts = {"quiet": True, "no_warnings": True, "skip_download": True}
     try:
         with YoutubeDL(opts) as ydl:
@@ -60,6 +97,10 @@ def probe(url: str) -> VideoInfo:
 
 def fetch_audio(url: str, dest_dir: Path, quiet: bool = False) -> tuple[VideoInfo, Path]:
     """Download the best audio-only stream. Returns metadata and the file path."""
+    local = local_file(url)
+    if local is not None:
+        # Used in place: it is the user's file, not ours to copy or delete.
+        return _local_info(local), local
     dest_dir.mkdir(parents=True, exist_ok=True)
     opts = {
         "format": "bestaudio/best",
