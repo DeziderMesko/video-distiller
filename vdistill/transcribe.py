@@ -43,8 +43,11 @@ class Transcript:
     model: str = ""
     language: str = ""
     # Wall-clock seconds spent transcribing, and how much audio that covered.
+    # Loading the model is timed apart, so the realtime factor compares engines
+    # rather than how long each takes to start.
     elapsed: float = 0.0
     audio_seconds: float = 0.0
+    load_seconds: float = 0.0
 
 
 Progress = Callable[[str], None]
@@ -55,6 +58,8 @@ class Backend(Protocol):
     model_id: str
     # The chunk length this backend works best with, unless the user picks one.
     chunk_seconds: float
+
+    def load(self, progress: Progress): ...
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript: ...
 
@@ -82,7 +87,7 @@ class ParakeetBackend:
         self._threads = threads or os.cpu_count() or 4
         self._model = None
 
-    def _load(self, progress: Progress):
+    def load(self, progress: Progress):
         if self._model is not None:
             return self._model
         try:
@@ -111,7 +116,7 @@ class ParakeetBackend:
         return model
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
-        model = self._load(progress)
+        model = self.load(progress)
         pieces = []
         for i, chunk in enumerate(chunks, 1):
             progress(f"transcribing chunk {i}/{len(chunks)} ({chunk.duration:.0f}s)")
@@ -170,7 +175,7 @@ class ParakeetOnnxBackend:
         self._threads = threads or os.cpu_count() or 4
         self._rec = None
 
-    def _load(self, progress: Progress):
+    def load(self, progress: Progress):
         if self._rec is not None:
             return self._rec
         try:
@@ -208,7 +213,7 @@ class ParakeetOnnxBackend:
         return self._rec
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
-        rec = self._load(progress)
+        rec = self.load(progress)
         pieces = []
         for i, chunk in enumerate(chunks, 1):
             progress(f"transcribing chunk {i}/{len(chunks)} ({chunk.duration:.0f}s)")
@@ -293,7 +298,7 @@ class ParakeetDmlBackend:
         self.model_id = ParakeetOnnxBackend.REPOS["fp32"]
         self._model = None
 
-    def _load(self, progress: Progress):
+    def load(self, progress: Progress):
         if self._model is not None:
             return self._model
         if os.name != "nt":
@@ -315,7 +320,7 @@ class ParakeetDmlBackend:
         return self._model
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
-        model = self._load(progress)
+        model = self.load(progress)
 
         def report(i: int) -> None:
             progress(f"transcribing chunk {i + 1}/{len(chunks)} ({chunks[i].duration:.0f}s)")
@@ -360,7 +365,7 @@ class WhisperBackend:
         self._model = None
         self._pipeline = None
 
-    def _load(self, progress: Progress):
+    def load(self, progress: Progress):
         if self._model is not None:
             return self._model
         try:
@@ -390,7 +395,7 @@ class WhisperBackend:
         return self._model
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
-        model = self._load(progress)
+        model = self.load(progress)
         if self._workers > 1 and len(chunks) > 1:
             progress(
                 f"transcribing {len(chunks)} chunks, {self._workers} at a time "

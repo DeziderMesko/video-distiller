@@ -82,15 +82,19 @@ def distill(
             progress(f"split into {len(chunks)} chunks at natural pauses")
 
         started = time.perf_counter()
+        backend.load(progress)
+        loaded = time.perf_counter()
         transcript = backend.transcribe(chunks, progress)
-        transcript.elapsed = time.perf_counter() - started
+        transcript.elapsed = time.perf_counter() - loaded
+        transcript.load_seconds = loaded - started
         transcript.audio_seconds = sum(c.duration for c in chunks)
         if not transcript.text.strip():
             raise RuntimeError("transcription produced no text; keeping audio")
         progress(
             f"transcribed {transcript.audio_seconds/60:.1f} min in "
             f"{transcript.elapsed:.0f} s "
-            f"({transcript.audio_seconds / transcript.elapsed:.1f}x realtime)"
+            f"({transcript.audio_seconds / transcript.elapsed:.1f}x realtime; "
+            f"model loaded in {transcript.load_seconds:.1f} s)"
         )
 
         entry = store.save_transcript(info, transcript, root=data_dir, clipped_to=clipped_to)

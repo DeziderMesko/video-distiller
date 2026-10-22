@@ -137,6 +137,7 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
     }
     if transcript.elapsed:
         meta["transcribe_seconds"] = round(transcript.elapsed, 1)
+        meta["model_load_seconds"] = round(transcript.load_seconds, 1)
         meta["transcribed_audio_seconds"] = round(transcript.audio_seconds, 1)
         # How many seconds of audio one second of transcription gets through.
         meta["realtime_factor"] = round(transcript.audio_seconds / transcript.elapsed, 1)
