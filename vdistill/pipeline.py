@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import audio as audio_mod
 from . import download, store
-from .config import CHUNK_SECONDS, DATA_DIR, WORK_DIR
+from .config import DATA_DIR, WORK_DIR
 from .store import Entry
 from .timecode import stamp
 from .transcribe import Transcript, get_backend
@@ -31,7 +31,7 @@ def distill(
     backend_name: str = "parakeet",
     model: str | None = None,
     language: str | None = None,
-    chunk_seconds: float = CHUNK_SECONDS,
+    chunk_seconds: float | None = None,
     keep_audio: bool = False,
     max_seconds: float | None = None,
     summarize: bool = True,
@@ -76,7 +76,8 @@ def distill(
             progress("converting to 16 kHz mono")
         wav = audio_mod.to_wav(source, scratch / "audio.wav", limit=clipped_to)
 
-        chunks = audio_mod.split(wav, scratch / "chunks", target=chunk_seconds)
+        chunks = audio_mod.split(wav, scratch / "chunks",
+                                 target=chunk_seconds or backend.chunk_seconds)
         if len(chunks) > 1:
             progress(f"split into {len(chunks)} chunks at natural pauses")
 

@@ -13,6 +13,8 @@ dependencies = [
 # Only needed for --backend parakeet (fp32 NeMo). Pulls in torch; several GB.
 nemo = ["nemo_toolkit[asr]>=2.0.0", "torch>=2.4", "torchaudio"]
 whisper = ["faster-whisper>=1.1.0"]
+# For --backend parakeet-dml: Parakeet's encoder on a DirectML GPU, native Windows only.
+directml = ["onnxruntime-directml>=1.24", "kaldi-native-fbank>=1.20"]
 
 [project.scripts]
 vdistill = "vdistill.cli:main"

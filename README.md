@@ -109,6 +109,7 @@ not estimated.
 | `parakeet-onnx` *(default)* | Parakeet Unified EN 0.6B, int8 ONNX | **663 MB** | English only |
 | `whisper` | Whisper Large v3 Turbo, int8 CT2 | **818 MB** | 100 |
 | `parakeet` | same Parakeet, fp32 NeMo | 2474 MB | English only |
+| `parakeet-dml` | same Parakeet, fp32 ONNX, encoder on a DirectML GPU | 2515 MB | English only |
 
 For comparison, what we are *not* downloading: the fp32 ONNX Parakeet (2515 MB),
 the fp16 Whisper turbo repos that most guides point at (1622 MB), and plain
@@ -117,6 +118,9 @@ the fp16 Whisper turbo repos that most guides point at (1622 MB), and plain
 Models download lazily on first use, into `~/.cache/vdistill/models` (Parakeet)
 and `~/.cache/huggingface` (Whisper). Nothing is fetched until you actually pick
 that backend, so installing the package costs no disk.
+
+`parakeet-dml` is the one exception to "quantised only": DirectML cannot run
+int8 graphs. See [GPU on Windows](#gpu-on-windows-parakeet-dml).
 
 ### Czech, Slovak and other non-English
 
@@ -178,12 +182,10 @@ some-video-title-dQw4w9WgXcQ/
 
 ## Speed
 
-This is CPU-only, and that is the right call on this machine: an AMD RX 580
-(Polaris/gfx803) cannot accelerate it. ROCm dropped that architecture years ago,
-no current PyTorch build targets it, ROCm-on-Windows covers RDNA2/3 only, and
-WSL2 GPU passthrough for AMD needs RDNA3. DirectML technically runs on Polaris
-but pins you to an old torch that NeMo rejects, and it handles RNN-T's
-sequential decode loop badly.
+Inside WSL everything runs on the CPU: an AMD RX 580 (Polaris/gfx803) can't
+be reached from there. ROCm dropped that architecture years ago, and WSL2 GPU
+passthrough for AMD needs RDNA3. On native Windows, though, DirectML does run
+on it. That is what `parakeet-dml` uses (see below).
 
 Measured on this 16-core box:
 
@@ -204,3 +206,49 @@ dominates, which has two consequences worth knowing:
   four chunks concurrently at four threads each measured **1.94x** (2.63x ->
   5.10x realtime) with byte-identical output. Tune with
   `VDISTILL_WHISPER_WORKERS`.
+
+On the 26.5 min Plasticity video, with every variant fed the same audio:
+
+| Setup | Throughput | Transcript vs fp32 at 60 s chunks |
+| --- | --- | --- |
+| `parakeet-onnx` int8, 300 s chunks (default) | 11.2x | ~20 words differ |
+| `parakeet-onnx` int8, 60 s chunks | 20.2x | ~21 words differ |
+| `parakeet-onnx` fp32, 60 s chunks | 16.8x | (reference) |
+| `parakeet-dml`, RX 580, 60 s chunks | **49.9x** | identical, timestamps too |
+
+Most int8/fp32 differences are punctuation or filler words, but int8 also
+garbled terms that matter, such as "Edge Align" ("a line") and the
+discount code "lead10" ("leed10"). Shorter chunks changed only filler words.
+
+## GPU on Windows (`parakeet-dml`)
+
+sherpa-onnx's wheels are built without DirectML, so `vdistill/directml.py`
+redoes what sherpa-onnx does for Parakeet: the same kaldi-native-fbank
+features and NeMo normalisation, then greedy RNN-T decoding. Around that sits
+an `onnxruntime-directml` encoder session, and the GPU encodes the next chunk
+while the CPU decodes the current one. It defaults to 60 s chunks, because
+the DirectML encoder slows sharply on long inputs (~95x realtime at 60 s,
+~15x at 300 s).
+
+Setup, in a Windows Python 3.12 venv that reads the code straight from the
+WSL checkout through a `.pth` file (paths are examples):
+
+```bat
+py -3.12 -m venv E:\vdistill-win\.venv
+E:\vdistill-win\.venv\Scripts\pip install sherpa-onnx yt-dlp numpy faster-whisper
+E:\vdistill-win\.venv\Scripts\pip uninstall -y onnxruntime
+E:\vdistill-win\.venv\Scripts\pip install --no-deps onnxruntime-directml kaldi-native-fbank
+echo \\wsl.localhost\<distro>\path\to\video-distiller> E:\vdistill-win\.venv\Lib\site-packages\vdistill-src.pth
+```
+
+faster-whisper pulls in plain `onnxruntime`, which shares the `onnxruntime`
+import name with `onnxruntime-directml` and silently replaces it. Install the
+DirectML build last, with `--no-deps`. Whisper is happy with it, because it
+still has the CPU provider.
+
+Then run vdistill with `--backend parakeet-dml`, or set
+`VDISTILL_ASR_BACKEND=parakeet-dml`. A non-English `--language` still switches
+to Whisper on the CPU. Set `VDISTILL_DATA_DIR`, `VDISTILL_MODEL_DIR` and
+`HF_HOME` as real environment variables: the repo's `.env` holds WSL paths,
+and a real variable wins over it. Summaries need the Windows `claude` CLI to
+be logged in.

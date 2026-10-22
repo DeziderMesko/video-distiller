@@ -11,6 +11,8 @@ from typing import Callable, Protocol
 
 from .audio import Chunk
 from .config import (
+    CHUNK_SECONDS,
+    DML_CHUNK_SECONDS,
     DEFAULT_ONNX_PRECISION,
     WHISPER_BATCH_SIZE,
     WHISPER_WORKERS,
@@ -51,6 +53,8 @@ Progress = Callable[[str], None]
 class Backend(Protocol):
     name: str
     model_id: str
+    # The chunk length this backend works best with, unless the user picks one.
+    chunk_seconds: float
 
     def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript: ...
 
@@ -71,6 +75,7 @@ class ParakeetBackend:
     """NVIDIA NeMo Parakeet (FastConformer + RNN-T)."""
 
     name = "parakeet"
+    chunk_seconds = CHUNK_SECONDS
 
     def __init__(self, model_id: str = DEFAULT_PARAKEET_MODEL, threads: int | None = None):
         self.model_id = model_id
@@ -144,6 +149,7 @@ class ParakeetOnnxBackend:
     """Parakeet via sherpa-onnx. int8 weights, no torch, ~660 MB on disk."""
 
     name = "parakeet-onnx"
+    chunk_seconds = CHUNK_SECONDS
 
     REPOS = {
         "int8": "csukuangfj2/sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming",
@@ -271,10 +277,64 @@ def _segment_tokens(tokens: list[str], stamps: list[float]) -> list[Segment]:
     return segments
 
 
+class ParakeetDmlBackend:
+    """Parakeet fp32 with its encoder on a DirectML GPU; native Windows only.
+
+    sherpa-onnx wheels lack DirectML, so vdistill.directml does the features and
+    decoding itself. Same model files and same words as parakeet-onnx at fp32.
+    """
+
+    name = "parakeet-dml"
+    chunk_seconds = DML_CHUNK_SECONDS
+
+    def __init__(self, model_id: str = "fp32"):
+        if model_id not in ("fp32", ParakeetOnnxBackend.REPOS["fp32"]):
+            raise TranscriptionError("parakeet-dml only runs the fp32 Parakeet export")
+        self.model_id = ParakeetOnnxBackend.REPOS["fp32"]
+        self._model = None
+
+    def _load(self, progress: Progress):
+        if self._model is not None:
+            return self._model
+        if os.name != "nt":
+            raise TranscriptionError(
+                "parakeet-dml needs native Windows (DirectML); use parakeet-onnx here"
+            )
+        from .directml import DirectMLError, Parakeet
+        from .models import ModelFetchError, ensure
+
+        progress(f"preparing {self.model_id}")
+        try:
+            root = ensure(self.model_id, ParakeetOnnxBackend.FILES["fp32"], progress)
+        except ModelFetchError as exc:
+            raise TranscriptionError(str(exc)) from exc
+        try:
+            self._model = Parakeet(root)
+        except DirectMLError as exc:
+            raise TranscriptionError(str(exc)) from exc
+        return self._model
+
+    def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
+        model = self._load(progress)
+
+        def report(i: int) -> None:
+            progress(f"transcribing chunk {i + 1}/{len(chunks)} ({chunks[i].duration:.0f}s)")
+
+        results = model.transcribe([c.path for c in chunks], read_wav, report)
+        pieces = []
+        for chunk, (tokens, stamps) in zip(chunks, results):
+            text = "".join(tokens).replace("\u2581", " ").strip()
+            pieces.append((chunk.offset, _segment_tokens(tokens, stamps), text))
+        text, segments = _merge(pieces)
+        return Transcript(text, segments, self.name,
+                          f"{self.model_id} [fp32, directml]", "en")
+
+
 class WhisperBackend:
     """faster-whisper (CTranslate2). The non-English path; Parakeet is English-only."""
 
     name = "whisper"
+    chunk_seconds = CHUNK_SECONDS
 
     # int8 CTranslate2 repacks. The fp16 turbo repos are 1622 MB for the same
     # model, and plain "large-v3" is 3091 MB, so name the int8 builds explicitly.
@@ -385,10 +445,12 @@ class WhisperBackend:
 def get_backend(name: str, model: str | None = None, language: str | None = None) -> Backend:
     if name == "parakeet-onnx":
         return ParakeetOnnxBackend(model or DEFAULT_ONNX_PRECISION)
+    if name == "parakeet-dml":
+        return ParakeetDmlBackend(model or "fp32")
     if name == "parakeet":
         return ParakeetBackend(model or DEFAULT_PARAKEET_MODEL)
     if name == "whisper":
         return WhisperBackend(model or DEFAULT_WHISPER_MODEL, language=language)
     raise TranscriptionError(
-        f"unknown ASR backend {name!r} (try: parakeet-onnx, parakeet, whisper)"
+        f"unknown ASR backend {name!r} (try: parakeet-onnx, parakeet-dml, parakeet, whisper)"
     )

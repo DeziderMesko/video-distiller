@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 from . import __version__, store
-from .config import CHUNK_SECONDS, DATA_DIR, DEFAULT_ASR_BACKEND
+from .config import CHUNK_SECONDS, DATA_DIR, DEFAULT_ASR_BACKEND, DML_CHUNK_SECONDS
 from .timecode import duration
 
 
@@ -32,11 +32,14 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("-q", "--question",
                      help="ask this instead of producing a general summary")
     run.add_argument("--backend", default=DEFAULT_ASR_BACKEND,
-                     choices=["parakeet-onnx", "parakeet", "whisper"], help="ASR engine")
+                     choices=["parakeet-onnx", "parakeet-dml", "parakeet", "whisper"],
+                     help="ASR engine (parakeet-dml: GPU via DirectML, native Windows)")
     run.add_argument("--model", help="override the ASR model id")
     run.add_argument("--language", help="force a language (whisper backend only)")
-    run.add_argument("--chunk-seconds", type=float, default=CHUNK_SECONDS,
-                     help="target chunk length; lower it if you run out of memory")
+    run.add_argument("--chunk-seconds", type=float,
+                     help=f"target chunk length (default {CHUNK_SECONDS:g}, or "
+                          f"{DML_CHUNK_SECONDS:g} for parakeet-dml); lower it if you "
+                          "run out of memory")
     run.add_argument("--keep-audio", action="store_true",
                      help="keep the converted WAV instead of deleting it")
     run.add_argument("--max-minutes", type=float, metavar="N",

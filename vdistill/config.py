@@ -44,6 +44,10 @@ SAMPLE_RATE = 16_000
 # Full-context attention makes memory grow with the square of chunk length.
 # 300 s keeps a 0.6B model comfortable on a CPU box with ~16 GB RAM.
 CHUNK_SECONDS = float(os.environ.get("VDISTILL_CHUNK_SECONDS", 300))
+# The DirectML encoder slows sharply on long inputs (~15x realtime at 300 s,
+# ~95x at 60 s on an RX 580), and 60 s chunks gave the same words on a test
+# video, so parakeet-dml cuts shorter unless told otherwise.
+DML_CHUNK_SECONDS = float(os.environ.get("VDISTILL_CHUNK_SECONDS", 60))
 # How far from the ideal cut point we will hunt for a silence to cut on.
 CHUNK_SLACK_SECONDS = 45.0
 
