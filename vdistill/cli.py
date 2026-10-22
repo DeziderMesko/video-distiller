@@ -32,8 +32,8 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("-q", "--question",
                      help="ask this instead of producing a general summary")
     run.add_argument("--backend", default=DEFAULT_ASR_BACKEND,
-                     choices=["parakeet-onnx", "parakeet-dml", "parakeet", "whisper"],
-                     help="ASR engine (parakeet-dml: GPU via DirectML, native Windows)")
+                     choices=["parakeet-onnx", "parakeet-dml", "parakeet", "whisper", "whisper-dml"],
+                     help="ASR engine (*-dml: GPU via DirectML, native Windows)")
     run.add_argument("--model", help="override the ASR model id")
     run.add_argument("--language", help="force a language (whisper backend only)")
     run.add_argument("--chunk-seconds", type=float,

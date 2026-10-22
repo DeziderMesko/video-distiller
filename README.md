@@ -110,6 +110,7 @@ not estimated.
 | `whisper` | Whisper Large v3 Turbo, int8 CT2 | **818 MB** | 100 |
 | `parakeet` | same Parakeet, fp32 NeMo | 2474 MB | English only |
 | `parakeet-dml` | same Parakeet, fp32 ONNX, encoder on a DirectML GPU | 2515 MB | English only |
+| `whisper-dml` | Whisper Large v3 Turbo, fp32 ONNX, encoder on a DirectML GPU | 3236 MB | 100 |
 
 For comparison, what we are *not* downloading: the fp32 ONNX Parakeet (2515 MB),
 the fp16 Whisper turbo repos that most guides point at (1622 MB), and plain
@@ -119,8 +120,9 @@ Models download lazily on first use, into `~/.cache/vdistill/models` (Parakeet)
 and `~/.cache/huggingface` (Whisper). Nothing is fetched until you actually pick
 that backend, so installing the package costs no disk.
 
-`parakeet-dml` is the one exception to "quantised only": DirectML cannot run
-int8 graphs. See [GPU on Windows](#gpu-on-windows-parakeet-dml).
+The two `-dml` backends are the exception to "quantised only": DirectML cannot
+run int8 graphs, and fp16 was no faster on an RX 580. See
+[GPU on Windows](#gpu-on-windows-parakeet-dml-whisper-dml).
 
 ### Czech, Slovak and other non-English
 
@@ -130,8 +132,11 @@ vdistill "<url>" --language cs
 ```
 
 Passing a non-English `--language` switches to Whisper automatically, since
-Parakeet is English-only in every packaging — you don't have to pass
-`--backend whisper` as well. `--model turbo` (the default), `large-v3` and any
+the Parakeet we use is English-only. You don't have to pass `--backend whisper`
+as well. `VDISTILL_NON_ENGLISH_BACKEND` picks which Whisper (`whisper-dml` on
+Windows). The multilingual Parakeet TDT v3 was tried and is not good enough in
+Czech: on a podcast it dropped the opening, lost ~14% of the words and garbled
+others ("o žavém té" for "o žhavém tématu"). `--model turbo` (the default), `large-v3` and any
 CTranslate2 repo id also work.
 
 ## Index
@@ -185,7 +190,7 @@ some-video-title-dQw4w9WgXcQ/
 Inside WSL everything runs on the CPU: an AMD RX 580 (Polaris/gfx803) can't
 be reached from there. ROCm dropped that architecture years ago, and WSL2 GPU
 passthrough for AMD needs RDNA3. On native Windows, though, DirectML does run
-on it. That is what `parakeet-dml` uses (see below).
+on it. That is what the `-dml` backends use (see below).
 
 Measured on this 16-core box:
 
@@ -214,13 +219,29 @@ On the 26.5 min Plasticity video, with every variant fed the same audio:
 | `parakeet-onnx` int8, 300 s chunks (default) | 11.2x | ~20 words differ |
 | `parakeet-onnx` int8, 60 s chunks | 20.2x | ~21 words differ |
 | `parakeet-onnx` fp32, 60 s chunks | 16.8x | (reference) |
-| `parakeet-dml`, RX 580, 60 s chunks | **49.9x** | identical, timestamps too |
+| `parakeet-dml`, RX 580, 60 s chunks | **60.6x** | identical, timestamps too |
 
 Most int8/fp32 differences are punctuation or filler words, but int8 also
 garbled terms that matter, such as "Edge Align" ("a line") and the
 discount code "lead10" ("leed10"). Shorter chunks changed only filler words.
+Throughput excludes loading the model (3-5 s, stored as `model_load_seconds`).
 
-## GPU on Windows (`parakeet-dml`)
+And on the first 25 min of a Czech podcast:
+
+| Setup | Throughput | Transcript vs faster-whisper |
+| --- | --- | --- |
+| `whisper` (faster-whisper, int8, CPU) | 7.0x | (reference) |
+| whisper.cpp + Vulkan, q8_0, RX 580 | 10.5x | 5.6% of words differ |
+| `whisper-dml`, fp32, RX 580 | **18.4x** | 5.5% of words differ |
+
+The differences cut both ways. `whisper-dml` gets "zdarma", "ochutnám" and
+"zpráv" where faster-whisper wrote "z darma", "chutnám" and "správ", and loses
+"soukromá" and "rádií" that faster-whisper got right. whisper.cpp was tried
+first and dropped: on Polaris, ggml-vulkan has no fp16 or int8 dot products,
+so its encoder took 1.6 s a window against DirectML's 1.2 s, and its GPU
+decoder stalled the encoder in between.
+
+## GPU on Windows (`parakeet-dml`, `whisper-dml`)
 
 sherpa-onnx's wheels are built without DirectML, so `vdistill/directml.py`
 redoes what sherpa-onnx does for Parakeet: the same kaldi-native-fbank
@@ -230,8 +251,31 @@ while the CPU decodes the current one. It defaults to 60 s chunks, because
 the DirectML encoder slows sharply on long inputs (~95x realtime at 60 s,
 ~15x at 300 s).
 
-Setup: give it a Windows Python 3.12 venv of its own, holding only what it
-needs. It reads the code straight from the WSL checkout through a `.pth` file
+`vdistill/whisper_dml.py` does the same for Whisper, around the
+onnx-community fp32 export. It is cut down to how vdistill runs Whisper anyway:
+greedy, temperature 0, no fallback, and no conditioning on earlier text.
+
+- **One window per chunk.** Chunks are cut at a pause 20-30 s in, so each is
+  one 30 s window and nothing has to seek between windows.
+- **Features.** Whisper's log-mel features, computed in numpy. The mel filters
+  match the ones stored in whisper.cpp's model file to within 2e-9.
+- **Decoding.** Greedy, with openai-whisper's timestamp rules.
+- **Silence and music.** Silero VAD silences everything that isn't speech, and a
+  segment that falls outside detected speech is dropped. Without both, Whisper
+  wrote "Muzika" over a jingle, and over the silenced jingle it repeated a
+  phrase from 20 s later in the same window ("Česká televize zrušena", three
+  times).
+- **GPU and CPU together.** The encoder runs on the GPU (1.2 s a window) while
+  the CPU decodes earlier windows in batches of eight. Decoding is bound by
+  memory traffic, since the output projection alone is 265 MB, so one batch of
+  eight costs barely more than one window. Two batches of eight decoded 0.70 s
+  a window, against 1.9 s for any number of windows decoded one by one.
+- **Cross-attention cache.** The merged ONNX decoder returns empty cross-attention
+  entries on cached steps. The first step's entries have to be kept, or
+  everything after the first token is decoded without hearing the audio.
+
+Setup: give both a Windows Python 3.12 venv of their own, holding only what
+they need. It reads the code straight from the WSL checkout through a `.pth` file
 (paths are examples):
 
 ```bat
@@ -244,8 +288,9 @@ Keep faster-whisper out of that env. It pulls in plain `onnxruntime`, which
 uses the same `onnxruntime` import name as `onnxruntime-directml` and
 silently replaces it.
 
-Then run vdistill with `--backend parakeet-dml`, or set
-`VDISTILL_ASR_BACKEND=parakeet-dml`. It is English only. For other languages,
-run Whisper from WSL. Set `VDISTILL_DATA_DIR` and `VDISTILL_MODEL_DIR` as real
-environment variables: the repo's `.env` holds WSL paths, and a real variable
-wins over it. Summaries need the Windows `claude` CLI to be logged in.
+Then set `VDISTILL_ASR_BACKEND=parakeet-dml` and
+`VDISTILL_NON_ENGLISH_BACKEND=whisper-dml`, so English goes to Parakeet and
+`--language cs` to Whisper, both on the GPU. Set `VDISTILL_DATA_DIR` and
+`VDISTILL_MODEL_DIR` as real environment variables too: the repo's `.env`
+holds WSL paths, and a real variable wins over it. Summaries need the Windows
+`claude` CLI to be logged in.

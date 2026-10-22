@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import audio as audio_mod
 from . import download, store
-from .config import DATA_DIR, WORK_DIR
+from .config import CHUNK_SLACK_SECONDS, DATA_DIR, NON_ENGLISH_BACKEND, WORK_DIR
 from .store import Entry
 from .timecode import stamp
 from .transcribe import Transcript, get_backend
@@ -76,8 +76,10 @@ def distill(
             progress("converting to 16 kHz mono")
         wav = audio_mod.to_wav(source, scratch / "audio.wav", limit=clipped_to)
 
+        # whisper-dml also bounds how far past its target a cut may land.
+        slack = getattr(backend, "chunk_slack_seconds", CHUNK_SLACK_SECONDS)
         chunks = audio_mod.split(wav, scratch / "chunks",
-                                 target=chunk_seconds or backend.chunk_seconds)
+                                 target=chunk_seconds or backend.chunk_seconds, slack=slack)
         if len(chunks) > 1:
             progress(f"split into {len(chunks)} chunks at natural pauses")
 
@@ -206,9 +208,10 @@ def _pick_backend(name: str, language: str | None, model: str | None,
                   progress) -> tuple[str, str | None]:
     """Parakeet only speaks English; asking for another language implies Whisper."""
     if language and language.split("-")[0].lower() != "en" and name.startswith("parakeet"):
-        progress(f"--language {language} is not English; switching to the whisper backend")
+        progress(f"--language {language} is not English; "
+                 f"switching to the {NON_ENGLISH_BACKEND} backend")
         # A Parakeet-only precision alias means nothing to Whisper.
         if model in {"int8", "fp32"}:
             model = None
-        return "whisper", model
+        return NON_ENGLISH_BACKEND, model
     return name, model

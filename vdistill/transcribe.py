@@ -335,6 +335,86 @@ class ParakeetDmlBackend:
                           f"{self.model_id} [fp32, directml]", "en")
 
 
+class WhisperDmlBackend:
+    """Whisper large-v3-turbo fp32 with its encoder on a DirectML GPU; native
+    Windows only. vdistill.whisper_dml does the features and decoding itself,
+    which is why each chunk must fit one 30 s window."""
+
+    name = "whisper-dml"
+    # Cut at a pause between 20 and 30 s; audio.split never goes past target + slack.
+    chunk_seconds = 25.0
+    chunk_slack_seconds = 5.0
+
+    REPO = "onnx-community/whisper-large-v3-turbo"
+    FILES = ["onnx/encoder_model.onnx", "onnx/encoder_model.onnx_data",
+             "onnx/decoder_model_merged.onnx", "tokenizer.json", "generation_config.json"]
+    # Silero VAD (2.2 MB, MIT), to keep Whisper from transcribing music.
+    VAD_REPO, VAD_FILE = "onnx-community/silero-vad", "onnx/model.onnx"
+
+    # Decoding on the CPU is bound by memory traffic, so it batches windows
+    # instead of running many at once: two batches of eight decoded 0.70 s a
+    # window on 16 cores, against 1.9 s for any number of single windows.
+    WORKERS, BATCH = 2, 8
+
+    def __init__(self, model_id: str = "turbo", language: str | None = None):
+        if model_id not in ("turbo", "large-v3-turbo", self.REPO):
+            raise TranscriptionError("whisper-dml only runs large-v3-turbo")
+        self.model_id = self.REPO
+        self._language = language.split("-")[0].lower() if language else None
+        self._model = None
+
+    def load(self, progress: Progress):
+        if self._model is not None:
+            return self._model
+        if os.name != "nt":
+            raise TranscriptionError(
+                "whisper-dml needs native Windows (DirectML); use whisper here"
+            )
+        from .models import ModelFetchError, ensure
+        from .whisper_dml import Whisper, WhisperDMLError
+
+        progress(f"preparing {self.model_id}")
+        try:
+            root = ensure(self.model_id, self.FILES, progress)
+            vad = ensure(self.VAD_REPO, [self.VAD_FILE], progress) / self.VAD_FILE
+        except ModelFetchError as exc:
+            raise TranscriptionError(str(exc)) from exc
+        cores = os.cpu_count() or 4
+        try:
+            self._model = Whisper(root, workers=self.WORKERS,
+                                  threads_per_worker=max(1, cores // self.WORKERS),
+                                  batch_size=self.BATCH, vad=vad)
+        except WhisperDMLError as exc:
+            raise TranscriptionError(str(exc)) from exc
+        if self._language and f"<|{self._language}|>" not in self._model.lang_to_id:
+            raise TranscriptionError(f"Whisper does not know language {self._language!r}")
+        return self._model
+
+    def transcribe(self, chunks: list[Chunk], progress: Progress) -> Transcript:
+        model = self.load(progress)
+        too_long = [c for c in chunks if c.duration > 30.0 + 1e-3]
+        if too_long:
+            raise TranscriptionError(
+                f"whisper-dml decodes one 30 s window per chunk, but a chunk is "
+                f"{too_long[0].duration:.0f} s; drop --chunk-seconds or keep it under 25"
+            )
+
+        def report(i: int) -> None:
+            progress(f"transcribing chunk {i + 1}/{len(chunks)} ({chunks[i].duration:.0f}s)")
+
+        results, language = model.transcribe(
+            [c.path for c in chunks], [c.duration for c in chunks], read_wav,
+            self._language, report,
+        )
+        pieces = []
+        for chunk, found in zip(chunks, results):
+            segs = [Segment(start, end, text) for start, end, text in found]
+            pieces.append((chunk.offset, segs, " ".join(s.text for s in segs)))
+        text, segments = _merge(pieces)
+        return Transcript(text, segments, self.name, f"{self.model_id} [fp32, directml]",
+                          language)
+
+
 class WhisperBackend:
     """faster-whisper (CTranslate2). The non-English path; Parakeet is English-only."""
 
@@ -456,6 +536,9 @@ def get_backend(name: str, model: str | None = None, language: str | None = None
         return ParakeetBackend(model or DEFAULT_PARAKEET_MODEL)
     if name == "whisper":
         return WhisperBackend(model or DEFAULT_WHISPER_MODEL, language=language)
+    if name == "whisper-dml":
+        return WhisperDmlBackend(model or "turbo", language=language)
     raise TranscriptionError(
-        f"unknown ASR backend {name!r} (try: parakeet-onnx, parakeet-dml, parakeet, whisper)"
+        f"unknown ASR backend {name!r} "
+        "(try: parakeet-onnx, parakeet-dml, parakeet, whisper, whisper-dml)"
     )

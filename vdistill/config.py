@@ -60,6 +60,9 @@ SEGMENT_PAUSE_SECONDS = 1.0
 SEGMENT_MAX_SECONDS = 30.0
 
 DEFAULT_ASR_BACKEND = os.environ.get("VDISTILL_ASR_BACKEND", "parakeet-onnx")
+# Parakeet is English-only; a non-English --language switches to this instead.
+# On Windows with a DirectML GPU, whisper-dml.
+NON_ENGLISH_BACKEND = os.environ.get("VDISTILL_NON_ENGLISH_BACKEND", "whisper")
 DEFAULT_PARAKEET_MODEL = os.environ.get(
     "VDISTILL_PARAKEET_MODEL", "nvidia/parakeet-unified-en-0.6b"
 )
