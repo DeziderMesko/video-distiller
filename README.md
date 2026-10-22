@@ -230,25 +230,22 @@ while the CPU decodes the current one. It defaults to 60 s chunks, because
 the DirectML encoder slows sharply on long inputs (~95x realtime at 60 s,
 ~15x at 300 s).
 
-Setup, in a Windows Python 3.12 venv that reads the code straight from the
-WSL checkout through a `.pth` file (paths are examples):
+Setup: give it a Windows Python 3.12 venv of its own, holding only what it
+needs. It reads the code straight from the WSL checkout through a `.pth` file
+(paths are examples):
 
 ```bat
-py -3.12 -m venv E:\vdistill-win\.venv
-E:\vdistill-win\.venv\Scripts\pip install sherpa-onnx yt-dlp numpy faster-whisper
-E:\vdistill-win\.venv\Scripts\pip uninstall -y onnxruntime
-E:\vdistill-win\.venv\Scripts\pip install --no-deps onnxruntime-directml kaldi-native-fbank
-echo \\wsl.localhost\<distro>\path\to\video-distiller> E:\vdistill-win\.venv\Lib\site-packages\vdistill-src.pth
+py -3.12 -m venv E:\vdistill-win\envs\dml
+E:\vdistill-win\envs\dml\Scripts\pip install onnxruntime-directml kaldi-native-fbank yt-dlp numpy
+echo \\wsl.localhost\<distro>\path\to\video-distiller> E:\vdistill-win\envs\dml\Lib\site-packages\vdistill-src.pth
 ```
 
-faster-whisper pulls in plain `onnxruntime`, which shares the `onnxruntime`
-import name with `onnxruntime-directml` and silently replaces it. Install the
-DirectML build last, with `--no-deps`. Whisper is happy with it, because it
-still has the CPU provider.
+Keep faster-whisper out of that env. It pulls in plain `onnxruntime`, which
+uses the same `onnxruntime` import name as `onnxruntime-directml` and
+silently replaces it.
 
 Then run vdistill with `--backend parakeet-dml`, or set
-`VDISTILL_ASR_BACKEND=parakeet-dml`. A non-English `--language` still switches
-to Whisper on the CPU. Set `VDISTILL_DATA_DIR`, `VDISTILL_MODEL_DIR` and
-`HF_HOME` as real environment variables: the repo's `.env` holds WSL paths,
-and a real variable wins over it. Summaries need the Windows `claude` CLI to
-be logged in.
+`VDISTILL_ASR_BACKEND=parakeet-dml`. It is English only. For other languages,
+run Whisper from WSL. Set `VDISTILL_DATA_DIR` and `VDISTILL_MODEL_DIR` as real
+environment variables: the repo's `.env` holds WSL paths, and a real variable
+wins over it. Summaries need the Windows `claude` CLI to be logged in.
