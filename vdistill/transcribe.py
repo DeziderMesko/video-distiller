@@ -40,6 +40,9 @@ class Transcript:
     backend: str = ""
     model: str = ""
     language: str = ""
+    # Wall-clock seconds spent transcribing, and how much audio that covered.
+    elapsed: float = 0.0
+    audio_seconds: float = 0.0
 
 
 Progress = Callable[[str], None]
@@ -180,7 +183,11 @@ class ParakeetOnnxBackend:
         except ModelFetchError as exc:
             raise TranscriptionError(str(exc)) from exc
 
-        encoder, decoder, joiner = (str(root / f) for f in files[:3])
+        # fp32 keeps its encoder weights in a side file, so pick by name, not position.
+        encoder, decoder, joiner = (
+            str(root / next(f for f in files if f.startswith(part) and f.endswith(".onnx")))
+            for part in ("encoder", "decoder", "joiner")
+        )
         self._rec = sherpa_onnx.OfflineRecognizer.from_transducer(
             encoder=encoder,
             decoder=decoder,

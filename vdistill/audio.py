@@ -37,12 +37,16 @@ def _run(cmd: list[str]) -> subprocess.CompletedProcess:
     return proc
 
 
-def to_wav(src: Path, dest: Path) -> Path:
-    """Decode anything ffmpeg understands into 16 kHz mono PCM."""
+def to_wav(src: Path, dest: Path, limit: float | None = None) -> Path:
+    """Decode anything ffmpeg understands into 16 kHz mono PCM.
+
+    `limit` keeps only the first that many seconds."""
     dest.parent.mkdir(parents=True, exist_ok=True)
+    clip = ["-t", f"{limit:.3f}"] if limit else []
     _run([
         "ffmpeg", "-y", "-loglevel", "error",
         "-i", str(src),
+        *clip,
         "-vn", "-ac", "1", "-ar", str(SAMPLE_RATE),
         "-c:a", "pcm_s16le",
         str(dest),

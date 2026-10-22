@@ -28,6 +28,8 @@ class Entry:
     dir: Path
     info: VideoInfo
     language: str = ""
+    # Set when only the first this-many seconds were transcribed (--max-minutes).
+    clipped_to: float | None = None
 
     @property
     def transcript_txt(self) -> Path:
@@ -68,7 +70,7 @@ def entry_dir(info: VideoInfo, root: Path = DATA_DIR) -> Path:
 
 
 def save_transcript(info: VideoInfo, transcript: Transcript,
-                    root: Path = DATA_DIR) -> Entry:
+                    root: Path = DATA_DIR, clipped_to: float | None = None) -> Entry:
     """Write transcript, timestamped segments and metadata. URL travels with the text."""
     target = entry_dir(info, root)
     target.mkdir(parents=True, exist_ok=True)
@@ -81,6 +83,8 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
         header.append(f"Channel: {info.uploader}")
     if info.duration:
         header.append(f"Duration: {stamp(info.duration)}")
+    if clipped_to:
+        header.append(f"Clipped: only the first {stamp(clipped_to)} was transcribed")
     header += [
         f"Transcribed: {_now()} using {transcript.model} ({transcript.backend})",
         "",
@@ -131,11 +135,18 @@ def save_transcript(info: VideoInfo, transcript: Transcript,
         "transcribed_at": _now(),
         "audio_retained": False,
     }
+    if transcript.elapsed:
+        meta["transcribe_seconds"] = round(transcript.elapsed, 1)
+        meta["transcribed_audio_seconds"] = round(transcript.audio_seconds, 1)
+        # How many seconds of audio one second of transcription gets through.
+        meta["realtime_factor"] = round(transcript.audio_seconds / transcript.elapsed, 1)
+    if clipped_to:
+        meta["clipped_to_seconds"] = clipped_to
     (target / "meta.json").write_text(
         json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8"
     )
     _append_index(meta, root)
-    return Entry(dir=target, info=info, language=transcript.language)
+    return Entry(dir=target, info=info, language=transcript.language, clipped_to=clipped_to)
 
 
 def save_output(entry: Entry, text: str, question: str | None) -> Path:
@@ -187,7 +198,8 @@ def _entry_from(directory: Path) -> Entry:
         duration=meta.get("duration_seconds"),
         upload_date=meta.get("upload_date"),
     )
-    return Entry(dir=directory, info=info, language=meta.get("language", ""))
+    return Entry(dir=directory, info=info, language=meta.get("language", ""),
+                 clipped_to=meta.get("clipped_to_seconds"))
 
 
 def _append_index(meta: dict, root: Path) -> None:

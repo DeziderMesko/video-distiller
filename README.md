@@ -50,7 +50,13 @@ Without it, results fall back to `data/` in the repo, which is git-ignored too.
 | `vdistill show <id> [--transcript]` | print a stored summary or transcript |
 
 Useful flags: `--keep-audio`, `--chunk-seconds 180` (lower it if memory is
-tight), `--no-summary`, `--data-dir`, `--backend`, `--summary-language`.
+tight), `--no-summary`, `--data-dir`, `--backend`, `--summary-language`,
+`--max-minutes 25` (transcribe only the start of a long video; the summary is
+told it is partial).
+
+Each run reports how fast transcription went, e.g. `transcribed 11.7 min in
+41 s (17.1x realtime)`, and stores it in `meta.json` as `transcribe_seconds`,
+`transcribed_audio_seconds` and `realtime_factor`.
 
 ### Output language
 

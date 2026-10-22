@@ -39,6 +39,8 @@ def build_parser() -> argparse.ArgumentParser:
                      help="target chunk length; lower it if you run out of memory")
     run.add_argument("--keep-audio", action="store_true",
                      help="keep the converted WAV instead of deleting it")
+    run.add_argument("--max-minutes", type=float, metavar="N",
+                     help="transcribe only the first N minutes")
     run.add_argument("--no-summary", action="store_true",
                      help="stop after the transcript")
     run.add_argument("--force", action="store_true",
@@ -80,6 +82,7 @@ def cmd_run(args) -> int:
         language=args.language,
         chunk_seconds=args.chunk_seconds,
         keep_audio=args.keep_audio,
+        max_seconds=args.max_minutes * 60 if args.max_minutes else None,
         summarize=not args.no_summary,
         force=args.force,
         summary_language=args.summary_language,
